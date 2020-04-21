@@ -27,6 +27,7 @@ export default class IRouter extends React.Component{
                                      <Route path="/index" component={Index} />
                                      <Route path="/howitworks" component={Howitworks} />
                                      <Route path="/contactus" component={Contactus} />
+                                     <Route path="/" component={Index} />
                             </Switch>
                         </Wrapper>
                     }/>
