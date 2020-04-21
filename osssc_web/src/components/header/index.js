@@ -21,12 +21,13 @@ export default class Header extends React.Component{
         return(
             <div className="osscHeader">
                <div className="osscHeaderContent content1200">
-                    <div class="osscHeaderList">
+                    <div className="osscHeaderLogo"></div>
+                    <div className="osscHeaderList">
                         {
-                            this.state.listLinks.map((item)=>{
+                            this.state.listLinks.map((item,index)=>{
                             return (
                                 <div 
-                                    
+                                    key={index}
                                     className="osscListItem">
                                         <NavLink to={'/'+item.title}>
                                                         <span> {item.name}</span>
