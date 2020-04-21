@@ -9,6 +9,11 @@ export default class Howitworks extends React.Component{
            data,
        }
     }
+
+    gettime(time){
+        const retime = time.split("_");
+        return retime[0]+"月"+retime[1]+"日"
+    }
     
     
 
@@ -58,6 +63,26 @@ export default class Howitworks extends React.Component{
                    </div>
                    
 
+               </div>
+               <div className="HowitworksTimeline">
+                    <div className="HowitworksTimelineWrapper content1200">
+                        <div className="HowitworksTimeTitle">OSSSC Summer 时间线</div>
+                       <div className="HowitworksTimelineList">
+                            {
+                                this.state.data.time.map((item,index)=>{
+                                    return (
+                                        <div className="HowitworksTimelineItem" key={index}>
+                                            <div className="HowitworksTimelineItemIcon"></div>
+                                            <div className="HowitworksTimelineItemCons">
+                                                <div className="HowitworksTimelineItemTitle">{this.gettime(item.time1)}</div>
+                                                <div className="HowitworksTimelineItemText">{item.text}</div>
+                                            </div>
+                                        </div>
+                                    )
+                                })
+                            }
+                       </div>
+                    </div>
                </div>
            </div>
         )

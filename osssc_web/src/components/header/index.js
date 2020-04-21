@@ -7,13 +7,34 @@ export default class Header extends React.Component{
         super(props);
         this.state={
             listLinks,
-           
+            pageflag:'index',
             
         }
+
+       
       
     }
 
-    goLink(title){
+    componentDidMount(){
+        let urlnow = window.location.hash.split("/")[1]
+        this.setState({
+            pageflag:urlnow?'index':urlnow.split("#")[1]
+        })
+        console.log(this.state.pageflag)
+
+        // window.addEventListener('hashchange',function(e){
+        //     let urlnow = window.location.hash.split("/")[1]
+        //     let flagpage = 'index'
+        //     if(urlnow){
+        //         flagpage = urlnow.split("#")[1]
+        //     }
+        //     // if(e.newURL.split("#")[1] === '/'){
+        //     // setTimeout(" window.history.replaceState('','','/')",100)
+        //     // }
+        // })
+
+
+      
 
     }
 
@@ -27,10 +48,10 @@ export default class Header extends React.Component{
                             this.state.listLinks.map((item,index)=>{
                             return (
                                 <div 
-                                    key={index}
-                                    className="osscListItem">
+                                        key={index}
+                                        className={["osscListItem",this.state.pageflag===item.title?'left0':''].join(" ")}>
                                         <NavLink to={'/'+item.title}>
-                                                        <span> {item.name}</span>
+                                                <span> {item.name}</span>
                                         </NavLink>  
                                     
                                 </div>

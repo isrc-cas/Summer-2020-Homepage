@@ -34,10 +34,38 @@
     font-weight: 500;
    
     .osscListItem{
-        padding-left: 80px;
+        margin-left: 80px;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
         a{
             text-decoration: none;
             color: #549af5;
+            position: relative;
         }
+       
+        a::after{
+            content: "";
+            background-color: #549af5;
+            bottom: -19px;
+            height: 4px;
+            left: -80px;
+            transition: all 0.3s;
+            width: 100%;
+            display: block;
+            position: absolute;
+        }
+        a.active::after{
+            left:0
+        }
+
     }
+    .osscListItem:hover{
+        a::after{
+            left: 0;
+        }
+       
+    }
+
 }
+

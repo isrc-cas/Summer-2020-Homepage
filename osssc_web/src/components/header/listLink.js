@@ -18,6 +18,14 @@ const listLinks = [
 
 ]
 
+const linkDataMap = {
+    index:'首页',
+    howitworks:'活动规划',
+    contactus:'联系我们',
+    started:'开始吧！'
+}
+
 export {
-    listLinks
+    listLinks,
+    linkDataMap
 }

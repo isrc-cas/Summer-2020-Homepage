@@ -4,7 +4,17 @@ import App from './App';
 import Wrapper from './wrapper.js';
 import Index from './pages/index/index.js';
 import Howitworks from './pages/howitworks/index.js';
+import Contactus from './pages/contactus/index.js';
+import {linkDataMap} from './components/header/listLink.js'
 export default class IRouter extends React.Component{
+    constructor(props){
+        super(props);
+        this.state = {
+            linkDataMap,
+        }
+    }
+
+
 
     render(){
         return(
@@ -14,9 +24,9 @@ export default class IRouter extends React.Component{
                     <Route path="/" render={()=>
                         <Wrapper>
                             <Switch>
-                                     <Route path="/index" component={Index}/>
-                                     <Route path="/howitworks" component={Howitworks}/>
-                                     <Route path="/" component={Index}/>
+                                     <Route path="/index" component={Index} />
+                                     <Route path="/howitworks" component={Howitworks} />
+                                     <Route path="/contactus" component={Contactus} />
                             </Switch>
                         </Wrapper>
                     }/>
