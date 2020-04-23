@@ -4,7 +4,17 @@ import './index.less';
 
 export default class Index extends React.Component{
     componentDidMount(){
+        
        
+    }
+
+    getOrList(){
+        const orList = ['nanjing.png','iscaslogo.png','openeuler.png'];
+        let divContainer = [];
+        orList.map((item,index)=>{
+            divContainer.push(<div className="indexHomOrItem" key={index} style={{backgroundImage: "url("+require("./../../img/or/"+item) + ")"}}></div>)
+        })
+        return divContainer
     }
     
     
@@ -22,7 +32,7 @@ export default class Index extends React.Component{
                     <div className="indexHomeOneTextCons">
                         
                         <span className="indexHomeOneTextConsChi">OSSSC summer 活动鼓励大家关注开源软件和开源社区，培养和发掘更多优秀的开发者。</span><br/>
-                        <span className="indexHomeOneTextConsChi">活动将在暑期进行，我们将与与开源社区合作，并为参与的开发者们提供社区导师，并定期邀请技术大神来讲座。</span>
+                        <span className="indexHomeOneTextConsChi">活动将在暑期进行，我们将与开源社区合作，并为参与的开发者们提供社区导师，并定期邀请技术大神来讲座。</span>
                         {/* <span className="indexHomeOneTextConsChi two">我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，
                         促进开源软件在国内的发展和优秀开源软件社区建设，增加开源项目在国内的活跃度，在开源领域与世界接轨。</span> */}
                     </div>
@@ -41,6 +51,14 @@ export default class Index extends React.Component{
 
 
                     </div>
+               </div>
+               <div className="indexHomeThird">
+                        <div className="indexHomeThirdWrapper content1200">
+                            <div className="indexHomeThirdTitle">承办机构</div>
+                           <div className="indexHomeOrList">
+                                {this.getOrList()}
+                           </div>
+                        </div>
                </div>
            </div>
         )

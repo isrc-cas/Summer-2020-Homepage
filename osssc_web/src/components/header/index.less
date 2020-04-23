@@ -32,40 +32,44 @@
     line-height: 64px;
     float: right;
     font-weight: 500;
+    a{
+        text-decoration: none;
+        // color: #549af5;
+        color:rgba(0,0,0,.54);
+        position: relative;
+    }
+    a .osscListItem::after{
+        content: "";
+        background-color: #549af5;
+        bottom: 0;
+        height: 4px;
+        left: -80px;
+        transition: all 0.3s;
+        width: 100%;
+        display: block;
+        position: absolute;
+    }
+
+    a:hover .osscListItem::after,
+    a.active .osscListItem::after{
+        left:0
+    }
+    a.active .osscListItem,
+    .osscListItem:hover{
+        color:#549af5;
+    }
    
     .osscListItem{
         margin-left: 80px;
         position: relative;
         overflow: hidden;
         cursor: pointer;
-        a{
-            text-decoration: none;
-            color: #549af5;
-            position: relative;
-        }
+        transition: all 0.3s;
        
-        a::after{
-            content: "";
-            background-color: #549af5;
-            bottom: -19px;
-            height: 4px;
-            left: -80px;
-            transition: all 0.3s;
-            width: 100%;
-            display: block;
-            position: absolute;
-        }
-        a.active::after{
-            left:0
-        }
-
-    }
-    .osscListItem:hover{
-        a::after{
-            left: 0;
-        }
        
+      
     }
+    
 
 }
 

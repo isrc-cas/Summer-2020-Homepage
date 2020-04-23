@@ -7,22 +7,20 @@ export default class Contactus extends React.Component{
        super(props)
        this.state ={
            relatelinks: [
+            {
+                title:'软件研究所',
+                url:'http://www.iscas.ac.cn/'
+            },
+            {
+                title:'openEuler官网',
+                url:'https://openeuler.org/zh/'
+            },
                {
                    title:'智能软件研究中心部门网站',
                    url:'https://isrc.iscas.ac.cn/'
                },
-               {
-                    title:'EulixOS官网',
-                    url:'https://isrc.iscas.ac.cn/eulixos/'
-                },
-                {
-                    title:'openEuler官网',
-                    url:'https://openeuler.org/zh/'
-                },
-                {
-                    title:'软件研究所',
-                    url:'http://www.iscas.ac.cn/'
-                },
+               
+               
            ]
        }
     }
@@ -49,7 +47,7 @@ export default class Contactus extends React.Component{
                                 </div>
                                 <div className="contentUsListItem">
                                     <div className="contentUsListItemTitle">邮箱</div>
-                                    <div className="contentUsListItemText">isrc@iscas.ac.cn</div>
+                                    <div className="contentUsListItemText">summer2020@iscas.ac.cn</div>
                                 </div>
                                 <div className="contentUsListItem">
                                     <div className="contentUsListItemTitlelong">智能软件研究中心公众号</div>
