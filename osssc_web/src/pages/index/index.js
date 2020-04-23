@@ -13,6 +13,7 @@ export default class Index extends React.Component{
         let divContainer = [];
         orList.map((item,index)=>{
             divContainer.push(<div className="indexHomOrItem" key={index} style={{backgroundImage: "url("+require("./../../img/or/"+item) + ")"}}></div>)
+            return 0;
         })
         return divContainer
     }
