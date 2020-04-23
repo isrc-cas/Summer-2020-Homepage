@@ -47,9 +47,9 @@ export default class Header extends React.Component{
                         {
                             this.state.listLinks.map((item,index)=>{
                             return (
-                                <NavLink to={'/'+item.title}>
+                                <NavLink key={index} to={'/'+item.title}>
                                 <div 
-                                        key={index}
+                                        
                                         className={["osscListItem",this.state.pageflag===item.title?'left0':''].join(" ")}>
                                        
                                                 <span> {item.name}</span>

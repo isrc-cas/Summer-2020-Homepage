@@ -1,19 +1,19 @@
 const data = {
     bannerlist:[
         {
-            img:'algorithm.png',
+            img:'1.png',
             title:'申请',
             stitle:'apply',
             text:'开发者自由选择项目，撰写项目申请书提出申请。'
         },
         {
-            img:'os.png',
+            img:'2.png',
             title:'项目',
             stitle:'program',
             text:'开发者在社区导师的指导下进行项目，分享代码。'
         },
         {
-            img:'algorithm.png',
+            img:'3.png',
             title:'奖励',
             stitle:'reward',
             text:'根据开发者参与度、代码贡献等给与奖金、证书。'

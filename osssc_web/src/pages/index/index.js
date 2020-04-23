@@ -17,6 +17,37 @@ export default class Index extends React.Component{
         })
         return divContainer
     }
+
+    getTextTwo(){
+        const data = [
+            {
+                text:'参与活动的开发者可以利用暑期来提升自己的编程能力',
+                img:'icon1.png'
+            },
+            {
+                text:'你将认识更多志同道合的朋友和技术牛人',
+                img:'icon1.png'
+            },
+            {
+                text:'ISCAS与合作的开源社区为开发者提供资深社区导师',
+                img:'icon1.png'
+            },
+            {
+                text:'活动结束后根据开发者的活跃度和贡献给与奖金',
+                img:'icon1.png'
+            },
+        ]
+
+        let div = []
+        data.map((item,index)=>{
+            div.push(<div className="indexHomeIconItem" key={index}>
+                <div className="indexHomeIconItemIcon" style={{backgroundImage: "url("+require("./../../img/index/"+item.img) + ")"}}></div>
+                <div className="indexHomeIconItemText">{item.text}</div>
+            </div>)
+            return 0;
+        })
+        return div;
+    }
     
     
 
@@ -27,7 +58,7 @@ export default class Index extends React.Component{
        
         
         return(
-           <div className="indexHome">
+           <div className="indexHomeZ">
                <div className="indexHomeOne">
                     <div className="indexHomeOneWrapper content1200">
                     <div className="indexHomeOneTextCons">
@@ -37,7 +68,7 @@ export default class Index extends React.Component{
                         {/* <span className="indexHomeOneTextConsChi two">我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，
                         促进开源软件在国内的发展和优秀开源软件社区建设，增加开源项目在国内的活跃度，在开源领域与世界接轨。</span> */}
                     </div>
-                    <div className="indexHomeOneImage"></div>
+                    {/* <div className="indexHomeOneImage"></div> */}
 
                     </div>
                </div>
@@ -45,7 +76,9 @@ export default class Index extends React.Component{
                     <div className="indexHomeOneWrapper content1200">
                     <div className="indexHomeTwoImage"></div>
                     <div className="indexHomeOneTextCons">
-                    <span className="indexHomeOneTextConsChi two">参与活动的开发者不仅可以利用暑期来提升自己的编程能力，同时，你将认识更多志同道合的朋友和技术牛人。ISCAS与合作的开源社区将为开发者们提供资深社区导师，并在活动结束后根据开发者的活跃度和贡献给与奖金。</span>
+                    <span className="indexHomeOneTextConsChi two">
+                        {this.getTextTwo()}
+                    </span>
                     <span className="indexHomeOneTextConsChi">我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，
                         促进开源软件在国内的发展和优秀开源软件社区建设，增加开源项目在国内的活跃度，在开源领域与世界接轨。</span>
                     </div>
