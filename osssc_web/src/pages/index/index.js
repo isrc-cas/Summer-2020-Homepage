@@ -22,26 +22,27 @@ export default class Index extends React.Component{
         const data = [
             {
                 text:'参与活动的开发者可以利用暑期来提升自己的编程能力',
-                img:'icon1.png'
+                img:'icon1'
             },
             {
                 text:'你将认识更多志同道合的朋友和技术牛人',
-                img:'icon1.png'
+                img:'icon2'
             },
             {
                 text:'ISCAS与合作的开源社区为开发者提供资深社区导师',
-                img:'icon1.png'
+                img:'icon3'
             },
             {
                 text:'活动结束后根据开发者的活跃度和贡献给与奖金',
-                img:'icon1.png'
+                img:'icon4'
             },
         ]
 
         let div = []
         data.map((item,index)=>{
             div.push(<div className="indexHomeIconItem" key={index}>
-                <div className="indexHomeIconItemIcon" style={{backgroundImage: "url("+require("./../../img/index/"+item.img) + ")"}}></div>
+                {/* <div className="indexHomeIconItemIcon" style={{backgroundImage: "url("+require("./../../img/index/"+item.img) + ")"}}></div> */}
+                <div className={["indexHomeIconItemIcon",item.img].join(" ")}></div>
                 <div className="indexHomeIconItemText">{item.text}</div>
             </div>)
             return 0;
@@ -68,7 +69,7 @@ export default class Index extends React.Component{
                         {/* <span className="indexHomeOneTextConsChi two">我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，
                         促进开源软件在国内的发展和优秀开源软件社区建设，增加开源项目在国内的活跃度，在开源领域与世界接轨。</span> */}
                     </div>
-                    {/* <div className="indexHomeOneImage"></div> */}
+                    <div className="indexHomeOneImage"></div>
 
                     </div>
                </div>
