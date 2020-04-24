@@ -74,15 +74,19 @@ export default class Index extends React.Component{
                     </div>
                </div>
                <div className="indexHomeSecond">
-                    <div className="indexHomeOneWrapper content1200">
-                    <div className="indexHomeTwoImage"></div>
-                    <div className="indexHomeOneTextCons">
-                    <span className="indexHomeOneTextConsChi two">
-                        {this.getTextTwo()}
-                    </span>
+                    <div className="content1200">
+                    <div className="indexHomeOneWrapper ">
+                        <div className="indexHomeTwoImage"></div>
+                        <div className="indexHomeOneTextCons">
+                            <span className="indexHomeOneTextConsChi two">
+                                {this.getTextTwo()}
+                            </span>
+                        </div>
+
+                    </div>
+                    
                     <span className="indexHomeOneTextConsChi">我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，
                         促进开源软件在国内的发展和优秀开源软件社区建设，增加开源项目在国内的活跃度，在开源领域与世界接轨。</span>
-                    </div>
 
 
                     </div>
