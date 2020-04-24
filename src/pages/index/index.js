@@ -64,8 +64,8 @@ export default class Index extends React.Component{
                     <div className="indexHomeOneWrapper content1200">
                     <div className="indexHomeOneTextCons">
                         
-                        <span className="indexHomeOneTextConsChi">开源软件供应链点亮计划活动鼓励大家关注开源软件和开源社区，培养和发掘更多优秀的开发者。</span><br/>
-                        <span className="indexHomeOneTextConsChi">活动将在暑期进行，我们将与开源社区合作，并为参与的学生们提供社区导师，并定期邀请技术大神来讲座。</span>
+                        <span className="indexHomeOneTextConsChi">开源软件供应链点亮计划鼓励大家关注开源软件和开源社区，培养和发掘更多优秀的开发者。</span><br/>
+                        <span className="indexHomeOneTextConsChi">活动将在暑期进行，我们将与开源社区紧密合作，提供一对一的导师指导，邀技术大牛免费讲座。</span>
                         {/* <span className="indexHomeOneTextConsChi two">我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，
                         促进开源软件在国内的发展和优秀开源软件社区建设，增加开源项目在国内的活跃度，在开源领域与世界接轨。</span> */}
                     </div>
