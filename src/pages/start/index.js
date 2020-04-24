@@ -66,12 +66,15 @@ export default class Start extends React.Component{
                         </div>
                         <div className="indexStartOneTextCons">
                             <span className="indexStartOneTextConsChi "><h2>学生要求</h2></span>
-                            <span className="indexStartOneTextConsChi indexStartContent">
-                                1. 年满 18 周岁的在校学生。
-                            </span>
-                            <span className="indexStartOneTextConsChi indexStartContent">
-                                2. 具有有效的学生证和身份证。
-                            </span>
+                            <div className="indexStartOverWrapper">
+                                <span className="indexStartOneTextConsChi indexStartContent">
+                                    1. 年满 18 周岁的在校学生。
+                                </span>
+                                <span className="indexStartOneTextConsChi indexStartContent">
+                                    2. 具有有效的学生证和身份证。
+                                </span>
+                            </div>
+                            
                         </div>
                     </div>
                </div>
