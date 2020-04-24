@@ -66,7 +66,7 @@ export default class Howitworks extends React.Component{
                </div>
                <div className="HowitworksTimeline">
                     <div className="HowitworksTimelineWrapper content1200">
-                        <div className="HowitworksTimeTitle">OSSSC Summer 活动里程碑</div>
+                        <div className="HowitworksTimeTitle">开源软件供应链点亮计划-暑期2020 活动里程碑</div>
                        <div className="HowitworksTimelineList">
                             {
                                 this.state.data.time.map((item,index)=>{

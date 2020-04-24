@@ -1,12 +1,48 @@
 .indexStart{
     position: relative;
+    
+    .startButton {
+        padding: 8px 18px;  
+        font-size: 14px;
+        margin: 5px;
+        background: #686ce6;
+        
+        a {
+            text-decoration: none;
+            border: 0;
+            color: white;
+        }
+    }
+    .indexStartIcon {
+        width: 65px;
+        height: 60px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .indexStartIconOne {
+        background-image: url(./../../img/start/icon-sponsor.png);
+    }
+    .indexStartOverWrapper{
+        text-align: left;
+        position: relative;
+        margin-right: -54px;
+        width: 332px;
+        display: inline-block;
+    }
+    .indexStartIconTwo {
+        background-image: url(./../../img/start/icon-community.png);
+    }
+    .indexStartIconThree {
+        background-image: url(./../../img/start/icon-developer.png);
+    }
     .indexStartOne{
         position: relative;
         width: 100%;
         height: 522px;
         // background-color: #1465e3;
         background-image: url(./../../img/start/start-banner.jpg);
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -25,17 +61,21 @@
         // padding-top: 110px;
         box-sizing: border-box;
         justify-content: space-between;
-        align-items: center;
+        padding-top: 10vh;
+        // align-items: center;
     }
 
-
+    .indexStartQuote {
+        font-size: 10px;
+    }
     .indexStartOneTextCons{
         position: relative;
         color: #fff;
+        text-align: center;
         font-size: 20px;
         // text-indent: 2em;
-        width: 45%;
-        margin-top: -118px;
+        width: 55%;
+        // margin-top: -118px;
         
     }
 
@@ -47,14 +87,18 @@
         height: 350px;
         background-repeat: no-repeat;
     }
-    .indexStartOneTextConsChi{
+    .indexStartOneTextConsChi {
         letter-spacing: 1px;
-        text-indent: 2em;
+        // text-indent: 2em;
         margin-top: 15px;
         display: inline-block;
         
     }
-    .indexStartOneTextConsChi.two{
-        margin-bottom: 30px;
+    .indexStartContent {
+        a {
+            color: blue;
+        }
+        padding: 10px 10px;
+        text-align: left;
     }
 }

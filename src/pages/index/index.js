@@ -21,7 +21,7 @@ export default class Index extends React.Component{
     getTextTwo(){
         const data = [
             {
-                text:'参与活动的开发者可以利用暑期来提升自己的编程能力',
+                text:'参与活动的学生可以利用暑期来提升自己的编程能力',
                 img:'icon1'
             },
             {
@@ -29,11 +29,11 @@ export default class Index extends React.Component{
                 img:'icon2'
             },
             {
-                text:'ISCAS与合作的开源社区为开发者提供资深社区导师',
+                text:'ISCAS与合作的开源社区为学生提供资深社区导师',
                 img:'icon3'
             },
             {
-                text:'活动结束后根据开发者的活跃度和贡献给与奖金',
+                text:'活动结束后根据学生的活跃度和贡献给与奖金',
                 img:'icon4'
             },
         ]
@@ -64,8 +64,8 @@ export default class Index extends React.Component{
                     <div className="indexHomeOneWrapper content1200">
                     <div className="indexHomeOneTextCons">
                         
-                        <span className="indexHomeOneTextConsChi">OSSSC summer 活动鼓励大家关注开源软件和开源社区，培养和发掘更多优秀的开发者。</span><br/>
-                        <span className="indexHomeOneTextConsChi">活动将在暑期进行，我们将与开源社区合作，并为参与的开发者们提供社区导师，并定期邀请技术大神来讲座。</span>
+                        <span className="indexHomeOneTextConsChi">开源软件供应链点亮计划鼓励大家关注开源软件和开源社区，培养和发掘更多优秀的开发者。</span><br/>
+                        <span className="indexHomeOneTextConsChi">活动将在暑期进行，我们将与开源社区紧密合作，提供一对一的导师指导，邀技术大牛免费讲座。</span>
                         {/* <span className="indexHomeOneTextConsChi two">我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，
                         促进开源软件在国内的发展和优秀开源软件社区建设，增加开源项目在国内的活跃度，在开源领域与世界接轨。</span> */}
                     </div>
@@ -75,7 +75,20 @@ export default class Index extends React.Component{
                </div>
                <div className="indexHomeSecond">
                     <div className="content1200">
-                    <div className="indexHomeOneWrapper ">
+                        <div className="indexHomeSecondText">
+                            <span>我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，促进开源软件在国内的发展</span>
+                            <br/>
+                            <span>和优秀开源软件社区建设，增加开源项目在国内的活跃度，在开源领域与世界接轨。</span>
+                        </div>
+                        <div className="indexHomeSecondWrapper ">
+                        <div className="indexHomeSecondTextCons">
+                            
+                                {this.getTextTwo()}
+                           
+                        </div>
+
+                        </div>
+                    {/* <div className="indexHomeOneWrapper ">
                         <div className="indexHomeTwoImage"></div>
                         <div className="indexHomeOneTextCons">
                             <span className="indexHomeOneTextConsChi two">
@@ -87,14 +100,14 @@ export default class Index extends React.Component{
                     
                     <span className="indexHomeOneTextConsChi indexTwo">我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，
                         促进开源软件在国内的发展和优秀开源软件社区建设，增加开源项目在国内的活跃度，在开源领域与世界接轨。</span>
+                    */}
 
-
-                    </div>
+                    </div> 
                </div>
                <div className="indexHomeThird">
                         <div className="indexHomeThirdWrapper content1200">
                             <div className="indexHomeThirdTitle">主办单位</div>
-                            <div className="indexHomeOrList">
+                            <div className="indexHomeOrList holder">
                                     {this.getOrList()}
                             </div>
                             <div className="indexHomeThirdTitle">承办单位</div>

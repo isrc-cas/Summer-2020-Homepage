@@ -45,14 +45,15 @@
         height: 4px;
         left: -80px;
         transition: all 0.3s;
-        width: 100%;
+        width: 0;
         display: block;
         position: absolute;
     }
 
     a:hover .osscListItem::after,
     a.active .osscListItem::after{
-        left:0
+        left:0;
+        width: 100%;
     }
     a.active .osscListItem,
     .osscListItem:hover{
