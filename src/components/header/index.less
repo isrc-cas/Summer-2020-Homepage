@@ -1,0 +1,75 @@
+.osscHeader {
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    height: 64px;
+}
+.content1200{
+    width: 1200px;
+    position: relative;
+    margin:0 auto;
+    height: 100%;
+}
+
+.osscHeaderLogo{
+    position: relative;
+    background-image: url(./../../img/logo.png);
+    width: 243px;
+    height: 36px;
+    background-size: cover;
+}
+
+
+.osscHeaderContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.osscHeaderList{
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    line-height: 64px;
+    float: right;
+    font-weight: 500;
+    a{
+        text-decoration: none;
+        // color: #549af5;
+        color:rgba(0,0,0,.54);
+        position: relative;
+    }
+    a .osscListItem::after{
+        content: "";
+        background-color: #b11aff;;
+        bottom: 0;
+        height: 4px;
+        left: -80px;
+        transition: all 0.3s;
+        width: 100%;
+        display: block;
+        position: absolute;
+    }
+
+    a:hover .osscListItem::after,
+    a.active .osscListItem::after{
+        left:0
+    }
+    a.active .osscListItem,
+    .osscListItem:hover{
+        color: #b11aff;
+    }
+   
+    .osscListItem{
+        margin-left: 80px;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        transition: all 0.3s;
+       
+       
+      
+    }
+    
+
+}
+
