@@ -51,21 +51,21 @@ export default class Start extends React.Component{
                <div className="indexStartSecond">
                     <div className="indexStartOneWrapper content1200">
                         <div className="indexStartOneTextCons">
-                            <span className="indexStartOneTextConsChi two">合作单位要求</span>
-                            <span className="indexStartOneTextConsChi">1. 支持开源的公司、高校、科研院所及其他机构。</span>
+                            <span className="indexStartOneTextConsChi"><h2>合作单位要求</h2></span>
+                            <span className="indexStartOneTextConsChi indexStartContent">1. 支持开源的公司、高校、科研院所及其他机构。</span>
                         </div>
                         <div className="indexStartOneTextCons">
-                            <span className="indexStartOneTextConsChi two">社区要求</span>
-                            <span className="indexStartOneTextConsChi">
+                            <span className="indexStartOneTextConsChi"><h2>社区要求</h2></span>
+                            <span className="indexStartOneTextConsChi indexStartContent">
                                 1. 有活跃的开源软件仓库的社区或个人。
                             </span>
-                            <span className="indexStartOneTextConsChi">
+                            <span className="indexStartOneTextConsChi indexStartContent">
                                 2. 开源软件仓库采用的协议需要是<a href="https://opensource.org/licenses">OSI 组织认可的协议</a>。 
                             </span>
                         </div>
                         <div className="indexStartOneTextCons">
-                            <span className="indexStartOneTextConsChi two">学生要求</span>
-                            <span className="indexStartOneTextConsChi">
+                            <span className="indexStartOneTextConsChi "><h2>学生要求</h2></span>
+                            <span className="indexStartOneTextConsChi indexStartContent">
                                 1. 年满 18+ 周岁。提交学生证和身份证证明身份。
                             </span>
                         </div>
