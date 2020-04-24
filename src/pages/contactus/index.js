@@ -8,7 +8,7 @@ export default class Contactus extends React.Component{
        this.state ={
            relatelinks: [
             {
-                title:'软件研究所',
+                title:'中国科学院软件研究所',
                 url:'http://www.iscas.ac.cn/'
             },
             {

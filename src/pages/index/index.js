@@ -21,11 +21,11 @@ export default class Index extends React.Component{
     getTextTwo(){
         const data = [
             {
-                text:'参与活动的学生可以利用暑期来提升自己的编程能力',
+                text:'参与暑期2020活动，给你的编程能力加个buff',
                 img:'icon1'
             },
             {
-                text:'你将认识更多志同道合的朋友和技术牛人',
+                text:'软件所与开源社区将为您匹配资深的社区导师',
                 img:'icon2'
             },
             {
@@ -33,7 +33,7 @@ export default class Index extends React.Component{
                 img:'icon3'
             },
             {
-                text:'活动结束后根据学生的活跃度和贡献给与奖金',
+                text:'根据活动中的“战绩”，您将获得活动荣誉奖杯和奖金奖励',
                 img:'icon4'
             },
         ]

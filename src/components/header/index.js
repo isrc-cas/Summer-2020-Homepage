@@ -2,6 +2,18 @@ import React from 'react';
 import './index.less';
 import {listLinks} from './listLink.js';
 import {NavLink} from 'react-router-dom';
+
+var withl = window.screen.width
+
+
+if(withl<800){
+    //1.0 判定为移动手机设备
+    var scaleIndex = withl/1200;
+    document.getElementsByTagName("body")[0].style.transform = "scale("+scaleIndex+")";
+    document.getElementsByTagName("body")[0].style.transformOrigin = "left top"
+}
+    
+
 export default class Header extends React.Component{
     constructor(props){
         super(props);
