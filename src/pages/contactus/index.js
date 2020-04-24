@@ -50,7 +50,7 @@ export default class Contactus extends React.Component{
                                     <div className="contentUsListItemText">summer2020@iscas.ac.cn</div>
                                 </div>
                                 <div className="contentUsListItem imageweixin">
-                                    <div className="contentUsListItemTitlelong">智能软件研究中心公众号</div>
+                                    <div className="contentUsListItemTitlelong">活动公众号专栏：智能软件研究中心 -> 暑期 2020</div>
                                     <div className="contentUsListItemImage"></div>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@ export default class Contactus extends React.Component{
                                 }
                             </div>
                             <div className="contentUsListItem weixindiscuss">
-                                    <div className="contentUsListItemTitlelong">开源点亮计划-暑期2020-讨论1群</div>
+                                    <div className="contentUsListItemTitlelong">开源点亮计划-暑期2020-讨论群</div>
                                     <div className="contentUsListItemImage wx_discuss"></div>
                                 </div>
                         </div>
