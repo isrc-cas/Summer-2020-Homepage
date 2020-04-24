@@ -9,7 +9,7 @@ export default class Index extends React.Component{
     }
 
     getOrList(){
-        const orList = ['nanjing.png','iscaslogo.png','openeuler.png'];
+        const orList = ['iscaslogo.png','openeuler.png'];
         let divContainer = [];
         orList.map((item,index)=>{
             divContainer.push(<div className="indexHomOrItem" key={index} style={{backgroundImage: "url("+require("./../../img/or/"+item) + ")"}}></div>)
@@ -89,10 +89,14 @@ export default class Index extends React.Component{
                </div>
                <div className="indexHomeThird">
                         <div className="indexHomeThirdWrapper content1200">
-                            <div className="indexHomeThirdTitle">承办机构</div>
-                           <div className="indexHomeOrList">
-                                {this.getOrList()}
-                           </div>
+                            <div className="indexHomeThirdTitle">主办单位</div>
+                            <div className="indexHomeOrList">
+                                    {this.getOrList()}
+                            </div>
+                            <div className="indexHomeThirdTitle">承办单位</div>
+                            <div className="indexHomeOrList">
+                            <div className="indexHomOrItem naijing" ></div>
+                            </div>
                         </div>
                </div>
            </div>

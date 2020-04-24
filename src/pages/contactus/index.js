@@ -72,6 +72,10 @@ export default class Contactus extends React.Component{
                                     })
                                 }
                             </div>
+                            <div className="contentUsListItem">
+                                    <div className="contentUsListItemTitlelong">开源点亮计划-暑期2020-讨论1群</div>
+                                    <div className="contentUsListItemImage wx_discuss"></div>
+                                </div>
                         </div>
 
                     </div>
