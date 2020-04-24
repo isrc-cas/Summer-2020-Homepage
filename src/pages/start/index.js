@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.less';
 import {NavLink} from 'react-router-dom';
+// import { Button } from 'antd';
 
 export default class Start extends React.Component{
     componentDidMount(){
@@ -19,7 +20,7 @@ export default class Start extends React.Component{
                             <br/>
                             <span className="indexStartOneTextConsChi">和我们一起贡献开源！</span>
                             <br/>
-                            <span className="indexStartOneTextConsChi"><h4><NavLink to="/contactus">联系我们</NavLink></h4></span>
+                            <span className="indexStartOneTextConsChi startButton"><NavLink to="/contactus">联系我们</NavLink></span>
                             <br/>
                             <span className="indexStartQuote">(请通过邮箱/公众号联系合作事宜)</span>
 
@@ -31,7 +32,7 @@ export default class Start extends React.Component{
                             <br/>
                             <span className="indexStartOneTextConsChi">让更多的学生和开发者们加入你的社区!</span>
                             <br/>
-                            <span className="indexStartOneTextConsChi"><h4><NavLink to="/contactus">立即报名</NavLink></h4></span>
+                            <span className="indexStartOneTextConsChi startButton"><NavLink to="/contactus">立即报名</NavLink></span>
                             <br/>
                             <span className="indexStartQuote">(请通过邮箱/公众号联系报名事宜)</span>
                         </div>
@@ -43,7 +44,7 @@ export default class Start extends React.Component{
                             <span className="indexStartOneTextConsChi">利用暑期的时间，贡献你的代码吧！</span>
                             <span className="indexStartOneTextConsChi"><h4>2020年6月1日，报名正式开始！</h4></span>
                             <br/>
-                            <span className="indexStartQuote">(请通过邮箱/公众号联系报名事宜)</span>
+                            <span className="indexStartQuote"> </span>
 
                         </div>
                     </div>
@@ -66,7 +67,10 @@ export default class Start extends React.Component{
                         <div className="indexStartOneTextCons">
                             <span className="indexStartOneTextConsChi "><h2>学生要求</h2></span>
                             <span className="indexStartOneTextConsChi indexStartContent">
-                                1. 年满 18+ 周岁。提交学生证和身份证证明身份。
+                                1. 年满 18 周岁的在校学生。
+                            </span>
+                            <span className="indexStartOneTextConsChi indexStartContent">
+                                2. 具有有效的学生证和身份证。
                             </span>
                         </div>
                     </div>
