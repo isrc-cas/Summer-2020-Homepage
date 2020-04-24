@@ -19,10 +19,10 @@ export default class Footer extends React.Component{
             <div className="osscFooter">
                <div className="content1200 ossscFooterWrapper">
                     <div className="osscFooterItem">
-                    <div className="osscFooterItem">
+                    {/* <div className="osscFooterItem">
                         <div className="osscFooterItemTitle">Phone:</div>
                         <div className="osscFooterItemText">+86-(10)-62661689</div>
-                    </div>
+                    </div> */}
                     <div className="osscFooterItem">
                         <div className="osscFooterItemTitle">Email:</div>
                         <div className="osscFooterItemText">summer2020@iscas.ac.cn</div>

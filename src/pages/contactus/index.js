@@ -41,10 +41,10 @@ export default class Contactus extends React.Component{
                         <div className="contentUsContact">
                             <div className="contentUsTitle">联系我们</div>
                             <div className="contentUsContactList">
-                                <div className="contentUsListItem">
+                                {/* <div className="contentUsListItem">
                                     <div className="contentUsListItemTitle">联系电话</div>
                                     <div className="contentUsListItemText">+86-(10)-62661689</div>
-                                </div>
+                                </div> */}
                                 <div className="contentUsListItem">
                                     <div className="contentUsListItemTitle">邮箱</div>
                                     <div className="contentUsListItemText">summer2020@iscas.ac.cn</div>
