@@ -25,11 +25,11 @@ export default class Index extends React.Component{
                 img:'icon1'
             },
             {
-                text:'软件所与开源社区将为您匹配资深的社区导师',
+                text:'结识更多的小伙伴和技术大牛，一起热爱开源',
                 img:'icon2'
             },
             {
-                text:'ISCAS与合作的开源社区为学生提供资深社区导师',
+                text:'软件所与开源社区将为您匹配资深的社区导师',
                 img:'icon3'
             },
             {
