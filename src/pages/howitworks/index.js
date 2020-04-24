@@ -27,7 +27,7 @@ export default class Howitworks extends React.Component{
            <div className="Howitworks">
                <div className="HowitworksBanner">
                    <div className="HowitworksBannerContent content1200">
-                       <div className="HowitworksBannerTitle">开源软件供应链点亮计划-暑期2020-活动规划</div>
+                       <div className="HowitworksBannerTitle">开源软件供应链点亮计划-暑期2020活动规划</div>
                        <div className="HowitworksList" >
                            {
                                this.state.data.bannerlist.map((item,index)=>{
