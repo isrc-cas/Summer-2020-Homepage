@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.less';
-
+import {NavLink} from 'react-router-dom';
 export default class Start extends React.Component{
     componentDidMount(){
        
@@ -27,8 +27,10 @@ export default class Start extends React.Component{
                             <br/>
                             <span 
                                 className="indexStartOneTextConsChi startButton" 
-                                onClick={()=>this.scrollLocation('sponsor')}>
-                                    联系我们
+                                // onClick={()=>this.scrollLocation('sponsor')}>
+                                >
+                                <NavLink to="/contactus">联系我们</NavLink>
+                                    
                             </span>
 
                         </div>
@@ -41,9 +43,10 @@ export default class Start extends React.Component{
                             <br/>
                             <br/>
                             <span 
-                                className="indexStartOneTextConsChi startButton" 
-                                onClick={()=>this.scrollLocation('community')}>
-                                    立即报名
+                                className="indexStartOneTextConsChi startButton" >
+                                {/* onClick={()=>this.scrollLocation('community')}> */}
+
+                                <NavLink to="/contactus">立即报名</NavLink>   
                             </span>
                             
                         </div>
@@ -106,12 +109,12 @@ export default class Start extends React.Component{
                             
                         </div>
                         </div>
-                        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                         <div className="startLineThree">
                             <span className="indexStartOneTextConsChi indexStartContact" id="start-sponsor">
-                                    <h5>
-                                        如有意向合作，请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn">summer2020@iscas.ac.cn</a>
-                                    </h5>
+                                    <h2>如何联系</h2>
+                                    <h3>
+                                        请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn">summer2020@iscas.ac.cn</a>
+                                    </h3>
                                     <ul>
                                         <li>
                                             合作单位名称
@@ -126,9 +129,10 @@ export default class Start extends React.Component{
                             </span>
 
                             <span className="indexStartOneTextConsChi indexStartContact" id="start-community">
-                                <h5>
-                                    如需申请，请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn">summer2020@iscas.ac.cn</a>
-                                </h5>
+                                <h2>如何申请</h2>
+                                <h3>
+                                    请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn">summer2020@iscas.ac.cn</a>
+                                </h3>
                                 <ul>
                                     <li>
                                         社区或开源项目名称
@@ -142,7 +146,7 @@ export default class Start extends React.Component{
                                 </ul>
                             </span>
 
-                            <span className="indexStartOneTextConsChi indexStartContact"><h4>2020年6月1日，报名正式开始！</h4></span>
+                            <span className="indexStartOneTextConsChi indexStartContact"><h3>2020年6月1日，学生报名正式开始！</h3></span>
 
                         </div>
                     </div>
