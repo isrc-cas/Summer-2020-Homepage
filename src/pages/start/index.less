@@ -5,13 +5,21 @@
         padding: 8px 18px;  
         font-size: 14px;
         margin: 5px;
-        background: #686ce6;
-        
+        background: rgba(104, 108, 230, 0.479);
+        border-style: solid;
+        border-width: 0.1px;
+        border-radius: 0.1em;
+        // box-shadow: inset 0 0.5px 0 #fff6ce, inset 0 -1px 0 #918ff5, inset 0 0 0 1px #a58dfc, 0 1px 2px rgba(0, 0, 0, 0.2);
         a {
             text-decoration: none;
             border: 0;
             color: white;
         }
+    }
+    .startButton:hover {
+        background-color: #9086ec;
+        cursor: pointer;
+        box-shadow: none;
     }
     .indexStartIcon {
         width: 65px;
@@ -27,7 +35,7 @@
         text-align: left;
         position: relative;
         margin-right: -54px;
-        width: 332px;
+        width: 334px;
         display: inline-block;
     }
     .indexStartIconTwo {
@@ -49,8 +57,8 @@
     .indexStartSecond{
         position: relative;
         width: 100%;
-        height: 526px;
-        background-color: #f5f5f5;
+        height: 600px;
+        // background-color: #f5f5f5;
         .indexStartOneTextConsChi{
             color:#1b1a2a
         }
@@ -100,5 +108,29 @@
         }
         padding: 10px 10px;
         text-align: left;
+    }
+    .indexStartContact {
+        li {
+            font-size: 20px;
+        }
+        padding-top: 50px;
+        text-align: left;
+    }
+    .startLineThree{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        .indexStartContact{
+            width: 300px;
+            margin-left: 42px;
+        }
+    }
+    .startLineTwo{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        .indexStartOneTextCons{
+            width: 350px;
+        }
     }
 }
