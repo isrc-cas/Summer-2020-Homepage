@@ -27,6 +27,7 @@ export default class Start extends React.Component{
                             <br/>
                             <span 
                                 className="indexStartOneTextConsChi startButton" 
+                                title="具体联系方式见下方"
                                 onClick={()=>this.scrollLocation('sponsor')}
                                 >
                                 联系我们
@@ -45,6 +46,7 @@ export default class Start extends React.Component{
                             <br/>
                             <span 
                                 className="indexStartOneTextConsChi startButton"
+                                title="具体报名方式见下方"
                                 onClick={()=>this.scrollLocation('community')}
                                 >
                                 立即报名
@@ -95,7 +97,6 @@ export default class Start extends React.Component{
                         </div>
                         <div className="indexStartOneTextCons">
                             <span className="indexStartOneTextConsChi "><h2>学生要求</h2></span>
-                            <div className="indexStartOverWrapper">
                                 <span className="indexStartOneTextConsChi indexStartContent">
                                     <ul>
                                         <li>
@@ -106,9 +107,6 @@ export default class Start extends React.Component{
                                         </li>
                                     </ul>
                                 </span>
-                               
-                            </div>
-                            
                         </div>
                         </div>
                         <div className="startLineThree">
@@ -148,7 +146,10 @@ export default class Start extends React.Component{
                                 </ul>
                             </span>
 
-                            <span className="indexStartOneTextConsChi indexStartContact"><h3>2020年6月1日，学生报名正式开始！</h3></span>
+                            <span className="indexStartOneTextConsChi indexStartContact">
+                                <h3>2020年6月1日</h3>
+                                <h3>学生报名正式开始！</h3>
+                            </span>
 
                         </div>
                     </div>
