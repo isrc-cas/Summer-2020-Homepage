@@ -49,7 +49,7 @@ export default class Contactus extends React.Component{
                                     欢迎发邮件给我们，并留下联系方式，我们会尽快与您联系
                                 </div>
                                 <div className="contentUsListItem">
-                                    <div className="contentUsListItemTitle">邮箱</div>
+                                    <div className="contentUsListItemTitle">邮&nbsp;&nbsp;&nbsp;&nbsp;箱:</div>
                                     <div className="contentUsListItemText">summer2020@iscas.ac.cn</div>
                                 </div>
                                 <div className="contentUsListItem imageweixin">
