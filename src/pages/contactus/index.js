@@ -12,7 +12,7 @@ export default class Contactus extends React.Component{
                 url:'http://www.iscas.ac.cn/'
             },
             {
-                title:'openEuler官网',
+                title:'openEuler社区',
                 url:'https://openeuler.org/zh/'
             },
             //    {
@@ -50,14 +50,14 @@ export default class Contactus extends React.Component{
                                     <div className="contentUsListItemText">summer2020@iscas.ac.cn</div>
                                 </div>
                                 <div className="contentUsListItem imageweixin">
-                                    <div className="contentUsListItemTitlelong">活动公众号专栏：智能软件研究中心 -> 活动专栏 -> 暑期 2020</div>
+                                    <div className="contentUsListItemTitlelong">公众号：ISCAS_ISRC -> 活动专栏 -> <br/>暑期2020</div>
                                     <div className="contentUsListItemImage"></div>
                                 </div>
                             </div>
 
                         </div>
                         <div className="contentUsRelateLink">
-                            <div className="contentUsTitle">友情链接</div>
+                            <div className="contentUsTitle">主办单位</div>
                             <div className="contentUsRelateLinkList">
                                 {
                                     this.state.relatelinks.map((item,index)=>{
@@ -73,7 +73,7 @@ export default class Contactus extends React.Component{
                                 }
                             </div>
                             <div className="contentUsListItem weixindiscuss">
-                                    <div className="contentUsListItemTitlelong">开源点亮计划-暑期2020-微信讨论群</div>
+                                    <div className="contentUsListItemTitlelongS">开源点亮计划-暑期2020-微信讨论群</div>
                                     <div className="contentUsListItemImage wx_discuss"></div>
                                 </div>
                         </div>
