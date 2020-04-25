@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.less';
-import {NavLink} from 'react-router-dom';
+// import {NavLink} from 'react-router-dom';
 export default class Start extends React.Component{
     componentDidMount(){
        
@@ -27,9 +27,10 @@ export default class Start extends React.Component{
                             <br/>
                             <span 
                                 className="indexStartOneTextConsChi startButton" 
-                                // onClick={()=>this.scrollLocation('sponsor')}>
+                                onClick={()=>this.scrollLocation('sponsor')}>
                                 >
-                                <NavLink to="/contactus">联系我们</NavLink>
+                                联系我们
+                                {/* <NavLink to="/contactus">联系我们</NavLink> */}
                                     
                             </span>
 
@@ -43,10 +44,11 @@ export default class Start extends React.Component{
                             <br/>
                             <br/>
                             <span 
-                                className="indexStartOneTextConsChi startButton" >
-                                {/* onClick={()=>this.scrollLocation('community')}> */}
-
-                                <NavLink to="/contactus">立即报名</NavLink>   
+                                className="indexStartOneTextConsChi startButton"
+                                onClick={()=>this.scrollLocation('community')}
+                                >
+                                立即报名
+                                {/* <NavLink to="/contactus">立即报名</NavLink>    */}
                             </span>
                             
                         </div>
