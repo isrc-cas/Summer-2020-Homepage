@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.less';
-import {NavLink} from 'react-router-dom';
+// import {NavLink} from 'react-router-dom';
 export default class Start extends React.Component{
     componentDidMount(){
        
@@ -27,9 +27,10 @@ export default class Start extends React.Component{
                             <br/>
                             <span 
                                 className="indexStartOneTextConsChi startButton" 
-                                // onClick={()=>this.scrollLocation('sponsor')}>
+                                onClick={()=>this.scrollLocation('sponsor')}
                                 >
-                                <NavLink to="/contactus">联系我们</NavLink>
+                                联系我们
+                                {/* <NavLink to="/contactus">联系我们</NavLink> */}
                                     
                             </span>
 
@@ -43,10 +44,11 @@ export default class Start extends React.Component{
                             <br/>
                             <br/>
                             <span 
-                                className="indexStartOneTextConsChi startButton" >
-                                {/* onClick={()=>this.scrollLocation('community')}> */}
-
-                                <NavLink to="/contactus">立即报名</NavLink>   
+                                className="indexStartOneTextConsChi startButton"
+                                onClick={()=>this.scrollLocation('community')}
+                                >
+                                立即报名
+                                {/* <NavLink to="/contactus">立即报名</NavLink>    */}
                             </span>
                             
                         </div>
@@ -85,7 +87,7 @@ export default class Start extends React.Component{
                                     有活跃的开源软件仓库的社区或个人。
                                     </li>
                                     <li>
-                                    开源软件仓库采用的协议需要是<a href="https://opensource.org/licenses">OSI 组织认可的协议</a>。
+                                    开源软件仓库采用的协议需要是<a href="https://opensource.org/licenses" target="_blank" rel="noopener noreferrer">OSI 组织认可的协议</a>。
                                     </li>
                                 </ul>
                             </span>  
@@ -129,7 +131,7 @@ export default class Start extends React.Component{
                             </span>
 
                             <span className="indexStartOneTextConsChi indexStartContact" id="start-community">
-                                <h2>如何申请</h2>
+                                <h2>如何报名</h2>
                                 <h3>
                                     请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn">summer2020@iscas.ac.cn</a>
                                 </h3>
