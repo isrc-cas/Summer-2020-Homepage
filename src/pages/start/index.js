@@ -115,7 +115,7 @@ export default class Start extends React.Component{
                             <span className="indexStartOneTextConsChi indexStartContact" id="start-sponsor">
                                     <h2>如何联系</h2>
                                     <h3>
-                                        请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn">summer2020@iscas.ac.cn</a>
+                                        请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn?subject=合作单位报名暑期2020！&body=请填写合作单位名称、联系人姓名和联系人联系方式，我们会尽快联系您。">summer2020@iscas.ac.cn</a>
                                     </h3>
                                     <ul>
                                         <li>
@@ -133,7 +133,7 @@ export default class Start extends React.Component{
                             <span className="indexStartOneTextConsChi indexStartContact" id="start-community">
                                 <h2>如何报名</h2>
                                 <h3>
-                                    请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn">summer2020@iscas.ac.cn</a>
+                                    请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn?subject=开源社区报名暑期2020！&body=请填写社区名称、联系人姓名和联系人联系方式，我们会尽快联系您。">summer2020@iscas.ac.cn</a>
                                 </h3>
                                 <ul>
                                     <li>
