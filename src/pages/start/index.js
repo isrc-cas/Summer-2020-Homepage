@@ -131,7 +131,7 @@ export default class Start extends React.Component{
                             </span>
 
                             <span className="indexStartOneTextConsChi indexStartContact" id="start-community">
-                                <h2>如何申请</h2>
+                                <h2>如何报名</h2>
                                 <h3>
                                     请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn">summer2020@iscas.ac.cn</a>
                                 </h3>
