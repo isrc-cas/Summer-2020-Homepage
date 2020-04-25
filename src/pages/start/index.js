@@ -26,8 +26,7 @@ export default class Start extends React.Component{
                             <br/>
                             <br/>
                             <span 
-                                className="indexStartOneTextConsChi startButton" 
-                                title="具体联系方式见下方"
+                                className="indexStartOneTextConsChi startButton"
                                 onClick={()=>this.scrollLocation('sponsor')}
                                 >
                                 联系我们
@@ -46,7 +45,6 @@ export default class Start extends React.Component{
                             <br/>
                             <span 
                                 className="indexStartOneTextConsChi startButton"
-                                title="具体报名方式见下方"
                                 onClick={()=>this.scrollLocation('community')}
                                 >
                                 立即报名
