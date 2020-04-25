@@ -27,7 +27,7 @@ export default class Start extends React.Component{
                             <br/>
                             <span 
                                 className="indexStartOneTextConsChi startButton" 
-                                onClick={()=>this.scrollLocation('sponsor')}>
+                                onClick={()=>this.scrollLocation('sponsor')}
                                 >
                                 联系我们
                                 {/* <NavLink to="/contactus">联系我们</NavLink> */}
