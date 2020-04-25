@@ -84,7 +84,8 @@ export default class Howitworks extends React.Component{
                        </div>
                        <div className="HowitworksTimeTitle opensource">“开源大咖”系列讲座</div>
                        <div className="HowitworksTimelineList">
-                                <div className="HowitworksTimelineItem">
+                                具体时间后续将发布在官网和公众号
+                                {/* <div className="HowitworksTimelineItem">
                                     <div className="HowitworksTimelineItemIcon"></div>
                                     <div className="HowitworksTimelineItemCons">
                                         <div className="HowitworksTimelineItemTitle">5月15日</div>
@@ -97,7 +98,7 @@ export default class Howitworks extends React.Component{
                                         <div className="HowitworksTimelineItemTitle">10月30日</div>
                                         <div className="HowitworksTimelineItemText">“开源大咖”系列讲座结束</div>
                                     </div>
-                                </div>
+                                </div> */}
                        </div>
                     </div>
                </div>
