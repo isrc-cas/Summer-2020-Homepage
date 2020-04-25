@@ -2,9 +2,61 @@
     body{
         width: 100vw;
         min-width: 100vw;
+        .displayblock{
+            display: block;
+        }
+        .osscHeaderMobileList{
+
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            text-align: center;
+            position: absolute;
+            z-index: 10;
+            top: 0;
+            left: -5vw;
+            background-color: #187ef2;
+            padding: 30vh 0;
+            .osscClose{
+                position: absolute;
+                width: 35px;
+                height: 35px;
+                background-image: url(./../../img/close.svg);
+                background-size: contain;
+                right: 5vw;
+                top: 2vh;
+            }
+            // a{
+            //     position: relative;
+            //     text-decoration: none;
+            //     // color: #549af5;
+            //     color:rgba(0,0,0,.54);
+            //     position: relative;
+                
+            // }
+            .osscListItem{
+                padding: 10px 0;
+
+                font-size: 20px;
+                position: relative;
+                text-decoration: none;
+                // color: #549af5;
+                color:#fff;
+                position: relative;
+            }
+
+        }
         .osscHeaderLogo{
             width: 72vw;
             height: 50px;
+            margin-left: -2vw;
+        }
+        .ossHeaderMobileIcon{
+            background-image: url(./../../img/icon_nav.png);
+            width: 26px;
+            height: 22px;
+            display: inline-block;
+            background-size: contain;
         }
 
         .content1200{
@@ -27,7 +79,23 @@
             .indexHomeOneTextCons{
                 width: 100%;
             }
-            
+            .indexHomeThird{
+                .indexHomeThirdWrapper{
+                    .indexHomOrItem{
+                        height: 20px;
+                    }
+                    .indexHomeOrList.holder {
+                        .indexHomOrItem:nth-child(1){
+                            height: 28px;
+                            margin-left: 0;
+                        }
+                        .indexHomOrItem:nth-child(2){
+                            height: 22px;
+                            
+                        }
+                    }
+                }
+            }
             .indexHomeSecond {
                 height: auto;
                 .indexHomeSecondTextCons{
@@ -48,6 +116,11 @@
                 
                 .indexHomeSecondText{
                     text-align: left;
+                    padding: 60px 0 30px;
+
+                }
+                .indexHomeSecondWrapper {
+                    padding-bottom: 30px;
                 }
             }
 
@@ -61,10 +134,23 @@
         //howitwork
 
         .Howitworks{
+            .HowitworksTimeline{
+                .HowitworksTimeTitle{
+                    font-size: 24px;
+                }
+                .HowitworksTimelineItem .HowitworksTimelineItemTitle{
+                    font-size: 18px;
+                }
+                .HowitworksTimelineItemText{
+                    font-size: 16px;
+                }
+
+            } 
             .HowitworksBanner{
                 .HowitworksBannerTitle{
-                    font-size: 24px;
+                    font-size: 21px;
                     padding: 30px 0;
+                    letter-spacing: 1px;
                 }
                 .HowitworksList{
                     flex-direction: column;
@@ -92,5 +178,47 @@
         .contactUsBanner{
             display: none;
         }
+
+        .contactUs .contactUsContent{
+            flex-direction: column;
+            padding: 30px 0;
+            .weixindiscuss,
+            .imageweixin{
+                margin-top:0;
+            }
+            .contentUsListItem{
+                font-size: 16px;
+            }
+            .contentUsTitle{
+                font-size: 24px;
+            }
+            .contentUsContactList{
+                font-size: 18px;
+                .contentUsListItem.gray{
+                    display: none;
+                }
+            }
+            .contentUsContact{
+                width: 100%;
+                
+            }
+
+            .contactWeixinjpg.discuss{
+                display: none;
+            }
+            .contactWeixinjpgMobile{
+                display: block;
+                width: 278px;
+                height: auto;
+                margin-top: 20px;
+            }
+
+
+        } 
     }
+}
+.contactWeixinjpgMobile,
+.osscHeaderMobileList,
+.ossHeaderMobileIcon{
+    display: none;
 }

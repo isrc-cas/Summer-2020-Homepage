@@ -4,6 +4,7 @@ import './mobile.less';
 import {listLinks} from './listLink.js';
 import {NavLink} from 'react-router-dom';
 
+
 // var withl = window.screen.width
 
 
@@ -21,6 +22,8 @@ export default class Header extends React.Component{
         this.state={
             listLinks,
             pageflag:'index',
+
+            moblieListFlag:false,
             
         }
 
@@ -50,26 +53,62 @@ export default class Header extends React.Component{
       
 
     }
+    getLink(title){
+        window.location.hash = "/"+title
+        this.closeHeaderList()
+    }
+
+    getHeaderList(){
+        this.setState({
+            moblieListFlag:true
+        })
+    }
+    closeHeaderList(){
+        this.setState({
+            moblieListFlag:false
+        })
+    }
 
     render(){
         return(
             <div className="osscHeader">
                <div className="osscHeaderContent content1200">
                     <div className="osscHeaderLogo"></div>
+                    <div className="ossHeaderMobileIcon" onClick={()=>this.getHeaderList()}></div>
                     <div className="osscHeaderList">
                         {
                             this.state.listLinks.map((item,index)=>{
                             return (
                                 <NavLink key={index} to={'/'+item.title}>
-                                <div 
+                                    <div  
+                                            
+                                            className={["osscListItem",this.state.pageflag===item.title?'left0':''].join(" ")}>
                                         
+                                                    <span> {item.name}</span>
+                                        
+                                        
+                                    </div>
+                                </NavLink>  
+                            )
+                                
+                            })
+                        }
+                    </div>
+                    <div className={["osscHeaderMobileList " ,this.state.moblieListFlag?"displayblock":""].join(" ")}>
+                        <div className="osscClose" onClick={()=>this.closeHeaderList()}></div>
+                        {
+                            this.state.listLinks.map((item,index)=>{
+                            return (
+                                //<NavLink key={index} to={'/'+item.title}>
+                                <div key={index}
+                                onClick={()=>this.getLink(item.title)}
                                         className={["osscListItem",this.state.pageflag===item.title?'left0':''].join(" ")}>
                                        
                                                 <span> {item.name}</span>
                                        
                                     
                                 </div>
-                                </NavLink>  
+                                //</NavLink>  
                             )
                                 
                             })
