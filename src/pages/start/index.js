@@ -61,7 +61,8 @@ export default class Start extends React.Component{
                     </div>
                </div>
                <div className="indexStartSecond">
-                    <div className="indexStartOneWrapper content1200">
+                    <div className="content1200">
+                        <div className="startLineTwo">
                         <div className="indexStartOneTextCons">
                             <span className="indexStartOneTextConsChi"><h2>合作单位要求</h2></span>
                             <span className="indexStartOneTextConsChi indexStartContent">
@@ -71,22 +72,7 @@ export default class Start extends React.Component{
                                     </li>
                                 </ul>
                             </span>
-                            <span className="indexStartOneTextConsChi indexStartContact" id="start-sponsor">
-                                <h5>
-                                    如有意向合作，请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn">summer2020@iscas.ac.cn</a>
-                                </h5>
-                                <ul>
-                                    <li>
-                                        合作单位名称
-                                    </li>
-                                    <li>
-                                        联系人
-                                    </li>
-                                    <li>
-                                        联系方式
-                                    </li>
-                                </ul>
-                            </span>
+                            
                         </div>
                         <div className="indexStartOneTextCons">
                             <span className="indexStartOneTextConsChi"><h2>社区要求</h2></span>
@@ -100,6 +86,45 @@ export default class Start extends React.Component{
                                     </li>
                                 </ul>
                             </span>  
+                            
+                        </div>
+                        <div className="indexStartOneTextCons">
+                            <span className="indexStartOneTextConsChi "><h2>学生要求</h2></span>
+                            <div className="indexStartOverWrapper">
+                                <span className="indexStartOneTextConsChi indexStartContent">
+                                    <ul>
+                                        <li>
+                                        年满 18 周岁的在校学生。
+                                        </li>
+                                        <li>
+                                        具有有效的学生证和身份证。
+                                        </li>
+                                    </ul>
+                                </span>
+                               
+                            </div>
+                            
+                        </div>
+                        </div>
+                        
+                        <div className="startLineThree">
+                            <span className="indexStartOneTextConsChi indexStartContact" id="start-sponsor">
+                                    <h5>
+                                        如有意向合作，请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn">summer2020@iscas.ac.cn</a>
+                                    </h5>
+                                    <ul>
+                                        <li>
+                                            合作单位名称
+                                        </li>
+                                        <li>
+                                            联系人
+                                        </li>
+                                        <li>
+                                            联系方式
+                                        </li>
+                                    </ul>
+                            </span>
+
                             <span className="indexStartOneTextConsChi indexStartContact" id="start-community">
                                 <h5>
                                     如需申请，请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn">summer2020@iscas.ac.cn</a>
@@ -116,23 +141,9 @@ export default class Start extends React.Component{
                                     </li>
                                 </ul>
                             </span>
-                        </div>
-                        <div className="indexStartOneTextCons">
-                            <span className="indexStartOneTextConsChi "><h2>学生要求</h2></span>
-                            <div className="indexStartOverWrapper">
-                                <span className="indexStartOneTextConsChi indexStartContent">
-                                    <ul>
-                                        <li>
-                                        年满 18 周岁的在校学生。
-                                        </li>
-                                        <li>
-                                        具有有效的学生证和身份证。
-                                        </li>
-                                    </ul>
-                                </span>
-                                <span className="indexStartOneTextConsChi indexStartContact"><h4>2020年6月1日，报名正式开始！</h4></span>
-                            </div>
-                            
+
+                            <span className="indexStartOneTextConsChi indexStartContact"><h4>2020年6月1日，报名正式开始！</h4></span>
+
                         </div>
                     </div>
                </div>
