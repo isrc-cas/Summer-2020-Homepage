@@ -27,7 +27,7 @@ export default class Howitworks extends React.Component{
            <div className="Howitworks">
                <div className="HowitworksBanner">
                    <div className="HowitworksBannerContent content1200">
-                       <div className="HowitworksBannerTitle">开源软件供应链点亮计划-暑期2020-活动规划</div>
+                       <div className="HowitworksBannerTitle">开源软件供应链点亮计划-暑期2020 活动规划</div>
                        <div className="HowitworksList" >
                            {
                                this.state.data.bannerlist.map((item,index)=>{
@@ -84,7 +84,8 @@ export default class Howitworks extends React.Component{
                        </div>
                        <div className="HowitworksTimeTitle opensource">“开源大咖”系列讲座</div>
                        <div className="HowitworksTimelineList">
-                                <div className="HowitworksTimelineItem">
+                                具体时间后续将发布在官网和公众号
+                                {/* <div className="HowitworksTimelineItem">
                                     <div className="HowitworksTimelineItemIcon"></div>
                                     <div className="HowitworksTimelineItemCons">
                                         <div className="HowitworksTimelineItemTitle">5月15日</div>
@@ -97,7 +98,7 @@ export default class Howitworks extends React.Component{
                                         <div className="HowitworksTimelineItemTitle">10月30日</div>
                                         <div className="HowitworksTimelineItemText">“开源大咖”系列讲座结束</div>
                                     </div>
-                                </div>
+                                </div> */}
                        </div>
                     </div>
                </div>

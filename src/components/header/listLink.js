@@ -8,13 +8,14 @@ const listLinks = [
         title:'howitworks',
     },
     {
-        name:'联系我们',
-        title:'contactus',
-    },
-    {
         name:'如何加入',
         title:'started',
     },
+    {
+        name:'联系我们',
+        title:'contactus',
+    },
+  
 
 ]
 
