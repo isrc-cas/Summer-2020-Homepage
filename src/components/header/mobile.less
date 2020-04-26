@@ -76,21 +76,44 @@
             }
         }
         .indexHomeZ{
+            .indexHomeOne{
+                height: auto;
+                .indexHomeOneWrapper{
+                    padding: 50px 0;
+                    .indexHomeOneTextConsChi{
+                        margin-top:0;
+                        font-size: 20px;
+                        margin-bottom: 30px;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+           
+            
             .indexHomeOneTextCons{
                 width: 100%;
             }
             .indexHomeThird{
                 .indexHomeThirdWrapper{
-                    .indexHomOrItem{
-                        height: 20px;
+                    
+                    .indexHomeOrList.holder{
+                        flex-direction: column;
+                        align-items: center;
+                        .indexHomOrItem{
+                            width: 100%;
+                            
+                        }
                     }
+                    
                     .indexHomeOrList.holder {
                         .indexHomOrItem:nth-child(1){
-                            height: 28px;
-                            margin-left: 0;
+                           margin-left: 0;
+                           width: 80vw;
+                           margin-bottom: 30px;
                         }
                         .indexHomOrItem:nth-child(2){
-                            height: 22px;
+                            width: 50vw;
+                            
                             
                         }
                     }
@@ -103,24 +126,32 @@
                 }
                 .indexHomeIconItem{
                     flex-direction: row;
-                    align-items: flex-start;
                     width: 90vw;
+                    height: 10vh;
+                    .indexHomeIconItemIcon {
+                        margin-right: 5vw;
+                        width: 40px;
+                        /* text-align: left; */
+                        margin-bottom: 0;
+                    }
                     .indexHomeIconItemText{
                         width: 70vw;
                     }
                    
                 }
-                .indexHomeIconItemIcon {
-                    margin-right: 5vw;
+  
+                .mobiledisplaynone{
+                    display: none;
                 }
-                
                 .indexHomeSecondText{
                     text-align: left;
-                    padding: 60px 0 30px;
+                    padding: 50px 5vw;
+                    background: #fff;
+                    box-sizing: border-box;
 
                 }
                 .indexHomeSecondWrapper {
-                    padding-bottom: 30px;
+                    padding: 40px 0 10px;
                 }
             }
 
