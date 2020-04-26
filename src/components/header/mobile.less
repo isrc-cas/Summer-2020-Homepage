@@ -5,6 +5,9 @@
         .displayblock{
             display: block;
         }
+        .mobiledisplaynone{
+            display: none;
+        }
         .osscHeaderMobileList{
 
             position: fixed;
@@ -140,9 +143,7 @@
                    
                 }
   
-                .mobiledisplaynone{
-                    display: none;
-                }
+
                 .indexHomeSecondText{
                     text-align: left;
                     padding: 50px 5vw;
@@ -165,9 +166,26 @@
         //howitwork
 
         .Howitworks{
+            .HowitworksContent{
+                margin-bottom: 0;
+            }
             .HowitworksTimeline{
-                .HowitworksTimeTitle{
-                    font-size: 24px;
+                background-color: #f6faff;
+                padding-top: 20px;
+               
+                .HowitworksBannerTitleMobile{
+                    display: block;
+                    text-align: center;
+                    /* padding: 10px 0; */
+                    padding-bottom: 20px;
+                    font-size: 18px;
+                    color: #666;
+                    .HowitworkOne{
+                        font-size: 26px;
+                        /* text-align: center; */
+                        color: #333;
+                        margin-bottom: 6px;
+                    }
                 }
                 .HowitworksTimelineItem .HowitworksTimelineItemTitle{
                     font-size: 18px;
@@ -177,7 +195,24 @@
                 }
 
             } 
+            .HowitworksContent{
+                .HowitworksContentItem{
+                    .HowitworksContentTitle{
+                        font-weight: bold;
+                    }
+                    .HowitworksContentTitle::before{
+                        position: absolute;
+                        content: "";
+                        width: 4px;
+                        height: 100%;
+                        background: #741bed;
+                        left: -5vw;
+
+                    }
+                }
+            }
             .HowitworksBanner{
+                height: auto;
                 .HowitworksBannerTitle{
                     font-size: 21px;
                     padding: 30px 0;
@@ -190,17 +225,26 @@
                         margin-bottom: 30px;
                     }
                     .HowitworksListItemImage{
-                        position: absolute;
-                        margin-top: 12px;
+                         position: absolute;
+                        /* margin-top: 12px; */
+                        width: 35px;
+                        margin-top: -15px;
+                        min-height: 30px;
                     }
                     .HowitworksListItemTitle{
                         font-size: 20px;
-                        margin:0;
+                        margin: 0;
+                        position: absolute;
+                        left: 14vw;
+                        top: -5px;
                     }
                     .HowitworksListItemContent{
-                        width: 60vw;
-                        margin-left: 28vw;
+                        width: 80vw;
+                        margin-left: 14vw;
                         text-align: left;
+                        font-size: 14px;
+                        margin-top: 22px;
+                        line-height: 24px;
                     }
                 }
             }
@@ -213,12 +257,32 @@
         .contactUs .contactUsContent{
             flex-direction: column;
             padding: 30px 0;
+           
+            .contentUsListItemTitlelong{
+                border-top: 1px solid  #dadee6;
+                width: 91vw;
+               
+            }
+            .contentUsTitle::before{
+                position: absolute;
+                content: "";
+                width: 4px;
+                height: 100%;
+                background: #741bed;
+                left: -5vw;
+            }
+            .contactWeixinjpg{
+                width: 90vw;
+                height: auto;
+                padding-top: 6px;
+            }
             .weixindiscuss,
             .imageweixin{
                 margin-top:0;
             }
             .contentUsListItem{
                 font-size: 16px;
+                margin-top: 15px;
             }
             .contentUsTitle{
                 font-size: 24px;
@@ -228,14 +292,23 @@
                 .contentUsListItem.gray{
                     display: none;
                 }
+                .contentUsListItemTitle{
+                    width: 64px;
+                }
             }
             .contentUsContact{
                 width: 100%;
                 
             }
 
-            .contactWeixinjpg.discuss{
-                display: none;
+            .contentUsListItemTitlelongS::before{
+                position: absolute;
+                width: 100%;
+                height: 1px;
+                background-color:  #dadee6;
+                content: "";
+                top:-7px
+               
             }
             .contactWeixinjpgMobile{
                 display: block;
@@ -248,6 +321,8 @@
         } 
     }
 }
+
+.HowitworksBannerTitleMobile,
 .contactWeixinjpgMobile,
 .osscHeaderMobileList,
 .ossHeaderMobileIcon{
