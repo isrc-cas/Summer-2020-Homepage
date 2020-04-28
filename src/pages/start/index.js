@@ -1,7 +1,14 @@
 import React from 'react'
 import './index.less';
+import data from './data.js'
 // import {NavLink} from 'react-router-dom';
 export default class Start extends React.Component{
+    constructor(props){
+        super(props)
+        this.state ={
+            data,
+        }
+    }
     componentDidMount(){
        
     }
@@ -15,53 +22,33 @@ export default class Start extends React.Component{
         
         return(
            <div className="indexStart">
-               <div className="indexStartOne">
-                    <div className="indexStartOneWrapper content1200">
-                        <div className="indexStartOneTextCons">
-                            <span className="indexStartOneTextConsChi indexStartIcon indexStartIconOne"></span>
-                            <br/>
-                            <span className="indexStartOneTextConsChi"><h2>合作单位</h2></span>
-                            <br/>
-                            <span className="indexStartOneTextConsChi">和我们一起贡献开源！</span>
-                            <br/>
-                            <br/>
-                            <span 
-                                className="indexStartOneTextConsChi startButton"
-                                onClick={()=>this.scrollLocation('sponsor')}
-                                >
-                                联系我们
-                                {/* <NavLink to="/contactus">联系我们</NavLink> */}
+               <div className="startBanner">
+                    <div className="startBannerContent content1200">
+                        <div className="startList" >
+                            {
+                                this.state.data.bannerlist.map((item,index)=>{
                                     
-                            </span>
-
-                        </div>
-                        <div className="indexStartOneTextCons">
-                            <span className="indexStartOneTextConsChi indexStartIcon indexStartIconTwo"></span>
-                            <br/>
-                            <span className="indexStartOneTextConsChi"><h2>社区</h2></span>
-                            <br/>
-                            <span className="indexStartOneTextConsChi">让更多的学生和开发者们加入你的社区!</span>
-                            <br/>
-                            <br/>
-                            <span 
-                                className="indexStartOneTextConsChi startButton"
-                                onClick={()=>this.scrollLocation('community')}
-                                >
-                                立即报名
-                                {/* <NavLink to="/contactus">立即报名</NavLink>    */}
-                            </span>
-                            
-                        </div>
-                        <div className="indexStartOneTextCons">
-                            <span className="indexStartOneTextConsChi indexStartIcon indexStartIconThree"></span>
-                            <br/>
-                            <span className="indexStartOneTextConsChi"><h2>学生</h2></span>
-                            <br/>
-                            <span className="indexStartOneTextConsChi">利用暑期的时间，贡献你的代码吧！</span>
-                            <span className="indexStartOneTextConsChi"><h4>2020年6月1日，报名正式开始！</h4></span>
-                            <br/>
-                            <span className="indexStartQuote"> </span>
-
+                                    return item.button ? (
+                                        <div className="startListItem" key={index}>
+                                                <div className={["startListItemImage",item.stitle].join(" ")}></div>
+                                                <div className="startListItemTitle">{item.title}</div>
+                                                <div className="startListItemContent">{item.text}</div>
+                                                <div className="startListItemContent">
+                                                    <div className="startListButton">{item.button}</div>
+                                                </div>
+                                        </div>
+                                    )
+                                    :
+                                    (
+                                        <div className="startListItem" key={index}>
+                                                <div className={["startListItemImage",item.stitle].join(" ")}></div>
+                                                <div className="startListItemTitle">{item.title}</div>
+                                                <div className="startListItemContent">{item.text}</div>
+                                                <div className="startListItemContent">{item.text_2}</div>
+                                        </div>
+                                    )
+                                })
+                            }            
                         </div>
                     </div>
                </div>

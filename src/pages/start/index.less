@@ -1,7 +1,10 @@
 .indexStart{
     position: relative;
-    
-    .startButton {
+
+    .startListButton {
+        text-align: center;
+        line-height: 10px;
+        width: 60px;
         padding: 8px 18px;  
         font-size: 14px;
         margin: 5px;
@@ -16,35 +19,13 @@
             color: white;
         }
     }
-    .startButton:hover {
+    .startListButton:hover {
         background-color: #9086ec;
         cursor: pointer;
         box-shadow: none;
     }
-    .indexStartIcon {
-        width: 65px;
-        height: 60px;
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    .indexStartIconOne {
-        background-image: url(./../../img/start/icon-sponsor.png);
-    }
-    .indexStartOverWrapper{
-        text-align: left;
-        position: relative;
-        margin-right: -54px;
-        width: 334px;
-        display: inline-block;
-    }
-    .indexStartIconTwo {
-        background-image: url(./../../img/start/icon-community.png);
-    }
-    .indexStartIconThree {
-        background-image: url(./../../img/start/icon-developer.png);
-    }
-    .indexStartOne{
+
+    .startBanner{
         position: relative;
         width: 100%;
         height: 522px;
@@ -53,6 +34,49 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        .startList{
+            position: relative;
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 150px;
+            .startListItem{
+                position: relative;
+                text-align: center;
+                width: 330px;
+                color:#fff
+            }
+            .startListItemImage{
+                background-size: contain;
+                width: 80px;
+                height: 70px;
+                background-position: center;
+                margin: 0 auto;
+                background-repeat: no-repeat;
+            }
+            .startListItemImage.sponsor{
+                background-image: url(./../../img/start/icon-sponsor.png);
+            }
+            .startListItemImage.community{
+                background-image: url(./../../img/start/icon-community.png);
+            }
+            .startListItemImage.student{
+                background-image: url(./../../img/start/icon-developer.png);
+            }
+    
+            .startListItemTitle{
+                font-size: 24px;
+                font-weight: 500;
+                letter-spacing: .005em;
+                margin: 22px 0 10px;
+            }
+            .startListItemContent{
+                font-weight: 400;
+                letter-spacing: .010em;
+                line-height: 50px;
+                font-size: 18px;
+            }
+    
+        }
     }
     .indexStartSecond{
         position: relative;
@@ -63,16 +87,6 @@
             color:#1b1a2a
         }
     }
-
-    .indexStartOneWrapper{
-        display: flex;
-        // padding-top: 110px;
-        box-sizing: border-box;
-        justify-content: space-between;
-        padding-top: 10vh;
-        // align-items: center;
-    }
-
     .indexStartQuote {
         font-size: 10px;
     }
@@ -98,8 +112,12 @@
     .indexStartOneTextConsChi {
         letter-spacing: 1px;
         // text-indent: 2em;
-        margin-top: 15px;
-        display: inline-block;
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+        margin-block-start: 1.33em;
+        margin-block-end: 1.33em;
+
         
     }
     .indexStartContent {
