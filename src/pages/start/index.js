@@ -12,9 +12,8 @@ export default class Start extends React.Component{
     componentDidMount(){
        
     }
-    scrollLocation (indexStr) {
-        var widget = document.getElementById('start-'+indexStr);
-        widget.scrollIntoView(true);
+    scrollLocation () {
+        window.scrollTo(0,document.body.scrollHeight);
         return 0;
     }
 
@@ -34,7 +33,11 @@ export default class Start extends React.Component{
                                                 <div className="startListItemTitle">{item.title}</div>
                                                 <div className="startListItemContent">{item.text}</div>
                                                 <div className="startListItemContent">
-                                                    <div className="startListButton">{item.button}</div>
+                                                    <div 
+                                                        className="startListButton"
+                                                        onClick={this.scrollLocation}
+
+                                                    >{item.button}</div>
                                                 </div>
                                         </div>
                                     )
@@ -44,7 +47,7 @@ export default class Start extends React.Component{
                                                 <div className={["startListItemImage",item.stitle].join(" ")}></div>
                                                 <div className="startListItemTitle">{item.title}</div>
                                                 <div className="startListItemContent">{item.text}</div>
-                                                <div className="startListItemContent">{item.text_2}</div>
+                                                <div className="startListItemContent bold">{item.text_2}</div>
                                         </div>
                                     )
                                 })
