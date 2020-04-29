@@ -182,8 +182,12 @@
         //howitwork
 
         .Howitworks{
+            .HowitworksBannerTitle{
+                display: none;
+            }
             .HowitworksContent{
                 margin-bottom: 0;
+                margin: 40px 0;
             }
             .HowitworksTimeline{
                 background-color: #f6faff;
@@ -216,6 +220,9 @@
                     .HowitworksContentTitle{
                         font-weight: bold;
                     }
+                    .HowitworksContentContent{
+                        color:#666;
+                    }
                     .HowitworksContentTitle::before{
                         position: absolute;
                         content: "";
@@ -231,8 +238,21 @@
                 height: auto;
                 .HowitworksBannerTitle{
                     font-size: 21px;
-                    padding: 30px 0;
+                    padding: 30px 0 30px;
                     letter-spacing: 1px;
+                }
+                .HowitworksBannerTitleMobile{
+                    display: block;
+                    text-align: center;
+                    padding: 20px 0; 
+                    font-size: 18px;
+                    color: #fff;
+                    .HowitworkOne{
+                        font-size: 26px;
+                        /* text-align: center; */
+                        color: #fff;
+                        margin-bottom: 6px;
+                    }
                 }
                 .HowitworksList{
                     flex-direction: column;
@@ -243,23 +263,24 @@
                     .HowitworksListItemImage{
                          position: absolute;
                         /* margin-top: 12px; */
-                        width: 35px;
-                        margin-top: -15px;
+                        width: 30px;
+                        margin-top: -20px;
                         min-height: 30px;
                     }
                     .HowitworksListItemTitle{
                         font-size: 20px;
                         margin: 0;
                         position: absolute;
-                        left: 14vw;
+                        left: 12vw;
                         top: -5px;
                     }
+                    
                     .HowitworksListItemContent{
                         width: 80vw;
-                        margin-left: 14vw;
+                        margin-left: 12vw;
                         text-align: left;
                         font-size: 14px;
-                        margin-top: 22px;
+                        margin-top: 24px;
                         line-height: 24px;
                     }
                 }
