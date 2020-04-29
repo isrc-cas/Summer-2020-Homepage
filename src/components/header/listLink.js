@@ -4,6 +4,10 @@ const listLinks = [
         title:'index',
     },
     {
+        name:'开源社区',
+        title:'organisations',
+    },
+    {
         name:'活动规划',
         title:'howitworks',
     },
