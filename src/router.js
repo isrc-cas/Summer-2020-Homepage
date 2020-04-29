@@ -6,6 +6,7 @@ import Index from './pages/index/index.js';
 import Howitworks from './pages/howitworks/index.js';
 import Contactus from './pages/contactus/index.js';
 import Start from './pages/start/index.js';
+import Organisation from './pages/organisation/index.js';
 import {linkDataMap} from './components/header/listLink.js'
 export default class IRouter extends React.Component{
     constructor(props){
@@ -29,6 +30,7 @@ export default class IRouter extends React.Component{
                                      <Route path="/howitworks" component={Howitworks} />
                                      <Route path="/contactus" component={Contactus} />
                                      <Route path="/started" component={Start} />
+                                     <Route path="/organisations" component={Organisation} />
                                      <Route path="/" component={Index} />
                             </Switch>
                         </Wrapper>
