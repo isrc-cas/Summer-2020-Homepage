@@ -1,7 +1,6 @@
 import React from 'react';
 import './index.less';
 import './mobile.less';
-import './mobile-start.less';
 import {listLinks} from './listLink.js';
 import {NavLink} from 'react-router-dom';
 
