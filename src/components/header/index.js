@@ -32,21 +32,21 @@ export default class Header extends React.Component{
     }
 
     componentDidMount(){
-        // let urlnow = window.location.hash.split("/")[1]
-        // this.setState({
-        //     pageflag:urlnow?'index':urlnow.split("#")[1]
-        // })
+        let urlnow = window.location.hash.split("/")[1]
+        this.setState({
+            pageflag:urlnow?'index':urlnow.split("#")[1]
+        })
       
 
-        // window.addEventListener('hashchange',function(e){
-        //     let urlnow = window.location.hash.split("#")[1].split("/")[1]
-        //     let flagpage = urlnow ? urlnow : 'index';   
+        window.addEventListener('hashchange',function(e){
+            let urlnow = window.location.hash.split("#")[1].split("/")[1]
+            let flagpage = urlnow ? urlnow : 'index';   
               
-        //     setTimeout(()=>{
-        //         window.history.replaceState('','',`/${flagpage}`)
-        //     },5);
+            setTimeout(()=>{
+                window.history.replaceState('','',`./${flagpage}`)
+            },5);
             
-        // })
+        })
 
 
       
