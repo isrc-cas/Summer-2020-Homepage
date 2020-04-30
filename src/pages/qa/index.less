@@ -33,6 +33,8 @@
                     margin-left: 2em;
                 }
             }
+            .QAitem7,
+            .QAitem9,
             .QAitem4,
             .QAitem2{
                 .QAAnswerOneConList{
@@ -93,6 +95,29 @@
             .QAAnswerOneCon{
                 position: relative;
                 margin: 0 0 16px;
+                .qaWeixin{
+                    color: #741bed;
+                    transition: all 0.3s;
+                    cursor: pointer;
+                    position: relative;
+                }
+                .qaWeixin::before{
+                    content:"";
+                    background-image: url(./../../img/weixin.jpg);
+                    position: absolute;
+                    width: 360px;
+                    height: 190px;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    position: absolute;
+                    top: -200px;
+                    left: -103px;
+                    opacity: 0;
+                    
+                }
+                .qaWeixin:hover::before{
+                    opacity: 1;
+                }
             }
             .QAAnswerOneConList{
                 .QAAnswerOneConListItem{

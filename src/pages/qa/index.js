@@ -14,7 +14,7 @@ export default class QuestionAndAnswer extends React.Component{
     getQAItem(a){
         var divItemContainer = []
         var getConlist=function(itema){
-            // console.log(itema)
+            
             if(itema.conlist){
                 var conlistdiv = [];
                 itema.conlist.map((itemal,indexl)=>{

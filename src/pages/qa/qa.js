@@ -113,7 +113,7 @@ const qa = [
             },
             {
                 con:`3. 社区针对每个项目指定一名社区导师，一般应是该项目相关的开发者（maintainer、commitor、contributor），负责：`,
-                conList:[
+                conlist:[
                     `项目难度分为高、中、低三档，对应税前奖金分别为高（12000 元）、中（9000 元）、低（6000 元）。`,
                     `难度分级由社区根据项目任务自行决定。`,
                     `主办方会资助最终有学生申请的项目，在预算范围内主办方会尽可能的支持更多的项目，预期是 200+ 的项目。`,
@@ -136,7 +136,7 @@ const qa = [
         a:[
             {
                 con:`请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn">summer2020@iscas.ac.cn</a>，主办方会安排人专门与社区对接，讨论后续具体合作事宜。`,
-                conList:[
+                conlist:[
                     `合作单位名称：`,
                     `联系人姓名：`,
                     `联系电话：`,
@@ -149,7 +149,7 @@ const qa = [
         a:[
             {
                 con:`1. 在合作单位的网站、公众号、朋友圈、微信群 基于活动官方文案(网站: <a href="https://isrc.iscas.ac.cn/summer2020">isrc.iscas.ac.cn/summer2020</a>，
-                    公众号：ISCAS_ISRC)宣传推广本活动，鼓励并吸引更多人参与开源活动中。`,
+                    公众号：<span class="qaWeixin">ISCAS_ISRC</span>)宣传推广本活动，鼓励并吸引更多人参与开源活动中。`,
             },
             {
                 con:`2. 其他推广本次活动的事项。`,
