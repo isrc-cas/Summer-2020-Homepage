@@ -86,7 +86,12 @@ export default class Index extends React.Component{
                <div className="indexHomeOne">
                     <div className="indexHomeOneWrapper content1200">
                     <div className="indexHomeOneTextCons">
-                        
+                        <div className="indexHomeOneTextConsEngOne">
+                        / ISCAS & openEuler Community
+                        </div>
+                        <div className="indexHomeOneTextConsEngTwo">
+                        Open Source Promotion Plan <span className="mobiledisplaynone">-</span><br className="indexHomeOneTextConsEngTwoNone"/> Summer 2020
+                        </div>
                         <div className="indexHomeOneTextConsChi">开源软件供应链点亮计划鼓励大家关注开源软件和开源社区，培养和发掘更多优秀的开发者。</div><br/>
                         <span className="indexHomeOneTextConsChi">活动将在暑期进行，我们将与开源社区紧密合作，提供一对一的导师指导，邀技术大牛免费讲座。</span>
                         {/* <span className="indexHomeOneTextConsChi two">我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，
