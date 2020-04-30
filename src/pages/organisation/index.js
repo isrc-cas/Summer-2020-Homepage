@@ -1,6 +1,5 @@
 import React from 'react'
 import './index.less';
-import './mobile.less';
 import data from './data.js'
 
 export default class Organisation extends React.Component{
