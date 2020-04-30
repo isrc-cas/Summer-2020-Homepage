@@ -114,11 +114,11 @@ export default class Index extends React.Component{
                                 <div className="indexHomOrItem nanjing" ></div>                         
                             </div>
                             <div className="indexHomeThirdTitle">合作单位</div>
-                            <div className="indexHomeOrList relateThree">
+                            {/* <div className="indexHomeOrList relateThree">
                                 <div className="indexHomOrItem jisuan" ></div>
                                 <div className="indexHomOrItem hanwuji" ></div> 
                                 <div className="indexHomOrItem tengxun" ></div>                         
-                            </div>
+                            </div> */}
                             <div  className="indexHomeOrListOpensource">
                                 {this.getOpensource()}
                             </div>
