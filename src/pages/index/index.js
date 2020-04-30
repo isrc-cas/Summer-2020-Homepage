@@ -9,12 +9,24 @@ export default class Index extends React.Component{
     }
 
     getOrList(){
-        const orList = ['iscaslogo.png','openeuler.png'];
+        const orList = ['iscaslogo.jpg','openeuler.jpg'];
         let divContainer = [];
         orList.map((item,index)=>{
             divContainer.push(<div className="indexHomOrItem" key={index} style={{backgroundImage: "url("+require("./../../img/or/"+item) + ")"}}></div>)
             return 0;
         })
+        return divContainer
+    }
+
+    getOpensource(){
+        const logolen = 30;
+        var divContainer = []
+        for(var i = 4; i <= logolen ;i++){
+            divContainer.push(<div 
+                key = {i}
+                style={{backgroundImage:"url("+require("./../../img/logolist/logo"+i+".jpg") + ")"}}
+                className="indexHomOpensourceItem"></div>)
+        }
         return divContainer
     }
 
@@ -99,7 +111,16 @@ export default class Index extends React.Component{
                             </div>
                             <div className="indexHomeThirdTitle">承办单位</div>
                             <div className="indexHomeOrList">
-                            <div className="indexHomOrItem naijing" ></div>
+                                <div className="indexHomOrItem nanjing" ></div>                         
+                            </div>
+                            <div className="indexHomeThirdTitle">合作单位</div>
+                            <div className="indexHomeOrList relateThree">
+                                <div className="indexHomOrItem jisuan" ></div>
+                                <div className="indexHomOrItem hanwuji" ></div> 
+                                <div className="indexHomOrItem tengxun" ></div>                         
+                            </div>
+                            <div  className="indexHomeOrListOpensource">
+                                {this.getOpensource()}
                             </div>
                         </div>
                </div>
