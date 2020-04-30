@@ -8,7 +8,7 @@
         background-size: cover;
         background-position: left;
         background-repeat: no-repeat;
-        background-color: #dbdff2;
+        background-color: #d8dff1;
         .orgBannerTitle {
             font-size: 42px;
             color: white;
@@ -17,13 +17,13 @@
         }
     }
     .orgListWrapper {
-        background-color: #dbdff2;
+        background-color: #d8dff1;
         padding-bottom: 27px;
         min-height: calc(100vh - 437px);
         .orgList {
             position: relative;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
             flex-wrap: wrap;
             .orgListItem {
                 position: relative;
@@ -31,7 +31,7 @@
                 width: 382px;
                 margin: 27px auto 0 auto;
             }
-            .orgListItemImage:hover {
+            .orgListItem:hover {
                 box-shadow:0 9px 11px -5px rgba(0, 0, 0, .2), 0 18px 28px 2px rgba(0, 0, 0, .14), 0 7px 34px 6px rgba(0, 0, 0, .12)
             }
 
@@ -61,16 +61,31 @@
                 background-image: url(./../../img/organisation/RT-Thread.jpg);
             }
             .orgListItemImage.Emacs {
-                // background-image: url(./../../img/organisation/Emacs_China_logo.png);
+                background-image: url(./../../img/organisation/emacs.jpg);
+            }
+            .orgListItemImage.xlab {
+                background-image: url(./../../img/organisation/xlab.jpg);
+            }
+            .orgListItemImage.kaiyuanshe {
+                background-image: url(./../../img/organisation/kaiyuanshe.jpg);
+            }
+            .orgListItemImage.segmentfault {
+                background-image: url(./../../img/organisation/segment.jpg);
+            }
+            .orgListItemImage.oschina {
+                background-image: url(./../../img/organisation/oschina.jpg);
             }
             .orgListItemTitle {
                 // line-height: 400px;
+                color: #535667;
                 font-size: 24px;
-                font-weight: 500;
                 letter-spacing: .005em;
                 background-color: white;
-                padding: 10px;
+                padding-bottom: 30px;
             }
+        }
+        .orgList:nth-of-type(1) > :last-child {
+            margin: 27px 9px 0 9px;
         }
     }
 
