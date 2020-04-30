@@ -15,6 +15,8 @@ export default class Start extends React.Component{
     }
     scrollLocation (indexStr) {
         document.getElementById("start-"+indexStr).scrollIntoView();
+        document.getElementById(indexStr).style.display = "block";
+        setTimeout(()=>{document.getElementById(indexStr).style.display = "none";}, 2000);
         // window.scrollTo(0,document.body.scrollHeight);
         return 0;
     }
@@ -40,6 +42,7 @@ export default class Start extends React.Component{
                                                         onClick={() => this.scrollLocation(item.stitle)}
 
                                                     >{item.button}</div>
+                                                    <span id={item.stitle} className="tn-box-color-1">可通过下方联系方式，咨询合作和报名事宜。</span>
                                                 </div>
                                         </div>
                                     )
