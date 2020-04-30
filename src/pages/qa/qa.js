@@ -1,4 +1,5 @@
-import cp from './../../file/communityprogram.md'
+import cp from './../../file/communityprogram.md';
+import ce from './../../file/communityenroll.md';
 const qa = [
     {
         q:"开源软件供应链点亮计划是什么？",
@@ -65,12 +66,10 @@ const qa = [
     {
         q:'社区如何报名？',
         a:[
-            {
-                con:`请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn">summer2020@iscas.ac.cn</a>，主办方会安排人专门与社区对接，讨论后续具体合作事宜。`,
+            {   
+                con:`请参照社区报名模板填写社区相关信息，发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn">summer2020@iscas.ac.cn</a>，主办方会安排人专门与社区对接，讨论后续具体合作事宜。`,
                 conlist:[
-                    `社区或开源项目名称：`,
-                    `联系人姓名：`,
-                    `联系电话：`
+                    `<a download="社区报名模板.md" href=${ce}>社区报名模板</a>`,
                 ]
                 
             }

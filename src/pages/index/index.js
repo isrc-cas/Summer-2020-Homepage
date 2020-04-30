@@ -1,10 +1,14 @@
-import React from 'react'
+import React from 'react';
 import './index.less';
+import logolistMap from './logo.js'
 
 
 export default class Index extends React.Component{
-    componentDidMount(){
-        
+    constructor(props){
+        super(props);
+        this.state = {
+            logolistMap,
+        }
        
     }
 
@@ -19,14 +23,21 @@ export default class Index extends React.Component{
     }
 
     getOpensource(){
-        const logolen = 30;
+        // const logolen = 30;
         var divContainer = []
-        for(var i = 4; i <= logolen ;i++){
+        this.state.logolistMap.map((item,index)=>{
             divContainer.push(<div 
-                key = {i}
-                style={{backgroundImage:"url("+require("./../../img/logolist/logo"+i+".jpg") + ")"}}
+                key = {index}
+                style={{backgroundImage:"url("+require("./../../img/logolist/"+item.img) + ")"}}
                 className="indexHomOpensourceItem"></div>)
-        }
+            return 0;
+        })
+        // for(var i = 4; i <= logolen ;i++){
+        //     divContainer.push(<div 
+        //         key = {i}
+        //         style={{backgroundImage:"url("+require("./../../img/logolist/logo"+i+".jpg") + ")"}}
+        //         className="indexHomOpensourceItem"></div>)
+        // }
         return divContainer
     }
 

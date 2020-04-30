@@ -18,7 +18,12 @@ export default class QuestionAndAnswer extends React.Component{
             if(itema.conlist){
                 var conlistdiv = [];
                 itema.conlist.map((itemal,indexl)=>{
-                    conlistdiv.push(<div className="QAAnswerOneConListItem" key={'a'+indexl}><span>{itemal}</span></div>)
+                    conlistdiv.push(<div className="QAAnswerOneConListItem" key={'a'+indexl}>
+                        <span>
+                            
+                            <p dangerouslySetInnerHTML={{ __html: itemal }}  />
+                        </span>
+                    </div>)
                     return 0
                 })
                 return conlistdiv
