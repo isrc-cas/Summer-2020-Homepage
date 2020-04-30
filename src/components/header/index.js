@@ -8,7 +8,7 @@ import {NavLink} from 'react-router-dom';
 var withl = window.screen.width
 
 
-if(withl<1200 && withl>800){
+if(withl<1200 && withl>700){
     //1.0 判定为移动手机设备
     var scaleIndex = withl/1200;
     document.getElementsByTagName("body")[0].style.transform = "scale("+scaleIndex+")";
@@ -36,18 +36,17 @@ export default class Header extends React.Component{
         this.setState({
             pageflag:urlnow?'index':urlnow.split("#")[1]
         })
-        console.log(this.state.pageflag)
+      
 
-        // window.addEventListener('hashchange',function(e){
-        //     let urlnow = window.location.hash.split("/")[1]
-        //     let flagpage = 'index'
-        //     if(urlnow){
-        //         flagpage = urlnow.split("#")[1]
-        //     }
-        //     // if(e.newURL.split("#")[1] === '/'){
-        //     // setTimeout(" window.history.replaceState('','','/')",100)
-        //     // }
-        // })
+        window.addEventListener('hashchange',function(e){
+            let urlnow = window.location.hash.split("#")[1].split("/")[1]
+            let flagpage = urlnow ? urlnow : 'index';   
+              
+            setTimeout(()=>{
+                window.history.replaceState('','',`/${flagpage}`)
+            },5);
+            
+        })
 
 
       
@@ -69,6 +68,12 @@ export default class Header extends React.Component{
         })
     }
 
+    getActive(title){
+        if(title === 'index'){
+            return 'active'
+        }
+    }
+
     render(){
         return(
             <div className="osscHeader">
@@ -79,7 +84,7 @@ export default class Header extends React.Component{
                         {
                             this.state.listLinks.map((item,index)=>{
                             return (
-                                <NavLink key={index} to={'/'+item.title}>
+                                <NavLink key={index} to={'/'+item.title} >
                                     <div  
                                             
                                             className={["osscListItem",this.state.pageflag===item.title?'left0':''].join(" ")}>
