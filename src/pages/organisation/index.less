@@ -9,34 +9,41 @@
         background-position: left;
         background-repeat: no-repeat;
         background-color: #dbdff2;
+        .orgBannerTitle {
+            font-size: 42px;
+            color: white;
+            font-weight: bolder;
+            padding-top: 120px;
+        }
     }
     .orgListWrapper {
         background-color: #dbdff2;
+        padding-bottom: 27px;
+        min-height: calc(100vh - 437px);
         .orgList {
             position: relative;
             display: flex;
-            // flex: wrap;
-            // width: 2000px;
             justify-content: space-evenly;
             flex-wrap: wrap;
-            min-height: 800px;
-            .orgListItem{
+            .orgListItem {
                 position: relative;
                 text-align: center;
                 width: 382px;
-                // height: 382px;
                 margin: 27px auto 0 auto;
             }
+            .orgListItemImage:hover {
+                box-shadow:0 9px 11px -5px rgba(0, 0, 0, .2), 0 18px 28px 2px rgba(0, 0, 0, .14), 0 7px 34px 6px rgba(0, 0, 0, .12)
+            }
+
             .orgListItemImage {
                 background-size: contain;
                 width: 382px;
                 height: 228px;
-                background-position: top;
+                background-position: center;
                 margin: 0 auto;
                 background-repeat: no-repeat;
                 background-color: white;
                 cursor: pointer;
-                margin-bottom: 27px;
             }
             .orgListItemImage.ApacheAPISIX {
                 background-image: url(./../../img/organisation/ApacheAPISIX.jpg);
@@ -53,11 +60,16 @@
             .orgListItemImage.RT-Thread {
                 background-image: url(./../../img/organisation/RT-Thread.jpg);
             }
+            .orgListItemImage.Emacs {
+                // background-image: url(./../../img/organisation/Emacs_China_logo.png);
+            }
             .orgListItemTitle {
-                line-height: 400px;
+                // line-height: 400px;
                 font-size: 24px;
                 font-weight: 500;
                 letter-spacing: .005em;
+                background-color: white;
+                padding: 10px;
             }
         }
     }
