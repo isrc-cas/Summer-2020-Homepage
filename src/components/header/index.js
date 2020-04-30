@@ -78,7 +78,9 @@ export default class Header extends React.Component{
         return(
             <div className="osscHeader">
                <div className="osscHeaderContent content1200">
+                   <NavLink to="/index">
                     <div className="osscHeaderLogo"></div>
+                    </NavLink>
                     <div className="ossHeaderMobileIcon" onClick={()=>this.getHeaderList()}></div>
                     <div className="osscHeaderList">
                         {
