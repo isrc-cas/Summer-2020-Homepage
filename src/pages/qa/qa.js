@@ -135,7 +135,7 @@ const qa = [
         q:'合作单位如何报名？',
         a:[
             {
-                con:`请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn">summer2020@iscas.ac.cn</a>，主办方会安排人专门与社区对接，讨论后续具体合作事宜。`,
+                con:`请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn">summer2020@iscas.ac.cn</a>，主办方会安排人专门与合作单位对接，讨论后续具体合作事宜。`,
                 conlist:[
                     `合作单位名称：`,
                     `联系人姓名：`,
