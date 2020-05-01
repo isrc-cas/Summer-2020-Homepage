@@ -20,7 +20,7 @@ const data = {
         },
         {
             img:'Linuxlab.jpg',
-            title:'Linuxlab',
+            title:'Linux Lab',
             stitle:'Linuxlab',
             url:'http://tinylab.org/linux-lab'
         },
