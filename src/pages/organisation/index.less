@@ -22,9 +22,13 @@
         min-height: calc(100vh - 437px);
         .orgList {
             position: relative;
-            display: flex;
+            // display: flex;
+            // justify-content: space-between;
+            // flex-wrap: wrap;
+            display: grid;
             justify-content: space-between;
-            flex-wrap: wrap;
+            grid-template-columns: repeat(auto-fill, 328px);
+            // grid-gap: 0px;
             .orgListItem {
                 position: relative;
                 text-align: center;
@@ -44,6 +48,9 @@
                 background-repeat: no-repeat;
                 background-color: white;
                 cursor: pointer;
+            }
+            .orgListItemImage.wuhan2020 {
+                background-image: url(./../../img/organisation/wuhan2020.jpg);
             }
             .orgListItemImage.ApacheAPISIX {
                 background-image: url(./../../img/organisation/ApacheAPISIX.jpg);
@@ -84,12 +91,12 @@
                 padding-bottom: 30px;
             }
         }
-        .orgList:nth-of-type(1) > :last-child {
-            margin: 27px 9px 0 9px;
-        }
+        // .orgList:last-child, .orgList:nth-child(4n - 2) {
+        //     margin-right: auto;
+        // }
         @media screen and (min-width: 100px)and (max-width: 700px){
-            .orgList:nth-of-type(1) > :last-child {
-                margin: 27px auto 0 auto;
+            .orgList {
+                grid-template-columns: repeat(auto-fill, 90vw);
             }
         }
     }

@@ -37,6 +37,12 @@ const data = {
             url:'https://www.rt-thread.org/'
         },
         {
+            img:'wuhan2020.jpg',
+            title:'Wuhan 2020',
+            stitle:'wuhan2020',
+            url:'https://community.wuhan2020.org.cn/zh-cn/'
+        },
+        {
             img:'xlab.jpg',
             title:'X-Lab',
             stitle:'xlab',
