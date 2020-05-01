@@ -2,7 +2,7 @@ import React from 'react'
 import './index.less';
 import imgWeixin from './../../img/weixin.jpg';
 import imgDiscuss from './../../img/wx_t.jpg';
-
+// import imgDiscussM from './../../img/or/wx_t_m.png';
 
 export default class Contactus extends React.Component{
     constructor(props){
@@ -51,8 +51,7 @@ export default class Contactus extends React.Component{
                                     欢迎发邮件给我们，并留下联系方式，我们会尽快与您联系
                                 </div>
                                 <div className="contentUsListItem">
-                                    <div className="contentUsListItemTitle">邮&nbsp;&nbsp;&nbsp;&nbsp;箱:</div>
-                                    <div className="contentUsListItemText">summer2020@iscas.ac.cn</div>
+                                    <div className="contentUsListItemTitle">邮&nbsp;&nbsp;&nbsp;&nbsp;箱:</div><div className="contentUsListItemText">summer2020@iscas.ac.cn</div>
                                 </div>
                                 <div className="contentUsListItem imageweixin">
                                     <div className="contentUsListItemTitlelong">公众号：ISCAS_ISRC -> 活动专栏 -> 暑期2020</div>
@@ -81,7 +80,9 @@ export default class Contactus extends React.Component{
                             <div className="contentUsListItem weixindiscuss">
                                     <div className="contentUsListItemTitlelongS">开源点亮计划-暑期2020-微信讨论群</div>
                                     {/* <div className="contentUsListItemImage wx_discuss"></div> */}
-                                    <img src={imgDiscuss} className="contactWeixinjpg" alt="讨论群"></img>
+                                    <img src={imgDiscuss} className="contactWeixinjpg discuss" alt="讨论群"></img>
+                                   
+                                    
                                 </div>
                         </div>
 

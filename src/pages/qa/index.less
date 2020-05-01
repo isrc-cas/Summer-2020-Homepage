@@ -1,0 +1,132 @@
+.QuestionAndAnswer{
+    position: relative;
+    .QuestionAndAnswerWrapper{
+        position: relative;
+        .QuestionAndAnswerTitle{
+            height: 280px;
+            font-size: 36px;
+            font-weight: normal;
+            letter-spacing: 0px;
+            color: #ffffff;
+            background-image: url(./../../img/index/qabanner.jpg);
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            line-height: 280px;
+            margin-bottom: 40px;
+        }
+        .QuestionAndAnswerContent{
+            position: relative;
+            .QuestionAndAnswerItem{
+                position: relative;
+                margin-bottom: 46px;
+                a{
+                    color: #741bed;
+                    transition: all 0.3s;
+                    
+                }
+
+            }
+            .QAitem0{
+                .QAAnswerOneConList{
+                    position: relative;
+                    margin-left: 2em;
+                }
+            }
+            .QuestionAndAnswerItem{
+                .QAAnswerOneConList{
+                    position: relative;
+                    margin-left: 2em;
+                    .QAAnswerOneConListItem::before{
+                        position: absolute;
+                        content: "";
+                        width: 6px;
+                        height: 6px;
+                        border-radius: 50%;
+                        background: #741bed;
+                        top:15px;
+                    }
+                    .QAAnswerOneConListItem{
+                        span{
+                            margin-left: 14px;
+                            display: inline-block;
+                            p{
+                                margin:0
+                            }
+                        }
+                    }
+                }
+            }
+            .QuestionAndAnswerQuesionTitle{
+                position: relative;
+                font-family: PingFang-SC-Bold;
+                font-size: 24px;
+                font-weight: 600;
+                font-stretch: normal;
+                letter-spacing: 0px;
+                color: #333333;
+                margin-bottom: 25px;
+                line-height: 25px;
+                span{
+                    margin-left: 16px;
+                    position: relative;
+                    display: inline-block;
+                }
+            }
+            .QuestionAndAnswerQuesionTitle::before{
+                position: absolute;
+                content: "";
+                width: 6px;
+                height: 100%;
+                background: #741bed;
+                
+            }
+            .QuestionAndAnswerAnswerContent{
+                position: relative;
+                font-size: 18px;
+                font-weight: normal;
+                font-stretch: normal;
+                line-height: 35px;
+
+                color: #4d4d4d;
+            }
+            .QAAnswerOneCon{
+                position: relative;
+                margin: 0 0 16px;
+                .qaWeixin{
+                    color: #741bed;
+                    transition: all 0.3s;
+                    cursor: pointer;
+                    position: relative;
+                }
+                .qaWeixin::before{
+                    content:"";
+                    background-image: url(./../../img/weixin.jpg);
+                    position: absolute;
+                    width: 360px;
+                    height: 190px;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    position: absolute;
+                    top: -200px;
+                    left: -103px;
+                    opacity: 0;
+                    
+                }
+                .qaWeixin:hover::before{
+                    opacity: 1;
+                }
+            }
+            .QAAnswerOneConList{
+                .QAAnswerOneConListItem{
+                    position: relative;
+                    p{
+                        margin:0
+                    }
+                    
+                    
+                }
+            }
+        }
+    }
+}

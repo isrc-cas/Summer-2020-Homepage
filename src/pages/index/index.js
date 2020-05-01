@@ -1,20 +1,43 @@
-import React from 'react'
+import React from 'react';
 import './index.less';
+import logolistMap from './logo.js'
 
 
 export default class Index extends React.Component{
-    componentDidMount(){
-        
+    constructor(props){
+        super(props);
+        this.state = {
+            logolistMap,
+        }
        
     }
 
     getOrList(){
-        const orList = ['iscaslogo.png','openeuler.png'];
+        const orList = ['iscaslogo.jpg','openeuler.jpg'];
         let divContainer = [];
         orList.map((item,index)=>{
             divContainer.push(<div className="indexHomOrItem" key={index} style={{backgroundImage: "url("+require("./../../img/or/"+item) + ")"}}></div>)
             return 0;
         })
+        return divContainer
+    }
+
+    getOpensource(){
+        // const logolen = 30;
+        var divContainer = []
+        this.state.logolistMap.map((item,index)=>{
+            divContainer.push(<div 
+                key = {index}
+                style={{backgroundImage:"url("+require("./../../img/logolist/"+item.img) + ")"}}
+                className="indexHomOpensourceItem"></div>)
+            return 0;
+        })
+        // for(var i = 4; i <= logolen ;i++){
+        //     divContainer.push(<div 
+        //         key = {i}
+        //         style={{backgroundImage:"url("+require("./../../img/logolist/logo"+i+".jpg") + ")"}}
+        //         className="indexHomOpensourceItem"></div>)
+        // }
         return divContainer
     }
 
@@ -63,8 +86,13 @@ export default class Index extends React.Component{
                <div className="indexHomeOne">
                     <div className="indexHomeOneWrapper content1200">
                     <div className="indexHomeOneTextCons">
-                        
-                        <span className="indexHomeOneTextConsChi">开源软件供应链点亮计划鼓励大家关注开源软件和开源社区，培养和发掘更多优秀的开发者。</span><br/>
+                        <div className="indexHomeOneTextConsEngOne">
+                        / ISCAS & openEuler Community
+                        </div>
+                        <div className="indexHomeOneTextConsEngTwo">
+                        Open Source Promotion Plan <span className="mobiledisplaynone">-</span><br className="indexHomeOneTextConsEngTwoNone"/> Summer 2020
+                        </div>
+                        <div className="indexHomeOneTextConsChi">开源软件供应链点亮计划鼓励大家关注开源软件和开源社区，培养和发掘更多优秀的开发者。</div><br/>
                         <span className="indexHomeOneTextConsChi">活动将在暑期进行，我们将与开源社区紧密合作，提供一对一的导师指导，邀技术大牛免费讲座。</span>
                         {/* <span className="indexHomeOneTextConsChi two">我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，
                         促进开源软件在国内的发展和优秀开源软件社区建设，增加开源项目在国内的活跃度，在开源领域与世界接轨。</span> */}
@@ -74,35 +102,22 @@ export default class Index extends React.Component{
                     </div>
                </div>
                <div className="indexHomeSecond">
-                    <div className="content1200">
-                        <div className="indexHomeSecondText">
+                    {/* <div> */}
+                        <div className="indexHomeSecondText ">
                             <span>我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，促进开源软件在国内的发展</span>
-                            <br/>
+                            <br className="mobiledisplaynone"/>
                             <span>和优秀开源软件社区建设，增加开源项目在国内的活跃度，在开源领域与世界接轨。</span>
                         </div>
-                        <div className="indexHomeSecondWrapper ">
-                        <div className="indexHomeSecondTextCons">
+                        <div className="indexHomeSecondWrapper content1200">
+                            <div className="indexHomeSecondTextCons">
+                                
+                                    {this.getTextTwo()}
                             
-                                {this.getTextTwo()}
-                           
+                            </div>
                         </div>
 
-                        </div>
-                    {/* <div className="indexHomeOneWrapper ">
-                        <div className="indexHomeTwoImage"></div>
-                        <div className="indexHomeOneTextCons">
-                            <span className="indexHomeOneTextConsChi two">
-                                {this.getTextTwo()}
-                            </span>
-                        </div>
 
-                    </div>
-                    
-                    <span className="indexHomeOneTextConsChi indexTwo">我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，
-                        促进开源软件在国内的发展和优秀开源软件社区建设，增加开源项目在国内的活跃度，在开源领域与世界接轨。</span>
-                    */}
-
-                    </div> 
+                    {/* </div>  */}
                </div>
                <div className="indexHomeThird">
                         <div className="indexHomeThirdWrapper content1200">
@@ -112,7 +127,16 @@ export default class Index extends React.Component{
                             </div>
                             <div className="indexHomeThirdTitle">承办单位</div>
                             <div className="indexHomeOrList">
-                            <div className="indexHomOrItem naijing" ></div>
+                                <div className="indexHomOrItem nanjing" ></div>                         
+                            </div>
+                            <div className="indexHomeThirdTitle">合作单位</div>
+                            {/* <div className="indexHomeOrList relateThree">
+                                <div className="indexHomOrItem jisuan" ></div>
+                                <div className="indexHomOrItem hanwuji" ></div> 
+                                <div className="indexHomOrItem tengxun" ></div>                         
+                            </div> */}
+                            <div  className="indexHomeOrListOpensource">
+                                {this.getOpensource()}
                             </div>
                         </div>
                </div>

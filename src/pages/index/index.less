@@ -22,40 +22,66 @@
             .indexHomeThirdTitle{
                 position: relative;
                 font-size: 24px;
-                text-align: center;
-                // padding-bottom: 20px;
+                color: #333;
+                line-height: 24px;
             }
 
             .indexHomeOrList{
                 position: relative;
-                margin-bottom: 30px;
-            display: flex;
-            justify-content: center;
-            align-items: baseline;
-            margin-top: 10px;
-            }
-            .indexHomeOrList.holder>.indexHomOrItem:nth-child(2){
-                width: 200px;
-                height: 34px;
-            }
+                margin-bottom: 50px;
+                margin-top:30px;
 
-            .indexHomeOrList.holder>.indexHomOrItem:nth-child(1){
-                width: 386px;
-                height: 32px;
-                margin-left: -120px;
-                margin-right: 35px;
-                
             }
+           
             .indexHomOrItem{
-                width: 290px;
-                height: 33px;
+                width: 420px;
+                height: 60px;
+                margin-right: 30px;
+                display: inline-block;
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position: bottom;
             }
-            .indexHomOrItem{
-                background-image: url(./../../img/or/nanjing.png);
+            .indexHomeOrList.relateThree{
+                margin-bottom: 30px;
+                .indexHomOrItem{
+                    width: 382px;
+                    margin-right: 27px;
+                }
+                .indexHomOrItem.jisuan{
+                    background-image: url(./../../img/logolist/logo1.jpg);
+                }
+                .indexHomOrItem.hanwuji{
+                    background-image: url(./../../img/logolist/logo2.jpg);
+                }
+                .indexHomOrItem.tengxun{
+                    margin-right: 0;
+                    background-image: url(./../../img/logolist/logo3.jpg);
+                }
+
             }
+            .indexHomeOrListOpensource{
+                position: relative;
+                margin-bottom: 50px;
+                margin-top:30px;
+                .indexHomOpensourceItem{
+                    display: inline-block;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: bottom;
+                    width: 288px;
+                    height: 60px; 
+                    margin-right: 16px;  
+                    margin-bottom: 30px;
+                }
+                .indexHomOpensourceItem:nth-child(4n){
+                    margin-right: 0;
+                }
+            }
+            .indexHomOrItem.nanjing{
+                background-image: url(./../../img/or/nanjing.jpg);
+            }
+           
         }
     }
     .indexHomeSecond{
@@ -101,6 +127,7 @@
                 margin-bottom: 20px;
                 background-repeat: no-repeat;
                 background-size: contain;
+                background-position: center
             }
             .indexHomeIconItemText{
                 position: relative;
@@ -140,6 +167,40 @@
         // text-indent: 2em;
         width: 52%;
         // margin-top: -34px;
+        .indexHomeOneTextConsEngOne{
+            font-size: 20px;
+            font-weight: normal;
+            font-stretch: normal;
+            line-height: 36px;
+            letter-spacing: 1px;
+            color: #66ffff;
+            position: relative;
+            line-height: 20px;
+            
+            position: relative;
+            margin:30px 0 20px;
+        }
+        .indexHomeOneTextConsEngTwo{
+            font-family: SFProDisplay-Semibold;
+            font-size: 28px;
+            font-weight: bold;
+            font-stretch: normal;
+            line-height: 28px;
+            
+            color: #ffffff;
+            width: 640px;
+            position: relative;
+            margin-bottom: 24px;
+        }
+        .indexHomeOneTextConsEngTwo::after{
+            content: "";
+            width: 100%;
+            position: absolute;
+            height: 1px;
+            background-color: #fff;
+            bottom: -20px;
+            left: 0;
+        }
         
     }
  
@@ -162,7 +223,7 @@
     //     background-repeat: no-repeat;
     // }
     .indexHomeOneTextConsChi{
-        margin-top: 30px;
+        margin-top: 24px;
         display: inline-block;
         font-size: 24px;
         font-weight: normal;

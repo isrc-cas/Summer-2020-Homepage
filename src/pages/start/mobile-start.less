@@ -1,0 +1,73 @@
+@media screen and (min-width: 100px)and (max-width: 700px){
+    .indexStart{
+        .startBanner{
+            height: auto;
+            
+            .startList{
+                flex-direction: column;
+                padding-top: 50px;
+                .startListButton {
+                    position: absolute;
+                    right: -5px;
+                    top: -10px;
+                    margin: 10px;
+                    width: 15vw;
+                    padding: 4px 4px;
+                    font-size: 12px;
+                    text-align: center;
+                }
+                .startListItem {
+                    width: 100%;
+                    margin-bottom: 30px;
+                }
+                .startListItemImage{
+                    position: absolute;
+                    /* margin-top: 12px; */
+                    width: 35px;
+                    margin-top: -15px;
+                    min-height: 30px;
+                }
+                .startListItemTitle{
+                    font-size: 20px;
+                    margin: 0;
+                    position: absolute;
+                    left: 14vw;
+                    top: -5px;
+                }
+                .startListItemContent{
+                    width: 80vw;
+                    margin-left: 14vw;
+                    text-align: left;
+                    font-size: 12px;
+                    margin-top: 22px;
+                    line-height: 24px;
+                }
+            }
+        }
+        .startLineTwo, .indexStartSecond {
+            flex-direction: column;
+            text-align: left;
+            height: 100%;
+        }
+        .indexStartContact, .indexStartOneTextConsChi {
+            text-align: left;
+            padding: 0;
+            h2 {
+                font-size: 20px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+            h2::before{
+                position: absolute;
+                content: "";
+                width: 4px;
+                height: 36px;
+                background: #741bed;
+                left: -5vw;
+
+            }
+        }
+        
+    }
+}
