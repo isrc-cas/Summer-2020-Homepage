@@ -2,7 +2,7 @@ const data = {
     orgList:[
         {
             img:'ApacheAPISIX.jpg',
-            title:'ApacheAPISIX',
+            title:'Apache APISIX',
             stitle:'ApacheAPISIX',
             url:'http://apisix.apache.org/zh/'
         },
