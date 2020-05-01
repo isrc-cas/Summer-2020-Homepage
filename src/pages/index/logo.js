@@ -80,6 +80,10 @@ const logolistMap = [
         img:'logo22.jpg',
     },
     {
+        name:'广州大学',
+        img:'logo31.jpg',
+    },
+    {
         name:'西安交通大学',
         img:'logo26.jpg',
     },
