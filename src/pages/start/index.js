@@ -2,7 +2,7 @@ import React from 'react'
 import './index.less';
 import './mobile-start.less';
 import data from './data.js'
-// import {NavLink} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 export default class Start extends React.Component{
     constructor(props){
         super(props)
@@ -140,14 +140,14 @@ export default class Start extends React.Component{
                         </div>
                     </div>
                </div>
-               {/* <div className="startBannerEnd">
+               <div className="startBannerEnd">
                         <NavLink 
                             target="_blank"
                             rel="noopener noreferrer"
                             className="startQAButton"
                             to="/qa">查看热点问题 Q&A
                         </NavLink>
-               </div> */}
+               </div>
            </div>
         )
     }
