@@ -140,14 +140,14 @@ export default class Start extends React.Component{
                         </div>
                     </div>
                </div>
-               <div className="startBannerEnd">
+               {/* <div className="startBannerEnd">
                         <NavLink 
                             target="_blank"
                             rel="noopener noreferrer"
                             className="startQAButton"
                             to="/qa">查看热点问题 Q&A
                         </NavLink>
-               </div>
+               </div> */}
            </div>
         )
     }
