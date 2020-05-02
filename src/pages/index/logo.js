@@ -16,6 +16,10 @@ const logolistMap = [
         img:'logo7.jpg',
     },
     {
+        name:'wuhan2020',
+        img:'wuhan2020.jpg',
+    },
+    {
         name:'北京大学',
         img:'logo8.jpg',
     },

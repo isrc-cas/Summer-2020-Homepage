@@ -16,6 +16,10 @@ const listLinks = [
         title:'started',
     },
     {
+        name:'热点问题',
+        title:'qa',
+    },
+    {
         name:'联系我们',
         title:'contactus',
     },
@@ -26,6 +30,8 @@ const listLinks = [
 const linkDataMap = {
     index:'首页',
     howitworks:'活动规划',
+    organisations:'开源社区',
+    qa:'热点问题',
     contactus:'联系我们',
     started:'如何加入！'
 }
