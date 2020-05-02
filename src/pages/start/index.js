@@ -2,7 +2,7 @@ import React from 'react'
 import './index.less';
 import './mobile-start.less';
 import data from './data.js'
-import {NavLink} from 'react-router-dom';
+// import {NavLink} from 'react-router-dom';
 export default class Start extends React.Component{
     constructor(props){
         super(props)
