@@ -13,10 +13,24 @@ export default class Index extends React.Component{
     }
 
     getOrList(){
-        const orList = ['iscaslogo.jpg','openeuler.jpg'];
+        // const orList = ['iscaslogo.jpg','openeuler.jpg'];
+        const orList = [
+            {
+                img:'iscaslogo.jpg',
+                url:'http://www.iscas.ac.cn'
+            },
+            {
+                img:'openeuler.jpg',
+                url:'https://openeuler.org/zh/'
+            }
+        ];
         let divContainer = [];
         orList.map((item,index)=>{
-            divContainer.push(<div className="indexHomOrItem" key={index} style={{backgroundImage: "url("+require("./../../img/or/"+item) + ")"}}></div>)
+            divContainer.push(<div 
+                className="indexHomOrItem" 
+                key={index} 
+                style={{backgroundImage: "url("+require("./../../img/or/"+item.img) + ")"}}>
+                </div>)
             return 0;
         })
         return divContainer
@@ -72,6 +86,48 @@ export default class Index extends React.Component{
         })
         return div;
     }
+
+    getButtons(){
+        let div = [];
+        const data = [
+            {
+                img:'3_1.jpg',
+                name:'浏览日程',
+                url:'howitworks',
+            },
+            {
+                img:'3_2.jpg',
+                name:'如何报名',
+                url:'qa',
+            },
+            {
+                img:'3_3.jpg',
+                name:'浏览项目',
+                url:'howitworks',
+            },
+        ]
+        data.map((item,index)=>{
+            div.push(
+                <div 
+                    onClick={()=>{this.goLink(item.url)}}
+                    className="indexHomeThirdButtonItem" key={index}>
+                    <div 
+                        style={{backgroundImage: "url("+require("./../../img/index/"+item.img) + ")"}}
+                        className="indexHomeThirdButtonItemImg">
+                    </div>
+                    <div className="indexHomeThirdButtonItemText">
+                        {item.name}
+                    </div>
+                </div>
+            )
+            return 0
+        })
+        return div
+    }
+
+    goLink(url){
+        window.location.hash = url + "?to=timeline"
+    }
     
     
 
@@ -121,6 +177,9 @@ export default class Index extends React.Component{
                </div>
                <div className="indexHomeThird">
                         <div className="indexHomeThirdWrapper content1200">
+                            {/* <div className="indexHomeThirdButton">
+                                {this.getButtons()}
+                            </div> */}
                             <div className="indexHomeThirdTitle">主办单位</div>
                             <div className="indexHomeOrList holder">
                                     {this.getOrList()}

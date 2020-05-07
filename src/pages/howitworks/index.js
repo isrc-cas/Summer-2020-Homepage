@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.less';
-import data from './data.js'
+import data from './data.js';
+import scrollSmoothTo from './../../config/scroll.js'
 
 export default class Howitworks extends React.Component{
     constructor(props){
@@ -13,6 +14,15 @@ export default class Howitworks extends React.Component{
     gettime(time){
         const retime = time.split("_");
         return retime[0]+"月"+retime[1]+"日"
+    }
+
+    componentDidMount(){
+        const location = window.location.hash.split("to=")
+        if(location[1]){
+            const position = document.getElementsByClassName("HowitworksTimelineWrapper")[0].offsetHeight -100;
+            console.log(position)
+            scrollSmoothTo(position)
+        }
     }
     
     
