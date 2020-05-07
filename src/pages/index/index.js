@@ -8,50 +8,73 @@ export default class Index extends React.Component{
         super(props);
         this.state = {
             logolistMap,
+            logoMain:{
+                holder: [
+                    {
+                        img:'iscaslogo.jpg',
+                        url:'http://www.iscas.ac.cn'
+                    },
+                    {
+                        img:'openeuler.jpg',
+                        url:'https://openeuler.org/zh/'
+                    }
+                ],
+                cooperation: [
+                    {
+                        img:'hanwuji.jpg',
+                        url:'http://www.cambricon.com/'
+                    },
+                    {
+                        img:'jisuan.jpg',
+                        url:'http://www.ict.ac.cn/'
+                    }
+                ]
+            }
         }
        
     }
 
-    getOrList(){
-        // const orList = ['iscaslogo.jpg','openeuler.jpg'];
-        const orList = [
-            {
-                img:'iscaslogo.jpg',
-                url:'http://www.iscas.ac.cn'
-            },
-            {
-                img:'openeuler.jpg',
-                url:'https://openeuler.org/zh/'
-            }
-        ];
+    getOrList(orList){
         let divContainer = [];
         orList.map((item,index)=>{
             divContainer.push(<div 
                 className="indexHomOrItem" 
                 key={index} 
-                style={{backgroundImage: "url("+require("./../../img/or/"+item.img) + ")"}}>
+                onClick={()=>{this.goLogoLink(item.url)}}
+                style={{backgroundImage: "url("+require("./../../img/logolist/"+item.img) + ")"}}>
                 </div>)
             return 0;
         })
         return divContainer
     }
 
+    goLogoLink(url){
+        window.open(url)
+    }
+
     getOpensource(){
         // const logolen = 30;
         var divContainer = []
-        this.state.logolistMap.map((item,index)=>{
-            divContainer.push(<div 
-                key = {index}
-                style={{backgroundImage:"url("+require("./../../img/logolist/"+item.img) + ")"}}
-                className="indexHomOpensourceItem"></div>)
+        const divider = Object.keys(this.state.logolistMap);
+        divider.map((item,index1)=>{
+            
+            this.state.logolistMap[item].map((item,index)=>{
+                divContainer.push(<div 
+                    key = {index1+'_'+index}
+                    style={{backgroundImage:"url("+require("./../../img/logolist/"+item.img) + ")"}}
+                    className="indexHomOpensourceItem"></div>)
+                return 0;
+            })
+           
             return 0;
         })
-        // for(var i = 4; i <= logolen ;i++){
+        // this.state.logolistMap.map((item,index)=>{
         //     divContainer.push(<div 
-        //         key = {i}
-        //         style={{backgroundImage:"url("+require("./../../img/logolist/logo"+i+".jpg") + ")"}}
+        //         key = {index}
+        //         style={{backgroundImage:"url("+require("./../../img/logolist/"+item.img) + ")"}}
         //         className="indexHomOpensourceItem"></div>)
-        // }
+        //     return 0;
+        // })
         return divContainer
     }
 
@@ -177,16 +200,22 @@ export default class Index extends React.Component{
                </div>
                <div className="indexHomeThird">
                         <div className="indexHomeThirdWrapper content1200">
-                            {/* <div className="indexHomeThirdButton">
+                            <div className="indexHomeThirdButton">
                                 {this.getButtons()}
-                            </div> */}
+                            </div>
                             <div className="indexHomeThirdTitle">主办单位</div>
                             <div className="indexHomeOrList holder">
-                                    {this.getOrList()}
+                                    {this.getOrList(this.state.logoMain.holder)}
                             </div>
                             <div className="indexHomeThirdTitle">承办单位</div>
                             <div className="indexHomeOrList">
-                                <div className="indexHomOrItem nanjing" ></div>                         
+                                <div 
+                                    onClick={()=>{this.goLogoLink('https://nsi.jit.edu.cn')}}
+                                    className="indexHomOrItem nanjing" ></div>                         
+                            </div>
+                            <div className="indexHomeThirdTitle">协办单位</div>
+                            <div className="indexHomeOrList">
+                                    {this.getOrList(this.state.logoMain.cooperation)}       
                             </div>
                             <div className="indexHomeThirdTitle">合作单位</div>
                             {/* <div className="indexHomeOrList relateThree">
