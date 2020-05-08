@@ -8,7 +8,7 @@ const data = {
         {
             img:'ApacheAPISIX.jpg',
             title:'Apache APISIX',
-            url:'http://apisix.apache.org/zh/'
+            url:'https://cwiki.apache.org/confluence/display/APISIX/Open+Source+Promotion+Plan+-+Summer+2020+Tasks'
         },
         {
             img:'pulsar.jpg',
@@ -23,17 +23,17 @@ const data = {
         {
             img:'sharding.jpg',
             title:'Apache ShardingSphere',
-            url:'https://shardingsphere.apache.org/'
+            url:'https://shardingsphere.apache.org/index_zh.html'
         },
         {
             img:'ApacheSkyWalking.jpg',
             title:'Apache SkyWalking',
-            url:'http://skywalking.apache.org'
+            url:'https://cwiki.apache.org/confluence/display/SKYWALKING/Open+Source+Promotion+Plan+-+Summer+2020+Tasks'
         },
         {
             img:'casbin.jpg',
             title:'Casbin',
-            url:'https://casbin.org/'
+            url:'https://github.com/casbin/Summer2020'
         },
         {
             img:'elastos.jpg',
@@ -68,7 +68,7 @@ const data = {
         {
             img:'tuna.jpg',
             title:'清华大学 TUNA 协会',
-            url:'https://tuna.moe/'
+            url:'https://tuna.moe/blog/2020/ospp-summer-2020/'
         },
         {
             img:'xlab.jpg',
