@@ -65,7 +65,7 @@ export default class Index extends React.Component{
                     className="indexHomOpensourceItem"></div>)
                 return 0;
             })
-           
+            divContainer.push(<br key={index1}/>)
             return 0;
         })
         // this.state.logolistMap.map((item,index)=>{
@@ -116,17 +116,17 @@ export default class Index extends React.Component{
             {
                 img:'3_1.jpg',
                 name:'浏览日程',
-                url:'howitworks',
+                url:'howitworks?to=timeline',
             },
             {
                 img:'3_2.jpg',
                 name:'如何报名',
-                url:'qa',
+                url:'started',
             },
             {
                 img:'3_3.jpg',
                 name:'浏览项目',
-                url:'howitworks',
+                url:'organisations',
             },
         ]
         data.map((item,index)=>{
@@ -149,7 +149,7 @@ export default class Index extends React.Component{
     }
 
     goLink(url){
-        window.location.hash = url + "?to=timeline"
+        window.location.hash = url
     }
     
     

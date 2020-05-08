@@ -155,14 +155,14 @@ const logolistMap = {
             img:'c_emacs.jpg',
         },
 
-        {
-            name:'c_linuxlab',
-            img:'c_linuxlab.jpg',
-        },
-        {
-            name:'c_markdownlab',
-            img:'c_markdownlab.jpg',
-        },
+        // {
+        //     name:'c_linuxlab',
+        //     img:'c_linuxlab.jpg',
+        // },
+        // {
+        //     name:'c_markdownlab',
+        //     img:'c_markdownlab.jpg',
+        // },
         {
             name:'c_milvus',
             img:'c_milvus.jpg',
@@ -175,6 +175,10 @@ const logolistMap = {
         {
             name:'c_rtthread',
             img:'c_rtthread.jpg',
+        },
+        {
+            name:'泰晓',
+            img:'c_taixiao.jpg',
         },
         {
             name:'c_tuna',
