@@ -49,41 +49,7 @@
                 background-color: white;
                 cursor: pointer;
             }
-            .orgListItemImage.wuhan2020 {
-                background-image: url(./../../img/organisation/wuhan2020.jpg);
-            }
-            .orgListItemImage.ApacheAPISIX {
-                background-image: url(./../../img/organisation/ApacheAPISIX.jpg);
-            }
-            .orgListItemImage.ApacheSkyWalking {
-                background-image: url(./../../img/organisation/ApacheSkyWalking.jpg);
-            }
-            .orgListItemImage.Linuxlab {
-                background-image: url(./../../img/organisation/Linuxlab.jpg);
-            }
-            .orgListItemImage.MarkdownLab {
-                background-image: url(./../../img/organisation/MarkdownLab.jpg);
-            }
-            .orgListItemImage.RT-Thread {
-                background-image: url(./../../img/organisation/RT-Thread.jpg);
-            }
-            .orgListItemImage.Emacs {
-                background-image: url(./../../img/organisation/emacs.jpg);
-            }
-            .orgListItemImage.xlab {
-                background-image: url(./../../img/organisation/xlab.jpg);
-            }
-            .orgListItemImage.kaiyuanshe {
-                background-image: url(./../../img/organisation/kaiyuanshe.jpg);
-            }
-            .orgListItemImage.segmentfault {
-                background-image: url(./../../img/organisation/segment.jpg);
-            }
-            .orgListItemImage.oschina {
-                background-image: url(./../../img/organisation/oschina.jpg);
-            }
             .orgListItemTitle {
-                // line-height: 400px;
                 color: #535667;
                 font-size: 24px;
                 letter-spacing: .005em;
@@ -91,14 +57,50 @@
                 padding-bottom: 30px;
             }
         }
-        // .orgList:last-child, .orgList:nth-child(4n - 2) {
-        //     margin-right: auto;
-        // }
         @media screen and (min-width: 100px)and (max-width: 700px){
             .orgList {
                 grid-template-columns: repeat(auto-fill, 90vw);
             }
         }
+    }
+    .indexOrgThirdTitle{
+        position: relative;
+        font-size: 24px;
+        color: #333;
+        line-height: 24px;
+        padding-top: 27px;
+    }
+    .orgListOpensource{
+        position: relative;
+        // margin-bottom: 50px;
+        // margin-top:30px;
+        margin: 30px auto 50px auto;
+        .orgOpensourceItem{
+            display: inline-block;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            width: 288px;
+            height: 60px; 
+            margin-right: 16px;  
+            margin-bottom: 30px;
+            cursor: pointer;
+        }
+        .orgOpensourceItem:nth-child(4n){
+            margin-right: 0;
+        }
+        @media screen and (min-width: 100px)and (max-width: 700px) {
+            .orgListOpensource {
+                margin-top:15px;
+            }
+            
+            .orgOpensourceItem {
+                margin-bottom:10px;
+                width: 100%;        
+            }
+        }
+       
+       
     }
 
 

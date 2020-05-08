@@ -13,6 +13,19 @@ export default class Organisation extends React.Component{
         var win = window.open(url, '_blank');
         win.focus();
     }
+    getOpensource(){
+        var divContainer = []
+        this.state.data.creditList.map((item,index)=>{
+            divContainer.push(<div 
+                key = {'2'+index}
+                style={{backgroundImage:"url("+require("./../../img/logolist/"+item.img) + ")"}}
+                className="orgOpensourceItem"
+                onClick={() => this.openInNewTab(item.url)}>
+                </div>)
+            return 0;
+        })
+        return divContainer
+    }
     render(){
         return(
             <div className="organisation"> 
@@ -28,8 +41,8 @@ export default class Organisation extends React.Component{
                             return (
                                 <div className="orgListItem" key={index} onClick={() => this.openInNewTab(item.url)}>
                                         <div 
-                                            className={["orgListItemImage",item.stitle].join(" ")}
-                                            
+                                            className="orgListItemImage"
+                                            style={{backgroundImage:"url("+require("./../../img/organisation/"+item.img) + ")"}}
                                         >
                                         </div>
                                         <div className="orgListItemTitle">{item.title}</div>
@@ -40,7 +53,11 @@ export default class Organisation extends React.Component{
                 </div>
 
                 </div>
-
+                <div className="indexOrgThirdTitle content1200">鸣谢社区</div>
+                <div  className="orgListOpensource content1200">
+                    
+                    {this.getOpensource()}
+                </div>
             </div>
         )
     }
