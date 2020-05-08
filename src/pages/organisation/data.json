@@ -29,7 +29,7 @@
             "title":"Apache Pulsar",
             "project_url":"",
             "url": "http://pulsar.apache.org/",
-            "description": "Apache软件基金会顶级项目。",
+            "description": "雅虎开源，下一代分布式的消息系统。",
             "full_des": ""
         },
         {
@@ -37,7 +37,7 @@
             "title":"Apache ShardingSphere",
             "project_url":"https://shardingsphere.apache.org/index_zh.html",
             "url": "https://shardingsphere.apache.org/",
-            "description": "Apache软件基金会顶级项目。",
+            "description": "分布式数据库中间件解决方案。",
             "full_des": ""
         },
         {
@@ -45,7 +45,7 @@
             "title":"Apache SkyWalking",
             "project_url":"https://cwiki.apache.org/confluence/display/SKYWALKING/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
             "url": "http://skywalking.apache.org",
-            "description": "Apache软件基金会顶级项目。",
+            "description": "分布式系统的应用程序性能监视工具。",
             "full_des": ""
         },
         {
