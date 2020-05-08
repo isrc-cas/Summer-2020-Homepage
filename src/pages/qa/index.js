@@ -52,9 +52,11 @@ export default class QuestionAndAnswer extends React.Component{
         this.state.qadata.map((item,index)=>{
             divContainer.push(
                 <div className={["QuestionAndAnswerItem","QAitem"+index].join(" ")} key={index}>
-                    <div className="QuestionAndAnswerQuesionTitle"><span>{item.q}</span></div>
+                    <div className="QuestionAndAnswerQuesionTitle"><span>
+                        <p dangerouslySetInnerHTML={{ __html: item.q }}  />
+                    </span></div>
                     <div className="QuestionAndAnswerAnswerContent">
-                        {this.getQAItem(item.a)}
+                        {item.a ? this.getQAItem(item.a) : ''}
                     </div>
                 </div>
             )
