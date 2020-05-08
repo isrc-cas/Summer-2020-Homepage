@@ -30,68 +30,68 @@ const logolistMap = {
             url:'https://openeuler.org/zh/'
         },
         {
-            name:'c_ApacheAPISIX',
+            name:'ApacheAPISIX',
             img:'c_ApacheAPISIX.jpg',
             url:'https://apisix.apache.org/'
         },
         {
-            name:'c_ApacheDolphinScheduler',
+            name:'ApacheDolphinScheduler',
             img:'c_ApacheDolphinScheduler.jpg',
             url:'https://dolphinscheduler.apache.org/zh-cn/'
         },
         {
-            name:'c_ApachePulsar',
+            name:'ApachePulsar',
             img:'c_ApachePulsar.jpg',
             url:'https://pulsar.apache.org/',
         },
         
         {
-            name:'c_ApacheSkyWalking',
+            name:'ApacheSkyWalking',
             img:'c_ApacheSkyWalking.jpg',
             url:'http://skywalking.apache.org/'
         },
         {
-            name:'c_ApacheShardingSphere',
+            name:'ApacheShardingSphere',
             img:'c_ApacheShardingSphere.jpg',
             url:'https://shardingsphere.apache.org/'
         },
         {
-            name:'c_casbin',
+            name:'casbin',
             img:'c_casbin.jpg',
             url:'https://casbin.org/'
         },
         {
-            name:'c_elastos',
+            name:'elastos',
             img:'c_elastos.jpg',
             url:'https://www.elastos.org/'
         },
         {
-            name:'c_emacs',
+            name:'emacs',
             img:'c_emacs.jpg',
             url:'https://www.gnu.org/software/emacs/'
         },
 
-        // {
-        //     name:'c_linuxlab',
-        //     img:'c_linuxlab.jpg',
-        // },
+        {
+            name:'MaskBook',
+            img:'c_maskbook.jpg',
+        },
         // {
         //     name:'c_markdownlab',
         //     img:'c_markdownlab.jpg',
         // },
         {
-            name:'c_milvus',
+            name:'milvus',
             img:'c_milvus.jpg',
             url:'https://www.milvus.io/cn/'
         },
 
         {
-            name:'c_oiwiki',
+            name:'oiwiki',
             img:'c_oiwiki.jpg',
             url:' https://oi-wiki.org'
         },
         {
-            name:'c_rtthread',
+            name:'rtthread',
             img:'c_rtthread.jpg',
             url:'https://www.rt-thread.org/'
         },
@@ -101,7 +101,7 @@ const logolistMap = {
             url:'http://tinylab.org'
         },
         {
-            name:'c_tuna',
+            name:'tuna',
             img:'c_tuna.jpg',
             url:'https://tuna.moe/'
         },
@@ -208,6 +208,11 @@ const logolistMap = {
             name:'西安电子科技大学',
             img:'logo25.jpg',
             url:'https://www.xidian.edu.cn/'
+        },
+        {
+            name:'哈尔滨工业大学',
+            img:'logo32.jpg',
+            url:'http://www.hit.edu.cn/'
         },
 
     ]
