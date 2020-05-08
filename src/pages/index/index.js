@@ -211,7 +211,7 @@ export default class Index extends React.Component{
                             <div className="indexHomeThirdTitle">承办单位</div>
                             <div className="indexHomeOrList">
                                 <div 
-                                    onClick={()=>{this.goLogoLink('https://nsi.jit.edu.cn')}}
+                                    
                                     className="indexHomOrItem nanjing" ></div>                         
                             </div>
                             <div className="indexHomeThirdTitle">协办单位</div>
