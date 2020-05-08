@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.less';
-import data from './data.js'
+import data from './data.json'
 
 export default class Organisation extends React.Component{
     constructor(props){
@@ -10,8 +10,10 @@ export default class Organisation extends React.Component{
         }
     }
     openInNewTab(url) {
-        var win = window.open(url, '_blank');
-        win.focus();
+        if (url !== "") {
+            var win = window.open(url, '_blank');
+            win.focus();
+        }   
     }
     getOpensource(){
         var divContainer = []
@@ -39,13 +41,14 @@ export default class Organisation extends React.Component{
                         this.state.data.orgList.map((item,index)=>{
                             
                             return (
-                                <div className="orgListItem" key={index} onClick={() => this.openInNewTab(item.url)}>
+                                <div className="orgListItem" key={index} onClick={() => this.openInNewTab(item.project_url ? item.project_url : item.url)}>
                                         <div 
                                             className="orgListItemImage"
                                             style={{backgroundImage:"url("+require("./../../img/organisation/"+item.img) + ")"}}
                                         >
                                         </div>
                                         <div className="orgListItemTitle">{item.title}</div>
+                                        <div className="orgListItemDes">{item.description}</div>
                                 </div>
                             )
                         })
