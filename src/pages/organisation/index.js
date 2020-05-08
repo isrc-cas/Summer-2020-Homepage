@@ -15,6 +15,12 @@ export default class Organisation extends React.Component{
             win.focus();
         }   
     }
+    showModal() {
+        this.state.data.orgList.map((item,index)=>{
+            
+            return 0;
+        });
+    }
     getOpensource(){
         var divContainer = []
         this.state.data.creditList.map((item,index)=>{
@@ -25,7 +31,7 @@ export default class Organisation extends React.Component{
                 onClick={() => this.openInNewTab(item.url)}>
                 </div>)
             return 0;
-        })
+        });
         return divContainer
     }
     render(){

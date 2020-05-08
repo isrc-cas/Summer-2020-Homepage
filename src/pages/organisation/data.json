@@ -5,7 +5,7 @@
             "title":"openEuler Community",
             "project_url":"",
             "url": "https://www.openeuler.org",
-            "description": "通过社区合作，打造创新平台，构建支持多处理器架构、统一和开放的操作系统，推动软硬件应用生态繁荣发展。",
+            "description": "推动软硬件应用生态繁荣发展。",
             "full_des": ""
         },
         {
@@ -13,7 +13,7 @@
             "title":"Apache APISIX",
             "project_url":"https://cwiki.apache.org/confluence/display/APISIX/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
             "url": "http://apisix.apache.org/zh/",
-            "description": "云原生、高性能、可扩展的微服务 API 网关。",
+            "description": "云原生，高性能，可扩展微服务API。",
             "full_des": ""
         },
         {
@@ -21,7 +21,7 @@
             "title":"Apache DolphinScheduler",
             "project_url":"",
             "url": "https://dolphinscheduler.apache.org/",
-            "description": "分布式去中心化，易扩展的可视化DAG工作流任务调度系统。",
+            "description": "可视化DAG工作流任务调度系统。",
             "full_des": ""
         },
         {
@@ -53,7 +53,7 @@
             "title":"Casbin",
             "project_url":"https://github.com/casbin/Summer2020",
             "url": "https://casbin.org/",
-            "description": "强大的、高效的开源访问控制框架，支持多种访问控制模型。",
+            "description": "开源访问控制框架，支持多种模型。",
             "full_des": ""
         },
         {
@@ -61,7 +61,7 @@
             "title":"Elastos 亦来云社区",
             "project_url":"",
             "url": "https://www.elastos.org/",
-            "description": "以区块链为可信基础的，更安全的下一代价值互联网操作系统。",
+            "description": "更安全的下一代价值互联网操作系统。",
             "full_des": ""
         },
         {
@@ -85,7 +85,7 @@
             "title":" OI Wiki",
             "project_url": "https://git.io/summer2020",
             "url": "https://oi-wiki.org",
-            "description": "给所有人的编程竞赛知识整合站点，内含炫酷算术魔法！",
+            "description": "编程竞赛知识，内含炫酷算术魔法！",
             "full_des": ""
         },
         {
