@@ -61,6 +61,7 @@ export default class Index extends React.Component{
             this.state.logolistMap[item].map((item,index)=>{
                 divContainer.push(<div 
                     key = {index1+'_'+index}
+                    onClick={()=>{this.goLogoLink(item.url)}}
                     style={{backgroundImage:"url("+require("./../../img/logolist/"+item.img) + ")"}}
                     className="indexHomOpensourceItem"></div>)
                 return 0;
