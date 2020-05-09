@@ -61,7 +61,7 @@ export default class Start extends React.Component{
                                                         onClick={() => this.scrollLocation(item.stitle)}
 
                                                     >{item.button}</div>
-                                                    <span id={item.stitle} className="tn-box-color-1">可通过下方联系方式，咨询合作和报名事宜。</span>
+                                                    {/* <span id={item.stitle} className="tn-box-color-1">可通过下方联系方式，咨询合作和报名事宜。</span> */}
                                                 </div>
                                         </div>
                                     )
