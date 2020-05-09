@@ -94,7 +94,7 @@ export default class Organisation extends React.Component{
                                                 style={{backgroundImage:"url("+require("./../../img/organisation/"+item.img) + ")"}}
                                             >
                                             </div>
-                                            <div className="orgListItemTitle">{item.title}</div>
+                                            <div className="orgListItemTitle" id={"orgListItemTitle-"+index}>{item.title}</div>
                                             <div className="orgListItemDes">{item.description}</div>
                                     </div>
                                     <div className="org-tooltip" id={index+'-tooltip'}>
