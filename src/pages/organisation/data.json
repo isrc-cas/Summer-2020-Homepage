@@ -2,21 +2,21 @@
     "orgList":[
         {
             "img":"ApacheAPISIX.jpg",
-            "title":"Apache APISIX",
+            "title":"Apache APISIX (incubating)",
             "project_url":"https://cwiki.apache.org/confluence/display/APISIX/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
             "url": "http://apisix.apache.org/zh/",
             "description": "云原生，高性能，可扩展微服务API。",
-            "full_des": "Apache APISIX 是云原生、高性能、可扩展的微服务 API 网关，它基于 Nginx 和 etcd 来实现，具备动态路由、插件热加载和 gRPC 代理和协议转换功能，更适合微服务体系下的 API 管理。",
+            "full_des": "Apache APISIX (incubating) 是云原生、高性能、可扩展的微服务 API 网关，它基于 Nginx 和 etcd 来实现，具备动态路由、插件热加载和 gRPC 代理和协议转换功能，更适合微服务体系下的 API 管理。",
             "tech_tag": ["网关","Nginx","C","Lua","API","Golang","k8s"],
             "domain_tag": ["中间件","微服务"]
         },
         {
             "img":"dolphin.jpg",
-            "title":"Apache DolphinScheduler",
+            "title":"Apache DolphinScheduler (incubating)",
             "project_url":"",
             "url": "https://dolphinscheduler.apache.org/",
             "description": "可视化DAG工作流任务调度系统。",
-            "full_des": "Apache DolphinScheduler 是一个分布式去中心化，易扩展的可视化DAG工作流任务调度系统。致力于解决数据处理流程中错综复杂的依赖关系，使调度系统在数据处理流程中开箱即用。",
+            "full_des": "Apache DolphinScheduler (incubating) 是一个分布式去中心化，易扩展的可视化DAG工作流任务调度系统。致力于解决数据处理流程中错综复杂的依赖关系，使调度系统在数据处理流程中开箱即用。",
             "tech_tag": ["分布式任务调度","大数据任务调度","工作流任务调度"],
             "domain_tag": ["大数据","大数据任务调度"]
         },
