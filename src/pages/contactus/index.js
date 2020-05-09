@@ -63,21 +63,6 @@ export default class Contactus extends React.Component{
                 <div className="contactUsWrapper">
                     <div className="contactUsContent content1200">
                     <div className="contentUsRelateLink">
-                            <div className="contentUsTitle"><span>主办单位</span></div>
-                            <div className="contentUsRelateLinkList">
-                                {
-                                    this.state.relatelinks.map((item,index)=>{
-                                        return (
-                                            <div 
-                                                key={index}
-                                                onClick={()=>this.goLink(item.url)}
-                                                className="contentUsRelateLinkItem">
-                                                {item.title}
-                                            </div>
-                                        )
-                                    })
-                                }
-                            </div>
                             <div className="contentUsTitle"><span>资源链接</span></div>
                             <div className="contentUsRelateLinkList sourceLink">
                                 {
@@ -93,6 +78,22 @@ export default class Contactus extends React.Component{
                                     })
                                 }
                             </div>
+                            <div className="contentUsTitle"><span>主办单位</span></div>
+                            <div className="contentUsRelateLinkList">
+                                {
+                                    this.state.relatelinks.map((item,index)=>{
+                                        return (
+                                            <div 
+                                                key={index}
+                                                onClick={()=>this.goLink(item.url)}
+                                                className="contentUsRelateLinkItem">
+                                                {item.title}
+                                            </div>
+                                        )
+                                    })
+                                }
+                            </div>
+                           
                             
                         </div>
                         <div className="contentUsContact">
