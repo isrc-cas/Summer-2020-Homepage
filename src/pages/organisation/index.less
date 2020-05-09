@@ -22,13 +22,9 @@
         min-height: calc(100vh - 437px);
         .orgList {
             position: relative;
-            // display: flex;
-            // justify-content: space-between;
-            // flex-wrap: wrap;
             display: grid;
             justify-content: space-between;
             grid-template-columns: repeat(auto-fill, 382px);
-            // grid-gap: 0px;
             .orgListItem {
                 position: relative;
                 text-align: left;
@@ -37,7 +33,7 @@
                 background-color: white;
                 cursor: pointer;
             }
-            .orgListItem:hover {
+            .orgListItem:hover, .triangle:hover {
                 box-shadow:0 9px 11px -5px rgba(0, 0, 0, .2), 0 18px 28px 2px rgba(0, 0, 0, .14), 0 7px 34px 6px rgba(0, 0, 0, .12);
             }
 
@@ -63,6 +59,113 @@
                 overflow:hidden;
                 padding: 0 30px 28px 30px;
             }
+            .org-tooltip {
+                position: relative;
+                background-color: white;
+                width: 1140px;
+                height: 354px;
+                border-radius: 0.25em;
+                justify-content: left;
+                flex-direction: column;
+                margin-top: 20px;
+                padding: 30px;
+                text-align: left;
+                .triangle {
+                    display: block;
+                    height: 0px;
+                    width: 0px;
+                    border: 10px solid transparent;
+                    border-bottom-color: white;
+                    background-color: transparent;
+                    position: absolute;
+                    bottom: 414px;
+                    left: 171px;
+                }
+                .tooltip-close {
+                    position: absolute;
+                    right: 20px;
+                    top: 5px;
+                    height: 20px;
+                    width: 20px;
+                    cursor: pointer;
+                    font-size: 30px;
+                    color: rgb(102,106,128);
+                }
+                .tooltip-close::before {
+                    content: "\00D7";
+                }
+                .tooltip-title {
+                    font-size: 30px;
+                    color: rgb(83,86,103);
+                    display: block;
+                    text-align: left;
+                }
+                .tooltip-description {
+                    font-size: 16px;
+                    color: rgb(102,106,128);
+                    line-height: 31px;
+                    display: block;
+                    text-align: left;
+                    margin-top: 20px;
+                }
+                .tooltip-divider {
+                    background: rgb(229,229,229);
+                    height: 2px;
+                    width: 1140px;
+                    margin: 18px auto;
+                }
+                .tooltip-url {
+                    color: rgb(102,106,128);
+                    a {
+                        color: rgb(143,0,243);
+                    }
+                    line-height: 31px;
+                    font-size: 16px;
+                    margin-left: 10px;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+                .tooltip-url::before{
+                    position: absolute;
+                    content: "";
+                    width: 4px;
+                    height: 16px;
+                    margin-top: 8px;
+                    background: rgb(170,128,255);
+                    left: 25px;
+                    line-height: 31px;
+                }
+                .tooltip-url-tag-divider {
+                    height: 20px;
+                    width: 100%;
+                }
+                .tooltip-tag {
+                    margin: 10px;
+                }
+                .orgTagListItem {
+                    display: inline;
+                    letter-spacing: 1px;
+                    padding: 10px 15px;
+                    margin: 0 8px;
+                    border-radius: 4px;
+                    line-height: 31px;
+                    font-size: 16px;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+                .domain {
+                    background-color: rgb(216,222,255);
+                    color: rgb(52,86,255);
+                }
+                .tech {
+                    background-color: rgb(216,235,255);
+                    color: rgb(25,139,255);
+                }
+                display: none;
+            }
+            
         }
         @media screen and (min-width: 100px)and (max-width: 700px){
             .orgList {
