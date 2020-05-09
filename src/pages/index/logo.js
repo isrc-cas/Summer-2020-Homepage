@@ -3,11 +3,11 @@
 const logolistMap = {
     company:[
          {
-            img:'jisuan.jpg',
+            img:'logo1.jpg',
             url:'http://www.ict.ac.cn/'
         },
         {
-            img:'hanwuji.jpg',
+            img:'logo2.jpg',
             url:'http://www.cambricon.com/'
         }
     ],
@@ -114,6 +114,11 @@ const logolistMap = {
             name:'tuna',
             img:'c_tuna.jpg',
             url:'https://tuna.moe/'
+        },
+        {
+            name:'UniversalOJ',
+            img:'c_UniversalOJ.jpg',
+            url:'http://uoj.ac/'
         },
         {
             name:'xlab',
@@ -239,11 +244,11 @@ const logolistMap = {
             img:'xiamen.jpg',
             url:'https://www.xmu.edu.cn/'
         },
-        // {
-        //     name:'武汉大学',
-        //     img:'wuhan.jpg',
-        //     url:'http://www.whu.edu.cn/'
-        // },
+        {
+            name:'武汉大学',
+            img:'wuhan.jpg',
+            url:'http://www.whu.edu.cn/'
+        },
         {
             name:'华中科技大学',
             img:'logo17.jpg',
@@ -265,11 +270,11 @@ const logolistMap = {
             img:'hainan.jpg',
             url:'https://www.hainanu.edu.cn/index.shtml'
         },
-        // {
-        //     name:'电子科学技术大学',
-        //     img:'dianzikexuejishu.jpg',
-        //     url:'https://www.uestc.edu.cn/'
-        // },
+        {
+            name:'电子科技大学',
+            img:'dianzikeji.jpg',
+            url:'https://www.uestc.edu.cn/'
+        },
         {
             name:'西安交通大学',
             img:'logo26.jpg',

@@ -30,7 +30,7 @@ export default class Index extends React.Component{
                     },
                     {
                         img:'huaruijinrong.jpg',
-                        url:'#'
+                        url:''
                     },
                     
                    
@@ -44,7 +44,7 @@ export default class Index extends React.Component{
         let divContainer = [];
         orList.map((item,index)=>{
             divContainer.push(<div 
-                className="indexHomOrItem" 
+                className={["indexHomOrItem", item.url?'':'cursordefault'].join(" ")} 
                 key={index} 
                 onClick={()=>{this.goLogoLink(item.url)}}
                 style={{backgroundImage: "url("+require("./../../img/logolist/"+item.img) + ")"}}>
@@ -55,7 +55,10 @@ export default class Index extends React.Component{
     }
 
     goLogoLink(url){
-        window.open(url)
+        if(url){
+            window.open(url)
+        }
+        
     }
 
     getOpensource(){
@@ -207,9 +210,9 @@ export default class Index extends React.Component{
                </div>
                <div className="indexHomeThird">
                         <div className="indexHomeThirdWrapper content1200">
-                            <div className="indexHomeThirdButton">
+                            {/* <div className="indexHomeThirdButton">
                                 {this.getButtons()}
-                            </div>
+                            </div> */}
                             <div className="indexHomeThirdTitle">主办单位</div>
                             <div className="indexHomeOrList holder">
                                     {this.getOrList(this.state.logoMain.holder)}
