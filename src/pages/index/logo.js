@@ -88,11 +88,7 @@ const logolistMap = {
             img:'c_emacs.jpg',
             url:'https://www.gnu.org/software/emacs/'
         },
-        {
-            name:'lugustc',
-            img:'c_lugustc.jpg',
-            url:'https://lug.ustc.edu.cn/wiki/'
-        },
+       
         {
             name:'MaskBook',
             img:'c_maskbook.jpg',
@@ -132,6 +128,11 @@ const logolistMap = {
             name:'UniversalOJ',
             img:'c_UniversalOJ.jpg',
             url:'http://uoj.ac/'
+        },
+        {
+            name:'lugustc',
+            img:'c_lugustc.jpg',
+            url:'https://lug.ustc.edu.cn/wiki/'
         },
         {
             name:'xlab',
