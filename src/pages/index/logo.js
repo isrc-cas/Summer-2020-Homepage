@@ -70,6 +70,13 @@ const logolistMap = {
             name:'casbin',
             img:'c_casbin.jpg',
             url:'https://casbin.org/'
+
+            
+        },
+        {
+            name:'ceph',
+            img:'c_ceph.jpg',
+            url:'http://ceph.org.cn/'
         },
         {
             name:'elastos',
