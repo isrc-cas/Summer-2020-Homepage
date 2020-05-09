@@ -16,8 +16,11 @@ export default class Organisation extends React.Component{
         }   
     }
     showModal(index, project_url) {
-        if (window.innerWidth < 1200) {
+        if (window.innerWidth < 300) {
             this.openInNewTab(project_url);
+        }
+        else if (document.getElementById(index+"-tooltip").style.display && document.getElementById(index+"-tooltip").style.display !== 'none') {
+            document.getElementById(index+"-tooltip").style.display = 'none';
         }
         else {
             this.state.data.orgList.map((item,index) => {
@@ -25,19 +28,25 @@ export default class Organisation extends React.Component{
                 return 0;
             })
             // alert()
-            switch(index % 3) {
-                case 1:
-                    document.getElementById(index+"-tooltip").style.left = '-409px';
-                    document.getElementById(index+"-triangle").style.left = '580px';
-                    break;
-                case 2:
-                    document.getElementById(index+"-tooltip").style.left = '-818px';
-                    document.getElementById(index+"-triangle").style.left = '989px';
-                    break;
-                default:
-                    break;
+            if (window.innerWidth > 800) {
+                switch(index % 3) {
+                    case 1:
+                        document.getElementById(index+"-tooltip").style.left = '-409px';
+                        document.getElementById(index+"-triangle").style.left = '580px';
+                        break;
+                    case 2:
+                        document.getElementById(index+"-tooltip").style.left = '-818px';
+                        document.getElementById(index+"-triangle").style.left = '989px';
+                        break;
+                    default:
+                        break;
+                }
+                document.getElementById(index+"-tooltip").style.display = 'flex';
+            } else {
+                document.getElementById(index+"-tooltip").style.display = 'block';
             }
-            document.getElementById(index+"-tooltip").style.display = 'flex';
+
+            
         }
     }
     closeModal (index) {

@@ -126,7 +126,7 @@
             "project_url":"",
             "url": "https://www.rt-thread.org/",
             "description": "小而美的物联网操作系统。",
-            "full_des": "RT-Thread  是一个集实时操作系统（RTOS）内核、中间件组件和开发者社区于一体的技术平台，由熊谱翔先生带领并集合开源社区力量开发而成，RT-Thread  也是一个组件完整丰富、高度可伸缩、简易开发、超低功耗、高安全性的物联网操作系统。",
+            "full_des": "RT-Thread  是一个集实时操作系统（RTOS）内核、中间件组件和开发者社区于一体的技术平台，由熊谱翔先生带领并集合开源社区力量开发而成，也是一个组件完整丰富、高度可伸缩、简易开发、超低功耗、高安全性的物联网操作系统。",
             "tech_tag": ["RTOS","IoT","embedded-systems","Cortex-M","Cortex-A","RISC-V","ARM"],
             "domain_tag": ["物联网操作系统","软件包","GUI","IDE"]
         },
@@ -146,9 +146,19 @@
             "project_url":"https://tuna.moe/blog/2020/ospp-summer-2020/",
             "url": "https://tuna.moe/",
             "description": "目前中国影响力最大的高校开源社区。",
-            "full_des": "清华大学 TUNA 协会全名清华大学学生网络与开源软件协会（Tsinghua University TUNA Association），是由清华大学网络技术和开源软件爱好者、技术宅组成的团体。TUNA 协会维护的清华大学开源软件镜像站，包括数百个开源软件。是中国高校目前规模最大的开源镜像站。TUNA 协会为这些业务开发的许多开源软件，包括镜像管理同步套件 tunasync、直播弹幕套件 danmaQ 等，都被国内外同行采用并广受好评。",
+            "full_des": "清华大学 TUNA 协会全名清华大学学生网络与开源软件协会（Tsinghua University TUNA Association），是由清华大学网络技术和开源软件爱好者、技术宅组成的团体。",
             "tech_tag": ["Linux", "Mirrors", "Qt", "Python", "Node.js", "Go"],
             "domain_tag": ["服务器运维","网络编程","系统工具"]
+        },        
+        {
+            "img":"oj.jpg",
+            "title":"Universal OJ",
+            "project_url":"",
+            "url": "https://github.com/UniversalOJ",
+            "description": "一款通用的在线评测系统。",
+            "full_des": "Universal OJ 开源社区为以吕凯风开发的 UOJ 为基础的二次开发建立的社群；Universal OJ 开源社区专注于对算法题目的评测，为学习算法的各方提供便利。",
+            "tech_tag": ["PHP", "MySQL", "C", "Docker"],
+            "domain_tag": ["Online Judge 系统","算法"]
         },
         {
             "img":"xlab.jpg",

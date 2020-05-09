@@ -97,22 +97,20 @@
                 .tooltip-title {
                     font-size: 30px;
                     color: rgb(83,86,103);
-                    display: block;
                     text-align: left;
                 }
                 .tooltip-description {
                     font-size: 16px;
                     color: rgb(102,106,128);
                     line-height: 31px;
-                    display: block;
                     text-align: left;
                     margin-top: 20px;
                 }
                 .tooltip-divider {
                     background: rgb(229,229,229);
-                    height: 2px;
-                    width: 1140px;
-                    margin: 18px auto;
+                    height: 2px; 
+                    width: 100%;
+                    line-height: 18px;
                 }
                 .tooltip-url {
                     color: rgb(102,106,128);
@@ -122,9 +120,6 @@
                     line-height: 31px;
                     font-size: 16px;
                     margin-left: 10px;
-                    text-overflow: ellipsis;
-                    white-space: nowrap;
-                    overflow: hidden;
                 }
                 .tooltip-url::before{
                     position: absolute;
@@ -144,16 +139,13 @@
                     margin: 10px;
                 }
                 .orgTagListItem {
-                    display: inline;
+                    display: inline-block;
                     letter-spacing: 1px;
                     padding: 10px 15px;
                     margin: 0 8px;
                     border-radius: 4px;
                     line-height: 31px;
                     font-size: 16px;
-                    text-overflow: ellipsis;
-                    white-space: nowrap;
-                    overflow: hidden;
                 }
                 .domain {
                     background-color: rgb(216,222,255);
@@ -165,8 +157,40 @@
                 }
                 display: none;
             }
-            
+            @media screen and (min-width: 100px)and (max-width: 800px){
+                .org-tooltip {
+                    width: 90vw;
+                    height: 100%;
+                    padding: 8px;
+                    font-size: 14px;
+                    .triangle {
+                        bottom: 100%;
+                    }
+                    .tooltip-divider {
+                        width: 90vw;
+                    }
+                    .tooltip-title {
+                        font-size: 24px;
+                    }
+                    .orgTagListItem { 
+                        display: inline-block;
+                        margin: 5px 5px;
+                    }
+                    .tooltip-url::before{
+                        position: absolute;
+                        content: "";
+                        width: 4px;
+                        height: 16px;
+                        margin-top: 8px;
+                        background: rgb(170,128,255);
+                        left: 10px;
+                        line-height: 31px;
+                    }
+                }
+
+            }
         }
+        
         @media screen and (min-width: 100px)and (max-width: 700px){
             .orgList {
                 grid-template-columns: repeat(auto-fill, 90vw);
