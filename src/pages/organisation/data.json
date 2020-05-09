@@ -36,7 +36,7 @@
             "project_url":"https://shardingsphere.apache.org/index_zh.html",
             "url": "https://shardingsphere.apache.org/",
             "description": "分布式数据库中间件解决方案。",
-            "full_des": "Apache ShardingSphere 是一套开源的分布式数据库中间件解决方案组成的生态圈，它由Sharding-JDBC、Sharding-Proxy和Sharding-Sidecar（规划中）这3款相互独立，却又能够混合部署配合使用的产品组成。它们均提供标准化的数据分片、分布式事务和数据库治理功能，可适用于如Java同构、异构语言、云原生等各种多样化的应用场景。",
+            "full_des": "Apache ShardingSphere 是一套开源的分布式数据库中间件解决方案组成的生态圈，它由Sharding-JDBC、Sharding-Proxy和Sharding-Sidecar（规划中）这3款相互独立，却又能够混合部署配合使用的产品组成。",
             "tech_tag": ["分布式","数据库","中间件"],
             "domain_tag": ["Java后端","关系型数据库"]
         },
