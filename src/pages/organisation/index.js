@@ -1,12 +1,20 @@
 import React from 'react'
 import './index.less';
-import data from './data.json'
-
+import data from './data.json';
+import scrollSmoothTo from './../../config/scroll.js';
 export default class Organisation extends React.Component{
     constructor(props){
         super(props)
         this.state ={
             data,
+        }
+    }
+
+    componentDidMount(){
+        window.scrollTo(0,0)
+        const location = window.location.hash.split("to=")
+        if(location[1] && location[1] === 'head'){
+            scrollSmoothTo(0)
         }
     }
     openInNewTab(url) {
@@ -78,7 +86,7 @@ export default class Organisation extends React.Component{
                         this.state.data.orgList.map((item,index)=>{
                             
                             return (
-                                <div>
+                                <div key={index}>
                                     {/* <div className="orgListItem" key={index} onClick={() => this.openInNewTab(item.project_url ? item.project_url : item.url)}> */}
                                     <div className="orgListItem" key={index} onClick={() => this.showModal(index, item.project_url ? item.project_url : item.url)}>
                                             <div 
@@ -89,9 +97,9 @@ export default class Organisation extends React.Component{
                                             <div className="orgListItemTitle">{item.title}</div>
                                             <div className="orgListItemDes">{item.description}</div>
                                     </div>
-                                    <div class="org-tooltip" id={index+'-tooltip'}>
+                                    <div className="org-tooltip" id={index+'-tooltip'}>
                                         
-                                        <span class="triangle" id={index+'-triangle'}></span>
+                                        <span className="triangle" id={index+'-triangle'}></span>
                                         <div className="tooltip-close" onClick={() => {this.closeModal(index)}}></div>
                                         <div className="tooltip-title">{item.title}</div>
                                         <div className="tooltip-description">{item.full_des}</div>

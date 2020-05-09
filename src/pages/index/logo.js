@@ -1,6 +1,16 @@
 
 
 const logolistMap = {
+    company:[
+         {
+            img:'logo1.jpg',
+            url:'http://www.ict.ac.cn/'
+        },
+        {
+            img:'logo2.jpg',
+            url:'http://www.cambricon.com/'
+        }
+    ],
     opencommunity:[
         {
             name:'开源社',
@@ -24,11 +34,11 @@ const logolistMap = {
         },
     ],
     technology:[
-        {
-            name:'openeuler',
-            img:'c_openeuler.jpg',
-            url:'https://openeuler.org/zh/'
-        },
+        // {
+        //     name:'openeuler',
+        //     img:'c_openeuler.jpg',
+        //     url:'https://openeuler.org/zh/'
+        // },
         {
             name:'ApacheAPISIX',
             img:'c_ApacheAPISIX.jpg',
@@ -106,6 +116,11 @@ const logolistMap = {
             url:'https://tuna.moe/'
         },
         {
+            name:'UniversalOJ',
+            img:'c_UniversalOJ.jpg',
+            url:'http://uoj.ac/'
+        },
+        {
             name:'xlab',
             img:'c_xlab.jpg',
             url:'http://xlab.kfcoding.com/'
@@ -130,9 +145,19 @@ const logolistMap = {
             url:"https://www.tsinghua.edu.cn/index.htm"
         },
         {
+            name:'北京交通大学',
+            img:'beijingjiaotong.jpg',
+            url:'https://www.bjtu.edu.cn/'
+        },
+        {
             name:'北京工业大学',
             img:'logo9.jpg',
             url:'http://www.bjut.edu.cn/'
+        },
+        {
+            name:'北京航空航天大学',
+            img:'beijinghangkonghangtian.jpg',
+            url:'https://www.buaa.edu.cn/'
         },
         {
             name:'北京理工大学',
@@ -140,15 +165,20 @@ const logolistMap = {
             url:'http://www.bit.edu.cn/'
         },
         {
+            name:'北京邮电大学',
+            img:'beijingyoudian.jpg',
+            url:'https://www.bupt.edu.cn/'
+        },
+        {
+            name:'中央财经大学',
+            img:'zhongyangcaijin.jpg',
+            url:'http://www.cufe.edu.cn/'
+        },
+        {
             name:'北京信息科技大学',
             img:'logo12.jpg',
             url:'https://www.bistu.edu.cn/'
         },
-        {
-            name:'华中科技大学',
-            img:'logo17.jpg',
-            url:'https://www.hust.edu.cn/'
-        }, 
         {
             name:'中国科学院大学',
             img:'logo28.jpg',
@@ -165,9 +195,14 @@ const logolistMap = {
             url:'http://www.tju.edu.cn/index.htm'
         }, 
         {
-            name:'中国科学技术大学',
-            img:'logo27.jpg',
-            url:'https://www.ustc.edu.cn/'
+            name:'大连理工大学',
+            img:'logo23.jpg',
+            url:'https://www.dlut.edu.cn/'
+        }, 
+        {
+            name:'哈尔滨工业大学',
+            img:'logo32.jpg',
+            url:'http://www.hit.edu.cn/'
         },
         {
             name:'复旦大学',
@@ -195,9 +230,50 @@ const logolistMap = {
             url:'http://www.shanghaitech.edu.cn/'
         },
         {
+            name:'浙江大学',
+            img:'zhejiang.jpg',
+            url:'http://www.zju.edu.cn/'
+        },
+        {
+            name:'中国科学技术大学',
+            img:'logo27.jpg',
+            url:'https://www.ustc.edu.cn/'
+        },
+        {
+            name:'厦门大学',
+            img:'xiamen.jpg',
+            url:'https://www.xmu.edu.cn/'
+        },
+        {
+            name:'武汉大学',
+            img:'wuhan.jpg',
+            url:'http://www.whu.edu.cn/'
+        },
+        {
+            name:'华中科技大学',
+            img:'logo17.jpg',
+            url:'https://www.hust.edu.cn/'
+        }, 
+        {
+            name:'武汉理工大学',
+            img:'wuhanligong.jpg',
+            url:'http://whut.edu.cn/'
+        }, 
+        
+        {
             name:'广州大学',
             img:'logo31.jpg',
             url:'http://www.gzhu.edu.cn/'
+        },
+        {
+            name:'海南大学',
+            img:'hainan.jpg',
+            url:'https://www.hainanu.edu.cn/index.shtml'
+        },
+        {
+            name:'电子科技大学',
+            img:'dianzikeji.jpg',
+            url:'https://www.uestc.edu.cn/'
         },
         {
             name:'西安交通大学',
@@ -209,11 +285,7 @@ const logolistMap = {
             img:'logo25.jpg',
             url:'https://www.xidian.edu.cn/'
         },
-        {
-            name:'哈尔滨工业大学',
-            img:'logo32.jpg',
-            url:'http://www.hit.edu.cn/'
-        },
+        
 
     ]
 }
