@@ -13,16 +13,29 @@ export default class Start extends React.Component{
        
     }
     scrollLocation (indexStr) {
-        if (indexStr === "student") {
-            var win = window.open("https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名", '_blank');
-            win.focus();
+        var win;
+        switch (indexStr) {
+            case "student":
+                win = window.open("https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名", '_blank');
+                break;
+            case "community":
+                win = window.open("https://isrc.iscas.ac.cn/summer2020/help/community.html#社区如何报名", '_blank');
+                break;
+            default:
+                win = window.open(" https://isrc.iscas.ac.cn/summer2020/help/cooperation.html#如何成为合作单位", '_blank');
+                break;
         }
-        else {
-            document.getElementById("start-"+indexStr).scrollIntoView();
-            document.getElementById(indexStr).style.display = "block";
-            setTimeout(()=>{document.getElementById(indexStr).style.display = "none";}, 2000);
-            // window.scrollTo(0,document.body.scrollHeight);
-        }
+        win.focus();
+        // if (indexStr === "student") {
+        //     var win = window.open("https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名", '_blank');
+            
+        // }
+        // else {
+        //     document.getElementById("start-"+indexStr).scrollIntoView();
+        //     document.getElementById(indexStr).style.display = "block";
+        //     setTimeout(()=>{document.getElementById(indexStr).style.display = "none";}, 2000);
+        //     // window.scrollTo(0,document.body.scrollHeight);
+        // }
 
         return 0;
     }
@@ -79,7 +92,7 @@ export default class Start extends React.Component{
                                      
                                 </ul>
                             </span>
-                            <span className="indexStartOneTextConsChi indexStartContact" id="start-sponsor">
+                            {/* <span className="indexStartOneTextConsChi indexStartContact" id="start-sponsor">
                                     <h2>如何联系</h2>
                                     <h3>
                                         请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn?subject=合作单位报名暑期2020！&body=请填写合作单位名称、联系人姓名和联系人联系方式，我们会尽快联系您。">summer2020@iscas.ac.cn</a>
@@ -95,7 +108,7 @@ export default class Start extends React.Component{
                                             联系方式
                                         </li>
                                     </ul>
-                            </span>
+                            </span> */}
                         </div>
                         <div className="indexStartOneTextCons">
                             <span className="indexStartOneTextConsChi"><h2>社区要求</h2></span>
@@ -112,7 +125,7 @@ export default class Start extends React.Component{
                                     </li>
                                 </ul>
                             </span>  
-                            <span className="indexStartOneTextConsChi indexStartContact community-contact" id="start-community">
+                            {/* <span className="indexStartOneTextConsChi indexStartContact community-contact" id="start-community">
                                 <h2>如何报名</h2>
                                 <h3>
                                     请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn?subject=开源社区报名暑期2020！&body=请填写社区名称、联系人姓名和联系人联系方式，我们会尽快联系您。">summer2020@iscas.ac.cn</a>
@@ -128,7 +141,7 @@ export default class Start extends React.Component{
                                         联系方式
                                     </li>
                                 </ul>
-                            </span>
+                            </span> */}
                         </div>
                         <div className="indexStartOneTextCons">
                             <span className="indexStartOneTextConsChi "><h2>学生要求</h2></span>
