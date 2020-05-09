@@ -30,7 +30,7 @@ export default class Index extends React.Component{
                     },
                     {
                         img:'huaruijinrong.jpg',
-                        url:''
+                        url:'http://www.archforce.cn'
                     },
                     
                    
@@ -44,7 +44,7 @@ export default class Index extends React.Component{
         let divContainer = [];
         orList.map((item,index)=>{
             divContainer.push(<div 
-                className={["indexHomOrItem", item.url?'':'cursordefault'].join(" ")} 
+                className="indexHomOrItem" 
                 key={index} 
                 onClick={()=>{this.goLogoLink(item.url)}}
                 style={{backgroundImage: "url("+require("./../../img/logolist/"+item.img) + ")"}}>
@@ -136,7 +136,7 @@ export default class Index extends React.Component{
             {
                 img:'3_3.jpg',
                 name:'浏览项目',
-                url:'organisations',
+                url:'organisations?to=head',
             },
         ]
         data.map((item,index)=>{
