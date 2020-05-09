@@ -2,7 +2,6 @@ import React from 'react'
 import './index.less';
 import './mobile-start.less';
 import data from './data.js'
-import {NavLink} from 'react-router-dom';
 export default class Start extends React.Component{
     constructor(props){
         super(props)
@@ -14,10 +13,17 @@ export default class Start extends React.Component{
        
     }
     scrollLocation (indexStr) {
-        document.getElementById("start-"+indexStr).scrollIntoView();
-        document.getElementById(indexStr).style.display = "block";
-        setTimeout(()=>{document.getElementById(indexStr).style.display = "none";}, 2000);
-        // window.scrollTo(0,document.body.scrollHeight);
+        if (indexStr === "student") {
+            var win = window.open("https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名", '_blank');
+            win.focus();
+        }
+        else {
+            document.getElementById("start-"+indexStr).scrollIntoView();
+            document.getElementById(indexStr).style.display = "block";
+            setTimeout(()=>{document.getElementById(indexStr).style.display = "none";}, 2000);
+            // window.scrollTo(0,document.body.scrollHeight);
+        }
+
         return 0;
     }
 
@@ -135,18 +141,24 @@ export default class Start extends React.Component{
                             <span className="indexStartOneTextConsChi indexStartContact">
                                 <h3>2020年6月1日</h3>
                                 <h3>学生报名正式开始！</h3>
+                                <h3><a 
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://isrc.iscas.ac.cn/summer2020/help/">
+                                        点击查看如何报名
+                                </a></h3>
                             </span>
                         </div>
                         </div>
                     </div>
                </div>
                <div className="startBannerEnd">
-                        <NavLink 
+                        <a 
                             target="_blank"
                             rel="noopener noreferrer"
                             className="startQAButton"
-                            to="/qa">查看热点问题 Q&A
-                        </NavLink>
+                            href="https://isrc.iscas.ac.cn/summer2020/help/">查看热点问题 Q&A
+                        </a>
                </div>
            </div>
         )
