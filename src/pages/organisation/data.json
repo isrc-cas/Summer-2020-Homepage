@@ -65,7 +65,7 @@
             "title":"Ceph 中国",
             "project_url":"",
             "url": "http://www.ceph.org.cn",
-            "description": "国内最专业的 Ceph 技术交流平台",
+            "description": "国内最专业的 Ceph 技术交流平台。",
             "full_des": "Ceph 中国社区成立于 2014 年 7 月，国内最专业的 Ceph 技术交流平台，包括线上的 QQ 群/微信群、翻译小组、订阅号和线下沙龙。2015 年提出 Ceph 中国行布道之旅，全面深入的在中国多座城市进行 Ceph 布道受众人数累计2W+。",
             "tech_tag": ["存储"],
             "domain_tag": ["存储"]
