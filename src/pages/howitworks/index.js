@@ -12,8 +12,14 @@ export default class Howitworks extends React.Component{
     }
 
     gettime(time){
+        
         const retime = time.split("_");
-        return retime[0]+"月"+retime[1]+"日"
+        if(retime[1]){
+            return retime[0]+"月"+retime[1]+"日"
+        }else{
+            return retime
+        }
+        
     }
 
     componentDidMount(){
