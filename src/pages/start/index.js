@@ -10,7 +10,7 @@ export default class Start extends React.Component{
         }
     }
     componentDidMount(){
-       
+        window.scrollTo(0,0);
     }
     scrollLocation (indexStr) {
         var win;
