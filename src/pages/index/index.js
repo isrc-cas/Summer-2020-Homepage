@@ -210,9 +210,9 @@ export default class Index extends React.Component{
                </div>
                <div className="indexHomeThird">
                         <div className="indexHomeThirdWrapper content1200">
-                            {/* <div className="indexHomeThirdButton">
+                            <div className="indexHomeThirdButton">
                                 {this.getButtons()}
-                            </div> */}
+                            </div>
                             <div className="indexHomeThirdTitle">主办单位</div>
                             <div className="indexHomeOrList holder">
                                     {this.getOrList(this.state.logoMain.holder)}
