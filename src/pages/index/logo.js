@@ -80,7 +80,11 @@ const logolistMap = {
             img:'c_emacs.jpg',
             url:'https://www.gnu.org/software/emacs/'
         },
-
+        {
+            name:'lugustc',
+            img:'c_lugustc.jpg',
+            url:'https://lug.ustc.edu.cn/wiki/'
+        },
         {
             name:'MaskBook',
             img:'c_maskbook.jpg',
@@ -89,6 +93,7 @@ const logolistMap = {
         //     name:'c_markdownlab',
         //     img:'c_markdownlab.jpg',
         // },
+        
         {
             name:'milvus',
             img:'c_milvus.jpg',
@@ -196,7 +201,7 @@ const logolistMap = {
         }, 
         {
             name:'大连理工大学',
-            img:'logo23.jpg',
+            img:'dalianligong.jpg',
             url:'https://www.dlut.edu.cn/'
         }, 
         {
@@ -244,11 +249,11 @@ const logolistMap = {
             img:'xiamen.jpg',
             url:'https://www.xmu.edu.cn/'
         },
-        {
-            name:'武汉大学',
-            img:'wuhan.jpg',
-            url:'http://www.whu.edu.cn/'
-        },
+        // {
+        //     name:'武汉大学',
+        //     img:'wuhan.jpg',
+        //     url:'http://www.whu.edu.cn/'
+        // },
         {
             name:'华中科技大学',
             img:'logo17.jpg',

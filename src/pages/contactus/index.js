@@ -33,13 +33,14 @@ export default class Contactus extends React.Component{
                 title:'学生参与流程',
                    url:'https://isrc.iscas.ac.cn/summer2020/help/student.html#'          
                },
-               {
-                title:'导师参与流程',
-                   url:'https://isrc.iscas.ac.cn/summer2020/help/mentor.html'
-               },
+               
                {
                 title:'社区参与流程',
                     url:'https://isrc.iscas.ac.cn/summer2020/help/community.html'
+                },
+                {
+                title:'导师参与流程',
+                    url:'https://isrc.iscas.ac.cn/summer2020/help/mentor.html'
                 },
                
 
@@ -126,6 +127,8 @@ export default class Contactus extends React.Component{
                             </div>
 
                         </div>
+
+                       
                         
 
                     </div>
