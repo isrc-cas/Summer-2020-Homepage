@@ -20,15 +20,20 @@ export default class Index extends React.Component{
                     }
                 ],
                 cooperation: [
-                    
                     {
-                        img:'jisuan.jpg',
-                        url:'http://www.ict.ac.cn/'
+                        img:'huawei.jpg',
+                        url:'https://www.huawei.com/cn/'
                     },
                     {
-                        img:'hanwuji.jpg',
-                        url:'http://www.cambricon.com/'
-                    }
+                        img:'zhongkeruan.jpg',
+                        url:'http://www.sinosoft.com.cn/'
+                    },
+                    {
+                        img:'huaruijinrong.jpg',
+                        url:'#'
+                    },
+                    
+                   
                 ]
             }
         }
