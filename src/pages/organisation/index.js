@@ -24,7 +24,7 @@ export default class Organisation extends React.Component{
         }   
     }
     showModal(index, project_url) {
-        if (window.innerWidth < 300) {
+        if (window.innerWidth < 320) {
             this.openInNewTab(project_url);
         }
         else if (document.getElementById(index+"-tooltip").style.display && document.getElementById(index+"-tooltip").style.display !== 'none') {
