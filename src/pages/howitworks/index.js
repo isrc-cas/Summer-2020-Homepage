@@ -12,8 +12,14 @@ export default class Howitworks extends React.Component{
     }
 
     gettime(time){
+        
         const retime = time.split("_");
-        return retime[0]+"月"+retime[1]+"日"
+        if(retime[1]){
+            return retime[0]+"月"+retime[1]+"日"
+        }else{
+            return retime
+        }
+        
     }
 
     componentDidMount(){
@@ -100,9 +106,9 @@ export default class Howitworks extends React.Component{
                                 })
                             }
                        </div>
-                       <div className="HowitworksTimeTitle opensource">“开源大咖”系列讲座</div>
+                       <div className="HowitworksTimeTitle opensource"> “大咖说开源” 系列直播讲座</div>
                        <div className="HowitworksTimelineList">
-                                具体时间后续将发布在官网和公众号
+                      第一期将在 5 月 16 日直播，请关注官网和公众号的后续消息。
                                 {/* <div className="HowitworksTimelineItem">
                                     <div className="HowitworksTimelineItemIcon"></div>
                                     <div className="HowitworksTimelineItemCons">

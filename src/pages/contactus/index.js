@@ -25,6 +25,10 @@ export default class Contactus extends React.Component{
                
            ],
            sourceLink:[
+            {
+                title:'热点问题Q&A',
+                url:'https://isrc.iscas.ac.cn/summer2020/help/'
+            },
                {
                 title:'学生参与流程',
                    url:'https://isrc.iscas.ac.cn/summer2020/help/student.html#'          
@@ -37,10 +41,7 @@ export default class Contactus extends React.Component{
                 title:'社区参与流程',
                     url:'https://isrc.iscas.ac.cn/summer2020/help/community.html'
                 },
-                {
-                    title:'热点问题Q&A',
-                    url:'https://isrc.iscas.ac.cn/summer2020/help/'
-                },
+               
 
            ]
        }
@@ -61,6 +62,40 @@ export default class Contactus extends React.Component{
                 </div>
                 <div className="contactUsWrapper">
                     <div className="contactUsContent content1200">
+                    <div className="contentUsRelateLink">
+                            <div className="contentUsTitle"><span>资源链接</span></div>
+                            <div className="contentUsRelateLinkList sourceLink">
+                                {
+                                    this.state.sourceLink.map((item,index)=>{
+                                        return (
+                                            <div 
+                                                key={index}
+                                                onClick={()=>this.goLink(item.url)}
+                                                className="contentUsRelateLinkItem">
+                                                <span>{item.title}</span>
+                                            </div>
+                                        )
+                                    })
+                                }
+                            </div>
+                            <div className="contentUsTitle"><span>主办单位</span></div>
+                            <div className="contentUsRelateLinkList">
+                                {
+                                    this.state.relatelinks.map((item,index)=>{
+                                        return (
+                                            <div 
+                                                key={index}
+                                                onClick={()=>this.goLink(item.url)}
+                                                className="contentUsRelateLinkItem">
+                                                {item.title}
+                                            </div>
+                                        )
+                                    })
+                                }
+                            </div>
+                           
+                            
+                        </div>
                         <div className="contentUsContact">
                             <div className="contentUsTitle">
                                 <span>联系我们</span>
@@ -91,39 +126,7 @@ export default class Contactus extends React.Component{
                             </div>
 
                         </div>
-                        <div className="contentUsRelateLink">
-                            <div className="contentUsTitle"><span>主办单位</span></div>
-                            <div className="contentUsRelateLinkList">
-                                {
-                                    this.state.relatelinks.map((item,index)=>{
-                                        return (
-                                            <div 
-                                                key={index}
-                                                onClick={()=>this.goLink(item.url)}
-                                                className="contentUsRelateLinkItem">
-                                                {item.title}
-                                            </div>
-                                        )
-                                    })
-                                }
-                            </div>
-                            <div className="contentUsTitle"><span>资源链接</span></div>
-                            <div className="contentUsRelateLinkList sourceLink">
-                                {
-                                    this.state.sourceLink.map((item,index)=>{
-                                        return (
-                                            <div 
-                                                key={index}
-                                                onClick={()=>this.goLink(item.url)}
-                                                className="contentUsRelateLinkItem">
-                                                <span>{item.title}</span>
-                                            </div>
-                                        )
-                                    })
-                                }
-                            </div>
-                            
-                        </div>
+                        
 
                     </div>
                 </div>

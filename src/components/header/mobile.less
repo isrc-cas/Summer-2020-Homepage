@@ -355,7 +355,9 @@
             .contactUsContent{
                 flex-direction: column;
                 padding: 30px 0;
-               
+               .contentUsRelateLink{
+
+               }
                 .contentUsListItemTitlelong{
                     border-top: 1px solid  #dadee6;
                     width: 91vw;
@@ -374,7 +376,8 @@
                     height: auto;
                     padding-top: 6px;
                     display: block;
-                    border:none
+                    border:none;
+                    padding-bottom: 0;
                 }
                 .contentUsListItemtip{
                     display: none;
@@ -382,16 +385,21 @@
                
     
     
-                .weixindiscuss,
-                .imageweixin{
-                    margin-top:0;
-                }
+                
+               
+
+              
                 .contentUsListItem{
                     font-size: 13px;
                     margin-top: 15px;
                 }
+                .contentUsListItem.imageweixin,
+                .contentUsListItem.weixindiscuss{
+                    margin-top:0;
+                }
                 .contentUsTitle{
                     font-size: 24px;
+                    margin-bottom: 20px;
                 }
                 .contentUsContactList{
                     font-size: 18px;
@@ -400,13 +408,24 @@
                         border:none;
                     }
                     .contentUsListItemTitle{
-                        width: 64px;
+                        width: 45px;
+                        margin-left: 24px;
                     }
                 }
                 .contentUsContact{
                     width: 100%;
                     
                 }
+                .contentUsRelateLink {
+                    position: relative;
+                    width: 100%;
+
+                    .contentUsRelateLinkItem{
+                        margin-bottom: 20px;
+                    }
+
+                }
+               
     
                 // .contentUsListItemTitlelongS::before{
                 //     position: absolute;
@@ -422,6 +441,7 @@
                     width: 278px;
                     height: auto;
                     margin-top: 20px;
+                   
                 }
     
     
