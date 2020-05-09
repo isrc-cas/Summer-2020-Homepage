@@ -161,6 +161,16 @@
             "domain_tag": ["Online Judge 系统","算法"]
         },
         {
+            "img":"ustclug.jpg",
+            "title":"USTCLUG",
+            "project_url":"",
+            "url": "https://lug.ustc.edu.cn/wiki/start",
+            "description": "中科大 Linux 和开源软件爱好者团体。",
+            "full_des": "中国科学技术大学学生 Linux 用户协会（科大 LUG）是由在校的 GNU/Linux 爱好者发起并组成的全校性群众团体，是一个以推广自由软件文化、宣传自由软件价值为目的的协会组织。",
+            "tech_tag": ["Linux", "GNU"],
+            "domain_tag": ["Linux", "GNU"]
+        },
+        {
             "img":"xlab.jpg",
             "title":"X-Lab",
             "project_url":"",

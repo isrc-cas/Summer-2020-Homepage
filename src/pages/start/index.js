@@ -145,7 +145,7 @@ export default class Start extends React.Component{
                                     </li>
                                 </ul>
                             </span>
-                            <span className="indexStartOneTextConsChi indexStartContact">
+                            {/* <span className="indexStartOneTextConsChi indexStartContact">
                                 <h3>2020年6月1日</h3>
                                 <h3>学生报名正式开始！</h3>
                                 <h3><a 
@@ -154,7 +154,7 @@ export default class Start extends React.Component{
                                     href="https://isrc.iscas.ac.cn/summer2020/help/">
                                         点击查看如何报名
                                 </a></h3>
-                            </span>
+                            </span> */}
                         </div>
                         </div>
                     </div>
