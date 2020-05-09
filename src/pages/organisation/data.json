@@ -1,0 +1,216 @@
+{
+    "orgList":[
+        {
+            "img":"ApacheAPISIX.jpg",
+            "title":"Apache APISIX",
+            "project_url":"https://cwiki.apache.org/confluence/display/APISIX/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
+            "url": "http://apisix.apache.org/zh/",
+            "description": "云原生，高性能，可扩展微服务API。",
+            "full_des": "Apache APISIX 是云原生、高性能、可扩展的微服务 API 网关，它基于 Nginx 和 etcd 来实现，具备动态路由、插件热加载和 gRPC 代理和协议转换功能，更适合微服务体系下的 API 管理。",
+            "tech_tag": ["网关","Nginx","C","Lua","API","Golang","k8s"],
+            "domain_tag": ["中间件","微服务"]
+        },
+        {
+            "img":"dolphin.jpg",
+            "title":"Apache DolphinScheduler",
+            "project_url":"",
+            "url": "https://dolphinscheduler.apache.org/",
+            "description": "可视化DAG工作流任务调度系统。",
+            "full_des": "Apache DolphinScheduler 是一个分布式去中心化，易扩展的可视化DAG工作流任务调度系统。致力于解决数据处理流程中错综复杂的依赖关系，使调度系统在数据处理流程中开箱即用。",
+            "tech_tag": ["分布式任务调度","大数据任务调度","工作流任务调度"],
+            "domain_tag": ["大数据","大数据任务调度"]
+        },
+        {
+            "img":"pulsar.jpg",
+            "title":"Apache Pulsar",
+            "project_url":"",
+            "url": "http://pulsar.apache.org/",
+            "description": "雅虎开源，下一代分布式的消息系统。",
+            "full_des": "Apache Pulsar 是云原生的下一代发布订阅消息系统和流数据平台。Pulsar 用于解决现有开源消息系统的不足，助力 Yahoo 的主要应用，如 Yahoo Mail、Yahoo Finance、Yahoo Sports、Flickr、Gemini 广告平台和 Yahoo 的分布式键值存储系统 Sherpa。于 2016 年底开源，目前是 Apache 软件基金会的顶级项目。",
+            "tech_tag": ["分布式系统","消息系统","信息流平台"],
+            "domain_tag": ["分布式系统","消息系统","信息流平台"]
+        },
+        {
+            "img":"sharding.jpg",
+            "title":"Apache ShardingSphere",
+            "project_url":"https://shardingsphere.apache.org/index_zh.html",
+            "url": "https://shardingsphere.apache.org/",
+            "description": "分布式数据库中间件解决方案。",
+            "full_des": "Apache ShardingSphere 是一套开源的分布式数据库中间件解决方案组成的生态圈，它由Sharding-JDBC、Sharding-Proxy和Sharding-Sidecar（规划中）这3款相互独立，却又能够混合部署配合使用的产品组成。",
+            "tech_tag": ["分布式","数据库","中间件"],
+            "domain_tag": ["Java后端","关系型数据库"]
+        },
+        {
+            "img":"ApacheSkyWalking.jpg",
+            "title":"Apache SkyWalking",
+            "project_url":"https://cwiki.apache.org/confluence/display/SKYWALKING/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
+            "url": "http://skywalking.apache.org",
+            "description": "分布式系统的应用程序性能监视工具。",
+            "full_des": "Apache软件基金会顶级项目。分布式系统的应用程序性能监视工具，专为微服务、云原生架构和基于容器（Docker、K8s、Mesos）架构而设计。",
+            "tech_tag": ["Apache","APM","java","go", "php", "nodejs", "dotnet", "service mesh", "prometheus", "distributed tracing"],
+            "domain_tag": ["应用性能监控", "分布式追踪", "分布式系统性能"]
+        },
+        {
+            "img":"casbin.jpg",
+            "title":"Casbin",
+            "project_url":"https://github.com/casbin/Summer2020",
+            "url": "https://casbin.org/",
+            "description": "开源访问控制框架，支持多种模型。",
+            "full_des": "Casbin是一个强大的、高效的开源访问控制框架，其权限管理机制支持ACL、RBAC、ABAC、RESTful等多种访问控制模型。Casbin支持以下8种编程语言：Golang, Java, Node.js, PHP, Python, .NET, Delphi, Rust，未来会陆续支持Javascript和C/C++等语言。",
+            "tech_tag": ["go", "java", "nodejs", "php", "python", ".net", "delphi", "rust", "javascript", "react"],
+            "domain_tag": ["网络安全","云安全","授权","访问控制","权限管理"]
+        },
+        {
+            "img":"ceph.jpg",
+            "title":"Ceph 中国",
+            "project_url":"",
+            "url": "http://www.ceph.org.cn",
+            "description": "国内最专业的 Ceph 技术交流平台。",
+            "full_des": "Ceph 中国社区成立于 2014 年 7 月，国内最专业的 Ceph 技术交流平台，包括线上的 QQ 群/微信群、翻译小组、订阅号和线下沙龙。2015 年提出 Ceph 中国行布道之旅，全面深入的在中国多座城市进行 Ceph 布道受众人数累计2W+。",
+            "tech_tag": ["存储"],
+            "domain_tag": ["存储"]
+        },
+        {
+            "img":"elastos.jpg",
+            "title":"Elastos 亦来云",
+            "project_url":"",
+            "url": "https://www.elastos.org/",
+            "description": "更安全的下一代价值互联网操作系统。",
+            "full_des": "Elastos是以区块链为可信基础的，更安全的下一代价值互联网操作系统。它基于创始人陈榕在微软及国内创业期间对操作系统30余年的研究，利用区块链及去中心化技术，通过P2P通信、沙箱机制、DID身份确认等，实现符合价值互联网、物联网时代的全新网络操作系统。",
+            "tech_tag": ["区块链","blockchain","去中心化","decentralization"],
+            "domain_tag": ["区块链","网络操作系统","去中心化","P2P"]
+        },
+        {
+            "img":"emacs.jpg",
+            "title":"GNU Emacs（中文）",
+            "project_url":"",
+            "url": "https://emacs-china.org/",
+            "description": "著名的集成开发环境和文本编辑器。",
+            "full_des": "",
+            "tech_tag": [],
+            "domain_tag": []
+        },
+        {
+            "img":"maskbook.jpg",
+            "title":"Maskbook",
+            "project_url":"",
+            "url": "https://maskbook.com",
+            "description": "保护互联网用户隐私的浏览器插件。",
+            "full_des": "Maskbook 是一个浏览器插件，我们致力于通过应用密码学的技术来帮助用户能够很简单的、不改变他们日常习惯的方法来保护他们在网络上的隐私。",
+            "tech_tag": ["TypeScript", "React", "Cryptography", "Decentralized Database"],
+            "domain_tag": ["Frontend", "Cryptography", "Typescript"]
+        },
+        {
+            "img":"milvus.jpg",
+            "title":"Milvus",
+            "project_url":"",
+            "url": "https://www.milvus.io/cn/",
+            "description": "开源的特征向量相似度搜索引擎。",
+            "full_des": "Milvus 是一款开源的特征向量相似度搜索引擎，具有使用方便、实用可靠、易于扩展、稳定高效和搜索迅速等特点。Milvus 已经被广泛应用于多个领域，其中包括图像处理、机器视觉、自然语言处理、语音识别、推荐系统以及新药发现等。",
+            "tech_tag": ["深度学习","计算机视觉","NLP","语音识别","化合物检索"],
+            "domain_tag": ["深度学习","计算机视觉","NLP","语音识别"]
+        },
+        {
+            "img":"oi.jpg",
+            "title":" OI Wiki",
+            "project_url": "https://git.io/summer2020",
+            "url": "https://oi-wiki.org",
+            "description": "编程竞赛知识，内含炫酷算术魔法！",
+            "full_des": "OI Wiki 是一个编程竞赛知识整合站点，提供有趣又实用的编程竞赛知识以及其他有帮助的内容，帮助广大编程竞赛爱好者更快更深入地学习编程竞赛。同时我们围绕 OI Wiki 主站开展一些相关的基础设施建设，包括 markdown 渲染工具以及周边诸多开发工具。",
+            "tech_tag": ["typescript", "react", "remark", "unified", "algorithm", "data-structure", "competitive-programming"],
+            "domain_tag": ["算法与数据结构教育","开发工具","web"]
+        },
+        {
+            "img":"openeuler.jpg",
+            "title":"openEuler Community",
+            "project_url":"",
+            "url": "https://www.openeuler.org",
+            "description": "推动软硬件应用生态繁荣发展。",
+            "full_des": "openEuler 是一个开源、免费的 Linux 发行版平台，将通过开放的社区形式与全球的开发者共同构建一个开放、多元和架构包容的软件生态体系。同时，openEuler 也是一个创新的平台，鼓励任何人在该平台上提出新想法、开拓新思路、实践新方案。",
+            "tech_tag": ["Linux","Git","GCC","RPM"],
+            "domain_tag": ["操作系统","内核","包管理"]
+        },
+        {
+            "img":"RT-Thread.jpg",
+            "title":"RT-Thread",
+            "project_url":"",
+            "url": "https://www.rt-thread.org/",
+            "description": "小而美的物联网操作系统。",
+            "full_des": "RT-Thread  是一个集实时操作系统（RTOS）内核、中间件组件和开发者社区于一体的技术平台，由熊谱翔先生带领并集合开源社区力量开发而成，也是一个组件完整丰富、高度可伸缩、简易开发、超低功耗、高安全性的物联网操作系统。",
+            "tech_tag": ["RTOS","IoT","embedded-systems","Cortex-M","Cortex-A","RISC-V","ARM"],
+            "domain_tag": ["物联网操作系统","软件包","GUI","IDE"]
+        },
+        {
+            "img":"tinylab.jpg",
+            "title":"泰晓科技",
+            "project_url":"",
+            "url": "http://tinylab.org",
+            "description": "聚焦 Linux，追本溯源，见微知著！",
+            "full_des": "泰晓科技是一个知名公益性 Linux 技术社区，创立于 2010 年，长期聚焦 Linux 系统技术交流和产品实践，追本溯源，见微知著，致力于推动业界创造更极致的 Linux 产品。",
+            "tech_tag": ["Linux", "Linux Lab", "技术交流", "产品实践"],
+            "domain_tag": ["Linux 内核","Linux 实验环境","实时系统","系统优化"]
+        },
+        {
+            "img":"tuna.jpg",
+            "title":"清华大学 TUNA 协会",
+            "project_url":"https://tuna.moe/blog/2020/ospp-summer-2020/",
+            "url": "https://tuna.moe/",
+            "description": "目前中国影响力最大的高校开源社区。",
+            "full_des": "清华大学 TUNA 协会全名清华大学学生网络与开源软件协会（Tsinghua University TUNA Association），是由清华大学网络技术和开源软件爱好者、技术宅组成的团体。",
+            "tech_tag": ["Linux", "Mirrors", "Qt", "Python", "Node.js", "Go"],
+            "domain_tag": ["服务器运维","网络编程","系统工具"]
+        },        
+        {
+            "img":"oj.jpg",
+            "title":"Universal OJ",
+            "project_url":"",
+            "url": "https://github.com/UniversalOJ",
+            "description": "一款通用的在线评测系统。",
+            "full_des": "Universal OJ 开源社区为以吕凯风开发的 UOJ 为基础的二次开发建立的社群；Universal OJ 开源社区专注于对算法题目的评测，为学习算法的各方提供便利。",
+            "tech_tag": ["PHP", "MySQL", "C", "Docker"],
+            "domain_tag": ["Online Judge 系统","算法"]
+        },
+        {
+            "img":"ustclug.jpg",
+            "title":"USTCLUG",
+            "project_url":"",
+            "url": "https://lug.ustc.edu.cn/wiki/start",
+            "description": "中科大 Linux 和开源软件爱好者团体。",
+            "full_des": "中国科学技术大学学生 Linux 用户协会（科大 LUG）是由在校的 GNU/Linux 爱好者发起并组成的全校性群众团体，是一个以推广自由软件文化、宣传自由软件价值为目的的协会组织。",
+            "tech_tag": ["Linux", "GNU"],
+            "domain_tag": ["Linux", "GNU"]
+        },
+        {
+            "img":"xlab.jpg",
+            "title":"X-Lab",
+            "project_url":"",
+            "url": "http://xlab.kfcoding.com/",
+            "description": "技术传播文明，践行同步世界。",
+            "full_des": "",
+            "tech_tag": [],
+            "domain_tag": []
+        }
+    ],
+    "creditList":[
+        {
+            "name":"开源社",
+            "img":"logo4.jpg",
+            "url":"https://kaiyuanshe.cn/"
+        },
+        {
+            "name":"oschina",
+            "img":"logo5.jpg",
+            "url":"https://www.oschina.net"
+        },
+        {
+            "name":"思否",
+            "img":"logo6.jpg",
+            "url":"https://www.segmentfault.com/"
+        },
+        {
+            "name":"wuhan2020",
+            "img":"wuhan2020.jpg",
+            "url":"https://community.wuhan2020.org.cn/zh-cn/"
+        }
+    ]
+}

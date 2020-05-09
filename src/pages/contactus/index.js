@@ -23,6 +23,27 @@ export default class Contactus extends React.Component{
             //    },
                
                
+           ],
+           sourceLink:[
+            {
+                title:'热点问题Q&A',
+                url:'https://isrc.iscas.ac.cn/summer2020/help/'
+            },
+               {
+                title:'学生参与流程',
+                   url:'https://isrc.iscas.ac.cn/summer2020/help/student.html#'          
+               },
+               
+               {
+                title:'社区参与流程',
+                    url:'https://isrc.iscas.ac.cn/summer2020/help/community.html'
+                },
+                {
+                title:'导师参与流程',
+                    url:'https://isrc.iscas.ac.cn/summer2020/help/mentor.html'
+                },
+               
+
            ]
        }
     }
@@ -37,32 +58,28 @@ export default class Contactus extends React.Component{
        
         return(
             <div className="contactUs">
-                <div className="contactUsBanner"></div>
+                <div className="contactUsBanner">
+                    <div className="content1200">帮助</div>
+                </div>
                 <div className="contactUsWrapper">
                     <div className="contactUsContent content1200">
-                        <div className="contentUsContact">
-                            <div className="contentUsTitle">联系我们</div>
-                            <div className="contentUsContactList">
-                                {/* <div className="contentUsListItem">
-                                    <div className="contentUsListItemTitle">联系电话</div>
-                                    <div className="contentUsListItemText">+86-(10)-62661689</div>
-                                </div> */}
-                                 <div className="contentUsListItem gray">
-                                    欢迎发邮件给我们，并留下联系方式，我们会尽快与您联系
-                                </div>
-                                <div className="contentUsListItem">
-                                    <div className="contentUsListItemTitle">邮&nbsp;&nbsp;&nbsp;&nbsp;箱:</div><div className="contentUsListItemText">summer2020@iscas.ac.cn</div>
-                                </div>
-                                <div className="contentUsListItem imageweixin">
-                                    <div className="contentUsListItemTitlelong">公众号：ISCAS_ISRC -> 活动专栏 -> 暑期2020</div>
-                                    {/* <div className="contentUsListItemImage"></div> */}
-                                    <img src={imgWeixin} className="contactWeixinjpg" alt="公众号"></img>
-                                </div>
+                    <div className="contentUsRelateLink">
+                            <div className="contentUsTitle"><span>资源链接</span></div>
+                            <div className="contentUsRelateLinkList sourceLink">
+                                {
+                                    this.state.sourceLink.map((item,index)=>{
+                                        return (
+                                            <div 
+                                                key={index}
+                                                onClick={()=>this.goLink(item.url)}
+                                                className="contentUsRelateLinkItem">
+                                                <span>{item.title}</span>
+                                            </div>
+                                        )
+                                    })
+                                }
                             </div>
-
-                        </div>
-                        <div className="contentUsRelateLink">
-                            <div className="contentUsTitle">主办单位</div>
+                            <div className="contentUsTitle"><span>主办单位</span></div>
                             <div className="contentUsRelateLinkList">
                                 {
                                     this.state.relatelinks.map((item,index)=>{
@@ -77,14 +94,42 @@ export default class Contactus extends React.Component{
                                     })
                                 }
                             </div>
-                            <div className="contentUsListItem weixindiscuss">
-                                    <div className="contentUsListItemTitlelongS">开源点亮计划-暑期2020-微信讨论群</div>
-                                    {/* <div className="contentUsListItemImage wx_discuss"></div> */}
-                                    <img src={imgDiscuss} className="contactWeixinjpg discuss" alt="讨论群"></img>
-                                   
-                                    
-                                </div>
+                           
+                            
                         </div>
+                        <div className="contentUsContact">
+                            <div className="contentUsTitle">
+                                <span>联系我们</span>
+                            </div>
+                            <div className="contentUsContactList">
+                               
+                                
+                                <div className="contentUsListItem mail">
+                                    <div className="contentUsListItemTitle">邮&nbsp;&nbsp;&nbsp;&nbsp;箱:</div>
+                                    <div className="contentUsListItemText">summer2020@iscas.ac.cn</div>
+                                </div>
+                                <div className="contentUsListItem gray">
+                                / 欢迎发邮件给我们，并留下联系方式，我们会尽快与您联系 /
+                                </div>
+                                <div className="contentUsListItem imageweixin">
+                                    <div className="contentUsListItemTitle">公众号:</div>
+                                    <span>ISCAS_ISRC -> 活动专栏 -> 暑期2020</span>
+                                    
+                                    <img src={imgWeixin} className="contactWeixinjpg" alt="公众号"></img>
+                                </div>
+                                <div className="contentUsListItem weixindiscuss">
+                                    <div className="contentUsListItemTitlelongS">开源点亮计划-暑期2020-微信讨论群</div>
+                                    <img src={imgDiscuss} className="contactWeixinjpg discuss" alt="讨论群"></img> 
+                                    <div className="contentUsListItemtip"> 
+                                    / 扫描讨论群二维码时，请将手机摄像头稍朝下 /  
+                                    </div>     
+                                </div>
+                            </div>
+
+                        </div>
+
+                       
+                        
 
                     </div>
                 </div>

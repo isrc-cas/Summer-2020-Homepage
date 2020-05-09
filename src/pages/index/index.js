@@ -21,13 +21,19 @@ export default class Index extends React.Component{
                 ],
                 cooperation: [
                     {
-                        img:'hanwuji.jpg',
-                        url:'http://www.cambricon.com/'
+                        img:'huawei.jpg',
+                        url:'https://www.huawei.com/cn/'
                     },
                     {
-                        img:'jisuan.jpg',
-                        url:'http://www.ict.ac.cn/'
-                    }
+                        img:'zhongkeruan.jpg',
+                        url:'http://www.sinosoft.com.cn/'
+                    },
+                    {
+                        img:'huaruijinrong.jpg',
+                        url:'http://www.archforce.cn'
+                    },
+                    
+                   
                 ]
             }
         }
@@ -49,7 +55,10 @@ export default class Index extends React.Component{
     }
 
     goLogoLink(url){
-        window.open(url)
+        if(url){
+            window.open(url)
+        }
+        
     }
 
     getOpensource(){
@@ -127,7 +136,7 @@ export default class Index extends React.Component{
             {
                 img:'3_3.jpg',
                 name:'浏览项目',
-                url:'organisations',
+                url:'organisations?to=head',
             },
         ]
         data.map((item,index)=>{
@@ -211,7 +220,7 @@ export default class Index extends React.Component{
                             <div className="indexHomeThirdTitle">承办单位</div>
                             <div className="indexHomeOrList">
                                 <div 
-                                    onClick={()=>{this.goLogoLink('https://nsi.jit.edu.cn')}}
+                                    
                                     className="indexHomOrItem nanjing" ></div>                         
                             </div>
                             <div className="indexHomeThirdTitle">协办单位</div>

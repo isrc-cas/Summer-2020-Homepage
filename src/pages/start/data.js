@@ -18,6 +18,7 @@ const data = {
             img:'3.png',
             title:'学生',
             stitle:'student',
+            button: '如何报名',
             text:'利用暑期的时间，贡献你的代码吧！',
             text_2: '2020年6月1日，报名正式开始！'
         },

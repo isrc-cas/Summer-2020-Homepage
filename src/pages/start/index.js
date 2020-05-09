@@ -2,7 +2,6 @@ import React from 'react'
 import './index.less';
 import './mobile-start.less';
 import data from './data.js'
-import {NavLink} from 'react-router-dom';
 export default class Start extends React.Component{
     constructor(props){
         super(props)
@@ -14,10 +13,30 @@ export default class Start extends React.Component{
        
     }
     scrollLocation (indexStr) {
-        document.getElementById("start-"+indexStr).scrollIntoView();
-        document.getElementById(indexStr).style.display = "block";
-        setTimeout(()=>{document.getElementById(indexStr).style.display = "none";}, 2000);
-        // window.scrollTo(0,document.body.scrollHeight);
+        var win;
+        switch (indexStr) {
+            case "student":
+                win = window.open("https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名", '_blank');
+                break;
+            case "community":
+                win = window.open("https://isrc.iscas.ac.cn/summer2020/help/community.html#社区如何报名", '_blank');
+                break;
+            default:
+                win = window.open(" https://isrc.iscas.ac.cn/summer2020/help/cooperation.html#如何成为合作单位", '_blank');
+                break;
+        }
+        win.focus();
+        // if (indexStr === "student") {
+        //     var win = window.open("https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名", '_blank');
+            
+        // }
+        // else {
+        //     document.getElementById("start-"+indexStr).scrollIntoView();
+        //     document.getElementById(indexStr).style.display = "block";
+        //     setTimeout(()=>{document.getElementById(indexStr).style.display = "none";}, 2000);
+        //     // window.scrollTo(0,document.body.scrollHeight);
+        // }
+
         return 0;
     }
 
@@ -42,7 +61,7 @@ export default class Start extends React.Component{
                                                         onClick={() => this.scrollLocation(item.stitle)}
 
                                                     >{item.button}</div>
-                                                    <span id={item.stitle} className="tn-box-color-1">可通过下方联系方式，咨询合作和报名事宜。</span>
+                                                    {/* <span id={item.stitle} className="tn-box-color-1">可通过下方联系方式，咨询合作和报名事宜。</span> */}
                                                 </div>
                                         </div>
                                     )
@@ -70,9 +89,10 @@ export default class Start extends React.Component{
                                     <li>
                                     支持开源的公司、高校、科研院所及其他机构。
                                     </li>
+                                     
                                 </ul>
                             </span>
-                            <span className="indexStartOneTextConsChi indexStartContact" id="start-sponsor">
+                            {/* <span className="indexStartOneTextConsChi indexStartContact" id="start-sponsor">
                                     <h2>如何联系</h2>
                                     <h3>
                                         请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn?subject=合作单位报名暑期2020！&body=请填写合作单位名称、联系人姓名和联系人联系方式，我们会尽快联系您。">summer2020@iscas.ac.cn</a>
@@ -88,7 +108,7 @@ export default class Start extends React.Component{
                                             联系方式
                                         </li>
                                     </ul>
-                            </span>
+                            </span> */}
                         </div>
                         <div className="indexStartOneTextCons">
                             <span className="indexStartOneTextConsChi"><h2>社区要求</h2></span>
@@ -100,9 +120,12 @@ export default class Start extends React.Component{
                                     <li>
                                     开源软件仓库采用的协议需要是<a href="https://opensource.org/licenses" target="_blank" rel="noopener noreferrer">OSI 组织认可的协议</a>。
                                     </li>
+                                    <li>
+                                    <a href="https://isrc.iscas.ac.cn/summer2020/help/assets/community-rules.txt" target="_blank" rel="noopener noreferrer">组织参与协议</a>。
+                                    </li>
                                 </ul>
                             </span>  
-                            <span className="indexStartOneTextConsChi indexStartContact community-contact" id="start-community">
+                            {/* <span className="indexStartOneTextConsChi indexStartContact community-contact" id="start-community">
                                 <h2>如何报名</h2>
                                 <h3>
                                     请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn?subject=开源社区报名暑期2020！&body=请填写社区名称、联系人姓名和联系人联系方式，我们会尽快联系您。">summer2020@iscas.ac.cn</a>
@@ -118,7 +141,7 @@ export default class Start extends React.Component{
                                         联系方式
                                     </li>
                                 </ul>
-                            </span>
+                            </span> */}
                         </div>
                         <div className="indexStartOneTextCons">
                             <span className="indexStartOneTextConsChi "><h2>学生要求</h2></span>
@@ -130,23 +153,32 @@ export default class Start extends React.Component{
                                     <li>
                                     具有有效的学生证和身份证。
                                     </li>
+                                    <li>
+                                    <a href="https://isrc.iscas.ac.cn/summer2020/help/assets/student-rules.txt" target="_blank" rel="noopener noreferrer">学生参与协议</a>。
+                                    </li>
                                 </ul>
                             </span>
-                            <span className="indexStartOneTextConsChi indexStartContact">
+                            {/* <span className="indexStartOneTextConsChi indexStartContact">
                                 <h3>2020年6月1日</h3>
                                 <h3>学生报名正式开始！</h3>
-                            </span>
+                                <h3><a 
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://isrc.iscas.ac.cn/summer2020/help/">
+                                        点击查看如何报名
+                                </a></h3>
+                            </span> */}
                         </div>
                         </div>
                     </div>
                </div>
                <div className="startBannerEnd">
-                        <NavLink 
+                        <a 
                             target="_blank"
                             rel="noopener noreferrer"
                             className="startQAButton"
-                            to="/qa">查看热点问题 Q&A
-                        </NavLink>
+                            href="https://isrc.iscas.ac.cn/summer2020/help/">查看热点问题 Q&A
+                        </a>
                </div>
            </div>
         )

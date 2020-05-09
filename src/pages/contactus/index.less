@@ -4,9 +4,16 @@
         position: relative;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url(./../../img/banner3.jpg);
+        background-image: url(./../../img/contact/banner.jpg);
         width: 100%;
         height: 280px;
+        font-size: 36px;
+        font-weight: normal;
+        font-stretch: normal;
+        letter-spacing: 3px;
+        color: #ffffff;
+        line-height: 280px;
+        font-weight: bolder;
     }
     .contactUsWrapper{
         position: relative;
@@ -14,33 +21,75 @@
     .contactUsContent{
         display: flex;
         position: relative;
-        padding: 60px 0;
+        padding: 40px 0;
         
         .contentUsTitle{
             position: relative;
-            font-size: 34px;
-            margin-bottom: 24px;
+            font-size: 22px;
+            margin-bottom: 35px;
+            span{
+                margin-left: 15px;
+                display: inline-block;
+            }
+        }
+
+        .contentUsTitle::before{
+            position: absolute;
+            content: "";
+            width: 6px;
+            height: 24px;
+            background-color: #276fff;
+            top: 4px;
+        }
+
+        .contentUsContactList{
+            position: relative;
+             margin-left: 16px;
+             width: 594px;
         }
         .contentUsContact{
-            width: 60%;
+            // width: 60%;
             position: relative;
+           
         }
         .contentUsRelateLink{
             position: relative;
-            // width: 50%;
+            width: 50%;
             .contentUsRelateLinkList{
                 position: relative;
+                margin-left: 15px;
+                margin-bottom: 80px;
+            }
+            .contentUsRelateLinkList.sourceLink{
+                .contentUsRelateLinkItem::before{
+                    content: "";
+                    position: absolute;
+                    width: 8px;
+                    height: 8px;
+                    background-color: #808080;
+                    border-radius: 50%;
+                    top: 5px;
+                }
+
+                .contentUsRelateLinkItem{
+                    span{
+                        margin-left: 15px;
+                        display: inline-block;
+                        
+                    }
+                }
             }
             .contentUsRelateLinkItem{
                 position: relative;
                 cursor: pointer;
-                font-size: 18px;
-                margin-bottom: 12px;
-                color: #741bed;
+                margin-bottom: 40px;
+                color: #ac00e5;
                 transition: all 0.3s;
-                // display: inline-block;
-                // width: 40%;
+                line-height: 22px;
+                
+                font-size: 18px;
             }
+            .contentUsRelateLinkItem>span:hover,
             .contentUsRelateLinkItem:hover{
                 text-decoration: underline;
             }
@@ -50,17 +99,32 @@
             margin-bottom: 12px;
             font-size: 18px;
         }
+        .contentUsListItem.mail::before{
+            content: url(./../../img/contact/3.png);
+            position: absolute;
+            width: 20px;
+	        height: 15px;
+        }
         .contentUsListItem.gray{
             color:#999;
+            font-size: 14px;
+            padding-bottom: 28px;
+            border-bottom: 1px solid #cccccc;
+            margin-left: 30px;
+            width: 85%;
         }
         .contentUsListItemTitle{
             position: relative;
             display: inline-block;
             width: 73px;
+            color: #666;
+            margin-left: 34px;
         }
         .contentUsListItemText{
             position: relative;
             display: inline-block;
+            color: #ac00e5;
+           
         }
         .contentUsListItemImage{
             width: 500px;
@@ -72,23 +136,52 @@
         }
         .contactWeixinjpg{
             width: 500px;
-            height: 248px;
+            height: 240px;
             padding-top: 18px;
+            margin-left: 33px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #ccc;
+            box-sizing: content-box;
         }
-        .contentUsListItemImage.wx_discuss{
-            margin-left: -5px;
-            position: relative;
-            background-image: url(./../../img/wx_t.jpg);
-        }
+       
 
         .contentUsListItemTitlelong{
             line-height: 38px;
         }
         .weixindiscuss{
-            margin-top:45px;
+            margin-top:25px;
+            .contentUsListItemTitlelongS{
+                margin-left: 30px;
+            }
+            .contentUsListItemtip{
+                color: #999;
+                font-size: 14px;
+                margin-left: 30px;
+            }
+            .contactWeixinjpg.discuss{
+               border:none;
+                margin-left: 23px;
+                padding-bottom: 10px;
+               
+            }
+        }
+
+        .weixindiscuss::before{
+            content: url(./../../img/contact/1.png);
+            position: absolute;
+            width: 20px;
+            height: 15px;
+           
         }
         .imageweixin{
-            margin-top:45px;
+            margin-top:28px;
+        }
+        .imageweixin::before{
+            content: url(./../../img/contact/2.png);
+            position: absolute;
+            width: 24px;
+            height: 17px;
+            left: -4px;
         }
     }
 }
