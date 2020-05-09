@@ -76,9 +76,6 @@ export default class Start extends React.Component{
                                     <li>
                                     支持开源的公司、高校、科研院所及其他机构。
                                     </li>
-                                    <li>
-                                    <a href="hhttps://isrc.iscas.ac.cn/summer2020/help/assets/community-rules.txt" target="_blank" rel="noopener noreferrer">组织参与协议</a>。
-                                    </li>
                                      
                                 </ul>
                             </span>
@@ -111,7 +108,7 @@ export default class Start extends React.Component{
                                     开源软件仓库采用的协议需要是<a href="https://opensource.org/licenses" target="_blank" rel="noopener noreferrer">OSI 组织认可的协议</a>。
                                     </li>
                                     <li>
-                                    <a href="https://isrc.iscas.ac.cn/summer2020/help/assets/mentor-rules.txt" target="_blank" rel="noopener noreferrer">导师参与协议</a>。
+                                    <a href="https://isrc.iscas.ac.cn/summer2020/help/assets/community-rules.txt" target="_blank" rel="noopener noreferrer">组织参与协议</a>。
                                     </li>
                                 </ul>
                             </span>  
