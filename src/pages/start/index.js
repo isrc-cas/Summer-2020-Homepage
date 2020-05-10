@@ -118,7 +118,7 @@ export default class Start extends React.Component{
                                     有活跃的开源软件仓库的社区或个人。
                                     </li>
                                     <li>
-                                    开源软件仓库采用的协议需要是<a href="https://opensource.org/licenses" target="_blank" rel="noopener noreferrer">OSI 组织认可的协议</a>。
+                                    开源软件仓库采用的协议需要是<a href="https://opensource.org/licenses" target="_blank" rel="noopener noreferrer">OSI 组织认证的开源协议</a> 或者 <a href="https://opendefinition.org/licenses/" target="_blank" rel="noopener noreferrer">ODI 组织认证的推荐的开放知识协议</a>
                                     </li>
                                     <li>
                                     <a href="https://isrc.iscas.ac.cn/summer2020/help/assets/community-rules.txt" target="_blank" rel="noopener noreferrer">组织参与协议</a>。
