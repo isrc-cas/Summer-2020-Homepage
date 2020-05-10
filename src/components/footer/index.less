@@ -1,3 +1,7 @@
+
+@var: @acolor;
+@acolor: #8e8eae;
+
 .osscFooter{
     position: relative;
     height: 66px;
@@ -16,11 +20,15 @@
             margin-right: 4px;
         }
         .osscFooterItemText{
-            color: #8e8eae;
+            color: @acolor;
+        }
+        .osscFooterItemText>a{
+            color: @acolor;
+            text-decoration: none;
         }
     }
     .copyright{
-        color: #8e8eae;
+        color: @acolor;
     }
     .ossscFooterWrapper{
         display: flex;

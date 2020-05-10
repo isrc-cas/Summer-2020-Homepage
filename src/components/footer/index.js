@@ -25,7 +25,7 @@ export default class Footer extends React.Component{
                     </div> */}
                     <div className="osscFooterItem">
                         <div className="osscFooterItemTitle">Email:</div>
-                        <div className="osscFooterItemText">summer2020@iscas.ac.cn</div>
+                        <div className="osscFooterItemText"><a href="mailto:summer2020@iscas.ac.cn">summer2020@iscas.ac.cn</a></div>
                     </div>
                     </div>
                     <div className="osscFooterItem copyright">版权所有 @开源软件供应链点亮计划-暑期2020 活动组委会</div>
