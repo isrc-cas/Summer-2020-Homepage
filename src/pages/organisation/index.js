@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.less';
 import data from './data.json';
-import scrollSmoothTo from './../../config/scroll.js';
+// import scrollSmoothTo from './../../config/scroll.js';
 export default class Organisation extends React.Component{
     constructor(props){
         super(props)
