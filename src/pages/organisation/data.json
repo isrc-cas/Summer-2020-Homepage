@@ -33,7 +33,7 @@
         {
             "img":"sharding.jpg",
             "title":"Apache ShardingSphere",
-            "project_url":"https://shardingsphere.apache.org/index_zh.html",
+            "project_url":"",
             "url": "https://shardingsphere.apache.org/",
             "description": "分布式数据库中间件解决方案。",
             "full_des": "Apache ShardingSphere 是一套开源的分布式数据库中间件解决方案组成的生态圈，它由Sharding-JDBC、Sharding-Proxy和Sharding-Sidecar（规划中）这3款相互独立，却又能够混合部署配合使用的产品组成。",
@@ -49,6 +49,16 @@
             "full_des": "Apache软件基金会顶级项目。分布式系统的应用程序性能监视工具，专为微服务、云原生架构和基于容器（Docker、K8s、Mesos）架构而设计。",
             "tech_tag": ["Apache","APM","java","go", "php", "nodejs", "dotnet", "service mesh", "prometheus", "distributed tracing"],
             "domain_tag": ["应用性能监控", "分布式追踪", "分布式系统性能"]
+        },
+        {
+            "img":"aosc.jpg",
+            "title":"安同开源社区（AOSC）",
+            "project_url":"https://wiki.aosc.io/zh/ospp-2020-projects",
+            "url": "https://aosc.io",
+            "description": "Linux 发行版 AOSC OS 的开源社区。",
+            "full_des": "安同开源社区 (Anthon Open Source Community, 简称 AOSC) 是围绕社区项目 AOSC OS 形成的开源社区。AOSC OS 是基于 LFS 的通用 Linux 发行版，遵循简约、本地化、包容、可持续及精制的设计原则，致力于改善开源软件的使用体验。",
+            "tech_tag": ["Linux","dpkg","L10n","Container","CI/CD","Automation"],
+            "domain_tag": ["Linux 发行版","中文本地化"]
         },
         {
             "img":"casbin.jpg",
@@ -83,12 +93,12 @@
         {
             "img":"emacs.jpg",
             "title":"GNU Emacs（中文）",
-            "project_url":"",
+            "project_url":"https://manateelazycat.github.io/eaf/emacs/2020/05/10/eaf-community.html",
             "url": "https://emacs-china.org/",
-            "description": "著名的集成开发环境和文本编辑器。",
-            "full_des": "",
-            "tech_tag": [],
-            "domain_tag": []
+            "description": "入门开源，理解开源，享受开源。",
+            "full_des": "有着近40年历史，由开源之父、自由软件之父Richard Stallman领衔创建的一个披着编辑器（Editor）皮的编辑环境（Editing Environment）和Lisp解释器（Lisp Interpreter）。它的历史与设计理念造就一个40年屹立不倒，至今也非常健康活跃的开源生态，是任何人入门开源，理解开源，享受开源的绝佳途径。",
+            "tech_tag": ["GNU","Emacs","Editor","Editing Environment","Lisp"],
+            "domain_tag": ["编辑器","编程环境"]
         },
         {
             "img":"maskbook.jpg",
@@ -121,11 +131,21 @@
             "domain_tag": ["算法与数据结构教育","开发工具","web"]
         },
         {
+            "img":"opencv.jpg",
+            "title":"OpenCV China",
+            "project_url":"",
+            "url": "http://www.opencv.org.cn",
+            "description": "开源计算机视觉和机器学习库。",
+            "full_des": "OpenCV是采用C/C++实现的开源计算机视觉和机器学习库，遵循BSD协议，研究或商用均为免费。OpenCV包含超过2500个优化的经典的和当前先进水平的计算机视觉算法。 这些算法可用于人脸检测识别、目标跟踪、提取目标3D模型、3D点云处理、全景拼接等。",
+            "tech_tag": ["C","C++", "Python", "Java", "JavaScript"],
+            "domain_tag": ["计算机视觉","深度学习"]
+        },
+        {
             "img":"openeuler.jpg",
             "title":"openEuler Community",
             "project_url":"",
             "url": "https://www.openeuler.org",
-            "description": "推动软硬件应用生态繁荣发展。",
+            "description": "通过社区合作，创新 Linux 平台。",
             "full_des": "openEuler 是一个开源、免费的 Linux 发行版平台，将通过开放的社区形式与全球的开发者共同构建一个开放、多元和架构包容的软件生态体系。同时，openEuler 也是一个创新的平台，鼓励任何人在该平台上提出新想法、开拓新思路、实践新方案。",
             "tech_tag": ["Linux","Git","GCC","RPM"],
             "domain_tag": ["操作系统","内核","包管理"]
@@ -144,19 +164,29 @@
             "img":"tinylab.jpg",
             "title":"泰晓科技",
             "project_url":"",
-            "url": "http://tinylab.org",
+            "url": "https://megengine.org.cn/",
             "description": "聚焦 Linux，追本溯源，见微知著！",
             "full_des": "泰晓科技是一个知名公益性 Linux 技术社区，创立于 2010 年，长期聚焦 Linux 系统技术交流和产品实践，追本溯源，见微知著，致力于推动业界创造更极致的 Linux 产品。",
             "tech_tag": ["Linux", "Linux Lab", "技术交流", "产品实践"],
             "domain_tag": ["Linux 内核","Linux 实验环境","实时系统","系统优化"]
         },
         {
+            "img":"megvii.jpg",
+            "title":"天元（MegEngine）",
+            "project_url":"",
+            "url": "https://megengine.org.cn/",
+            "description": "旷视自主研发的开源深度学习框架。",
+            "full_des": "天元（MegEngine）是在旷视长期进行大规模AI业务落地过程中诞生的，这种业务形态对深度学习框架有很多挑战，在不断解决这些挑战的过程中，天元形成了动静合一、兼容并包、灵活高效、训练推理一体化等特性,能够帮助开发者高效的完成深度学习算法的设计、训练、部署，有效提升AI研发工作效率。",
+            "tech_tag": ["C++","深度学习框架"],
+            "domain_tag": ["深度学习","人工智能","CV"]
+        }, 
+        {
             "img":"tuna.jpg",
             "title":"清华大学 TUNA 协会",
             "project_url":"https://tuna.moe/blog/2020/ospp-summer-2020/",
             "url": "https://tuna.moe/",
             "description": "目前中国影响力最大的高校开源社区。",
-            "full_des": "清华大学 TUNA 协会全名清华大学学生网络与开源软件协会（Tsinghua University TUNA Association），是由清华大学网络技术和开源软件爱好者、技术宅组成的团体。",
+            "full_des": "清华大学 TUNA 协会全名清华大学学生网络与开源软件协会（Tsinghua University TUNA Association），是由清华大学网络技术和开源软件爱好者、技术宅组成的团体。TUNA 协会维护的清华大学开源软件镜像站，包括数百个开源软件。是中国高校目前规模最大的开源镜像站。",
             "tech_tag": ["Linux", "Mirrors", "Qt", "Python", "Node.js", "Go"],
             "domain_tag": ["服务器运维","网络编程","系统工具"]
         },        
