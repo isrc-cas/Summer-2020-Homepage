@@ -5,12 +5,12 @@ import {listLinks} from './listLink.js';
 import {NavLink} from 'react-router-dom';
 
 
-var withl = window.screen.width
-
+var withl = window.innerWidth
 
 if(withl<1200 && withl>700){
+   
     //1.0 判定为移动手机设备
-    var scaleIndex = withl/1200;
+    var scaleIndex = withl/1200-0.014;
     document.getElementsByTagName("body")[0].style.transform = "scale("+scaleIndex+")";
     document.getElementsByTagName("body")[0].style.transformOrigin = "left top"
 }

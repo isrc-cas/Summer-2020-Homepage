@@ -109,7 +109,7 @@ export default class Contactus extends React.Component{
                                 
                                 <div className="contentUsListItem mail">
                                     <div className="contentUsListItemTitle">邮&nbsp;&nbsp;&nbsp;&nbsp;箱:</div>
-                                    <div className="contentUsListItemText">summer2020@iscas.ac.cn</div>
+                                    <div className="contentUsListItemText"><a href="mailto:summer2020@iscas.ac.cn">summer2020@iscas.ac.cn</a></div>
                                 </div>
                                 <div className="contentUsListItem gray">
                                 / 欢迎发邮件给我们，并留下联系方式，我们会尽快与您联系 /

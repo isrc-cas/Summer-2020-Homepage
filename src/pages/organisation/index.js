@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.less';
 import data from './data.json';
-import scrollSmoothTo from './../../config/scroll.js';
+// import scrollSmoothTo from './../../config/scroll.js';
 export default class Organisation extends React.Component{
     constructor(props){
         super(props)
@@ -12,10 +12,10 @@ export default class Organisation extends React.Component{
 
     componentDidMount(){
         window.scrollTo(0,0)
-        const location = window.location.hash.split("to=")
-        if(location[1] && location[1] === 'head'){
-            scrollSmoothTo(0)
-        }
+        // const location = window.location.hash.split("to=")
+        // if(location[1] && location[1] === 'head'){
+        //     scrollSmoothTo(0)
+        // }
     }
     openInNewTab(url) {
         if (url !== "") {
