@@ -67,6 +67,13 @@ const logolistMap = {
             url:'http://skywalking.apache.org/'
         },
         {
+            name:'安同开源社区AOSC',
+            img:'c_aosc.jpg',
+            url:'https://aosc.io'
+
+            
+        },
+        {
             name:'casbin',
             img:'c_casbin.jpg',
             url:'https://casbin.org/'
@@ -110,6 +117,11 @@ const logolistMap = {
             url:' https://oi-wiki.org'
         },
         {
+            name:'opencv',
+            img:'c_opencvchina.jpg',
+            url:' http://www.opencv.org.cn'
+        },
+        {
             name:'rtthread',
             img:'c_rtthread.jpg',
             url:'https://www.rt-thread.org/'
@@ -118,6 +130,11 @@ const logolistMap = {
             name:'泰晓',
             img:'c_taixiao.jpg',
             url:'http://tinylab.org'
+        },
+        {
+            name:'天元矿视',
+            img:'c_megengine.jpg',
+            url:'https://megengine.org.cn/'
         },
         {
             name:'tuna',
