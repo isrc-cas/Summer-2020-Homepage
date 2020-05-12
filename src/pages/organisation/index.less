@@ -69,12 +69,12 @@
                 position: relative;
                 background-color: white;
                 width: 1140px;
-                height: 354px;
+                height: 400px;
                 border-radius: 0.25em;
                 justify-content: left;
                 flex-direction: column;
                 margin-top: 20px;
-                padding: 30px;
+                padding: 32px;
                 text-align: left;
                 .triangle {
                     display: block;
@@ -84,7 +84,7 @@
                     border-bottom-color: white;
                     background-color: transparent;
                     position: absolute;
-                    bottom: 414px;
+                    bottom: 100%;
                     left: 171px;
                 }
                 .tooltip-close {
@@ -115,8 +115,10 @@
                 .tooltip-divider {
                     background: rgb(229,229,229);
                     height: 2px; 
-                    width: 100%;
+                    width: 1200px;
                     margin-top: 10px;
+                    padding: 0;
+                    margin-left: -30px;
                 }
                 .tooltip-url {
                     margin-top: 10px;
@@ -138,7 +140,7 @@
                     height: 16px;
                     margin-top: 8px;
                     background: rgb(170,128,255);
-                    left: 25px;
+                    left: 32px;
                     line-height: 31px;
                 }
                 .tooltip-url-tag-divider {
@@ -152,7 +154,7 @@
                     display: inline-block;
                     letter-spacing: 1px;
                     padding: 10px 15px;
-                    margin: 0 8px;
+                    margin: 8px;
                     border-radius: 4px;
                     line-height: 31px;
                     font-size: 16px;
@@ -176,11 +178,10 @@
                     font-size: 14px;
                     width: 90vw;
                     box-sizing: border-box;
-                    .triangle {
-                        bottom: 100%;
-                    }
                     .tooltip-divider {
-                        width: 375px;
+                        width: 90vw;
+                        // padding: 0;
+                        margin-left: -20px;
                     }
                     .tooltip-title {
                         font-size: 24px;
@@ -200,7 +201,7 @@
                         height: 16px;
                         margin-top: 8px;
                         background: rgb(170,128,255);
-                        left: 10px;
+                        left: 20px;
                         line-height: 31px;
                     }
                 }
