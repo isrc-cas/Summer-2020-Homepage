@@ -526,7 +526,7 @@
                 "hot_index": 0,
                 "description": "在即将上线的新前端中，为了支持我们的诸多 markdown 自定义语法， OI Wiki 使用 remark 作为 markdown parser，并使用 rehype 生成对应的 html 页面。首先，我们希望能够基于现有的 Unified AST，生成相应的 LaTeX code 并导出排版优美的 pdf 文档。OI Wiki 开发过一版导出工具（见下面的仓库 remark-latex），但是由于缺乏维护，对于图片等语法的支持不够完善，使用起来也需要大量人工操作。我们希望能够基于 Unified AST 及现有实现，改进或重构出一个较优美的 markdown 转 LaTeX 导出工具。此外，上游社区也有一些优秀的 LaTeX AST 实现供参考（见下面的 latex-utensils 及 LaTeX.js）。其次，为了让多人协作的 markdown 文件更整齐，我们采用了 remark-lint 来规范 markdown 中内容的格式。目前 OI Wiki 的格式化工具见下方 linter 仓库，启用的格式化规则见 https://github.com/OI-wiki/OI-wiki/blob/master/.remarkrc ，但是目前的实现还不够完善，比如对于公式两侧添加若干多余的空格、details 语法限制过严等等。我们希望通过这个项目，规范整理 lint 规则。",
                 "update_time": "2020-05-13"
-              }",
+              },
               {
                 "name": "测试数据生成工具",
                 "difficulty": "中",
@@ -725,7 +725,7 @@
             "email": "",
             "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
                     "update_time": "2020-05-13"}]
-        }, 
+        },
         {
             "img":"tuna.jpg",
             "title":"清华大学 TUNA 协会",
