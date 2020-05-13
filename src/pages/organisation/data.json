@@ -31,12 +31,12 @@
                     "update_time": "2020-05-13"
                 },
                 {
-                    "name":"持续集成（CI）系统从 travis 迁移到 GitHub actions",
-                    "difficulty":"中",
-                    "mentor":"温铭",
-                    "contact":"wenming@apache.org",
+                    "name":"在线捕获HTTP流量",
+                    "difficulty":"高",
+                    "mentor":"罗泽轩",
+                    "contact":"spacewander@apache.org",
                     "hot_index":1,
-                    "description":"将 Apache APISIX 相关的开源项目的 CI 进行迁移，包括 apisix， apisix-docker 和 apisix-website。",
+                    "description":"允许用户通过配置，捕获某一个route或service中符合特定request header/response header/upstream response time/request time的请求和响应的内容。类似于 envoy 的 traffic tapping 功能：https://www.envoyproxy.io/docs/envoy/latest/operations/traffic_tapping 我们只需实现其中的一个子集，支持 HTTP 即可。",
                     "update_time": "2020-05-13"
                 },
                 {
@@ -75,13 +75,13 @@
             "domain_tag": [],
             "mail_list": "",
             "email": "",
-            "project_list": [{"name":"3","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
+            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
                     "update_time": "2020-05-13"}]
         },
         {
             "img":"sharding.jpg",
             "title":"Apache ShardingSphere",
-            "project_url":"",
+            "project_url":"https://cwiki.apache.org/confluence/display/SHARDINGSPHERE/Open+Source+Promotion+Plan+-+Summer+2020",
             "url": "https://shardingsphere.apache.org/",
             "description": "分布式数据库中间件解决方案。",
             "full_des": "Apache ShardingSphere 是一套开源的分布式数据库中间件解决方案组成的生态圈，它由Sharding-JDBC、Sharding-Proxy和Sharding-Sidecar（规划中）这3款相互独立，却又能够混合部署配合使用的产品组成。它们均提供标准化的数据分片、分布式事务和数据库治理功能，可适用于如Java同构、异构语言、云原生等各种多样化的应用场景。ShardingSphere定位为关系型数据库中间件，旨在充分合理地在分布式的场景下利用关系型数据库的计算和存储能力，而并非实现一个全新的关系型数据库。它通过关注不变，进而抓住事物本质。关系型数据库当今依然占有巨大市场，是各个公司核心业务的基石，未来也难于撼动，我们目前阶段更加关注在原有基础上的增量，而非颠覆。",
@@ -112,7 +112,7 @@
             "project_url":"https://wiki.aosc.io/zh/ospp-2020-projects",
             "url": "https://aosc.io",
             "description": "Linux 发行版 AOSC OS 的开源社区。",
-            "full_des": "安同开源社区 (Anthon Open Source Community, 简称 AOSC) 是围绕社区项目 AOSC OS 形成的开源社区。AOSC OS 是基于 LFS 的通用 Linux 发行版，遵循简约、本地化、包容、可持续及精制的设计原则，致力于改善开源软件的使用体验。",
+            "full_des": "安同开源社区（Anthon Open Source Community, 简称 AOSC）是围绕社区项目 AOSC OS 形成的开源社区。AOSC OS 是一款遵循简约、本地化、包容、可持续及精制原则独立开发的通用 Linux 发行版，致力于改善开源软件的使用体验。",
             "tech_tag": ["Linux","dpkg","L10n","Container","CI/CD","Automation"],
             "domain_tag": ["Linux 发行版","中文本地化"],
             "mail_list": "",
@@ -249,7 +249,7 @@
         {
             "img":"RT-Thread.jpg",
             "title":"RT-Thread",
-            "project_url":"",
+            "project_url":"https://www.rt-thread.org/news/174.html",
             "url": "https://www.rt-thread.org/",
             "description": "小而美的物联网操作系统。",
             "full_des": "RT-Thread  是一个集实时操作系统（RTOS）内核、中间件组件和开发者社区于一体的技术平台，由熊谱翔先生带领并集合开源社区力量开发而成，RT-Thread  也是一个组件完整丰富、高度可伸缩、简易开发、超低功耗、高安全性的物联网操作系统。RT-Thread 具备一个 IoT OS  平台所需的所有关键组件，例如GUI、网络协议栈、安全传输、低功耗组件等等。经过13年的累积发展，RT-Thread  已经拥有一个国内最大的嵌入式开源社区，同时被广泛应用于能源、车载、医疗、消费电子等多个行业，累积装机量超过4亿台，成为国人自主开发、国内最成熟稳定和装机量最大的开源 RTOS。",
@@ -275,7 +275,7 @@
                     "update_time": "2020-05-13"}]
         },
         {
-            "img":"megvii.jpg",
+            "img":"megEngine.jpg",
             "title":"天元（MegEngine）",
             "project_url":"",
             "url": "https://megengine.org.cn/",
@@ -319,7 +319,7 @@
         {
             "img":"ustclug.jpg",
             "title":"USTCLUG",
-            "project_url":"",
+            "project_url":"https://news.ustclug.org/2020/05/opensource-summer-projects/",
             "url": "https://lug.ustc.edu.cn/wiki/start",
             "description": "中科大 Linux 和开源软件爱好者团体。",
             "full_des": "中国科学技术大学学生 Linux 用户协会（科大 LUG）是由在校的 GNU/Linux 爱好者发起并组成的全校性群众团体，是一个以推广自由软件文化、宣传自由软件价值为目的的协会组织。",
