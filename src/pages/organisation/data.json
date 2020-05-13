@@ -67,7 +67,7 @@
             "description": "雅虎开源，下一代分布式的消息系统。",
             "full_des": "Apache Pulsar 是云原生的下一代发布订阅消息系统和流数据平台。Pulsar 用于解决现有开源消息系统的不足，助力 Yahoo 的主要应用，如 Yahoo Mail、Yahoo Finance、Yahoo Sports、Flickr、Gemini 广告平台和 Yahoo 的分布式键值存储系统 Sherpa。Pulsar 于 2016 年底开源，目前是 Apache 软件基金会的顶级项目。",
             "tech_tag": ["分布式系统","消息系统","信息流平台"],
-            "domain_tag": ["分布式系统","消息系统","信息流平台"],
+            "domain_tag": [""],
             "mail_list": "",
             "email": "",
             "project_list": [{"name":"3","difficulty":"","mentor":"","contact":"","student_count":0,"description":""}]
@@ -132,7 +132,7 @@
             "description": "国内最专业的 Ceph 技术交流平台。",
             "full_des": "Ceph 中国社区成立于 2014 年 7 月，国内最专业的 Ceph 技术交流平台，包括线上的 QQ 群/微信群、翻译小组、订阅号和线下沙龙。2015 年提出 Ceph 中国行布道之旅，全面深入的在中国多座城市进行 Ceph 布道受众人数累计2W+。",
             "tech_tag": ["存储"],
-            "domain_tag": ["存储"],
+            "domain_tag": [""],
             "mail_list": "",
             "email": "",
             "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","student_count":0,"description":""}]
@@ -184,7 +184,7 @@
             "description": "开源的特征向量相似度搜索引擎。",
             "full_des": "Milvus 是一款开源的特征向量相似度搜索引擎，具有使用方便、实用可靠、易于扩展、稳定高效和搜索迅速等特点。Milvus 已经被广泛应用于多个领域，其中包括图像处理、机器视觉、自然语言处理、语音识别、推荐系统以及新药发现等。",
             "tech_tag": ["深度学习","计算机视觉","NLP","语音识别","化合物检索"],
-            "domain_tag": ["深度学习","计算机视觉","NLP","语音识别"],
+            "domain_tag": [""],
             "mail_list": "",
             "email": "",
             "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","student_count":0,"description":""}]
@@ -301,7 +301,7 @@
             "description": "中科大 Linux 和开源软件爱好者团体。",
             "full_des": "中国科学技术大学学生 Linux 用户协会（科大 LUG）是由在校的 GNU/Linux 爱好者发起并组成的全校性群众团体，是一个以推广自由软件文化、宣传自由软件价值为目的的协会组织。",
             "tech_tag": ["Linux", "GNU"],
-            "domain_tag": ["Linux", "GNU"],
+            "domain_tag": [""],
             "mail_list": "",
             "email": "",
             "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","student_count":0,"description":""}]
