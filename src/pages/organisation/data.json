@@ -49,7 +49,7 @@
         {
             "img":"dolphin.jpg",
             "title":"Apache DolphinScheduler (incubating)",
-            "project_url":"https://cwiki.apache.org/confluence/display/DOLPHINSCHEDULER/Open+Source+Promotion+Plan+-+Summer+2020+Task",
+            "project_url":"https://cwiki.apache.org/confluence/display/DOLPHINSCHEDULER/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
             "url": "https://dolphinscheduler.apache.org/",
             "description": "可视化DAG工作流任务调度系统。",
             "full_des": "Apache DolphinScheduler (incubating) 是一个分布式去中心化，易扩展的可视化DAG工作流任务调度系统。致力于解决数据处理流程中错综复杂的依赖关系，使调度系统在数据处理流程中开箱即用。",
