@@ -2,7 +2,7 @@ import React from 'react';
 import './index.less';
 import './index.css';
 import logolistMap from './logo.js';
-// import { Carousel } from 'antd';
+import { Carousel } from 'antd';
 
 
 export default class Index extends React.Component{
@@ -176,16 +176,16 @@ export default class Index extends React.Component{
     render(){
        
        
-        // let settings = {
+        let settings = {
            
-        //     speed: 500,
-        //     autoplaySpeed: 5000,
-        //   }
+            speed: 500,
+            autoplaySpeed: 5000,
+          }
         
         return(
            <div className="indexHomeZ">
                <div className="indexHomeOne">
-               {/* <Carousel autoplay {...settings}> */}
+               <Carousel autoplay {...settings}>
                     <div className="indexHomeOneBanner indexHomeOneBannerOne">
                             <div className="indexHomeOneWrapper content1200">
                             <div className="indexHomeOneTextCons">
@@ -208,7 +208,11 @@ export default class Index extends React.Component{
                             <div className="indexHomeTwoWrapper content1200">                            
                                 <div className="indexHomeOneDakaTitle"></div>
                                 <div className="indexHomeOneDakaCompany">
-                                        中国科学院软件研究所&nbsp;&nbsp;|&nbsp;&nbsp;openEuler 社区&nbsp;&nbsp;|&nbsp;&nbsp;开源社
+                                        <span>中国科学院软件研究所</span>
+                                        <span className="mobiledisplaynone">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                                        <span>openEuler 社区</span>
+                                        <span className="mobiledisplaynone">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                                        <span>开源社</span>
                                 </div>
                                 <div className="indexHomeOneDakaDescription">
                                     大咖讲座将为大家带来开源理念的系列介绍，帮助深入了解开源文化、参与开源社区的方式方法。
@@ -222,7 +226,7 @@ export default class Index extends React.Component{
 
                             </div>
                     </div>
-                    {/* </Carousel> */}
+                    </Carousel>
 
                </div>
                <div className="indexHomeSecond">

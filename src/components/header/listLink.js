@@ -15,10 +15,10 @@ const listLinks = [
         name:'如何加入',
         title:'started',
     },
-    // {
-    //     name:'热点问题',
-    //     title:'qa',
-    // },
+    {
+        name:'大咖说开源',
+        title:'liveshow',
+    },
     {
         name:'帮助',
         title:'contactus',
