@@ -58,7 +58,7 @@ export default class Index extends React.Component{
         if(flag === 'left'){
             movNumber = Number(movNumber) + 1227
         }
-        if(flag == 'right'){
+        if(flag === 'right'){
             
             movNumber = Number(movNumber) - 1227 ;
                

@@ -95,6 +95,11 @@ const logolistMap = {
             img:'c_emacs.jpg',
             url:'https://www.gnu.org/software/emacs/'
         },
+        {
+            name:'MACE',
+            img:'c_mace.jpg',
+            url:'https://github.com/XiaoMi/mace'
+        },
        
         {
             name:'MaskBook',
@@ -120,6 +125,11 @@ const logolistMap = {
             name:'opencv',
             img:'c_opencvchina.jpg',
             url:' http://www.opencv.org.cn'
+        },
+        {
+            name:'Simple-XX',
+            img:'c_Simple-XX.jpg',
+            url:' https://github.com/Simple-XX'
         },
         {
             name:'rtthread',
