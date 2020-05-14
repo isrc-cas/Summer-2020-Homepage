@@ -89,6 +89,7 @@ export default class Organisation extends React.Component{
             this.state.data.orgList.map((item,index) => {
                 document.getElementById(index+"-tooltip").style.display = 'none';
                 if (isDetail) {
+                    
                     document.getElementById(index+"-orgListItem").style.display = 'none';
 
                 }
@@ -116,10 +117,13 @@ export default class Organisation extends React.Component{
                 document.getElementById(index+"-tooltip").style.display = 'block';
             }
             if (isDetail) {
+                // alert('scroll')
+                
                 document.getElementById(index+"-tooltip").setAttribute("class", "org-tooltip org-detail");
                 document.getElementById(index+"-tooltip").style.display = 'block';
                 document.getElementById("orgListOWrapper").style.display = 'none';
                 document.getElementById("orgListNavBar").style.display = 'block';
+                window.scrollTo(0,0);
 
             } else {
                 document.getElementById(index+"-tooltip").setAttribute("class", "org-tooltip");
@@ -241,7 +245,8 @@ export default class Organisation extends React.Component{
           })
         this.setState({
             displayProjects:divContainer
-          })
+          });
+        window.scrollTo(0,0);
     }
     filterItem(value) {
         var divContainer = [];
@@ -328,7 +333,7 @@ export default class Organisation extends React.Component{
                                         <div className="tooltip-list-title">
                                             “暑期2020”项目：
                                             {item.project_url ? (<a href={item.project_url} target="_blank" rel="noopener noreferrer">{item.project_url}</a>)
-                                            : ("敬请期待")}
+                                            : ("即将上线")}
                                         </div>
                                         <div className="tooltip-url-tag-divider"></div>
                                         <div className="tooltip-list-title tooltip-detail">专注领域</div>

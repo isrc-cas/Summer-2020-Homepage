@@ -59,7 +59,7 @@
             "full_des": "Apache DolphinScheduler (incubating) 是一个分布式去中心化，易扩展的可视化DAG工作流任务调度系统。致力于解决数据处理流程中错综复杂的依赖关系，使调度系统在数据处理流程中开箱即用。",
             "tech_tag": ["分布式任务调度","大数据任务调度","工作流任务调度"],
             "domain_tag": ["大数据","大数据任务调度"],
-            "mail_list": "",
+            "mail_list": "dev@skywalking.apache.org",
             "email": "",
             "project_list": [
               {
@@ -145,8 +145,8 @@
             "full_des": "Apache Pulsar 是云原生的下一代发布订阅消息系统和流数据平台。Pulsar 用于解决现有开源消息系统的不足，助力 Yahoo 的主要应用，如 Yahoo Mail、Yahoo Finance、Yahoo Sports、Flickr、Gemini 广告平台和 Yahoo 的分布式键值存储系统 Sherpa。Pulsar 于 2016 年底开源，目前是 Apache 软件基金会的顶级项目。",
             "tech_tag": ["分布式系统","消息系统","信息流平台"],
             "domain_tag": [],
-            "mail_list": "",
-            "email": ""
+            "mail_list": "dev@pulsar.apache.org",
+            "email": "dev@pulsar.apache.org"
         },
         {
             "img":"sharding.jpg",
@@ -157,8 +157,8 @@
             "full_des": "Apache ShardingSphere 是一套开源的分布式数据库中间件解决方案组成的生态圈，它由Sharding-JDBC、Sharding-Proxy和Sharding-Sidecar（规划中）这3款相互独立，却又能够混合部署配合使用的产品组成。它们均提供标准化的数据分片、分布式事务和数据库治理功能，可适用于如Java同构、异构语言、云原生等各种多样化的应用场景。ShardingSphere定位为关系型数据库中间件，旨在充分合理地在分布式的场景下利用关系型数据库的计算和存储能力，而并非实现一个全新的关系型数据库。它通过关注不变，进而抓住事物本质。关系型数据库当今依然占有巨大市场，是各个公司核心业务的基石，未来也难于撼动，我们目前阶段更加关注在原有基础上的增量，而非颠覆。",
             "tech_tag": ["分布式","数据库","中间件"],
             "domain_tag": ["Java后端","关系型数据库"],
-            "mail_list": "",
-            "email": "",
+            "mail_list": "dev@shardingsphere.org.apache",
+            "email": "dev@shardingsphere.org.apache",
             "project_list": [
               {
                 "name": "官网优化",
@@ -180,8 +180,8 @@
             "full_des": "Apache软件基金会顶级项目。分布式系统的应用程序性能监视工具，专为微服务、云原生架构和基于容器（Docker、K8s、Mesos）架构而设计。",
             "tech_tag": ["Apache","APM","java","go", "php", "nodejs", "dotnet", "service mesh", "prometheus", "distributed tracing"],
             "domain_tag": ["应用性能监控", "分布式追踪", "分布式系统性能"],
-            "mail_list": "",
-            "email": "",
+            "mail_list": "dev@skywalking.apache.org",
+            "email": "dev@skywalking.apache.org",
             "project_list": [
               {
                   "name": "官网优化",
@@ -465,6 +465,18 @@
             "domain_tag": ["Frontend", "Cryptography", "Typescript"],
             "mail_list": "",
             "email": ""
+        },
+        {
+            "img":"MindSpore.jpg",
+            "title":"MindSpore",
+            "project_url":"",
+            "url": "https://www.mindspore.cn",
+            "description": "最佳匹配昇腾AI处理器算力的全场景深度学习框架。",
+            "full_des": "MindSpore是华为开源的一款支持端边云全场景的深度学习训练推理框架，当前主要应用于计算机视觉、自然语言处理等AI领域，旨在为数据科学家和算法工程师提供设计友好、运行高效的开发体验，提供昇腾AI处理器原生支持及软硬件协同优化。同时构筑面向全球的人工智能开源社区，推动人工智能软硬件应用生态繁荣发展。",
+            "tech_tag": ["AI", "Deep Learning Framework"],
+            "domain_tag": [""],
+            "mail_list": "https://mailweb.mindspore.cn/postorius/lists/mindspore-discuss.mindspore.cn/",
+            "email": "contact@mindspore.cn"
         },
         {
             "img":"milvus.jpg",
