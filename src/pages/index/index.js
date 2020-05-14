@@ -266,7 +266,7 @@ export default class Index extends React.Component{
                                 <div className="indexHomeOneDakaDescription">
                                     大咖讲座将为大家带来开源理念的系列介绍，帮助深入了解开源文化、参与开源社区的方式方法。
                                     <br></br>
-                                    讲座通过 Bilibili 网站进行直播，由中科院软件所提供直播的技术支持，每周一期固定时间进行直播。
+                                    讲座通过 Bilibili 网站进行直播，每周一期固定时间进行直播。
                                 </div>
                                 <div 
                                     onClick={()=>{this.goLink('liveshow')}}
