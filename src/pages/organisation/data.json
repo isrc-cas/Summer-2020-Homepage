@@ -511,6 +511,18 @@
             "email": "emacs-devel@gnu.org"
         },
         {
+            "img":"KubeEdge.jpg",
+            "title":"KubeEdge",
+            "project_url":"",
+            "url": "https://kubeedge.io",
+            "description": "云原生边缘计算平台。",
+            "full_des": "KubeEdge 将云原生技术应用到智能边缘计算领域，具备边云可靠协同、极致轻量、边缘智能、强劲算力、离线自治、海量边缘设备管理等能力，利用云原生生态的众多优势解决边缘计算中的挑战。",
+            "tech_tag": ["云原生","边缘计算","Kubernetes","容器","IOT","golang"],
+            "domain_tag": [],
+            "mail_list": "kubeedge@googlegroups.com",
+            "email": "kubeedge@googlegroups.com"
+        },
+        {
             "img":"mace.jpg",
             "title":"MACE",
             "project_url":"https://github.com/XiaoMi/mace/issues/643",
@@ -1035,6 +1047,18 @@
                   "update_time": "2020-05-13"
                 }
               ]
+        },
+        {
+            "img":"vol.jpg",
+            "title":"Volcano",
+            "project_url":"",
+            "url": "https://volcano.sh",
+            "description": "云原生批量计算平台。",
+            "full_des": "Volcano是基于Kubernetes构建的云原生批量计算引擎，基于华为云在AI、大数据领域的深厚业务积累，补齐了Kubernetes在面向AI、大数据、高性能计算等批量计算任务调度、编排等场景下的短板，向下支持鲲鹏、昇腾、X86等多元算力，向上使能TensorFlow、Spark、华为MindSpore等主流行业计算框架，让数据科学家和算法工程师充分享受到云原生技术所带来的高效计算与极致体验。",
+            "tech_tag": ["云原生","批量计算","AI","大数据","Kubernetes","容器","golang"],
+            "domain_tag": ["云原生","批量计算"],
+            "mail_list": "volcano-sh@googlegroups.com",
+            "email": "volcano-sh@googlegroups.com"
         },
         {
             "img":"xlab.jpg",
