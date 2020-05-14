@@ -103,6 +103,11 @@ const logolistMap = {
             url:'https://www.gnu.org/software/emacs/'
         },
         {
+            name:'KubeEdge',
+            img:'c_KubeEdge.jpg',
+            url:'https://kubeedge.io'
+        },
+        {
             name:'MACE',
             img:'c_mace.jpg',
             url:'https://github.com/XiaoMi/mace'
@@ -169,6 +174,11 @@ const logolistMap = {
             name:'lugustc',
             img:'c_lugustc.jpg',
             url:'https://lug.ustc.edu.cn/wiki/'
+        },
+        {
+            name:'volcano',
+            img:'c_volcano.jpg',
+            url:'https://volcano.sh'
         },
         {
             name:'xlab',

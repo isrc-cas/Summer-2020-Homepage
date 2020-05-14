@@ -36,10 +36,6 @@ export default class Organisation extends React.Component{
                 }
                 return 0;
               })
-            
-                // console.log(item.project_list)
-                // temp = temp.push(item.project_list);
-            // }
         }
         return 0;
       })
@@ -95,11 +91,7 @@ export default class Organisation extends React.Component{
                 }
                 return 0;
             })
-
-            // alert()
             if (window.innerWidth > 700) {
-
-
                 switch(index % 3) {
                     case 1:
                         document.getElementById(index+"-tooltip").style.left = '-409px';
@@ -281,7 +273,11 @@ export default class Organisation extends React.Component{
         return(
             <div className="organisation">
                 <div className="orgBanner">
-                    <div className="orgBannerTitle content1200">开源社区</div>
+                    <div className="orgBannerTitle content1200">
+                        <div>开源社区</div>
+                        <div className="orgBannerTitle1">&nbsp;&nbsp;&nbsp;&nbsp;开源项目每日更新，欢迎关注！</div>
+                    </div>
+                    
                 </div>
                 <div className="orgListTab">
                     <div className="orgListTabItem tabSelected" id="orgListTab-1" onClick={()=>this.switchTab(1)}>社区列表</div>
