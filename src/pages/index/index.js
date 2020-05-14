@@ -110,6 +110,11 @@ export default class Index extends React.Component{
         }
         
     }
+    liveUrl(index){
+        if(index === 0){
+            window.open(this.state.data.liveurl)
+        }
+    }
 
     getOpensource(){
         // const logolen = 30;
@@ -234,7 +239,7 @@ export default class Index extends React.Component{
                             <div className="indexHomeOneWrapper content1200">
                             <div className="indexHomeOneTextCons">
                                 <div className="indexHomeOneTextConsEngOne">
-                                / ISCAS & openEuler Community
+                                 ISCAS & openEuler Community
                                 </div>
                                 <div className="indexHomeOneTextConsEngTwo">
                                 Open Source Promotion Plan <span className="mobiledisplaynone">-</span><br className="indexHomeOneTextConsEngTwoNone"/> Summer 2020
@@ -315,14 +320,22 @@ export default class Index extends React.Component{
                                 {
                                     this.state.data.speechlist.map((item,index)=>{
                                         return (
-                                            <div className="indexHomeLiveListItem" key={index}>
+                                            <div className="indexHomeLiveListItem" key={index} onClick={()=>{this.liveUrl(index)}}>
                                                 <div 
                                                     style={{backgroundImage:"url("+require("./../../img/index/"+item.profilelist[0].imgurl) + ")"}}
                                                     className="indexHomeLiveListItemImage">                                                   
                                                 </div>
                                                 <div className="indexHomeLiveListItemDetail">
                                                     <div className="indexHomeLiveListItemTitle" title={item.title}>{item.title}</div>
-                                                    <div className="indexHomeLiveListItemName">{item.profilelist[0].name}</div>
+                                                    <div className="indexHomeLiveListItemName">
+                                                    {
+                                                        item.profilelist.map((iteml,indexl)=>{
+                                                            return (
+                                                                <span  key={indexl}>{iteml.name}</span>
+                                                            )
+                                                        })
+                                                       
+                                                    }</div>
                                                     <div className="indexHomeLiveListItemTime">{item.time}</div>
                                                     <div className="indexHomeLiveListItemText">直播时间 / 右侧可扫码观看 </div>
                                                     <div className="indexHomeLiveListItemTwoCode"></div>

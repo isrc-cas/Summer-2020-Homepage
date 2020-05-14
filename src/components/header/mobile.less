@@ -106,7 +106,40 @@
         }
         .indexHomeZ{
             .indexHomeLiveShowWrapper{
-                display: none;
+               
+                .indexHomeLiveTitle{
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                }
+                .indexHomeLiveList{
+                    flex-direction: column;
+                    width: 100%;
+                    align-items: center;
+                    
+                    .indexHomeLiveListItem{
+                        margin-bottom: 15px;
+                        margin-right: 0;
+                        max-width: 80vw;
+                        .indexHomeLiveListItemImage{
+                            width: 100%;
+                        }
+                        .indexHomeLiveListItemText,
+                        .indexHomeLiveListItemTime{
+                            font-size: 12px;
+                            margin: 10px 0;
+                        }
+                        .indexHomeLiveListItemTwoCode{
+                            width: 12vw;
+                            top: 53%;
+                        }
+                        
+                    }
+
+                }
+
+                
+              
                 
             }
             .indexHomeOne{
@@ -593,6 +626,22 @@
         }
 
     }
+}
+
+@media screen and (min-width: 700px)and (max-width: 1330px){
+    .indexHomeZ{
+        .indexHomeLiveShowWrapper{
+            .indexHomeLiveListContentButtonLeft {
+                left: 88% !important;
+                top:0 !important;
+        }
+        .indexHomeLiveListContentButtonRight {
+            right: 2% !important;
+            top:0 !important;
+        }
+    }
+    }
+   
 }
 .indexHomeOneTextConsEngTwoNone,
 .HowitworksBannerTitleMobile,

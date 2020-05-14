@@ -11,7 +11,10 @@ export default class LiveShow extends React.Component{
             data,
         }
     }
-
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
+    
     goLogoLink(url){
         if(url){
             window.open(url)
@@ -64,9 +67,16 @@ export default class LiveShow extends React.Component{
                                                 <span className="mobiledisplaynone">可扫码观看 </span>
                                             </div>
                                         </div>
-                                        <div className="LiveShowItemProfile">
-                                            <span className="LiveShowItemProfileName">{item.profilelist[0].name}:</span><span className="LiveShowItemProfileContent">&nbsp;&nbsp;{item.profilelist[0].profile}</span>
-                                        </div>
+                                        {
+                                            item.profilelist.map((iteml,indexl)=>{
+                                                return(
+                                                    <div className="LiveShowItemProfile" key={indexl}>
+                                                        <span className="LiveShowItemProfileName">{iteml.name}:</span><span className="LiveShowItemProfileContent">&nbsp;&nbsp;{iteml.profile}</span>
+                                                    </div>
+                                                )
+                                            })
+                                        }
+                                        
                                         {
                                             item.speechcontent?
                                             <div className="LiveShowItemProfile">
