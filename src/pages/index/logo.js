@@ -67,6 +67,13 @@ const logolistMap = {
             url:'http://skywalking.apache.org/'
         },
         {
+            name:'Arctern',
+            img:'c_Arctern.jpg',
+            url:'https://arctern.io/'
+
+            
+        },
+        {
             name:'安同开源社区AOSC',
             img:'c_aosc.jpg',
             url:'https://aosc.io'

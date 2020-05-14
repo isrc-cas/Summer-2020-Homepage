@@ -264,7 +264,7 @@ export default class Index extends React.Component{
                                         <span>开源社</span>
                                 </div>
                                 <div className="indexHomeOneDakaDescription">
-                                    2020.5.16 即将带来庄表伟、林旅强的讲座 “在你的人生经历中，有哪些开源故事？”
+                                    {this.state.data.livedata}
                                 </div>
                                 <div className="indexHomeOneDakaDescriptionTwo">
                                 大咖讲座将为大家带来开源理念的系列介绍，帮助深入了解开源文化、参与开源社区的方式方法。讲座通过 Bilibili 网站进行直播，每周一期进行直播。
