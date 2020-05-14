@@ -105,6 +105,43 @@
             }
         }
         .indexHomeZ{
+            .indexHomeLiveShowWrapper{
+               
+                .indexHomeLiveTitle{
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                }
+                .indexHomeLiveList{
+                    flex-direction: column;
+                    width: 100%;
+                    align-items: center;
+                    
+                    .indexHomeLiveListItem{
+                        margin-bottom: 15px;
+                        margin-right: 0;
+                        max-width: 80vw;
+                        .indexHomeLiveListItemImage{
+                            width: 100%;
+                        }
+                        .indexHomeLiveListItemText,
+                        .indexHomeLiveListItemTime{
+                            font-size: 12px;
+                            margin: 10px 0;
+                        }
+                        .indexHomeLiveListItemTwoCode{
+                            width: 12vw;
+                            top: 53%;
+                        }
+                        
+                    }
+
+                }
+
+                
+              
+                
+            }
             .indexHomeOne{
                 height: auto;
                 .indexHomeOneWrapper{
@@ -116,7 +153,43 @@
                         letter-spacing: 1px;
                     }
                 }
+                .indexHomeOneBannerTwo{
+                    padding-top: 50px;
+                    .indexHomeOneDakaButtonMore{
+                        margin-top: 20px;
+                    }
+                    .indexHomeOneDakaTitle{
+                        width: 100%;
+                        background-size: contain;
+                        margin: 0 auto 20px;
+                        
+                    }
+                    .indexHomeOneDakaCompany{
+                        margin-bottom: 0;
+                        span{
+                            display: block;
+                            font-size: 14px;
+                            margin-bottom: 6px;
+                        }
+                        .mobiledisplaynone{
+                            display: none;
+                        }
+                    }
+                   
+                    .indexHomeOneDakaDescription{
+                        width: 90vw;
+                        font-size: 14px;
+                        line-height: 20px;
+                        height: auto;
+                        padding: 20px;
+                        box-sizing: border-box;
+                        text-align: left;
+                        
+                    }
+                }
             }
+
+
            
             
             .indexHomeOneTextCons{
@@ -134,7 +207,34 @@
                     bottom:-10px
                 }
             }
-            .indexHomeThird{
+            .indexHomeThird {
+                .indexHomeThirdWrapper{
+                    .indexHomeOrList.relateThree,
+                    .indexHomeOrList{
+                        margin:10px 0 0;
+                        .indexHomeOrList.holder>.indexHomOrItem,
+                        .indexHomOrItem{
+                            width: 100% !important;
+                            margin-bottom: 10px;
+                            
+                        }
+                    }
+                    .indexHomeOrListOpensource{
+                        margin-top:15px;
+                        width: 100%;
+                        .indexHomOpensourceItem{
+                            margin-bottom:10px;
+                            width: 100%;
+                            
+                        }
+                        
+                    }
+
+                }
+               
+
+            }
+           
                 .indexHomeThirdWrapper{
                     .indexHomeThirdTitle{
                         text-align: center;
@@ -157,25 +257,7 @@
                         }
                     }
                    
-                    .indexHomeOrList.relateThree,
-                    .indexHomeOrList{
-                        margin:10px 0 0;
-                        .indexHomOrItem{
-                            width: 100%;
-                            margin-bottom: 10px;
-                            
-                        }
-                    }
-                    .indexHomeOrListOpensource{
-                        margin-top:15px;
-                        width: 100%;
-                        .indexHomOpensourceItem{
-                            margin-bottom:10px;
-                            width: 100%;
-                            
-                        }
-                        
-                    }
+                   
                    
                     
                     
@@ -194,7 +276,7 @@
                     //     }
                     // }
                 }
-            }
+           
             .indexHomeSecond {
                 height: auto;
                 .indexHomeSecondTextCons{
@@ -474,7 +556,95 @@
             }
         }
 
+        .LiveShow{
+            .indexHomeOneBannerTwo{
+                padding-top: 50px;
+                .indexHomeOneDakaTitle{
+                    width: 100%;
+                    background-size: contain;
+                    
+                }
+                .indexHomeOneDakaCompany{
+                    margin-bottom: 0;
+                    span{
+                        display: block;
+                        font-size: 14px;
+                        margin-bottom: 18px;
+                    }
+                    .mobiledisplaynone{
+                        display: none;
+                    }
+                }
+                .indexHomeOneDakaDescription{
+                    width: 90vw;
+                    font-size: 14px;
+                    line-height: 20px;
+                    height: auto;
+                    padding: 20px;
+                    box-sizing: border-box;
+                    text-align: left;
+                    
+                }
+            }
+            .LiveShowWrapper{
+                .LiveShowContent{
+                    .LiveShowItem{
+                        .LiveShowItemProfile .LiveShowItemProfileName{
+                            display: inline-flex;
+                        }
+                        .LiveShowItemHeader{
+                            flex-direction: column;
+                            .LiveShowItemHeaderImage{
+                                width: 100%;
+                                
+                            }
+                            .LiveShowItemHeaderTitle{
+                                width: 100%;
+                                text-align: center;
+                                margin-top: 14px;
+                                .LiveShowItemHeaderTitleOne{
+                                    line-height: 24px;
+                                    font-size: 18px;
+                                }
+                                .LiveShowItemHeaderTitleTwo{
+                                    margin-bottom: 10px;
+                                }
+                                .LiveShowItemHeaderButton{
+                                    margin:0 auto
+                                }
+                            }
+
+                            .LiveShowItemHeaderTwoCode{
+                                margin: 10px auto -5px;
+                            }
+
+                        }
+                    }
+                }
+                
+
+            }
+            
+            
+        }
+
     }
+}
+
+@media screen and (min-width: 700px)and (max-width: 1330px){
+    .indexHomeZ{
+        .indexHomeLiveShowWrapper{
+            .indexHomeLiveListContentButtonLeft {
+                left: 88% !important;
+                top:0 !important;
+        }
+        .indexHomeLiveListContentButtonRight {
+            right: 2% !important;
+            top:0 !important;
+        }
+    }
+    }
+   
 }
 .indexHomeOneTextConsEngTwoNone,
 .HowitworksBannerTitleMobile,

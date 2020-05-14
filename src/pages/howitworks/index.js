@@ -33,6 +33,10 @@ export default class Howitworks extends React.Component{
             window.scrollTo(0,0);
         }
     }
+
+    goLink(url){
+        window.location.hash = url
+    }
     
     
 
@@ -110,8 +114,10 @@ export default class Howitworks extends React.Component{
                             }
                        </div>
                        <div className="HowitworksTimeTitle opensource"> “大咖说开源” 系列直播讲座</div>
-                       <div className="HowitworksTimelineList">
-                      第一期将在 5 月 16 日直播，请关注官网和公众号的后续消息。
+                       <div className="HowitworksTimelineList" >
+                       第一期将在5月16日直播，请关注官网和公众号消息， <span onClick={()=>{this.goLink('liveshow')}}>点击此处查看讲座信息。</span>
+                      
+                       
                                 {/* <div className="HowitworksTimelineItem">
                                     <div className="HowitworksTimelineItemIcon"></div>
                                     <div className="HowitworksTimelineItemCons">

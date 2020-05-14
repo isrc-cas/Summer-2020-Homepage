@@ -13,13 +13,25 @@
             font-size: 36px;
             color: white;
             font-weight: bolder;
-            padding-top: 120px;
+            height: 280px;
+            padding-top: 86px;
+        }
+        .orgBannerTitle1 {
+            line-height: 40px;
+            margin-left: -20px;
+            font-size: 20px;
+            background-image: url(./../../img/organisation/banner2.png);
+            background-repeat: no-repeat;
+            background-position: left;
         }
     }
     .orgListTab {
         background: rgb(36,47,102);
         text-align: center;
+        height: 80px;
+        z-index: 2;
         .orgListTabItem {
+            cursor: pointer;
             font-size: 24px;
             width: 181px;
             height: 72px;
@@ -28,9 +40,36 @@
             text-align: center;
             font-weight: bold;
             line-height: 72px;
+            margin-top: 4px;
+        }
+        .orgListTabItem:hover {
+            background: rgba(60, 60, 250, 0.596);
         }
         .tabSelected {
             background: rgb(77,77,255);
+        }
+    }
+    #orgListNavBar {
+        display: none;
+        background: rgb(235,241,255);
+        // width: 1200px;
+        text-align: center;
+        margin: 0 auto;
+        height: 50px;
+        line-height: 50px;
+        .orgListNavBarItem {
+            font-size: 20px;
+            float: left;
+        }
+        .orgClick {
+            cursor: pointer;
+            display: inline-block;
+            color: rgb(77,77,255);
+        }
+        .orgGrey {
+            margin-left: 10px;
+            color: rgb(102,102,102);
+            display: inline-block;
         }
     }
     .orgListWrapper {
@@ -85,13 +124,13 @@
             .org-tooltip {
                 position: relative;
                 background-color: white;
-                width: 1140px;
+                width: 1200px;
                 height: 100%;
                 border-radius: 0.25em;
                 justify-content: left;
                 flex-direction: column;
                 margin-top: 20px;
-                padding: 20px 32px;
+                padding: 20px 30px;
                 text-align: left;
                 .triangle {
                     display: block;
@@ -185,38 +224,44 @@
                     background-color: rgb(216,235,255);
                     color: rgb(25,139,255);
                 }
-                .tooltip-detail-button {
-                    display: inline-block;
-                    color: white;
-                    line-height: 40px;
-                    height: 40px;
-                    width: 150px; 
-                    font-size: 18px;
-                    margin: 5px 0;
-                    background: #5959ff;
-                    border-style: solid;
-                    border-width: 0.1px;
-                    border-radius: 4px;
-                    text-align: center;
-                    font-weight: bolder;
-                    img {
-                        margin-left: 12px;
-                    }
-                }
-                .tooltip-detail-button:hover {
-                    background-color: #4c4cd9;
-                    cursor: pointer;
-                    box-shadow: none;
-                }
+
                 .tooltip-detail {
                     display: none;
                 }
                 display: none;
             }
-            
+            .tooltip-detail-button {
+                display: inline-block;
+                color: white;
+                line-height: 40px;
+                height: 40px;
+                width: 150px; 
+                font-size: 18px;
+                margin: 5px 0;
+                background: #5959ff;
+                border-style: solid;
+                border-width: 0.1px;
+                border-radius: 4px;
+                text-align: center;
+                font-weight: bolder;
+                img {
+                    margin-left: 12px;
+                }
+            }
+            .tooltip-detail-button:hover {
+                background-color: #4c4cd9;
+                cursor: pointer;
+                box-shadow: none;
+            }
             .org-detail {
-                margin-top: 136px;
+                margin-top: 0;
                 z-index: 1;
+                // width: 1200px;
+                .ant-input-search {
+                    width: 500px;
+                    height: 60px;
+                    margin-top: 20px;
+                }
                 .triangle, .tooltip-close, .tooltip-detail-button {
                     display: none;
                 }
@@ -225,13 +270,13 @@
                 }
                 .tooltip-project-wrapper {
                     padding: 0;
-                    margin-left: -32px;
+                    margin-left: -30px;
                 }
                 .orgProjectItem {
                     display: grid;
                     grid-template-columns: 1fr 2fr;
-                    height: 359px;
-                    margin-top: 60px;
+                    height: 300px;
+                    margin-top: 40px;
                     color: white;
                 }
                 .orgProjectItemColumn {
@@ -257,7 +302,7 @@
                 }
                 .orgLeft {
                     grid-column: 1;
-                    width: 440px;
+                    width: 500px;
                     height: 300px;
                     padding: 30px 0;
                     .orgProjectTitleIcon {
@@ -266,7 +311,7 @@
                         // display: inline-block;
                         position: absolute;
                         // bo: 0;
-                        right: 68%;
+                        right: 750px;
                         margin-top: -100px;
                     }
                 }
@@ -274,21 +319,27 @@
                     grid-column: 2;
                     margin: 19px 0;
                     padding: 30px;
-                    width: 704px;
+                    width: 700px;
                     height: 262px;
                     background: #ebf1ff;
                 }
                 .orgProjectTitle {
                     padding: 0 28px;
-                    width: 300px;
+                    width: 330px;
                     font-size: 24px;
                     background-position: top right;
                     background-repeat: no-repeat;
                     background-size: 75px 75px;
                     min-height: 75px;
+                    height: 110px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display:-webkit-box;
+                    -webkit-box-orient:vertical;
+                    -webkit-line-clamp:3;
                 }
                 .orgProjectGap {
-                    height: 120px;
+                    height: 60px;
                     width: 1px;
                 }
                 .orgProjectBottomLeft {
@@ -303,18 +354,22 @@
                 }
                 .orgProjectDes {
                     line-height: 25px;
-                    min-height: 200px;
+                    height: 125px;
+                    // height: 3.6em;
                     color: rgb(102,102,102);
                     font-size: 16px;
+                    text-overflow: ellipsis;
+                    overflow: auto;
+                    margin-bottom: 30px;
                 }
                 .orgProjectButton {
                     position: absolute;
-                    margin-top: -60px;
-                    right: 50px;
+                    margin-top: -50px;
+                    right: 60px;
                     display: inline-block;
                 }
             }
-            @media screen and (min-width: 320px)and (max-width: 800px){
+            @media screen and (min-width: 320px)and (max-width: 700px){
                 .org-tooltip {
                     // width: 375px;
                     height: 100%;
@@ -339,7 +394,7 @@
                         right: 10px;
                         top: -4px;
                     }
-                    .tooltip-url::before{
+                    .tooltip-list-title::before, .tooltip-url::before{
                         position: absolute;
                         content: "";
                         width: 4px;
@@ -357,8 +412,49 @@
         @media screen and (min-width: 100px)and (max-width: 700px){
             .orgList {
                 grid-template-columns: repeat(auto-fill, 90vw);
-                margin:0 auto;
+                margin: 0 auto;
+                .org-detail {
+                    .ant-input-search {
+                        width: 90vw;
+                    }
+                    .tooltip-project-wrapper {
+                        margin: 0 auto;
+                    }
+                    
+                    .orgProjectItem {
+                        display: block;
+                        grid-template-columns: none;
+                        height: 100%;
+                        margin: 0 auto;
+                    }
+                    .orgRight {
+                        grid-column: none;
+                        width: 100%;
+                        margin-top: 0;
+                        height: 100%;
+                        overflow-wrap: break-word;
+                    }
+                    .orgLeft {
+                        grid-column: none;
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .orgProjectDes {
+                        height: 100%;
+                    }
+                    .orgProjectTitleIcon {
+                        display: none;
+                    }
+                    .orgProjectButton {
+                        right: 5px;
+                        position: relative;
+                        margin-top: 5px;
+                    }
+                }
+                
             }
+            
+            
         }
     }
     .indexOrgThirdTitle{
@@ -399,6 +495,11 @@
         }
        
        
+    }
+    #orgProjectWrapper {
+        padding-bottom: 27px;
+        display: none;
+        background-color: #d8dff1;
     }
 
 

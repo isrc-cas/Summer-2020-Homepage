@@ -7,8 +7,9 @@ import Howitworks from './pages/howitworks/index.js';
 import Contactus from './pages/contactus/index.js';
 import Start from './pages/start/index.js';
 import Organisation from './pages/organisation/index.js';
-import QuestionAndAnswer from './pages/qa/index.js';
-import {linkDataMap} from './components/header/listLink.js'
+// import QuestionAndAnswer from './pages/qa/index.js';
+import {linkDataMap} from './components/header/listLink.js';
+import LiveShow from './pages/liveshow/index.js';
 export default class IRouter extends React.Component{
     constructor(props){
         super(props);
@@ -32,7 +33,7 @@ export default class IRouter extends React.Component{
                                      <Route path="/contactus" component={Contactus} />
                                      <Route path="/started" component={Start} />
                                      <Route path="/organisations" component={Organisation} />
-                                     <Route path="/qa" component={QuestionAndAnswer} />
+                                     <Route path="/liveshow" component={LiveShow} />
                                      <Route path="/" component={Index} />
                             </Switch>
                         </Wrapper>

@@ -67,6 +67,13 @@ const logolistMap = {
             url:'http://skywalking.apache.org/'
         },
         {
+            name:'Arctern',
+            img:'c_Arctern.jpg',
+            url:'https://arctern.io/'
+
+            
+        },
+        {
             name:'安同开源社区AOSC',
             img:'c_aosc.jpg',
             url:'https://aosc.io'
@@ -95,15 +102,27 @@ const logolistMap = {
             img:'c_emacs.jpg',
             url:'https://www.gnu.org/software/emacs/'
         },
+        {
+            name:'KubeEdge',
+            img:'c_KubeEdge.jpg',
+            url:'https://kubeedge.io'
+        },
+        {
+            name:'MACE',
+            img:'c_mace.jpg',
+            url:'https://github.com/XiaoMi/mace'
+        },
        
         {
             name:'MaskBook',
             img:'c_maskbook.jpg',
+            url:'https://maskbook.com',
         },
-        // {
-        //     name:'c_markdownlab',
-        //     img:'c_markdownlab.jpg',
-        // },
+        {
+            name:'MindSpore',
+            img:'c_MindSpore.jpg',
+            url:'https://www.mindspore.cn',
+        },
         
         {
             name:'milvus',
@@ -120,6 +139,11 @@ const logolistMap = {
             name:'opencv',
             img:'c_opencvchina.jpg',
             url:' http://www.opencv.org.cn'
+        },
+        {
+            name:'Simple-XX',
+            img:'c_Simple-XX.jpg',
+            url:' https://github.com/Simple-XX'
         },
         {
             name:'rtthread',
@@ -150,6 +174,11 @@ const logolistMap = {
             name:'lugustc',
             img:'c_lugustc.jpg',
             url:'https://lug.ustc.edu.cn/wiki/'
+        },
+        {
+            name:'volcano',
+            img:'c_volcano.jpg',
+            url:'https://volcano.sh'
         },
         {
             name:'xlab',
