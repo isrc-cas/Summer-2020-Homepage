@@ -520,7 +520,19 @@
             "tech_tag": ["TypeScript", "React", "Cryptography", "Decentralized Database"],
             "domain_tag": ["Frontend", "Cryptography", "Typescript"],
             "mail_list": "",
-            "email": ""
+            "email": "",
+            "project_list": [
+              {
+                "name": "Task 1",
+                "difficulty": "",
+                "mentor": "",
+                "contact": "",
+                "co-mentor": "",
+                "hot_index": 0,
+                "description": "In this task, we are looking forward to open ideas about our plugin system and applications on it. We are just starting to formalize the plugin system recently so we are also expecting you to help us with this task too. You can comment on this issue with your ideas or questions if you are interested.",
+                "update_time": "2020-05-14"
+              }
+            ]
         },
         {
             "img":"MindSpore.jpg",
@@ -614,7 +626,7 @@
                 "name": "Write a tutorial about using universal intrinsics and cv::parallel_for_ for efficient cross-platform algorithm implementation",
                 "difficulty": "中",
                 "mentor": "Shiqi Yu",
-                "contact": "",
+                "contact": "admin@opencv.org.cn",
                 "hot_index": 0,
                 "description": "Universal intrinsics is OpenCV way to write cross-platform and yet very efficient code on a variety of platforms. The technique is widely used inside OpenCV, but it’s not well-known to many OpenCV users, including contributors, who are supposed to provide high-quality fast code into OpenCV. This tutorial should fill this important missing part of the documentation.",
                 "update_time": "2020-05-14"
@@ -623,7 +635,7 @@
                 "name": "Create nuget package for OpenCV and OpenCV contrib",
                 "difficulty": "中",
                 "mentor": "Satya Mallick",
-                "contact": "",
+                "contact": "admin@opencv.org.cn",
                 "hot_index": 0,
                 "description": "Nuget is the standard Microsoft package manager. If done properly, it can become the most convenient way to install OpenCV on Windows. We can also create opencv_contrib nuget package, and thus provide a convenient way for OpenCV users to install experimental OpenCV functionality on Windows.",
                 "update_time": "2020-05-14"
@@ -632,7 +644,7 @@
                 "name": "Support Audio IO module",
                 "difficulty": "中",
                 "mentor": "Intel OpenCV team member",
-                "contact": "",
+                "contact": "admin@opencv.org.cn",
                 "hot_index": 0,
                 "description": "At the moment, OpenCV can works with inference deep neural network with help DNN module. But DNN module has limitation, it work with only images. In addition, exist much network which work with audio. That why proposed support audio input/output in OpenCV for extension functionality of library and more specifically extension functionality of DNN module.",
                 "update_time": "2020-05-14"
@@ -641,7 +653,7 @@
                 "name": "Implementation of QR-codes decoder and encoder",
                 "difficulty": "中",
                 "mentor": "Intel OpenCV team member",
-                "contact": "",
+                "contact": "admin@opencv.org.cn",
                 "hot_index": 0,
                 "description": "OpenCV has well-working QR codes detection and decoding algorithm. Currently it uses third party library for decoding and doesn’t have functionality for creation of QR-codes. The first task will be implementation decoder with help of OpenCV functionality. This will help to solve second task – QR-code encoder (tasks are interconnected). Student will need to research QR-codes decoding algorithms, error correction rules, data character encoding methods and to program decoder and encoder.",
                 "update_time": "2020-05-14"
@@ -650,7 +662,7 @@
                 "name": "Data Augmentation",
                 "difficulty": "中高",
                 "mentor": "Intel OpenCV team member",
-                "contact": "",
+                "contact": "admin@opencv.org.cn",
                 "hot_index": 0,
                 "description": "Deep learning networks are hungry for data and data augmentation is one of the easiest ways to increase data variation. Augmentation could be as simple image flipping, cropping and scaling on up to more complicated transformations such style transfer using another deep learning network. For computer vision problems, OpenCV is often used for reading images in most of training scenarios, so why we’d like to enhance data reading with simple to use data augmentation techniques as well.",
                 "update_time": "2020-05-14"
@@ -685,7 +697,7 @@
                 "name": "SimpleKernel 修复存在的 bug",
                 "difficulty": "中",
                 "mentor": "MRNIU",
-                "contact": "",
+                "contact": "Zone.Niuzh@hotmail.com",
                 "hot_index": 0,
                 "description": "由于项目早期的遗留问题,有很多 bug 一直没有解决,在代码某处一定还藏有尚未发现的地雷,你的任务是找到它,解决它,并留下足够的测试代码。",
                 "update_time": "2020-05-14"
@@ -694,7 +706,7 @@
                 "name": "SimpleKernel 优化现有内存管理代码的实现",
                 "difficulty": "中",
                 "mentor": "MRNIU",
-                "contact": "",
+                "contact": "Zone.Niuzh@hotmail.com",
                 "hot_index": 0,
                 "description": "现有的内存管理代码可谓千疮百孔,难以说是一个能够作为示例的代码,我们需要你在现有方案的基础上对代码进行重写,使用经典算法如 first-fit,buddy 重新实现内存管理系统。",
                 "update_time": "2020-05-14"
@@ -703,7 +715,7 @@
                 "name": "SimpleKernel 完成多任务系统",
                 "difficulty": "高",
                 "mentor": "MRNIU",
-                "contact": "",
+                "contact": "Zone.Niuzh@hotmail.com",
                 "hot_index": 0,
                 "description": "多任务是内核不可或缺的部分,但现在我们的代码还很简陋。现有代码是对 linux 内核实现的魔改,还不能够正常使用。",
                 "update_time": "2020-05-14"
@@ -712,7 +724,7 @@
                 "name": "SimpleKernel 编写实现文档",
                 "difficulty": "中",
                 "mentor": "MRNIU",
-                "contact": "",
+                "contact": "Zone.Niuzh@hotmail.com",
                 "hot_index": 0,
                 "description": "目前的实现文档分布在开发日志、代码注释中,有的部分还有缺少,我们需要一份文档告诉使用者我们的代码是怎么来的,背后的原理是什么,为什么这样写。",
                 "update_time": "2020-05-14"
@@ -721,7 +733,7 @@
                 "name": "SimpleCompiler 完善编译器架构",
                 "difficulty": "中",
                 "mentor": "MRNIU",
-                "contact": "",
+                "contact": "Zone.Niuzh@hotmail.com",
                 "hot_index": 0,
                 "description": "目前仅实现了基本的词法解析,但对于整个编译器的整体结构尚未有过考虑,我们需要一位对编译器熟悉的同学来把握大方向,站在初学者的角度,我们的代码怎么写能让别人容易理解,便于迁移呢？",
                 "update_time": "2020-05-14"
