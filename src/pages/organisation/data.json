@@ -59,8 +59,8 @@
             "full_des": "Apache DolphinScheduler (incubating) 是一个分布式去中心化，易扩展的可视化DAG工作流任务调度系统。致力于解决数据处理流程中错综复杂的依赖关系，使调度系统在数据处理流程中开箱即用。",
             "tech_tag": ["分布式任务调度","大数据任务调度","工作流任务调度"],
             "domain_tag": ["大数据","大数据任务调度"],
-            "mail_list": "dev@skywalking.apache.org",
-            "email": "",
+            "mail_list": "dev@dolphinscheduler.apache.org",
+            "email": "dev@dolphinscheduler.apache.org",
             "project_list": [
               {
                 "name": "延时等待",
