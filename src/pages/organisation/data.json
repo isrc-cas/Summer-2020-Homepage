@@ -61,79 +61,79 @@
             "domain_tag": ["大数据","大数据任务调度"],
             "mail_list": "",
             "email": "",
-            "project_list": [              
-                {
-                    "name": "延时等待",
-                    "difficulty": "低",
-                    "mentor": "Jave-Chen",
-                    "contact": "kejia.chen@foxmail.com",
-                    "hot_index": 0,
-                    "description": "在任务节点中新增“延时等待”的属性，支持任务在开始后一段时间内等待前置任务完成。",
-                    "update_time": "2020-05-13"
-                },
-                {
-                    "name": "DS 任务节点说明文档编写",
-                    "description": "基于现有文档和 DS 功能，补充文档，对 DS 现有任务节点进行详细说明。",
-                    "difficulty": "低",
-                    "mentor": "Jave-Chen",
-                    "contact": "kejia.chen@foxmail.com",
-                    "hot_index": 0,
-                    "update_time": "2020-05-13"
-                },
-                {
-                    "name": "任务空跑",
-                    "description": "在对工作流测试时，支持部分任务不执行具体任务内容，直接更新任务状态为成功。",
-                    "difficulty": "中",
-                    "mentor": "Jave-Chen",
-                    "contact": "kejia.chen@foxmail.com",
-                    "hot_index": 0,
-                    "update_time": "2020-05-13"
-                },
-                {
-                    "name": "强制成功",
-                    "description": "对于失败的任务，可手工“强制成功”，后续依赖即可自动执行。",
-                    "difficulty": "中",
-                    "mentor": "Jave-Chen",
-                    "contact": "kejia.chen@foxmail.com",
-                    "hot_index": 0,
-                    "update_time": "2020-05-13"
-                },
-                {
-                    "name": "新任务节点开发文档整理",
-                    "description": "基于代码和 PR ，整理新任务节点开发文档。",
-                    "difficulty": "中",
-                    "mentor": "Jave-Chen",
-                    "contact": "kejia.chen@foxmail.com",
-                    "hot_index": 0,
-                    "update_time": "2020-05-13"
-                },
-                {
-                    "name": "查询所有上下游依赖",
-                    "description": "查询任务的所有上下游依赖。",
-                    "difficulty": "高",
-                    "mentor": "Jave-Chen",
-                    "contact": "kejia.chen@foxmail.com",
-                    "hot_index": 0,
-                    "update_time": "2020-05-13"
-                },
-                {
-                    "name": "任务结果/变量传递",
-                    "description": "支持任务节点间传递变量/任务执行结果。",
-                    "difficulty": "高",
-                    "mentor": "Jave-Chen",
-                    "contact": "kejia.chen@foxmail.com",
-                    "hot_index": 0,
-                    "update_time": "2020-05-13"
-                },
-                {
-                    "name": "可视化部署",
-                    "description": "支持可视化部署 DS。",
-                    "difficulty": "高",
-                    "mentor": "Jave-Chen",
-                    "contact": "kejia.chen@foxmail.com",
-                    "hot_index": 0,
-                    "update_time": "2020-05-13"
-                }
+            "project_list": [
+              {
+                "name": "延时等待",
+                "difficulty": "低",
+                "mentor": "Jave-Chen",
+                "contact": "kejia.chen@foxmail.com",
+                "hot_index": 0,
+                "description": "在任务节点中新增“延时等待”的属性，支持任务在开始后一段时间内等待前置任务完成。",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "DS 任务节点说明文档编写",
+                "description": "基于现有文档和 DS 功能，补充文档，对 DS 现有任务节点进行详细说明。",
+                "difficulty": "低",
+                "mentor": "Jave-Chen",
+                "contact": "kejia.chen@foxmail.com",
+                "hot_index": 0,
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "任务空跑",
+                "description": "在对工作流测试时，支持部分任务不执行具体任务内容，直接更新任务状态为成功。",
+                "difficulty": "中",
+                "mentor": "Jave-Chen",
+                "contact": "kejia.chen@foxmail.com",
+                "hot_index": 0,
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "强制成功",
+                "description": "对于失败的任务，可手工“强制成功”，后续依赖即可自动执行。",
+                "difficulty": "中",
+                "mentor": "Jave-Chen",
+                "contact": "kejia.chen@foxmail.com",
+                "hot_index": 0,
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "新任务节点开发文档整理",
+                "description": "基于代码和 PR ，整理新任务节点开发文档。",
+                "difficulty": "中",
+                "mentor": "Jave-Chen",
+                "contact": "kejia.chen@foxmail.com",
+                "hot_index": 0,
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "查询所有上下游依赖",
+                "description": "查询任务的所有上下游依赖。",
+                "difficulty": "高",
+                "mentor": "Jave-Chen",
+                "contact": "kejia.chen@foxmail.com",
+                "hot_index": 0,
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "任务结果/变量传递",
+                "description": "支持任务节点间传递变量/任务执行结果。",
+                "difficulty": "高",
+                "mentor": "Jave-Chen",
+                "contact": "kejia.chen@foxmail.com",
+                "hot_index": 0,
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "可视化部署",
+                "description": "支持可视化部署 DS。",
+                "difficulty": "高",
+                "mentor": "Jave-Chen",
+                "contact": "kejia.chen@foxmail.com",
+                "hot_index": 0,
+                "update_time": "2020-05-13"
+              }
             ]
         },
         {
@@ -146,9 +146,7 @@
             "tech_tag": ["分布式系统","消息系统","信息流平台"],
             "domain_tag": [],
             "mail_list": "",
-            "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "email": ""
         },
         {
             "img":"sharding.jpg",
@@ -161,8 +159,17 @@
             "domain_tag": ["Java后端","关系型数据库"],
             "mail_list": "",
             "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "project_list": [
+              {
+                "name": "官网优化",
+                "description": "根据项目团队要求，重新设计并实现新的官网。",
+                "difficulty": "中",
+                "mentor": "张亮",
+                "contact": "zhangliang@apache.org",
+                "hot_index":0,
+                "update_time": "2020-05-13"
+              }
+            ]
         },
         {
             "img":"ApacheSkyWalking.jpg",
@@ -175,8 +182,125 @@
             "domain_tag": ["应用性能监控", "分布式追踪", "分布式系统性能"],
             "mail_list": "",
             "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "project_list": [
+              {
+                  "name": "官网优化",
+                  "description": "根据项目团队要求，重新设计并实现新的官网。",
+                  "difficulty": "中",
+                  "mentor": "吴晟",
+                  "contact": "wu.sheng@foxmail.com",
+                  "hot_index":0,
+                  "update_time": "2020-05-13"
+              },
+              {
+                  "name": "追加业务系统的logback日志到span中",
+                  "description": "允许通过可选插件，将业务系统中，通过logback输出的日志，直接记录到span的log信息中https://github.com/apache/skywalking/issues/4545",
+                  "difficulty": "中",
+                  "mentor": "吴晟",
+                  "contact": "wu.sheng@foxmail.com",
+                  "hot_index":0,
+                  "update_time": "2020-05-13"
+              },
+              {
+                  "name": "端到端测试框架本地调试增强",
+                  "description": "测试框架在本地 IDE 直接连接进入容器进行调试",
+                  "difficulty": "中",
+                  "mentor": "柯振旭",
+                  "contact": "kezhenxu94@163.com",
+                  "hot_index":0,
+                  "update_time": "2020-05-13"
+              },
+              {
+                  "name": "命令行 Dashboard",
+                  "description": "为 SkyWalking CLI 提供一个统一的 dashboard 视图, 可以查看全局数据",
+                  "difficulty": "中",
+                  "mentor": "柯振旭",
+                  "contact": "kezhenxu94@163.com",
+                  "hot_index":0,
+                  "update_time": "2020-05-13"
+              },
+              {
+                  "name": "Python Agent 支持 Flask 或 Django 埋点",
+                  "description": "为 SkyWalking Python agent 适配 Flask 或 Django 框架(二选一)的埋点",
+                  "difficulty": "低",
+                  "mentor": "柯振旭",
+                  "contact": "kezhenxu94@163.com",
+                  "hot_index":0,
+                  "update_time": "2020-05-13"
+              },
+              {
+                  "name": "go-micro 插件",
+                  "description": "为 go2sky 实现 go-micro 插件",
+                  "difficulty": "低",
+                  "mentor": "张伟",
+                  "contact": " zhangwei24@apache.org",
+                  "hot_index":0,
+                  "update_time": "2020-05-13"
+              },
+              {
+                  "name": "WebFlux WebClient插件",
+                  "description": "为SkyWalking Java实现WebFlux WebClient插件",
+                  "difficulty": "低",
+                  "mentor": "赵禹光",
+                  "contact": " zhaoyuguang@apache.org",
+                  "hot_index":0,
+                  "update_time": "2020-05-13"
+              },
+              {
+                  "name": "skywalking-lua-nginx 插件的优化",
+                  "description": "skywalking-lua-nginx 一般用于网关层面，对于性能会有比较高的要求",
+                  "difficulty": "中",
+                  "mentor": "温铭",
+                  "contact": "wenming@apache.org",
+                  "hot_index":0,
+                  "update_time": "2020-05-13"
+              },
+              {
+                  "name": "样例集群",
+                  "description": "使用SkyWalking支持的所有探针构建一个有实际意义的样例集群",
+                  "difficulty": "中",
+                  "mentor": "高洪涛",
+                  "contact": "hanahmily@apache.org",
+                  "hot_index":0,
+                  "update_time": "2020-05-13"
+              },
+              {
+                  "name": "DBCP 插件",
+                  "description": "为SkyWalking Java实现Apache Commons DBCP插件",
+                  "difficulty": "低",
+                  "mentor": "庄浩潮",
+                  "contact": "daming@apache.org",
+                  "hot_index":0,
+                  "update_time": "2020-05-13"
+              },
+              {
+                  "name": "采集数据库连接池（Alibaba druid）相关性能指标",
+                  "description": "为SkyWalking Java实现抓取Alibaba Druid连接池的参数配置以及相关性能指标",
+                  "difficulty": "高",
+                  "mentor": "张鑫",
+                  "contact": "zhangxin@apache.org",
+                  "hot_index":0,
+                  "update_time": "2020-05-13"
+              },
+              {
+                  "name": "数据库连接池HikariCP 插件",
+                  "description": "支持收集数据库连接池（HikariCP）获取连接的时间",
+                  "difficulty": "中",
+                  "mentor": "张鑫",
+                  "contact": "zhangxin@apache.org",
+                  "hot_index":0,
+                  "update_time": "2020-05-13"
+              },
+              {
+                  "name": "RabbitMQ 插件",
+                  "description": "为PHP-sdk 实现RabbitMQ 插件",
+                  "difficulty": "低",
+                  "mentor": "何延龙",
+                  "contact": "heyanlong@apache.org",
+                  "hot_index":0,
+                  "update_time": "2020-05-13"
+              }
+            ]
         },
         {
             "img":"aosc.jpg",
@@ -189,8 +313,55 @@
             "domain_tag": ["Linux 发行版","中文本地化"],
             "mail_list": "",
             "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "project_list": [
+              {
+                "name": "自动化打包的调度器",
+                "difficulty": "高",
+                "mentor": "Dingyuan Wang",
+                "contact": "gumblex@aosc.io",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "自动化测试框架",
+                "difficulty": "中",
+                "mentor": "",
+                "contact": "",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "安装程序 DeployKit 的实现",
+                "difficulty": "中",
+                "mentor": "黎民雍（以俊德）",
+                "contact": "lmy441900@aosc.io",
+                "hot_index": 0,
+                "description": "社区项目 DeployKit 是未来 AOSC OS 的安装和恢复程序。该程序有两种模式：1. 作为安装向导指引用户正确地安装 AOSC OS； 2. 作为恢复向导指引用户在轻微的系统配置错误中恢复系统； 目前，DeployKit 使用 GTK 3 和 Vala 编程语言基本实现了安装向导的图形用户界面，但尚未实现安装向导的实际操作部分（即 DeployKit 还只是个“空壳”）。本项目的目标是按照社区提供的 AOSC OS 安装指引，将这部分原本需要手动操作的安装流程实现到 DeployKit 上。",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "自由及开源软件简中本地化工作",
+                "difficulty": "低",
+                "mentor": "白铭骢",
+                "contact": "jeffbai@aosc.io",
+                "co-mentor": "刘子兴 <liushuyu@aosc.io>",
+                "hot_index": 0,
+                "description": "当前我国国内有相当数量的 Linux 及各大开源或自由软件 (F/OSS) 使用者，但在使用过程中，用户们不难发现，各种软件的简中翻译及本地化质量参差不齐，错漏繁多。尤其主流桌面环境如 GNOME 及 KDE 简中翻译率并不理想；而又有一些如 NetSurf 的知名开源项目则完全没有翻译。该项目的主要目的是改善当前本地化质量及覆盖率。",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "为 libinput 框架实现“划圈滚动 (Circular Srolling)”",
+                "difficulty": "中",
+                "mentor": "白铭骢",
+                "contact": "jeffbai@aosc.io",
+                "co-mentor": "刘子兴 <liushuyu@aosc.io>",
+                "hot_index": 0,
+                "description": "在 Wayland 及如 GNOME 等现代桌面的推动作用下，libinput 即将取代当前诸多碎片化的 X11 输入驱动（如 evdev 及 synaptics，甚至是更老的 mouse 及 keyboard），为用户及开发者带来一定便利。但在 libinput 的实现过程中，上游开发者由于人力有限，选择抛弃了一些他们主观认为不常见的硬件特性的支持。而被抛弃的特性之一是“划圈滚动”，即在触摸板上用手指划圈滚动（类似 iPod 的操作），这一特性在滚动长页面时可有效提高操作精度并降低疲劳。",
+                "update_time": "2020-05-13"
+              }
+            ]
         },
         {
             "img":"casbin.jpg",
@@ -203,8 +374,17 @@
             "domain_tag": ["网络安全","云安全","授权","访问控制","权限管理"],
             "mail_list": "",
             "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "project_list": [
+              {
+                "name": "Casbin核心引擎（Golang）",
+                "difficulty": "",
+                "mentor": "罗杨 (hsluoyz)",
+                "contact": "hsluoyz@gmail.com",
+                "hot_index": 0,
+                "description": "Extend the Casbin model/policy grammar to support more features in Casbin core engine. This will first be done in Golang Casbin. Possibly applied to other language implementations. Some issues to work on: 1. support pattern function in 3rd args of g: https://github.com/casbin/casbin/issues/337; 2. Resolve policy conflicts: https://github.com/casbin/casbin/issues/338; 3. Scaling ABAC Rules: https://github.com/casbin/casbin/issues/354; 4. Explain enforcement by informing matched rules: https://github.com/casbin/casbin/issues/355; 5. Make GetImplicitPermissionsForUser Deep: https://github.com/casbin/casbin/issues/357",
+                "update_time": "2020-05-13"
+              }
+            ]
         },
         {
             "img":"ceph.jpg",
@@ -217,8 +397,26 @@
             "domain_tag": [],
             "mail_list": "",
             "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "project_list": [
+              {
+                "name": "Ceph官方文档本地化",
+                "difficulty": "适中",
+                "mentor": "耿航",
+                "contact": "devin@ceph.org.cn",
+                "hot_index": 0,
+                "description": "目前Ceph中国社区已经有文档本地化小组及文档本地化官网（docs.ceph.org.cn）随着Ceph的更新迭代与官方文档尚有部分脱节，故需要进一步校对和翻译。",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "轻量级对象存储网关",
+                "difficulty": "适中",
+                "mentor": "郭峰",
+                "contact": "diluga@ceph.org.cn",
+                "hot_index": 0,
+                "description": "Ceph是一套开源的分布式存储软件，原生已经提供了对象存储网关服务(Rados gateway)，但是该对象存储和底层Ceph的耦合度高，不易改造和扩展新的概念。本次项目的目标是基于Ceph已经提供的Librados API，实现轻量级的对象存储网关服务，满足基本的大、小文件的上传下载的同时还能实现图片缩略图、裁剪、翻转等简单的多媒体操作。",
+                "update_time": "2020-05-13"
+              }
+            ]
         },
         {
             "img":"elastos.jpg",
@@ -230,9 +428,7 @@
             "tech_tag": ["区块链","blockchain","去中心化","decentralization"],
             "domain_tag": ["区块链","网络操作系统","去中心化","P2P"],
             "mail_list": "",
-            "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "email": ""
         },
         {
             "img":"emacs.jpg",
@@ -244,9 +440,7 @@
             "tech_tag": ["GNU","Emacs","Editor","Editing Environment","Lisp"],
             "domain_tag": ["编辑器","编程环境"],
             "mail_list": "",
-            "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "email": ""
         },
         {
             "img":"mace.jpg",
@@ -258,9 +452,7 @@
             "tech_tag": ["MACE","机器学习框架","深度学习框架","AI框架"],
             "domain_tag": ["机器学习","深度学习"],
             "mail_list": "QQ群（756046893)",
-            "email": "https://github.com/XiaoMi/mace/issues",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "email": "https://github.com/XiaoMi/mace/issues"
         },
         {
             "img":"maskbook.jpg",
@@ -272,9 +464,7 @@
             "tech_tag": ["TypeScript", "React", "Cryptography", "Decentralized Database"],
             "domain_tag": ["Frontend", "Cryptography", "Typescript"],
             "mail_list": "",
-            "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "email": ""
         },
         {
             "img":"milvus.jpg",
@@ -286,9 +476,7 @@
             "tech_tag": ["深度学习","计算机视觉","NLP","语音识别","化合物检索"],
             "domain_tag": [],
             "mail_list": "",
-            "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "email": ""
         },
         {
             "img":"oi.jpg",
@@ -301,8 +489,46 @@
             "domain_tag": ["算法与数据结构教育","开发工具","web"],
             "mail_list": "",
             "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "project_list": [
+              {
+                "name": "撰写、完善 OI Wiki 上的内容",
+                "difficulty": "中",
+                "mentor": "ir1d",
+                "contact": "sirius.caffrey@gmail.com",
+                "co-mentor": "Falsyta falsyta@pku.edu.cn",
+                "hot_index": 0,
+                "description": "OI Wiki 是一个编程竞赛知识整合站点，提供有趣又实用的编程竞赛知识以及其他有帮助的内容，帮助广大编程竞赛爱好者更快更深入地学习编程竞赛。然而，算法与数据结构知识迭代更新较快，仍有很多 OI Wiki 尚未涉及的内容。本项目目标是选定若干新颖有趣的 topic，并将其引入 OI Wiki。寻找有趣的 topic 可以参考 e-maxx-eng， AlgoWiki 。",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "改进前端渲染框架",
+                "difficulty": "中",
+                "mentor": "mgt/Enter-tainer",
+                "contact": "mgt@oi-wiki.org",
+                "co-mentor": "diauweb diauweb@live.com",
+                "hot_index": 0,
+                "description": "当前，OI Wiki 使用 mkdocs 作为静态页面生成引擎。然而由于 mkdocs 并非专门为 Wiki 类项目设计，因而与我们的需求存在较大差距，此外还难以实现对语法和页面的定制。因此，目前 OI Wiki 正在将前端迁移到基于 React 和 GraphQL 的页面生成框架 Gatsby 上，从而实现对页面的深度定制。目前，我们已经实现了基本的框架代码（见下面的仓库）。然而它还不尽完善，我们希望为它添加更多的功能，覆盖用户的需求。",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "完善基于 Unified AST 的 markdown 基础设施",
+                "difficulty": "中",
+                "mentor": "ir1d",
+                "contact": "sirius.caffrey@gmail.com",
+                "hot_index": 0,
+                "description": "在即将上线的新前端中，为了支持我们的诸多 markdown 自定义语法， OI Wiki 使用 remark 作为 markdown parser，并使用 rehype 生成对应的 html 页面。首先，我们希望能够基于现有的 Unified AST，生成相应的 LaTeX code 并导出排版优美的 pdf 文档。OI Wiki 开发过一版导出工具（见下面的仓库 remark-latex），但是由于缺乏维护，对于图片等语法的支持不够完善，使用起来也需要大量人工操作。我们希望能够基于 Unified AST 及现有实现，改进或重构出一个较优美的 markdown 转 LaTeX 导出工具。此外，上游社区也有一些优秀的 LaTeX AST 实现供参考（见下面的 latex-utensils 及 LaTeX.js）。其次，为了让多人协作的 markdown 文件更整齐，我们采用了 remark-lint 来规范 markdown 中内容的格式。目前 OI Wiki 的格式化工具见下方 linter 仓库，启用的格式化规则见 https://github.com/OI-wiki/OI-wiki/blob/master/.remarkrc ，但是目前的实现还不够完善，比如对于公式两侧添加若干多余的空格、details 语法限制过严等等。我们希望通过这个项目，规范整理 lint 规则。",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "测试数据生成工具",
+                "difficulty": "中",
+                "mentor": "Billchenchina",
+                "contact": "billchenchina2001@gmail.com",
+                "hot_index": 0,
+                "description": "在即将上线的新前端中，我们希望能添加一些辅助竞赛选手的实用工具。测试数据生成工具就是其中之一。在解题过程中，选手往往会有自己造一些样例数据的需求，我们希望能设计一个前端工具来简化这一流程。目前有一些类似的工具供参考，如 cyaron，testlib， Tree-Generator 。",
+                "update_time": "2020-05-13"
+              }
+            ]
         },
         {
             "img":"opencv.jpg",
@@ -314,9 +540,7 @@
             "tech_tag": ["C","C++", "Python", "Java", "JavaScript"],
             "domain_tag": ["计算机视觉","深度学习"],
             "mail_list": "",
-            "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "email": ""
         },
         {
             "img":"openeuler.jpg",
@@ -328,9 +552,7 @@
             "tech_tag": ["Linux","Git","GCC","RPM"],
             "domain_tag": ["操作系统","内核","包管理"],
             "mail_list": "",
-            "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "email": ""
         },
         {
             "img":"simpleX.jpg",
@@ -342,9 +564,7 @@
             "tech_tag": ["Linux","GCC","Compiler","软件⼯程"],
             "domain_tag": ["操作系统","编译器","数据库"],
             "mail_list": "",
-            "email": "zone.niuzh@hotmail.com",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "email": "zone.niuzh@hotmail.com"
         },
         {
             "img":"RT-Thread.jpg",
@@ -357,8 +577,87 @@
             "domain_tag": ["物联网操作系统","软件包","GUI","IDE"],
             "mail_list": "",
             "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "project_list": [
+              {
+                "name": "在树莓派4上用 RT-Thread 实现在线语音识别",
+                "difficulty": "中",
+                "mentor": "杨武",
+                "contact": "yangwu@rt-thread.com",
+                "co-mentor": "赵辅金，zhaofujin@rt-thread.com",
+                "hot_index": 0,
+                "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器，同时还包括WiFi/BT，千兆以太网，双HDMI输出，CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台，可用于各种AI应用场景。",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "在树莓派4上用 RT-Thread 实现目标检测",
+                "difficulty": "高",
+                "mentor": "杨武",
+                "contact": "yangwu@rt-thread.com",
+                "co-mentor": "赵辅金，zhaofujin@rt-thread.com",
+                "hot_index": 0,
+                "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器，同时还包括WiFi/BT，千兆以太网，双HDMI输出，CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台，可用于各种AI应用场景。",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "在树莓派4上用RT-Thread 实现TensorflowLite Micro移植",
+                "difficulty": "中",
+                "mentor": "陈晨毅",
+                "contact": "lebhoryi@rt-thread.com",
+                "co-mentor": "杨武，yangwu@rt-thread.com",
+                "hot_index": 0,
+                "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器，同时还包括WiFi/BT，千兆以太网，双HDMI输出，CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台，可用于各种AI应用场景。TensorflowLite Micro 是面象微控制器级别的设备裁剪定制版本的 Tensorflow Lite，具有良好的跨平台设计和较为完善的单元测试。本项目目标是在树莓派4上将TensorflowLite Micro移植到RT-Thread系统中，并顺利运行自的演示应用。目前树莓派4上的RT-Thread状态为，可以运行ARM64位的RT-Thread，驱动相对较少，只包含中断管理、串口、HDMI、SDIO等。在本项目中，需要开启 RT-Thread 的 C++ 支持，完成 TensorflowLite Micro 的编译链接，并在树莓派4上运行原项目自带的演示应用。",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "面向RISC-V的RT-Thread系统",
+                "difficulty": "高",
+                "mentor": "邵进春",
+                "contact": "shaojinchun@rt-thread.com",
+                "co-mentor": "熊谱翔，bernard.xiong@rt-thread.com",
+                "hot_index": 0,
+                "description": "QEMU中已经包含的基本的RISC-V模拟，例如sifive_u、riscv32/64_virt的模拟。RT-Thread对于RISC-V的移植主要局限于machine mode的方式，本项目目标是实现RISC-V的user-mode支持，及对应的基本外设功能，它们包括：支持MMU操作，页管理器；用户态的系统调用；任务切换时，对用户态上下文支持；基本的系统外设支持，例如文件系统，网络，LCD等",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "龙芯2K上的RT-Thread系统",
+                "difficulty": "高",
+                "mentor": "赵辅金",
+                "contact": "zhaofujin@rt-thread.com",
+                "co-mentor": "熊谱翔，bernard.xiong@rt-thread.com",
+                "hot_index": 0,
+                "description": "龙芯2K1000处理器是面向网络安全领域及移动智能终端领域的双核处理器芯片。龙芯2K1000处理器集成两个GS264处理器核，芯片外围接口包括两路PCIE2.0、一路SATA2.0、4路USB2.0、两路DVO、64位DDR2/3及其它多种接口，可以满足中低端网络安全应用领域需求，并为其扩展应用提供相应接口。当前RT-Thread系统只支持龙芯2K1000的基本外设（中断处理、串口、定时器等），基本的MIPS64支持。本项目目标是实现龙芯2K1000下更多的外设支持：SATA/SSD驱动，并对接FAT文件系统；千兆网卡驱动，并对接网络协议栈；",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "龙芯2K上的Linux/RT-Thread双系统",
+                "difficulty": "高",
+                "mentor": "赵辅金",
+                "contact": "zhaofujin@rt-thread.com",
+                "co-mentor": "熊谱翔，bernard.xiong@rt-thread.com",
+                "hot_index": 0,
+                "description": "龙芯2K1000处理器是面向网络安全领域及移动智能终端领域的双核处理器芯片。龙芯2K1000处理器集成两个GS264处理器核，芯片外围接口包括两路PCIE2.0、一路SATA2.0、4路USB2.0、两路DVO、64位DDR2/3及其它多种接口，可以满足中低端网络安全应用领域需求，并为其扩展应用提供相应接口。龙芯2K1000包含了两个核，当前RT-Thread系统只支持龙芯2K1000的基本外设（中断处理、串口、定时器等），基本的MIPS64支持。本项目的目标是把两个核都独立使用起来，包括一个核心执行Linux系统，一个核心执行RT-Thread。双方通过OpenAMP的方式进行通信。",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "在乐鑫 ESP32 上用 RT-Thread 实现语音唤醒和控制功能",
+                "difficulty": "高",
+                "mentor": "陈勇",
+                "contact": "chenyong@rt-thread.com",
+                "hot_index": 0,
+                "description": "乐鑫 ESP32 系列芯片提供了一个或两个可以单独控制的 CPU 内核，时钟频率可调，最高可达240 MHz。同时还包括 WIFI/BLE 双模，支持多种低功耗运行模式，具备低噪声放大器，I2S，高速 SPI，以太网等外设接口。是一款理想的嵌入式物联网芯片，可用于各类物联网应用场景。",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "基于RT-Thread 实现双目视觉拍摄系统",
+                "difficulty": "高",
+                "mentor": "李想",
+                "contact": "lixiang@rt-thread.com",
+                "co-mentor": "郭占鑫 guozhanxin@rt-thread.com",
+                "hot_index": 0,
+                "description": "RT-Thread 操作系统实现了 USB 基础协议栈，为 USB 摄像头的数据传输提供了基础的支持，双目拍摄系统拍摄同一场景的左、右两幅视点图像，并结合算法将左右图像进行合并。RT-Thread 和双目拍摄二者结合之后可以应用于各种视觉领域。",
+                "update_time": "2020-05-13"
+              }
+            ]
         },
         {
             "img":"tinylab.jpg",
@@ -371,8 +670,47 @@
             "domain_tag": ["Linux 内核","Linux 实验环境","实时系统","系统优化"],
             "mail_list": "",
             "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "project_list": [
+              {
+                "name": "Perf Lab 性能实验室",
+                "difficulty": "高",
+                "mentor": "@rxd",
+                "contact": "rxd@tinylab.org",
+                "co-mentor": "@lzufalcon, falcon@tinylab.org",
+                "hot_index": 0,
+                "description": "性能优化是提升产品用户体验的关键，也是所有产品走向高端的必由之路。Linux 系统上的性能优化工具日新月异，从早年的 Oprofile，Ftrace，Systemtap 到如今的 Perf, eBPF，日渐完善，不断强大。但是对于初学者，这些新工具的使用门槛很高，本项需求的目标是基于 Cloud Lab 构建一个开箱即可上手的系统性能优化工具箱，囊括各种常见的系统性能优化工具，并提供配套的实际开发案例。",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "Linux Lab 镜像升级",
+                "difficulty": "高",
+                "mentor": "@robin",
+                "contact": "robin@tinylab.org",
+                "co-mentor": "@lzufalcon, falcon@tinylab.org",
+                "hot_index": 0,
+                "description": "Linux Lab 是一个 Linux 内核实验环境，当前已经支持国内外的 7 大主流处理器架构和 16 款开发版。当前环境基于 Ubuntu 14.04，难以适应各类软件新版本的开发需要，本项需求旨在升级当前环境到最新的 Ubuntu 20.04 或者其他更为合适的同时期 Linux 发行版。",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "Linux Lab 模块化支持",
+                "difficulty": "高",
+                "mentor": "@ping.wu",
+                "contact": "ping.wu@tinylab.org",
+                "co-mentor": "@lzufalcon, falcon@tinylab.org",
+                "hot_index": 0,
+                "description": "Linux Lab 是一个 Linux 内核实验环境，当前已支持 Linux、Buildroot、Uboot 和 Qemu 四大核心软件，但是当前软件支持的耦合度非常高。本项需求旨在解耦，把各个软件的支持拆解到独立的软件支持文件中，增加可扩展性，从而方便进一步导入其他软件实验功能。",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "Markdown Lab 功能增强",
+                "difficulty": "中",
+                "mentor": "@lzufalcon",
+                "contact": "falcon@tinylab.org",
+                "hot_index": 0,
+                "description": "Markdown Lab 是一个 Markdown 编辑环境，当前内置简历、文档、幻灯和书籍的 Markdown 模板，可导出为 html 和 pdf，本项需求旨在进一步完善中文支持、美化 PDF 输出格式、增加加密和水印功能等。",
+                "update_time": "2020-05-13"
+              }
+            ]
         },
         {
             "img":"megEngine.jpg",
@@ -384,9 +722,7 @@
             "tech_tag": ["C++","深度学习框架"],
             "domain_tag": ["深度学习","人工智能","CV"],
             "mail_list": "",
-            "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "email": ""
         }, 
         {
             "img":"tuna.jpg",
@@ -399,8 +735,57 @@
             "domain_tag": ["服务器运维","网络编程","系统工具"],
             "mail_list": "",
             "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "project_list": [
+              {
+                "name": "基于对象存储的 rsync 实现",
+                "difficulty": "高",
+                "mentor": "王邈",
+                "contact": "miao.wang@tuna.tsinghua.edu.cn",
+                "co-mentor": "朱晟菁 zhsj@debian.org",
+                "hot_index": 0,
+                "description": "当前开源软件镜像站多采用 rsync 协议从上游差异更新，而 rsync 工具只支持 POSIX 文件系统。然而 POSIX 文件系统的大部分功能（如权限管理、目录遍历）对于镜像站是无意义的，反而引入了很多额外开销，降低了性能。目前 CDN 等高性能文件服务都采用对象存储系统（如 AWS S3）作为后端，而不是 POSIX 文件系统，因其访问延迟低，性能几乎不因文件数量增加而下降。若能将 rsync 协议与对象存储结合，实现一个在对象存储上工作的类 rsync 同步工具，那么镜像站就可从 POSIX 文件系统迁移到对象存储系统，从而提供更高质量的服务。项目不要求实现 rsync 的全部功能，只需要将远端文件列表与对象存储中的文件列表对比，下载缺失文件，删除多余文件，并更新修改日期不同的文件即可。",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "开源弹幕系统改进",
+                "difficulty": "中",
+                "mentor": "陈晟祺 (@Harry-Chen on GitHub)",
+                "contact": "shengqi.chen@tuna.tsinghua.edu.cn",
+                "co-mentor": "张宇翔，yuxiang.zhang@tuna.tsinghua.edu.cn, @z4yx on GitHub",
+                "hot_index": 0,
+                "description": "弹幕是常用的听众与讲者的互动手段。TUNA 开发了自己的 C/S 弹幕系统 danmaQ（见下面的仓库），使用于多种场合，也被多个发行版收录。其服务端使用 Python 编写，客户端使用 Qt 编写，基本实现了跨平台。然而，目前该项目缺乏维护，代码比较陈旧，一些功能缺乏（如 Web 弹幕墙）、不完善（如审核）或已经损坏（如微信互联）。此外，清华大学计算机系科协亦有一套自己实现的弹幕系统 Comment9（见下），使用 Node.js 编写。它与 danmaQ 相比，具有一些高级功能（如多个活动、弹幕墙、多路审核、支持硬件弹幕机），但缺乏弹幕属性配置等。我们希望，整合当前两个系统的功能，改进得到一套全功能的开源弹幕系统，覆盖用户需求。",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "通用镜像站前端框架",
+                "difficulty": "中",
+                "mentor": "王邈",
+                "contact": "miao.wang@tuna.tsinghua.edu.cn",
+                "co-mentor": "陈晟祺，shengqi.chen@tuna.tsinghua.edu.cn, @Harry-Chen on GitHub",
+                "hot_index": 0,
+                "description": "开源镜像站在呈现文件之外，也需要向用户呈现服务器状态、同步状态、使用帮助等更多的信息。目前，TUNA 镜像站使用了一套 Jekyll 静态生成页面 + AJAX 动态获取信息 + 服务端 njs 渲染结合的方法来向多种平台（现代浏览器、老旧浏览器、文本终端浏览器）提供支持。然而这种方法可维护性略差，也缺少通用性。同时，TUNA 镜像站的前端也硬编码了大量信息，对其他组织的使用造成了一定的不便。我们希望，能够在当前的基础上，对 TUNA 镜像站的前端进行详细设计与重构，形成一套通用的适用于各大开源镜像站的前端框架。",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "跨平台 NFC 信息读取移动应用开发",
+                "difficulty": "中",
+                "mentor": "党凡",
+                "contact": "dangfan@tsinghua.edu.cn",
+                "co-mentor": "陈晟祺，shengqi.chen@tuna.tsinghua.edu.cn, @Harry-Chen on GitHub",
+                "hot_index": 0,
+                "description": "目前，各类移动设备，包括 Android 与 iOS，都增加了对 NFC 通信的支持；但各类应用对于 NFC 的支持都很不完善，缺少一个统一的跨平台的支持库。同时，关于 NFC 各类标准的文档也并不齐全，通常需要到处查找，为开发者造成了很大的障碍。前期，我们在 Android 平台上是实现了一个 NFC 卡片的读取应用 NFSee；目前，需要将其使用 Flutter 重写以实现跨平台。同时，也将搭建一个公开的 Wiki 网站，对 NFC 相关的协议、标准进行整理和阐述，以纠正常见误区，帮助其他开发者更好地在移动端进行 NFC 相关的开发。",
+                "update_time": "2020-05-13"
+              },
+              {
+                "name": "完善 Fcitx5 的 wayland 的支持",
+                "difficulty": "中",
+                "mentor": "韩朴宇",
+                "contact": "w12101111@outlook.com",
+                "hot_index": 0,
+                "description": "Fcitx5 是 Linux 和 BSD 下的新一代输入法框架，支持中日韩等东亚语言的输入。Wayland 是 Linux 和 BSD 新一代的显示协议，用于替代老旧的X11协议。Fcitx5 目前可以在 Xorg 下正常的输入，但是受 Wayland 协议的限制，Fcitx5 在 Wayland 下有诸多问题，其中最主要的是无法显示候选框，导致无法选词。本项目目标是改进 Fcitx5 在 Wayland 桌面下的体验，达到与 Xorg 相同的使用效果。",
+                "update_time": "2020-05-13"
+              }
+            ]
         },        
         {
             "img":"oj.jpg",
@@ -412,9 +797,7 @@
             "tech_tag": ["PHP", "MySQL", "C", "Docker"],
             "domain_tag": ["Online Judge 系统","算法"],
             "mail_list": "",
-            "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "email": ""
         },
         {
             "img":"ustclug.jpg",
@@ -427,8 +810,28 @@
             "domain_tag": [],
             "mail_list": "",
             "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "project_list": [
+                {
+                  "name": "科大镜像站前端架构改进",
+                  "difficulty": "低",
+                  "mentor": "付佳伟",
+                  "contact": "ibug@ustclug.org",
+                  "co-mentor": "陶柯宇 taoky@ustclug.org",
+                  "hot_index": 0,
+                  "description": "目前，科大镜像站的前端架构仍然沿用着 2013 年的设计，但是随着时间的发展，我们也发现目前的镜像站前端架构在用户体验、维护与部署上带来了一些不便。目前的镜像站主页是由一套 Python 脚本每小时从模板生成得到的，虽然足够使用，但是在维护中也遇到了一些问题，诸如界面设计的实用性、主页与 status 页面显示不一致等问题。本项目希望能够通过调整镜像站前端架构，提高用户体验，降低维护的复杂度，也方便其他需要的镜像站部署页面显示的解决方案。",
+                  "update_time": "2020-05-13"
+                },
+                {
+                  "name": "Hackergame CTF 比赛平台改进",
+                  "difficulty": "中",
+                  "mentor": "王子博",
+                  "contact": "hypercube@0x01.me",
+                  "co-mentor": "陶柯宇 taoky@ustclug.org",
+                  "hot_index": 0,
+                  "description": "Hackergame 是 USTCLUG 开发的一套开源 CTF 比赛平台，主要用于每年举办的科大信息安全大赛，随真实需求不断进行技术迭代，并且重视生产环境下的安全性和可靠性。目前使用的是 Django + Vue.js 框架，但前后端解耦仍然不够充分，代码中写死了一些不合理的规则，很多地方缺少通用性和灵活性，测试和部署也不够方便。本项目希望能通过调整架构设计，重构部分代码，得到一个更加通用、健壮的比赛平台，让将来比赛中的实际需求更容易实现。",
+                  "update_time": "2020-05-13"
+                }
+              ]
         },
         {
             "img":"xlab.jpg",
@@ -440,9 +843,7 @@
             "tech_tag": [],
             "domain_tag": [],
             "mail_list": "",
-            "email": "",
-            "project_list": [{"name":"","difficulty":"","mentor":"","contact":"","hot_index":0,"description":"",
-                    "update_time": "2020-05-13"}]
+            "email": ""
         }
     ],
     "creditList":[

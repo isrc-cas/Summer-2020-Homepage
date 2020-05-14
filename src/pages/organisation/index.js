@@ -23,22 +23,27 @@ export default class Organisation extends React.Component{
     getAllProjectList () {
       
       var temp = [];
-      var divContainer = []
-      // var data_ = data;
+      var divContainer = [];
      
       this.state.data.orgList.map((item,index)=>{
-        item.project_list.map((item1,index1)=>{
-          item1.title= item.title;
-          item1.project_url = item.project_url || item.url;
-          item1.index = index;
-          return 0;
-        })
-        
-        temp = temp.concat(item.project_list);
-        
+        if (item.project_list) {
+            item.project_list.map((item1,index1)=>{
+                if (item1.name !== "" && item1.mentor !== "" && item1.description !== "") {
+                    item1.title= item.title;
+                    item1.project_url = item.project_url || item.url;
+                    item1.index = index;
+                    temp.push(item1);
+                }
+                return 0;
+              })
+            
+                // console.log(item.project_list)
+                // temp = temp.push(item.project_list);
+            // }
+        }
         return 0;
       })
-      
+      console.log(temp)
       
       this.setState({
           allProjects: temp,
@@ -48,7 +53,6 @@ export default class Organisation extends React.Component{
       
     
       this.state.allProjects.map((item,index)=>{
-        // item.project_list.map((item1,index1)=>{
             if (index < 8) {
                 divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url)) 
             }
@@ -59,9 +63,6 @@ export default class Organisation extends React.Component{
       })
      
       return divContainer;
-      // console.log(this.state.data)
-      // return temp;
-      // console.log(this.state.allProjects);
     };
     openInNewTab(url) {
         if (url !== "") {
@@ -192,7 +193,7 @@ export default class Organisation extends React.Component{
     getOrgProjectList(orgIndex, orgItem, orgName, projectUrl) {
         var divContainer = []
         // console.log(orgName)
-        if (orgItem[0].name !== "") {
+        if (orgItem.length !== 0 && orgItem[0].name !== "") {
             orgItem.map((item,index)=>{
                 divContainer.push(this.getProjectList(orgIndex, item, index, orgName, projectUrl));
                 return 0;
@@ -230,14 +231,9 @@ export default class Organisation extends React.Component{
         return divContainer
     }
     changePage(pageNo) {
-       //设置内容
-    // setPage(num){
         var divContainer = [];
         this.state.allProjects.map((item,index)=>{
-            // item.project_list.map((item1,index1)=>{
             if (index < pageNo*8 && index > (pageNo-1)*8) {
-                // alert(index%8)
-                // alert(index)
                 divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url)) 
 
             }
@@ -246,15 +242,10 @@ export default class Organisation extends React.Component{
         this.setState({
             displayProjects:divContainer
           })
-        // this.setState({
-        //     displayProjects:this.state.displayProjects.slice(pageNo,pageNo+this.state.displayProjects.length)
-        // })
-    // }
     }
     filterItem(value) {
         var divContainer = [];
         this.state.allProjects.map((item,index)=>{
-            // item.project_list.map((item1,index1)=>{
                 
             if (item.name.toLowerCase().includes(value.toLowerCase()) || item.title.toLowerCase().includes(value.toLowerCase()) || item.description.toLowerCase().includes(value.toLowerCase())) {
                 divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url)) 
@@ -270,9 +261,11 @@ export default class Organisation extends React.Component{
     }
     itemRender(current, type, originalElement) {
         if (type === 'prev') {
+          // eslint-disable-next-line
           return <a>上一页</a>;
         }
         if (type === 'next') {
+          // eslint-disable-next-line 
           return <a>下一页</a>;
         }
         return originalElement;
@@ -355,7 +348,7 @@ export default class Organisation extends React.Component{
                                         </div>
                                         <div className="tooltip-project-wrapper tooltip-detail">
                                             {
-                                            this.getOrgProjectList(index, item.project_list, item.title, item.project_url ? item.project_url : item.url)
+                                            this.getOrgProjectList(index, item.project_list || [], item.title, item.project_url ? item.project_url : item.url)
                                             }
                                         </div>
                                     </div>
@@ -385,7 +378,7 @@ export default class Organisation extends React.Component{
                         <Search
                             placeholder="请输入搜索的项目"
                             onSearch={value => this.filterItem(value)}
-                            style={{ width: 500, height: 60, marginTop: 20}}
+                            // style={{ width: 500, height: 60, marginTop: 20}}
                             />
                         <div>
                         
@@ -400,6 +393,7 @@ export default class Organisation extends React.Component{
                             style={{ width: 706, height: 50, marginTop: 20}}
                             itemRender={this.itemRender}
                             hideOnSinglePage={true}
+                            showSizeChanger={false}
                         />
                       
                       </div>
