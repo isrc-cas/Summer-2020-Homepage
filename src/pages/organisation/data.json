@@ -307,13 +307,13 @@
             "title":"Arctern",
             "project_url":"",
             "url": "https://arctern.io/",
-            "description": "Linux 发行版 AOSC OS 的开源社区。",
-            "full_des": "安同开源社区（Anthon Open Source Community, 简称 AOSC）是围绕社区项目 AOSC OS 形成的开源社区。AOSC OS 是一款遵循简约、本地化、包容、可持续及精制原则独立开发的通用 Linux 发行版，致力于改善开源软件的使用体验。",
+            "description": "开源时空大数据分析平台。",
+            "full_des": "Arctern的目标是加速时空数据的处理、分析、模型预测与呈现。Arctern基于开源大数据生态，构建灵活、强大、高性能的时空数据分析平台，帮助用户应对5G/IoT带来的新型数据挑战。",
             "tech_tag": ["GIS","Spark","Pandas","GPU","Big data visualization"],
             "domain_tag": ["GIS","5G","IOT"],
             "mail_list": "arctern-io.slack.com",
             "email": "community@zilliz.com"
-        }
+        },
         {
             "img":"aosc.jpg",
             "title":"安同开源社区（AOSC）",
@@ -440,15 +440,71 @@
             "tech_tag": ["区块链","blockchain","去中心化","decentralization"],
             "domain_tag": ["区块链","网络操作系统","去中心化","P2P"],
             "mail_list": "Dev-support@elastos.org",
-            "email": "contact@elastos.org"
+            "email": "contact@elastos.org",
+            "project_list": [
+              {
+                "name": "Elastos DID 存证项目",
+                "difficulty": "中",
+                "mentor": "Bruce Zhang",
+                "contact": "zyx@elaphant.app",
+                "hot_index": 0,
+                "description": "区块链的基本功能是信息存证。但这一基本功能，并未能向大众或对区块链有兴趣的用户普及。很多存证应用，也是为了为应用导流，从而导致产品复杂。我们希望能为普通用户，做一款方便体验的区块链存证服务，不强调KYC、不强调助记词、甚至不强调dAPP……就是让用户用最简单的方式，实现数据上链，作为对区块链的第一次体验。社区已经利用相关接口做出了一版产品，可供参考： https://zhengshu.elastos.org/ 我们希望能对此进行改进，并封装为小程序，以方便用户调用。其他改进也可自行添加。",
+                "update_time": "2020-05-14"
+              },
+              {
+                "name": "CLIENT 功能扩展",
+                "difficulty": "",
+                "mentor": "",
+                "contact": "",
+                "hot_index": 0,
+                "description": "Client是主链上面向开发者的钱包,支持地址创建及简单交易生成。但是很多交易现有的Client并不支持创建,如仲裁人选举、CR（Cyber Rpublic）委员选举及CR提案相关交易等。本题旨在完善主链Client功能,支持更多的交易生成。",
+                "update_time": "2020-05-14"
+              },
+              {
+                "name": "CYBERREPUBLIC 提案监测工具",
+                "difficulty": "",
+                "mentor": "",
+                "contact": "",
+                "hot_index": 0,
+                "description": "在支持CR委员选举及CR提案注册的主链版本发布后,链上将会出现很多的提案,有的刚注册上链,有的过了评议期,有的进入了公投期,有的正在执行,有的已经执行结束。本题旨在开发提案处理监测工具,实时监测当前存在的提案详情信息,促进提案的有效处理。",
+                "update_time": "2020-05-14"
+              },
+              {
+                "name": "ETH 侧链开发",
+                "difficulty": "",
+                "mentor": "",
+                "contact": "",
+                "hot_index": 0,
+                "description": "亦来云的ETH侧链是基于以太坊源码进行开发的。所以ETH侧链完美兼容了以太坊的所有功能和开发方式。可以采用开发以太坊应用的方式来开发亦来云的以太坊侧链应用,比如以太坊的Web3.js库。 我们现在就利用Web3.js 库开发基于亦来云侧链的一些应用。",
+                "update_time": "2020-05-14"
+              },
+              {
+                "name": "简易版 SPV 钱包",
+                "difficulty": "",
+                "mentor": "",
+                "contact": "",
+                "hot_index": 0,
+                "description": "并非所有的节点都有能⼒储存完整的区块链。SPV的方式可以使它们在不必存储完整区块链的情况下进行工作。这种类型的客端被称为SPV客户端或轻量级客户端。SPV节点只需下载区块头,而不用下载包含在每个区块中的交易信息。由此产生的不含交易信息的区块链,大小比完整区块链小得多。因此,适合智能电话、平板电脑、嵌⼊式系统等这样的设备。本题旨在开发一款桌面版/移动端的Elastos轻量级客户端。",
+                "update_time": "2020-05-14"
+              },
+              {
+                "name": "主链节点参数简化",
+                "difficulty": "",
+                "mentor": "",
+                "contact": "",
+                "hot_index": 0,
+                "description": "目前主链配置文件中很多参数是为了测试添加,参数庞杂。bitcoin中开放出来的参数都是对共识没有影响,只是改变节点本身支持的功能项,本题旨在参考其bitcoin,调整目前的参数配置,提供一个面向普通用户的简介版本。",
+                "update_time": "2020-05-14"
+              }
+            ]
         },
         {
             "img":"emacs.jpg",
             "title":"GNU Emacs（中文）",
             "project_url":"https://manateelazycat.github.io/eaf/emacs/2020/05/10/eaf-community.html",
             "url": "https://emacs-china.org/",
-            "description": "入门开源，理解开源，享受开源。",
-            "full_des": "有着近40年历史，由开源之父、自由软件之父Richard Stallman领衔创建的一个披着编辑器（Editor）皮的编辑环境（Editing Environment）和Lisp解释器（Lisp Interpreter）。它的历史与设计理念造就一个40年屹立不倒，至今也非常健康活跃的开源生态，是任何人入门开源，理解开源，享受开源的绝佳途径。",
+            "description": "入门开源,理解开源,享受开源。",
+            "full_des": "有着近40年历史,由开源之父、自由软件之父Richard Stallman领衔创建的一个披着编辑器（Editor）皮的编辑环境（Editing Environment）和Lisp解释器（Lisp Interpreter）。它的历史与设计理念造就一个40年屹立不倒,至今也非常健康活跃的开源生态,是任何人入门开源,理解开源,享受开源的绝佳途径。",
             "tech_tag": ["GNU","Emacs","Editor","Editing Environment","Lisp"],
             "domain_tag": ["编辑器","编程环境"],
             "mail_list": "emacs-devel@gnu.org",
@@ -460,7 +516,7 @@
             "project_url":"https://github.com/XiaoMi/mace/issues/643",
             "url": "https://github.com/XiaoMi/mace",
             "description": "为移动端优化的神经网络计算框架。",
-            "full_des": "Mobile AI Compute Engine (MACE) 是一个开源的专为移动端异构计算平台(支持Android, iOS, Linux, Windows)优化的神经网络计算框架，支持Tensorflow、Caffe、ONNX等主流深度学习框架，在性能、功耗、内存占用、系统响应等多方面进行了专门的优化。同时，MACE也是一个深度学习框架相关的开源社区，欢迎任何人在社区里讨论、提交和解决技术问题；欢迎任何人贡献和提交代码。",
+            "full_des": "Mobile AI Compute Engine (MACE) 是一个开源的专为移动端异构计算平台(支持Android, iOS, Linux, Windows)优化的神经网络计算框架,支持Tensorflow、Caffe、ONNX等主流深度学习框架,在性能、功耗、内存占用、系统响应等多方面进行了专门的优化。同时,MACE也是一个深度学习框架相关的开源社区,欢迎任何人在社区里讨论、提交和解决技术问题；欢迎任何人贡献和提交代码。",
             "tech_tag": ["MACE","机器学习框架","深度学习框架","AI框架"],
             "domain_tag": ["机器学习","深度学习"],
             "mail_list": "QQ群（756046893)",
@@ -472,7 +528,7 @@
             "project_url":"",
             "url": "https://maskbook.com",
             "description": "保护互联网用户隐私的浏览器插件。",
-            "full_des": "Maskbook 是一个浏览器插件，我们致力于通过应用密码学的技术来帮助用户能够很简单的、不改变他们日常习惯的方法来保护他们在网络上的隐私。",
+            "full_des": "Maskbook 是一个浏览器插件,我们致力于通过应用密码学的技术来帮助用户能够很简单的、不改变他们日常习惯的方法来保护他们在网络上的隐私。",
             "tech_tag": ["TypeScript", "React", "Cryptography", "Decentralized Database"],
             "domain_tag": ["Frontend", "Cryptography", "Typescript"],
             "mail_list": "https://github.com/dimensiondev/maskbook/issues",
@@ -483,10 +539,10 @@
             "title":"MindSpore",
             "project_url":"",
             "url": "https://www.mindspore.cn",
-            "description": "最佳匹配昇腾AI处理器算力的全场景深度学习框架。",
-            "full_des": "MindSpore是华为开源的一款支持端边云全场景的深度学习训练推理框架，当前主要应用于计算机视觉、自然语言处理等AI领域，旨在为数据科学家和算法工程师提供设计友好、运行高效的开发体验，提供昇腾AI处理器原生支持及软硬件协同优化。同时构筑面向全球的人工智能开源社区，推动人工智能软硬件应用生态繁荣发展。",
+            "description": "全场景的的深度学习框架。",
+            "full_des": "MindSpore是华为开源的一款支持端边云全场景的深度学习训练推理框架,当前主要应用于计算机视觉、自然语言处理等AI领域,旨在为数据科学家和算法工程师提供设计友好、运行高效的开发体验,提供昇腾AI处理器原生支持及软硬件协同优化。同时构筑面向全球的人工智能开源社区,推动人工智能软硬件应用生态繁荣发展。",
             "tech_tag": ["AI", "Deep Learning Framework"],
-            "domain_tag": [""],
+            "domain_tag": [],
             "mail_list": "https://mailweb.mindspore.cn/postorius/lists/mindspore-discuss.mindspore.cn/",
             "email": "contact@mindspore.cn"
         },
@@ -496,7 +552,7 @@
             "project_url":"",
             "url": "https://www.milvus.io/cn/",
             "description": "开源的特征向量相似度搜索引擎。",
-            "full_des": "Milvus 是一款开源的特征向量相似度搜索引擎，具有使用方便、实用可靠、易于扩展、稳定高效和搜索迅速等特点。Milvus 已经被广泛应用于多个领域，其中包括图像处理、机器视觉、自然语言处理、语音识别、推荐系统以及新药发现等。",
+            "full_des": "Milvus 是一款开源的特征向量相似度搜索引擎,具有使用方便、实用可靠、易于扩展、稳定高效和搜索迅速等特点。Milvus 已经被广泛应用于多个领域,其中包括图像处理、机器视觉、自然语言处理、语音识别、推荐系统以及新药发现等。",
             "tech_tag": ["深度学习","计算机视觉","NLP","语音识别","化合物检索"],
             "domain_tag": [],
             "mail_list": "milvusio.slack.com",
@@ -507,8 +563,8 @@
             "title":" OI Wiki",
             "project_url": "https://git.io/summer2020",
             "url": "https://oi-wiki.org",
-            "description": "编程竞赛知识，内含炫酷算术魔法！",
-            "full_des": "OI Wiki 是一个编程竞赛知识整合站点，提供有趣又实用的编程竞赛知识以及其他有帮助的内容，帮助广大编程竞赛爱好者更快更深入地学习编程竞赛。同时我们围绕 OI Wiki 主站开展一些相关的基础设施建设，包括 markdown 渲染工具以及周边诸多开发工具。",
+            "description": "编程竞赛知识,内含炫酷算术魔法！",
+            "full_des": "OI Wiki 是一个编程竞赛知识整合站点,提供有趣又实用的编程竞赛知识以及其他有帮助的内容,帮助广大编程竞赛爱好者更快更深入地学习编程竞赛。同时我们围绕 OI Wiki 主站开展一些相关的基础设施建设,包括 markdown 渲染工具以及周边诸多开发工具。",
             "tech_tag": ["typescript", "react", "remark", "unified", "algorithm", "data-structure", "competitive-programming"],
             "domain_tag": ["算法与数据结构教育","开发工具","web"],
             "mail_list": "https://t.me/oiwiki",
@@ -521,7 +577,7 @@
                 "contact": "sirius.caffrey@gmail.com",
                 "co-mentor": "Falsyta falsyta@pku.edu.cn",
                 "hot_index": 0,
-                "description": "OI Wiki 是一个编程竞赛知识整合站点，提供有趣又实用的编程竞赛知识以及其他有帮助的内容，帮助广大编程竞赛爱好者更快更深入地学习编程竞赛。然而，算法与数据结构知识迭代更新较快，仍有很多 OI Wiki 尚未涉及的内容。本项目目标是选定若干新颖有趣的 topic，并将其引入 OI Wiki。寻找有趣的 topic 可以参考 e-maxx-eng， AlgoWiki 。",
+                "description": "OI Wiki 是一个编程竞赛知识整合站点,提供有趣又实用的编程竞赛知识以及其他有帮助的内容,帮助广大编程竞赛爱好者更快更深入地学习编程竞赛。然而,算法与数据结构知识迭代更新较快,仍有很多 OI Wiki 尚未涉及的内容。本项目目标是选定若干新颖有趣的 topic,并将其引入 OI Wiki。寻找有趣的 topic 可以参考 e-maxx-eng, AlgoWiki 。",
                 "update_time": "2020-05-13"
               },
               {
@@ -531,7 +587,7 @@
                 "contact": "mgt@oi-wiki.org",
                 "co-mentor": "diauweb diauweb@live.com",
                 "hot_index": 0,
-                "description": "当前，OI Wiki 使用 mkdocs 作为静态页面生成引擎。然而由于 mkdocs 并非专门为 Wiki 类项目设计，因而与我们的需求存在较大差距，此外还难以实现对语法和页面的定制。因此，目前 OI Wiki 正在将前端迁移到基于 React 和 GraphQL 的页面生成框架 Gatsby 上，从而实现对页面的深度定制。目前，我们已经实现了基本的框架代码（见下面的仓库）。然而它还不尽完善，我们希望为它添加更多的功能，覆盖用户的需求。",
+                "description": "当前,OI Wiki 使用 mkdocs 作为静态页面生成引擎。然而由于 mkdocs 并非专门为 Wiki 类项目设计,因而与我们的需求存在较大差距,此外还难以实现对语法和页面的定制。因此,目前 OI Wiki 正在将前端迁移到基于 React 和 GraphQL 的页面生成框架 Gatsby 上,从而实现对页面的深度定制。目前,我们已经实现了基本的框架代码（见下面的仓库）。然而它还不尽完善,我们希望为它添加更多的功能,覆盖用户的需求。",
                 "update_time": "2020-05-13"
               },
               {
@@ -540,7 +596,7 @@
                 "mentor": "ir1d",
                 "contact": "sirius.caffrey@gmail.com",
                 "hot_index": 0,
-                "description": "在即将上线的新前端中，为了支持我们的诸多 markdown 自定义语法， OI Wiki 使用 remark 作为 markdown parser，并使用 rehype 生成对应的 html 页面。首先，我们希望能够基于现有的 Unified AST，生成相应的 LaTeX code 并导出排版优美的 pdf 文档。OI Wiki 开发过一版导出工具（见下面的仓库 remark-latex），但是由于缺乏维护，对于图片等语法的支持不够完善，使用起来也需要大量人工操作。我们希望能够基于 Unified AST 及现有实现，改进或重构出一个较优美的 markdown 转 LaTeX 导出工具。此外，上游社区也有一些优秀的 LaTeX AST 实现供参考（见下面的 latex-utensils 及 LaTeX.js）。其次，为了让多人协作的 markdown 文件更整齐，我们采用了 remark-lint 来规范 markdown 中内容的格式。目前 OI Wiki 的格式化工具见下方 linter 仓库，启用的格式化规则见 https://github.com/OI-wiki/OI-wiki/blob/master/.remarkrc ，但是目前的实现还不够完善，比如对于公式两侧添加若干多余的空格、details 语法限制过严等等。我们希望通过这个项目，规范整理 lint 规则。",
+                "description": "在即将上线的新前端中,为了支持我们的诸多 markdown 自定义语法, OI Wiki 使用 remark 作为 markdown parser,并使用 rehype 生成对应的 html 页面。首先,我们希望能够基于现有的 Unified AST,生成相应的 LaTeX code 并导出排版优美的 pdf 文档。OI Wiki 开发过一版导出工具（见下面的仓库 remark-latex）,但是由于缺乏维护,对于图片等语法的支持不够完善,使用起来也需要大量人工操作。我们希望能够基于 Unified AST 及现有实现,改进或重构出一个较优美的 markdown 转 LaTeX 导出工具。此外,上游社区也有一些优秀的 LaTeX AST 实现供参考（见下面的 latex-utensils 及 LaTeX.js）。其次,为了让多人协作的 markdown 文件更整齐,我们采用了 remark-lint 来规范 markdown 中内容的格式。目前 OI Wiki 的格式化工具见下方 linter 仓库,启用的格式化规则见 https://github.com/OI-wiki/OI-wiki/blob/master/.remarkrc ,但是目前的实现还不够完善,比如对于公式两侧添加若干多余的空格、details 语法限制过严等等。我们希望通过这个项目,规范整理 lint 规则。",
                 "update_time": "2020-05-13"
               },
               {
@@ -549,7 +605,7 @@
                 "mentor": "Billchenchina",
                 "contact": "billchenchina2001@gmail.com",
                 "hot_index": 0,
-                "description": "在即将上线的新前端中，我们希望能添加一些辅助竞赛选手的实用工具。测试数据生成工具就是其中之一。在解题过程中，选手往往会有自己造一些样例数据的需求，我们希望能设计一个前端工具来简化这一流程。目前有一些类似的工具供参考，如 cyaron，testlib， Tree-Generator 。",
+                "description": "在即将上线的新前端中,我们希望能添加一些辅助竞赛选手的实用工具。测试数据生成工具就是其中之一。在解题过程中,选手往往会有自己造一些样例数据的需求,我们希望能设计一个前端工具来简化这一流程。目前有一些类似的工具供参考,如 cyaron,testlib, Tree-Generator 。",
                 "update_time": "2020-05-13"
               }
             ]
@@ -560,19 +616,66 @@
             "project_url":"http://www.opencv.org.cn/?page_id=411",
             "url": "http://www.opencv.org.cn",
             "description": "开源计算机视觉和机器学习库。",
-            "full_des": "OpenCV是采用C/C++实现的开源计算机视觉和机器学习库，遵循BSD协议，研究或商用均为免费。OpenCV包含超过2500个优化的经典的和当前先进水平的计算机视觉算法。 这些算法可用于人脸检测识别、目标跟踪、提取目标3D模型、3D点云处理、全景拼接等。OpenCV被企业、研究机构以及政府部门广泛使用。OpenCV中国团队是受深圳市人工智能与机器人研究院支持于2019年9月成立的非营利组织，主要目的是推广OpenCV，并从用户尤其是中国用户那里获得反馈以提升OpenCV。团队的一个工作重点是提升OpenCV对嵌入式系统的支持，让更多的计算机视觉应用可以借助OpenCV高效快速的部署到各种嵌入式系统中。其他工作还包括如强化OpenCV对3D数据的处理、DNN模块的提升、OpenCV对各种传感器的支持、不同硬件平台上OpenCV的加速等。推出OpenCV中文课程是团队推广OpenCV一项重要内容，通过课程让用户更好更深入的全面了解OpenCV。",
+            "full_des": "OpenCV是采用C/C++实现的开源计算机视觉和机器学习库,遵循BSD协议,研究或商用均为免费。OpenCV包含超过2500个优化的经典的和当前先进水平的计算机视觉算法。 这些算法可用于人脸检测识别、目标跟踪、提取目标3D模型、3D点云处理、全景拼接等。OpenCV被企业、研究机构以及政府部门广泛使用。OpenCV中国团队是受深圳市人工智能与机器人研究院支持于2019年9月成立的非营利组织,主要目的是推广OpenCV,并从用户尤其是中国用户那里获得反馈以提升OpenCV。团队的一个工作重点是提升OpenCV对嵌入式系统的支持,让更多的计算机视觉应用可以借助OpenCV高效快速的部署到各种嵌入式系统中。其他工作还包括如强化OpenCV对3D数据的处理、DNN模块的提升、OpenCV对各种传感器的支持、不同硬件平台上OpenCV的加速等。推出OpenCV中文课程是团队推广OpenCV一项重要内容,通过课程让用户更好更深入的全面了解OpenCV。",
             "tech_tag": ["C","C++", "Python", "Java", "JavaScript"],
             "domain_tag": ["计算机视觉","深度学习"],
             "mail_list": "",
-            "email": "admin@opencv.org.cn"
+            "email": "admin@opencv.org.cn",
+            "project_list": [
+              {
+                "name": "Write a tutorial about using universal intrinsics and cv::parallel_for_ for efficient cross-platform algorithm implementation",
+                "difficulty": "中",
+                "mentor": "Shiqi Yu",
+                "contact": "",
+                "hot_index": 0,
+                "description": "Universal intrinsics is OpenCV way to write cross-platform and yet very efficient code on a variety of platforms. The technique is widely used inside OpenCV, but it’s not well-known to many OpenCV users, including contributors, who are supposed to provide high-quality fast code into OpenCV. This tutorial should fill this important missing part of the documentation.",
+                "update_time": "2020-05-14"
+              },
+              {
+                "name": "Create nuget package for OpenCV and OpenCV contrib",
+                "difficulty": "中",
+                "mentor": "Satya Mallick",
+                "contact": "",
+                "hot_index": 0,
+                "description": "Nuget is the standard Microsoft package manager. If done properly, it can become the most convenient way to install OpenCV on Windows. We can also create opencv_contrib nuget package, and thus provide a convenient way for OpenCV users to install experimental OpenCV functionality on Windows.",
+                "update_time": "2020-05-14"
+              },
+              {
+                "name": "Support Audio IO module",
+                "difficulty": "中",
+                "mentor": "Intel OpenCV team member",
+                "contact": "",
+                "hot_index": 0,
+                "description": "At the moment, OpenCV can works with inference deep neural network with help DNN module. But DNN module has limitation, it work with only images. In addition, exist much network which work with audio. That why proposed support audio input/output in OpenCV for extension functionality of library and more specifically extension functionality of DNN module.",
+                "update_time": "2020-05-14"
+              },
+              {
+                "name": "Implementation of QR-codes decoder and encoder",
+                "difficulty": "中",
+                "mentor": "Intel OpenCV team member",
+                "contact": "",
+                "hot_index": 0,
+                "description": "OpenCV has well-working QR codes detection and decoding algorithm. Currently it uses third party library for decoding and doesn’t have functionality for creation of QR-codes. The first task will be implementation decoder with help of OpenCV functionality. This will help to solve second task – QR-code encoder (tasks are interconnected). Student will need to research QR-codes decoding algorithms, error correction rules, data character encoding methods and to program decoder and encoder.",
+                "update_time": "2020-05-14"
+              },
+              {
+                "name": "Data Augmentation",
+                "difficulty": "中高",
+                "mentor": "Intel OpenCV team member",
+                "contact": "",
+                "hot_index": 0,
+                "description": "Deep learning networks are hungry for data and data augmentation is one of the easiest ways to increase data variation. Augmentation could be as simple image flipping, cropping and scaling on up to more complicated transformations such style transfer using another deep learning network. For computer vision problems, OpenCV is often used for reading images in most of training scenarios, so why we’d like to enhance data reading with simple to use data augmentation techniques as well.",
+                "update_time": "2020-05-14"
+              }
+            ]
         },
         {
             "img":"openeuler.jpg",
             "title":"openEuler Community",
             "project_url":"",
             "url": "https://www.openeuler.org",
-            "description": "通过社区合作，创新 Linux 平台。",
-            "full_des": "openEuler 是一个开源、免费的 Linux 发行版平台，将通过开放的社区形式与全球的开发者共同构建一个开放、多元和架构包容的软件生态体系。同时，openEuler 也是一个创新的平台，鼓励任何人在该平台上提出新想法、开拓新思路、实践新方案。",
+            "description": "通过社区合作,创新 Linux 平台。",
+            "full_des": "openEuler 是一个开源、免费的 Linux 发行版平台,将通过开放的社区形式与全球的开发者共同构建一个开放、多元和架构包容的软件生态体系。同时,openEuler 也是一个创新的平台,鼓励任何人在该平台上提出新想法、开拓新思路、实践新方案。",
             "tech_tag": ["Linux","Git","GCC","RPM"],
             "domain_tag": ["操作系统","内核","包管理"],
             "mail_list": "community@openEuler.org",
@@ -584,11 +687,58 @@
             "project_url":"https://github.com/Simple-XX/summer2020",
             "url": "https://github.com/Simple-XX",
             "description": "提供易于学习的代码示例与实现思路。",
-            "full_des": "Simple-XX 是⼀次写代码写崩溃后的产物，我尝试从头实现⼀个简单的内核，但是互联⽹上的内容太过零散，对于初学者来说很不友好，严重拖慢了学习效率。SimpleKernel 是 Simple-XX 的第⼀次尝试，⽬前收到了 700+ star 与 80+ fork，后续还会有编译器、数据库、搜索引擎等内容。",
+            "full_des": "Simple-XX 是⼀次写代码写崩溃后的产物,我尝试从头实现⼀个简单的内核,但是互联⽹上的内容太过零散,对于初学者来说很不友好,严重拖慢了学习效率。SimpleKernel 是 Simple-XX 的第⼀次尝试,⽬前收到了 700+ star 与 80+ fork,后续还会有编译器、数据库、搜索引擎等内容。",
             "tech_tag": ["Linux","GCC","Compiler","软件⼯程"],
             "domain_tag": ["操作系统","编译器","数据库"],
             "mail_list": "",
-            "email": "zone.niuzh@hotmail.com"
+            "email": "zone.niuzh@hotmail.com",
+            "project_list": [
+              {
+                "name": "SimpleKernel 修复存在的 bug",
+                "difficulty": "中",
+                "mentor": "MRNIU",
+                "contact": "",
+                "hot_index": 0,
+                "description": "由于项目早期的遗留问题,有很多 bug 一直没有解决,在代码某处一定还藏有尚未发现的地雷,你的任务是找到它,解决它,并留下足够的测试代码。",
+                "update_time": "2020-05-14"
+              },
+              {
+                "name": "SimpleKernel 优化现有内存管理代码的实现",
+                "difficulty": "中",
+                "mentor": "MRNIU",
+                "contact": "",
+                "hot_index": 0,
+                "description": "现有的内存管理代码可谓千疮百孔,难以说是一个能够作为示例的代码,我们需要你在现有方案的基础上对代码进行重写,使用经典算法如 first-fit,buddy 重新实现内存管理系统。",
+                "update_time": "2020-05-14"
+              },
+              {
+                "name": "SimpleKernel 完成多任务系统",
+                "difficulty": "高",
+                "mentor": "MRNIU",
+                "contact": "",
+                "hot_index": 0,
+                "description": "多任务是内核不可或缺的部分,但现在我们的代码还很简陋。现有代码是对 linux 内核实现的魔改,还不能够正常使用。",
+                "update_time": "2020-05-14"
+              },
+              {
+                "name": "SimpleKernel 编写实现文档",
+                "difficulty": "中",
+                "mentor": "MRNIU",
+                "contact": "",
+                "hot_index": 0,
+                "description": "目前的实现文档分布在开发日志、代码注释中,有的部分还有缺少,我们需要一份文档告诉使用者我们的代码是怎么来的,背后的原理是什么,为什么这样写。",
+                "update_time": "2020-05-14"
+              },
+              {
+                "name": "SimpleCompiler 完善编译器架构",
+                "difficulty": "中",
+                "mentor": "MRNIU",
+                "contact": "",
+                "hot_index": 0,
+                "description": "目前仅实现了基本的词法解析,但对于整个编译器的整体结构尚未有过考虑,我们需要一位对编译器熟悉的同学来把握大方向,站在初学者的角度,我们的代码怎么写能让别人容易理解,便于迁移呢？",
+                "update_time": "2020-05-14"
+              }
+            ]
         },
         {
             "img":"RT-Thread.jpg",
@@ -596,7 +746,7 @@
             "project_url":"https://www.rt-thread.org/news/174.html",
             "url": "https://www.rt-thread.org/",
             "description": "小而美的物联网操作系统。",
-            "full_des": "RT-Thread  是一个集实时操作系统（RTOS）内核、中间件组件和开发者社区于一体的技术平台，由熊谱翔先生带领并集合开源社区力量开发而成，RT-Thread  也是一个组件完整丰富、高度可伸缩、简易开发、超低功耗、高安全性的物联网操作系统。RT-Thread 具备一个 IoT OS  平台所需的所有关键组件，例如GUI、网络协议栈、安全传输、低功耗组件等等。经过13年的累积发展，RT-Thread  已经拥有一个国内最大的嵌入式开源社区，同时被广泛应用于能源、车载、医疗、消费电子等多个行业，累积装机量超过4亿台，成为国人自主开发、国内最成熟稳定和装机量最大的开源 RTOS。",
+            "full_des": "RT-Thread  是一个集实时操作系统（RTOS）内核、中间件组件和开发者社区于一体的技术平台,由熊谱翔先生带领并集合开源社区力量开发而成,RT-Thread  也是一个组件完整丰富、高度可伸缩、简易开发、超低功耗、高安全性的物联网操作系统。RT-Thread 具备一个 IoT OS  平台所需的所有关键组件,例如GUI、网络协议栈、安全传输、低功耗组件等等。经过13年的累积发展,RT-Thread  已经拥有一个国内最大的嵌入式开源社区,同时被广泛应用于能源、车载、医疗、消费电子等多个行业,累积装机量超过4亿台,成为国人自主开发、国内最成熟稳定和装机量最大的开源 RTOS。",
             "tech_tag": ["RTOS","IoT","embedded-systems","Cortex-M","Cortex-A","RISC-V","ARM"],
             "domain_tag": ["物联网操作系统","软件包","GUI","IDE"],
             "mail_list": "https://github.com/RT-Thread/rt-thread/issues",
@@ -607,9 +757,9 @@
                 "difficulty": "中",
                 "mentor": "杨武",
                 "contact": "yangwu@rt-thread.com",
-                "co-mentor": "赵辅金，zhaofujin@rt-thread.com",
+                "co-mentor": "赵辅金,zhaofujin@rt-thread.com",
                 "hot_index": 0,
-                "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器，同时还包括WiFi/BT，千兆以太网，双HDMI输出，CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台，可用于各种AI应用场景。",
+                "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器,同时还包括WiFi/BT,千兆以太网,双HDMI输出,CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台,可用于各种AI应用场景。",
                 "update_time": "2020-05-13"
               },
               {
@@ -617,9 +767,9 @@
                 "difficulty": "高",
                 "mentor": "杨武",
                 "contact": "yangwu@rt-thread.com",
-                "co-mentor": "赵辅金，zhaofujin@rt-thread.com",
+                "co-mentor": "赵辅金,zhaofujin@rt-thread.com",
                 "hot_index": 0,
-                "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器，同时还包括WiFi/BT，千兆以太网，双HDMI输出，CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台，可用于各种AI应用场景。",
+                "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器,同时还包括WiFi/BT,千兆以太网,双HDMI输出,CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台,可用于各种AI应用场景。",
                 "update_time": "2020-05-13"
               },
               {
@@ -627,9 +777,9 @@
                 "difficulty": "中",
                 "mentor": "陈晨毅",
                 "contact": "lebhoryi@rt-thread.com",
-                "co-mentor": "杨武，yangwu@rt-thread.com",
+                "co-mentor": "杨武,yangwu@rt-thread.com",
                 "hot_index": 0,
-                "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器，同时还包括WiFi/BT，千兆以太网，双HDMI输出，CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台，可用于各种AI应用场景。TensorflowLite Micro 是面象微控制器级别的设备裁剪定制版本的 Tensorflow Lite，具有良好的跨平台设计和较为完善的单元测试。本项目目标是在树莓派4上将TensorflowLite Micro移植到RT-Thread系统中，并顺利运行自的演示应用。目前树莓派4上的RT-Thread状态为，可以运行ARM64位的RT-Thread，驱动相对较少，只包含中断管理、串口、HDMI、SDIO等。在本项目中，需要开启 RT-Thread 的 C++ 支持，完成 TensorflowLite Micro 的编译链接，并在树莓派4上运行原项目自带的演示应用。",
+                "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器,同时还包括WiFi/BT,千兆以太网,双HDMI输出,CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台,可用于各种AI应用场景。TensorflowLite Micro 是面象微控制器级别的设备裁剪定制版本的 Tensorflow Lite,具有良好的跨平台设计和较为完善的单元测试。本项目目标是在树莓派4上将TensorflowLite Micro移植到RT-Thread系统中,并顺利运行自的演示应用。目前树莓派4上的RT-Thread状态为,可以运行ARM64位的RT-Thread,驱动相对较少,只包含中断管理、串口、HDMI、SDIO等。在本项目中,需要开启 RT-Thread 的 C++ 支持,完成 TensorflowLite Micro 的编译链接,并在树莓派4上运行原项目自带的演示应用。",
                 "update_time": "2020-05-13"
               },
               {
@@ -637,9 +787,9 @@
                 "difficulty": "高",
                 "mentor": "邵进春",
                 "contact": "shaojinchun@rt-thread.com",
-                "co-mentor": "熊谱翔，bernard.xiong@rt-thread.com",
+                "co-mentor": "熊谱翔,bernard.xiong@rt-thread.com",
                 "hot_index": 0,
-                "description": "QEMU中已经包含的基本的RISC-V模拟，例如sifive_u、riscv32/64_virt的模拟。RT-Thread对于RISC-V的移植主要局限于machine mode的方式，本项目目标是实现RISC-V的user-mode支持，及对应的基本外设功能，它们包括：支持MMU操作，页管理器；用户态的系统调用；任务切换时，对用户态上下文支持；基本的系统外设支持，例如文件系统，网络，LCD等",
+                "description": "QEMU中已经包含的基本的RISC-V模拟,例如sifive_u、riscv32/64_virt的模拟。RT-Thread对于RISC-V的移植主要局限于machine mode的方式,本项目目标是实现RISC-V的user-mode支持,及对应的基本外设功能,它们包括：支持MMU操作,页管理器；用户态的系统调用；任务切换时,对用户态上下文支持；基本的系统外设支持,例如文件系统,网络,LCD等",
                 "update_time": "2020-05-13"
               },
               {
@@ -647,9 +797,9 @@
                 "difficulty": "高",
                 "mentor": "赵辅金",
                 "contact": "zhaofujin@rt-thread.com",
-                "co-mentor": "熊谱翔，bernard.xiong@rt-thread.com",
+                "co-mentor": "熊谱翔,bernard.xiong@rt-thread.com",
                 "hot_index": 0,
-                "description": "龙芯2K1000处理器是面向网络安全领域及移动智能终端领域的双核处理器芯片。龙芯2K1000处理器集成两个GS264处理器核，芯片外围接口包括两路PCIE2.0、一路SATA2.0、4路USB2.0、两路DVO、64位DDR2/3及其它多种接口，可以满足中低端网络安全应用领域需求，并为其扩展应用提供相应接口。当前RT-Thread系统只支持龙芯2K1000的基本外设（中断处理、串口、定时器等），基本的MIPS64支持。本项目目标是实现龙芯2K1000下更多的外设支持：SATA/SSD驱动，并对接FAT文件系统；千兆网卡驱动，并对接网络协议栈；",
+                "description": "龙芯2K1000处理器是面向网络安全领域及移动智能终端领域的双核处理器芯片。龙芯2K1000处理器集成两个GS264处理器核,芯片外围接口包括两路PCIE2.0、一路SATA2.0、4路USB2.0、两路DVO、64位DDR2/3及其它多种接口,可以满足中低端网络安全应用领域需求,并为其扩展应用提供相应接口。当前RT-Thread系统只支持龙芯2K1000的基本外设（中断处理、串口、定时器等）,基本的MIPS64支持。本项目目标是实现龙芯2K1000下更多的外设支持：SATA/SSD驱动,并对接FAT文件系统；千兆网卡驱动,并对接网络协议栈；",
                 "update_time": "2020-05-13"
               },
               {
@@ -657,9 +807,9 @@
                 "difficulty": "高",
                 "mentor": "赵辅金",
                 "contact": "zhaofujin@rt-thread.com",
-                "co-mentor": "熊谱翔，bernard.xiong@rt-thread.com",
+                "co-mentor": "熊谱翔,bernard.xiong@rt-thread.com",
                 "hot_index": 0,
-                "description": "龙芯2K1000处理器是面向网络安全领域及移动智能终端领域的双核处理器芯片。龙芯2K1000处理器集成两个GS264处理器核，芯片外围接口包括两路PCIE2.0、一路SATA2.0、4路USB2.0、两路DVO、64位DDR2/3及其它多种接口，可以满足中低端网络安全应用领域需求，并为其扩展应用提供相应接口。龙芯2K1000包含了两个核，当前RT-Thread系统只支持龙芯2K1000的基本外设（中断处理、串口、定时器等），基本的MIPS64支持。本项目的目标是把两个核都独立使用起来，包括一个核心执行Linux系统，一个核心执行RT-Thread。双方通过OpenAMP的方式进行通信。",
+                "description": "龙芯2K1000处理器是面向网络安全领域及移动智能终端领域的双核处理器芯片。龙芯2K1000处理器集成两个GS264处理器核,芯片外围接口包括两路PCIE2.0、一路SATA2.0、4路USB2.0、两路DVO、64位DDR2/3及其它多种接口,可以满足中低端网络安全应用领域需求,并为其扩展应用提供相应接口。龙芯2K1000包含了两个核,当前RT-Thread系统只支持龙芯2K1000的基本外设（中断处理、串口、定时器等）,基本的MIPS64支持。本项目的目标是把两个核都独立使用起来,包括一个核心执行Linux系统,一个核心执行RT-Thread。双方通过OpenAMP的方式进行通信。",
                 "update_time": "2020-05-13"
               },
               {
@@ -668,7 +818,7 @@
                 "mentor": "陈勇",
                 "contact": "chenyong@rt-thread.com",
                 "hot_index": 0,
-                "description": "乐鑫 ESP32 系列芯片提供了一个或两个可以单独控制的 CPU 内核，时钟频率可调，最高可达240 MHz。同时还包括 WIFI/BLE 双模，支持多种低功耗运行模式，具备低噪声放大器，I2S，高速 SPI，以太网等外设接口。是一款理想的嵌入式物联网芯片，可用于各类物联网应用场景。",
+                "description": "乐鑫 ESP32 系列芯片提供了一个或两个可以单独控制的 CPU 内核,时钟频率可调,最高可达240 MHz。同时还包括 WIFI/BLE 双模,支持多种低功耗运行模式,具备低噪声放大器,I2S,高速 SPI,以太网等外设接口。是一款理想的嵌入式物联网芯片,可用于各类物联网应用场景。",
                 "update_time": "2020-05-13"
               },
               {
@@ -678,7 +828,7 @@
                 "contact": "lixiang@rt-thread.com",
                 "co-mentor": "郭占鑫 guozhanxin@rt-thread.com",
                 "hot_index": 0,
-                "description": "RT-Thread 操作系统实现了 USB 基础协议栈，为 USB 摄像头的数据传输提供了基础的支持，双目拍摄系统拍摄同一场景的左、右两幅视点图像，并结合算法将左右图像进行合并。RT-Thread 和双目拍摄二者结合之后可以应用于各种视觉领域。",
+                "description": "RT-Thread 操作系统实现了 USB 基础协议栈,为 USB 摄像头的数据传输提供了基础的支持,双目拍摄系统拍摄同一场景的左、右两幅视点图像,并结合算法将左右图像进行合并。RT-Thread 和双目拍摄二者结合之后可以应用于各种视觉领域。",
                 "update_time": "2020-05-13"
               }
             ]
@@ -688,8 +838,8 @@
             "title":"泰晓科技",
             "project_url":"http://tinylab.org/summer2020",
             "url": "http://tinylab.org",
-            "description": "聚焦 Linux，追本溯源，见微知著！",
-            "full_des": "泰晓科技是一个知名公益性 Linux 技术社区，创立于 2010 年，长期聚焦 Linux 系统技术交流和产品实践，追本溯源，见微知著，致力于推动业界创造更极致的 Linux 产品。",
+            "description": "聚焦 Linux,追本溯源,见微知著！",
+            "full_des": "泰晓科技是一个知名公益性 Linux 技术社区,创立于 2010 年,长期聚焦 Linux 系统技术交流和产品实践,追本溯源,见微知著,致力于推动业界创造更极致的 Linux 产品。",
             "tech_tag": ["Linux", "Linux Lab", "技术交流", "产品实践"],
             "domain_tag": ["Linux 内核","Linux 实验环境","实时系统","系统优化"],
             "mail_list": "http://tinylab.org/about",
@@ -702,7 +852,7 @@
                 "contact": "rxd@tinylab.org",
                 "co-mentor": "@lzufalcon, falcon@tinylab.org",
                 "hot_index": 0,
-                "description": "性能优化是提升产品用户体验的关键，也是所有产品走向高端的必由之路。Linux 系统上的性能优化工具日新月异，从早年的 Oprofile，Ftrace，Systemtap 到如今的 Perf, eBPF，日渐完善，不断强大。但是对于初学者，这些新工具的使用门槛很高，本项需求的目标是基于 Cloud Lab 构建一个开箱即可上手的系统性能优化工具箱，囊括各种常见的系统性能优化工具，并提供配套的实际开发案例。",
+                "description": "性能优化是提升产品用户体验的关键,也是所有产品走向高端的必由之路。Linux 系统上的性能优化工具日新月异,从早年的 Oprofile,Ftrace,Systemtap 到如今的 Perf, eBPF,日渐完善,不断强大。但是对于初学者,这些新工具的使用门槛很高,本项需求的目标是基于 Cloud Lab 构建一个开箱即可上手的系统性能优化工具箱,囊括各种常见的系统性能优化工具,并提供配套的实际开发案例。",
                 "update_time": "2020-05-13"
               },
               {
@@ -712,7 +862,7 @@
                 "contact": "robin@tinylab.org",
                 "co-mentor": "@lzufalcon, falcon@tinylab.org",
                 "hot_index": 0,
-                "description": "Linux Lab 是一个 Linux 内核实验环境，当前已经支持国内外的 7 大主流处理器架构和 16 款开发版。当前环境基于 Ubuntu 14.04，难以适应各类软件新版本的开发需要，本项需求旨在升级当前环境到最新的 Ubuntu 20.04 或者其他更为合适的同时期 Linux 发行版。",
+                "description": "Linux Lab 是一个 Linux 内核实验环境,当前已经支持国内外的 7 大主流处理器架构和 16 款开发版。当前环境基于 Ubuntu 14.04,难以适应各类软件新版本的开发需要,本项需求旨在升级当前环境到最新的 Ubuntu 20.04 或者其他更为合适的同时期 Linux 发行版。",
                 "update_time": "2020-05-13"
               },
               {
@@ -722,7 +872,7 @@
                 "contact": "ping.wu@tinylab.org",
                 "co-mentor": "@lzufalcon, falcon@tinylab.org",
                 "hot_index": 0,
-                "description": "Linux Lab 是一个 Linux 内核实验环境，当前已支持 Linux、Buildroot、Uboot 和 Qemu 四大核心软件，但是当前软件支持的耦合度非常高。本项需求旨在解耦，把各个软件的支持拆解到独立的软件支持文件中，增加可扩展性，从而方便进一步导入其他软件实验功能。",
+                "description": "Linux Lab 是一个 Linux 内核实验环境,当前已支持 Linux、Buildroot、Uboot 和 Qemu 四大核心软件,但是当前软件支持的耦合度非常高。本项需求旨在解耦,把各个软件的支持拆解到独立的软件支持文件中,增加可扩展性,从而方便进一步导入其他软件实验功能。",
                 "update_time": "2020-05-13"
               },
               {
@@ -731,7 +881,7 @@
                 "mentor": "@lzufalcon",
                 "contact": "falcon@tinylab.org",
                 "hot_index": 0,
-                "description": "Markdown Lab 是一个 Markdown 编辑环境，当前内置简历、文档、幻灯和书籍的 Markdown 模板，可导出为 html 和 pdf，本项需求旨在进一步完善中文支持、美化 PDF 输出格式、增加加密和水印功能等。",
+                "description": "Markdown Lab 是一个 Markdown 编辑环境,当前内置简历、文档、幻灯和书籍的 Markdown 模板,可导出为 html 和 pdf,本项需求旨在进一步完善中文支持、美化 PDF 输出格式、增加加密和水印功能等。",
                 "update_time": "2020-05-13"
               }
             ]
@@ -742,7 +892,7 @@
             "project_url":"",
             "url": "https://megengine.org.cn/",
             "description": "旷视自主研发的开源深度学习框架。",
-            "full_des": "天元（MegEngine）是在旷视长期进行大规模AI业务落地过程中诞生的，这种业务形态对深度学习框架有很多挑战，在不断解决这些挑战的过程中，天元形成了动静合一、兼容并包、灵活高效、训练推理一体化等特性，能够帮助开发者高效的完成深度学习算法的设计、训练、部署，有效提升AI研发工作效率。",
+            "full_des": "天元（MegEngine）是在旷视长期进行大规模AI业务落地过程中诞生的,这种业务形态对深度学习框架有很多挑战,在不断解决这些挑战的过程中,天元形成了动静合一、兼容并包、灵活高效、训练推理一体化等特性,能够帮助开发者高效的完成深度学习算法的设计、训练、部署,有效提升AI研发工作效率。",
             "tech_tag": ["C++","深度学习框架"],
             "domain_tag": ["深度学习","人工智能","CV"],
             "mail_list": "megengine.org.cn",
@@ -754,7 +904,7 @@
             "project_url":"https://tuna.moe/blog/2020/ospp-summer-2020/",
             "url": "https://tuna.moe/",
             "description": "目前中国影响力最大的高校开源社区。",
-            "full_des": "清华大学 TUNA 协会全名清华大学学生网络与开源软件协会（Tsinghua University TUNA Association），是由清华大学网络技术和开源软件爱好者、技术宅组成的团体。社团成立于2011年，目前校内外成员超过500人，校内注册人数接近300人，校内核心（活跃）成员超过50人。TUNA 协会维护的清华大学开源软件镜像站，包括数百个开源软件。是中国高校目前规模最大的开源镜像站。TUNA 协会为这些业务开发的许多开源软件，包括镜像管理同步套件 tunasync、直播弹幕套件 danmaQ 等，都被国内外同行采用并广受好评。TUNA 协会也与其他开源社区进行广泛联络，与多个高校开源学生组织、国内开源社区、企业等开展合作，共同举办软硬件件自由日、Release Party 等公众活动，推广开源理念，普及基础知识，为中国开源事业贡献力量，起到了较好的宣传引导作用。",
+            "full_des": "清华大学 TUNA 协会全名清华大学学生网络与开源软件协会（Tsinghua University TUNA Association）,是由清华大学网络技术和开源软件爱好者、技术宅组成的团体。社团成立于2011年,目前校内外成员超过500人,校内注册人数接近300人,校内核心（活跃）成员超过50人。TUNA 协会维护的清华大学开源软件镜像站,包括数百个开源软件。是中国高校目前规模最大的开源镜像站。TUNA 协会为这些业务开发的许多开源软件,包括镜像管理同步套件 tunasync、直播弹幕套件 danmaQ 等,都被国内外同行采用并广受好评。TUNA 协会也与其他开源社区进行广泛联络,与多个高校开源学生组织、国内开源社区、企业等开展合作,共同举办软硬件件自由日、Release Party 等公众活动,推广开源理念,普及基础知识,为中国开源事业贡献力量,起到了较好的宣传引导作用。",
             "tech_tag": ["Linux", "Mirrors", "Qt", "Python", "Node.js", "Go"],
             "domain_tag": ["服务器运维","网络编程","系统工具"],
             "mail_list": "tuna-general@googlegroups.com",
@@ -767,7 +917,7 @@
                 "contact": "miao.wang@tuna.tsinghua.edu.cn",
                 "co-mentor": "朱晟菁 zhsj@debian.org",
                 "hot_index": 0,
-                "description": "当前开源软件镜像站多采用 rsync 协议从上游差异更新，而 rsync 工具只支持 POSIX 文件系统。然而 POSIX 文件系统的大部分功能（如权限管理、目录遍历）对于镜像站是无意义的，反而引入了很多额外开销，降低了性能。目前 CDN 等高性能文件服务都采用对象存储系统（如 AWS S3）作为后端，而不是 POSIX 文件系统，因其访问延迟低，性能几乎不因文件数量增加而下降。若能将 rsync 协议与对象存储结合，实现一个在对象存储上工作的类 rsync 同步工具，那么镜像站就可从 POSIX 文件系统迁移到对象存储系统，从而提供更高质量的服务。项目不要求实现 rsync 的全部功能，只需要将远端文件列表与对象存储中的文件列表对比，下载缺失文件，删除多余文件，并更新修改日期不同的文件即可。",
+                "description": "当前开源软件镜像站多采用 rsync 协议从上游差异更新,而 rsync 工具只支持 POSIX 文件系统。然而 POSIX 文件系统的大部分功能（如权限管理、目录遍历）对于镜像站是无意义的,反而引入了很多额外开销,降低了性能。目前 CDN 等高性能文件服务都采用对象存储系统（如 AWS S3）作为后端,而不是 POSIX 文件系统,因其访问延迟低,性能几乎不因文件数量增加而下降。若能将 rsync 协议与对象存储结合,实现一个在对象存储上工作的类 rsync 同步工具,那么镜像站就可从 POSIX 文件系统迁移到对象存储系统,从而提供更高质量的服务。项目不要求实现 rsync 的全部功能,只需要将远端文件列表与对象存储中的文件列表对比,下载缺失文件,删除多余文件,并更新修改日期不同的文件即可。",
                 "update_time": "2020-05-13"
               },
               {
@@ -775,9 +925,9 @@
                 "difficulty": "中",
                 "mentor": "陈晟祺 (@Harry-Chen on GitHub)",
                 "contact": "shengqi.chen@tuna.tsinghua.edu.cn",
-                "co-mentor": "张宇翔，yuxiang.zhang@tuna.tsinghua.edu.cn, @z4yx on GitHub",
+                "co-mentor": "张宇翔,yuxiang.zhang@tuna.tsinghua.edu.cn, @z4yx on GitHub",
                 "hot_index": 0,
-                "description": "弹幕是常用的听众与讲者的互动手段。TUNA 开发了自己的 C/S 弹幕系统 danmaQ（见下面的仓库），使用于多种场合，也被多个发行版收录。其服务端使用 Python 编写，客户端使用 Qt 编写，基本实现了跨平台。然而，目前该项目缺乏维护，代码比较陈旧，一些功能缺乏（如 Web 弹幕墙）、不完善（如审核）或已经损坏（如微信互联）。此外，清华大学计算机系科协亦有一套自己实现的弹幕系统 Comment9（见下），使用 Node.js 编写。它与 danmaQ 相比，具有一些高级功能（如多个活动、弹幕墙、多路审核、支持硬件弹幕机），但缺乏弹幕属性配置等。我们希望，整合当前两个系统的功能，改进得到一套全功能的开源弹幕系统，覆盖用户需求。",
+                "description": "弹幕是常用的听众与讲者的互动手段。TUNA 开发了自己的 C/S 弹幕系统 danmaQ（见下面的仓库）,使用于多种场合,也被多个发行版收录。其服务端使用 Python 编写,客户端使用 Qt 编写,基本实现了跨平台。然而,目前该项目缺乏维护,代码比较陈旧,一些功能缺乏（如 Web 弹幕墙）、不完善（如审核）或已经损坏（如微信互联）。此外,清华大学计算机系科协亦有一套自己实现的弹幕系统 Comment9（见下）,使用 Node.js 编写。它与 danmaQ 相比,具有一些高级功能（如多个活动、弹幕墙、多路审核、支持硬件弹幕机）,但缺乏弹幕属性配置等。我们希望,整合当前两个系统的功能,改进得到一套全功能的开源弹幕系统,覆盖用户需求。",
                 "update_time": "2020-05-13"
               },
               {
@@ -785,9 +935,9 @@
                 "difficulty": "中",
                 "mentor": "王邈",
                 "contact": "miao.wang@tuna.tsinghua.edu.cn",
-                "co-mentor": "陈晟祺，shengqi.chen@tuna.tsinghua.edu.cn, @Harry-Chen on GitHub",
+                "co-mentor": "陈晟祺,shengqi.chen@tuna.tsinghua.edu.cn, @Harry-Chen on GitHub",
                 "hot_index": 0,
-                "description": "开源镜像站在呈现文件之外，也需要向用户呈现服务器状态、同步状态、使用帮助等更多的信息。目前，TUNA 镜像站使用了一套 Jekyll 静态生成页面 + AJAX 动态获取信息 + 服务端 njs 渲染结合的方法来向多种平台（现代浏览器、老旧浏览器、文本终端浏览器）提供支持。然而这种方法可维护性略差，也缺少通用性。同时，TUNA 镜像站的前端也硬编码了大量信息，对其他组织的使用造成了一定的不便。我们希望，能够在当前的基础上，对 TUNA 镜像站的前端进行详细设计与重构，形成一套通用的适用于各大开源镜像站的前端框架。",
+                "description": "开源镜像站在呈现文件之外,也需要向用户呈现服务器状态、同步状态、使用帮助等更多的信息。目前,TUNA 镜像站使用了一套 Jekyll 静态生成页面 + AJAX 动态获取信息 + 服务端 njs 渲染结合的方法来向多种平台（现代浏览器、老旧浏览器、文本终端浏览器）提供支持。然而这种方法可维护性略差,也缺少通用性。同时,TUNA 镜像站的前端也硬编码了大量信息,对其他组织的使用造成了一定的不便。我们希望,能够在当前的基础上,对 TUNA 镜像站的前端进行详细设计与重构,形成一套通用的适用于各大开源镜像站的前端框架。",
                 "update_time": "2020-05-13"
               },
               {
@@ -795,9 +945,9 @@
                 "difficulty": "中",
                 "mentor": "党凡",
                 "contact": "dangfan@tsinghua.edu.cn",
-                "co-mentor": "陈晟祺，shengqi.chen@tuna.tsinghua.edu.cn, @Harry-Chen on GitHub",
+                "co-mentor": "陈晟祺,shengqi.chen@tuna.tsinghua.edu.cn, @Harry-Chen on GitHub",
                 "hot_index": 0,
-                "description": "目前，各类移动设备，包括 Android 与 iOS，都增加了对 NFC 通信的支持；但各类应用对于 NFC 的支持都很不完善，缺少一个统一的跨平台的支持库。同时，关于 NFC 各类标准的文档也并不齐全，通常需要到处查找，为开发者造成了很大的障碍。前期，我们在 Android 平台上是实现了一个 NFC 卡片的读取应用 NFSee；目前，需要将其使用 Flutter 重写以实现跨平台。同时，也将搭建一个公开的 Wiki 网站，对 NFC 相关的协议、标准进行整理和阐述，以纠正常见误区，帮助其他开发者更好地在移动端进行 NFC 相关的开发。",
+                "description": "目前,各类移动设备,包括 Android 与 iOS,都增加了对 NFC 通信的支持；但各类应用对于 NFC 的支持都很不完善,缺少一个统一的跨平台的支持库。同时,关于 NFC 各类标准的文档也并不齐全,通常需要到处查找,为开发者造成了很大的障碍。前期,我们在 Android 平台上是实现了一个 NFC 卡片的读取应用 NFSee；目前,需要将其使用 Flutter 重写以实现跨平台。同时,也将搭建一个公开的 Wiki 网站,对 NFC 相关的协议、标准进行整理和阐述,以纠正常见误区,帮助其他开发者更好地在移动端进行 NFC 相关的开发。",
                 "update_time": "2020-05-13"
               },
               {
@@ -806,7 +956,7 @@
                 "mentor": "韩朴宇",
                 "contact": "w12101111@outlook.com",
                 "hot_index": 0,
-                "description": "Fcitx5 是 Linux 和 BSD 下的新一代输入法框架，支持中日韩等东亚语言的输入。Wayland 是 Linux 和 BSD 新一代的显示协议，用于替代老旧的X11协议。Fcitx5 目前可以在 Xorg 下正常的输入，但是受 Wayland 协议的限制，Fcitx5 在 Wayland 下有诸多问题，其中最主要的是无法显示候选框，导致无法选词。本项目目标是改进 Fcitx5 在 Wayland 桌面下的体验，达到与 Xorg 相同的使用效果。",
+                "description": "Fcitx5 是 Linux 和 BSD 下的新一代输入法框架,支持中日韩等东亚语言的输入。Wayland 是 Linux 和 BSD 新一代的显示协议,用于替代老旧的X11协议。Fcitx5 目前可以在 Xorg 下正常的输入,但是受 Wayland 协议的限制,Fcitx5 在 Wayland 下有诸多问题,其中最主要的是无法显示候选框,导致无法选词。本项目目标是改进 Fcitx5 在 Wayland 桌面下的体验,达到与 Xorg 相同的使用效果。",
                 "update_time": "2020-05-13"
               }
             ]
@@ -817,11 +967,40 @@
             "project_url":"https://git.io/uojsummer2020",
             "url": "https://github.com/UniversalOJ",
             "description": "一款通用的在线评测系统。",
-            "full_des": "Universal OJ 开源社区为以吕凯风开发的 UOJ 为基础的二次开发建立的社群；Universal OJ 开源社区专注于对算法题目的评测，为学习算法的各方提供便利。",
+            "full_des": "Universal OJ 开源社区为以吕凯风开发的 UOJ 为基础的二次开发建立的社群；Universal OJ 开源社区专注于对算法题目的评测,为学习算法的各方提供便利。",
             "tech_tag": ["PHP", "MySQL", "C", "Docker"],
             "domain_tag": ["Online Judge 系统","算法"],
             "mail_list": "https://github.com/UniversalOJ/UOJ-System/issues",
-            "email": "QQ 群 560621197"
+            "email": "QQ 群 560621197",
+            "project_list": [
+                {
+                  "name": "比赛多赛制支持",
+                  "difficulty": "中",
+                  "mentor": "",
+                  "contact": "",
+                  "hot_index": 0,
+                  "description": "Universal OJ 目前赛制支持的并不全面,目前仅完全的支持了 OI 赛制。本项目目标是为 Universal OJ 的比赛功能支持多赛制。",
+                  "update_time": "2020-05-14"
+                },
+                {
+                  "name": "数据合规相关功能",
+                  "difficulty": "低",
+                  "mentor": "",
+                  "contact": "",
+                  "hot_index": 0,
+                  "description": "Universal OJ 目前没有删除帐号等功能,落后于快速发展的互联网隐私保护行业标准,也有一些合规风险（如 GDPR 、 CCPA 和中国的有关法律法规）。本项目的目标是为 Universal OJ 添加删除帐号、导出信息等数据合规相关功能。",
+                  "update_time": "2020-05-14"
+                },
+                {
+                  "name": "小工具集编写",
+                  "difficulty": "低",
+                  "mentor": "",
+                  "contact": "",
+                  "hot_index": 0,
+                  "description": "在用户进行算法学习时,会需要一些小工具,如：图的可视化、代码粘贴器。本项目目标是为 Universal OJ 添加小工具集。",
+                  "update_time": "2020-05-14"
+                }
+            ]
         },
         {
             "img":"ustclug.jpg",
@@ -829,7 +1008,7 @@
             "project_url":"https://news.ustclug.org/2020/05/opensource-summer-projects/",
             "url": "https://lug.ustc.edu.cn/wiki/start",
             "description": "中科大 Linux 和开源软件爱好者团体。",
-            "full_des": "中国科学技术大学学生 Linux 用户协会（科大 LUG）是由在校的 GNU/Linux 爱好者发起并组成的全校性群众团体，是一个以推广自由软件文化、宣传自由软件价值为目的的协会组织。",
+            "full_des": "中国科学技术大学学生 Linux 用户协会（科大 LUG）是由在校的 GNU/Linux 爱好者发起并组成的全校性群众团体,是一个以推广自由软件文化、宣传自由软件价值为目的的协会组织。",
             "tech_tag": ["Linux", "GNU"],
             "domain_tag": [],
             "mail_list": "ustc_lug@googlegroups.com",
@@ -842,7 +1021,7 @@
                   "contact": "ibug@ustclug.org",
                   "co-mentor": "陶柯宇 taoky@ustclug.org",
                   "hot_index": 0,
-                  "description": "目前，科大镜像站的前端架构仍然沿用着 2013 年的设计，但是随着时间的发展，我们也发现目前的镜像站前端架构在用户体验、维护与部署上带来了一些不便。目前的镜像站主页是由一套 Python 脚本每小时从模板生成得到的，虽然足够使用，但是在维护中也遇到了一些问题，诸如界面设计的实用性、主页与 status 页面显示不一致等问题。本项目希望能够通过调整镜像站前端架构，提高用户体验，降低维护的复杂度，也方便其他需要的镜像站部署页面显示的解决方案。",
+                  "description": "目前,科大镜像站的前端架构仍然沿用着 2013 年的设计,但是随着时间的发展,我们也发现目前的镜像站前端架构在用户体验、维护与部署上带来了一些不便。目前的镜像站主页是由一套 Python 脚本每小时从模板生成得到的,虽然足够使用,但是在维护中也遇到了一些问题,诸如界面设计的实用性、主页与 status 页面显示不一致等问题。本项目希望能够通过调整镜像站前端架构,提高用户体验,降低维护的复杂度,也方便其他需要的镜像站部署页面显示的解决方案。",
                   "update_time": "2020-05-13"
                 },
                 {
@@ -852,7 +1031,7 @@
                   "contact": "hypercube@0x01.me",
                   "co-mentor": "陶柯宇 taoky@ustclug.org",
                   "hot_index": 0,
-                  "description": "Hackergame 是 USTCLUG 开发的一套开源 CTF 比赛平台，主要用于每年举办的科大信息安全大赛，随真实需求不断进行技术迭代，并且重视生产环境下的安全性和可靠性。目前使用的是 Django + Vue.js 框架，但前后端解耦仍然不够充分，代码中写死了一些不合理的规则，很多地方缺少通用性和灵活性，测试和部署也不够方便。本项目希望能通过调整架构设计，重构部分代码，得到一个更加通用、健壮的比赛平台，让将来比赛中的实际需求更容易实现。",
+                  "description": "Hackergame 是 USTCLUG 开发的一套开源 CTF 比赛平台,主要用于每年举办的科大信息安全大赛,随真实需求不断进行技术迭代,并且重视生产环境下的安全性和可靠性。目前使用的是 Django + Vue.js 框架,但前后端解耦仍然不够充分,代码中写死了一些不合理的规则,很多地方缺少通用性和灵活性,测试和部署也不够方便。本项目希望能通过调整架构设计,重构部分代码,得到一个更加通用、健壮的比赛平台,让将来比赛中的实际需求更容易实现。",
                   "update_time": "2020-05-13"
                 }
               ]
@@ -862,7 +1041,7 @@
             "title":"X-Lab",
             "project_url":"",
             "url": "http://xlab.kfcoding.com/",
-            "description": "技术传播文明，践行同步世界。",
+            "description": "技术传播文明,践行同步世界。",
             "full_des": "",
             "tech_tag": [],
             "domain_tag": [],
