@@ -89,6 +89,51 @@
 
 
     }
+    .indexHomeThirdButton{
+        position: relative;
+        width: 100%;
+        padding: 40px 0 75px;
+        .indexHomeThirdButtonItem:nth-child(2)>.indexHomeThirdButtonItemImg{
+            border-right: 1px solid #c3c2cc;
+            border-left: 1px solid #c3c2cc;
+        }
+        .indexHomeThirdButtonItem{
+            position: relative;
+            display: inline-block;
+            width: 400px;
+            
+            .indexHomeThirdButtonItemImg{
+                position: relative;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 144px;
+                height: 144px;
+                margin-bottom:35px;
+                box-sizing: content-box;
+                padding: 0 31.8%;
+            }
+
+           
+            .indexHomeThirdButtonItemText{
+                position: relative;
+                font-size: 20px;
+                color:#fff;
+                width: 142px;
+                height: 45px;
+                background-color: #5866ff;
+                border-radius: 4px;
+                line-height: 45px;
+                text-align: center;
+                margin:0 auto;
+                transition: all 0.3s;
+                cursor: pointer;
+            }
+            .indexHomeThirdButtonItemText:hover{
+                background-color: #3e4ad2
+            }
+        }
+    }
 
   
    
@@ -97,53 +142,9 @@
         background-color: #fff;
         .indexHomeThirdWrapper{
             position: relative;
-            padding: 28px 0 10px;
+            padding: 50px 0 10px;
 
-            .indexHomeThirdButton{
-                position: relative;
-                width: 100%;
-                padding: 10px 0 160px;
-                .indexHomeThirdButtonItem:nth-child(2)>.indexHomeThirdButtonItemImg{
-                    border-right: 1px solid #c3c2cc;
-                    border-left: 1px solid #c3c2cc;
-                }
-                .indexHomeThirdButtonItem{
-                    position: relative;
-                    display: inline-block;
-                    width: 400px;
-                    
-                    .indexHomeThirdButtonItemImg{
-                        position: relative;
-                        background-size: cover;
-                        background-position: center;
-                        background-repeat: no-repeat;
-                        width: 144px;
-                        height: 144px;
-                        margin-bottom:35px;
-                        box-sizing: content-box;
-                        padding: 0 31.8%;
-                    }
-
-                   
-                    .indexHomeThirdButtonItemText{
-                        position: relative;
-                        font-size: 20px;
-                        color:#fff;
-                        width: 142px;
-                        height: 45px;
-                        background-color: #5866ff;
-                        border-radius: 4px;
-                        line-height: 45px;
-                        text-align: center;
-                        margin:0 auto;
-                        transition: all 0.3s;
-                        cursor: pointer;
-                    }
-                    .indexHomeThirdButtonItemText:hover{
-                        background-color: #3e4ad2
-                    }
-                }
-            }
+  
 
             .indexHomeThirdTitle{
                 position: relative;
@@ -357,15 +358,176 @@
         height: 350px;
         background-repeat: no-repeat;
     }
+    .indexHomeLiveShowWrapper{
+        position: relative;
+        background-color: #f5f5f5;
+        padding: 60px 0 46px;
+        .indexHomeLiveTitle{
+            font-family: PingFang-SC-Medium;
+            font-size: 24px;
+            font-weight: normal;
+            font-stretch: normal;
+            letter-spacing: 2px;
+            color: #333333;
+            margin-bottom: 40px;
+        }
+        .indexHomeLiveButtonMore{
+            width: 150px;
+            height: 45px;
+            background-color: #5959ff;
+            border-radius: 4px;
+            font-family: PingFang-SC-Medium;
+            font-size: 20px;
+            font-weight: normal;
+            font-stretch: normal;
+            line-height: 45px;
+            letter-spacing: 0px;
+            color: #ffffff;
+            margin: 37px auto 46px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .indexHomeLiveListContentButtonLeft,
+        .indexHomeLiveListContentButtonRight{
+            width: 44px;
+            height: 44px;
+            position: relative;
+            display: block;
+            border-radius: 50%;
+            box-shadow: 0px 3px 9px 0px 
+            rgba(218, 218, 230, 0.7);
+            border: solid 1px #afb0b2;
+            background-color: #ffffff;
+           
+            cursor: pointer;
+           
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: absolute;
+           
+            top:54%;
+           
+        }
 
-    // .indexHomeTwoImage{
-    //     position: relative;
-    //     background-image: url(./../../img/index/2.png);
-    //     background-size: contain;
-    //     width: 458px;
-    //     height: 221px;
-    //     background-repeat: no-repeat;
-    // }
+        .displaynone{
+            display: none;
+        }
+        .indexHomeLiveListContentButtonLeft{
+            left:-60px;
+        }
+       
+        .indexHomeLiveListContentButtonLeft::before{
+            content: url(./../../img/index/left.png);
+            
+            width: 28px;
+            height: 28px;
+            left: 27%;
+            top: 22%;
+            position: absolute;
+        }
+        .indexHomeLiveListContentButtonRight{
+            right:-60px;
+        }
+        .indexHomeLiveListContentButtonRight::before{
+            content: url(./../../img/index/right.png);
+            position: absolute;
+            width: 28px;
+            height: 28px;
+            left: 38%;
+            top: 22%;
+
+        }
+        .indexHomeLiveListContent{
+            position: relative;
+            overflow: hidden;
+
+        }
+        .indexHomeLiveList{
+            position: relative;
+            width: 4000px;
+            // height: 470px;
+            display: flex;
+            transition: all 1s;
+            
+            .indexHomeLiveListItem{
+                width: 382px;
+                height: 470px;
+                background-color: #ffffff;
+                border: solid 1px #afb0b2;
+                margin-right: 27px;
+            }
+            .indexHomeLiveListItemImage{
+                position: relative;
+                width: 100%;
+                height: 284px;
+                background-repeat: no-repeat;
+                background-size: cover;
+            background-position: center;
+            width: 382px;
+            }
+            .indexHomeLiveListItemDetail{
+                position: relative;
+                padding: 20px;
+            }
+            .indexHomeLiveListItemTitle{
+                font-size: 18px;
+                font-weight: normal;
+                font-stretch: normal;
+                line-height: 18px;
+                width: 100%;
+                /* height: 18px; */
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow:ellipsis;
+                color: #595959;
+                margin-bottom: 18px;
+                position: relative;
+            }
+            .indexHomeLiveListItemName{
+                position: relative;
+                font-size: 16px;
+                font-weight: normal;
+                font-stretch: normal;
+                line-height: 16px;
+                letter-spacing: 2px;
+                color: #666666;
+                padding-bottom: 18px;
+                border-bottom: 1px solid #ccc;
+            }
+            .indexHomeLiveListItemTime{
+                font-family: SFProDisplay-Regular;
+                font-size: 16px;
+                font-weight: normal;
+                font-stretch: normal;
+                line-height: 16px;
+                letter-spacing: 1px;
+                color: #9059ff;
+                margin:18px 0
+            }
+            .indexHomeLiveListItemText{
+                font-family: PingFang-SC-Regular;
+                font-size: 14px;
+                font-weight: normal;
+                font-stretch: normal;
+                line-height: 14px;
+                letter-spacing: 2px;
+                color: #999999;
+            }
+            .indexHomeLiveListItemTwoCode{
+                position: absolute;
+                width: 65px;
+                height: 65px;
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                top:107px;
+                right: 20px;
+                background-image: url(./../../img/index/twoCode.jpg);
+            }
+        }
+    }
+    
     .indexHomeOneTextConsChi{
         margin-top: 24px;
         display: inline-block;

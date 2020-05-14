@@ -3,12 +3,16 @@ import './index.less';
 import './index.css';
 import logolistMap from './logo.js';
 import { Carousel } from 'antd';
+import data from './../liveshow/data.json';
 
 
 export default class Index extends React.Component{
     constructor(props){
         super(props);
         this.state = {
+            data,
+            buttonLeft:false,
+            buttonRight:true,
             logolistMap,
             logoMain:{
                 holder: [
@@ -42,12 +46,50 @@ export default class Index extends React.Component{
        
     }
     componentDidMount() {
-        window.scrollTo(0,0);
-
-      
-
-       
+        window.scrollTo(0,0); 
+        let $list = document.getElementsByClassName("indexHomeLiveList")[0] 
+        $list.style.transform = 'translateX(0)'
     }
+    move(flag){
+       
+        let $list = document.getElementsByClassName("indexHomeLiveList")[0]
+        let movNumber = $list.style.transform.split("(")[1].split("px")[0]
+        console.log(flag)
+        if(flag === 'left'){
+            movNumber = Number(movNumber) + 1227
+        }
+        if(flag == 'right'){
+            
+            movNumber = Number(movNumber) - 1227 ;
+               
+        }
+        if(Number(movNumber) === 0){
+            this.setState({
+                buttonLeft:false
+            })
+        }else{
+            if(this.state.buttonLeft !== true){
+                this.setState({
+                    buttonLeft:true
+                })
+            }
+        }
+        
+        if(Math.round(Number(movNumber)/1200) === -2){
+            this.setState({
+                buttonRight:false
+            })
+        }else{
+            if(this.state.buttonRight !== true){
+                this.setState({
+                    buttonRight:true
+                })
+            }
+        }
+        $list.style.transform = 'translateX('+ movNumber + 'px)'
+        console.log($list.style.transform)   
+    }
+
     getOrList(orList){
         let divContainer = [];
         orList.map((item,index)=>{
@@ -169,6 +211,8 @@ export default class Index extends React.Component{
     goLink(url){
         window.location.hash = url
     }
+
+
     
     
 
@@ -247,11 +291,61 @@ export default class Index extends React.Component{
 
                     {/* </div>  */}
                </div>
+               <div className="indexHomeThirdWrapper content1200">
+                    <div className="indexHomeThirdButton">
+                        {this.getButtons()}
+                    </div>
+                </div>
+               <div className="indexHomeLiveShowWrapper">
+                   <div className="indexHomeLiveShowContent content1200">
+                       <div className="indexHomeLiveTitle">
+                       “大咖说开源” 系列直播讲座
+                       </div>
+                       <div 
+                            onClick={()=>{this.move("left")}}
+                            className={["indexHomeLiveListContentButtonLeft",this.state.buttonLeft?'':'displaynone'].join(" ")}></div>
+                        <div 
+                            onClick={()=>{this.move("right")}}
+                            className={["indexHomeLiveListContentButtonRight",this.state.buttonRight?'':'displaynone'].join(" ")}></div>
+                       <div className="indexHomeLiveListContent">
+                           
+                               
+                           
+                            <div className="indexHomeLiveList">
+                                {
+                                    this.state.data.speechlist.map((item,index)=>{
+                                        return (
+                                            <div className="indexHomeLiveListItem" key={index}>
+                                                <div 
+                                                    style={{backgroundImage:"url("+require("./../../img/index/"+item.profilelist[0].imgurl) + ")"}}
+                                                    className="indexHomeLiveListItemImage">                                                   
+                                                </div>
+                                                <div className="indexHomeLiveListItemDetail">
+                                                    <div className="indexHomeLiveListItemTitle" title={item.title}>{item.title}</div>
+                                                    <div className="indexHomeLiveListItemName">{item.profilelist[0].name}</div>
+                                                    <div className="indexHomeLiveListItemTime">{item.time}</div>
+                                                    <div className="indexHomeLiveListItemText">直播时间 / 右侧可扫码观看 </div>
+                                                    <div className="indexHomeLiveListItemTwoCode"></div>
+                                                </div>
+                                            </div>
+                                        )
+
+                                    })
+                                }
+                                
+                            </div>
+                       </div>
+                       <div onClick={()=>{this.goLink('liveshow')}} className="indexHomeLiveButtonMore">更多讲座></div>
+
+                   </div>
+
+               </div>
+
                <div className="indexHomeThird">
                         <div className="indexHomeThirdWrapper content1200">
-                            <div className="indexHomeThirdButton">
+                            {/* <div className="indexHomeThirdButton">
                                 {this.getButtons()}
-                            </div>
+                            </div> */}
                             <div className="indexHomeThirdTitle">主办单位</div>
                             <div className="indexHomeOrList holder">
                                     {this.getOrList(this.state.logoMain.holder)}
