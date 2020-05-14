@@ -1,22 +1,68 @@
 import React from 'react'
 import './index.less';
 import data from './data.json';
-// import scrollSmoothTo from './../../config/scroll.js';
+import { Input, Pagination } from 'antd';
+
+const { Search } = Input;
 export default class Organisation extends React.Component{
     constructor(props){
         super(props)
-        this.state ={
+        this.state = {
+            isLoading: true,
             data,
+            allProjects:[],
+            displayProjects:[],
+            pageNumber: 1
         }
     }
 
-    componentDidMount(){
-        window.scrollTo(0,0)
-        // const location = window.location.hash.split("to=")
-        // if(location[1] && location[1] === 'head'){
-        //     scrollSmoothTo(0)
-        // }
+    componentDidMount() {
+        window.scrollTo(0,0);
+        this.getAllProjectList();
     }
+    getAllProjectList () {
+      
+      var temp = [];
+      var divContainer = []
+      // var data_ = data;
+     
+      this.state.data.orgList.map((item,index)=>{
+        item.project_list.map((item1,index1)=>{
+          item1.title= item.title;
+          item1.project_url = item.project_url || item.url;
+          item1.index = index;
+          return 0;
+        })
+        
+        temp = temp.concat(item.project_list);
+        
+        return 0;
+      })
+      
+      
+      this.setState({
+          allProjects: temp,
+          isLoading:false,
+          pageNumber:temp.length
+        });
+      
+    
+      this.state.allProjects.map((item,index)=>{
+        // item.project_list.map((item1,index1)=>{
+            if (index < 8) {
+                divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url)) 
+            }
+        return 0;
+      })
+        this.setState({
+        displayProjects:divContainer
+      })
+     
+      return divContainer;
+      // console.log(this.state.data)
+      // return temp;
+      // console.log(this.state.allProjects);
+    };
     openInNewTab(url) {
         if (url !== "") {
             var win = window.open(url, '_blank');
@@ -71,8 +117,8 @@ export default class Organisation extends React.Component{
             if (isDetail) {
                 document.getElementById(index+"-tooltip").setAttribute("class", "org-tooltip org-detail");
                 document.getElementById(index+"-tooltip").style.display = 'block';
-                // document.getElementById(index+"-tooltip").style.left = '0';
                 document.getElementById("orgListOWrapper").style.display = 'none';
+                document.getElementById("orgListNavBar").style.display = 'block';
 
             } else {
                 document.getElementById(index+"-tooltip").setAttribute("class", "org-tooltip");
@@ -81,57 +127,74 @@ export default class Organisation extends React.Component{
 
         }
     }
-    closeModal (index) {
+    closeModal (index, isDetail) {
         document.getElementById(index+"-tooltip").style.display = 'none';
+        if (isDetail) {
+          document.getElementById("orgListOWrapper").style.display = 'block';
+          document.getElementById("orgListNavBar").style.display = 'none';
+          this.state.data.orgList.map((item,index) => {
+            document.getElementById(index+"-tooltip").style.display = 'none';
+            document.getElementById(index+"-orgListItem").style.display = '';
+            return 0;
+          })
+        }
     }
-    getProjectList(orgIndex, orgItem, orgName, projectUrl) {
-        var divContainer = [];
-        // alert(orgItem[0].name)
+    getProjectList(orgIndex, item, index, orgName, projectUrl) {
+      // this.setState({isLoading: false});
+      // console.log(this.state.isLoading)
+      // if (orgIndex.includes('project')) {
+      //   console.log(item)
+      // }
+      return (<div
+        key = {orgIndex+'-'+index}
+        className="orgProjectItem">
+            <div className={"orgProjectItemColumn orgLeft org-"+index%3}>
+            <div>
+                <div
+                className="orgProjectTitle"
+                // style={{backgroundImage:"url("+require("./../../img/organisation/"+index%3+".jpg") + ")"}}
+                >
+                    {item.name}
+                </div>
+               <div className="orgProjectTitleIcon"><img alt="0000000" src={require("./../../img/organisation/"+index%3+".jpg")} /></div>
+            </div>
+                <div className="orgProjectGap"></div>
+                <div className="orgProjectBottomLeft">
+                    <div>项目难度：{item.difficulty}</div>
+                    {/* <div>已：{item.student_count}</div> */}
+                    <div className="orgProjectName">{orgName}</div>
+                </div>
+
+            </div>
+
+            <div className="orgProjectItemColumn orgRight">
+                <div className="orgProjectDes">{item.description}</div>
+                <div>
+                    <ul>
+                        <li>
+                        项目社区导师：{item.mentor}
+                        </li>
+                        <li>
+                        导师联系方式：<a href={"mailto:"+item.contact}>{item.contact}</a>
+                        </li>
+                    </ul>
+                    <div
+                        className="tooltip-detail-button orgProjectButton"
+                        onClick={() => this.openInNewTab(projectUrl)}
+                    >项目详情
+                    <img src={require("./../../img/organisation/arrow.png")} alt=">"></img></div>
+                </div>
+
+            </div>
+
+        </div>)
+    }
+    getOrgProjectList(orgIndex, orgItem, orgName, projectUrl) {
+        var divContainer = []
+        // console.log(orgName)
         if (orgItem[0].name !== "") {
             orgItem.map((item,index)=>{
-                divContainer.push(<div
-                    key = {orgIndex+'-'+index}
-                    className="orgProjectItem">
-                        <div className={"orgProjectItemColumn orgLeft org-"+index%3}>
-                        <div>
-                            <div
-                            className="orgProjectTitle"
-                            // style={{backgroundImage:"url("+require("./../../img/organisation/"+index%3+".jpg") + ")"}}
-                            >
-                                {item.name}
-                            </div>
-                           <div className="orgProjectTitleIcon"><img alt="0000000" src={require("./../../img/organisation/"+index%3+".jpg")} /></div>
-                        </div>
-                            <div className="orgProjectGap"></div>
-                            <div className="orgProjectBottomLeft">
-                                <div>项目难度：{item.difficulty}</div>
-                                {/* <div>已：{item.student_count}</div> */}
-                                <div className="orgProjectName">{orgName}</div>
-                            </div>
-
-                        </div>
-
-                        <div className="orgProjectItemColumn orgRight">
-                            <div className="orgProjectDes">{item.description}</div>
-                            <div>
-                                <ul>
-                                    <li>
-                                    项目社区导师：{item.mentor}
-                                    </li>
-                                    <li>
-                                    导师联系方式：<a href={"mailto:"+item.contact}>{item.contact}</a>
-                                    </li>
-                                </ul>
-                                <div
-                                    className="tooltip-detail-button orgProjectButton"
-                                    onClick={() => this.openInNewTab(projectUrl)}
-                                >项目详情
-                                <img src={require("./../../img/organisation/arrow.png")} alt=">"></img></div>
-                            </div>
-
-                        </div>
-
-                    </div>)
+                divContainer.push(this.getProjectList(orgIndex, item, index, orgName, projectUrl));
                 return 0;
             });
         }
@@ -140,6 +203,18 @@ export default class Organisation extends React.Component{
         }
 
         return divContainer;
+    }
+
+    switchTab (num) {
+      var wrappers = ["orgWrapper", "orgProjectWrapper"];
+      document.getElementById("orgListTab-"+(3-num)).setAttribute("class","orgListTabItem");
+      document.getElementById("orgListTab-"+num).setAttribute("class","orgListTabItem tabSelected");
+      
+      document.getElementById(wrappers[num-1]).style.display = "block";
+      document.getElementById(wrappers[2-num]).style.display = "none";
+      if (num === 2) {
+        this.getAllProjectList();
+      }
     }
     getOpensource(){
         var divContainer = []
@@ -154,19 +229,76 @@ export default class Organisation extends React.Component{
         });
         return divContainer
     }
+    changePage(pageNo) {
+       //设置内容
+    // setPage(num){
+        var divContainer = [];
+        this.state.allProjects.map((item,index)=>{
+            // item.project_list.map((item1,index1)=>{
+            if (index < pageNo*8 && index > (pageNo-1)*8) {
+                // alert(index%8)
+                // alert(index)
+                divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url)) 
+
+            }
+            return 0;
+          })
+        this.setState({
+            displayProjects:divContainer
+          })
+        // this.setState({
+        //     displayProjects:this.state.displayProjects.slice(pageNo,pageNo+this.state.displayProjects.length)
+        // })
+    // }
+    }
+    filterItem(value) {
+        var divContainer = [];
+        this.state.allProjects.map((item,index)=>{
+            // item.project_list.map((item1,index1)=>{
+                
+            if (item.name.toLowerCase().includes(value.toLowerCase()) || item.title.toLowerCase().includes(value.toLowerCase()) || item.description.toLowerCase().includes(value.toLowerCase())) {
+                divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url)) 
+
+            }
+            return 0;
+          })
+        this.setState({
+            displayProjects:divContainer,
+            pageNumber:divContainer.length,
+            isLoading:false
+          })
+    }
+    itemRender(current, type, originalElement) {
+        if (type === 'prev') {
+          return <a>上一页</a>;
+        }
+        if (type === 'next') {
+          return <a>下一页</a>;
+        }
+        return originalElement;
+      }
     render(){
         return(
             <div className="organisation">
                 <div className="orgBanner">
                     <div className="orgBannerTitle content1200">开源社区</div>
                 </div>
-                {/* <div className="orgListTab">
-                    <div className="orgListTabItem tabSelected">社区列表</div>
-                    <div className="orgListTabItem">项目列表</div>
-                </div> */}
-                <div className="orgListWrapper">
+                <div className="orgListTab">
+                    <div className="orgListTabItem tabSelected" id="orgListTab-1" onClick={()=>this.switchTab(1)}>社区列表</div>
+                    <div className="orgListTabItem" id="orgListTab-2" onClick={()=>this.switchTab(2)}>项目列表</div>
+                </div>
 
-                <div className="orgList content1200">
+                <div id="orgWrapper">
+                <div id="orgListNavBar">
+                  <div className="content1200">
+                  <div className="orgListNavBarItem orgClick" onClick={()=>{this.closeModal(0, true)}}>社区列表</div>
+                  <div className="orgListNavBarItem orgGrey"> > 社区详情</div>
+                </div>
+                  
+                </div>
+                  <div className="orgListWrapper">
+
+                  <div className="orgList content1200">
 
                     {
                         this.state.data.orgList.map((item,index)=>{
@@ -187,7 +319,7 @@ export default class Organisation extends React.Component{
                                     <div className="org-tooltip" id={index+'-tooltip'}>
 
                                         <span className="triangle" id={index+'-triangle'}></span>
-                                        <div className="tooltip-close" onClick={() => {this.closeModal(index)}}></div>
+                                        <div className="tooltip-close" onClick={() => {this.closeModal(index, false)}}></div>
                                         <div className="tooltip-title">{item.title}</div>
                                         <div className="tooltip-description">{item.full_des}</div>
                                         <div className="tooltip-divider"></div>
@@ -218,11 +350,13 @@ export default class Organisation extends React.Component{
                                                 <div className="orgTagListItem tech" key={'tech-'+index}>{item}</div>
                                             )
                                         }):''}</div>
-                                        {/* <div className="tooltip-detail-button" onClick={() => this.showModal(index,item.project_url ? item.project_url : item.url, true)}>社区详情
+                                        <div className="tooltip-detail-button" onClick={() => this.showModal(index,item.project_url ? item.project_url : item.url, true)}>查看详情
                                         <img src={require("./../../img/organisation/arrow.png")} alt=">"></img>
-                                        </div> */}
+                                        </div>
                                         <div className="tooltip-project-wrapper tooltip-detail">
-                                            {this.getProjectList(index, item.project_list, item.title, item.project_url ? item.project_url : item.url)}
+                                            {
+                                            this.getOrgProjectList(index, item.project_list, item.title, item.project_url ? item.project_url : item.url)
+                                            }
                                         </div>
                                     </div>
                                     {/* </div> */}
@@ -234,14 +368,45 @@ export default class Organisation extends React.Component{
                 </div>
 
                 </div>
-                <div id="orgListOWrapper">
-                <div className="indexOrgThirdTitle content1200">鸣谢社区</div>
-                <div  className="orgListOpensource content1200">
+                  <div id="orgListOWrapper">
+                  <div className="indexOrgThirdTitle content1200">鸣谢社区</div>
+                  <div  className="orgListOpensource content1200">
 
-                    {this.getOpensource()}
+                      {this.getOpensource()}
+                  </div>
                 </div>
                 </div>
 
+                <div id="orgProjectWrapper" className="tooltip-project-wrapper">
+                  <div className="orgListWrapper content1200">
+                    <div className="orgList">
+                            
+                      <div className="org-detail">
+                        <Search
+                            placeholder="请输入搜索的项目"
+                            onSearch={value => this.filterItem(value)}
+                            style={{ width: 500, height: 60, marginTop: 20}}
+                            />
+                        <div>
+                        
+                        {this.state.isLoading ? '' :
+                            this.state.displayProjects
+                        }
+                        </div>
+                        <Pagination 
+                            onChange={page=>this.changePage(page)} 
+                            defaultCurrent={1} 
+                            total={this.state.pageNumber} 
+                            style={{ width: 706, height: 50, marginTop: 20}}
+                            itemRender={this.itemRender}
+                            hideOnSinglePage={true}
+                        />
+                      
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
             </div>
         )
     }
