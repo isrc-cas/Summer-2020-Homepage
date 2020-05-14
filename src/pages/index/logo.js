@@ -104,11 +104,13 @@ const logolistMap = {
         {
             name:'MaskBook',
             img:'c_maskbook.jpg',
+            url:'https://maskbook.com',
         },
-        // {
-        //     name:'c_markdownlab',
-        //     img:'c_markdownlab.jpg',
-        // },
+        {
+            name:'MindSpore',
+            img:'c_MindSpore.jpg',
+            url:'https://www.mindspore.cn',
+        },
         
         {
             name:'milvus',
