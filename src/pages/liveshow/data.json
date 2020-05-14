@@ -1,5 +1,6 @@
 {
     "liveurl":"https://live.bilibili.com/22221041",
+    "livedata":" 2020.5.16 即将带来 李永乐的讲座  “邀您一起玩openEuler”",
     "speechlist":[
         {
             "title":"邀您一起玩openEuler",
@@ -50,20 +51,12 @@
                 {
                     "name":"庄表伟",
                     "profile":"开源社2020年度理事长，开源社核心成员，开源社区的长期参与者。1997年大学毕业之后，常年奋斗在编程的第一线，最近3年开始转行做产品经理，目前就职于华为云。",
-                    "imgurl":"zhuangbiaowei.jpg"
-                }
-            ],  
-            "speechcontent":""
-        },
-        {
-            "title":"在你的人生经历中，有哪些开源故事？",
-            "time":"2020.06.06",
-            "url":"",
-            "profilelist":[
+                    "imgurl":"zhuanglin.jpg"
+                },
                 {
                     "name":"林旅强",
                     "profile":"林旅强 (Richard Lin)，华为云AI开发者生态专家、开源社理事会成员，投身开源事业近 10 年。专注于开源/开发者生态、社区治理及商业模式；以开源传道为志业，以开放、自由、共享、创新为信仰。",
-                    "imgurl":"linlvqiang.jpg"
+                    "imgurl":"zhuanglin.jpg"
                 }
             ],  
             "speechcontent":""
@@ -77,6 +70,19 @@
                     "name":"吴晟",
                     "profile":"tetrate.io创始工程师，开源爱好者。 Apache Member、Apache SkyWalking Founder、VP和PMC成员，Apache ShardingSphere 原型作者和PMC成员，Apache孵化器PMC成员， Apache APISIX PPMC成员， Apache ECharts、 Apache DolphinScheduler孵化器导师， Zipkin成员与贡献者， CNCF OpenTracing核心贡献者。",
                     "imgurl":"wusheng.jpg"
+                }
+            ],  
+            "speechcontent":""
+        },
+        {         
+            "title":"Linux从入门到深入内核有多远",
+            "time":"2020.06.20",
+            "url":"",
+            "profilelist":[
+                {
+                    "name":"陈莉君",
+                    "profile":"西安邮电大学教授，教育部高等学校计算机类专业教学指导委员会委员，陕西省教学名师，中国开源联盟专家组成员。20多年来致力于推动Linux在中国的发展，深入研究Linux内核相关理论以及技术，跟踪Linux内核发展动向，针对Linux内核版本的不断演化，连续编写和翻译了十多部相关专著、译著及教材，两次获得中国开源联盟授予的“开源杰出贡献奖”。",
+                    "imgurl":"chenlijun.jpg"
                 }
             ],  
             "speechcontent":""
@@ -106,7 +112,7 @@
                     "imgurl":"sunjincheng.jpg"
                 }
             ],  
-            "speechcontent":""
+            "speechcontent":"国内大多数人都听说过Apache Software Foundation(ASF), 同时我们国家也是世界上使用开源最多的国家之一，目前国内各个大厂也纷纷投入开源建设，但仍然有很多想参与开源建设或者是刚刚参与开源建设的同学，感觉开始开源贡献十分困难，无从下手，不知道该做什么？遇到问题如何处理？如何与人沟通等等问题的存在，因而也导致目前国内成为ASF 项目的Committer，PMC和ASF Member的人并不多，这个现象并非我们没有能力参与ASF贡献，更不是没有能力成为开源项目的Committer/PMC和ASF Member，而是对ASF了解的渠道比较少，对参与社区的原则和技巧了解匮乏，所以本次分享将和大家交流我参与社区过程中的切身的经验，并给到大家参与开源社区的基本原则和方式方法，期望能通过本次分享带你踏上ASF开源之路。"
         }
     ]
 }

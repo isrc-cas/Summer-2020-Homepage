@@ -11,6 +11,9 @@ export default class LiveShow extends React.Component{
             data,
         }
     }
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
 
     goLogoLink(url){
         if(url){
@@ -33,10 +36,11 @@ export default class LiveShow extends React.Component{
                                 <span>开源社</span>
                                 
                         </div>
-                        <div className="indexHomeOneDakaDescription">
-                            大咖讲座将为大家带来开源理念的系列介绍，帮助深入了解开源文化、参与开源社区的方式方法。
-                            <br></br>
-                            讲座通过 Bilibili 网站进行直播，由中科院软件所提供直播的技术支持，每周一期固定时间进行直播。
+                         <div className="indexHomeOneDakaDescription">
+                                   {this.state.data.livedata}
+                        </div>
+                        <div className="indexHomeOneDakaDescriptionTwo">
+                        大咖讲座将为大家带来开源理念的系列介绍，帮助深入了解开源文化、参与开源社区的方式方法。讲座通过 Bilibili 网站进行直播，每周一期进行直播。
                         </div>
                        
                     
@@ -64,9 +68,16 @@ export default class LiveShow extends React.Component{
                                                 <span className="mobiledisplaynone">可扫码观看 </span>
                                             </div>
                                         </div>
-                                        <div className="LiveShowItemProfile">
-                                            <span className="LiveShowItemProfileName">{item.profilelist[0].name}:</span><span className="LiveShowItemProfileContent">&nbsp;&nbsp;{item.profilelist[0].profile}</span>
-                                        </div>
+                                        {
+                                            item.profilelist.map((iteml,indexl)=>{
+                                                return(
+                                                    <div className="LiveShowItemProfile" key={indexl}>
+                                                        <span className="LiveShowItemProfileName">{iteml.name}:</span><span className="LiveShowItemProfileContent">&nbsp;&nbsp;{iteml.profile}</span>
+                                                    </div>
+                                                )
+                                            })
+                                        }
+                                        
                                         {
                                             item.speechcontent?
                                             <div className="LiveShowItemProfile">

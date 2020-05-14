@@ -110,6 +110,11 @@ export default class Index extends React.Component{
         }
         
     }
+    liveUrl(index){
+        if(index === 0){
+            window.open(this.state.data.liveurl)
+        }
+    }
 
     getOpensource(){
         // const logolen = 30;
@@ -234,7 +239,7 @@ export default class Index extends React.Component{
                             <div className="indexHomeOneWrapper content1200">
                             <div className="indexHomeOneTextCons">
                                 <div className="indexHomeOneTextConsEngOne">
-                                / ISCAS & openEuler Community
+                                 ISCAS & openEuler Community
                                 </div>
                                 <div className="indexHomeOneTextConsEngTwo">
                                 Open Source Promotion Plan <span className="mobiledisplaynone">-</span><br className="indexHomeOneTextConsEngTwoNone"/> Summer 2020
@@ -259,9 +264,10 @@ export default class Index extends React.Component{
                                         <span>开源社</span>
                                 </div>
                                 <div className="indexHomeOneDakaDescription">
-                                    大咖讲座将为大家带来开源理念的系列介绍，帮助深入了解开源文化、参与开源社区的方式方法。
-                                    <br></br>
-                                    讲座通过 Bilibili 网站进行直播，由中科院软件所提供直播的技术支持，每周一期固定时间进行直播。
+                                    {this.state.data.livedata}
+                                </div>
+                                <div className="indexHomeOneDakaDescriptionTwo">
+                                大咖讲座将为大家带来开源理念的系列介绍，帮助深入了解开源文化、参与开源社区的方式方法。讲座通过 Bilibili 网站进行直播，每周一期进行直播。
                                 </div>
                                 <div 
                                     onClick={()=>{this.goLink('liveshow')}}
@@ -315,14 +321,22 @@ export default class Index extends React.Component{
                                 {
                                     this.state.data.speechlist.map((item,index)=>{
                                         return (
-                                            <div className="indexHomeLiveListItem" key={index}>
+                                            <div className="indexHomeLiveListItem" key={index} onClick={()=>{this.liveUrl(index)}}>
                                                 <div 
                                                     style={{backgroundImage:"url("+require("./../../img/index/"+item.profilelist[0].imgurl) + ")"}}
                                                     className="indexHomeLiveListItemImage">                                                   
                                                 </div>
                                                 <div className="indexHomeLiveListItemDetail">
                                                     <div className="indexHomeLiveListItemTitle" title={item.title}>{item.title}</div>
-                                                    <div className="indexHomeLiveListItemName">{item.profilelist[0].name}</div>
+                                                    <div className="indexHomeLiveListItemName">
+                                                    {
+                                                        item.profilelist.map((iteml,indexl)=>{
+                                                            return (
+                                                                <span  key={indexl}>{iteml.name}</span>
+                                                            )
+                                                        })
+                                                       
+                                                    }</div>
                                                     <div className="indexHomeLiveListItemTime">{item.time}</div>
                                                     <div className="indexHomeLiveListItemText">直播时间 / 右侧可扫码观看 </div>
                                                     <div className="indexHomeLiveListItemTwoCode"></div>
