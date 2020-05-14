@@ -97,7 +97,7 @@ export default class Organisation extends React.Component{
             })
 
             // alert()
-            if (window.innerWidth > 800) {
+            if (window.innerWidth > 700) {
 
 
                 switch(index % 3) {
