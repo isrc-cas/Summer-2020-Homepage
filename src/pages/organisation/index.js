@@ -95,11 +95,7 @@ export default class Organisation extends React.Component{
                 }
                 return 0;
             })
-
-            // alert()
             if (window.innerWidth > 700) {
-
-
                 switch(index % 3) {
                     case 1:
                         document.getElementById(index+"-tooltip").style.left = '-409px';
