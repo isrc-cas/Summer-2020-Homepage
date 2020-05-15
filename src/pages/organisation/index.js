@@ -108,7 +108,6 @@ export default class Organisation extends React.Component{
             } else {
                 document.getElementById(index+"-tooltip").style.display = 'block';
                 document.getElementById(index+"-tooltip").style.left = '0';
-                document.getElementById(index+"-triangle").style.left = '0';
             }
             if (isDetail) {
                 // alert('scroll')
