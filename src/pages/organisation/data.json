@@ -431,6 +431,18 @@
             ]
         },
         {
+          "img":"chatopera.jpg",
+          "title":"春松客服",
+          "project_url":"https://github.com/chatopera/cosin/wiki/Open-Source-Promotion-Plan---Summer-2020",
+          "url": "https://github.com/chatopera/cosin",
+          "description": "快速而低成本的智能客服系统。",
+          "full_des": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低。",
+          "tech_tag": ["企业聊天机器人","智能客服","心理咨询","智能问答","自然语言处理","人工智能","开源客服系统"],
+          "domain_tag": ["人工智能","聊天机器人"],
+          "mail_list": "QQ群 185659917",
+          "email": "service@chatopera.com"
+        },
+        {
             "img":"elastos.jpg",
             "title":"Elastos 亦来云",
             "project_url":"https://developer.elastos.org/discover/hackathons/202005_beijing/",
