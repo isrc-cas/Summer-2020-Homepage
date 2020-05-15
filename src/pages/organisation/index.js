@@ -53,7 +53,7 @@ export default class Organisation extends React.Component{
         });
         var divContainer = [];
         temp.map((item,index)=>{
-            if (index < 8) {
+            if (index < 10) {
                 divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url)) 
             }
             return 0;
@@ -269,7 +269,7 @@ export default class Organisation extends React.Component{
             
             var divContainer = [];
             this.state.allProjects.map((item,index)=>{
-                if (index < 8) {
+                if (index < 10) {
                     divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url)) 
                 }
                 return 0;
