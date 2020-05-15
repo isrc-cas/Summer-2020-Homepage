@@ -11,6 +11,7 @@ export default class Organisation extends React.Component{
             isLoading: true,
             data,
             allProjects:[],
+            timeProjects: [],
             displayProjects:[],
             pageNumber: 1
         }
@@ -20,12 +21,13 @@ export default class Organisation extends React.Component{
         window.scrollTo(0,0);
         this.getAllProjectList();
     }
+    renderProjects () {
+
+    }
     getAllProjectList () {
-      
-      var temp = [];
-      var divContainer = [];
-     
-      this.state.data.orgList.map((item,index)=>{
+        var temp = [];
+
+        this.state.data.orgList.map((item,index)=>{
         if (item.project_list) {
             item.project_list.map((item1,index1)=>{
                 if (item1.name !== "" && item1.mentor !== "" && item1.description !== "") {
@@ -35,30 +37,28 @@ export default class Organisation extends React.Component{
                     temp.push(item1);
                 }
                 return 0;
-              })
+                })
         }
         return 0;
-      })
-      console.log(temp)
-      
-      this.setState({
-          allProjects: temp,
-          isLoading:false,
-          pageNumber:temp.length
         });
-      
-    
-      this.state.allProjects.map((item,index)=>{
+
+        this.setState({
+            allProjects: temp,
+            isLoading:false,
+            pageNumber:temp.length
+        });
+        var divContainer = [];
+        temp.map((item,index)=>{
             if (index < 8) {
                 divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url)) 
             }
-        return 0;
-      })
+            return 0;
+        });
         this.setState({
-        displayProjects:divContainer
-      })
+            displayProjects: divContainer
+        });
      
-      return divContainer;
+        return divContainer;
     };
     openInNewTab(url) {
         if (url !== "") {
@@ -138,11 +138,6 @@ export default class Organisation extends React.Component{
         }
     }
     getProjectList(orgIndex, item, index, orgName, projectUrl) {
-      // this.setState({isLoading: false});
-      // console.log(this.state.isLoading)
-      // if (orgIndex.includes('project')) {
-      //   console.log(item)
-      // }
       return (<div
         key = {orgIndex+'-'+index}
         className="orgProjectItem">
@@ -150,7 +145,6 @@ export default class Organisation extends React.Component{
             <div>
                 <div
                 className="orgProjectTitle"
-                // style={{backgroundImage:"url("+require("./../../img/organisation/"+index%3+".jpg") + ")"}}
                 >
                     {item.name}
                 </div>
@@ -188,8 +182,7 @@ export default class Organisation extends React.Component{
         </div>)
     }
     getOrgProjectList(orgIndex, orgItem, orgName, projectUrl) {
-        var divContainer = []
-        // console.log(orgName)
+        var divContainer = [];
         if (orgItem.length !== 0 && orgItem[0].name !== "") {
             orgItem.map((item,index)=>{
                 divContainer.push(this.getProjectList(orgIndex, item, index, orgName, projectUrl));
@@ -238,8 +231,47 @@ export default class Organisation extends React.Component{
           })
         this.setState({
             displayProjects:divContainer
-          });
+        });
         window.scrollTo(0,0);
+    }
+    sortItemBy(category) {
+        if (category === 'latest') {
+            const {allProjects} = this.state;
+            let newProjects = allProjects.reverse();
+            document.getElementById('org-default').setAttribute("class", "org-search-bar-sort");
+            document.getElementById('org-time').setAttribute("class", "org-search-bar-sort orgClick");
+
+            if (document.getElementById('time-down').getAttribute("class") === 'org-arrow down-0') {
+                document.getElementById('time-down').setAttribute("class", "org-arrow down-1");
+                document.getElementById('time-up').setAttribute("class", "org-arrow up-0");
+                this.setState({
+                    allProjects: newProjects.sort((a,b)=>{ return a.update_time < b.update_time})
+                });
+            } else {
+                document.getElementById('time-down').setAttribute("class", "org-arrow down-0");
+                document.getElementById('time-up').setAttribute("class", "org-arrow up-1");
+                this.setState({
+                    allProjects: newProjects.sort((a,b)=>{ return a.update_time > b.update_time})
+                });
+            }
+            
+            var divContainer = [];
+            this.state.allProjects.map((item,index)=>{
+                if (index < 8) {
+                    divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url)) 
+                }
+                return 0;
+            });
+            this.setState({
+                displayProjects: divContainer
+            });
+        } else {
+            document.getElementById('org-default').setAttribute("class", "org-search-bar-sort orgClick");
+            document.getElementById('org-time').setAttribute("class", "org-search-bar-sort");
+            document.getElementById('time-down').setAttribute("class", "org-arrow down-0");
+            document.getElementById('time-up').setAttribute("class", "org-arrow up-0");
+            this.getAllProjectList();
+        }
     }
     filterItem(value) {
         var divContainer = [];
@@ -377,16 +409,36 @@ export default class Organisation extends React.Component{
                     <div className="orgList">
                             
                       <div className="org-detail">
-                        <Search
-                            placeholder="请输入搜索的项目"
-                            onSearch={value => this.filterItem(value)}
-                            // style={{ width: 500, height: 60, marginTop: 20}}
+                        <div className="org-search-bar-wrapper">
+                            <div className="org-search-bar">
+                            <Search
+                                placeholder="请输入搜索的项目"
+                                onSearch={value => this.filterItem(value)}
                             />
-                        <div>
+                            </div>
+                            <div className="org-search-bar-sort-wrapper">
+                            
+                            <div id="org-default" className="org-search-bar-sort orgClick" onClick={()=>this.sortItemBy('default')}>
+                                默认排序
+                            </div>
+                            <div id="org-time" className="org-search-bar-sort" onClick={()=>this.sortItemBy('latest')}>
+                                更新时间
+                                <span id="time-down" className="org-arrow down-0"></span>
+                                <span id="time-up" className="org-arrow up-0"></span>
+                                
+                            </div>
+                            </div>
+                            
+                            
+
+                        </div>
+                            {/* <div className="" onClick={()=>this.sortItemBy('hottest')}>最热</div> */}
                         
-                        {this.state.isLoading ? '' :
-                            this.state.displayProjects
-                        }
+                        
+                        <div>
+                            {this.state.isLoading ? '' :
+                                this.state.displayProjects
+                            }
                         </div>
                         <Pagination 
                             onChange={page=>this.changePage(page)} 
