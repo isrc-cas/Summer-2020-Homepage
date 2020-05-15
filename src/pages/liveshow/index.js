@@ -1,6 +1,7 @@
 import React from 'react';
 import data from './data.json';
 import './index.less';
+import liveTwoCode from './../../img/index/twoCode.jpg';
 
 
 export default class LiveShow extends React.Component{
@@ -65,6 +66,7 @@ export default class LiveShow extends React.Component{
                                                     className="LiveShowItemHeaderButton" >观看直播></div>
                                             </div>
                                             <div className="LiveShowItemHeaderTwoCode">
+                                                <img src={liveTwoCode} alt="直播二维码"/>
                                                 <span className="mobiledisplaynone">可扫码观看 </span>
                                             </div>
                                         </div>

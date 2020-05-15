@@ -4,6 +4,7 @@ import './index.css';
 import logolistMap from './logo.js';
 import { Carousel } from 'antd';
 import data from './../liveshow/data.json';
+import liveTwoCode from './../../img/index/twoCode.jpg';
 
 
 export default class Index extends React.Component{
@@ -127,7 +128,7 @@ export default class Index extends React.Component{
                     key = {index1+'_'+index}
                     onClick={()=>{this.goLogoLink(item.url)}}
                     style={{backgroundImage:"url("+require("./../../img/logolist/"+item.img) + ")"}}
-                    className="indexHomOpensourceItem"></div>)
+                    className={["indexHomOpensourceItem",item.url?'':'cursordefault'].join(" ")}></div>)
                 return 0;
             })
             divContainer.push(<br key={index1}/>)
@@ -340,7 +341,9 @@ export default class Index extends React.Component{
                                                     }</div>
                                                     <div className="indexHomeLiveListItemTime">{item.time}</div>
                                                     <div className="indexHomeLiveListItemText">直播时间 / 右侧可扫码观看 </div>
-                                                    <div className="indexHomeLiveListItemTwoCode"></div>
+                                                    <div className="indexHomeLiveListItemTwoCode">
+                                                        <img src={liveTwoCode} alt="直播二维码"/>
+                                                    </div>
                                                 </div>
                                             </div>
                                         )
