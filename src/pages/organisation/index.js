@@ -20,6 +20,10 @@ export default class Organisation extends React.Component{
     componentDidMount() {
         window.scrollTo(0,0);
         this.getAllProjectList();
+        const location = window.location.hash.split("page=");
+        if (location.length > 1 && location[1]==='project') {
+            this.switchTab(2);
+        }
     }
     renderProjects () {
 
@@ -90,7 +94,7 @@ export default class Organisation extends React.Component{
 
                 }
                 return 0;
-            })
+            });
             if (window.innerWidth > 700) {
                 switch(index % 3) {
                     case 1:
@@ -204,7 +208,10 @@ export default class Organisation extends React.Component{
       document.getElementById(wrappers[num-1]).style.display = "block";
       document.getElementById(wrappers[2-num]).style.display = "none";
       if (num === 2) {
+        window.location.hash = window.location.hash + (window.location.hash.includes('?page=project') ? "" : "?page=project");
         this.getAllProjectList();
+      } else {
+        window.location.hash = window.location.hash.includes('?page=project') ? window.location.hash.split('?page=project')[0] : window.location.hash;
       }
     }
     getOpensource(){
@@ -278,8 +285,7 @@ export default class Organisation extends React.Component{
         this.state.allProjects.map((item,index)=>{
                 
             if (item.name.toLowerCase().includes(value.toLowerCase()) || item.title.toLowerCase().includes(value.toLowerCase()) || item.description.toLowerCase().includes(value.toLowerCase())) {
-                divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url)) 
-
+                divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url));
             }
             return 0;
           })
