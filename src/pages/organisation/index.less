@@ -276,7 +276,7 @@
                 .org-search-bar-wrapper {
                     width: 1200px;
                     margin-top: 20px;
-                    height: 60px;
+                    // height: 60px;
                     font-size: 20px;
                     .org-search-bar {
                         display: inline-block;
@@ -299,7 +299,7 @@
                         content: '';
                         position: relative;
                         border-left: 1px solid #b0b2b9;
-                        right: -20px; /* adjust this */
+                        right: -10px; /* adjust this */
                         height: 40px; /* adjust this */
                     }
                     .up-1 {
@@ -314,17 +314,24 @@
                     .down-0 {
                         background-image: url(./../../img/organisation/down-0.png);
                     }
-                    .org-search-bar-sort-wrapper {
+                    .org-search-bar-sort-wrapper, .org-pageNo {
                         float: right;
+                    }
+                    .org-No {
+                        margin: 20px 0;
+                        color: #666666;
                     }
                     .org-search-bar-sort {
                         cursor: pointer;
-                        margin: auto 20px;
+                        margin: auto 0 auto 20px;
                         line-height: 60px;
                         display: inline-block;
                     }
                 }
                 .ant-input-search {
+                    input {
+                        font-size: 20px;
+                    }
                     width: 500px;
                     height: 60px;
                 }
@@ -342,7 +349,7 @@
                     display: grid;
                     grid-template-columns: 1fr 2fr;
                     height: 300px;
-                    margin-top: 40px;
+                    margin-bottom: 40px;
                     color: white;
                 }
                 .orgProjectItemColumn {
@@ -476,9 +483,12 @@
         @media screen and (min-width: 100px)and (max-width: 700px){
             .orgList .org-detail .org-search-bar-wrapper {
                 height: 100%;
-                .org-search-bar-sort-wrapper {
+                .org-search-bar-sort-wrapper, .org-pageNo {
                     display: block;
                     float: unset;
+                    .org-search-bar-sort {
+                        margin-left: 0;
+                    }
                 }
                 #org-default::after {
                     border: none;
