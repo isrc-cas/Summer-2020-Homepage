@@ -63,13 +63,22 @@
             "email": "dev@dolphinscheduler.apache.org",
             "project_list": [
               {
-                "name": "延时等待",
+                "name": "延时等待（后端）",
                 "difficulty": "低",
                 "mentor": "Jave-Chen",
                 "contact": "kejia.chen@foxmail.com",
                 "hot_index": 0,
-                "description": "在任务节点中新增“延时等待”的属性，支持任务在开始后一段时间内等待前置任务完成。",
-                "update_time": "2020-05-13"
+                "description": "提供后端接口。在任务节点中新增“延时等待”的属性，支持任务在开始后一段时间内等待前置任务完成。",
+                "update_time": "2020-05-16"
+              },
+              {
+                "name": "延时等待（前端）",
+                "difficulty": "低",
+                "mentor": "Jave-Chen",
+                "contact": "kejia.chen@foxmail.com",
+                "hot_index": 0,
+                "description": "开发前端页面，调用后端接口。在任务节点中新增“延时等待”的属性，支持任务在开始后一段时间内等待前置任务完成。",
+                "update_time": "2020-05-16"
               },
               {
                 "name": "DS 任务节点说明文档编写",
@@ -81,22 +90,40 @@
                 "update_time": "2020-05-13"
               },
               {
-                "name": "任务空跑",
-                "description": "在对工作流测试时，支持部分任务不执行具体任务内容，直接更新任务状态为成功。",
+                "name": "任务空跑（后端）",
+                "description": "提供后端接口。在对工作流测试时，支持部分任务不执行具体任务内容，直接更新任务状态为成功。",
                 "difficulty": "中",
                 "mentor": "Jave-Chen",
                 "contact": "kejia.chen@foxmail.com",
                 "hot_index": 0,
-                "update_time": "2020-05-13"
+                "update_time": "2020-05-16"
               },
               {
-                "name": "强制成功",
-                "description": "对于失败的任务，可手工“强制成功”，后续依赖即可自动执行。",
+                "name": "任务空跑（前端）",
+                "description": "开发前端页面，调用后端接口。在对工作流测试时，支持部分任务不执行具体任务内容，直接更新任务状态为成功。",
+                "difficulty": "低",
+                "mentor": "Jave-Chen",
+                "contact": "kejia.chen@foxmail.com",
+                "hot_index": 0,
+                "update_time": "2020-05-16"
+              },
+              {
+                "name": "强制成功（后端）",
+                "description": "提供后端接口。对于失败的任务，可手工“强制成功”，后续依赖即可自动执行。",
                 "difficulty": "中",
                 "mentor": "Jave-Chen",
                 "contact": "kejia.chen@foxmail.com",
                 "hot_index": 0,
-                "update_time": "2020-05-13"
+                "update_time": "2020-05-16"
+              },
+              {
+                "name": "强制成功（前端）",
+                "description": "开发前端页面，调用后端接口。对于失败的任务，可手工“强制成功”，后续依赖即可自动执行。",
+                "difficulty": "低",
+                "mentor": "Jave-Chen",
+                "contact": "kejia.chen@foxmail.com",
+                "hot_index": 0,
+                "update_time": "2020-05-16"
               },
               {
                 "name": "新任务节点开发文档整理",
@@ -108,22 +135,40 @@
                 "update_time": "2020-05-13"
               },
               {
-                "name": "查询所有上下游依赖",
-                "description": "查询任务的所有上下游依赖。",
+                "name": "查询所有上下游依赖（后端）",
+                "description": "提供后端接口。查询任务的所有上下游依赖。",
                 "difficulty": "高",
                 "mentor": "Jave-Chen",
                 "contact": "kejia.chen@foxmail.com",
                 "hot_index": 0,
-                "update_time": "2020-05-13"
+                "update_time": "2020-05-16"
               },
               {
-                "name": "任务结果/变量传递",
-                "description": "支持任务节点间传递变量/任务执行结果。",
+                "name": "查询所有上下游依赖（前端）",
+                "description": "开发前端页面，调用后端接口。查询任务的所有上下游依赖。",
+                "difficulty": "低",
+                "mentor": "Jave-Chen",
+                "contact": "kejia.chen@foxmail.com",
+                "hot_index": 0,
+                "update_time": "2020-05-16"
+              },
+              {
+                "name": "任务结果/变量传递（后端）",
+                "description": "提供后端接口。支持任务节点间传递变量/任务执行结果。",
                 "difficulty": "高",
                 "mentor": "Jave-Chen",
                 "contact": "kejia.chen@foxmail.com",
                 "hot_index": 0,
-                "update_time": "2020-05-13"
+                "update_time": "2020-05-16"
+              },
+              {
+                "name": "任务结果/变量传递（前端）",
+                "description": "开发前端页面，调用后端接口。支持任务节点间传递变量/任务执行结果。",
+                "difficulty": "低",
+                "mentor": "Jave-Chen",
+                "contact": "kejia.chen@foxmail.com",
+                "hot_index": 0,
+                "update_time": "2020-05-16"
               },
               {
                 "name": "可视化部署",
@@ -133,6 +178,15 @@
                 "contact": "kejia.chen@foxmail.com",
                 "hot_index": 0,
                 "update_time": "2020-05-13"
+              },
+              {
+                "name": "工作流、任务执行时间评估",
+                "description": "根据任务的历史执行记录，预测当前实例的执行时长，并根据预估值、实际值调整算法参数；根据工作流的历史执行记录，预测当前工作流的执行时长，并根据预估值、实际值调整算法参数；根据工作流任务的预估执行时间，找出当前工作流的关键任务，即最影响整体进度的任务",
+                "difficulty": "高",
+                "mentor": "Gabry.wu",
+                "contact": "wu_shao_jie@qq.com",
+                "hot_index": 0,
+                "update_time": "2020-05-16"
               }
             ]
         },
