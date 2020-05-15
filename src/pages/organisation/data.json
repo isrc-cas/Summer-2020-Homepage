@@ -544,7 +544,7 @@
             "title":"GNU Emacs（中文）",
             "project_url":"https://manateelazycat.github.io/eaf/emacs/2020/05/10/eaf-community.html",
             "url": "https://emacs-china.org/",
-            "description": "入门开源,理解开源,享受开源。",
+            "description": "入门开源，理解开源，享受开源。",
             "full_des": "有着近40年历史,由开源之父、自由软件之父Richard Stallman领衔创建的一个披着编辑器（Editor）皮的编辑环境（Editing Environment）和Lisp解释器（Lisp Interpreter）。它的历史与设计理念造就一个40年屹立不倒,至今也非常健康活跃的开源生态,是任何人入门开源,理解开源,享受开源的绝佳途径。",
             "tech_tag": ["GNU","Emacs","Editor","Editing Environment","Lisp"],
             "domain_tag": ["编辑器","编程环境"],
@@ -578,7 +578,7 @@
         {
             "img":"maskbook.jpg",
             "title":"Maskbook",
-            "project_url":"",
+            "project_url":"https://github.com/dimensiondev/maskbook/issues/1091",
             "url": "https://maskbook.com",
             "description": "保护互联网用户隐私的浏览器插件。",
             "full_des": "Maskbook 是一个浏览器插件,我们致力于通过应用密码学的技术来帮助用户能够很简单的、不改变他们日常习惯的方法来保护他们在网络上的隐私。",
@@ -737,7 +737,7 @@
         {
             "img":"openeuler.jpg",
             "title":"openEuler Community",
-            "project_url":"",
+            "project_url":"https://gitee.com/openeuler/marketing/tree/master/events/summer2020",
             "url": "https://www.openeuler.org",
             "description": "通过社区合作,创新 Linux 平台。",
             "full_des": "openEuler 是一个开源、免费的 Linux 发行版平台,将通过开放的社区形式与全球的开发者共同构建一个开放、多元和架构包容的软件生态体系。同时,openEuler 也是一个创新的平台,鼓励任何人在该平台上提出新想法、开拓新思路、实践新方案。",
@@ -963,6 +963,19 @@
             "mail_list": "megengine.org.cn",
             "email": "megengine-support@megvii.com"
         }, 
+        
+        {
+          "img":"td.jpg",
+          "title":"TDEngine",
+          "project_url":"",
+          "url": "https://www.taosdata.com/cn/",
+          "description": "开源物联网、车联网等的大数据平台。",
+          "full_des": "北京涛思数据科技有限公司(TAOS Data) 瞄准日益增长的物联网数据市场，专注时序空间大数据的存储、查询、分析和计算。不依赖任何开源或第三方软件，开发了拥有自主知识产权、自主可控的高性能、可伸缩、高可靠、零管理的物联网大数据平台TDengine，可广泛运用于物联网、车联网、工业互联网、IT运维等领域。公司已经申请多项技术发明专利，且全部提交PCT专利申请。涛思数据采用AGPL许可证，已经将TDengine的内核(存储和计算引擎)以及社区版100%开源。",
+          "tech_tag": ["C", "Java", "Go", "PHP", "JavaScript", "Python", "SQL"],
+          "domain_tag": ["物联网","车联网","工业互联网","IT运维"],
+          "mail_list": "tdengine@taosdata.com",
+          "email": "tdengine@taosdata.com"
+        },
         {
             "img":"tuna.jpg",
             "title":"清华大学 TUNA 协会",
@@ -1118,7 +1131,7 @@
             "title":"X-Lab",
             "project_url":"",
             "url": "http://xlab.kfcoding.com/",
-            "description": "技术传播文明,践行同步世界。",
+            "description": "技术传播文明，践行同步世界。",
             "full_des": "",
             "tech_tag": [],
             "domain_tag": [],
@@ -1146,6 +1159,12 @@
             "name":"wuhan2020",
             "img":"wuhan2020.jpg",
             "url":"https://community.wuhan2020.org.cn/zh-cn/"
-        }
+        },
+        {
+          "name":"芽木科技",
+          "img":"c_yamukeji.jpg",
+          "url": ""
+      }
+
     ]
 }

@@ -49,6 +49,16 @@
             background: rgb(77,77,255);
         }
     }
+    @media screen and (min-width: 100px)and (max-width: 700px){
+        .orgListTab {
+            .orgListTabItem {
+                cursor: pointer;
+                font-size: 18px;
+                width: 140px;
+            }
+        }
+    }
+    
     #orgListNavBar {
         display: none;
         background: rgb(235,241,255);
@@ -112,6 +122,13 @@
                 margin-top: -10%;
                 font-size: 24px;
                 letter-spacing: .00005em;
+                overflow: hidden;
+                height: 3em;
+                margin-bottom: 6%;
+                text-overflow: ellipsis;
+                display:-webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
             }
             .orgListItemDes {
                 color:rgb(102,106,128);
@@ -256,11 +273,60 @@
             .org-detail {
                 margin-top: 0;
                 z-index: 1;
-                // width: 1200px;
+                .org-search-bar-wrapper {
+                    width: 1200px;
+                    margin-top: 20px;
+                    height: 60px;
+                    font-size: 20px;
+                    .org-search-bar {
+                        display: inline-block;
+                    }
+                    .org-arrow {
+                        width: 4px;
+                        height: 22px;
+                        line-height: 60px;
+                        margin: auto 5px;
+                        display: inline-block;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        background-position: bottom;
+                        padding-top: 3px;
+                    }
+                    .orgClick {
+                        color: #5959ff;
+                    }
+                    #org-default::after {
+                        content: '';
+                        position: relative;
+                        border-left: 1px solid #b0b2b9;
+                        right: -20px; /* adjust this */
+                        height: 40px; /* adjust this */
+                    }
+                    .up-1 {
+                        background-image: url(./../../img/organisation/up-1.png);
+                    }
+                    .down-1 {
+                        background-image: url(./../../img/organisation/down-1.png);
+                    }
+                    .up-0 {
+                        background-image: url(./../../img/organisation/up-0.png);
+                    }
+                    .down-0 {
+                        background-image: url(./../../img/organisation/down-0.png);
+                    }
+                    .org-search-bar-sort-wrapper {
+                        float: right;
+                    }
+                    .org-search-bar-sort {
+                        cursor: pointer;
+                        margin: auto 20px;
+                        line-height: 60px;
+                        display: inline-block;
+                    }
+                }
                 .ant-input-search {
                     width: 500px;
                     height: 60px;
-                    margin-top: 20px;
                 }
                 .triangle, .tooltip-close, .tooltip-detail-button {
                     display: none;
@@ -367,7 +433,7 @@
                     display: inline-block;
                 }
             }
-            @media screen and (min-width: 320px)and (max-width: 700px){
+            @media screen and (min-width: 100px)and (max-width: 700px){
                 .org-tooltip {
                     // width: 375px;
                     height: 100%;
@@ -408,6 +474,16 @@
         }
         
         @media screen and (min-width: 100px)and (max-width: 700px){
+            .orgList .org-detail .org-search-bar-wrapper {
+                height: 100%;
+                .org-search-bar-sort-wrapper {
+                    display: block;
+                    float: unset;
+                }
+                #org-default::after {
+                    border: none;
+                }
+            }
             .orgList {
                 grid-template-columns: repeat(auto-fill, 90vw);
                 margin: 0 auto;
