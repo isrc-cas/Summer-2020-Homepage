@@ -32,6 +32,11 @@ const logolistMap = {
             img:'wuhan2020.jpg',
             url:'https://community.wuhan2020.org.cn/'
         },
+        {
+            name:'芽木科技',
+            img:'c_yamukeji.jpg',
+            url:'http://yamukeji.com'
+        },
     ],
     technology:[
         // {
@@ -166,6 +171,11 @@ const logolistMap = {
             url:'https://megengine.org.cn/'
         },
         {
+            name:'TDengine社区',
+            img:'c_taos.jpg',
+            url:'https://www.taosdata.com/cn/'
+        },
+        {
             name:'tuna',
             img:'c_tuna.jpg',
             url:'https://tuna.moe/'
@@ -233,6 +243,11 @@ const logolistMap = {
             name:'北京邮电大学',
             img:'beijingyoudian.jpg',
             url:'https://www.bupt.edu.cn/'
+        },
+        {
+            name:'北京林业大学',
+            img:'logo_beijinglinye.jpg',
+            url:'http://www.bjfu.edu.cn/'
         },
         {
             name:'中央财经大学',
@@ -349,6 +364,11 @@ const logolistMap = {
             name:'西安电子科技大学',
             img:'logo25.jpg',
             url:'https://www.xidian.edu.cn/'
+        },
+        {
+            name:'西安邮电大学',
+            img:'logo_xianyoudian.jpg',
+            url:'http://www.xiyou.edu.cn/'
         },
         
 
