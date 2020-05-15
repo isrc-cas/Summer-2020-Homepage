@@ -128,7 +128,7 @@ export default class Index extends React.Component{
                     key = {index1+'_'+index}
                     onClick={()=>{this.goLogoLink(item.url)}}
                     style={{backgroundImage:"url("+require("./../../img/logolist/"+item.img) + ")"}}
-                    className="indexHomOpensourceItem"></div>)
+                    className={["indexHomOpensourceItem",item.url?'':'cursordefault'].join(" ")}></div>)
                 return 0;
             })
             divContainer.push(<br key={index1}/>)
