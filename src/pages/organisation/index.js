@@ -221,7 +221,7 @@ export default class Organisation extends React.Component{
                 key = {'os'+index}
                 style={{backgroundImage:"url("+require("./../../img/logolist/"+item.img) + ")"}}
                 className="orgOpensourceItem"
-                onClick={() => this.openInNewTab(item.url)}>
+                onClick={() => item.url ? '' : this.openInNewTab(item.url)}>
                 </div>)
             return 0;
         });
@@ -407,9 +407,8 @@ export default class Organisation extends React.Component{
 
                 </div>
                   <div id="orgListOWrapper">
-                  <div className="indexOrgThirdTitle content1200">鸣谢社区</div>
+                  <div className="indexOrgThirdTitle content1200">鸣谢机构</div>
                   <div  className="orgListOpensource content1200">
-
                       {this.getOpensource()}
                   </div>
                 </div>
