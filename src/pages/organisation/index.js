@@ -13,7 +13,7 @@ export default class Organisation extends React.Component{
             allProjects:[],
             timeProjects: [],
             displayProjects:[],
-            pageNumber: 1
+            currentPage: 1
         }
     }
 
@@ -237,11 +237,16 @@ export default class Organisation extends React.Component{
             return 0;
           })
         this.setState({
-            displayProjects:divContainer
+            displayProjects:divContainer,
+            currentPage: pageNo
         });
         window.scrollTo(0,0);
     }
     sortItemBy(category) {
+        this.setState({
+            currentPage: 1
+        });
+        console.log(this.state.currentPage);
         if (category === 'latest') {
             const {allProjects} = this.state;
             let newProjects = allProjects.reverse();
@@ -454,6 +459,7 @@ export default class Organisation extends React.Component{
                             itemRender={this.itemRender}
                             hideOnSinglePage={true}
                             showSizeChanger={false}
+                            current={this.state.currentPage}
                         />
                       
                       </div>
