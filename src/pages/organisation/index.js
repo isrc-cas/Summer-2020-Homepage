@@ -13,7 +13,8 @@ export default class Organisation extends React.Component{
             allProjects:[],
             timeProjects: [],
             displayProjects:[],
-            currentPage: 1
+            currentPage: 1,
+            totalProjects: 1
         }
     }
 
@@ -49,7 +50,7 @@ export default class Organisation extends React.Component{
         this.setState({
             allProjects: temp,
             isLoading:false,
-            pageNumber:temp.length
+            totalProjects:temp.length
         });
         var divContainer = [];
         temp.map((item,index)=>{
@@ -230,7 +231,7 @@ export default class Organisation extends React.Component{
     changePage(pageNo) {
         var divContainer = [];
         this.state.allProjects.map((item,index)=>{
-            if (index < pageNo*8 && index > (pageNo-1)*8) {
+            if (index < pageNo*10 && index > (pageNo-1)*10) {
                 divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url)) 
 
             }
@@ -296,7 +297,7 @@ export default class Organisation extends React.Component{
           })
         this.setState({
             displayProjects:divContainer,
-            pageNumber:divContainer.length,
+            totalProjects:divContainer.length,
             isLoading:false
           })
     }
@@ -439,9 +440,14 @@ export default class Organisation extends React.Component{
                             </div>
                             </div>
                             
-                            
+                            <div className="org-No">
+                                <span>共{this.state.totalProjects}个项目</span>
+                                <span className="org-pageNo">第{this.state.currentPage}页 / <span style={{color:'#999999'}}>共{Math.ceil(this.state.totalProjects / 10)}页</span></span>
+                             
+                            </div> 
 
                         </div>
+                        
                             {/* <div className="" onClick={()=>this.sortItemBy('hottest')}>最热</div> */}
                         
                         
@@ -453,7 +459,7 @@ export default class Organisation extends React.Component{
                         <Pagination 
                             onChange={page=>this.changePage(page)} 
                             defaultCurrent={1} 
-                            total={this.state.pageNumber} 
+                            total={this.state.totalProjects} 
                             style={{ width: 706, height: 50, marginTop: 20}}
                             itemRender={this.itemRender}
                             hideOnSinglePage={true}
