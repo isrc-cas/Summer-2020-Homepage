@@ -93,6 +93,11 @@ const logolistMap = {
             url:'http://ceph.org.cn/'
         },
         {
+            name:'春松客服',
+            img:'c_chunsong.jpg',
+            url:'https://github.com/chatopera/cosin'
+        },
+        {
             name:'elastos',
             img:'c_elastos.jpg',
             url:'https://www.elastos.org/'

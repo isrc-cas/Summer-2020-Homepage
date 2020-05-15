@@ -330,6 +330,7 @@ export default class Index extends React.Component{
                                                     <div className="indexHomeLiveListItemTitle" title={item.title}>{item.title}</div>
                                                     <div className="indexHomeLiveListItemName">
                                                     {
+                                    
                                                         item.profilelist.map((iteml,indexl)=>{
                                                             return (
                                                                 <span  key={indexl}>{iteml.name}</span>
