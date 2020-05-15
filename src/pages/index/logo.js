@@ -32,11 +32,11 @@ const logolistMap = {
             img:'wuhan2020.jpg',
             url:'https://community.wuhan2020.org.cn/'
         },
-        {
-            name:'芽木科技',
-            img:'c_yamukeji.jpg',
-            url:'http://yamukeji.com'
-        },
+        // {
+        //     name:'芽木科技',
+        //     img:'c_yamukeji.jpg',
+        //     url:''
+        // },
     ],
     technology:[
         // {

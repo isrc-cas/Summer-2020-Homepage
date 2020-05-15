@@ -4,6 +4,7 @@ import './index.css';
 import logolistMap from './logo.js';
 import { Carousel } from 'antd';
 import data from './../liveshow/data.json';
+import liveTwoCode from './../../img/index/twoCode.jpg';
 
 
 export default class Index extends React.Component{
@@ -340,7 +341,9 @@ export default class Index extends React.Component{
                                                     }</div>
                                                     <div className="indexHomeLiveListItemTime">{item.time}</div>
                                                     <div className="indexHomeLiveListItemText">直播时间 / 右侧可扫码观看 </div>
-                                                    <div className="indexHomeLiveListItemTwoCode"></div>
+                                                    <div className="indexHomeLiveListItemTwoCode">
+                                                        <img src={liveTwoCode} alt="直播二维码"/>
+                                                    </div>
                                                 </div>
                                             </div>
                                         )
