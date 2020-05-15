@@ -430,10 +430,10 @@ export default class Organisation extends React.Component{
                             <div className="org-search-bar-sort-wrapper">
                             
                             <div id="org-default" className="org-search-bar-sort orgClick" onClick={()=>this.sortItemBy('default')}>
-                                默认排序
+                                按社区顺序
                             </div>
                             <div id="org-time" className="org-search-bar-sort" onClick={()=>this.sortItemBy('latest')}>
-                                更新时间
+                                按更新时间
                                 <span id="time-down" className="org-arrow down-0"></span>
                                 <span id="time-up" className="org-arrow up-0"></span>
                                 
