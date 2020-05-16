@@ -629,6 +629,19 @@
             "domain_tag": [],
             "mail_list": "kubeedge@googlegroups.com",
             "email": "kubeedge@googlegroups.com"
+		},
+		{
+			"anchor":"/kernal-travel",
+            "img":"kernal.jpg",
+            "title":"Linux 内核之旅",
+            "project_url":"",
+            "url": "http://kerneltravel.net/",
+            "description": "Linux 内核爱好者的家园。",
+            "full_des": "Linux 内核之旅开源社区是一个完全自由和开放的平台，创建于2004年，重构于2020年，社区以国际开源社区的方式运作，所有人都可以参与到Linux内核之旅开源社区的共建中，您是贡献者，也是受益者。社区由网站、公众号、慕课、Github和视频网站五大模块构成，为Linux内核爱好者提供丰富的学习资源，恳请你的参与。",
+            "tech_tag": ["Linux内核","eBPF"],
+            "domain_tag": ["Linux内核","操作系统"],
+            "mail_list": "kerneltravel@groups.163.com",
+            "email": "liangjinrong111@163.com"
         },
         {
 			"anchor":"/mace",
