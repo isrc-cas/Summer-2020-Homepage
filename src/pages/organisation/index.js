@@ -250,7 +250,7 @@ export default class Organisation extends React.Component{
         console.log(this.state.currentPage);
         if (category === 'latest') {
             const {allProjects} = this.state;
-            let newProjects = allProjects;
+            let newProjects = allProjects.reverse();
             document.getElementById('org-default').setAttribute("class", "org-search-bar-sort");
             document.getElementById('org-time').setAttribute("class", "org-search-bar-sort orgClick");
 
