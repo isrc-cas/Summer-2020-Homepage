@@ -230,7 +230,7 @@ export default class Organisation extends React.Component{
     changePage(pageNo) {
         var divContainer = [];
         this.state.allProjects.map((item,index)=>{
-            if (index < pageNo*10 && index > (pageNo-1)*10) {
+            if (index < pageNo*10 && index >= (pageNo-1)*10) {
                 divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url)) 
 
             }
