@@ -1108,29 +1108,29 @@
                 {
                   "name": "比赛多赛制支持",
                   "difficulty": "中",
-                  "mentor": "",
-                  "contact": "",
+                  "mentor": "ceba",
+                  "contact": "ceba_robot@outlook.com",
                   "hot_index": 0,
                   "description": "Universal OJ 目前赛制支持的并不全面,目前仅完全的支持了 OI 赛制。本项目目标是为 Universal OJ 的比赛功能支持多赛制。",
-                  "update_time": "2020-05-14"
+                  "update_time": "2020-05-16"
                 },
                 {
                   "name": "数据合规相关功能",
                   "difficulty": "低",
-                  "mentor": "",
-                  "contact": "",
+                  "mentor": "TechCiel",
+                  "contact": "ciel+uoj@ciel.dev",
                   "hot_index": 0,
                   "description": "Universal OJ 目前没有删除帐号等功能,落后于快速发展的互联网隐私保护行业标准,也有一些合规风险（如 GDPR 、 CCPA 和中国的有关法律法规）。本项目的目标是为 Universal OJ 添加删除帐号、导出信息等数据合规相关功能。",
-                  "update_time": "2020-05-14"
+                  "update_time": "2020-05-16"
                 },
                 {
                   "name": "小工具集编写",
                   "difficulty": "低",
-                  "mentor": "",
-                  "contact": "",
+                  "mentor": "billchenchina",
+                  "contact": "billchenchina2001@gmail.com",
                   "hot_index": 0,
                   "description": "在用户进行算法学习时,会需要一些小工具,如：图的可视化、代码粘贴器。本项目目标是为 Universal OJ 添加小工具集。",
-                  "update_time": "2020-05-14"
+                  "update_time": "2020-05-16"
                 }
             ]
         },
