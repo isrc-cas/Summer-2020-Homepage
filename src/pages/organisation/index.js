@@ -209,10 +209,10 @@ export default class Organisation extends React.Component{
       document.getElementById(wrappers[num-1]).style.display = "block";
       document.getElementById(wrappers[2-num]).style.display = "none";
       if (num === 2) {
-        window.location.hash = "/organisations" + (window.location.hash.includes('?page=project') ? "" : "?page=project");
+        window.location.hash = "/organisations?page=project";
         this.getAllProjectList();
       } else {
-        window.location.hash = window.location.hash.includes('?page=project') ? window.location.hash.split('?page=project')[0] : window.location.hash;
+        window.location.hash = "/organisations";
       }
     }
     getOpensource(){
