@@ -258,13 +258,13 @@ export default class Organisation extends React.Component{
                 document.getElementById('time-down').setAttribute("class", "org-arrow down-1");
                 document.getElementById('time-up').setAttribute("class", "org-arrow up-0");
                 this.setState({
-                    allProjects: newProjects.sort((a,b)=>{ return a.update_time < b.update_time})
+                    allProjects: newProjects.sort((a,b)=>{ return a.update_time < b.update_time ? 1 : -1})
                 });
             } else {
                 document.getElementById('time-down').setAttribute("class", "org-arrow down-0");
                 document.getElementById('time-up').setAttribute("class", "org-arrow up-1");
                 this.setState({
-                    allProjects: newProjects.sort((a,b)=>{ return a.update_time > b.update_time})
+                    allProjects: newProjects.sort((a,b)=>{ return a.update_time > b.update_time ? 1 : -1})
                 });
             }
             
