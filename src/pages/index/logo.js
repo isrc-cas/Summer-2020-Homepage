@@ -118,6 +118,11 @@ const logolistMap = {
             url:'https://kubeedge.io'
         },
         {
+            name:'Linux内核之旅开源社区',
+            img:'c_Linux.jpg',
+            url:'http://kerneltravel.net/'
+        },
+        {
             name:'MACE',
             img:'c_mace.jpg',
             url:'https://github.com/XiaoMi/mace'
