@@ -1,6 +1,7 @@
 {
     "orgList":[
         {
+            "anchor":"/apache-apisix",
             "img":"ApacheAPISIX.jpg",
             "title":"Apache APISIX (incubating)",
             "project_url":"https://cwiki.apache.org/confluence/display/APISIX/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
@@ -51,6 +52,7 @@
             ]
         },
         {
+            "anchor":"/apache-ds",
             "img":"dolphin.jpg",
             "title":"Apache DolphinScheduler (incubating)",
             "project_url":"https://cwiki.apache.org/confluence/display/DOLPHINSCHEDULER/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
@@ -191,6 +193,7 @@
             ]
         },
         {
+            "anchor":"/apache-pulsar",
             "img":"pulsar.jpg",
             "title":"Apache Pulsar",
             "project_url": "https://github.com/apache/pulsar/wiki/Open-Source-Promotion-Plan--Summer-2020-(ISCAS&openEuler-Community)",
@@ -203,6 +206,7 @@
             "email": "dev@pulsar.apache.org"
         },
         {
+            "anchor":"/apache-sharding",
             "img":"sharding.jpg",
             "title":"Apache ShardingSphere",
             "project_url":"https://cwiki.apache.org/confluence/display/SHARDINGSPHERE/Open+Source+Promotion+Plan+-+Summer+2020",
@@ -226,6 +230,7 @@
             ]
         },
         {
+            "anchor":"/apache-sw",
             "img":"ApacheSkyWalking.jpg",
             "title":"Apache SkyWalking",
             "project_url":"https://cwiki.apache.org/confluence/display/SKYWALKING/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
@@ -357,6 +362,7 @@
             ]
         },
         {
+			"anchor":"/arctern",
             "img":"Arctern.jpg",
             "title":"Arctern",
             "project_url":"",
@@ -369,6 +375,7 @@
             "email": "community@zilliz.com"
         },
         {
+			"anchor":"/aosc",
             "img":"aosc.jpg",
             "title":"安同开源社区（AOSC）",
             "project_url":"https://wiki.aosc.io/zh/ospp-2020-projects",
@@ -430,6 +437,7 @@
             ]
         },
         {
+			"anchor":"/casbin",
             "img":"casbin.jpg",
             "title":"Casbin",
             "project_url":"https://github.com/casbin/Summer2020",
@@ -453,6 +461,7 @@
             ]
         },
         {
+			"anchor":"/ceph",
             "img":"ceph.jpg",
             "title":"Ceph 中国",
             "project_url":"http://ceph.org.cn/2020/05/09/open-source-promotion-plan-summer-2020/",
@@ -485,47 +494,49 @@
             ]
         },
         {
-          "img":"chatopera.jpg",
-          "title":"春松客服",
-          "project_url":"https://github.com/chatopera/cosin/wiki/Open-Source-Promotion-Plan---Summer-2020",
-          "url": "https://github.com/chatopera/cosin",
-          "description": "快速而低成本的智能客服系统。",
-          "full_des": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低。",
-          "tech_tag": ["企业聊天机器人","智能客服","心理咨询","智能问答","自然语言处理","人工智能","开源客服系统"],
-          "domain_tag": ["人工智能","聊天机器人"],
-          "mail_list": "QQ群 185659917",
-          "email": "service@chatopera.com",
-          "project_list": [
-              {
-                "name": "基于春松客服的智能客服开发",
-                "difficulty": "低",
-                "mentor": "王海良、向宇、张凯",
-                "contact": "info@chatopera.com",
-                "hot_index": 0,
-                "description": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低；基于春松客服开发一套机器人客服智能客服，春松客服本身不具有智能客服的特点，但是其灵活独特的插件机制，可以让使用者便捷的开发具有AI特质的智能客服。既可以对接自己开发的机器人或者第三方的机器人接口，如Chatopera；机器人客服可以7 * 24小时的高效率的回复访客的问题。",
-                "update_time": "2020-05-15"
-              },
-              {
-                "name": "春松客服的接口开发",
-                "difficulty": "中",
-                "mentor": "王海良、向宇、张凯",
-                "contact": "info@chatopera.com",
-                "hot_index": 0,
-                "description": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低；春松客服基础功能目前是没有更多的接口及SDK，所以希望各位同学可以参考春松客服现有功能实现其SDK，包括IOS、Android、JS端以及RESTfulAPI。",
-                "update_time": "2020-05-15"
-              },
-              {
-                "name": "春松客服的渠道插件开发",
-                "difficulty": "高",
-                "mentor": "王海良、向宇、张凯",
-                "contact": "info@chatopera.com",
-                "hot_index": 0,
-                "description": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低；春松客服是一个先进的客服系统。其目标是成为客服系统行业中的一个“操作系统”，企业、开发者都可以基于此操作系统开发各种客服业务的“应用”；春松客服系统被大量的下载和使用，目前除了官方发布的基础功能外，非常期待社区开发者企业可以push更多的插件应用，让其更加的丰富，功能更加的强大，普惠更多的人；要在春松客服操作系统中开发插件应用，需要遵循其插件化开发方法，具体参考插件的安装和源码参考；本次活动官方推荐但不限于开发如下的插件：聊天渠道的插件如：微信公众号/企业微信/钉钉/微博/飞书/facebook/skype/Email/电话等等；报表管理",
-                "update_time": "2020-05-15"
-              }
-          ]
+			"anchor":"/chatopera",
+			"img":"chatopera.jpg",
+			"title":"春松客服",
+			"project_url":"https://github.com/chatopera/cosin/wiki/Open-Source-Promotion-Plan---Summer-2020",
+			"url": "https://github.com/chatopera/cosin",
+			"description": "快速而低成本的智能客服系统。",
+			"full_des": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低。",
+			"tech_tag": ["企业聊天机器人","智能客服","心理咨询","智能问答","自然语言处理","人工智能","开源客服系统"],
+			"domain_tag": ["人工智能","聊天机器人"],
+			"mail_list": "QQ群 185659917",
+			"email": "service@chatopera.com",
+			"project_list": [
+				{
+					"name": "基于春松客服的智能客服开发",
+					"difficulty": "低",
+					"mentor": "王海良、向宇、张凯",
+					"contact": "info@chatopera.com",
+					"hot_index": 0,
+					"description": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低；基于春松客服开发一套机器人客服智能客服，春松客服本身不具有智能客服的特点，但是其灵活独特的插件机制，可以让使用者便捷的开发具有AI特质的智能客服。既可以对接自己开发的机器人或者第三方的机器人接口，如Chatopera；机器人客服可以7 * 24小时的高效率的回复访客的问题。",
+					"update_time": "2020-05-15"
+				},
+				{
+					"name": "春松客服的接口开发",
+					"difficulty": "中",
+					"mentor": "王海良、向宇、张凯",
+					"contact": "info@chatopera.com",
+					"hot_index": 0,
+					"description": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低；春松客服基础功能目前是没有更多的接口及SDK，所以希望各位同学可以参考春松客服现有功能实现其SDK，包括IOS、Android、JS端以及RESTfulAPI。",
+					"update_time": "2020-05-15"
+				},
+				{
+					"name": "春松客服的渠道插件开发",
+					"difficulty": "高",
+					"mentor": "王海良、向宇、张凯",
+					"contact": "info@chatopera.com",
+					"hot_index": 0,
+					"description": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低；春松客服是一个先进的客服系统。其目标是成为客服系统行业中的一个“操作系统”，企业、开发者都可以基于此操作系统开发各种客服业务的“应用”；春松客服系统被大量的下载和使用，目前除了官方发布的基础功能外，非常期待社区开发者企业可以push更多的插件应用，让其更加的丰富，功能更加的强大，普惠更多的人；要在春松客服操作系统中开发插件应用，需要遵循其插件化开发方法，具体参考插件的安装和源码参考；本次活动官方推荐但不限于开发如下的插件：聊天渠道的插件如：微信公众号/企业微信/钉钉/微博/飞书/facebook/skype/Email/电话等等；报表管理",
+					"update_time": "2020-05-15"
+				}
+			]
         },
         {
+			"anchor":"/elastos",
             "img":"elastos.jpg",
             "title":"Elastos 亦来云",
             "project_url":"https://developer.elastos.org/discover/hackathons/202005_beijing/",
@@ -594,6 +605,7 @@
             ]
         },
         {
+			"anchor":"/emacs",
             "img":"emacs.jpg",
             "title":"GNU Emacs（中文）",
             "project_url":"https://manateelazycat.github.io/eaf/emacs/2020/05/10/eaf-community.html",
@@ -606,6 +618,7 @@
             "email": "emacs-devel@gnu.org"
         },
         {
+			"anchor":"/kube-edge",
             "img":"KubeEdge.jpg",
             "title":"KubeEdge",
             "project_url":"",
@@ -618,6 +631,7 @@
             "email": "kubeedge@googlegroups.com"
         },
         {
+			"anchor":"/mace",
             "img":"mace.jpg",
             "title":"MACE",
             "project_url":"https://github.com/XiaoMi/mace/issues/643",
@@ -630,6 +644,7 @@
             "email": "https://github.com/XiaoMi/mace/issues"
         },
         {
+			"anchor":"/maskbook",
             "img":"maskbook.jpg",
             "title":"Maskbook",
             "project_url":"https://github.com/dimensiondev/maskbook/issues/1091",
@@ -654,6 +669,7 @@
             ]
         },
         {
+			"anchor":"/mind-spore",
             "img":"MindSpore.jpg",
             "title":"MindSpore",
             "project_url":"",
@@ -666,6 +682,7 @@
             "email": "contact@mindspore.cn"
         },
         {
+			"anchor":"/milvus",
             "img":"milvus.jpg",
             "title":"Milvus",
             "project_url":"",
@@ -678,6 +695,7 @@
             "email": "community@zilliz.com"
         },
         {
+			"anchor":"/oi-wiki",
             "img":"oi.jpg",
             "title":" OI Wiki",
             "project_url": "https://git.io/summer2020",
@@ -730,6 +748,7 @@
             ]
         },
         {
+			"anchor":"/opencv",
             "img":"opencv.jpg",
             "title":"OpenCV China",
             "project_url":"http://www.opencv.org.cn/?page_id=411",
@@ -789,6 +808,7 @@
             ]
         },
         {
+			"anchor":"/openeuler",
             "img":"openeuler.jpg",
             "title":"openEuler Community",
             "project_url":"https://gitee.com/openeuler/marketing/tree/master/events/summer2020",
@@ -801,6 +821,7 @@
             "email": "contact@openeuler.org"
         },
         {
+			"anchor":"/simple-xx",
             "img":"simpleX.jpg",
             "title":"Simple-XX",
             "project_url":"https://github.com/Simple-XX/summer2020",
@@ -860,6 +881,7 @@
             ]
         },
         {
+			"anchor":"/rt-thread",
             "img":"RT-Thread.jpg",
             "title":"RT-Thread",
             "project_url":"https://www.rt-thread.org/news/174.html",
@@ -953,6 +975,7 @@
             ]
         },
         {
+			"anchor":"/tinylab",
             "img":"tinylab.jpg",
             "title":"泰晓科技",
             "project_url":"http://tinylab.org/summer2020",
@@ -1006,6 +1029,7 @@
             ]
         },
         {
+			"anchor":"/megengine",
             "img":"megEngine.jpg",
             "title":"天元（MegEngine）",
             "project_url":"https://github.com/MegEngine/Resource/blob/master/Open_Source_Promotion_Plan-Summer_2020_MegEngine.md",
@@ -1017,20 +1041,21 @@
             "mail_list": "megengine.org.cn",
             "email": "megengine-support@megvii.com"
         }, 
-        
         {
-          "img":"td.jpg",
-          "title":"TDEngine",
-          "project_url":"",
-          "url": "https://www.taosdata.com/cn/",
-          "description": "开源物联网、车联网等的大数据平台。",
-          "full_des": "北京涛思数据科技有限公司(TAOS Data) 瞄准日益增长的物联网数据市场，专注时序空间大数据的存储、查询、分析和计算。不依赖任何开源或第三方软件，开发了拥有自主知识产权、自主可控的高性能、可伸缩、高可靠、零管理的物联网大数据平台TDengine，可广泛运用于物联网、车联网、工业互联网、IT运维等领域。公司已经申请多项技术发明专利，且全部提交PCT专利申请。涛思数据采用AGPL许可证，已经将TDengine的内核(存储和计算引擎)以及社区版100%开源。",
-          "tech_tag": ["C", "Java", "Go", "PHP", "JavaScript", "Python", "SQL"],
-          "domain_tag": ["物联网","车联网","工业互联网","IT运维"],
-          "mail_list": "tdengine@taosdata.com",
-          "email": "tdengine@taosdata.com"
+			"anchor":"/tdengine",
+			"img":"td.jpg",
+			"title":"TDEngine",
+			"project_url":"",
+			"url": "https://www.taosdata.com/cn/",
+			"description": "开源物联网、车联网等的大数据平台。",
+			"full_des": "北京涛思数据科技有限公司(TAOS Data) 瞄准日益增长的物联网数据市场，专注时序空间大数据的存储、查询、分析和计算。不依赖任何开源或第三方软件，开发了拥有自主知识产权、自主可控的高性能、可伸缩、高可靠、零管理的物联网大数据平台TDengine，可广泛运用于物联网、车联网、工业互联网、IT运维等领域。公司已经申请多项技术发明专利，且全部提交PCT专利申请。涛思数据采用AGPL许可证，已经将TDengine的内核(存储和计算引擎)以及社区版100%开源。",
+			"tech_tag": ["C", "Java", "Go", "PHP", "JavaScript", "Python", "SQL"],
+			"domain_tag": ["物联网","车联网","工业互联网","IT运维"],
+			"mail_list": "tdengine@taosdata.com",
+			"email": "tdengine@taosdata.com"
         },
         {
+			"anchor":"/tuna",
             "img":"tuna.jpg",
             "title":"清华大学 TUNA 协会",
             "project_url":"https://tuna.moe/blog/2020/ospp-summer-2020/",
@@ -1094,6 +1119,7 @@
             ]
         },        
         {
+			"anchor":"/uoj",
             "img":"oj.jpg",
             "title":"Universal OJ",
             "project_url":"https://git.io/uojsummer2020",
@@ -1135,6 +1161,7 @@
             ]
         },
         {
+			"anchor":"/ustclug",
             "img":"ustclug.jpg",
             "title":"USTCLUG",
             "project_url":"https://news.ustclug.org/2020/05/opensource-summer-projects/",
@@ -1169,6 +1196,7 @@
               ]
         },
         {
+			"anchor":"/volcano",
             "img":"vol.jpg",
             "title":"Volcano",
             "project_url":"",
@@ -1181,6 +1209,7 @@
             "email": "volcano-sh@googlegroups.com"
         },
         {
+			"anchor":"/xlab",
             "img":"xlab.jpg",
             "title":"X-Lab",
             "project_url":"",

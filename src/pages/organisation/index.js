@@ -21,9 +21,11 @@ export default class Organisation extends React.Component{
     componentDidMount() {
         window.scrollTo(0,0);
         this.getAllProjectList();
-        const location = window.location.hash.split("page=");
-        if (location.length > 1 && location[1]==='project') {
+        const location = window.location.hash;
+        if (location.split("page=").length > 1 && location.split("page=")[1]==='project') {
             this.switchTab(2);
+        } else if (location.split("/organisations").length > 1 && location.split("/organisations")[1].includes("/")) {
+            this.showModal(location.split("/organisations")[1], true);
         }
     }
     renderProjects () {
@@ -79,20 +81,21 @@ export default class Organisation extends React.Component{
 
 
     }
-    showModal(index, project_url, isDetail) {
-        if (window.innerWidth < 320) {
-            this.openInNewTab(project_url);
-        }
-        else if (document.getElementById(index+"-tooltip").style.display && document.getElementById(index+"-tooltip").style.display !== 'none' && !isDetail) {
+    showModal(anchor, isDetail) {
+        let index = this.state.data.orgList.findIndex(obj => obj.anchor === anchor);
+        
+        if (document.getElementById(index+"-tooltip").style.display && document.getElementById(index+"-tooltip").style.display !== 'none' && !isDetail) {
             document.getElementById(index+"-tooltip").style.display = 'none';
         }
         else {
             this.state.data.orgList.map((item,index) => {
+                if (window.innerWidth < 320) {
+                    this.openInNewTab(item.project_url);
+                }
                 document.getElementById(index+"-tooltip").style.display = 'none';
                 if (isDetail) {
-                    
+                    window.location.hash = "/organisations" + (anchor ? anchor : "");
                     document.getElementById(index+"-orgListItem").style.display = 'none';
-
                 }
                 return 0;
             });
@@ -115,22 +118,18 @@ export default class Organisation extends React.Component{
                 document.getElementById(index+"-tooltip").style.left = '0';
             }
             if (isDetail) {
-                // alert('scroll')
-                
                 document.getElementById(index+"-tooltip").setAttribute("class", "org-tooltip org-detail");
                 document.getElementById(index+"-tooltip").style.display = 'block';
                 document.getElementById("orgListOWrapper").style.display = 'none';
                 document.getElementById("orgListNavBar").style.display = 'block';
                 window.scrollTo(0,0);
-
             } else {
                 document.getElementById(index+"-tooltip").setAttribute("class", "org-tooltip");
             }
-
-
         }
     }
     closeModal (index, isDetail) {
+        window.location.hash = "/organisations";
         document.getElementById(index+"-tooltip").style.display = 'none';
         if (isDetail) {
           document.getElementById("orgListOWrapper").style.display = 'block';
@@ -345,7 +344,7 @@ export default class Organisation extends React.Component{
                             return (
                                 <div key={index}>
                                     {/* <div className="orgListItem" key={index} onClick={() => this.openInNewTab(item.project_url ? item.project_url : item.url)}> */}
-                                    <div className="orgListItem" key={index} onClick={() => this.showModal(index, item.project_url ? item.project_url : item.url)} id={index+"-orgListItem"}>
+                                    <div className="orgListItem" key={index} onClick={() => this.showModal(item.anchor)} id={index+"-orgListItem"}>
                                             <div
                                                 className="orgListItemImage"
                                                 style={{backgroundImage:"url("+require("./../../img/organisation/"+item.img) + ")"}}
@@ -389,7 +388,7 @@ export default class Organisation extends React.Component{
                                                 <div className="orgTagListItem tech" key={'tech-'+index}>{item}</div>
                                             )
                                         }):''}</div>
-                                        <div className="tooltip-detail-button" onClick={() => this.showModal(index,item.project_url ? item.project_url : item.url, true)}>查看详情
+                                        <div className="tooltip-detail-button" onClick={() => this.showModal(item.anchor, true)}>查看详情
                                         <img src={require("./../../img/organisation/arrow.png")} alt=">"></img>
                                         </div>
                                         <div className="tooltip-project-wrapper tooltip-detail">
