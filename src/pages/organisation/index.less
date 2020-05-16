@@ -120,7 +120,6 @@
             }
             #orgListItemTitle-1 {
                 margin-top: -10%;
-                font-size: 24px;
                 letter-spacing: .00005em;
                 overflow: hidden;
                 height: 3em;
@@ -276,7 +275,6 @@
                 .org-search-bar-wrapper {
                     width: 1200px;
                     margin-top: 20px;
-                    // height: 60px;
                     font-size: 20px;
                     .org-search-bar {
                         display: inline-block;
@@ -426,7 +424,6 @@
                 .orgProjectDes {
                     line-height: 25px;
                     height: 125px;
-                    // height: 3.6em;
                     color: rgb(102,102,102);
                     font-size: 16px;
                     text-overflow: ellipsis;
@@ -442,7 +439,6 @@
             }
             @media screen and (min-width: 100px)and (max-width: 700px){
                 .org-tooltip {
-                    // width: 375px;
                     height: 100%;
                     padding: 20px;
                     margin: 20px auto;
@@ -451,7 +447,6 @@
                     box-sizing: border-box;
                     .tooltip-divider {
                         width: 90vw;
-                        // padding: 0;
                         margin-left: -20px;
                     }
                     .tooltip-title {
@@ -483,12 +478,17 @@
         @media screen and (min-width: 100px)and (max-width: 700px){
             .orgList .org-detail .org-search-bar-wrapper {
                 height: 100%;
-                .org-search-bar-sort-wrapper, .org-pageNo {
+                .org-search-bar-sort-wrapper {
                     display: block;
                     float: unset;
                     .org-search-bar-sort {
                         margin-left: 0;
+                        margin-right: 20px;
                     }
+                }
+                .org-pageNo {
+                    float: unset;
+                    margin-left: 20px;
                 }
                 #org-default::after {
                     border: none;
