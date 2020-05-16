@@ -63,7 +63,7 @@ export default class LiveShow extends React.Component{
                                                 <div className="LiveShowItemHeaderTitleTwo">{item.time}</div>
                                                 <div 
                                                      onClick={()=>{this.goLogoLink(this.state.data.liveurl)}}
-                                                    className="LiveShowItemHeaderButton" >观看直播></div>
+                                                    className="LiveShowItemHeaderButton" >观看直播</div>
                                             </div>
                                             <div className="LiveShowItemHeaderTwoCode">
                                                 <img src={liveTwoCode} alt="直播二维码"/>

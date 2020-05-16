@@ -353,7 +353,7 @@ export default class Index extends React.Component{
                                 
                             </div>
                        </div>
-                       <div onClick={()=>{this.goLink('liveshow')}} className="indexHomeLiveButtonMore">更多讲座></div>
+                       <div onClick={()=>{this.goLink('liveshow')}} className="indexHomeLiveButtonMore">更多讲座</div>
 
                    </div>
 

@@ -86,6 +86,10 @@
                 color: #ffffff;
                 margin:50px auto 0;
                 cursor: pointer;
+                transition: all 0.3s;
+            }
+            .indexHomeOneDakaButtonMore:hover{
+                background-color: rgba(189, 181, 181, 0.1);
             }
                  
         }
@@ -398,8 +402,21 @@
             letter-spacing: 0px;
             color: #ffffff;
             margin: 37px auto 46px;
-            text-align: center;
+            padding: 0 26px;
             cursor: pointer;
+            position: relative;
+            transition: all 0.3s;
+        }
+        .indexHomeLiveButtonMore:hover{
+            background-color: #4040e6;
+        }
+        .indexHomeLiveButtonMore::before{
+            content: url(./../../img/index/anniu.png);
+            width: 10px;
+            height: 18px;
+            position: absolute;
+            right: 22px;
+            top:2px;
         }
         .indexHomeLiveListContentButtonLeft,
         .indexHomeLiveListContentButtonRight{
