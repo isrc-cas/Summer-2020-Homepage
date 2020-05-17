@@ -605,7 +605,7 @@
             ]
         },
         {
-			"anchor":"/emacs",
+            "anchor":"/emacs",
             "img":"emacs.jpg",
             "title":"GNU Emacs（中文）",
             "project_url":"https://manateelazycat.github.io/eaf/emacs/2020/05/10/eaf-community.html",
@@ -615,7 +615,189 @@
             "tech_tag": ["GNU","Emacs","Editor","Editing Environment","Lisp"],
             "domain_tag": ["编辑器","编程环境"],
             "mail_list": "emacs-devel@gnu.org",
-            "email": "emacs-devel@gnu.org"
+            "email": "emacs-devel@gnu.org",
+            "project_list": [
+              {
+                "name": "Core: support popup keybinding help layer.",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              },
+              {
+                "name": "Core: use cross-platform IPC instead DBus, WebSocket's async model is not suitable for replacement.",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              },
+              {
+                "name": "Core&Mac: make Qt's QGraphicsSence technologic support Mac platform.",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              },
+              {
+                "name": "Core&Mac: find Mac native cross-process reparent API to instead QWindow::setParent.",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              },
+              {
+                "name": "Core: Use QTest&QTouchEventSequence simulate touch scroll event, to control all browser base apps.",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              },
+              {
+                "name": "Browser: ad block plugin.",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              },
+              {
+                "name": "Browser: auto fill password.",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              },
+              {
+                "name": "Browser: smart select text area by cursor.",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              },
+              {
+                "name": "Mindmap: support multi-line insert dons nodes.",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              },
+              {
+                "name": "Mindmap: change node color, pick from color list.",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              },
+              {
+                "name": "Mindmap: export org with correct indent level.",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              },
+              {
+                "name": "Mermaid: support dark mode.",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              },
+              {
+                "name": "Terminal: recive exit signal to close terminal buffer.",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              },
+              {
+                "name": "Terminal: add change directory signal in node-pty, and change Emacs default-directory variable real-time.",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              },
+              {
+                "name": "Terminal: sometimes terminal is blank, because server is not ready, we need refresh page after server ready.",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              },
+              {
+                "name": "Terimnal: Fix error in connection establishment: net::ERR_CONNECTION_REFUSED",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              },
+              {
+                "name": "PDF: inverted background color same as brower's dark mode.",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              },
+              {
+                "name": "PDF: jump to current position when popup outline.",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              },
+              {
+                "name": "RSS Reader: best use JavaScript rewrite one, Qt version is too ugly.",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              },
+              {
+                "name": "Use MPD and JavaScript build music player. ",
+                "difficulty": "",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-17"
+              }
+            ]
         },
         {
 			"anchor":"/kube-edge",
