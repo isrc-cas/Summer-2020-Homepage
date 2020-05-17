@@ -38,7 +38,7 @@ export default class Organisation extends React.Component{
         this.state.data.orgList.map((item,index)=>{
         if (item.project_list) {
             item.project_list.map((item1,index1)=>{
-                if (item1.name !== "" && item1.mentor !== "") {
+                if (item1.name !== "" && item1.mentor !== "" && item1.difficulty !== "") {
                     item1.title= item.title;
                     item1.project_url = item.project_url || item.url;
                     item1.index = index;
