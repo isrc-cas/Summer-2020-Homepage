@@ -96,6 +96,7 @@ export default class Organisation extends React.Component{
                 document.getElementById(index+"-tooltip").style.display = 'none';
                 if (isDetail) {
                     window.location.hash = "/organisations" + (anchor ? anchor : "");
+                    window.location.href = window.location.protocol + "//" + window.location.host + window.location.pathname + "?" + window.location.hash;
                     document.getElementById(index+"-orgListItem").style.display = 'none';
                 }
                 return 0;
