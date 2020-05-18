@@ -1,7 +1,7 @@
 import React from 'react';
-import data from './data.json';
+import data from './data.js';
 import './index.less';
-import liveTwoCode from './../../img/index/twoCode.jpg';
+import LiveModal from './modal.js'
 
 
 export default class LiveShow extends React.Component{
@@ -12,9 +12,7 @@ export default class LiveShow extends React.Component{
             data,
         }
     }
-    componentDidMount() {
-        window.scrollTo(0,0);
-    }
+
 
     goLogoLink(url){
         if(url){
@@ -50,47 +48,27 @@ export default class LiveShow extends React.Component{
                 </div>
                 <div className="LiveShowWrapper">
                     <div className="LiveShowContent content1200">
+                        <div className="LiveShowContentTitle">即将直播</div>
                         {
                             this.state.data.speechlist.map((item,index)=>{
                                 return (
-                                    <div className="LiveShowItem" key={index}>
-                                        <div className="LiveShowItemHeader">
-                                            <div 
-                                                 style={{backgroundImage:"url("+require("./../../img/index/"+item.profilelist[0].imgurl) + ")"}}
-                                                className="LiveShowItemHeaderImage"></div>
-                                            <div className="LiveShowItemHeaderTitle">
-                                                <div className="LiveShowItemHeaderTitleOne">{item.title}</div>
-                                                <div className="LiveShowItemHeaderTitleTwo">{item.time}</div>
-                                                <div 
-                                                     onClick={()=>{this.goLogoLink(this.state.data.liveurl)}}
-                                                    className="LiveShowItemHeaderButton" >观看直播</div>
-                                            </div>
-                                            <div className="LiveShowItemHeaderTwoCode">
-                                                <img src={liveTwoCode} alt="直播二维码"/>
-                                                <span className="mobiledisplaynone">可扫码观看 </span>
-                                            </div>
-                                        </div>
-                                        {
-                                            item.profilelist.map((iteml,indexl)=>{
-                                                return(
-                                                    <div className="LiveShowItemProfile" key={indexl}>
-                                                        <span className="LiveShowItemProfileName">{iteml.name}:</span><span className="LiveShowItemProfileContent">&nbsp;&nbsp;{iteml.profile}</span>
-                                                    </div>
-                                                )
-                                            })
-                                        }
-                                        
-                                        {
-                                            item.speechcontent?
-                                            <div className="LiveShowItemProfile">
-                                                <span className="LiveShowItemProfileName">议题简介:</span>
-                                        <span className="LiveShowItemProfileContent">&nbsp;&nbsp;{item.speechcontent}</span>
-                                            </div>
-                                            :
-                                            ""
-                                        }
+                                    item.ppt?"":
+                                    <LiveModal 
+                                    key = {index}
+                                    item ={item}/>
 
-                                    </div>
+                                )
+                            })
+                        }
+                        <div className="LiveShowContentTitle">历史直播</div>
+                        {
+                            this.state.data.speechlist.map((item,index)=>{
+                                return (
+                                    item.ppt?
+                                    <LiveModal 
+                                    key = {index}
+                                    flag = "over"
+                                    item ={item}/>:""
 
                                 )
                             })

@@ -117,21 +117,7 @@ export default class Howitworks extends React.Component{
                        <div className="HowitworksTimelineList" >
                        第一期将在5月16日直播，请关注官网和公众号消息， <span onClick={()=>{this.goLink('liveshow')}}>点击此处查看讲座信息。</span>
                       
-                       
-                                {/* <div className="HowitworksTimelineItem">
-                                    <div className="HowitworksTimelineItemIcon"></div>
-                                    <div className="HowitworksTimelineItemCons">
-                                        <div className="HowitworksTimelineItemTitle">5月15日</div>
-                                        <div className="HowitworksTimelineItemText">“开源大咖”系列讲座开始，我们将邀请合作的开源社区的技术大牛进行讲座。</div>
-                                    </div>
-                                </div>
-                                <div className="HowitworksTimelineItem">
-                                    <div className="HowitworksTimelineItemIcon"></div>
-                                    <div className="HowitworksTimelineItemCons">
-                                        <div className="HowitworksTimelineItemTitle">10月30日</div>
-                                        <div className="HowitworksTimelineItemText">“开源大咖”系列讲座结束</div>
-                                    </div>
-                                </div> */}
+                    
                        </div>
                     </div>
                </div>
