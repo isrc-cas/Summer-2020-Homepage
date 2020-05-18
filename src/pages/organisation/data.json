@@ -978,7 +978,7 @@
             "anchor":"/milvus",
             "img":"milvus.jpg",
             "title":"Milvus",
-            "project_url":"",
+            "project_url":"https://github.com/milvus-io/community/tree/master/Events",
             "url": "https://www.milvus.io/cn/",
             "description": "开源的特征向量相似度搜索引擎。",
             "full_des": "Milvus 是一款开源的特征向量相似度搜索引擎,具有使用方便、实用可靠、易于扩展、稳定高效和搜索迅速等特点。Milvus 已经被广泛应用于多个领域,其中包括图像处理、机器视觉、自然语言处理、语音识别、推荐系统以及新药发现等。",
