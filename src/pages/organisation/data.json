@@ -196,7 +196,7 @@
             "anchor":"/apache-pulsar",
             "img":"pulsar.jpg",
             "title":"Apache Pulsar",
-            "project_url": "https://github.com/apache/pulsar/wiki/Open-Source-Promotion-Plan--Summer-2020-(ISCAS&openEuler-Community)",
+            "project_url": "https://github.com/apache/pulsar/wiki/Open-Source-Promotion-Plan---Summer-2020-Apache-Pulsar-Tasks",
             "url": "http://pulsar.apache.org/",
             "description": "雅虎开源，下一代分布式的消息系统。",
             "full_des": "Apache Pulsar 是云原生的下一代发布订阅消息系统和流数据平台。Pulsar 用于解决现有开源消息系统的不足，助力 Yahoo 的主要应用，如 Yahoo Mail、Yahoo Finance、Yahoo Sports、Flickr、Gemini 广告平台和 Yahoo 的分布式键值存储系统 Sherpa。Pulsar 于 2016 年底开源，目前是 Apache 软件基金会的顶级项目。",
