@@ -50,10 +50,7 @@ export default class Contactus extends React.Component{
     goLink(url){
         window.open(url)
     }
-    componentDidMount() {
-        window.scrollTo(0,0);
-    }
-
+    
  
 
 

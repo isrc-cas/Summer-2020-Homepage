@@ -3,7 +3,7 @@ import './index.less';
 import './index.css';
 import logolistMap from './logo.js';
 import { Carousel } from 'antd';
-import data from './../liveshow/data.json';
+import data from '../liveshow/data';
 import liveTwoCode from './../../img/index/twoCode.jpg';
 
 
@@ -47,7 +47,7 @@ export default class Index extends React.Component{
        
     }
     componentDidMount() {
-        window.scrollTo(0,0); 
+       
         let $list = document.getElementsByClassName("indexHomeLiveList")[0] 
         $list.style.transform = 'translateX(0)'
     }
@@ -280,23 +280,19 @@ export default class Index extends React.Component{
                     </Carousel>
 
                </div>
-               <div className="indexHomeSecond">
-                    {/* <div> */}
-                        <div className="indexHomeSecondText ">
-                            <span>我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，促进开源软件在国内的发展</span>
-                            <br className="mobiledisplaynone"/>
-                            <span>和优秀开源软件社区建设，增加开源项目在国内的活跃度，在开源领域与世界接轨。</span>
-                        </div>
-                        <div className="indexHomeSecondWrapper content1200">
-                            <div className="indexHomeSecondTextCons">
-                                
-                                    {this.getTextTwo()}
+               <div className="indexHomeSecond">        
+                    <div className="indexHomeSecondText ">
+                        <span>我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，促进开源软件在国内的发展</span>
+                        <br className="mobiledisplaynone"/>
+                        <span>和优秀开源软件社区建设，增加开源项目在国内的活跃度，在开源领域与世界接轨。</span>
+                    </div>
+                    <div className="indexHomeSecondWrapper content1200">
+                        <div className="indexHomeSecondTextCons">
                             
-                            </div>
+                                {this.getTextTwo()}
+                        
                         </div>
-
-
-                    {/* </div>  */}
+                    </div>               
                </div>
                <div className="indexHomeThirdWrapper content1200">
                     <div className="indexHomeThirdButton">
@@ -322,7 +318,8 @@ export default class Index extends React.Component{
                                 {
                                     this.state.data.speechlist.map((item,index)=>{
                                         return (
-                                            <div className="indexHomeLiveListItem" key={index} onClick={()=>{this.liveUrl(index)}}>
+                                           !item.ppt?
+                                           <div className="indexHomeLiveListItem" key={index} onClick={()=>{this.liveUrl(index)}}>
                                                 <div 
                                                     style={{backgroundImage:"url("+require("./../../img/index/"+item.profilelist[0].imgurl) + ")"}}
                                                     className="indexHomeLiveListItemImage">                                                   
@@ -337,7 +334,7 @@ export default class Index extends React.Component{
                                                                 <span  key={indexl}>{iteml.name}</span>
                                                             )
                                                         })
-                                                       
+                                                        
                                                     }</div>
                                                     <div className="indexHomeLiveListItemTime">{item.time}</div>
                                                     <div className="indexHomeLiveListItemText">直播时间 / 右侧可扫码观看 </div>
@@ -345,7 +342,7 @@ export default class Index extends React.Component{
                                                         <img src={liveTwoCode} alt="直播二维码"/>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div>:""
                                         )
 
                                     })
@@ -361,9 +358,6 @@ export default class Index extends React.Component{
 
                <div className="indexHomeThird">
                         <div className="indexHomeThirdWrapper content1200">
-                            {/* <div className="indexHomeThirdButton">
-                                {this.getButtons()}
-                            </div> */}
                             <div className="indexHomeThirdTitle">主办单位</div>
                             <div className="indexHomeOrList holder">
                                     {this.getOrList(this.state.logoMain.holder)}
