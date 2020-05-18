@@ -461,7 +461,7 @@ export default class Organisation extends React.Component{
                             onChange={page=>this.changePage(page)} 
                             defaultCurrent={1} 
                             total={this.state.totalProjects} 
-                            style={{ width: 706, height: 50, marginTop: 20}}
+                            style={{ height: 50, marginTop: 20}}
                             itemRender={this.itemRender}
                             hideOnSinglePage={true}
                             showSizeChanger={false}

@@ -433,6 +433,15 @@
                 "hot_index": 0,
                 "description": "在 Wayland 及如 GNOME 等现代桌面的推动作用下，libinput 即将取代当前诸多碎片化的 X11 输入驱动（如 evdev 及 synaptics，甚至是更老的 mouse 及 keyboard），为用户及开发者带来一定便利。但在 libinput 的实现过程中，上游开发者由于人力有限，选择抛弃了一些他们主观认为不常见的硬件特性的支持。而被抛弃的特性之一是“划圈滚动”，即在触摸板上用手指划圈滚动（类似 iPod 的操作），这一特性在滚动长页面时可有效提高操作精度并降低疲劳。",
                 "update_time": "2020-05-13"
+              },
+              {
+                "name": "半自动软件包退休、封存与整理系统",
+                "difficulty": "低",
+                "mentor": "张顺然 Staph. aureus",
+                "contact": "staph@aosc.io",
+                "hot_index": 0,
+                "description": "软件包更新在现代社会已经不再是什么稀奇事。每天，无数软件包获得更新，有些是修复漏洞，有些是增加功能，还有些是性能优化等等。然而，并不是每一个软件包都有充分通过回归测试（Regression test），而有些更新则是主动放弃对于旧硬体的支援。由于系统的软件包仓库亦为业余爱好者维护，打包者的技术、使用的平台与配置等等亦可能导致部分软件包更新后损坏。作为一个由历史专家带领的专业考古社区，我们提供了大量的软件包供各种不同时代与架构的硬体使用。以往，为了保证大家可以方便的切换各个版本的软件包，大量的老包被留在了系统的软件源中。再加上 AOSC 支援的架构数量在某段时间的爆发，于 2017 年时，我们的软件包仓库达到了惊人的数十 GiB 。庞大的体积对于我们自身以及各种收录了我们的开源镜像站均造成了压力。我们因此启动了Anthon Optical Storage Center (AOSC Archive) 项目，将过去的软件包从软件源中移除并收录进入 Blu-ray Disc 进行冷储存。然而使用冷储存造成的不便亦是显而易见的。如果出于各种原因，我们需要取回一个软件包进行测试，那么将会需要比较费事的人工寻找目录并取回对应光盘。另外，冷储存的成本亦是比较高的。在近期的一次检查时，我们发现有约 1%-5% 的包可能由于各种原因，在收录进入 BD 时出现了重复收录的情况。这些重复收录的包既提高了维护成本，又不具有价值。同样，整理需要取回的软件包目前也是一个非常耗费人力的工作。每次退休包时，需要寻找每个架构中有收到更新的包，并移除老包。需要把这些包适当分类并分卷放好，以便于未来取回时不需要跨越多张光盘。这一个项目就是为了解决该问题而产生的。我们希望这个系统：可以较为方便的将软件包退休，并且避免不小心移除不应当被移除的软件包; 可以提供检查重复的功能，以避免将一个软件包重复退休多次，白白占用资源; 可以提供一个软件包搜寻功能，可以方便的告知用户，需要的软件包有哪些版本，分别位于哪些光盘中；可以在未来用在许多发行版上，让每个发行版都可以留下过去的软件包，在未来给大家的老机器使用。另外，我们还希望这个系统可以快速提供一个「最小软件仓库」，仅包含最新版本的软件包，占用最少的空间。",
+                "update_time": "2020-05-18"
               }
             ]
         },
@@ -896,7 +905,102 @@
             "tech_tag": ["深度学习","计算机视觉","NLP","语音识别","化合物检索"],
             "domain_tag": [],
             "mail_list": "milvusio.slack.com",
-            "email": "community@zilliz.com"
+            "email": "community@zilliz.com",
+            "project_list": [
+              {
+                "name": "使用ETCD作为Milvus元数据后端",
+                "difficulty": "中",
+                "mentor": "莫毅华",
+                "contact": "yihua.mo@zilliz.com",
+                "hot_index": 0,
+                "description": "Milvus是一款开源的特征向量搜索引擎。其存储系统使用元数据对数据文件进行统一管理，目前元数据的后台只能选用SQlite或者MySQL，需要支持更多的元数据后台。请实现一套元数据接口以支持ETCD作为元数据后台。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "Milvus 数据备份恢复工具",
+                "difficulty": "高",
+                "mentor": "莫毅华",
+                "contact": "yihua.mo@zilliz.com",
+                "hot_index": 0,
+                "description": "Milvus是一款开源的特征向量搜索引擎。目前正在开发0.10.0版本。由于某些版本间数据无法兼容，需要开发一套数据备份恢复工具和数据迁移工具，将旧版本数据导出备份，能够将备份数据恢复，且能够转换兼容不同版本Milvus。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "Milvus CLI 开发",
+                "difficulty": "高",
+                "mentor": "邹英豪",
+                "contact": "yinghao.zou@zilliz.com",
+                "hot_index": 0,
+                "description": "开发一个在命令行可以查询和管理Milvus的工具。使用这个工具可以测试Milvus实例的服务状态，可以列出实例上的所有Collection以及每个Collection的一些统计信息等，另外这个工具还可以在运行时修改Milvus的一些系统参数，例如auto_flush_interval等。工具需要交互友好，命令支持模糊自动补全。本项目需要使用Python开发。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "S3 存储支持",
+                "difficulty": "中",
+                "mentor": "蔡宇东",
+                "contact": "yudong.cai@zilliz.com",
+                "hot_index": 0,
+                "description": "S3是Simple Storage Service的缩写，即简单存储服务。它是由亚马逊提出的一套云存储服务接口，现在几乎所有的云服务都兼容S3。本项目目标是实现一个兼容S3存储的Codec，使得Milvus能够将结构化数据和非结构化数据存入兼容S3的云端存储，如 MinIO。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "HDFS 存储支持",
+                "difficulty": "中",
+                "mentor": "余昆",
+                "contact": "kun.yu@zilliz.com",
+                "hot_index": 0,
+                "description": "HDFS是基于流数据模式访问和处理超大文件的需求而开发的分布式文件系统，是分布式计算中数据存储管理的基础，为超大数据集（Large Data Set）的应用处理带来了很多便利。本项目目标是实现一个基于HDFS存储格式的Codec，使得Milvus能够使用HDFS格式来存储结构化数据和非结构化数据。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "Parquet存储支持",
+                "difficulty": "中",
+                "mentor": "王翔宇",
+                "contact": "xy.wang@zilliz.com",
+                "hot_index": 0,
+                "description": "Parquet是Hadoop生态系统中任何项目均可使用的列式存储格式，与数据处理框架、数据模型或者编程语言无关。本项目目标是实现一个基于Parquet存储格式的Codec，使得Milvus能够使用Parquet格式来存储结构化数据。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "Milvus 中的新聚类算法实现",
+                "difficulty": "中",
+                "mentor": "李盛俊",
+                "contact": "shengjun.li@zilliz.com",
+                "co-mentor": "许笑海 xiaohai.xu@zilliz.com",
+                "hot_index": 0,
+                "description": "Milvus是一款开源的特征向量搜索引擎。聚类是一种常见的数据分类方法，在索引中有着重要的应用。Milvus目前使用k-means来实现聚类。请为它添加更多的聚类算法并添加相应的选择开关。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "Milvus 提供更多的索引类型",
+                "difficulty": "中",
+                "mentor": "李成明",
+                "contact": "chengming.li@zilliz.com",
+                "co-mentor": "李盛俊 shengjun.li@zilliz.com",
+                "hot_index": 0,
+                "description": "Milvus是一款开源的特征向量搜索引擎。目前已经实现了基于空间分类的、基于图的等多种索引类型。请为其再添加一种基于Hash的索引方式。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "Flat 索引支持运行时指定距离类型",
+                "difficulty": "低",
+                "mentor": "李盛俊",
+                "contact": "shengjun.li@zilliz.com",
+                "co-mentor": "王翔宇 xiangyu.wang@zilliz.com",
+                "hot_index": 0,
+                "description": "Milvus是一款开源的特征向量搜索引擎。不过目前尚不支持一份数据的多种距离计算，从而导致了某些场景的使用不便。请为其中的Flat索引支持计算时再指定距离类型的功能。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "GPU 显存使用优化",
+                "difficulty": "高",
+                "mentor": "王翔宇",
+                "contact": "xy.wang@zilliz.com",
+                "hot_index": 0,
+                "description": "FAISS IVF GPU 算法运行时所需要的显存与 NQ／nprobe 成正比，但 GPU 上的显存有限，因此当 NQ／nprobe 很大时，会出现 Out Of Memory。 本项目的目的是优化该算法，减小 GPU 显存使用量。",
+                "update_time": "2020-05-18"
+              }
+            ]
         },
         {
             "anchor":"/oi-wiki",
