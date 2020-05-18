@@ -1,8 +1,10 @@
 import React from 'react';
 import './index.less';
 import './mobile.less';
+import './ipad.less';
 import {listLinks} from './listLink.js';
 import {NavLink} from 'react-router-dom';
+import {titleChange} from './../../config/titleChange.js';
 
 
 var withl = window.innerWidth
@@ -14,6 +16,9 @@ if(withl<1200 && withl>700){
     document.getElementsByTagName("body")[0].style.transform = "scale("+scaleIndex+")";
     document.getElementsByTagName("body")[0].style.transformOrigin = "left top"
 }
+
+
+
     
 
 export default class Header extends React.Component{
@@ -32,6 +37,8 @@ export default class Header extends React.Component{
     }
 
     componentDidMount(){
+       
+        titleChange();
         // let urlnow = window.location.hash.split("/")[1]
         // this.setState({
         //     pageflag:urlnow?'index':urlnow.split("#")[1]

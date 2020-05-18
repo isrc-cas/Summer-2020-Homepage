@@ -17,6 +17,7 @@ export default class IRouter extends React.Component{
             linkDataMap,
         }
     }
+  
 
 
 
@@ -27,7 +28,7 @@ export default class IRouter extends React.Component{
                     
                     <Route path="/" render={()=>
                         <Wrapper>
-                            <Switch>
+                            <Switch >
                                      <Route path="/index" component={Index} exact/>
                                      <Route path="/howitworks" component={Howitworks} />
                                      <Route path="/contactus" component={Contactus} />

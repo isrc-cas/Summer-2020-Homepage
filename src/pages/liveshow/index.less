@@ -66,6 +66,16 @@
         padding: 40px 0;
         .LiveShowContent{
             position: relative;
+            .LiveShowContentTitle{
+                position: relative;
+                font-family: PingFang-SC-Medium;
+                font-size: 24px;
+                font-weight: normal;
+                font-stretch: normal;
+                color: #333333;
+                line-height: 24px;
+                padding: 10px 0 30px;
+            }
             .LiveShowItem{
                 position: relative;
                 width: 100%;
@@ -156,6 +166,40 @@
                             color: #9059ff;
                             position: relative;
                             margin-bottom: 55px;
+                            
+                        }
+                        .LiveShowItemHeaderPPTX{
+                            display: inline-block;
+                            width: 150px;
+                            height: 45px;
+                            border-radius: 4px;
+                            border: solid 1px #5959ff;
+                            font-size: 20px;
+                            font-weight: normal;
+                            font-stretch: normal;
+                            line-height: 43px;
+                            letter-spacing: 0px;
+                            color: #5959ff;
+                            padding-left: 20px;
+                            cursor: pointer;
+                        }
+                        .LiveShowItemHeaderPPTX::after{
+                            content: url(./../../img/index/down.png);
+                            background-position: center;
+                            width: 20px;
+                            height: 20px;
+                            background-size: cover;
+                            position: relative;
+                            margin-left: 10px;
+                            top: 4px;
+                        }
+                        .LiveShowItemHeaderTitleTwo.LiveShowItemOver{
+                            color: #999999;
+                        }
+                        .LiveShowItemHeaderTitleTwo.LiveShowItemOver::after{
+                            content: "已结束";
+                            position: relative;
+                            margin-left: 10px;
                         }
                         .LiveShowItemHeaderButton{
                             width: 150px;
@@ -172,6 +216,8 @@
                             cursor: pointer;
                             position: relative;
                             transition: all 0.3s;
+                            display: inline-block;
+                            margin-right: 20px;
                         }
                         .LiveShowItemHeaderButton:hover{
                             background-color: #4040e6;
