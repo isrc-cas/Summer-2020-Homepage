@@ -420,7 +420,7 @@
             "url": "https://aosc.io",
             "description": "Linux 发行版 AOSC OS 的开源社区。",
             "full_des": "安同开源社区（Anthon Open Source Community, 简称 AOSC）是围绕社区项目 AOSC OS 形成的开源社区。AOSC OS 是一款遵循简约、本地化、包容、可持续及精制原则独立开发的通用 Linux 发行版，致力于改善开源软件的使用体验。",
-            "tech_tag": ["Linux","dpkg","L10n","Container","CI/CD","Automation"],
+            "tech_tag": ["Linux", "dpkg", "L10n", "Container", "CI/CD", "Automation", "C", "Python", "Bash", "Vala", "GTK"],
             "domain_tag": ["Linux 发行版","中文本地化"],
             "mail_list": "discussions@lists.aosc.io",
             "email": "discussions@lists.aosc.io",
