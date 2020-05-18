@@ -166,7 +166,7 @@ export default class Organisation extends React.Component{
             </div>
 
             <div className="orgProjectItemColumn orgRight">
-      <div className="orgProjectDes">{item.description ? item.description : "项目描述见 "}<a href={item.project_url ? item.project_url : item.url} target="_blank" rel="noopener noreferrer">{item.description ? "" : "社区“暑期2020”主页"}</a>{item.description}</div>
+      <div className="orgProjectDes">{item.description ? item.description : "项目描述见 "}<a href={projectUrl} target="_blank" rel="noopener noreferrer">{item.description ? "" : "社区“暑期2020”主页"}</a>{item.description}</div>
                 <div>
                     <ul>
                         <li>
@@ -461,7 +461,7 @@ export default class Organisation extends React.Component{
                             onChange={page=>this.changePage(page)} 
                             defaultCurrent={1} 
                             total={this.state.totalProjects} 
-                            style={{ width: 706, height: 50, marginTop: 20}}
+                            style={{ height: 50, marginTop: 20}}
                             itemRender={this.itemRender}
                             hideOnSinglePage={true}
                             showSizeChanger={false}
