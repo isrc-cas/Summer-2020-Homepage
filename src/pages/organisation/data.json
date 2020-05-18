@@ -950,14 +950,14 @@
             "email": "info@dimension.im",
             "project_list": [
               {
-                "name": "Task 1",
-                "difficulty": "",
-                "mentor": "",
-                "contact": "",
+                "name": "Maskbook 插件系统",
+                "difficulty": "中",
+                "mentor": "@yisiliu",
+                "contact": "yisiliu@gmail.com",
                 "co-mentor": "",
                 "hot_index": 0,
-                "description": "In this task, we are looking forward to open ideas about our plugin system and applications on it. We are just starting to formalize the plugin system recently so we are also expecting you to help us with this task too. You can comment on this issue with your ideas or questions if you are interested.",
-                "update_time": "2020-05-14"
+                "description": "Maskbook 是一个开源的浏览器隐私插件，帮助用户在 Facebook，Twitter 等社交平台自动加密帖子和聊天记录，防止被社交平台审查和滥用用户数据，仅用户本人和指定好友能够解密。除了我们基础的功能之外，我们还开发了一套插件系统，可以支持简单的脚本运行，我们已经尝试过的插件有： 基于 Ethereum（以太坊）的加密货币红包 #634 #672 ，Gitcoin Grant 捐赠 #996 #1079 和 Arweave 文件分享 #1057。在这个 Task 中，我们希望大家能够跟我们一起开动脑洞，思考一下基于我们 Maskbook 和社交网络的关系，有没有什么更加有心意的插件可以加入进来，提供给所有的用户更多的功能和自由。具体的项目介绍可以在 Open Source Promotion Plan - Summer 2020 Task 1 中看到，并期待同学们能在这里跟我们进行交流。",
+                "update_time": "2020-05-18"
               }
             ]
         },
