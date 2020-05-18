@@ -203,7 +203,45 @@
             "tech_tag": ["分布式系统","消息系统","信息流平台"],
             "domain_tag": [],
             "mail_list": "dev@pulsar.apache.org",
-            "email": "dev@pulsar.apache.org"
+            "email": "dev@pulsar.apache.org",
+            "project_list": [
+              {
+                "name": "Pulsar .NET/C# client feature catch up",
+                "description": "Description: Recently community contributed .NET/C# client library for Apache Pulsar. But lack of some of the features in Pulsar main repo. This task is to catch up the missing features in .NET/C# client.",
+                "difficulty": "中",
+                "mentor": "Jia Zhai (翟佳)",
+                "contact": "izhaijia@apache.org",
+                "hot_index":0,
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "Schema independent from the topic",
+                "description": "Schema is widely used in data storage systems and Apache Pulsar uses Apache Avro to manage schemas such as schema definition, evolution, and data encoding. Currently, schemas are stored for each topic. In the scenario where the same schema is used for different topics, we store redundant schemas. This task is aimed to support the same schema that can be reused between different topics, make schema independent from the topic. And while being compatible with the existing architecture.",
+                "difficulty": "中",
+                "mentor": "Penghui Li(李鹏辉)",
+                "contact": "penghui@apache.org",
+                "hot_index":0,
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "Read compacted topic in Pulsar SQL",
+                "description": "Compacted topic compact the history version message of the same message key. This is more like a row update in the database. Pulsar SQL can query data and analyze data from Pulsar topics. Currently, Pulsar SQL can't read data from the compacted topic, this task is to support reading data from the compacted topics in Pulsar SQL.",
+                "difficulty": "中",
+                "mentor": "Ran Gao(高冉)",
+                "contact": "gaoran_10@126.com",
+                "hot_index":0,
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "Pulsar Go client feature catch up",
+                "description": "Recently community contributed go client library for Apache Pulsar. But lack of some of the features in Pulsar main repo. This task is to catch up the missing features in go client.",
+                "difficulty": "中",
+                "mentor": "Xiaolong Ran (冉小龙)",
+                "contact": "rxl@apache.org",
+                "hot_index":0,
+                "update_time": "2020-05-18"
+              }
+            ]
         },
         {
             "anchor":"/apache-sharding",
@@ -854,7 +892,49 @@
             "tech_tag": ["MACE","机器学习框架","深度学习框架","AI框架"],
             "domain_tag": ["机器学习","深度学习"],
             "mail_list": "QQ群（756046893)",
-            "email": "https://github.com/XiaoMi/mace/issues"
+            "email": "https://github.com/XiaoMi/mace/issues",
+            "project_list": [
+              {
+                "name": "移植MACE Micro到微控制器芯片",
+                "difficulty": "高",
+                "mentor": "卢旭辉",
+                "contact": "luxuhui@xiaomi.com",
+                "co-mentor": "",
+                "hot_index": 0,
+                "description": "相对于手机等移动设备而言，微控制器是小型、低能耗的计算设备，经常嵌入在只需要进行基本运算的硬件中，包括家用电器和物联网设备等。每年都有数十亿个微控制器被生产出来。MACE新增微控制器（MACE Micro）支持，以全面支持手机与IoT设备超低功耗推理场景。具体使用可参考。本项目的内容为将MACE Micro移植到某款微控制器芯片，包括但不限于ST、Ambiq等厂商生产的微控制器芯片，MACE Micro不依赖于任何操作系统、文件系统以及运行时的支持，具有良好的可移植性。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "基于MACE Micro实现唤醒词识别功能Demo",
+                "difficulty": "高",
+                "mentor": "卢旭辉",
+                "contact": "luxuhui@xiaomi.com",
+                "co-mentor": "",
+                "hot_index": 0,
+                "description": "基于MACE Micro，利用Google的唤醒词识别模型，实现一个能在微控制器上运行的语音识别的Demo。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "帮助MACE支持Tensorflow2.0模型",
+                "difficulty": "高",
+                "mentor": "李滨",
+                "contact": "libin11@xiaomi.com",
+                "co-mentor": "",
+                "hot_index": 0,
+                "description": "MACE支持了Tensorflow的1.x版本训练的模型的推理，MACE开发了一个Tensorflow1.x模型到MACE专有模型的转换器。本项目的内容为，参考Tensorflow1.x模型到MACE专有模型的转换器代码，开发一个Tensorflow2.0模型到MACE专有模型的转换器。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "帮助MACE支持Pytorch模型",
+                "difficulty": "高",
+                "mentor": "李滨",
+                "contact": "libin11@xiaomi.com",
+                "co-mentor": "",
+                "hot_index": 0,
+                "description": "MACE通过支持ONNX标准交换格式，间接支持了Pytorch训练的模型的推理，但模型的两次转换造成了不必要的转换开销。本项目的内容为，参考其他框架模型到MACE专有模型的转换器代码，开发一个Pytorch模型到MACE专有模型的转换器。",
+                "update_time": "2020-05-18"
+              }
+            ]
         },
         {
             "anchor":"/maskbook",
