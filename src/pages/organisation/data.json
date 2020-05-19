@@ -958,6 +958,16 @@
                 "hot_index": 0,
                 "description": "Maskbook 是一个开源的浏览器隐私插件，帮助用户在 Facebook，Twitter 等社交平台自动加密帖子和聊天记录，防止被社交平台审查和滥用用户数据，仅用户本人和指定好友能够解密。除了我们基础的功能之外，我们还开发了一套插件系统，可以支持简单的脚本运行，我们已经尝试过的插件有： 基于 Ethereum（以太坊）的加密货币红包 #634 #672 ，Gitcoin Grant 捐赠 #996 #1079 和 Arweave 文件分享 #1057。在这个 Task 中，我们希望大家能够跟我们一起开动脑洞，思考一下基于我们 Maskbook 和社交网络的关系，有没有什么更加有心意的插件可以加入进来，提供给所有的用户更多的功能和自由。具体的项目介绍可以在 Open Source Promotion Plan - Summer 2020 Task 1 中看到，并期待同学们能在这里跟我们进行交流。",
                 "update_time": "2020-05-18"
+              },
+              {
+                "name": "Maskbook 图片隐写功能优化",
+                "difficulty": "高",
+                "mentor": "@yisiliu",
+                "contact": "yisiliu@gmail.com",
+                "co-mentor": "",
+                "hot_index": 0,
+                "description": "Maskbook 是一个开源的浏览器隐私插件，帮助用户在 Facebook，Twitter 等社交平台自动加密帖子和聊天记录，防止被社交平台审查和滥用用户数据，仅用户本人和指定好友能够解密。Maskbook 现在有两种 payload 的模式，第一种是纯文字的 payload，格式是 base64 encoded 的加密文本，例如 https://www.google.co.in/%204/4.UN3m8PThWagRN/YaV4HBFVZhmzU-wuIzD1Yugjm7JAPg1BgX9UilZl5jlHp0YsRs2cRu+lNTisyp1J45zvXoSD1fzbsK8+2Do5itncakns29P3BzH8YJACmG64G6tNikZP5oEme+W/to9wv1C43aSTs9rY1F8mFCwimOsZvki1+FN6LuItO3cX/1.NdahzvHRaBdRMI5gQvT5tg_=.27WQHRwyEwW8QwhIR0oOcPU9fbR35j8vKumBMyupnQ==.y5402vqUQoQub+RKHofpxgmQtetSiRwumF4KXaL/l5rmOHHRJBTL9YcZOjz39WtJAgbdg+iYsJdq5gm3MwWAXQ==.Ao+TblKN40/JUXl4B1HsISVoJc5gSVBYCXiolhxa8D5Q.0%40(注：在 Facebook 中，没有字数限制，所以会直接将 payload 放入 post 中，但是在 Twitter 上由于有严格的字数限制，所以我们采用了基于 url 的 hack #198)；另一种是图片模式，是基于**快速傅立叶变换（fft）**的一种方法，将密文隐写到图片中，做到更加美观的效果，目前的实现可以在 DimensionDev/Stego-JS中看到。目前的实现由于算法的限制，导致效果不甚理想，会有一些带有信息的点在图片中显示，并且不够稳定，没有办法在 Facebook 和 Twitter 中都可以抗平台压缩，导致信息缺失，具体细节可以在 Open Source Promotion Plan - Summer 2020 Task 2 中看到。在这个 Task 中，我们希望大家能够跟我们一起调研各种抗压缩图片（或音频）隐写算法，使我们的图片模式更加的高效。",
+                "update_time": "2020-05-19"
               }
             ]
         },
@@ -1141,7 +1151,7 @@
                 "co-mentor": "ksyx ksyxmeow@outlook.com",
                 "hot_index": 0,
                 "description": "在 wiki 的编写过程中需要参考大量的外界资料以使得 wiki 质量更高、更为完善及更易读。本项目主要工作内容为参考、翻译外文资料并将其融入 OI Wiki 现有内容中。",
-                "update_time": "2020-05-18"
+                "update_time": "2020-05-19"
               },
               {
                 "name": "OI Wiki 国际化",
@@ -1151,7 +1161,7 @@
                 "co-mentor": "Marcythm marcythm@gmail.com",
                 "hot_index": 0,
                 "description": "OI Wiki 上收录了大量优质的算法内容，但是他们主要是以中文编写的，会对外国友人的学习造成一定的障碍，因此为了更好的扩大 OI Wiki 的影响力和帮助到更多的人，开展本项目。本项目主要内容为将 OI Wiki 上现有的内容按照格式要求翻译成英文。",
-                "update_time": "2020-05-18"
+                "update_time": "2020-05-19"
               },
               {
                 "name": "编修、清理、校订 OI Wiki 的文档",
@@ -1161,7 +1171,7 @@
                 "co-mentor": "hi@oi-wiki.org",
                 "hot_index": 0,
                 "description": "OI Wiki 上收录了大量优质的算法内容，但是仍有相当多的页面在语言表述上较为随意，会对大家学习体验与效果产生一定的影响。本项目希望能将 OI Wiki 上现有的内容按照格式要求进行合理的编修、调整格式、清理、校订。",
-                "update_time": "2020-05-18"
+                "update_time": "2020-05-19"
               }
             ]
         },
