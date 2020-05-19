@@ -282,6 +282,42 @@
                 "contact": "zhangliang@apache.org",
                 "hot_index":0,
                 "update_time": "2020-05-13"
+              },
+              {
+                "name": "完善SQL语法解析模块",
+                "description": "参考PostgreSQL数据库的SQL语法，完善Sharding Parser模块有关PostgreSQL的语法定义",
+                "difficulty": "高",
+                "mentor": "潘娟",
+                "contact": "panjuan@apache.org",
+                "hot_index":0,
+                "update_time": "2020-05-19"
+              },
+              {
+                "name": "实现MySQL KILL语句的功能",
+                "description": "通过实现MySQL KILL语句的功能，中断当前客户端请求，释放 ShardingSphere-Proxy 后端资源",
+                "difficulty": "中",
+                "mentor": "张永伦",
+                "contact": "zhangyonglun@apache.org",
+                "hot_index":0,
+                "update_time": "2020-05-19"
+              },
+              {
+                "name": "实现弹性伸缩输出支持 ShardingSphere-JDBC",
+                "description": "弹性伸缩输出支持 ShardingSphere-JDBC后，可以独立完成数据迁移，不需要依赖 ShardingSphere-Proxy",
+                "difficulty": "低",
+                "mentor": "欧阳文",
+                "contact": "ouyangwen@apache.org",
+                "hot_index":0,
+                "update_time": "2020-05-19"
+              },
+              {
+                "name": "实现权限控制模型",
+                "description": "完善目前Proxy的权限设计，支撑更细粒度的权限控制，支持DCL操作权限模型并且拦截SQL操作进行权限验证，集成配置中心对多Proxy集群生效",
+                "difficulty": "中",
+                "mentor": "秦金卫",
+                "contact": "kimmking@apache.org",
+                "hot_index":0,
+                "update_time": "2020-05-19"
               }
             ]
         },
