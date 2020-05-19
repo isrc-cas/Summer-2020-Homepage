@@ -235,7 +235,7 @@ export default class Index extends React.Component{
         return(
            <div className="indexHomeZ">
                <div className="indexHomeOne">
-               <Carousel autoplay {...settings}> */}
+               <Carousel autoplay {...settings}>
                     <div className="indexHomeOneBanner indexHomeOneBannerOne">
                             <div className="indexHomeOneWrapper content1200">
                             <div className="indexHomeOneTextCons">
