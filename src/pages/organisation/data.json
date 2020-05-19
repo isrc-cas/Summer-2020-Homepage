@@ -728,184 +728,166 @@
             "email": "emacs-devel@gnu.org",
             "project_list": [
               {
-                "name": "Core: support popup keybinding help layer.",
-                "difficulty": "",
+                "name": "Core: MS Windows Support",
+                "difficulty": "高",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
-                "description": "",
-                "update_time": "2020-05-17"
+                "description": "use cross-platform IPC instead DBus, WebSocket's async model is not suitable for replacement.",
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Core: use cross-platform IPC instead DBus, WebSocket's async model is not suitable for replacement.",
-                "difficulty": "",
+                "name": "Core: MacOS Support",
+                "difficulty": "高",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
-                "description": "",
-                "update_time": "2020-05-17"
+                "description": "Make Qt’s QGraphicsSence technology support MacOS; Replace QWindow::setParent with MacOS native cross-process reparent API.",
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Core&Mac: make Qt's QGraphicsSence technologic support Mac platform.",
-                "difficulty": "",
+                "name": "Core: Use QTest&QTouchEventSequence simulate touch scroll event and control all browser base apps",
+                "difficulty": "中",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Core&Mac: find Mac native cross-process reparent API to instead QWindow::setParent.",
-                "difficulty": "",
+                "name": "Browser: Create ad-blocker plugin",
+                "difficulty": "中",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Core: Use QTest&QTouchEventSequence simulate touch scroll event, to control all browser base apps.",
-                "difficulty": "",
+                "name": "Browser: Autofill password by storing password in a database",
+                "difficulty": "中",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Browser: ad block plugin.",
-                "difficulty": "",
+                "name": "Browser: Smart select text area using cursor",
+                "difficulty": "中",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Browser: auto fill password.",
-                "difficulty": "",
+                "name": "PDF: Invent a better dark mode color algorithm for PDF pages",
+                "difficulty": "中",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Browser: smart select text area by cursor.",
-                "difficulty": "",
+                "name": "PDF: Invent a better dark mode color algorithm for PDF pages **and** exclude images and graphs",
+                "difficulty": "高",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Mindmap: support multi-line insert dons nodes.",
-                "difficulty": "",
+                "name": "Terminal: Refresh page after server is ready because sometimes terminal is blank when opened.",
+                "difficulty": "中",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Mindmap: change node color, pick from color list.",
-                "difficulty": "",
+                "name": "Terminal: Close terminal buffer with EXIT signal.",
+                "difficulty": "低",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Mindmap: export org with correct indent level.",
-                "difficulty": "",
+                "name": "Terminal: Catch change directory signal in node-pty, rename terminal buffer and change Emacs default-directory variable real-time.",
+                "difficulty": "低",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
-              },
-              {
-                "name": "Mermaid: support dark mode.",
-                "difficulty": "",
-                "mentor": "Matthew Zeng",
-                "contact": "matthewzmd@gmail.com",
-                "hot_index": 0,
-                "description": "",
-                "update_time": "2020-05-17"
-              },
-              {
-                "name": "Terminal: recive exit signal to close terminal buffer.",
-                "difficulty": "",
-                "mentor": "Matthew Zeng",
-                "contact": "matthewzmd@gmail.com",
-                "hot_index": 0,
-                "description": "",
-                "update_time": "2020-05-17"
-              },
-              {
-                "name": "Terminal: add change directory signal in node-pty, and change Emacs default-directory variable real-time.",
-                "difficulty": "",
-                "mentor": "Matthew Zeng",
-                "contact": "matthewzmd@gmail.com",
-                "hot_index": 0,
-                "description": "",
-                "update_time": "2020-05-17"
-              },
-              {
-                "name": "Terminal: sometimes terminal is blank, because server is not ready, we need refresh page after server ready.",
-                "difficulty": "",
-                "mentor": "Matthew Zeng",
-                "contact": "matthewzmd@gmail.com",
-                "hot_index": 0,
-                "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
                 "name": "Terimnal: Fix error in connection establishment: net::ERR_CONNECTION_REFUSED",
-                "difficulty": "",
+                "difficulty": "中",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "PDF: inverted background color same as brower's dark mode.",
-                "difficulty": "",
+                "name": "Mindmap: change node color, pick from color list.",
+                "difficulty": "低",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "PDF: jump to current position when popup outline.",
-                "difficulty": "",
+                "name": "Mindmap: Support multi-line insert dons nodes.",
+                "difficulty": "低",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "RSS Reader: best use JavaScript rewrite one, Qt version is too ugly.",
-                "difficulty": "",
+                "name": "Mindmap: Export org with correct indent level.",
+                "difficulty": "低",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Use MPD and JavaScript build music player. ",
-                "difficulty": "",
+                "name": "RSS Reader: Rewrite RSS Reader using JavaScript, Qt version is too ugly.",
+                "difficulty": "高",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
+              },
+              {
+                "name": "Mermaid: support dark mode.",
+                "difficulty": "中",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-19"
+              },
+              {
+                "name": "Music Player: Create Music Player Use MPD and JavaScript library.",
+                "difficulty": "中",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-19"
               }
             ]
         },
