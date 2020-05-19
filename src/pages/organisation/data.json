@@ -1132,6 +1132,36 @@
                 "hot_index": 0,
                 "description": "在即将上线的新前端中,我们希望能添加一些辅助竞赛选手的实用工具。测试数据生成工具就是其中之一。在解题过程中,选手往往会有自己造一些样例数据的需求,我们希望能设计一个前端工具来简化这一流程。目前有一些类似的工具供参考,如 cyaron,testlib, Tree-Generator 。",
                 "update_time": "2020-05-13"
+              },
+              {
+                "name": "OI Wiki 引入计划",
+                "difficulty": "中",
+                "mentor": "Marcythm",
+                "contact": "marcythm@gmail.com",
+                "co-mentor": "ksyx ksyxmeow@outlook.com",
+                "hot_index": 0,
+                "description": "在 wiki 的编写过程中需要参考大量的外界资料以使得 wiki 质量更高、更为完善及更易读。本项目主要工作内容为参考、翻译外文资料并将其融入 OI Wiki 现有内容中。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "OI Wiki 国际化",
+                "difficulty": "中",
+                "mentor": "ksyx",
+                "contact": "ksyxmeow@outlook.com",
+                "co-mentor": "Marcythm marcythm@gmail.com",
+                "hot_index": 0,
+                "description": "OI Wiki 上收录了大量优质的算法内容，但是他们主要是以中文编写的，会对外国友人的学习造成一定的障碍，因此为了更好的扩大 OI Wiki 的影响力和帮助到更多的人，开展本项目。本项目主要内容为将 OI Wiki 上现有的内容按照格式要求翻译成英文。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "编修、清理、校订 OI Wiki 的文档",
+                "difficulty": "中",
+                "mentor": "Marcythm",
+                "contact": "marcythm@gmail.com",
+                "co-mentor": "hi@oi-wiki.org",
+                "hot_index": 0,
+                "description": "OI Wiki 上收录了大量优质的算法内容，但是仍有相当多的页面在语言表述上较为随意，会对大家学习体验与效果产生一定的影响。本项目希望能将 OI Wiki 上现有的内容按照格式要求进行合理的编修、调整格式、清理、校订。",
+                "update_time": "2020-05-18"
               }
             ]
         },
