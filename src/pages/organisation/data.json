@@ -48,6 +48,24 @@
                     "hot_index":2,
                     "description":"使用 lua-resty-etcd 库中的 v3 版本，使 Apache APISIX 支持 etcd v3 协议。",
                     "update_time": "2020-05-13"
+                },
+                {
+                    "name":"Dashboard 结合 GitHub Actions 实现 代码格式化、构建测试",
+                    "difficulty":"中",
+                    "mentor":"琚致远",
+                    "contact":"juzhiyuan@apache.org",
+                    "hot_index":0,
+                    "description":"使用 GitHub Actions 对 PR、push commit 做 Lint、Build Test",
+                    "update_time": "2020-05-19"
+                },
+                {
+                    "name":"Dashboard 增加 commit 内容检查",
+                    "difficulty":"中",
+                    "mentor":"琚致远",
+                    "contact":"juzhiyuan@apache.org",
+                    "hot_index":0,
+                    "description":"增加 commit message checker，以规范贡献者 commit 格式。",
+                    "update_time": "2020-05-19"
                 }
             ]
         },
@@ -264,6 +282,42 @@
                 "contact": "zhangliang@apache.org",
                 "hot_index":0,
                 "update_time": "2020-05-13"
+              },
+              {
+                "name": "完善SQL语法解析模块",
+                "description": "参考PostgreSQL数据库的SQL语法，完善Sharding Parser模块有关PostgreSQL的语法定义",
+                "difficulty": "高",
+                "mentor": "潘娟",
+                "contact": "panjuan@apache.org",
+                "hot_index":0,
+                "update_time": "2020-05-19"
+              },
+              {
+                "name": "实现MySQL KILL语句的功能",
+                "description": "通过实现MySQL KILL语句的功能，中断当前客户端请求，释放 ShardingSphere-Proxy 后端资源",
+                "difficulty": "中",
+                "mentor": "张永伦",
+                "contact": "zhangyonglun@apache.org",
+                "hot_index":0,
+                "update_time": "2020-05-19"
+              },
+              {
+                "name": "实现弹性伸缩输出支持 ShardingSphere-JDBC",
+                "description": "弹性伸缩输出支持 ShardingSphere-JDBC后，可以独立完成数据迁移，不需要依赖 ShardingSphere-Proxy",
+                "difficulty": "低",
+                "mentor": "欧阳文",
+                "contact": "ouyangwen@apache.org",
+                "hot_index":0,
+                "update_time": "2020-05-19"
+              },
+              {
+                "name": "实现权限控制模型",
+                "description": "完善目前Proxy的权限设计，支撑更细粒度的权限控制，支持DCL操作权限模型并且拦截SQL操作进行权限验证，集成配置中心对多Proxy集群生效",
+                "difficulty": "中",
+                "mentor": "秦金卫",
+                "contact": "kimmking@apache.org",
+                "hot_index":0,
+                "update_time": "2020-05-19"
               }
             ]
         },
@@ -674,184 +728,166 @@
             "email": "emacs-devel@gnu.org",
             "project_list": [
               {
-                "name": "Core: support popup keybinding help layer.",
-                "difficulty": "",
+                "name": "Core: MS Windows Support",
+                "difficulty": "高",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
-                "description": "",
-                "update_time": "2020-05-17"
+                "description": "use cross-platform IPC instead DBus, WebSocket's async model is not suitable for replacement.",
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Core: use cross-platform IPC instead DBus, WebSocket's async model is not suitable for replacement.",
-                "difficulty": "",
+                "name": "Core: MacOS Support",
+                "difficulty": "高",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
-                "description": "",
-                "update_time": "2020-05-17"
+                "description": "Make Qt’s QGraphicsSence technology support MacOS; Replace QWindow::setParent with MacOS native cross-process reparent API.",
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Core&Mac: make Qt's QGraphicsSence technologic support Mac platform.",
-                "difficulty": "",
+                "name": "Core: Use QTest&QTouchEventSequence simulate touch scroll event and control all browser base apps",
+                "difficulty": "中",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Core&Mac: find Mac native cross-process reparent API to instead QWindow::setParent.",
-                "difficulty": "",
+                "name": "Browser: Create ad-blocker plugin",
+                "difficulty": "中",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Core: Use QTest&QTouchEventSequence simulate touch scroll event, to control all browser base apps.",
-                "difficulty": "",
+                "name": "Browser: Autofill password by storing password in a database",
+                "difficulty": "中",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Browser: ad block plugin.",
-                "difficulty": "",
+                "name": "Browser: Smart select text area using cursor",
+                "difficulty": "中",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Browser: auto fill password.",
-                "difficulty": "",
+                "name": "PDF: Invent a better dark mode color algorithm for PDF pages",
+                "difficulty": "中",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Browser: smart select text area by cursor.",
-                "difficulty": "",
+                "name": "PDF: Invent a better dark mode color algorithm for PDF pages **and** exclude images and graphs",
+                "difficulty": "高",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Mindmap: support multi-line insert dons nodes.",
-                "difficulty": "",
+                "name": "Terminal: Refresh page after server is ready because sometimes terminal is blank when opened.",
+                "difficulty": "中",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Mindmap: change node color, pick from color list.",
-                "difficulty": "",
+                "name": "Terminal: Close terminal buffer with EXIT signal.",
+                "difficulty": "低",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Mindmap: export org with correct indent level.",
-                "difficulty": "",
+                "name": "Terminal: Catch change directory signal in node-pty, rename terminal buffer and change Emacs default-directory variable real-time.",
+                "difficulty": "低",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
-              },
-              {
-                "name": "Mermaid: support dark mode.",
-                "difficulty": "",
-                "mentor": "Matthew Zeng",
-                "contact": "matthewzmd@gmail.com",
-                "hot_index": 0,
-                "description": "",
-                "update_time": "2020-05-17"
-              },
-              {
-                "name": "Terminal: recive exit signal to close terminal buffer.",
-                "difficulty": "",
-                "mentor": "Matthew Zeng",
-                "contact": "matthewzmd@gmail.com",
-                "hot_index": 0,
-                "description": "",
-                "update_time": "2020-05-17"
-              },
-              {
-                "name": "Terminal: add change directory signal in node-pty, and change Emacs default-directory variable real-time.",
-                "difficulty": "",
-                "mentor": "Matthew Zeng",
-                "contact": "matthewzmd@gmail.com",
-                "hot_index": 0,
-                "description": "",
-                "update_time": "2020-05-17"
-              },
-              {
-                "name": "Terminal: sometimes terminal is blank, because server is not ready, we need refresh page after server ready.",
-                "difficulty": "",
-                "mentor": "Matthew Zeng",
-                "contact": "matthewzmd@gmail.com",
-                "hot_index": 0,
-                "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
                 "name": "Terimnal: Fix error in connection establishment: net::ERR_CONNECTION_REFUSED",
-                "difficulty": "",
+                "difficulty": "中",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "PDF: inverted background color same as brower's dark mode.",
-                "difficulty": "",
+                "name": "Mindmap: change node color, pick from color list.",
+                "difficulty": "低",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "PDF: jump to current position when popup outline.",
-                "difficulty": "",
+                "name": "Mindmap: Support multi-line insert dons nodes.",
+                "difficulty": "低",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "RSS Reader: best use JavaScript rewrite one, Qt version is too ugly.",
-                "difficulty": "",
+                "name": "Mindmap: Export org with correct indent level.",
+                "difficulty": "低",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
               },
               {
-                "name": "Use MPD and JavaScript build music player. ",
-                "difficulty": "",
+                "name": "RSS Reader: Rewrite RSS Reader using JavaScript, Qt version is too ugly.",
+                "difficulty": "高",
                 "mentor": "Matthew Zeng",
                 "contact": "matthewzmd@gmail.com",
                 "hot_index": 0,
                 "description": "",
-                "update_time": "2020-05-17"
+                "update_time": "2020-05-19"
+              },
+              {
+                "name": "Mermaid: support dark mode.",
+                "difficulty": "中",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-19"
+              },
+              {
+                "name": "Music Player: Create Music Player Use MPD and JavaScript library.",
+                "difficulty": "中",
+                "mentor": "Matthew Zeng",
+                "contact": "matthewzmd@gmail.com",
+                "hot_index": 0,
+                "description": "",
+                "update_time": "2020-05-19"
               }
             ]
         },
@@ -958,6 +994,16 @@
                 "hot_index": 0,
                 "description": "Maskbook 是一个开源的浏览器隐私插件，帮助用户在 Facebook，Twitter 等社交平台自动加密帖子和聊天记录，防止被社交平台审查和滥用用户数据，仅用户本人和指定好友能够解密。除了我们基础的功能之外，我们还开发了一套插件系统，可以支持简单的脚本运行，我们已经尝试过的插件有： 基于 Ethereum（以太坊）的加密货币红包 #634 #672 ，Gitcoin Grant 捐赠 #996 #1079 和 Arweave 文件分享 #1057。在这个 Task 中，我们希望大家能够跟我们一起开动脑洞，思考一下基于我们 Maskbook 和社交网络的关系，有没有什么更加有心意的插件可以加入进来，提供给所有的用户更多的功能和自由。具体的项目介绍可以在 Open Source Promotion Plan - Summer 2020 Task 1 中看到，并期待同学们能在这里跟我们进行交流。",
                 "update_time": "2020-05-18"
+              },
+              {
+                "name": "Maskbook 图片隐写功能优化",
+                "difficulty": "高",
+                "mentor": "@yisiliu",
+                "contact": "yisiliu@gmail.com",
+                "co-mentor": "",
+                "hot_index": 0,
+                "description": "Maskbook 是一个开源的浏览器隐私插件，帮助用户在 Facebook，Twitter 等社交平台自动加密帖子和聊天记录，防止被社交平台审查和滥用用户数据，仅用户本人和指定好友能够解密。Maskbook 现在有两种 payload 的模式，第一种是纯文字的 payload，格式是 base64 encoded 的加密文本，例如 https://www.google.co.in/%204/4.UN3m8PThWagRN/YaV4HBFVZhmzU-wuIzD1Yugjm7JAPg1BgX9UilZl5jlHp0YsRs2cRu+lNTisyp1J45zvXoSD1fzbsK8+2Do5itncakns29P3BzH8YJACmG64G6tNikZP5oEme+W/to9wv1C43aSTs9rY1F8mFCwimOsZvki1+FN6LuItO3cX/1.NdahzvHRaBdRMI5gQvT5tg_=.27WQHRwyEwW8QwhIR0oOcPU9fbR35j8vKumBMyupnQ==.y5402vqUQoQub+RKHofpxgmQtetSiRwumF4KXaL/l5rmOHHRJBTL9YcZOjz39WtJAgbdg+iYsJdq5gm3MwWAXQ==.Ao+TblKN40/JUXl4B1HsISVoJc5gSVBYCXiolhxa8D5Q.0%40(注：在 Facebook 中，没有字数限制，所以会直接将 payload 放入 post 中，但是在 Twitter 上由于有严格的字数限制，所以我们采用了基于 url 的 hack #198)；另一种是图片模式，是基于**快速傅立叶变换（fft）**的一种方法，将密文隐写到图片中，做到更加美观的效果，目前的实现可以在 DimensionDev/Stego-JS中看到。目前的实现由于算法的限制，导致效果不甚理想，会有一些带有信息的点在图片中显示，并且不够稳定，没有办法在 Facebook 和 Twitter 中都可以抗平台压缩，导致信息缺失，具体细节可以在 Open Source Promotion Plan - Summer 2020 Task 2 中看到。在这个 Task 中，我们希望大家能够跟我们一起调研各种抗压缩图片（或音频）隐写算法，使我们的图片模式更加的高效。",
+                "update_time": "2020-05-19"
               }
             ]
         },
@@ -1132,6 +1178,36 @@
                 "hot_index": 0,
                 "description": "在即将上线的新前端中,我们希望能添加一些辅助竞赛选手的实用工具。测试数据生成工具就是其中之一。在解题过程中,选手往往会有自己造一些样例数据的需求,我们希望能设计一个前端工具来简化这一流程。目前有一些类似的工具供参考,如 cyaron,testlib, Tree-Generator 。",
                 "update_time": "2020-05-13"
+              },
+              {
+                "name": "OI Wiki 引入计划",
+                "difficulty": "中",
+                "mentor": "Marcythm",
+                "contact": "marcythm@gmail.com",
+                "co-mentor": "ksyx ksyxmeow@outlook.com",
+                "hot_index": 0,
+                "description": "在 wiki 的编写过程中需要参考大量的外界资料以使得 wiki 质量更高、更为完善及更易读。本项目主要工作内容为参考、翻译外文资料并将其融入 OI Wiki 现有内容中。",
+                "update_time": "2020-05-19"
+              },
+              {
+                "name": "OI Wiki 国际化",
+                "difficulty": "中",
+                "mentor": "ksyx",
+                "contact": "ksyxmeow@outlook.com",
+                "co-mentor": "Marcythm marcythm@gmail.com",
+                "hot_index": 0,
+                "description": "OI Wiki 上收录了大量优质的算法内容，但是他们主要是以中文编写的，会对外国友人的学习造成一定的障碍，因此为了更好的扩大 OI Wiki 的影响力和帮助到更多的人，开展本项目。本项目主要内容为将 OI Wiki 上现有的内容按照格式要求翻译成英文。",
+                "update_time": "2020-05-19"
+              },
+              {
+                "name": "编修、清理、校订 OI Wiki 的文档",
+                "difficulty": "中",
+                "mentor": "Marcythm",
+                "contact": "marcythm@gmail.com",
+                "co-mentor": "hi@oi-wiki.org",
+                "hot_index": 0,
+                "description": "OI Wiki 上收录了大量优质的算法内容，但是仍有相当多的页面在语言表述上较为随意，会对大家学习体验与效果产生一定的影响。本项目希望能将 OI Wiki 上现有的内容按照格式要求进行合理的编修、调整格式、清理、校订。",
+                "update_time": "2020-05-19"
               }
             ]
         },
