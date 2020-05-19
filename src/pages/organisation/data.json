@@ -48,6 +48,24 @@
                     "hot_index":2,
                     "description":"使用 lua-resty-etcd 库中的 v3 版本，使 Apache APISIX 支持 etcd v3 协议。",
                     "update_time": "2020-05-13"
+                },
+                {
+                    "name":"Dashboard 结合 GitHub Actions 实现 代码格式化、构建测试",
+                    "difficulty":"中",
+                    "mentor":"琚致远",
+                    "contact":"juzhiyuan@apache.org",
+                    "hot_index":0,
+                    "description":"使用 GitHub Actions 对 PR、push commit 做 Lint、Build Test",
+                    "update_time": "2020-05-19"
+                },
+                {
+                    "name":"Dashboard 增加 commit 内容检查",
+                    "difficulty":"中",
+                    "mentor":"琚致远",
+                    "contact":"juzhiyuan@apache.org",
+                    "hot_index":0,
+                    "description":"增加 commit message checker，以规范贡献者 commit 格式。",
+                    "update_time": "2020-05-19"
                 }
             ]
         },
