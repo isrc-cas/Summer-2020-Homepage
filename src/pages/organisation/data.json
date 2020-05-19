@@ -950,14 +950,14 @@
             "email": "info@dimension.im",
             "project_list": [
               {
-                "name": "Task 1",
-                "difficulty": "",
-                "mentor": "",
-                "contact": "",
+                "name": "Maskbook 插件系统",
+                "difficulty": "中",
+                "mentor": "@yisiliu",
+                "contact": "yisiliu@gmail.com",
                 "co-mentor": "",
                 "hot_index": 0,
-                "description": "In this task, we are looking forward to open ideas about our plugin system and applications on it. We are just starting to formalize the plugin system recently so we are also expecting you to help us with this task too. You can comment on this issue with your ideas or questions if you are interested.",
-                "update_time": "2020-05-14"
+                "description": "Maskbook 是一个开源的浏览器隐私插件，帮助用户在 Facebook，Twitter 等社交平台自动加密帖子和聊天记录，防止被社交平台审查和滥用用户数据，仅用户本人和指定好友能够解密。除了我们基础的功能之外，我们还开发了一套插件系统，可以支持简单的脚本运行，我们已经尝试过的插件有： 基于 Ethereum（以太坊）的加密货币红包 #634 #672 ，Gitcoin Grant 捐赠 #996 #1079 和 Arweave 文件分享 #1057。在这个 Task 中，我们希望大家能够跟我们一起开动脑洞，思考一下基于我们 Maskbook 和社交网络的关系，有没有什么更加有心意的插件可以加入进来，提供给所有的用户更多的功能和自由。具体的项目介绍可以在 Open Source Promotion Plan - Summer 2020 Task 1 中看到，并期待同学们能在这里跟我们进行交流。",
+                "update_time": "2020-05-18"
               }
             ]
         },
@@ -1206,7 +1206,45 @@
             "tech_tag": ["Linux","Git","GCC","RPM"],
             "domain_tag": ["操作系统","内核","包管理"],
             "mail_list": "community@openEuler.org",
-            "email": "contact@openeuler.org"
+            "email": "contact@openeuler.org",
+            "project_list": [
+              {
+                "name": "为 openEuler 添加 Xfce 桌面环境并能够运行在树莓派 4B 上",
+                "difficulty": "高",
+                "mentor": "@woqidaideshi",
+                "contact": "yafen@iscas.ac.cn",
+                "hot_index": 0,
+                "description": "树莓派（英语：Raspberry Pi）是基于 Linux 的单片机电脑，目的是以低价硬件及自由软件促进学校的基本计算机科学教育。openEuler 树莓派版本目前没有桌面环境。本项目的目标是为树莓派添加桌面支持，即适配桌面环境 Xfce 到 openEuler 树莓派 4B。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "精简 openEuler 的树莓派 4B 镜像体积小于 500 MiB",
+                "difficulty": "中",
+                "mentor": "@woqidaideshi",
+                "contact": "yafen@iscas.ac.cn",
+                "hot_index": 0,
+                "description": "树莓派（英语：Raspberry Pi）是基于 Linux 的单片机电脑，目的是以低价硬件及自由软件促进学校的基本计算机科学教育。树莓派需要刷写文件系统镜像来实现启动，镜像文件常常都较大，不利于快速分发和安装。本项目目标是为制作压缩前小于 500 MiB 的 openEuler 树莓派 4B 镜像，并能够通过 DNF 或 YUM等安装软件源中更多的软件进来。镜像尽可能小。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "为 openEuler 树莓派 4B 镜像提供 UEFI 启动支持",
+                "difficulty": "中",
+                "mentor": "@woqidaideshi",
+                "contact": "yafen@iscas.ac.cn",
+                "hot_index": 0,
+                "description": "树莓派（英语：Raspberry Pi）是基于 Linux 的单片机电脑，目的是以低价硬件及自由软件促进学校的基本计算机科学教育。为了降低成本，树莓派省去了传统计算机用来存储引导加载程序的板载存储器(BIOS), 直接把引导程序放在了SD卡中。目前树莓派 Pi 4 引入了 UEFI，不过目前处于 EXPERIMENTAL 状态。本项目目标是为树莓派引入 UEFI Firmware 来支持 UEFI 启动 openEuler 树莓派 4B。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "Build openEuler from Scratch",
+                "difficulty": "中",
+                "mentor": "overweight",
+                "contact": "hexiaowen@huawei.com",
+                "hot_index": 0,
+                "description": "借鉴 Linux From Scratch，开发一套工具，从零构建openEuler，可以支持新架构。一个可能的建议是，从openEuler x86_64 构建 i686版本。",
+                "update_time": "2020-05-18"
+              }
+            ]
         },
         {
             "anchor":"/simple-xx",
@@ -1466,6 +1504,16 @@
                 "update_time": "2020-05-13"
               },
               {
+                "name": "TUNA Mirrors服务器的ZFS性能问题调研及调优",
+                "difficulty": "高",
+                "mentor": "Aron Xu",
+                "contact": "aron@debian.org",
+                "co-mentor": "王邈 miao.wang@tuna.tsinghua.edu.cn",
+                "hot_index": 0,
+                "description": "TUNA Mirrors 是国内外知名的综合型开源与自由软件镜像，其收录软件数量庞大，长久以来持续服务于国内外的学术界及工业界对软件仓库的需求。由于用户需求日益上升，服务器存储系统中的ZFS一直在遭受严峻的挑战，并屡屡触碰性能瓶颈以及各类疑难的性能问题。本项目旨在考察 TUNA Mirrors 的 ZFS 软硬件配置，调研其中存在的各种疑难性能问题及瓶颈，并尽可能给出相应的性能调优建议。性能调优对于提升 TUNA Mirrors 及其姊妹镜像站用户体验而言意义重大。",
+                "update_time": "2020-05-18"
+              },
+              {
                 "name": "开源弹幕系统改进",
                 "difficulty": "中",
                 "mentor": "陈晟祺 (@Harry-Chen on GitHub)",
@@ -1486,6 +1534,16 @@
                 "update_time": "2020-05-13"
               },
               {
+                "name": "开源硬件密钥设备工具集",
+                "difficulty": "高",
+                "mentor": "党凡",
+                "contact": "dangfan@tsinghua.edu.cn",
+                "co-mentor": "Zamir Sum，zsun@fedoraproject.org",
+                "hot_index": 0,
+                "description": "以 YubiKey 为代表的密钥存储设备深受 geek 们的喜爱，而相关的密码技术也在开源社区中得到了广泛应用（如 GnuPG）。由于 YubiKey 不开源，近年来，开源社区中陆续诞生了一些开源的硬件密钥设备，例如 SoloKey、CanoKey。作为一个新兴的开源硬件密钥设备，CanoKey 提供了与 YubiKey 一致的FIDO2/U2F、PIV、OpenPGP 和 OATH（HOTP、TOTP）的支持。为了向大众普及和推广密码学工具，CanoKey 还提供了 WebUSB 支持，可以在浏览器中直接使用密码学工具。现在，这些工具的开发还处于起步阶段，需要社区支持，让密码学工具变得更加易用。",
+                "update_time": "2020-05-18"
+              },
+              {
                 "name": "跨平台 NFC 信息读取移动应用开发",
                 "difficulty": "中",
                 "mentor": "党凡",
@@ -1496,6 +1554,16 @@
                 "update_time": "2020-05-13"
               },
               {
+                "name": "SCIM Qt5 移植",
+                "difficulty": "高",
+                "mentor": "续本达",
+                "contact": "heroxbd@gentoo.org",
+                "co-mentor": "",
+                "hot_index": 0,
+                "description": "SCIM 历史悠久的输入法框架，早期为 GNU/Linux 系统的中文本土化立下了汗马功劳，然而近年来 SCIM 的开发团队已经不再活跃，开发停滞，项目处于维护状态。当前 SCIM 依旧可以在各大发行版上顺畅使用，唯一缺失的功能是对 Qt5 的支持。本项目计划把 SCIM 移植到 Qt5。",
+                "update_time": "2020-05-18"
+              },
+              {
                 "name": "完善 Fcitx5 的 wayland 的支持",
                 "difficulty": "中",
                 "mentor": "韩朴宇",
@@ -1503,6 +1571,66 @@
                 "hot_index": 0,
                 "description": "Fcitx5 是 Linux 和 BSD 下的新一代输入法框架,支持中日韩等东亚语言的输入。Wayland 是 Linux 和 BSD 新一代的显示协议,用于替代老旧的X11协议。Fcitx5 目前可以在 Xorg 下正常的输入,但是受 Wayland 协议的限制,Fcitx5 在 Wayland 下有诸多问题,其中最主要的是无法显示候选框,导致无法选词。本项目目标是改进 Fcitx5 在 Wayland 桌面下的体验,达到与 Xorg 相同的使用效果。",
                 "update_time": "2020-05-13"
+              },
+              {
+                "name": "将 xgboost 与 prophet 等数据科学软件库集成到 Debian GNU/Linux",
+                "difficulty": "高",
+                "mentor": "Aron Xu",
+                "contact": "aron@debian.org",
+                "co-mentor": "",
+                "hot_index": 0,
+                "description": "xgboost （梯度提升），prophet （时间序列预测）以及 Stan （高性能统计建模），pytorch （深度学习）等是重要的数据科学软件。Debian 作为用户基数庞大的 Linux 发行版之一，用户群中不乏数据科学用户群体，而上述软件尚未集成到该系统中，或者缺乏一部分计算性能相关的依赖库。为帮助用户获得更佳使用体验，方便安装及部署，该项目旨在为 Debian 官方仓库引入这些软件及其对应的依赖库，并将仓库中已有的依赖更新到理想状态。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "Gentoo R_Overlay 升级",
+                "difficulty": "高",
+                "mentor": "续本达",
+                "contact": "heroxbd@gentoo.org",
+                "co-mentor": "",
+                "hot_index": 0,
+                "description": "Gentoo R Overlay是一个读取 CRAN 和 BIOC 仓库，并自动生成 Gentoo ebuild 组成 portage overlay 的项目。从2013年至今，一直为 Gentoo 的统计学、生物学和物理学领域的科学家提供服务。本项目将针对 Gentoo R Overlay 的现状和用户需求，对其进行升级。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "Gentoo PyPI ebuild 生成器",
+                "difficulty": "高",
+                "mentor": "续本达",
+                "contact": "heroxbd@gentoo.org",
+                "co-mentor": "",
+                "hot_index": 0,
+                "description": "在 Gentoo 上使用 PyPI 包一种做法是先把 PyPI 的软件打包成 Gentoo 的 ebuild，其缺点是更新需要由人工完成，效率较低。另一种做法是使用 PyPI 的 pip 来绕过 Gentoo 的包管理系统 portage 直接安装，其缺点是容易与 portage 冲突，导致 Python 子系统的混乱。本项目计划采两家之长，通过一个 PyPI ebuild 生成器自动生成一个 PyPI 的 portage overlay，为 Gentoo 用户提供最新 Python 软件仓库。项目可以借鉴现已无人维护的 gs-pypi 代码。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "Gentoo Android App",
+                "difficulty": "高",
+                "mentor": "许朋程",
+                "contact": "i@jsteward.moe",
+                "co-mentor": "",
+                "hot_index": 0,
+                "description": "Gentoo on Android 可以在 Android 上运行 Gentoo Prefix，实现无性能损耗的完整的 GNU 环境。然而，当前的 Gentoo on Android 一方面需要 root 权限，另一方面需要手动安装，亟需一个不需 root 的 Android App 完成安装，更方便地把手机转换成开发和生产工具。在 Android 的系统中，每个 App 有一个专有的用户 uid 和一个保留的空间存放数据，适合嵌入一个这个 uid 下的 Gentoo Prefix 实例，解决当前 Gentoo on Android 的两个问题。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "Gentoo ROCm HIP GPGPU 方案",
+                "difficulty": "高",
+                "mentor": "续本达",
+                "contact": "heroxbd@gentoo.org",
+                "co-mentor": "",
+                "hot_index": 0,
+                "description": "ROCm 是 AMD 显卡的自由开源的科学计算系统，HIP 是 ROCm 的 CUDA 兼容层，提供类似于 CUDA 的 API。然而 ROCm 和 HIP 的文档校为缺乏，除了官方指定的个别平台之外，安装和部署较为困难。Gentoo Linux 是一个元发行版，具有高度的可定制性，是各发行版中进行科学计算相关开发的良好选择。当前，Gentoo 中的 ROCm 相关的软件包已经成熟，但是 HIP 及与之相关的 rocBLAS 等高级库尚未完成，依旧有许多难点。本项目将完成 Gentoo 的 HIP 软件包，并为 PyTorch, Tensorflow 提供 AMD 设备上的进行方案。完成发行版上开源 GPGPU 框架的布局。",
+                "update_time": "2020-05-18"
+              },
+              {
+                "name": "Emacs Jupyter client",
+                "difficulty": "高",
+                "mentor": "续本达",
+                "contact": "heroxbd@gentoo.org",
+                "co-mentor": "",
+                "hot_index": 0,
+                "description": "Emacs 是久负盛名的编辑器，以其高度的可编程扩展性闻名于世。Jupyter 是基于 HTTP 的远程异步运行系统，在科学计算有广泛的应用。EIN 项目为 Emacs 提供 Jupyter 客户端，可以弥补 Jupyter 网页上输入功能薄弱的劣势，把 Emacs 的强大编辑功能与 Jupyter 异步执行功能有机结合，成为 literate programming 的最强方案之一。但是，EIN使用的 HTTP 框架由基于 callback 的异步编程框架，维护较为困难，本项目将使用 coroutine 的函数式编程模型重写 EIN，完成现代的 Emacs Jupyter 客户端。",
+                "update_time": "2020-05-18"
               }
             ]
         },
