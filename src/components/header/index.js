@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.less';
 import './mobile.less';
-import './ipad.less';
+// import './ipad.less';
 import {listLinks} from './listLink.js';
 import {NavLink} from 'react-router-dom';
 import {titleChange} from './../../config/titleChange.js';
