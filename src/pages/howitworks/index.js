@@ -115,9 +115,20 @@ export default class Howitworks extends React.Component{
                        </div>
                        <div className="HowitworksTimeTitle opensource"> “大咖说开源” 系列直播讲座</div>
                        <div className="HowitworksTimelineList" >
-                       第一期将在5月16日直播，请关注官网和公众号消息， <span onClick={()=>{this.goLink('liveshow')}}>点击此处查看讲座信息。</span>
-                      
-                    
+                            最新直播将在5 月 23 日 20:00 - 21：00进行，请关注官网和公众号消息， <span onClick={()=>{this.goLink('liveshow')}}>点击此处查看讲座信息。</span>                  
+                       </div>
+                       <div className="HowitworksTimeTitle opensource">指导委员会委员</div>
+                       <div className="HowitworksCommittee">
+                            {
+                                this.state.data.committee.map((item,index)=>{
+                                    return(
+                                        <div className="HowitworksCommitteeItem" key={index}>
+                                            <div className="HowitworksCommitteeItemUniversity">{item.university}</div>
+                                            <div className="HowitworksCommitteeItemName">{item.name}</div>
+                                        </div>
+                                    )
+                                })
+                            }
                        </div>
                     </div>
                </div>
