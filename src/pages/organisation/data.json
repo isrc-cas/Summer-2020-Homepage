@@ -265,7 +265,7 @@
             "anchor":"/apache-sharding",
             "img":"sharding.jpg",
             "title":"Apache ShardingSphere",
-            "project_url":"https://cwiki.apache.org/confluence/display/SHARDINGSPHERE/Open+Source+Promotion+Plan+-+Summer+2020",
+            "project_url":"https://cwiki.apache.org/confluence/display/SHARDINGSPHERE/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
             "url": "https://shardingsphere.apache.org/",
             "description": "分布式数据库中间件解决方案。",
             "full_des": "Apache ShardingSphere 是一套开源的分布式数据库中间件解决方案组成的生态圈，它由Sharding-JDBC、Sharding-Proxy和Sharding-Sidecar（规划中）这3款相互独立，却又能够混合部署配合使用的产品组成。它们均提供标准化的数据分片、分布式事务和数据库治理功能，可适用于如Java同构、异构语言、云原生等各种多样化的应用场景。ShardingSphere定位为关系型数据库中间件，旨在充分合理地在分布式的场景下利用关系型数据库的计算和存储能力，而并非实现一个全新的关系型数据库。它通过关注不变，进而抓住事物本质。关系型数据库当今依然占有巨大市场，是各个公司核心业务的基石，未来也难于撼动，我们目前阶段更加关注在原有基础上的增量，而非颠覆。",
@@ -890,6 +890,19 @@
                 "update_time": "2020-05-19"
               }
             ]
+		},
+		{
+            "anchor":"/huawei-liteos",
+            "img":"huaweiLite.jpg",
+            "title":"Huawei LiteOS",
+            "project_url":"",
+            "url": "http://liteos.org",
+            "description": "轻量级物联网操作系统。",
+            "full_des": "Huawei LiteOS 是华为针对物联网领域推出的轻量级物联网操作系统，具备轻量、智能、安全、组件丰富、简易开发等关键能力，基于物联网领域业务特征打造领域性技术栈，为开发者提供 “一站式” 完整软件平台，有效降低开发门槛、缩短开发周期，可广泛应用于可穿戴设备、智能家居、车联网、智慧城市等领域。自开源社区发布以来，持续围绕物联网市场从技术、生态、解决方案、商用支持等多维度使能合作伙伴，构建开源的物联网生态，帮助众多行业客户快速推出物联网终端和解决方案，加速物联网产业发展和行业数字化转型。",
+            "tech_tag": ["轻量","智能","安全","端云协同","多核管理","RTOS"],
+            "domain_tag": ["IoT","可穿戴","视频","语音","低功耗"],
+            "mail_list": "liteos@huawei.com",
+            "email": "liteos@huawei.com"
         },
         {
             "anchor":"/kube-edge",

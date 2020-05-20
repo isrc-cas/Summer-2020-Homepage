@@ -210,6 +210,10 @@ export default class Organisation extends React.Component{
       document.getElementById(wrappers[num-1]).style.display = "block";
       document.getElementById(wrappers[2-num]).style.display = "none";
       if (num === 2) {
+        document.getElementById('org-default').setAttribute("class", "org-search-bar-sort orgClick");
+        document.getElementById('org-time').setAttribute("class", "org-search-bar-sort");
+        document.getElementById('time-down').setAttribute("class", "org-arrow down-0");
+        document.getElementById('time-up').setAttribute("class", "org-arrow up-0");
         window.location.hash = "/organisations?page=project";
         this.getAllProjectList();
       } else {
@@ -248,7 +252,6 @@ export default class Organisation extends React.Component{
         this.setState({
             currentPage: 1
         });
-        console.log(this.state.currentPage);
         if (category === 'latest') {
             const {allProjects} = this.state;
             let newProjects = allProjects.reverse();
