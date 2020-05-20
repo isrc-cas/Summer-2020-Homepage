@@ -1341,8 +1341,8 @@
             "title":"鹏城汇智社区（iHub）",
             "project_url":"https://code.ihub.org.cn/projects/1360",
             "url": "https://www.ihub.org.cn",
-            "description": "提供易于学习的代码示例与实现思路。",
-            "full_des": "Simple-XX 是⼀次写代码写崩溃后的产物,我尝试从头实现⼀个简单的内核,但是互联⽹上的内容太过零散,对于初学者来说很不友好,严重拖慢了学习效率。SimpleKernel 是 Simple-XX 的第⼀次尝试,⽬前收到了 700+ star 与 80+ fork,后续还会有编译器、数据库、搜索引擎等内容。",
+            "description": "优选和汇聚全球AI开源资源。",
+            "full_des": "iHub 开源平台是面向以汉语为母语的开发者，优选和汇聚 AI 和 RISC-V 等开源项目与代码的托管平台。iHub 开源平台致力于为众多的开发者和科研人员提供一个具有专业的代码托管功能、稳定易用、访问速度快的开源平台。",
             "tech_tag": ["软件环境","算法框架","实训课程"],
             "domain_tag": ["人工智能","RISC-V"],
             "mail_list": "wangs02@pcl.ac.cn",
@@ -1605,7 +1605,90 @@
             "tech_tag": ["C++","深度学习框架"],
             "domain_tag": ["深度学习","人工智能","CV"],
             "mail_list": "megengine.org.cn",
-            "email": "megengine-support@megvii.com"
+            "email": "megengine-support@megvii.com",
+            "project_list": [
+              {
+                "name": "Github CI 增加 commit 内容检查",
+                "description": "增加 commit message checker，以规范贡献者 commit 格式",
+                "difficulty": "低",
+                "mentor": "张禄",
+                "contect": "",
+                "hot_index": "",
+                "update_time": "2020-05-20"
+              },
+              {
+                "name": "实现 MegEngine to Caffe 转换器",
+                "description": "编写转换器，将 MegEngine 训练出的模型转换成 Caffe 模型",
+                "difficulty": "中",
+                "mentor": "陈远昭",
+                "contect": "",
+                "hot_index": "",
+                "update_time": "2020-05-20"
+              },
+              {
+                "name": "实现 MegEngine to TFLite 转换器",
+                "description": "编写转换器，将 MegEngine 训练出的模型转换成 TFLite 模型",
+                "difficulty": "中",
+                "mentor": "陈远昭",
+                "contect": "",
+                "hot_index": "",
+                "update_time": "2020-05-20"
+              },
+              {
+                "name": "添加一些常用的opr",
+                "description": "添加一些目前MegEngine缺乏的、常用的opr，大部分只需要在python层进行封装。",
+                "difficulty": "中低",
+                "mentor": "胡焜",
+                "contect": "",
+                "hot_index": "",
+                "update_time": "2020-05-20"
+              },
+              {
+                "name": "添加各类常用分类模型",
+                "description": "classification模型比如mobilenet/inception，但不需要训练/推理等完整代码，也不需要预训练权重，只需要模型实现即可，统一放在 vision/classification/models[contribution]下面，类似于torchvision那样， 前期可以提供示例。",
+                "difficulty": "中",
+                "mentor": "周亦庄",
+                "contect": "",
+                "hot_index": "",
+                "update_time": "2020-05-20"
+              },
+              {
+                "name": "实现 assistant 库",
+                "description": "针对容易出错的使用方式，进行 warning 提示。希望达到玩游戏的时候的那种辅助提示的效果，比如 momentum < 0.5 的时候，提示：\"The momentum of batch normalization layer rarely uses a value less than 0.5, Please check the document for momentum's definition, which is different from PyTorch.\"。至多提示一次，如果用户觉得我明白风险，可以忽略或显式用 API 表明”我了解这个风险”",
+                "difficulty": "中",
+                "mentor": "许欣然",
+                "contect": "",
+                "hot_index": "",
+                "update_time": "2020-05-20"
+              },
+              {
+                "name": "MegEngine 网络可视化",
+                "description": "基于 Netron，对 MegEngine 训练网络进行可视化",
+                "difficulty": "高",
+                "mentor": "许欣然",
+                "contect": "",
+                "hot_index": "",
+                "update_time": "2020-05-20"
+              },
+              {
+                "name": "C++ 文档生成",
+                "description": "基于 Doxygen 和 Sphinx，生成用于集成在官网的 C++ 使用文档",
+                "difficulty": "中",
+                "mentor": "刘炎明",
+                "contect": "",
+                "hot_index": "",
+                "update_time": "2020-05-20"
+              },
+              {
+                "name": "Models-CI 增加模型检查",
+                "description": "对于Models中开源出去模型，进行试运行检查，及时定位Models中的问题",
+                "difficulty": "中",
+                "mentor": "王枫",
+                "contect": "",
+                "hot_index": "",
+                "update_time": "2020-05-20"
+              }
+            ]
         },
         {
             "anchor":"/tdengine",
