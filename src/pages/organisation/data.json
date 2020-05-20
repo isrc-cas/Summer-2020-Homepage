@@ -908,7 +908,7 @@
             "anchor":"/kube-edge",
             "img":"KubeEdge.jpg",
             "title":"KubeEdge",
-            "project_url":"https://www.taosdata.com/blog/2020/05/20/1521.html",
+            "project_url":"",
             "url": "https://kubeedge.io",
             "description": "云原生边缘计算平台。",
             "full_des": "KubeEdge 将云原生技术应用到智能边缘计算领域，具备边云可靠协同、极致轻量、边缘智能、强劲算力、离线自治、海量边缘设备管理等能力，利用云原生生态的众多优势解决边缘计算中的挑战。",
