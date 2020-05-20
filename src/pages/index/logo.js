@@ -161,6 +161,11 @@ const logolistMap = {
             url:' http://www.opencv.org.cn'
         },
         {
+            name:'鹏城汇智社区（iHub）',
+            img:'c_iHub.jpg',
+            url:'https://www.ihub.org.cn/'
+        },
+        {
             name:'Simple-XX',
             img:'c_Simple-XX.jpg',
             url:' https://github.com/Simple-XX'

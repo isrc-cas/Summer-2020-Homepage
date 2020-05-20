@@ -1334,6 +1334,57 @@
                 "update_time": "2020-05-18"
               }
             ]
+		},
+		{
+            "anchor":"/ihub",
+            "img":"ihub.jpg",
+            "title":"鹏城汇智社区（iHub）",
+            "project_url":"https://code.ihub.org.cn/projects/1360",
+            "url": "https://www.ihub.org.cn",
+            "description": "提供易于学习的代码示例与实现思路。",
+            "full_des": "Simple-XX 是⼀次写代码写崩溃后的产物,我尝试从头实现⼀个简单的内核,但是互联⽹上的内容太过零散,对于初学者来说很不友好,严重拖慢了学习效率。SimpleKernel 是 Simple-XX 的第⼀次尝试,⽬前收到了 700+ star 与 80+ fork,后续还会有编译器、数据库、搜索引擎等内容。",
+            "tech_tag": ["软件环境","算法框架","实训课程"],
+            "domain_tag": ["人工智能","RISC-V"],
+            "mail_list": "wangs02@pcl.ac.cn",
+            "email": "ihub@pcl.ac.cn",
+            "project_list": [
+              {
+                "name": "二值目标检测网络的设计与训练",
+                "difficulty": "低",
+                "mentor": "陈刚",
+                "contact": "cheng83@mail.sysu.edu.cn",
+                "hot_index": 0,
+                "description": "目标检测作为图像理解中的重要一环，其任务是找出图像中所有感兴趣的目标（物体），确定它们的位置和大小，是深度学习中的重要应用之一。目前有许多优秀的二值神经网络模型，大多都使用的是全精度的网络。但由于PhoneBit框架主要针对二值神经网路进行加速，需要对网络进行二值化处理，并保持一定的精度，以便于部署到移动设备上。",
+                "update_time": "2020-05-20"
+              },
+              {
+                "name": "PhoneBit框架上的二值目标检测模型部署",
+                "difficulty": "中",
+                "mentor": "陈刚",
+                "contact": "cheng83@mail.sysu.edu.cn",
+                "hot_index": 0,
+                "description": "目标检测作为图像理解中的重要一环，其任务是找出图像中所有感兴趣的目标（物体），确定它们的位置和大小，是深度学习中的重要应用之一。目前有许多优秀的二值神经网络模型，大多都使用的是全精度的网络。但由于PhoneBit框架主要针对二值神经网路进行加速，需要对网络进行二值化处理，并保持一定的精度，以便于部署到移动设备上。",
+                "update_time": "2020-05-20"
+              },
+              {
+                "name": "基于PhoneBit框架上的移动二值目标检测模型应用",
+                "difficulty": "中",
+                "mentor": "陈刚",
+                "contact": "cheng83@mail.sysu.edu.cn",
+                "hot_index": 0,
+                "description": "目前手机的计算能力愈来愈高，已逐步具备进行快速模型部署的能力。PhoneBit框架基于手机GPU进行高度优化，能实现基于手机的快速前向推断。在PhoneBit开源仓库下，提供了二值图像分类网络的Android部署APP示例工程。可以参考示例工程，根据目标检测任务的特性设计APP，实现模型的应用。",
+                "update_time": "2020-05-20"
+              },
+              {
+                "name": "心血管疾病预测",
+                "difficulty": "中",
+                "mentor": "陈亚云",
+                "contact": "563880696@qq.com",
+                "hot_index": 0,
+                "description": "在分类问题中，分类的目的是从一系列数据中选择出一个分类（如，给出一张包含苹果或橘子的图片，识别出图片中是哪种水果）。本项目采用心血管疾病数据集，数据集提供11个特征值和1个目标值，包含70000个患者记录数据。通过构建一个算法模型，来预测样本是否患有心血管疾病。本实训主要介绍如何实现“心血管疾病预测模型”的开发，通过该实训项目，可以使实训受众了解预测模型的开发。",
+                "update_time": "2020-05-20"
+              }
+            ]
         },
         {
             "anchor":"/simple-xx",
