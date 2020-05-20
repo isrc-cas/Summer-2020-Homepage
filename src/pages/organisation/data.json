@@ -1547,14 +1547,36 @@
             "anchor":"/tdengine",
             "img":"td.jpg",
             "title":"TDEngine",
-            "project_url":"",
+            "project_url":"https://www.taosdata.com/blog/2020/05/20/1521.html",
             "url": "https://www.taosdata.com/cn/",
             "description": "开源物联网、车联网等的大数据平台。",
             "full_des": "北京涛思数据科技有限公司(TAOS Data) 瞄准日益增长的物联网数据市场，专注时序空间大数据的存储、查询、分析和计算。不依赖任何开源或第三方软件，开发了拥有自主知识产权、自主可控的高性能、可伸缩、高可靠、零管理的物联网大数据平台TDengine，可广泛运用于物联网、车联网、工业互联网、IT运维等领域。公司已经申请多项技术发明专利，且全部提交PCT专利申请。涛思数据采用AGPL许可证，已经将TDengine的内核(存储和计算引擎)以及社区版100%开源。",
             "tech_tag": ["C", "Java", "Go", "PHP", "JavaScript", "Python", "SQL"],
             "domain_tag": ["物联网","车联网","工业互联网","IT运维"],
             "mail_list": "tdengine@taosdata.com",
-            "email": "tdengine@taosdata.com"
+            "email": "tdengine@taosdata.com",
+            "project_list": [
+              {
+                "name": "官网优化",
+                "difficulty": "中",
+                "mentor": "李夏昕",
+                "contact": "xxli@taosdata.com",
+                "co-mentor": "",
+                "hot_index": 0,
+                "description": "根据项目要求，为官网增加新模块，并对现有内容进行优化。",
+                "update_time": "2020-05-20"
+              },
+              {
+                "name": "时序数据库的自动化测试",
+                "difficulty": "中",
+                "mentor": "桑树多",
+                "contact": "sdsang@taosdata.com",
+                "co-mentor": "",
+                "hot_index": 0,
+                "description": "使用 Python 针对时序数据库 TDengine 开发自动化测试方法。",
+                "update_time": "2020-05-20"
+              }
+            ]
         },
         {
             "anchor":"/tuna",

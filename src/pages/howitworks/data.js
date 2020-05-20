@@ -96,6 +96,39 @@ const data = {
             time2:'',
             text:'组委会公告项目评审结果，并发放奖金给通过的学生。活动指导委员会针对项目进行评价，评选出优秀项目。'
         },
+    ],
+    committee:[
+             
+        {"university":"中科软科技股份有限公司","name":"张正"},
+        {"university":"中科院计算所","name":"包云岗"},
+        {"university":"中国人民大学","name":"梁彬"},
+        {"university":"清华大学","name":"崔勇"},
+        {"university":"北京工业大学","name":"李洪义"},
+        {"university":"北京航空航天大学","name":"胡春明"},
+        {"university":"北京邮电大学","name":"徐国爱"},
+        {"university":"北京林业大学","name":"许福"},
+        {"university":"中央财经大学","name":"王秀利"},
+        {"university":"北京信息科技大学","name":"李春强"},
+        {"university":"中国科学院大学","name":"罗铁坚"},    
+        {"university":"南开大学","name":"李涛"},
+        {"university":"天津大学","name":"徐江涛"},
+        {"university":"大连理工","name":"吴国伟"},
+        {"university":"复旦大学","name":"杨珉"},
+        {"university":"同济大学","name":"裴喜龙"},
+        {"university":"上海交通大学","name":"夏虞斌"},
+        {"university":"华东师范大学","name":"王伟"},
+        {"university":"浙江大学","name":"纪守领"},
+        {"university":"中国科学技术大学","name":"杨盘隆"},
+        {"university":"中国科学技术大学","name":"张兰"},
+        {"university":"厦门大学","name":"纪荣嵘"},  
+        {"university":"华中科技大学","name":"华宇"},  
+        {"university":"武汉理工","name":"向剑文"},      
+        {"university":"广州大学","name":"李进"},   
+        {"university":"海南大学","name":"张永辉"},
+        {"university":"西安交通大学","name":"唐亚哲"},
+        {"university":"西安电子科技大学","name":"李青山"}, 
+        {"university":"西安邮电大学","name":"陈莉君"},   
+
     ]
 }
 
