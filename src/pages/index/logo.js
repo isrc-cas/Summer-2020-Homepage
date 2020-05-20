@@ -113,6 +113,11 @@ const logolistMap = {
             url:'https://www.gnu.org/software/emacs/'
         },
         {
+            name:'Huawei LiteOS',
+            img:'c_HuaweiLiteOS.jpg',
+            url:'http://liteos.org'
+        },
+        {
             name:'KubeEdge',
             img:'c_KubeEdge.jpg',
             url:'https://kubeedge.io'
@@ -313,6 +318,16 @@ const logolistMap = {
             name:'上海科技大学',
             img:'logo22.jpg',
             url:'http://www.shanghaitech.edu.cn/'
+        },
+        {
+            name:'南京大学',
+            img:'nanjingdaxue.jpg',
+            url:'https://www.nju.edu.cn/'
+        },
+        {
+            name:'东南大学',
+            img:'dongnan.jpg',
+            url:'https://www.seu.edu.cn/'
         },
         {
             name:'浙江大学',
