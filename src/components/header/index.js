@@ -1,21 +1,21 @@
 import React from 'react';
 import './index.less';
 import './mobile.less';
-// import './ipad.less';
+import './ipad.less';
 import {listLinks} from './listLink.js';
 import {NavLink} from 'react-router-dom';
 import {titleChange} from './../../config/titleChange.js';
 
 
-var withl = window.innerWidth
+// var withl = window.innerWidth
 
-if(withl<1200 && withl>700){
+// if(withl<1200 && withl>700){
    
-    //1.0 判定为移动手机设备
-    var scaleIndex = withl/1200-0.014;
-    document.getElementsByTagName("body")[0].style.transform = "scale("+scaleIndex+")";
-    document.getElementsByTagName("body")[0].style.transformOrigin = "left top"
-}
+//     //1.0 判定为移动手机设备
+//     var scaleIndex = withl/1200-0.014;
+//     document.getElementsByTagName("body")[0].style.transform = "scale("+scaleIndex+")";
+//     document.getElementsByTagName("body")[0].style.transformOrigin = "left top"
+// }
 
 
 
