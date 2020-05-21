@@ -29,10 +29,31 @@ export default class Organisation extends React.Component{
             this.showModal(location.split("/organisations")[1], true);
         }
     }
-    renderProjects () {
-
+    resetStyle (category) {
+        if (category === 'default') {
+            document.getElementById('update_time-down').setAttribute("class", "org-arrow down-0");
+            document.getElementById('update_time-up').setAttribute("class", "org-arrow up-0");
+        }
+        // let cat = category === 'update_time' ? 'hot_index' : 'update_time';
+        document.getElementById('org-update_time').setAttribute("class", "org-search-bar-sort");
+        // document.getElementById('update_time-down').setAttribute("class", "org-arrow down-0");
+        // document.getElementById('update_time-up').setAttribute("class", "org-arrow up-0");
+        // document.getElementById('org-hot_index').setAttribute("class", "org-search-bar-sort");
+    }
+    showHot (hot_index, index) {
+        var divContainer = [];
+        for (var i = 0; i < 3; i++) {
+            if (i <= hot_index) {
+                divContainer.push(<div className="hot-1 orgProjectHot" key={index+'-'+hot_index+i}></div>);
+            } else {
+                divContainer.push(<div className="hot-0 orgProjectHot" key={index+'-'+hot_index+i}></div>);
+            }  
+        }
+        return divContainer;
     }
     getAllProjectList () {
+        document.getElementById('org-default').setAttribute("class", "org-search-bar-sort orgClick");
+        this.resetStyle('default');
         var temp = [];
 
         this.state.data.orgList.map((item,index)=>{
@@ -148,19 +169,21 @@ export default class Organisation extends React.Component{
         key = {orgIndex+'-'+index}
         className="orgProjectItem">
             <div className={"orgProjectItemColumn orgLeft org-"+index%3}>
-            {/* <div> */}
-                <div
-                className="orgProjectTitle"
-                >
-                    {item.name}
+                <div className="orgProjectTitleBar">
+                    <div className="orgProjectTitle">
+                        {item.name}
+                        
+                    </div>
+                    
+                
+                    <div className="orgProjectId">{item.label ? 'ID: '+item.label : ''}</div>
+                    
                 </div>
                 <div className="orgProjectTitleIcon"><img alt="0000000" src={require("./../../img/organisation/"+index%3+".jpg")} /></div>
-            {/* </div> */}
-                <div className="orgProjectId">{item.label}</div>
                 <div className="orgProjectGap"></div>
                 <div className="orgProjectBottomLeft">
+                    {/* <div>热度：{this.showHot(item.hot_index, item.index)}</div> */}
                     <div>项目难度：{item.difficulty}</div>
-                    {/* <div>已：{item.student_count}</div> */}
                     <div className="orgProjectName">{orgName}</div>
                 </div>
 
@@ -211,10 +234,6 @@ export default class Organisation extends React.Component{
       document.getElementById(wrappers[num-1]).style.display = "block";
       document.getElementById(wrappers[2-num]).style.display = "none";
       if (num === 2) {
-        document.getElementById('org-default').setAttribute("class", "org-search-bar-sort orgClick");
-        document.getElementById('org-time').setAttribute("class", "org-search-bar-sort");
-        document.getElementById('time-down').setAttribute("class", "org-arrow down-0");
-        document.getElementById('time-up').setAttribute("class", "org-arrow up-0");
         window.location.hash = "/organisations?page=project";
         this.getAllProjectList();
       } else {
@@ -253,23 +272,25 @@ export default class Organisation extends React.Component{
         this.setState({
             currentPage: 1
         });
-        if (category === 'latest') {
+        if (category === 'update_time' || category === 'hot_index') {
             const {allProjects} = this.state;
             let newProjects = allProjects.reverse();
+            // reset all style
             document.getElementById('org-default').setAttribute("class", "org-search-bar-sort");
-            document.getElementById('org-time').setAttribute("class", "org-search-bar-sort orgClick");
+            this.resetStyle(category);
+            document.getElementById('org-'+category).setAttribute("class", "org-search-bar-sort orgClick");
 
-            if (document.getElementById('time-down').getAttribute("class") === 'org-arrow down-0') {
-                document.getElementById('time-down').setAttribute("class", "org-arrow down-1");
-                document.getElementById('time-up').setAttribute("class", "org-arrow up-0");
+            if (document.getElementById(category+'-down').getAttribute("class") === 'org-arrow down-0') {
+                document.getElementById(category+'-down').setAttribute("class", "org-arrow down-1");
+                document.getElementById(category+'-up').setAttribute("class", "org-arrow up-0");
                 this.setState({
-                    allProjects: newProjects.sort((a,b)=>{ return a.update_time < b.update_time ? 1 : -1})
+                    allProjects: newProjects.sort((a,b)=>{ return a[category] < b[category] ? 1 : -1})
                 });
             } else {
-                document.getElementById('time-down').setAttribute("class", "org-arrow down-0");
-                document.getElementById('time-up').setAttribute("class", "org-arrow up-1");
+                document.getElementById(category+'-down').setAttribute("class", "org-arrow down-0");
+                document.getElementById(category+'-up').setAttribute("class", "org-arrow up-1");
                 this.setState({
-                    allProjects: newProjects.sort((a,b)=>{ return a.update_time > b.update_time ? 1 : -1})
+                    allProjects: newProjects.sort((a,b)=>{ return a[category] > b[category] ? 1 : -1})
                 });
             }
             
@@ -284,10 +305,6 @@ export default class Organisation extends React.Component{
                 displayProjects: divContainer
             });
         } else {
-            document.getElementById('org-default').setAttribute("class", "org-search-bar-sort orgClick");
-            document.getElementById('org-time').setAttribute("class", "org-search-bar-sort");
-            document.getElementById('time-down').setAttribute("class", "org-arrow down-0");
-            document.getElementById('time-up').setAttribute("class", "org-arrow up-0");
             this.getAllProjectList();
         }
     }
@@ -350,7 +367,7 @@ export default class Organisation extends React.Component{
                             return (
                                 <div key={index}>
                                     {/* <div className="orgListItem" key={index} onClick={() => this.openInNewTab(item.project_url ? item.project_url : item.url)}> */}
-                                    <div className="orgListItem" key={index} onClick={() => this.showModal(item.anchor)} id={index+"-orgListItem"}>
+                                    <div className="orgListItem" key={'list-'+index} onClick={() => this.showModal(item.anchor)} id={index+"-orgListItem"}>
                                             <div
                                                 className="orgListItemImage"
                                                 style={{backgroundImage:"url("+require("./../../img/organisation/"+item.img) + ")"}}
@@ -437,12 +454,16 @@ export default class Organisation extends React.Component{
                             <div id="org-default" className="org-search-bar-sort orgClick" onClick={()=>this.sortItemBy('default')}>
                                 按社区顺序
                             </div>
-                            <div id="org-time" className="org-search-bar-sort" onClick={()=>this.sortItemBy('latest')}>
+                            <div id="org-update_time" className="org-search-bar-sort" onClick={()=>this.sortItemBy('update_time')}>
                                 按更新时间
-                                <span id="time-down" className="org-arrow down-0"></span>
-                                <span id="time-up" className="org-arrow up-0"></span>
-                                
+                                <span id="update_time-down" className="org-arrow down-0"></span>
+                                <span id="update_time-up" className="org-arrow up-0"></span>
                             </div>
+                            {/* <div id="org-hot_index" className="org-search-bar-sort" onClick={()=>this.sortItemBy('hot_index')}>
+                                按热度
+                                <span id="hot_index-down" className="org-arrow down-0"></span>
+                                <span id="hot_index-up" className="org-arrow up-0"></span>
+                            </div> */}
                             </div>
                             
                             <div className="org-No">
@@ -452,8 +473,6 @@ export default class Organisation extends React.Component{
                             </div> 
 
                         </div>
-                        
-                            {/* <div className="" onClick={()=>this.sortItemBy('hottest')}>最热</div> */}
                         
                         
                         <div>
