@@ -111,10 +111,13 @@ export default class Index extends React.Component{
         }
         
     }
-    liveUrl(index){
-        if(index === 0){
+    liveUrl(time){
+        if(time.split(" ").length>1){
             window.open(this.state.data.liveurl)
+        }else{
+            window.location.hash = "liveshow"
         }
+        
     }
 
     getOpensource(){
@@ -318,7 +321,7 @@ export default class Index extends React.Component{
                                     this.state.data.speechlist.map((item,index)=>{
                                         return (
                                            !item.ppt?
-                                           <div className="indexHomeLiveListItem" key={index} onClick={()=>{this.liveUrl(index)}}>
+                                           <div className="indexHomeLiveListItem" key={index} onClick={()=>{this.liveUrl(item.time)}}>
                                                 <div 
                                                     style={{backgroundImage:"url("+require("./../../img/index/"+item.profilelist[0].imgurl) + ")"}}
                                                     className="indexHomeLiveListItemImage">                                                   

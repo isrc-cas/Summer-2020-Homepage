@@ -5,9 +5,17 @@ export default class LiveModal extends React.Component{
     constructor(props){
         super(props)
         this.state = {
-            livelurl:'https://live.bilibili.com/22221041'
+            liveurl:'https://live.bilibili.com/22221041'
+            
         }
        
+    }
+    goLogoLink(url){
+       
+        if(url){
+            window.open(url)
+        }
+        
     }
     render(){
         return(
@@ -24,7 +32,7 @@ export default class LiveModal extends React.Component{
                                  <div className="LiveShowItemHeaderTitleTwo LiveShowItemOver">{this.props.item.time}</div>
                                    
                                     <div 
-                                        onClick={()=>{this.goLogoLink(this.state.liveurl)}}
+                                        onClick={()=>{this.goLogoLink(this.props.item.url)}}
                                         className="LiveShowItemHeaderButton" >观看回放</div>
                                      <a     
                                         download={this.props.item.pptname}  
