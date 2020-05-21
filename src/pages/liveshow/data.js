@@ -5,8 +5,7 @@ var data = {
     "speechlist":[
         {
             "title":"邀您一起玩openEuler",
-            "time":"2020.05.16",
-            
+            "time":"2020.05.16",        
             "profilelist":[
                 {
                     "name":"李永乐",
@@ -23,8 +22,7 @@ var data = {
         {
             
             "title":"高校开源创新的故事：以X-lab开放实验室为例",
-            "time":"2020.05.23   20:00-21:00",
-                      
+            "time":"2020.05.23   20:00-21:00",                    
             "profilelist":[
                 {
                     "name":"王伟",
