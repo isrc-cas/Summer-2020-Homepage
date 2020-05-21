@@ -1612,7 +1612,7 @@
                 "description": "增加 commit message checker，以规范贡献者 commit 格式",
                 "difficulty": "低",
                 "mentor": "张禄",
-                "contect": "",
+                "contact": "",
                 "hot_index": "",
                 "update_time": "2020-05-20"
               },
@@ -1621,7 +1621,7 @@
                 "description": "编写转换器，将 MegEngine 训练出的模型转换成 Caffe 模型",
                 "difficulty": "中",
                 "mentor": "陈远昭",
-                "contect": "",
+                "contact": "",
                 "hot_index": "",
                 "update_time": "2020-05-20"
               },
@@ -1630,7 +1630,7 @@
                 "description": "编写转换器，将 MegEngine 训练出的模型转换成 TFLite 模型",
                 "difficulty": "中",
                 "mentor": "陈远昭",
-                "contect": "",
+                "contact": "",
                 "hot_index": "",
                 "update_time": "2020-05-20"
               },
@@ -1639,7 +1639,7 @@
                 "description": "添加一些目前MegEngine缺乏的、常用的opr，大部分只需要在python层进行封装。",
                 "difficulty": "中低",
                 "mentor": "胡焜",
-                "contect": "",
+                "contact": "",
                 "hot_index": "",
                 "update_time": "2020-05-20"
               },
@@ -1648,7 +1648,7 @@
                 "description": "classification模型比如mobilenet/inception，但不需要训练/推理等完整代码，也不需要预训练权重，只需要模型实现即可，统一放在 vision/classification/models[contribution]下面，类似于torchvision那样， 前期可以提供示例。",
                 "difficulty": "中",
                 "mentor": "周亦庄",
-                "contect": "",
+                "contact": "",
                 "hot_index": "",
                 "update_time": "2020-05-20"
               },
@@ -1657,7 +1657,7 @@
                 "description": "针对容易出错的使用方式，进行 warning 提示。希望达到玩游戏的时候的那种辅助提示的效果，比如 momentum < 0.5 的时候，提示：\"The momentum of batch normalization layer rarely uses a value less than 0.5, Please check the document for momentum's definition, which is different from PyTorch.\"。至多提示一次，如果用户觉得我明白风险，可以忽略或显式用 API 表明”我了解这个风险”",
                 "difficulty": "中",
                 "mentor": "许欣然",
-                "contect": "",
+                "contact": "",
                 "hot_index": "",
                 "update_time": "2020-05-20"
               },
@@ -1666,7 +1666,7 @@
                 "description": "基于 Netron，对 MegEngine 训练网络进行可视化",
                 "difficulty": "高",
                 "mentor": "许欣然",
-                "contect": "",
+                "contact": "",
                 "hot_index": "",
                 "update_time": "2020-05-20"
               },
@@ -1675,7 +1675,7 @@
                 "description": "基于 Doxygen 和 Sphinx，生成用于集成在官网的 C++ 使用文档",
                 "difficulty": "中",
                 "mentor": "刘炎明",
-                "contect": "",
+                "contact": "",
                 "hot_index": "",
                 "update_time": "2020-05-20"
               },
@@ -1684,7 +1684,7 @@
                 "description": "对于Models中开源出去模型，进行试运行检查，及时定位Models中的问题",
                 "difficulty": "中",
                 "mentor": "王枫",
-                "contect": "",
+                "contact": "",
                 "hot_index": "",
                 "update_time": "2020-05-20"
               }
@@ -2005,9 +2005,9 @@
             "url":"https://community.wuhan2020.org.cn/zh-cn/"
         },
         {
-          "name":"芽木科技",
-          "img":"c_yamukeji.jpg",
-          "url": ""
+			"name":"芽木科技",
+			"img":"c_yamukeji.jpg",
+			"url": ""
       }
 
     ]
