@@ -110,12 +110,12 @@
     }
     .indexStartSecond{
         position: relative;
-        padding-top: 5%;
+        // padding-top: 5%;
         width: 100%;
         height: 420px;
         height: auto;
         .indexStartOneTextConsChi{
-            color:#1b1a2a
+            color:#1b1a2a;
         }
     }
     .indexStartQuote {
@@ -138,24 +138,39 @@
         background-repeat: no-repeat;
     }
     .indexStartOneTextConsChi {
+        border: solid 0.1px #afb0b2;
         letter-spacing: 1px;
-        // text-indent: 2em;
-        margin-top: 20px;
         display: block;
         text-align: center;
-        margin-block-start: 1.33em;
-        margin-block-end: 1.33em;
-
-        
+        h2 {
+            background-image: url(./../../img/start/icon-header.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            height: 75px;
+            line-height: 75px;
+            margin-bottom: 0;
+        }
     }
     .indexStartContent {
+        border-top: 0;
         a {
             color: blue;
         }
-        padding: 10px 10px;
+        padding: 10px;
         text-align: left;
         li {
             line-height: 31px;
+            list-style: none;
+        }
+        li::before{
+            position: absolute;
+            content: "";
+            width: 4px;
+            height: 20px;
+            background: #c4c4e6;
+            left: 28px;
+            margin-top: 5px
         }
     }
     .indexStartContact {
@@ -188,6 +203,7 @@
         position: relative;
         display: flex;
         justify-content: space-between;
+        margin: 50px auto;
         .indexStartOneTextCons{
             width: 350px;
         }
