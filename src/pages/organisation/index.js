@@ -148,14 +148,15 @@ export default class Organisation extends React.Component{
         key = {orgIndex+'-'+index}
         className="orgProjectItem">
             <div className={"orgProjectItemColumn orgLeft org-"+index%3}>
-            <div>
+            {/* <div> */}
                 <div
                 className="orgProjectTitle"
                 >
                     {item.name}
                 </div>
-               <div className="orgProjectTitleIcon"><img alt="0000000" src={require("./../../img/organisation/"+index%3+".jpg")} /></div>
-            </div>
+                <div className="orgProjectTitleIcon"><img alt="0000000" src={require("./../../img/organisation/"+index%3+".jpg")} /></div>
+            {/* </div> */}
+                <div className="orgProjectId">{item.label}</div>
                 <div className="orgProjectGap"></div>
                 <div className="orgProjectBottomLeft">
                     <div>项目难度：{item.difficulty}</div>
