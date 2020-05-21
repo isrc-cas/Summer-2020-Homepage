@@ -6,23 +6,25 @@ var data = {
         {
             "title":"邀您一起玩openEuler",
             "time":"2020.05.16",
-            "url":"",
+            
             "profilelist":[
                 {
                     "name":"李永乐",
                     "profile":"openEuler社区秘书处秘书长、OpenStack基金会董事。",
-                    "imgurl":"liyongle.jpg"
+                    "imgurl":"liyongle.jpg",
+                    
                 }
             ],       
             "speechcontent":"",
             "ppt":liyonglePPT,
-            "pptname":"李永乐老师“邀您一起玩openEuler”.pptx"
+            "pptname":"李永乐老师“邀您一起玩openEuler”.pptx",
+            "url":"https://www.bilibili.com/video/BV1gz4y1d7cu",
         },
         {
             
             "title":"高校开源创新的故事：以X-lab开放实验室为例",
             "time":"2020.05.23   20:00-21:00",
-            "url":"",          
+                      
             "profilelist":[
                 {
                     "name":"王伟",
@@ -31,13 +33,14 @@ var data = {
                 }
             ],  
             "speechcontent":"",
-            "ppt":""
+            "ppt":"",
+            "url":"",
         },
         {
             
             "title":"开源世界中的“潜规则”",
             "time":"2020.05.30",
-            "url":"",    
+               
             "profilelist":[
                 {
                     "name":"李建盛（适兕）",
@@ -46,12 +49,13 @@ var data = {
                 }
             ],  
             "speechcontent":"尽管如今的开源，已经不是多年以前的边缘人群，而是进入了软件产业的主流，各大企业公司、非营利组织、个人、政府机构等等都在争相进入这个世界，那么除了大家公认的免费、再分发、修改、”社区“、基金会、行为准则、许可证、等等这些几乎每个开源项目都会明文规定的内容，还有大家可能会忽略掉的潜在的内容，如技术大于业务、No Crying in Open Source .....",
-            "ppt":""
+            "ppt":"",
+            "url":"",
         },
         {
             "title":"在你的人生经历中，有哪些开源故事？",
             "time":"2020.06.06",
-            "url":"",
+            
             "profilelist":[
                 {
                     "name":"庄表伟",
@@ -65,12 +69,13 @@ var data = {
                 }
             ],  
             "speechcontent":"",
-            "ppt":""
+            "ppt":"",
+            "url":"",
         },
         {         
             "title":"从个人项目开源到Apache Member的5年 -- 如何做一个专业的开源玩家",
             "time":"2020.06.13",
-            "url":"",
+            
             "profilelist":[
                 {
                     "name":"吴晟",
@@ -79,12 +84,13 @@ var data = {
                 }
             ],  
             "speechcontent":"",
-            "ppt":""
+            "ppt":"",
+            "url":"",
         },
         {         
             "title":"Linux从入门到深入内核有多远",
             "time":"2020.06.20",
-            "url":"",
+            
             "profilelist":[
                 {
                     "name":"陈莉君",
@@ -93,13 +99,14 @@ var data = {
                 }
             ],  
             "speechcontent":"",
-            "ppt":""
+            "ppt":"",
+            "url":"",
         },
       
         {         
             "title":"开源软件的历史和法律风险",
             "time":"2020.06.27",
-            "url":"",
+            
             "profilelist":[
                 {
                     "name":"邓超",
@@ -108,12 +115,13 @@ var data = {
                 }
             ],  
             "speechcontent":"",
-            "ppt":""
+            "ppt":"",
+            "url":"",
         },
         {         
             "title":"参与ASF开源贡献的正确姿势 - 如何成为一名合格的ASF Committer",
             "time":"2020.07.04",
-            "url":"",
+            
             "profilelist":[
                 {
                     "name":"孙金城",
@@ -122,12 +130,13 @@ var data = {
                 }
             ],  
             "speechcontent":"国内大多数人都听说过Apache Software Foundation(ASF), 同时我们国家也是世界上使用开源最多的国家之一，目前国内各个大厂也纷纷投入开源建设，但仍然有很多想参与开源建设或者是刚刚参与开源建设的同学，感觉开始开源贡献十分困难，无从下手，不知道该做什么？遇到问题如何处理？如何与人沟通等等问题的存在，因而也导致目前国内成为ASF 项目的Committer，PMC和ASF Member的人并不多，这个现象并非我们没有能力参与ASF贡献，更不是没有能力成为开源项目的Committer/PMC和ASF Member，而是对ASF了解的渠道比较少，对参与社区的原则和技巧了解匮乏，所以本次分享将和大家交流我参与社区过程中的切身的经验，并给到大家参与开源社区的基本原则和方式方法，期望能通过本次分享带你踏上ASF开源之路。",
-            "ppt":""
+            "ppt":"",
+            "url":"",
         },
         {         
             "title":"开源的商业创新",
             "time":"2020.07.18",
-            "url":"",
+            
             "profilelist":[
                 {
                     "name":"吴雪",
@@ -136,7 +145,8 @@ var data = {
                 }
             ],  
             "speechcontent":"",
-            "ppt":""
+            "ppt":"",
+            "url":"",
         }
     ]
 }
