@@ -2124,6 +2124,17 @@
           "description": "使用 Python 针对时序数据库 TDengine 开发自动化测试方法。",
           "update_time": "2020-05-20",
           "label": "proj_26_179"
+        },
+        {
+          "name": "TDEngine 在各种场景下的 BanchMark 程序",
+          "difficulty": "高",
+          "mentor": "刘涛",
+          "contact": "tliu@taosdata.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "description": "使用开源的时序数据库对比测试程序针对框架开发写入和查询的适配，并进行多个时序数据库的对比测试",
+          "update_time": "2020-05-21",
+          "label": ""
         }
       ]
     },
