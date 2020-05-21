@@ -349,6 +349,13 @@
                     height: 300px;
                     margin-bottom: 40px;
                     color: white;
+                    .orgProjectTitleIcon {
+                        width: 75px;
+                        height: 75px;
+                        position: absolute;
+                        right: 750px;
+                        margin-top: -80px;
+                    }
                 }
                 .orgProjectItemColumn {
                     li {
@@ -376,13 +383,6 @@
                     width: 500px;
                     height: 300px;
                     padding: 30px 0;
-                    .orgProjectTitleIcon {
-                        width: 75px;
-                        height: 75px;
-                        position: absolute;
-                        right: 750px;
-                        margin-top: -140px;
-                    }
                 }
                 .orgRight {
                     grid-column: 2;
@@ -392,6 +392,7 @@
                     height: 262px;
                     background: #ebf1ff;
                 }
+                
                 .orgProjectTitle {
                     padding: 0 28px;
                     width: 330px;
@@ -399,16 +400,21 @@
                     background-position: top right;
                     background-repeat: no-repeat;
                     background-size: 75px 75px;
-                    min-height: 75px;
-                    height: 110px;
+                    min-height: 60px;
+                    // height: 110px;
                     overflow: hidden;
                     text-overflow: ellipsis;
                     display:-webkit-box;
                     -webkit-box-orient:vertical;
                     -webkit-line-clamp:3;
                 }
+                .orgProjectId {
+                    padding: 0 28px;
+                    font-size: 16px;
+                    color: #aec9ff;
+                }
                 .orgProjectGap {
-                    height: 60px;
+                    height: 40px;
                     width: 1px;
                 }
                 .orgProjectBottomLeft {
