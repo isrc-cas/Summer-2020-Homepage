@@ -1603,6 +1603,16 @@
           "description": "Deep learning networks are hungry for data and data augmentation is one of the easiest ways to increase data variation. Augmentation could be as simple image flipping, cropping and scaling on up to more complicated transformations such style transfer using another deep learning network. For computer vision problems, OpenCV is often used for reading images in most of training scenarios, so why we’d like to enhance data reading with simple to use data augmentation techniques as well.",
           "update_time": "2020-05-14",
           "label": "2020099"
+        },
+        {
+          "name": "Incremental and Batch Simplification of Point Clouds",
+          "difficulty": "中",
+          "mentor": "Intel OpenCV team member",
+          "contact": "admin@opencv.org.cn",
+          "hot_index": 0,
+          "description": "With a rapid growth of computer vision application areas such as robotics, self-driving cars, drones, as well as augmented reality, and with increasing availability of various depth sensors, there is also more demand in software that would be able to process point clouds coming from these sensors efficiently in realtime on low-power processors. And so the efficient cloud processing becomes one of OpenCV strategic directions. Reducing the number of points in a point cloud prior to triangulation can be used to simultaneously improve the quality of point clouds and reduce the memory footprint. This project aims at an efficient implementation of the “Incremental and Batch Planar Simplification of Dense Point Cloud Maps paper” (see link in Resources).",
+          "update_time": "2020-05-22",
+          "label": "2020194"
         }
       ]
     },
