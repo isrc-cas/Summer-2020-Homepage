@@ -115,14 +115,17 @@ export default class Organisation extends React.Component{
                     this.openInNewTab(item.project_url);
                 }
                 document.getElementById(index+"-tooltip").style.display = 'none';
+
                 if (isDetail) {
                     window.location.hash = "/organisations" + (anchor ? anchor : "");
                     window.location.href = window.location.protocol + "//" + window.location.host + window.location.pathname + "?" + window.location.hash;
                     document.getElementById(index+"-orgListItem").style.display = 'none';
+                    document.getElementById(index+"-tooltip").style.left = 0;
+                    
                 }
                 return 0;
             });
-            if (window.innerWidth > 700) {
+            if (window.innerWidth > 1200) {
                 switch(index % 3) {
                     case 1:
                         document.getElementById(index+"-tooltip").style.left = '-409px';
@@ -136,16 +139,21 @@ export default class Organisation extends React.Component{
                         break;
                 }
                 document.getElementById(index+"-tooltip").style.display = 'flex';
-            } else {
+            }
+            else {
                 document.getElementById(index+"-tooltip").style.display = 'block';
                 document.getElementById(index+"-tooltip").style.left = '0';
             }
             if (isDetail) {
                 document.getElementById(index+"-tooltip").setAttribute("class", "org-tooltip org-detail");
+                
                 document.getElementById(index+"-tooltip").style.display = 'block';
                 document.getElementById("orgListOWrapper").style.display = 'none';
                 document.getElementById("orgListNavBar").style.display = 'block';
+                
                 window.scrollTo(0,0);
+               
+                
             } else {
                 document.getElementById(index+"-tooltip").setAttribute("class", "org-tooltip");
             }

@@ -148,6 +148,7 @@
                 margin-top: 20px;
                 padding: 20px 30px;
                 text-align: left;
+               
                 .triangle {
                     display: block;
                     height: 0px;
@@ -187,10 +188,11 @@
                 .tooltip-divider {
                     background: rgb(229,229,229);
                     height: 2px; 
-                    width: 1200px;
+                    // width: 1200px;
                     margin-top: 10px;
                     padding: 0;
                     margin-left: -30px;
+                    width: calc(~'100% + 60px');
                 }
                 .tooltip-list-title, .tooltip-url {
                     margin-top: 10px;
@@ -362,6 +364,9 @@
                         /* margin-top: -140px; */
                         right: 0;
                         top: 0;
+                        img{
+                            width: 100%;
+                        }
                     }
                 }
                 .orgProjectItemColumn {
@@ -399,6 +404,7 @@
                     width: 700px;
                     height: 262px;
                     background: #ebf1ff;
+                    position: relative;
                 }
                 .orgProjectHot {
                     height: 19px;
