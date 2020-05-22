@@ -1667,137 +1667,6 @@
           "description": "树莓派（英语：Raspberry Pi）是基于 Linux 的单片机电脑，目的是以低价硬件及自由软件促进学校的基本计算机科学教育。为了降低成本，树莓派省去了传统计算机用来存储引导加载程序的板载存储器(BIOS), 直接把引导程序放在了SD卡中。目前树莓派 Pi 4 引入了 UEFI，不过目前处于 EXPERIMENTAL 状态。本项目目标是为树莓派引入 UEFI Firmware 来支持 UEFI 启动 openEuler 树莓派 4B。",
           "update_time": "2020-05-18",
           "label": "2021102"
-        },
-        {
-          "name": "Build openEuler from Scratch",
-          "difficulty": "中",
-          "mentor": "overweight",
-          "contact": "hexiaowen@huawei.com",
-          "hot_index": 0,
-          "description": "借鉴 Linux From Scratch，开发一套工具，从零构建openEuler，可以支持新架构。一个可能的建议是，从openEuler x86_64 构建 i686版本。",
-          "update_time": "2020-05-18",
-          "label": "2021103"
-        },
-        {
-          "name": "让openEuler在aarch64架构上跑的更快！-- openEuler加速库（aarch64架构）优化",
-          "difficulty": "中",
-          "mentor": "yikun",
-          "contact": "jiangyikun@huawei.com",
-          "co-mentor": "derek, zhangxuelei4@huawei.com",
-          "hot_index": 0,
-          "description": "为了使aarch64平台的用户能够使用上更快的openEuler，我们需要对基础库、加速库进行优化，目前鲲鹏计算已开源一系列基于aarch64的优化，也有很多加速库在上游社区完成了aarch64优化，但这些软件优化尚未集成到openEuler OS中。",
-          "update_time": "2020-05-21",
-          "label": "2021183"
-        },
-        {
-          "name": "An abi checker tool for openEuler",
-          "difficulty": "高",
-          "mentor": "@overweight",
-          "contact": "hexiaowen@huawei.com",
-          "co-mentor": "",
-          "hot_index": 0,
-          "description": "这里(https://github.com/lvc)有一系列abi的导出和分析工具。借鉴或复用该开源工具，实现一套完整的abi检查工具，包括c/c++、python、java等语言，能够提供一个统一的界面。可以针对openEuler不同发布版本的二进制，一键式自动导出所有abi 差异项，协助maintainer升级、选型分析。",
-          "update_time": "2020-05-21",
-          "label": "2021184"
-        },
-        {
-          "name": "在openEuler上ai的hello world(tensorflow)",
-          "difficulty": "低",
-          "mentor": "@sinever",
-          "contact": "sinever@126.com",
-          "co-mentor": "",
-          "hot_index": 0,
-          "description": "没有软件工程师不知道Hello world，也没有AI工程师不知道mnist。OpenEuler上对AI的支持也正如火如荼，为了让大家熟悉在openEuler上的AI的软件栈和开发流程，现在请从源代码出发构建tensorflow的安装包(pip和yum)，用自己构建的安装包基于公开的数据集完成mnist的训练过程。",
-          "update_time": "2020-05-21",
-          "label": "2021185"
-        },
-        {
-          "name": "在openEuler上ai的hello world(pytorch)",
-          "difficulty": "低",
-          "mentor": "@sinever",
-          "contact": "sinever@126.com",
-          "co-mentor": "",
-          "hot_index": 0,
-          "description": "没有软件工程师不知道Hello world，也没有AI工程师不知道mnist。OpenEuler上对AI的支持也正如火如荼，为了让大家熟悉在openEuler上的AI的软件栈和开发流程，现在请从源代码出发构建pytorch的安装包(pip和yum)，用自己构建的安装包基于公开的数据集完成mnist的训练过程。",
-          "update_time": "2020-05-21",
-          "label": "2021186"
-        },
-        {
-          "name": "封装常用的API，提供给开发和测试使用",
-          "difficulty": "低",
-          "mentor": "@overweight",
-          "contact": "hexiaowen@huawei.com",
-          "co-mentor": "",
-          "hot_index": 0,
-          "description": "提供一套易用的工具，对码云常见REST API进行封装，并提供常见的功能，使其简化，如代码统计、自动化提交代码等。",
-          "update_time": "2020-05-21",
-          "label": "2021187"
-        },
-        {
-          "name": "构建可运行iSulad的容器镜像，并推送到docker hub镜像仓库",
-          "difficulty": "中",
-          "mentor": "@lifeng_isula",
-          "contact": "lifeng68@huawei.com",
-          "co-mentor": "",
-          "hot_index": 0,
-          "description": "当前docker hub等镜像仓库中无iSulad 镜像，要求制作能够运行iSulad的容器镜像，并推送到docker hub上，能够使用docker、iSulad 下载该镜像，并能够启动iSulad。",
-          "update_time": "2020-05-21",
-          "label": "2021188"
-        },
-        {
-          "name": "C语言json解析转换代码生成框架",
-          "difficulty": "难",
-          "mentor": "@hao543226460",
-          "contact": "liuhao27@huawei.com",
-          "co-mentor": "",
-          "hot_index": 0,
-          "description": "当前iSulad项目中，存在大量的json相关的操作（C结构体转换为json字符串，json字符串转换为C结构体）。由于C语言没有反射机制，导致无法动态解析json字符串。因此，需要一个生成解析和转换代码的框架。而且该框架可以支持多种json解析库，例如c-json，yajl等等。",
-          "update_time": "2020-05-21",
-          "label": "2021189"
-        },
-        {
-          "name": "iSula相关项目支持编译debian包",
-          "difficulty": "低",
-          "mentor": "@hao543226460",
-          "contact": "liuhao27@huawei.com",
-          "co-mentor": "",
-          "hot_index": 0,
-          "description": "当前iSula相关项目，只支持rpm编译方式（提供了spec文件）。当时debian相关的系统上面需要源码编译，所以存在编译不方便的问题。因此，需要提供debian打包的支持。",
-          "update_time": "2020-05-21",
-          "label": "2021190"
-        },
-        {
-          "name": "iSula项目内存池设计与实现",
-          "difficulty": "高",
-          "mentor": "@JingWoo",
-          "contact": "wujing50@huawei.com",
-          "co-mentor": "",
-          "hot_index": 0,
-          "description": "当前iSula相关项目无内存池设计，程序在堆上频繁分配和释放内存，容易造成系统出现大量内存碎片，同时也降低了内存的利用率，也造成了iSulad性能的损失，因此，iSulad需要设计一个高效高性能且可应对高并发的内存池设计。",
-          "update_time": "2020-05-21",
-          "label": "2021191"
-        },
-        {
-          "name": "iSula项目线程池设计与实现",
-          "difficulty": "高",
-          "mentor": "@JingWoo",
-          "contact": "wujing50@huawei.com",
-          "co-mentor": "",
-          "hot_index": 0,
-          "description": "当前iSula相关项目无线程池设计，程序存在频繁创建和销毁线程的场景，CPU资源开销大, 效率也相对低下，因此，iSulad需要设计一个高性能的线程池，能支持自动扩容与收缩的动态资源分配。",
-          "update_time": "2020-05-21",
-          "label": "2021192"
-        },
-        {
-          "name": "openEuler集成Harbor项目",
-          "difficulty": "中",
-          "mentor": "@haomintsai",
-          "contact": "caihaomin@huawei.com",
-          "co-mentor": "",
-          "hot_index": 0,
-          "description": "Harbor是一个用于存储和分发Docker镜像的企业级Registry服务器，可以用来构建企业内部的Docker镜像仓库。容器镜像仓库是云原生中的重要组成部分，因此我们希望参与者能够提供harbor在openEuler上的标准发布软件包，并在社区的基础上能够便捷、快速的让使用者使用harbor组件",
-          "update_time": "2020-05-21",
-          "label": "2021193"
         }
       ]
     },
@@ -2310,6 +2179,28 @@
           "description": "使用开源的时序数据库对比测试程序针对框架开发写入和查询的适配，并进行多个时序数据库的对比测试",
           "update_time": "2020-05-21",
           "label": "2026180"
+        },
+        {
+          "name": "JDBC 内核支持 RESTful 接口",
+          "difficulty": "高",
+          "mentor": "常帅强",
+          "contact": "sqchang@taosdata.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "description": "通过熟悉 RESTful 接口的调用方法，修改 JDBC connector 支持使用 RESTful 完成 JDBC 对应的 API 实现",
+          "update_time": "2020-05-22",
+          "label": ""
+        },
+        {
+          "name": "通过 RESTful 接口实现 PHP Connector",
+          "difficulty": "高",
+          "mentor": "常帅强",
+          "contact": "sqchang@taosdata.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "description": "通过熟悉 RESTful 接口的调用方法，编写 PHP Connector",
+          "update_time": "2020-05-22",
+          "label": ""
         }
       ]
     },
