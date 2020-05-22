@@ -139,6 +139,20 @@ export default class Organisation extends React.Component{
                         break;
                 }
                 document.getElementById(index+"-tooltip").style.display = 'flex';
+            } 
+            else if(window.innerWidth > 850){
+                switch(index % 2) {
+                    case 1:
+                        var leftlen = 90 - (382/window.innerWidth)*100;
+                        document.getElementById(index+"-tooltip").style.left = `-${leftlen}vw`;
+                        document.getElementById(index+"-triangle").style.left = '580px';
+                        break;
+                    default:
+                        document.getElementById(index+"-tooltip").style.left = '0';
+                        break;
+                }
+                document.getElementById(index+"-tooltip").style.display = 'flex';
+
             }
             else {
                 document.getElementById(index+"-tooltip").style.display = 'block';
