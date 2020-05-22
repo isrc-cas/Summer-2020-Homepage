@@ -38,14 +38,16 @@
         s.parentNode.insertBefore(hm, s);
       })();
       </script>
-          <script>
-            var _hmt = _hmt || [];
-            (function() {
-              var hm = document.createElement("script");
-              hm.src = "https://res.wx.qq.com/open/js/jweixin-1.6.0.js";
-              var s = document.getElementsByTagName("script")[0]; 
-              s.parentNode.insertBefore(hm, s);
-            })();
+      <script>
+        if ((/micromessenger/.test(window.navigator.userAgent.toLowerCase())) ? true : false) {
+          var _hmt = _hmt || [];
+          (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://res.wx.qq.com/open/js/jweixin-1.6.0.js";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+          })();
+        }
       </script>
       
   </head>
