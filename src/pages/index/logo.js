@@ -171,6 +171,11 @@ const logolistMap = {
             url:' https://github.com/Simple-XX'
         },
         {
+            name:'SODA Foundation',
+            img:'c_SODAFoundation.jpg',
+            url:' https://sodafoundation.io/'
+        },
+        {
             name:'rtthread',
             img:'c_rtthread.jpg',
             url:'https://www.rt-thread.org/'
