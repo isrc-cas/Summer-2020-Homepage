@@ -7,9 +7,21 @@ const logolistMap = {
             url:'http://www.ict.ac.cn/'
         },
         {
+            img:'zhongguodianzijishu.jpg',
+            url:'http://www.cesi.cn/page/basicinfo.jsp?catalog=/001/001-001'
+        },
+        {
             img:'logo2.jpg',
             url:'http://www.cambricon.com/'
-        }
+        },
+        {
+            img:'mulan.jpg',
+            url:'https://mulanos.oschina.net/'
+        },
+        {
+            img:'kaiyuanlianmeng.jpg',
+            url:'http://www.coscl.org.cn/'
+        },
     ],
     opencommunity:[
         {
@@ -175,6 +187,7 @@ const logolistMap = {
             img:'c_SODAFoundation.jpg',
             url:' https://sodafoundation.io/'
         },
+
         {
             name:'rtthread',
             img:'c_rtthread.jpg',
