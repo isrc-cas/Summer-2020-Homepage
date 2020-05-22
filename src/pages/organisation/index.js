@@ -176,7 +176,7 @@ export default class Organisation extends React.Component{
                     </div>
                     
                 
-                    <div className="orgProjectId">{item.label ? 'ID: '+item.label : ''}</div>
+                    {/* <div className="orgProjectId">{item.label ? 'ID: '+item.label : ''}</div> */}
                     
                 </div>
                 <div className="orgProjectTitleIcon"><img alt="0000000" src={require("./../../img/organisation/"+index%3+".jpg")} /></div>
