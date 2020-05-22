@@ -1,5 +1,5 @@
 import {linkDataMap} from './../components/header/listLink.js';
-import {readyWeixin} from './weixin.js';
+// import {readyWeixin} from './weixin.js';
 
 var titleChange = function(){
     var hashname = linkDataMap[window.location.hash.split("#/")[1]]||'首页';
