@@ -32,7 +32,7 @@
           "hot_index": 1,
           "description": "将 Apache APISIX 相关的开源项目的 CI 进行迁移，包括 apisix， apisix-docker 和 apisix-website。",
           "update_time": "2020-05-13",
-          "label": "proj_1_1"
+          "label": "2001001"
         },
         {
           "name": "支持在线调试 API",
@@ -42,7 +42,7 @@
           "hot_index": 3,
           "description": "允许用户在线完成 API 的 DEBUG。它非常适合辅助用户学习了解 Apache APISIX 的配置规则以及使用方法。",
           "update_time": "2020-05-13",
-          "label": "proj_1_2"
+          "label": "2001002"
         },
         {
           "name": "在线捕获HTTP流量",
@@ -52,7 +52,7 @@
           "hot_index": 1,
           "description": "允许用户通过配置，捕获某一个route或service中符合特定request header/response header/upstream response time/request time的请求和响应的内容。类似于 envoy 的 traffic tapping 功能：https://www.envoyproxy.io/docs/envoy/latest/operations/traffic_tapping 我们只需实现其中的一个子集，支持 HTTP 即可。",
           "update_time": "2020-05-13",
-          "label": "proj_1_3"
+          "label": "2001003"
         },
         {
           "name": "支持 etcd v3 协议",
@@ -62,7 +62,7 @@
           "hot_index": 2,
           "description": "使用 lua-resty-etcd 库中的 v3 版本，使 Apache APISIX 支持 etcd v3 协议。",
           "update_time": "2020-05-13",
-          "label": "proj_1_4"
+          "label": "2001004"
         },
         {
           "name": "Dashboard 结合 GitHub Actions 实现 代码格式化、构建测试",
@@ -72,7 +72,7 @@
           "hot_index": 0,
           "description": "使用 GitHub Actions 对 PR、push commit 做 Lint、Build Test",
           "update_time": "2020-05-19",
-          "label": "proj_1_140"
+          "label": "2001140"
         },
         {
           "name": "Dashboard 增加 commit 内容检查",
@@ -82,7 +82,7 @@
           "hot_index": 0,
           "description": "增加 commit message checker，以规范贡献者 commit 格式。",
           "update_time": "2020-05-19",
-          "label": "proj_1_141"
+          "label": "2001141"
         }
       ]
     },
@@ -114,7 +114,7 @@
           "hot_index": 0,
           "description": "提供后端接口。在任务节点中新增“延时等待”的属性，支持任务在开始后一段时间内等待前置任务完成。",
           "update_time": "2020-05-16",
-          "label": "proj_2_5"
+          "label": "2002005"
         },
         {
           "name": "延时等待（前端）",
@@ -124,7 +124,7 @@
           "hot_index": 0,
           "description": "开发前端页面，调用后端接口。在任务节点中新增“延时等待”的属性，支持任务在开始后一段时间内等待前置任务完成。",
           "update_time": "2020-05-16",
-          "label": "proj_2_6"
+          "label": "2002006"
         },
         {
           "name": "DS 任务节点说明文档编写",
@@ -134,7 +134,7 @@
           "contact": "kejia.chen@foxmail.com",
           "hot_index": 0,
           "update_time": "2020-05-13",
-          "label": "proj_2_7"
+          "label": "2002007"
         },
         {
           "name": "任务空跑（后端）",
@@ -144,7 +144,7 @@
           "contact": "kejia.chen@foxmail.com",
           "hot_index": 0,
           "update_time": "2020-05-16",
-          "label": "proj_2_8"
+          "label": "2002008"
         },
         {
           "name": "任务空跑（前端）",
@@ -154,7 +154,7 @@
           "contact": "kejia.chen@foxmail.com",
           "hot_index": 0,
           "update_time": "2020-05-16",
-          "label": "proj_2_9"
+          "label": "2002009"
         },
         {
           "name": "强制成功（后端）",
@@ -164,7 +164,7 @@
           "contact": "kejia.chen@foxmail.com",
           "hot_index": 0,
           "update_time": "2020-05-16",
-          "label": "proj_2_10"
+          "label": "2002010"
         },
         {
           "name": "强制成功（前端）",
@@ -174,7 +174,7 @@
           "contact": "kejia.chen@foxmail.com",
           "hot_index": 0,
           "update_time": "2020-05-16",
-          "label": "proj_2_11"
+          "label": "2002011"
         },
         {
           "name": "新任务节点开发文档整理",
@@ -184,7 +184,7 @@
           "contact": "kejia.chen@foxmail.com",
           "hot_index": 0,
           "update_time": "2020-05-13",
-          "label": "proj_2_12"
+          "label": "2002012"
         },
         {
           "name": "查询所有上下游依赖（后端）",
@@ -194,7 +194,7 @@
           "contact": "kejia.chen@foxmail.com",
           "hot_index": 0,
           "update_time": "2020-05-16",
-          "label": "proj_2_13"
+          "label": "2002013"
         },
         {
           "name": "查询所有上下游依赖（前端）",
@@ -204,7 +204,7 @@
           "contact": "kejia.chen@foxmail.com",
           "hot_index": 0,
           "update_time": "2020-05-16",
-          "label": "proj_2_14"
+          "label": "2002014"
         },
         {
           "name": "任务结果/变量传递（后端）",
@@ -214,7 +214,7 @@
           "contact": "kejia.chen@foxmail.com",
           "hot_index": 0,
           "update_time": "2020-05-16",
-          "label": "proj_2_15"
+          "label": "2002015"
         },
         {
           "name": "任务结果/变量传递（前端）",
@@ -224,7 +224,7 @@
           "contact": "kejia.chen@foxmail.com",
           "hot_index": 0,
           "update_time": "2020-05-16",
-          "label": "proj_2_16"
+          "label": "2002016"
         },
         {
           "name": "可视化部署",
@@ -234,7 +234,7 @@
           "contact": "kejia.chen@foxmail.com",
           "hot_index": 0,
           "update_time": "2020-05-13",
-          "label": "proj_2_17"
+          "label": "2002017"
         },
         {
           "name": "工作流、任务执行时间评估",
@@ -244,7 +244,7 @@
           "contact": "wu_shao_jie@qq.com",
           "hot_index": 0,
           "update_time": "2020-05-16",
-          "label": "proj_2_18"
+          "label": "2002018"
         }
       ]
     },
@@ -273,7 +273,7 @@
           "contact": "izhaijia@apache.org",
           "hot_index": 0,
           "update_time": "2020-05-18",
-          "label": "proj_3_19"
+          "label": "2003019"
         },
         {
           "name": "Schema independent from the topic",
@@ -283,7 +283,7 @@
           "contact": "penghui@apache.org",
           "hot_index": 0,
           "update_time": "2020-05-18",
-          "label": "proj_3_20"
+          "label": "2003020"
         },
         {
           "name": "Read compacted topic in Pulsar SQL",
@@ -293,7 +293,7 @@
           "contact": "gaoran_10@126.com",
           "hot_index": 0,
           "update_time": "2020-05-18",
-          "label": "proj_3_21"
+          "label": "2003021"
         },
         {
           "name": "Pulsar Go client feature catch up",
@@ -303,7 +303,7 @@
           "contact": "rxl@apache.org",
           "hot_index": 0,
           "update_time": "2020-05-18",
-          "label": "proj_3_22"
+          "label": "2003022"
         }
       ]
     },
@@ -335,7 +335,7 @@
           "contact": "zhangliang@apache.org",
           "hot_index": 0,
           "update_time": "2020-05-13",
-          "label": "proj_4_23"
+          "label": "2004023"
         },
         {
           "name": "完善SQL语法解析模块",
@@ -345,7 +345,7 @@
           "contact": "panjuan@apache.org",
           "hot_index": 0,
           "update_time": "2020-05-19",
-          "label": "proj_4_142"
+          "label": "2004142"
         },
         {
           "name": "实现MySQL KILL语句的功能",
@@ -355,7 +355,7 @@
           "contact": "zhangyonglun@apache.org",
           "hot_index": 0,
           "update_time": "2020-05-19",
-          "label": "proj_4_143"
+          "label": "2004143"
         },
         {
           "name": "实现弹性伸缩输出支持 ShardingSphere-JDBC",
@@ -365,7 +365,7 @@
           "contact": "ouyangwen@apache.org",
           "hot_index": 0,
           "update_time": "2020-05-19",
-          "label": "proj_4_144"
+          "label": "2004144"
         },
         {
           "name": "实现权限控制模型",
@@ -375,7 +375,7 @@
           "contact": "kimmking@apache.org",
           "hot_index": 0,
           "update_time": "2020-05-19",
-          "label": "proj_4_145"
+          "label": "2004145"
         }
       ]
     },
@@ -415,7 +415,7 @@
           "contact": "wu.sheng@foxmail.com",
           "hot_index": 0,
           "update_time": "2020-05-13",
-          "label": "proj_5_24"
+          "label": "2005024"
         },
         {
           "name": "追加业务系统的logback日志到span中",
@@ -425,7 +425,7 @@
           "contact": "wu.sheng@foxmail.com",
           "hot_index": 0,
           "update_time": "2020-05-13",
-          "label": "proj_5_25"
+          "label": "2005025"
         },
         {
           "name": "端到端测试框架本地调试增强",
@@ -435,7 +435,7 @@
           "contact": "kezhenxu94@163.com",
           "hot_index": 0,
           "update_time": "2020-05-13",
-          "label": "proj_5_26"
+          "label": "2005026"
         },
         {
           "name": "命令行 Dashboard",
@@ -445,7 +445,7 @@
           "contact": "kezhenxu94@163.com",
           "hot_index": 0,
           "update_time": "2020-05-13",
-          "label": "proj_5_27"
+          "label": "2005027"
         },
         {
           "name": "Python Agent 支持 Flask 或 Django 埋点",
@@ -455,7 +455,7 @@
           "contact": "kezhenxu94@163.com",
           "hot_index": 0,
           "update_time": "2020-05-13",
-          "label": "proj_5_28"
+          "label": "2005028"
         },
         {
           "name": "go-micro 插件",
@@ -465,7 +465,7 @@
           "contact": " zhangwei24@apache.org",
           "hot_index": 0,
           "update_time": "2020-05-13",
-          "label": "proj_5_29"
+          "label": "2005029"
         },
         {
           "name": "WebFlux WebClient插件",
@@ -475,7 +475,7 @@
           "contact": " zhaoyuguang@apache.org",
           "hot_index": 0,
           "update_time": "2020-05-13",
-          "label": "proj_5_30"
+          "label": "2005030"
         },
         {
           "name": "skywalking-lua-nginx 插件的优化",
@@ -485,7 +485,7 @@
           "contact": "wenming@apache.org",
           "hot_index": 0,
           "update_time": "2020-05-13",
-          "label": "proj_5_31"
+          "label": "2005031"
         },
         {
           "name": "样例集群",
@@ -495,7 +495,7 @@
           "contact": "hanahmily@apache.org",
           "hot_index": 0,
           "update_time": "2020-05-13",
-          "label": "proj_5_32"
+          "label": "2005032"
         },
         {
           "name": "DBCP 插件",
@@ -505,7 +505,7 @@
           "contact": "daming@apache.org",
           "hot_index": 0,
           "update_time": "2020-05-13",
-          "label": "proj_5_33"
+          "label": "2005033"
         },
         {
           "name": "采集数据库连接池（Alibaba druid）相关性能指标",
@@ -515,7 +515,7 @@
           "contact": "zhangxin@apache.org",
           "hot_index": 0,
           "update_time": "2020-05-13",
-          "label": "proj_5_34"
+          "label": "2005034"
         },
         {
           "name": "数据库连接池HikariCP 插件",
@@ -525,7 +525,7 @@
           "contact": "zhangxin@apache.org",
           "hot_index": 0,
           "update_time": "2020-05-13",
-          "label": "proj_5_35"
+          "label": "2005035"
         },
         {
           "name": "RabbitMQ 插件",
@@ -535,7 +535,7 @@
           "contact": "heyanlong@apache.org",
           "hot_index": 0,
           "update_time": "2020-05-13",
-          "label": "proj_5_36"
+          "label": "2005036"
         }
       ]
     },
@@ -598,7 +598,7 @@
           "hot_index": 0,
           "description": "社区主要项目 AOSC OS 的一部分构建过程仍然依赖手工操作。即使大部分繁杂的工作已经能为数个社区项目很好地完成，AOSC OS 仍然面临着社区人手严重不足而带来的更新速度不足及潜在质量缺陷问题。于是我们希望建立一套切合社区实际情况的，能将发行版构建 95% 的操作自动化的基础设施来解决上述问题，以求 AOSC OS 的可持续发展。目前分布式打包方案中包括构建机、调度器、软件包仓库管理和触发器四个部分，其中构建机和调度器是最重要的部分。本项目为编写一套功能较为完整的软件包构建调度器，以实现像 BOINC 分布式科学计算那样，自动分配打包任务、回收二进制软件包和打包时的日志和统计信息。调度器的调度模型、依赖解析已经实现，需要设计并实现的是接口和管理功能。",
           "update_time": "2020-05-17",
-          "label": "proj_7_37"
+          "label": "2007037"
         },
         {
           "name": "发行版构建自动化：自动化测试框架",
@@ -608,7 +608,7 @@
           "hot_index": 0,
           "description": "目前 AOSC 的软件包存在一定的质量问题，且已经有了初步的排查方案。我们希望在编译时或编译后主动地将质量问题检测出来，停止编译和发布。本项目需要在当前的打包流程中增加测试环节来确保软件包的质量。",
           "update_time": "2020-05-17",
-          "label": "proj_7_38"
+          "label": "2007038"
         },
         {
           "name": "安装程序 DeployKit 的实现",
@@ -618,7 +618,7 @@
           "hot_index": 0,
           "description": "社区项目 DeployKit 是未来 AOSC OS 的安装和恢复程序。该程序有两种模式：1. 作为安装向导指引用户正确地安装 AOSC OS； 2. 作为恢复向导指引用户在轻微的系统配置错误中恢复系统； 目前，DeployKit 使用 GTK 3 和 Vala 编程语言基本实现了安装向导的图形用户界面，但尚未实现安装向导的实际操作部分（即 DeployKit 还只是个“空壳”）。本项目的目标是按照社区提供的 AOSC OS 安装指引，将这部分原本需要手动操作的安装流程实现到 DeployKit 上。",
           "update_time": "2020-05-13",
-          "label": "proj_7_39"
+          "label": "2007039"
         },
         {
           "name": "自由及开源软件简中本地化工作",
@@ -629,7 +629,7 @@
           "hot_index": 0,
           "description": "当前我国国内有相当数量的 Linux 及各大开源或自由软件 (F/OSS) 使用者，但在使用过程中，用户们不难发现，各种软件的简中翻译及本地化质量参差不齐，错漏繁多。尤其主流桌面环境如 GNOME 及 KDE 简中翻译率并不理想；而又有一些如 NetSurf 的知名开源项目则完全没有翻译。该项目的主要目的是改善当前本地化质量及覆盖率。",
           "update_time": "2020-05-13",
-          "label": "proj_7_40"
+          "label": "2007040"
         },
         {
           "name": "为 libinput 框架实现“划圈滚动 (Circular Srolling)”",
@@ -640,7 +640,7 @@
           "hot_index": 0,
           "description": "在 Wayland 及如 GNOME 等现代桌面的推动作用下，libinput 即将取代当前诸多碎片化的 X11 输入驱动（如 evdev 及 synaptics，甚至是更老的 mouse 及 keyboard），为用户及开发者带来一定便利。但在 libinput 的实现过程中，上游开发者由于人力有限，选择抛弃了一些他们主观认为不常见的硬件特性的支持。而被抛弃的特性之一是“划圈滚动”，即在触摸板上用手指划圈滚动（类似 iPod 的操作），这一特性在滚动长页面时可有效提高操作精度并降低疲劳。",
           "update_time": "2020-05-13",
-          "label": "proj_7_41"
+          "label": "2007041"
         },
         {
           "name": "半自动软件包退休、封存与整理系统",
@@ -650,7 +650,7 @@
           "hot_index": 0,
           "description": "软件包更新在现代社会已经不再是什么稀奇事。每天，无数软件包获得更新，有些是修复漏洞，有些是增加功能，还有些是性能优化等等。然而，并不是每一个软件包都有充分通过回归测试（Regression test），而有些更新则是主动放弃对于旧硬体的支援。由于系统的软件包仓库亦为业余爱好者维护，打包者的技术、使用的平台与配置等等亦可能导致部分软件包更新后损坏。作为一个由历史专家带领的专业考古社区，我们提供了大量的软件包供各种不同时代与架构的硬体使用。以往，为了保证大家可以方便的切换各个版本的软件包，大量的老包被留在了系统的软件源中。再加上 AOSC 支援的架构数量在某段时间的爆发，于 2017 年时，我们的软件包仓库达到了惊人的数十 GiB 。庞大的体积对于我们自身以及各种收录了我们的开源镜像站均造成了压力。我们因此启动了Anthon Optical Storage Center (AOSC Archive) 项目，将过去的软件包从软件源中移除并收录进入 Blu-ray Disc 进行冷储存。然而使用冷储存造成的不便亦是显而易见的。如果出于各种原因，我们需要取回一个软件包进行测试，那么将会需要比较费事的人工寻找目录并取回对应光盘。另外，冷储存的成本亦是比较高的。在近期的一次检查时，我们发现有约 1%-5% 的包可能由于各种原因，在收录进入 BD 时出现了重复收录的情况。这些重复收录的包既提高了维护成本，又不具有价值。同样，整理需要取回的软件包目前也是一个非常耗费人力的工作。每次退休包时，需要寻找每个架构中有收到更新的包，并移除老包。需要把这些包适当分类并分卷放好，以便于未来取回时不需要跨越多张光盘。这一个项目就是为了解决该问题而产生的。我们希望这个系统：可以较为方便的将软件包退休，并且避免不小心移除不应当被移除的软件包; 可以提供检查重复的功能，以避免将一个软件包重复退休多次，白白占用资源; 可以提供一个软件包搜寻功能，可以方便的告知用户，需要的软件包有哪些版本，分别位于哪些光盘中；可以在未来用在许多发行版上，让每个发行版都可以留下过去的软件包，在未来给大家的老机器使用。另外，我们还希望这个系统可以快速提供一个「最小软件仓库」，仅包含最新版本的软件包，占用最少的空间。",
           "update_time": "2020-05-18",
-          "label": "proj_7_42"
+          "label": "2007042"
         }
       ]
     },
@@ -692,7 +692,7 @@
           "hot_index": 0,
           "description": "Casbin采用独特的PERM模型语法（model）来实现强大、灵活的访问控制。Casbin Golang版本作为Casbin的第一个语言实现，拥有最多的用户以及最先进的feature。我们希望在Casbin Golang上：1）增强Casbin语法的表达能力，满足用户多样化的策略制定需求；2）优化Casbin在大规模规则集上（百万以上）的策略评估性能。这两个目标是Casbin的核心竞争力，对于其他Casbin语言的实现也会起到非常重要的借鉴意义。",
           "update_time": "2020-05-17",
-          "label": "proj_8_43"
+          "label": "2008043"
         },
         {
           "name": "Casbin分布式高可用（Rust）",
@@ -702,7 +702,7 @@
           "hot_index": 0,
           "description": "Casbin在初始化时将规则集装载到内存中，在规则集发生变更时将该次变更持久化到文件或者数据库等媒介。我们希望在此基础上： 1）基于Raft协议实现单机、分布式环境中不同Casbin实例的规则集同步；２）探索如何将规则集分组，映射到不同节点，使特定规则集的增，删以及某个请求的权限计算都在正确的节点进行，以此减轻单机的内存压力。",
           "update_time": "2020-05-17",
-          "label": "proj_8_44"
+          "label": "2008044"
         }
       ]
     },
@@ -729,7 +729,7 @@
           "hot_index": 0,
           "description": "目前Ceph中国社区已经有文档本地化小组及文档本地化官网（docs.ceph.org.cn）随着Ceph的更新迭代与官方文档尚有部分脱节，故需要进一步校对和翻译。",
           "update_time": "2020-05-13",
-          "label": "proj_9_45"
+          "label": "2009045"
         },
         {
           "name": "轻量级对象存储网关",
@@ -739,7 +739,7 @@
           "hot_index": 0,
           "description": "Ceph是一套开源的分布式存储软件，原生已经提供了对象存储网关服务(Rados gateway)，但是该对象存储和底层Ceph的耦合度高，不易改造和扩展新的概念。本次项目的目标是基于Ceph已经提供的Librados API，实现轻量级的对象存储网关服务，满足基本的大、小文件的上传下载的同时还能实现图片缩略图、裁剪、翻转等简单的多媒体操作。",
           "update_time": "2020-05-13",
-          "label": "proj_9_46"
+          "label": "2009046"
         }
       ]
     },
@@ -775,7 +775,7 @@
           "hot_index": 0,
           "description": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低；基于春松客服开发一套机器人客服智能客服，春松客服本身不具有智能客服的特点，但是其灵活独特的插件机制，可以让使用者便捷的开发具有AI特质的智能客服。既可以对接自己开发的机器人或者第三方的机器人接口，如Chatopera；机器人客服可以7 * 24小时的高效率的回复访客的问题。",
           "update_time": "2020-05-15",
-          "label": "proj_10_47"
+          "label": "2010047"
         },
         {
           "name": "春松客服的接口开发",
@@ -785,7 +785,7 @@
           "hot_index": 0,
           "description": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低；春松客服基础功能目前是没有更多的接口及SDK，所以希望各位同学可以参考春松客服现有功能实现其SDK，包括IOS、Android、JS端以及RESTfulAPI。",
           "update_time": "2020-05-15",
-          "label": "proj_10_48"
+          "label": "2010048"
         },
         {
           "name": "春松客服的渠道插件开发",
@@ -795,7 +795,7 @@
           "hot_index": 0,
           "description": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低；春松客服是一个先进的客服系统。其目标是成为客服系统行业中的一个“操作系统”，企业、开发者都可以基于此操作系统开发各种客服业务的“应用”；春松客服系统被大量的下载和使用，目前除了官方发布的基础功能外，非常期待社区开发者企业可以push更多的插件应用，让其更加的丰富，功能更加的强大，普惠更多的人；要在春松客服操作系统中开发插件应用，需要遵循其插件化开发方法，具体参考插件的安装和源码参考；本次活动官方推荐但不限于开发如下的插件：聊天渠道的插件如：微信公众号/企业微信/钉钉/微博/飞书/facebook/skype/Email/电话等等；报表管理",
           "update_time": "2020-05-15",
-          "label": "proj_10_49"
+          "label": "2010049"
         }
       ]
     },
@@ -830,7 +830,7 @@
           "hot_index": 0,
           "description": "区块链的基本功能是信息存证。但这一基本功能，并未能向大众或对区块链有兴趣的用户普及。很多存证应用，也是为了为应用导流，从而导致产品复杂。我们希望能为普通用户，做一款方便体验的区块链存证服务，不强调KYC、不强调助记词、甚至不强调dAPP……就是让用户用最简单的方式，实现数据上链，作为对区块链的第一次体验。社区已经利用相关接口做出了一版产品，可供参考： https://zhengshu.elastos.org/ 我们希望能对此进行改进，并封装为小程序，以方便用户调用。其他改进也可自行添加。",
           "update_time": "2020-05-14",
-          "label": "proj_11_50"
+          "label": "2011050"
         },
         {
           "name": "CLIENT 功能扩展",
@@ -840,7 +840,7 @@
           "hot_index": 0,
           "description": "Client是主链上面向开发者的钱包,支持地址创建及简单交易生成。但是很多交易现有的Client并不支持创建,如仲裁人选举、CR（Cyber Rpublic）委员选举及CR提案相关交易等。本题旨在完善主链Client功能,支持更多的交易生成。",
           "update_time": "2020-05-14",
-          "label": "proj_11_51"
+          "label": "2011051"
         },
         {
           "name": "CYBERREPUBLIC 提案监测工具",
@@ -850,7 +850,7 @@
           "hot_index": 0,
           "description": "在支持CR委员选举及CR提案注册的主链版本发布后,链上将会出现很多的提案,有的刚注册上链,有的过了评议期,有的进入了公投期,有的正在执行,有的已经执行结束。本题旨在开发提案处理监测工具,实时监测当前存在的提案详情信息,促进提案的有效处理。",
           "update_time": "2020-05-14",
-          "label": "proj_11_52"
+          "label": "2011052"
         },
         {
           "name": "ETH 侧链开发",
@@ -860,7 +860,7 @@
           "hot_index": 0,
           "description": "亦来云的ETH侧链是基于以太坊源码进行开发的。所以ETH侧链完美兼容了以太坊的所有功能和开发方式。可以采用开发以太坊应用的方式来开发亦来云的以太坊侧链应用,比如以太坊的Web3.js库。 我们现在就利用Web3.js 库开发基于亦来云侧链的一些应用。",
           "update_time": "2020-05-14",
-          "label": "proj_11_53"
+          "label": "2011053"
         },
         {
           "name": "简易版 SPV 钱包",
@@ -870,7 +870,7 @@
           "hot_index": 0,
           "description": "并非所有的节点都有能⼒储存完整的区块链。SPV的方式可以使它们在不必存储完整区块链的情况下进行工作。这种类型的客端被称为SPV客户端或轻量级客户端。SPV节点只需下载区块头,而不用下载包含在每个区块中的交易信息。由此产生的不含交易信息的区块链,大小比完整区块链小得多。因此,适合智能电话、平板电脑、嵌⼊式系统等这样的设备。本题旨在开发一款桌面版/移动端的Elastos轻量级客户端。",
           "update_time": "2020-05-14",
-          "label": "proj_11_54"
+          "label": "2011054"
         },
         {
           "name": "主链节点参数简化",
@@ -880,7 +880,7 @@
           "hot_index": 0,
           "description": "目前主链配置文件中很多参数是为了测试添加,参数庞杂。bitcoin中开放出来的参数都是对共识没有影响,只是改变节点本身支持的功能项,本题旨在参考其bitcoin,调整目前的参数配置,提供一个面向普通用户的简介版本。",
           "update_time": "2020-05-14",
-          "label": "proj_11_55"
+          "label": "2011055"
         }
       ]
     },
@@ -914,7 +914,7 @@
           "hot_index": 0,
           "description": "use cross-platform IPC instead DBus, WebSocket's async model is not suitable for replacement.",
           "update_time": "2020-05-19",
-          "label": "proj_12_146"
+          "label": "2012146"
         },
         {
           "name": "Core: MacOS Support",
@@ -924,7 +924,7 @@
           "hot_index": 0,
           "description": "Make Qt’s QGraphicsSence technology support MacOS; Replace QWindow::setParent with MacOS native cross-process reparent API.",
           "update_time": "2020-05-19",
-          "label": "proj_12_147"
+          "label": "2012147"
         },
         {
           "name": "Core: Use QTest&QTouchEventSequence simulate touch scroll event and control all browser base apps",
@@ -934,7 +934,7 @@
           "hot_index": 0,
           "description": "",
           "update_time": "2020-05-19",
-          "label": "proj_12_148"
+          "label": "2012148"
         },
         {
           "name": "Browser: Create ad-blocker plugin",
@@ -944,7 +944,7 @@
           "hot_index": 0,
           "description": "",
           "update_time": "2020-05-19",
-          "label": "proj_12_149"
+          "label": "2012149"
         },
         {
           "name": "Browser: Autofill password by storing password in a database",
@@ -954,7 +954,7 @@
           "hot_index": 0,
           "description": "",
           "update_time": "2020-05-19",
-          "label": "proj_12_150"
+          "label": "2012150"
         },
         {
           "name": "Browser: Smart select text area using cursor",
@@ -964,7 +964,7 @@
           "hot_index": 0,
           "description": "",
           "update_time": "2020-05-19",
-          "label": "proj_12_151"
+          "label": "2012151"
         },
         {
           "name": "PDF: Invent a better dark mode color algorithm for PDF pages",
@@ -974,7 +974,7 @@
           "hot_index": 0,
           "description": "",
           "update_time": "2020-05-19",
-          "label": "proj_12_152"
+          "label": "2012152"
         },
         {
           "name": "PDF: Invent a better dark mode color algorithm for PDF pages **and** exclude images and graphs",
@@ -984,7 +984,7 @@
           "hot_index": 0,
           "description": "",
           "update_time": "2020-05-19",
-          "label": "proj_12_153"
+          "label": "2012153"
         },
         {
           "name": "Terminal: Refresh page after server is ready because sometimes terminal is blank when opened.",
@@ -994,7 +994,7 @@
           "hot_index": 0,
           "description": "",
           "update_time": "2020-05-19",
-          "label": "proj_12_154"
+          "label": "2012154"
         },
         {
           "name": "Terminal: Close terminal buffer with EXIT signal.",
@@ -1004,7 +1004,7 @@
           "hot_index": 0,
           "description": "",
           "update_time": "2020-05-19",
-          "label": "proj_12_155"
+          "label": "2012155"
         },
         {
           "name": "Terminal: Catch change directory signal in node-pty, rename terminal buffer and change Emacs default-directory variable real-time.",
@@ -1014,7 +1014,7 @@
           "hot_index": 0,
           "description": "",
           "update_time": "2020-05-19",
-          "label": "proj_12_156"
+          "label": "2012156"
         },
         {
           "name": "Terimnal: Fix error in connection establishment: net::ERR_CONNECTION_REFUSED",
@@ -1024,7 +1024,7 @@
           "hot_index": 0,
           "description": "",
           "update_time": "2020-05-19",
-          "label": "proj_12_71"
+          "label": "2012071"
         },
         {
           "name": "Mindmap: change node color, pick from color list.",
@@ -1034,7 +1034,7 @@
           "hot_index": 0,
           "description": "",
           "update_time": "2020-05-19",
-          "label": "proj_12_65"
+          "label": "2012065"
         },
         {
           "name": "Mindmap: Support multi-line insert dons nodes.",
@@ -1044,7 +1044,7 @@
           "hot_index": 0,
           "description": "",
           "update_time": "2020-05-19",
-          "label": "proj_12_157"
+          "label": "2012157"
         },
         {
           "name": "Mindmap: Export org with correct indent level.",
@@ -1054,7 +1054,7 @@
           "hot_index": 0,
           "description": "",
           "update_time": "2020-05-19",
-          "label": "proj_12_158"
+          "label": "2012158"
         },
         {
           "name": "RSS Reader: Rewrite RSS Reader using JavaScript, Qt version is too ugly.",
@@ -1064,7 +1064,7 @@
           "hot_index": 0,
           "description": "",
           "update_time": "2020-05-19",
-          "label": "proj_12_159"
+          "label": "2012159"
         },
         {
           "name": "Mermaid: support dark mode.",
@@ -1074,7 +1074,7 @@
           "hot_index": 0,
           "description": "",
           "update_time": "2020-05-19",
-          "label": "proj_12_67"
+          "label": "2012067"
         },
         {
           "name": "Music Player: Create Music Player Use MPD and JavaScript library.",
@@ -1084,7 +1084,7 @@
           "hot_index": 0,
           "description": "",
           "update_time": "2020-05-19",
-          "label": "proj_12_160"
+          "label": "2012160"
         }
       ]
     },
@@ -1183,7 +1183,7 @@
           "hot_index": 0,
           "description": "相对于手机等移动设备而言，微控制器是小型、低能耗的计算设备，经常嵌入在只需要进行基本运算的硬件中，包括家用电器和物联网设备等。每年都有数十亿个微控制器被生产出来。MACE新增微控制器（MACE Micro）支持，以全面支持手机与IoT设备超低功耗推理场景。具体使用可参考。本项目的内容为将MACE Micro移植到某款微控制器芯片，包括但不限于ST、Ambiq等厂商生产的微控制器芯片，MACE Micro不依赖于任何操作系统、文件系统以及运行时的支持，具有良好的可移植性。",
           "update_time": "2020-05-18",
-          "label": "proj_15_76"
+          "label": "2015076"
         },
         {
           "name": "基于MACE Micro实现唤醒词识别功能Demo",
@@ -1194,7 +1194,7 @@
           "hot_index": 0,
           "description": "基于MACE Micro，利用Google的唤醒词识别模型，实现一个能在微控制器上运行的语音识别的Demo。",
           "update_time": "2020-05-18",
-          "label": "proj_15_77"
+          "label": "2015077"
         },
         {
           "name": "帮助MACE支持Tensorflow2.0模型",
@@ -1205,7 +1205,7 @@
           "hot_index": 0,
           "description": "MACE支持了Tensorflow的1.x版本训练的模型的推理，MACE开发了一个Tensorflow1.x模型到MACE专有模型的转换器。本项目的内容为，参考Tensorflow1.x模型到MACE专有模型的转换器代码，开发一个Tensorflow2.0模型到MACE专有模型的转换器。",
           "update_time": "2020-05-18",
-          "label": "proj_15_78"
+          "label": "2015078"
         },
         {
           "name": "帮助MACE支持Pytorch模型",
@@ -1216,7 +1216,7 @@
           "hot_index": 0,
           "description": "MACE通过支持ONNX标准交换格式，间接支持了Pytorch训练的模型的推理，但模型的两次转换造成了不必要的转换开销。本项目的内容为，参考其他框架模型到MACE专有模型的转换器代码，开发一个Pytorch模型到MACE专有模型的转换器。",
           "update_time": "2020-05-18",
-          "label": "proj_15_79"
+          "label": "2015079"
         }
       ]
     },
@@ -1251,7 +1251,7 @@
           "hot_index": 0,
           "description": "Maskbook 是一个开源的浏览器隐私插件，帮助用户在 Facebook，Twitter 等社交平台自动加密帖子和聊天记录，防止被社交平台审查和滥用用户数据，仅用户本人和指定好友能够解密。除了我们基础的功能之外，我们还开发了一套插件系统，可以支持简单的脚本运行，我们已经尝试过的插件有： 基于 Ethereum（以太坊）的加密货币红包 #634 #672 ，Gitcoin Grant 捐赠 #996 #1079 和 Arweave 文件分享 #1057。在这个 Task 中，我们希望大家能够跟我们一起开动脑洞，思考一下基于我们 Maskbook 和社交网络的关系，有没有什么更加有心意的插件可以加入进来，提供给所有的用户更多的功能和自由。具体的项目介绍可以在 Open Source Promotion Plan - Summer 2020 Task 1 中看到，并期待同学们能在这里跟我们进行交流。",
           "update_time": "2020-05-18",
-          "label": "proj_16_80"
+          "label": "2016080"
         },
         {
           "name": "Maskbook 图片隐写功能优化",
@@ -1262,7 +1262,7 @@
           "hot_index": 0,
           "description": "Maskbook 是一个开源的浏览器隐私插件，帮助用户在 Facebook，Twitter 等社交平台自动加密帖子和聊天记录，防止被社交平台审查和滥用用户数据，仅用户本人和指定好友能够解密。Maskbook 现在有两种 payload 的模式，第一种是纯文字的 payload，格式是 base64 encoded 的加密文本，例如 https://www.google.co.in/%204/4.UN3m8PThWagRN/YaV4HBFVZhmzU-wuIzD1Yugjm7JAPg1BgX9UilZl5jlHp0YsRs2cRu+lNTisyp1J45zvXoSD1fzbsK8+2Do5itncakns29P3BzH8YJACmG64G6tNikZP5oEme+W/to9wv1C43aSTs9rY1F8mFCwimOsZvki1+FN6LuItO3cX/1.NdahzvHRaBdRMI5gQvT5tg_=.27WQHRwyEwW8QwhIR0oOcPU9fbR35j8vKumBMyupnQ==.y5402vqUQoQub+RKHofpxgmQtetSiRwumF4KXaL/l5rmOHHRJBTL9YcZOjz39WtJAgbdg+iYsJdq5gm3MwWAXQ==.Ao+TblKN40/JUXl4B1HsISVoJc5gSVBYCXiolhxa8D5Q.0%40(注：在 Facebook 中，没有字数限制，所以会直接将 payload 放入 post 中，但是在 Twitter 上由于有严格的字数限制，所以我们采用了基于 url 的 hack #198)；另一种是图片模式，是基于**快速傅立叶变换（fft）**的一种方法，将密文隐写到图片中，做到更加美观的效果，目前的实现可以在 DimensionDev/Stego-JS中看到。目前的实现由于算法的限制，导致效果不甚理想，会有一些带有信息的点在图片中显示，并且不够稳定，没有办法在 Facebook 和 Twitter 中都可以抗平台压缩，导致信息缺失，具体细节可以在 Open Source Promotion Plan - Summer 2020 Task 2 中看到。在这个 Task 中，我们希望大家能够跟我们一起调研各种抗压缩图片（或音频）隐写算法，使我们的图片模式更加的高效。",
           "update_time": "2020-05-19",
-          "label": "proj_16_161"
+          "label": "2016161"
         }
       ]
     },
@@ -1291,7 +1291,7 @@
           "hot_index": 0,
           "description": "MindSpore是华为自研的深度学习框架，采用基于源码转换的自动微分，支持自动并行、深度图优化。MindSpore原生支持昇腾芯片，针对昇腾芯片架构特点，采用Pipeline并行、整图下沉等功能，可以达到很高的执行性能。目前MindSpore还处于发展阶段，本项目向大家介绍MindSpore特性及API使用，希望大家基于MindSpore进行深度学习算法开发，完成某项指定挑战。",
           "update_time": "2020-05-21",
-          "label": "proj_17_181"
+          "label": "2017181"
         },
         {
           "name": "深度学习模型计算图相同子结构的识别和展示",
@@ -1302,7 +1302,7 @@
           "hot_index": 0,
           "description": "MindSpore是华为自研的深度学习框架，其中的计算图模式是一种业界主流的用来进行数据传递与计算的形式。计算图主要包含节点和有向边，节点表示计算和控制操作，边表示数据的流向和控制等关系。计算图的高效合理展示，有助于用户更好的理解模型结构、发现和调试模型训练过程中出现的问题。然而，大型深度学习模型往往有着复杂的计算图结构，包含有成千上万个节点和更多的边。在这些点和边之中，包含有许多结构相同或高度相似的子结构，这些子结构不仅从图的拓扑结构上，甚至从深度学习语义上具有高度的相似性。快速识别大型计算图中上述的相同子结构，能够支持后续用收折、重叠等方式大幅减少页面中同时呈现的节点和边的数目，从而大幅改善计算图的展示效果。",
           "update_time": "2020-05-21",
-          "label": "proj_17_182"
+          "label": "2017182"
         }
       ]
     },
@@ -1333,7 +1333,7 @@
           "hot_index": 0,
           "description": "Milvus是一款开源的特征向量搜索引擎。其存储系统使用元数据对数据文件进行统一管理，目前元数据的后台只能选用SQlite或者MySQL，需要支持更多的元数据后台。请实现一套元数据接口以支持ETCD作为元数据后台。",
           "update_time": "2020-05-18",
-          "label": "proj_18_81"
+          "label": "2018081"
         },
         {
           "name": "Milvus 数据备份恢复工具",
@@ -1343,7 +1343,7 @@
           "hot_index": 0,
           "description": "Milvus是一款开源的特征向量搜索引擎。目前正在开发0.10.0版本。由于某些版本间数据无法兼容，需要开发一套数据备份恢复工具和数据迁移工具，将旧版本数据导出备份，能够将备份数据恢复，且能够转换兼容不同版本Milvus。",
           "update_time": "2020-05-18",
-          "label": "proj_18_82"
+          "label": "2018082"
         },
         {
           "name": "Milvus CLI 开发",
@@ -1353,7 +1353,7 @@
           "hot_index": 0,
           "description": "开发一个在命令行可以查询和管理Milvus的工具。使用这个工具可以测试Milvus实例的服务状态，可以列出实例上的所有Collection以及每个Collection的一些统计信息等，另外这个工具还可以在运行时修改Milvus的一些系统参数，例如auto_flush_interval等。工具需要交互友好，命令支持模糊自动补全。本项目需要使用Python开发。",
           "update_time": "2020-05-18",
-          "label": "proj_18_83"
+          "label": "2018083"
         },
         {
           "name": "S3 存储支持",
@@ -1363,7 +1363,7 @@
           "hot_index": 0,
           "description": "S3是Simple Storage Service的缩写，即简单存储服务。它是由亚马逊提出的一套云存储服务接口，现在几乎所有的云服务都兼容S3。本项目目标是实现一个兼容S3存储的Codec，使得Milvus能够将结构化数据和非结构化数据存入兼容S3的云端存储，如 MinIO。",
           "update_time": "2020-05-18",
-          "label": "proj_18_84"
+          "label": "2018084"
         },
         {
           "name": "HDFS 存储支持",
@@ -1373,7 +1373,7 @@
           "hot_index": 0,
           "description": "HDFS是基于流数据模式访问和处理超大文件的需求而开发的分布式文件系统，是分布式计算中数据存储管理的基础，为超大数据集（Large Data Set）的应用处理带来了很多便利。本项目目标是实现一个基于HDFS存储格式的Codec，使得Milvus能够使用HDFS格式来存储结构化数据和非结构化数据。",
           "update_time": "2020-05-18",
-          "label": "proj_18_85"
+          "label": "2018085"
         },
         {
           "name": "Parquet存储支持",
@@ -1383,7 +1383,7 @@
           "hot_index": 0,
           "description": "Parquet是Hadoop生态系统中任何项目均可使用的列式存储格式，与数据处理框架、数据模型或者编程语言无关。本项目目标是实现一个基于Parquet存储格式的Codec，使得Milvus能够使用Parquet格式来存储结构化数据。",
           "update_time": "2020-05-18",
-          "label": "proj_18_86"
+          "label": "2018086"
         },
         {
           "name": "Milvus 中的新聚类算法实现",
@@ -1394,7 +1394,7 @@
           "hot_index": 0,
           "description": "Milvus是一款开源的特征向量搜索引擎。聚类是一种常见的数据分类方法，在索引中有着重要的应用。Milvus目前使用k-means来实现聚类。请为它添加更多的聚类算法并添加相应的选择开关。",
           "update_time": "2020-05-18",
-          "label": "proj_18_87"
+          "label": "2018087"
         },
         {
           "name": "Milvus 提供更多的索引类型",
@@ -1405,7 +1405,7 @@
           "hot_index": 0,
           "description": "Milvus是一款开源的特征向量搜索引擎。目前已经实现了基于空间分类的、基于图的等多种索引类型。请为其再添加一种基于Hash的索引方式。",
           "update_time": "2020-05-18",
-          "label": "proj_18_88"
+          "label": "2018088"
         },
         {
           "name": "Flat 索引支持运行时指定距离类型",
@@ -1416,7 +1416,7 @@
           "hot_index": 0,
           "description": "Milvus是一款开源的特征向量搜索引擎。不过目前尚不支持一份数据的多种距离计算，从而导致了某些场景的使用不便。请为其中的Flat索引支持计算时再指定距离类型的功能。",
           "update_time": "2020-05-18",
-          "label": "proj_18_89"
+          "label": "2018089"
         },
         {
           "name": "GPU 显存使用优化",
@@ -1426,7 +1426,7 @@
           "hot_index": 0,
           "description": "FAISS IVF GPU 算法运行时所需要的显存与 NQ／nprobe 成正比，但 GPU 上的显存有限，因此当 NQ／nprobe 很大时，会出现 Out Of Memory。 本项目的目的是优化该算法，减小 GPU 显存使用量。",
           "update_time": "2020-05-18",
-          "label": "proj_18_90"
+          "label": "2018090"
         }
       ]
     },
@@ -1464,7 +1464,7 @@
           "hot_index": 0,
           "description": "OI Wiki 是一个编程竞赛知识整合站点,提供有趣又实用的编程竞赛知识以及其他有帮助的内容,帮助广大编程竞赛爱好者更快更深入地学习编程竞赛。然而,算法与数据结构知识迭代更新较快,仍有很多 OI Wiki 尚未涉及的内容。本项目目标是选定若干新颖有趣的 topic,并将其引入 OI Wiki。寻找有趣的 topic 可以参考 e-maxx-eng, AlgoWiki 。",
           "update_time": "2020-05-13",
-          "label": "proj_19_91"
+          "label": "2019091"
         },
         {
           "name": "改进前端渲染框架",
@@ -1475,7 +1475,7 @@
           "hot_index": 0,
           "description": "当前,OI Wiki 使用 mkdocs 作为静态页面生成引擎。然而由于 mkdocs 并非专门为 Wiki 类项目设计,因而与我们的需求存在较大差距,此外还难以实现对语法和页面的定制。因此,目前 OI Wiki 正在将前端迁移到基于 React 和 GraphQL 的页面生成框架 Gatsby 上,从而实现对页面的深度定制。目前,我们已经实现了基本的框架代码（见下面的仓库）。然而它还不尽完善,我们希望为它添加更多的功能,覆盖用户的需求。",
           "update_time": "2020-05-13",
-          "label": "proj_19_92"
+          "label": "2019092"
         },
         {
           "name": "完善基于 Unified AST 的 markdown 基础设施",
@@ -1485,7 +1485,7 @@
           "hot_index": 0,
           "description": "在即将上线的新前端中,为了支持我们的诸多 markdown 自定义语法, OI Wiki 使用 remark 作为 markdown parser,并使用 rehype 生成对应的 html 页面。首先,我们希望能够基于现有的 Unified AST,生成相应的 LaTeX code 并导出排版优美的 pdf 文档。OI Wiki 开发过一版导出工具（见下面的仓库 remark-latex）,但是由于缺乏维护,对于图片等语法的支持不够完善,使用起来也需要大量人工操作。我们希望能够基于 Unified AST 及现有实现,改进或重构出一个较优美的 markdown 转 LaTeX 导出工具。此外,上游社区也有一些优秀的 LaTeX AST 实现供参考（见下面的 latex-utensils 及 LaTeX.js）。其次,为了让多人协作的 markdown 文件更整齐,我们采用了 remark-lint 来规范 markdown 中内容的格式。目前 OI Wiki 的格式化工具见下方 linter 仓库,启用的格式化规则见 https://github.com/OI-wiki/OI-wiki/blob/master/.remarkrc ,但是目前的实现还不够完善,比如对于公式两侧添加若干多余的空格、details 语法限制过严等等。我们希望通过这个项目,规范整理 lint 规则。",
           "update_time": "2020-05-13",
-          "label": "proj_19_93"
+          "label": "2019093"
         },
         {
           "name": "测试数据生成工具",
@@ -1495,7 +1495,7 @@
           "hot_index": 0,
           "description": "在即将上线的新前端中,我们希望能添加一些辅助竞赛选手的实用工具。测试数据生成工具就是其中之一。在解题过程中,选手往往会有自己造一些样例数据的需求,我们希望能设计一个前端工具来简化这一流程。目前有一些类似的工具供参考,如 cyaron,testlib, Tree-Generator 。",
           "update_time": "2020-05-13",
-          "label": "proj_19_94"
+          "label": "2019094"
         },
         {
           "name": "OI Wiki 引入计划",
@@ -1506,7 +1506,7 @@
           "hot_index": 0,
           "description": "在 wiki 的编写过程中需要参考大量的外界资料以使得 wiki 质量更高、更为完善及更易读。本项目主要工作内容为参考、翻译外文资料并将其融入 OI Wiki 现有内容中。",
           "update_time": "2020-05-19",
-          "label": "proj_19_162"
+          "label": "2019162"
         },
         {
           "name": "OI Wiki 国际化",
@@ -1517,7 +1517,7 @@
           "hot_index": 0,
           "description": "OI Wiki 上收录了大量优质的算法内容，但是他们主要是以中文编写的，会对外国友人的学习造成一定的障碍，因此为了更好的扩大 OI Wiki 的影响力和帮助到更多的人，开展本项目。本项目主要内容为将 OI Wiki 上现有的内容按照格式要求翻译成英文。",
           "update_time": "2020-05-19",
-          "label": "proj_19_163"
+          "label": "2019163"
         },
         {
           "name": "编修、清理、校订 OI Wiki 的文档",
@@ -1528,7 +1528,7 @@
           "hot_index": 0,
           "description": "OI Wiki 上收录了大量优质的算法内容，但是仍有相当多的页面在语言表述上较为随意，会对大家学习体验与效果产生一定的影响。本项目希望能将 OI Wiki 上现有的内容按照格式要求进行合理的编修、调整格式、清理、校订。",
           "update_time": "2020-05-19",
-          "label": "proj_19_164"
+          "label": "2019164"
         }
       ]
     },
@@ -1562,7 +1562,7 @@
           "hot_index": 0,
           "description": "Universal intrinsics is OpenCV way to write cross-platform and yet very efficient code on a variety of platforms. The technique is widely used inside OpenCV, but it’s not well-known to many OpenCV users, including contributors, who are supposed to provide high-quality fast code into OpenCV. This tutorial should fill this important missing part of the documentation.",
           "update_time": "2020-05-14",
-          "label": "proj_20_95"
+          "label": "2020095"
         },
         {
           "name": "Create nuget package for OpenCV and OpenCV contrib",
@@ -1572,7 +1572,7 @@
           "hot_index": 0,
           "description": "Nuget is the standard Microsoft package manager. If done properly, it can become the most convenient way to install OpenCV on Windows. We can also create opencv_contrib nuget package, and thus provide a convenient way for OpenCV users to install experimental OpenCV functionality on Windows.",
           "update_time": "2020-05-14",
-          "label": "proj_20_96"
+          "label": "2020096"
         },
         {
           "name": "Support Audio IO module",
@@ -1582,7 +1582,7 @@
           "hot_index": 0,
           "description": "At the moment, OpenCV can works with inference deep neural network with help DNN module. But DNN module has limitation, it work with only images. In addition, exist much network which work with audio. That why proposed support audio input/output in OpenCV for extension functionality of library and more specifically extension functionality of DNN module.",
           "update_time": "2020-05-14",
-          "label": "proj_20_97"
+          "label": "2020097"
         },
         {
           "name": "Implementation of QR-codes decoder and encoder",
@@ -1592,7 +1592,7 @@
           "hot_index": 0,
           "description": "OpenCV has well-working QR codes detection and decoding algorithm. Currently it uses third party library for decoding and doesn’t have functionality for creation of QR-codes. The first task will be implementation decoder with help of OpenCV functionality. This will help to solve second task – QR-code encoder (tasks are interconnected). Student will need to research QR-codes decoding algorithms, error correction rules, data character encoding methods and to program decoder and encoder.",
           "update_time": "2020-05-14",
-          "label": "proj_20_98"
+          "label": "2020098"
         },
         {
           "name": "Data Augmentation",
@@ -1602,7 +1602,7 @@
           "hot_index": 0,
           "description": "Deep learning networks are hungry for data and data augmentation is one of the easiest ways to increase data variation. Augmentation could be as simple image flipping, cropping and scaling on up to more complicated transformations such style transfer using another deep learning network. For computer vision problems, OpenCV is often used for reading images in most of training scenarios, so why we’d like to enhance data reading with simple to use data augmentation techniques as well.",
           "update_time": "2020-05-14",
-          "label": "proj_20_99"
+          "label": "2020099"
         }
       ]
     },
@@ -1636,7 +1636,7 @@
           "hot_index": 0,
           "description": "树莓派（英语：Raspberry Pi）是基于 Linux 的单片机电脑，目的是以低价硬件及自由软件促进学校的基本计算机科学教育。openEuler 树莓派版本目前没有桌面环境。本项目的目标是为树莓派添加桌面支持，即适配桌面环境 Xfce 到 openEuler 树莓派 4B。",
           "update_time": "2020-05-18",
-          "label": "proj_21_100"
+          "label": "2021100"
         },
         {
           "name": "精简 openEuler 的树莓派 4B 镜像体积小于 500 MiB",
@@ -1646,7 +1646,7 @@
           "hot_index": 0,
           "description": "树莓派（英语：Raspberry Pi）是基于 Linux 的单片机电脑，目的是以低价硬件及自由软件促进学校的基本计算机科学教育。树莓派需要刷写文件系统镜像来实现启动，镜像文件常常都较大，不利于快速分发和安装。本项目目标是为制作压缩前小于 500 MiB 的 openEuler 树莓派 4B 镜像，并能够通过 DNF 或 YUM等安装软件源中更多的软件进来。镜像尽可能小。",
           "update_time": "2020-05-18",
-          "label": "proj_21_101"
+          "label": "2021101"
         },
         {
           "name": "为 openEuler 树莓派 4B 镜像提供 UEFI 启动支持",
@@ -1656,7 +1656,7 @@
           "hot_index": 0,
           "description": "树莓派（英语：Raspberry Pi）是基于 Linux 的单片机电脑，目的是以低价硬件及自由软件促进学校的基本计算机科学教育。为了降低成本，树莓派省去了传统计算机用来存储引导加载程序的板载存储器(BIOS), 直接把引导程序放在了SD卡中。目前树莓派 Pi 4 引入了 UEFI，不过目前处于 EXPERIMENTAL 状态。本项目目标是为树莓派引入 UEFI Firmware 来支持 UEFI 启动 openEuler 树莓派 4B。",
           "update_time": "2020-05-18",
-          "label": "proj_21_102"
+          "label": "2021102"
         },
         {
           "name": "Build openEuler from Scratch",
@@ -1666,7 +1666,7 @@
           "hot_index": 0,
           "description": "借鉴 Linux From Scratch，开发一套工具，从零构建openEuler，可以支持新架构。一个可能的建议是，从openEuler x86_64 构建 i686版本。",
           "update_time": "2020-05-18",
-          "label": "proj_21_103"
+          "label": "2021103"
         },
         {
           "name": "让openEuler在aarch64架构上跑的更快！-- openEuler加速库（aarch64架构）优化",
@@ -1677,7 +1677,7 @@
           "hot_index": 0,
           "description": "为了使aarch64平台的用户能够使用上更快的openEuler，我们需要对基础库、加速库进行优化，目前鲲鹏计算已开源一系列基于aarch64的优化，也有很多加速库在上游社区完成了aarch64优化，但这些软件优化尚未集成到openEuler OS中。",
           "update_time": "2020-05-21",
-          "label": "proj_21_183"
+          "label": "2021183"
         },
         {
           "name": "An abi checker tool for openEuler",
@@ -1688,7 +1688,7 @@
           "hot_index": 0,
           "description": "这里(https://github.com/lvc)有一系列abi的导出和分析工具。借鉴或复用该开源工具，实现一套完整的abi检查工具，包括c/c++、python、java等语言，能够提供一个统一的界面。可以针对openEuler不同发布版本的二进制，一键式自动导出所有abi 差异项，协助maintainer升级、选型分析。",
           "update_time": "2020-05-21",
-          "label": "proj_21_184"
+          "label": "2021184"
         },
         {
           "name": "在openEuler上ai的hello world(tensorflow)",
@@ -1699,7 +1699,7 @@
           "hot_index": 0,
           "description": "没有软件工程师不知道Hello world，也没有AI工程师不知道mnist。OpenEuler上对AI的支持也正如火如荼，为了让大家熟悉在openEuler上的AI的软件栈和开发流程，现在请从源代码出发构建tensorflow的安装包(pip和yum)，用自己构建的安装包基于公开的数据集完成mnist的训练过程。",
           "update_time": "2020-05-21",
-          "label": "proj_21_185"
+          "label": "2021185"
         },
         {
           "name": "在openEuler上ai的hello world(pytorch)",
@@ -1710,7 +1710,7 @@
           "hot_index": 0,
           "description": "没有软件工程师不知道Hello world，也没有AI工程师不知道mnist。OpenEuler上对AI的支持也正如火如荼，为了让大家熟悉在openEuler上的AI的软件栈和开发流程，现在请从源代码出发构建pytorch的安装包(pip和yum)，用自己构建的安装包基于公开的数据集完成mnist的训练过程。",
           "update_time": "2020-05-21",
-          "label": "proj_21_186"
+          "label": "2021186"
         },
         {
           "name": "封装常用的API，提供给开发和测试使用",
@@ -1721,7 +1721,7 @@
           "hot_index": 0,
           "description": "提供一套易用的工具，对码云常见REST API进行封装，并提供常见的功能，使其简化，如代码统计、自动化提交代码等。",
           "update_time": "2020-05-21",
-          "label": "proj_21_187"
+          "label": "2021187"
         },
         {
           "name": "构建可运行iSulad的容器镜像，并推送到docker hub镜像仓库",
@@ -1732,7 +1732,7 @@
           "hot_index": 0,
           "description": "当前docker hub等镜像仓库中无iSulad 镜像，要求制作能够运行iSulad的容器镜像，并推送到docker hub上，能够使用docker、iSulad 下载该镜像，并能够启动iSulad。",
           "update_time": "2020-05-21",
-          "label": "proj_21_188"
+          "label": "2021188"
         },
         {
           "name": "C语言json解析转换代码生成框架",
@@ -1743,7 +1743,7 @@
           "hot_index": 0,
           "description": "当前iSulad项目中，存在大量的json相关的操作（C结构体转换为json字符串，json字符串转换为C结构体）。由于C语言没有反射机制，导致无法动态解析json字符串。因此，需要一个生成解析和转换代码的框架。而且该框架可以支持多种json解析库，例如c-json，yajl等等。",
           "update_time": "2020-05-21",
-          "label": "proj_21_189"
+          "label": "2021189"
         },
         {
           "name": "iSula相关项目支持编译debian包",
@@ -1754,7 +1754,7 @@
           "hot_index": 0,
           "description": "当前iSula相关项目，只支持rpm编译方式（提供了spec文件）。当时debian相关的系统上面需要源码编译，所以存在编译不方便的问题。因此，需要提供debian打包的支持。",
           "update_time": "2020-05-21",
-          "label": "proj_21_190"
+          "label": "2021190"
         },
         {
           "name": "iSula项目内存池设计与实现",
@@ -1765,7 +1765,7 @@
           "hot_index": 0,
           "description": "当前iSula相关项目无内存池设计，程序在堆上频繁分配和释放内存，容易造成系统出现大量内存碎片，同时也降低了内存的利用率，也造成了iSulad性能的损失，因此，iSulad需要设计一个高效高性能且可应对高并发的内存池设计。",
           "update_time": "2020-05-21",
-          "label": "proj_21_191"
+          "label": "2021191"
         },
         {
           "name": "iSula项目线程池设计与实现",
@@ -1776,7 +1776,7 @@
           "hot_index": 0,
           "description": "当前iSula相关项目无线程池设计，程序存在频繁创建和销毁线程的场景，CPU资源开销大, 效率也相对低下，因此，iSulad需要设计一个高性能的线程池，能支持自动扩容与收缩的动态资源分配。",
           "update_time": "2020-05-21",
-          "label": "proj_21_192"
+          "label": "2021192"
         },
         {
           "name": "openEuler集成Harbor项目",
@@ -1787,7 +1787,7 @@
           "hot_index": 0,
           "description": "Harbor是一个用于存储和分发Docker镜像的企业级Registry服务器，可以用来构建企业内部的Docker镜像仓库。容器镜像仓库是云原生中的重要组成部分，因此我们希望参与者能够提供harbor在openEuler上的标准发布软件包，并在社区的基础上能够便捷、快速的让使用者使用harbor组件",
           "update_time": "2020-05-21",
-          "label": "proj_21_193"
+          "label": "2021193"
         }
       ]
     },
@@ -1819,7 +1819,7 @@
           "hot_index": 0,
           "description": "目标检测作为图像理解中的重要一环，其任务是找出图像中所有感兴趣的目标（物体），确定它们的位置和大小，是深度学习中的重要应用之一。目前有许多优秀的二值神经网络模型，大多都使用的是全精度的网络。但由于PhoneBit框架主要针对二值神经网路进行加速，需要对网络进行二值化处理，并保持一定的精度，以便于部署到移动设备上。",
           "update_time": "2020-05-20",
-          "label": "proj_33_165"
+          "label": "2033165"
         },
         {
           "name": "PhoneBit框架上的二值目标检测模型部署",
@@ -1829,7 +1829,7 @@
           "hot_index": 0,
           "description": "目标检测作为图像理解中的重要一环，其任务是找出图像中所有感兴趣的目标（物体），确定它们的位置和大小，是深度学习中的重要应用之一。目前有许多优秀的二值神经网络模型，大多都使用的是全精度的网络。但由于PhoneBit框架主要针对二值神经网路进行加速，需要对网络进行二值化处理，并保持一定的精度，以便于部署到移动设备上。",
           "update_time": "2020-05-20",
-          "label": "proj_33_166"
+          "label": "2033166"
         },
         {
           "name": "基于PhoneBit框架上的移动二值目标检测模型应用",
@@ -1839,7 +1839,7 @@
           "hot_index": 0,
           "description": "目前手机的计算能力愈来愈高，已逐步具备进行快速模型部署的能力。PhoneBit框架基于手机GPU进行高度优化，能实现基于手机的快速前向推断。在PhoneBit开源仓库下，提供了二值图像分类网络的Android部署APP示例工程。可以参考示例工程，根据目标检测任务的特性设计APP，实现模型的应用。",
           "update_time": "2020-05-20",
-          "label": "proj_33_167"
+          "label": "2033167"
         },
         {
           "name": "心血管疾病预测",
@@ -1849,7 +1849,7 @@
           "hot_index": 0,
           "description": "在分类问题中，分类的目的是从一系列数据中选择出一个分类（如，给出一张包含苹果或橘子的图片，识别出图片中是哪种水果）。本项目采用心血管疾病数据集，数据集提供11个特征值和1个目标值，包含70000个患者记录数据。通过构建一个算法模型，来预测样本是否患有心血管疾病。本实训主要介绍如何实现“心血管疾病预测模型”的开发，通过该实训项目，可以使实训受众了解预测模型的开发。",
           "update_time": "2020-05-20",
-          "label": "proj_33_168"
+          "label": "2033168"
         }
       ]
     },
@@ -1883,7 +1883,7 @@
           "hot_index": 0,
           "description": "由于项目早期的遗留问题,有很多 bug 一直没有解决,在代码某处一定还藏有尚未发现的地雷,你的任务是找到它,解决它,并留下足够的测试代码。",
           "update_time": "2020-05-14",
-          "label": "proj_22_104"
+          "label": "2022104"
         },
         {
           "name": "SimpleKernel 优化现有内存管理代码的实现",
@@ -1893,7 +1893,7 @@
           "hot_index": 0,
           "description": "现有的内存管理代码可谓千疮百孔,难以说是一个能够作为示例的代码,我们需要你在现有方案的基础上对代码进行重写,使用经典算法如 first-fit,buddy 重新实现内存管理系统。",
           "update_time": "2020-05-14",
-          "label": "proj_22_105"
+          "label": "2022105"
         },
         {
           "name": "SimpleKernel 完成多任务系统",
@@ -1903,7 +1903,7 @@
           "hot_index": 0,
           "description": "多任务是内核不可或缺的部分,但现在我们的代码还很简陋。现有代码是对 linux 内核实现的魔改,还不能够正常使用。",
           "update_time": "2020-05-14",
-          "label": "proj_22_106"
+          "label": "2022106"
         },
         {
           "name": "SimpleKernel 编写实现文档",
@@ -1913,7 +1913,7 @@
           "hot_index": 0,
           "description": "目前的实现文档分布在开发日志、代码注释中,有的部分还有缺少,我们需要一份文档告诉使用者我们的代码是怎么来的,背后的原理是什么,为什么这样写。",
           "update_time": "2020-05-14",
-          "label": "proj_22_107"
+          "label": "2022107"
         },
         {
           "name": "SimpleCompiler 完善编译器架构",
@@ -1923,7 +1923,7 @@
           "hot_index": 0,
           "description": "目前仅实现了基本的词法解析,但对于整个编译器的整体结构尚未有过考虑,我们需要一位对编译器熟悉的同学来把握大方向,站在初学者的角度,我们的代码怎么写能让别人容易理解,便于迁移呢？",
           "update_time": "2020-05-14",
-          "label": "proj_22_108"
+          "label": "2022108"
         }
       ]
     },
@@ -1982,7 +1982,7 @@
           "hot_index": 0,
           "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器,同时还包括WiFi/BT,千兆以太网,双HDMI输出,CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台,可用于各种AI应用场景。",
           "update_time": "2020-05-13",
-          "label": "proj_23_109"
+          "label": "2023109"
         },
         {
           "name": "在树莓派4上用 RT-Thread 实现目标检测",
@@ -1993,7 +1993,7 @@
           "hot_index": 0,
           "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器,同时还包括WiFi/BT,千兆以太网,双HDMI输出,CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台,可用于各种AI应用场景。",
           "update_time": "2020-05-13",
-          "label": "proj_23_110"
+          "label": "2023110"
         },
         {
           "name": "在树莓派4上用RT-Thread 实现TensorflowLite Micro移植",
@@ -2004,7 +2004,7 @@
           "hot_index": 0,
           "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器,同时还包括WiFi/BT,千兆以太网,双HDMI输出,CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台,可用于各种AI应用场景。TensorflowLite Micro 是面象微控制器级别的设备裁剪定制版本的 Tensorflow Lite,具有良好的跨平台设计和较为完善的单元测试。本项目目标是在树莓派4上将TensorflowLite Micro移植到RT-Thread系统中,并顺利运行自的演示应用。目前树莓派4上的RT-Thread状态为,可以运行ARM64位的RT-Thread,驱动相对较少,只包含中断管理、串口、HDMI、SDIO等。在本项目中,需要开启 RT-Thread 的 C++ 支持,完成 TensorflowLite Micro 的编译链接,并在树莓派4上运行原项目自带的演示应用。",
           "update_time": "2020-05-13",
-          "label": "proj_23_111"
+          "label": "2023111"
         },
         {
           "name": "面向RISC-V的RT-Thread系统",
@@ -2015,7 +2015,7 @@
           "hot_index": 0,
           "description": "QEMU中已经包含的基本的RISC-V模拟,例如sifive_u、riscv32/64_virt的模拟。RT-Thread对于RISC-V的移植主要局限于machine mode的方式,本项目目标是实现RISC-V的user-mode支持,及对应的基本外设功能,它们包括：支持MMU操作,页管理器；用户态的系统调用；任务切换时,对用户态上下文支持；基本的系统外设支持,例如文件系统,网络,LCD等",
           "update_time": "2020-05-13",
-          "label": "proj_23_112"
+          "label": "2023112"
         },
         {
           "name": "龙芯2K上的RT-Thread系统",
@@ -2026,7 +2026,7 @@
           "hot_index": 0,
           "description": "龙芯2K1000处理器是面向网络安全领域及移动智能终端领域的双核处理器芯片。龙芯2K1000处理器集成两个GS264处理器核,芯片外围接口包括两路PCIE2.0、一路SATA2.0、4路USB2.0、两路DVO、64位DDR2/3及其它多种接口,可以满足中低端网络安全应用领域需求,并为其扩展应用提供相应接口。当前RT-Thread系统只支持龙芯2K1000的基本外设（中断处理、串口、定时器等）,基本的MIPS64支持。本项目目标是实现龙芯2K1000下更多的外设支持：SATA/SSD驱动,并对接FAT文件系统；千兆网卡驱动,并对接网络协议栈；",
           "update_time": "2020-05-13",
-          "label": "proj_23_113"
+          "label": "2023113"
         },
         {
           "name": "龙芯2K上的Linux/RT-Thread双系统",
@@ -2037,7 +2037,7 @@
           "hot_index": 0,
           "description": "龙芯2K1000处理器是面向网络安全领域及移动智能终端领域的双核处理器芯片。龙芯2K1000处理器集成两个GS264处理器核,芯片外围接口包括两路PCIE2.0、一路SATA2.0、4路USB2.0、两路DVO、64位DDR2/3及其它多种接口,可以满足中低端网络安全应用领域需求,并为其扩展应用提供相应接口。龙芯2K1000包含了两个核,当前RT-Thread系统只支持龙芯2K1000的基本外设（中断处理、串口、定时器等）,基本的MIPS64支持。本项目的目标是把两个核都独立使用起来,包括一个核心执行Linux系统,一个核心执行RT-Thread。双方通过OpenAMP的方式进行通信。",
           "update_time": "2020-05-13",
-          "label": "proj_23_114"
+          "label": "2023114"
         },
         {
           "name": "在乐鑫 ESP32 上用 RT-Thread 实现语音唤醒和控制功能",
@@ -2047,7 +2047,7 @@
           "hot_index": 0,
           "description": "乐鑫 ESP32 系列芯片提供了一个或两个可以单独控制的 CPU 内核,时钟频率可调,最高可达240 MHz。同时还包括 WIFI/BLE 双模,支持多种低功耗运行模式,具备低噪声放大器,I2S,高速 SPI,以太网等外设接口。是一款理想的嵌入式物联网芯片,可用于各类物联网应用场景。",
           "update_time": "2020-05-13",
-          "label": "proj_23_115"
+          "label": "2023115"
         },
         {
           "name": "基于RT-Thread 实现双目视觉拍摄系统",
@@ -2058,7 +2058,7 @@
           "hot_index": 0,
           "description": "RT-Thread 操作系统实现了 USB 基础协议栈,为 USB 摄像头的数据传输提供了基础的支持,双目拍摄系统拍摄同一场景的左、右两幅视点图像,并结合算法将左右图像进行合并。RT-Thread 和双目拍摄二者结合之后可以应用于各种视觉领域。",
           "update_time": "2020-05-13",
-          "label": "proj_23_116"
+          "label": "2023116"
         }
       ]
     },
@@ -2094,7 +2094,7 @@
           "hot_index": 0,
           "description": "性能优化是提升产品用户体验的关键,也是所有产品走向高端的必由之路。Linux 系统上的性能优化工具日新月异,从早年的 Oprofile,Ftrace,Systemtap 到如今的 Perf, eBPF,日渐完善,不断强大。但是对于初学者,这些新工具的使用门槛很高,本项需求的目标是基于 Cloud Lab 构建一个开箱即可上手的系统性能优化工具箱,囊括各种常见的系统性能优化工具,并提供配套的实际开发案例。",
           "update_time": "2020-05-13",
-          "label": "proj_24_117"
+          "label": "2024117"
         },
         {
           "name": "Linux Lab 镜像升级",
@@ -2105,7 +2105,7 @@
           "hot_index": 0,
           "description": "Linux Lab 是一个 Linux 内核实验环境,当前已经支持国内外的 7 大主流处理器架构和 16 款开发版。当前环境基于 Ubuntu 14.04,难以适应各类软件新版本的开发需要,本项需求旨在升级当前环境到最新的 Ubuntu 20.04 或者其他更为合适的同时期 Linux 发行版。",
           "update_time": "2020-05-13",
-          "label": "proj_24_118"
+          "label": "2024118"
         },
         {
           "name": "Linux Lab 模块化支持",
@@ -2116,7 +2116,7 @@
           "hot_index": 0,
           "description": "Linux Lab 是一个 Linux 内核实验环境,当前已支持 Linux、Buildroot、Uboot 和 Qemu 四大核心软件,但是当前软件支持的耦合度非常高。本项需求旨在解耦,把各个软件的支持拆解到独立的软件支持文件中,增加可扩展性,从而方便进一步导入其他软件实验功能。",
           "update_time": "2020-05-13",
-          "label": "proj_24_119"
+          "label": "2024119"
         },
         {
           "name": "Markdown Lab 功能增强",
@@ -2126,7 +2126,7 @@
           "hot_index": 0,
           "description": "Markdown Lab 是一个 Markdown 编辑环境,当前内置简历、文档、幻灯和书籍的 Markdown 模板,可导出为 html 和 pdf,本项需求旨在进一步完善中文支持、美化 PDF 输出格式、增加加密和水印功能等。",
           "update_time": "2020-05-13",
-          "label": "proj_24_120"
+          "label": "2024120"
         }
       ]
     },
@@ -2158,7 +2158,7 @@
           "contact": "zhanglu@megvii.com",
           "hot_index": "",
           "update_time": "2020-05-20",
-          "label": "proj_25_169"
+          "label": "2025169"
         },
         {
           "name": "实现 MegEngine to Caffe 转换器",
@@ -2168,7 +2168,7 @@
           "contact": "chenyuanzhao@megvii.com",
           "hot_index": "",
           "update_time": "2020-05-20",
-          "label": "proj_25_170"
+          "label": "2025170"
         },
         {
           "name": "实现 MegEngine to TFLite 转换器",
@@ -2178,7 +2178,7 @@
           "contact": "chenyuanzhao@megvii.com",
           "hot_index": "",
           "update_time": "2020-05-20",
-          "label": "proj_25_171"
+          "label": "2025171"
         },
         {
           "name": "添加一些常用的opr",
@@ -2188,7 +2188,7 @@
           "contact": "hukun@megvii.com",
           "hot_index": "",
           "update_time": "2020-05-20",
-          "label": "proj_25_172"
+          "label": "2025172"
         },
         {
           "name": "添加各类常用分类模型",
@@ -2198,7 +2198,7 @@
           "contact": "zhouyizhuang@megvii.com",
           "hot_index": "",
           "update_time": "2020-05-20",
-          "label": "proj_25_173"
+          "label": "2025173"
         },
         {
           "name": "实现 assistant 库",
@@ -2208,7 +2208,7 @@
           "contact": "xxr@megvii.com",
           "hot_index": "",
           "update_time": "2020-05-20",
-          "label": "proj_25_174"
+          "label": "2025174"
         },
         {
           "name": "MegEngine 网络可视化",
@@ -2218,7 +2218,7 @@
           "contact": "xxr@megvii.com",
           "hot_index": "",
           "update_time": "2020-05-20",
-          "label": "proj_25_175"
+          "label": "2025175"
         },
         {
           "name": "C++ 文档生成",
@@ -2228,7 +2228,7 @@
           "contact": "xxr@megvii.com",
           "hot_index": "",
           "update_time": "2020-05-20",
-          "label": "proj_25_176"
+          "label": "2025176"
         },
         {
           "name": "Models-CI 增加模型检查",
@@ -2238,7 +2238,7 @@
           "contact": "wangfeng02@megvii.com",
           "hot_index": "",
           "update_time": "2020-05-20",
-          "label": "proj_25_177"
+          "label": "2025177"
         }
       ]
     },
@@ -2277,7 +2277,7 @@
           "hot_index": 0,
           "description": "根据项目要求，为官网增加新模块，并对现有内容进行优化。",
           "update_time": "2020-05-20",
-          "label": "proj_26_178"
+          "label": "2026178"
         },
         {
           "name": "时序数据库的自动化测试",
@@ -2288,7 +2288,7 @@
           "hot_index": 0,
           "description": "使用 Python 针对时序数据库 TDengine 开发自动化测试方法。",
           "update_time": "2020-05-20",
-          "label": "proj_26_179"
+          "label": "2026179"
         },
         {
           "name": "TDEngine 在各种场景下的 BanchMark 程序",
@@ -2299,7 +2299,7 @@
           "hot_index": 0,
           "description": "使用开源的时序数据库对比测试程序针对框架开发写入和查询的适配，并进行多个时序数据库的对比测试",
           "update_time": "2020-05-21",
-          "label": "proj_26_180"
+          "label": "2026180"
         }
       ]
     },
@@ -2336,7 +2336,7 @@
           "hot_index": 0,
           "description": "当前开源软件镜像站多采用 rsync 协议从上游差异更新,而 rsync 工具只支持 POSIX 文件系统。然而 POSIX 文件系统的大部分功能（如权限管理、目录遍历）对于镜像站是无意义的,反而引入了很多额外开销,降低了性能。目前 CDN 等高性能文件服务都采用对象存储系统（如 AWS S3）作为后端,而不是 POSIX 文件系统,因其访问延迟低,性能几乎不因文件数量增加而下降。若能将 rsync 协议与对象存储结合,实现一个在对象存储上工作的类 rsync 同步工具,那么镜像站就可从 POSIX 文件系统迁移到对象存储系统,从而提供更高质量的服务。项目不要求实现 rsync 的全部功能,只需要将远端文件列表与对象存储中的文件列表对比,下载缺失文件,删除多余文件,并更新修改日期不同的文件即可。",
           "update_time": "2020-05-13",
-          "label": "proj_27_121"
+          "label": "2027121"
         },
         {
           "name": "TUNA Mirrors服务器的ZFS性能问题调研及调优",
@@ -2347,7 +2347,7 @@
           "hot_index": 0,
           "description": "TUNA Mirrors 是国内外知名的综合型开源与自由软件镜像，其收录软件数量庞大，长久以来持续服务于国内外的学术界及工业界对软件仓库的需求。由于用户需求日益上升，服务器存储系统中的ZFS一直在遭受严峻的挑战，并屡屡触碰性能瓶颈以及各类疑难的性能问题。本项目旨在考察 TUNA Mirrors 的 ZFS 软硬件配置，调研其中存在的各种疑难性能问题及瓶颈，并尽可能给出相应的性能调优建议。性能调优对于提升 TUNA Mirrors 及其姊妹镜像站用户体验而言意义重大。",
           "update_time": "2020-05-18",
-          "label": "proj_27_122"
+          "label": "2027122"
         },
         {
           "name": "开源弹幕系统改进",
@@ -2358,7 +2358,7 @@
           "hot_index": 0,
           "description": "弹幕是常用的听众与讲者的互动手段。TUNA 开发了自己的 C/S 弹幕系统 danmaQ（见下面的仓库）,使用于多种场合,也被多个发行版收录。其服务端使用 Python 编写,客户端使用 Qt 编写,基本实现了跨平台。然而,目前该项目缺乏维护,代码比较陈旧,一些功能缺乏（如 Web 弹幕墙）、不完善（如审核）或已经损坏（如微信互联）。此外,清华大学计算机系科协亦有一套自己实现的弹幕系统 Comment9（见下）,使用 Node.js 编写。它与 danmaQ 相比,具有一些高级功能（如多个活动、弹幕墙、多路审核、支持硬件弹幕机）,但缺乏弹幕属性配置等。我们希望,整合当前两个系统的功能,改进得到一套全功能的开源弹幕系统,覆盖用户需求。",
           "update_time": "2020-05-13",
-          "label": "proj_27_123"
+          "label": "2027123"
         },
         {
           "name": "通用镜像站前端框架",
@@ -2369,7 +2369,7 @@
           "hot_index": 0,
           "description": "开源镜像站在呈现文件之外,也需要向用户呈现服务器状态、同步状态、使用帮助等更多的信息。目前,TUNA 镜像站使用了一套 Jekyll 静态生成页面 + AJAX 动态获取信息 + 服务端 njs 渲染结合的方法来向多种平台（现代浏览器、老旧浏览器、文本终端浏览器）提供支持。然而这种方法可维护性略差,也缺少通用性。同时,TUNA 镜像站的前端也硬编码了大量信息,对其他组织的使用造成了一定的不便。我们希望,能够在当前的基础上,对 TUNA 镜像站的前端进行详细设计与重构,形成一套通用的适用于各大开源镜像站的前端框架。",
           "update_time": "2020-05-13",
-          "label": "proj_27_124"
+          "label": "2027124"
         },
         {
           "name": "开源硬件密钥设备工具集",
@@ -2380,7 +2380,7 @@
           "hot_index": 0,
           "description": "以 YubiKey 为代表的密钥存储设备深受 geek 们的喜爱，而相关的密码技术也在开源社区中得到了广泛应用（如 GnuPG）。由于 YubiKey 不开源，近年来，开源社区中陆续诞生了一些开源的硬件密钥设备，例如 SoloKey、CanoKey。作为一个新兴的开源硬件密钥设备，CanoKey 提供了与 YubiKey 一致的FIDO2/U2F、PIV、OpenPGP 和 OATH（HOTP、TOTP）的支持。为了向大众普及和推广密码学工具，CanoKey 还提供了 WebUSB 支持，可以在浏览器中直接使用密码学工具。现在，这些工具的开发还处于起步阶段，需要社区支持，让密码学工具变得更加易用。",
           "update_time": "2020-05-18",
-          "label": "proj_27_125"
+          "label": "2027125"
         },
         {
           "name": "跨平台 NFC 信息读取移动应用开发",
@@ -2391,7 +2391,7 @@
           "hot_index": 0,
           "description": "目前,各类移动设备,包括 Android 与 iOS,都增加了对 NFC 通信的支持；但各类应用对于 NFC 的支持都很不完善,缺少一个统一的跨平台的支持库。同时,关于 NFC 各类标准的文档也并不齐全,通常需要到处查找,为开发者造成了很大的障碍。前期,我们在 Android 平台上是实现了一个 NFC 卡片的读取应用 NFSee；目前,需要将其使用 Flutter 重写以实现跨平台。同时,也将搭建一个公开的 Wiki 网站,对 NFC 相关的协议、标准进行整理和阐述,以纠正常见误区,帮助其他开发者更好地在移动端进行 NFC 相关的开发。",
           "update_time": "2020-05-13",
-          "label": "proj_27_126"
+          "label": "2027126"
         },
         {
           "name": "SCIM Qt5 移植",
@@ -2402,7 +2402,7 @@
           "hot_index": 0,
           "description": "SCIM 历史悠久的输入法框架，早期为 GNU/Linux 系统的中文本土化立下了汗马功劳，然而近年来 SCIM 的开发团队已经不再活跃，开发停滞，项目处于维护状态。当前 SCIM 依旧可以在各大发行版上顺畅使用，唯一缺失的功能是对 Qt5 的支持。本项目计划把 SCIM 移植到 Qt5。",
           "update_time": "2020-05-18",
-          "label": "proj_27_127"
+          "label": "2027127"
         },
         {
           "name": "完善 Fcitx5 的 wayland 的支持",
@@ -2412,7 +2412,7 @@
           "hot_index": 0,
           "description": "Fcitx5 是 Linux 和 BSD 下的新一代输入法框架,支持中日韩等东亚语言的输入。Wayland 是 Linux 和 BSD 新一代的显示协议,用于替代老旧的X11协议。Fcitx5 目前可以在 Xorg 下正常的输入,但是受 Wayland 协议的限制,Fcitx5 在 Wayland 下有诸多问题,其中最主要的是无法显示候选框,导致无法选词。本项目目标是改进 Fcitx5 在 Wayland 桌面下的体验,达到与 Xorg 相同的使用效果。",
           "update_time": "2020-05-13",
-          "label": "proj_27_128"
+          "label": "2027128"
         },
         {
           "name": "将 xgboost 与 prophet 等数据科学软件库集成到 Debian GNU/Linux",
@@ -2423,7 +2423,7 @@
           "hot_index": 0,
           "description": "xgboost （梯度提升），prophet （时间序列预测）以及 Stan （高性能统计建模），pytorch （深度学习）等是重要的数据科学软件。Debian 作为用户基数庞大的 Linux 发行版之一，用户群中不乏数据科学用户群体，而上述软件尚未集成到该系统中，或者缺乏一部分计算性能相关的依赖库。为帮助用户获得更佳使用体验，方便安装及部署，该项目旨在为 Debian 官方仓库引入这些软件及其对应的依赖库，并将仓库中已有的依赖更新到理想状态。",
           "update_time": "2020-05-18",
-          "label": "proj_27_129"
+          "label": "2027129"
         },
         {
           "name": "Gentoo R_Overlay 升级",
@@ -2434,7 +2434,7 @@
           "hot_index": 0,
           "description": "Gentoo R Overlay是一个读取 CRAN 和 BIOC 仓库，并自动生成 Gentoo ebuild 组成 portage overlay 的项目。从2013年至今，一直为 Gentoo 的统计学、生物学和物理学领域的科学家提供服务。本项目将针对 Gentoo R Overlay 的现状和用户需求，对其进行升级。",
           "update_time": "2020-05-18",
-          "label": "proj_27_130"
+          "label": "2027130"
         },
         {
           "name": "Gentoo PyPI ebuild 生成器",
@@ -2445,7 +2445,7 @@
           "hot_index": 0,
           "description": "在 Gentoo 上使用 PyPI 包一种做法是先把 PyPI 的软件打包成 Gentoo 的 ebuild，其缺点是更新需要由人工完成，效率较低。另一种做法是使用 PyPI 的 pip 来绕过 Gentoo 的包管理系统 portage 直接安装，其缺点是容易与 portage 冲突，导致 Python 子系统的混乱。本项目计划采两家之长，通过一个 PyPI ebuild 生成器自动生成一个 PyPI 的 portage overlay，为 Gentoo 用户提供最新 Python 软件仓库。项目可以借鉴现已无人维护的 gs-pypi 代码。",
           "update_time": "2020-05-18",
-          "label": "proj_27_131"
+          "label": "2027131"
         },
         {
           "name": "Gentoo Android App",
@@ -2456,7 +2456,7 @@
           "hot_index": 0,
           "description": "Gentoo on Android 可以在 Android 上运行 Gentoo Prefix，实现无性能损耗的完整的 GNU 环境。然而，当前的 Gentoo on Android 一方面需要 root 权限，另一方面需要手动安装，亟需一个不需 root 的 Android App 完成安装，更方便地把手机转换成开发和生产工具。在 Android 的系统中，每个 App 有一个专有的用户 uid 和一个保留的空间存放数据，适合嵌入一个这个 uid 下的 Gentoo Prefix 实例，解决当前 Gentoo on Android 的两个问题。",
           "update_time": "2020-05-18",
-          "label": "proj_27_132"
+          "label": "2027132"
         },
         {
           "name": "Gentoo ROCm HIP GPGPU 方案",
@@ -2467,7 +2467,7 @@
           "hot_index": 0,
           "description": "ROCm 是 AMD 显卡的自由开源的科学计算系统，HIP 是 ROCm 的 CUDA 兼容层，提供类似于 CUDA 的 API。然而 ROCm 和 HIP 的文档校为缺乏，除了官方指定的个别平台之外，安装和部署较为困难。Gentoo Linux 是一个元发行版，具有高度的可定制性，是各发行版中进行科学计算相关开发的良好选择。当前，Gentoo 中的 ROCm 相关的软件包已经成熟，但是 HIP 及与之相关的 rocBLAS 等高级库尚未完成，依旧有许多难点。本项目将完成 Gentoo 的 HIP 软件包，并为 PyTorch, Tensorflow 提供 AMD 设备上的进行方案。完成发行版上开源 GPGPU 框架的布局。",
           "update_time": "2020-05-18",
-          "label": "proj_27_133"
+          "label": "2027133"
         },
         {
           "name": "Emacs Jupyter client",
@@ -2478,7 +2478,7 @@
           "hot_index": 0,
           "description": "Emacs 是久负盛名的编辑器，以其高度的可编程扩展性闻名于世。Jupyter 是基于 HTTP 的远程异步运行系统，在科学计算有广泛的应用。EIN 项目为 Emacs 提供 Jupyter 客户端，可以弥补 Jupyter 网页上输入功能薄弱的劣势，把 Emacs 的强大编辑功能与 Jupyter 异步执行功能有机结合，成为 literate programming 的最强方案之一。但是，EIN使用的 HTTP 框架由基于 callback 的异步编程框架，维护较为困难，本项目将使用 coroutine 的函数式编程模型重写 EIN，完成现代的 Emacs Jupyter 客户端。",
           "update_time": "2020-05-18",
-          "label": "proj_27_134"
+          "label": "2027134"
         }
       ]
     },
@@ -2511,7 +2511,7 @@
           "hot_index": 0,
           "description": "Universal OJ 目前赛制支持的并不全面,目前仅完全的支持了 OI 赛制。本项目目标是为 Universal OJ 的比赛功能支持多赛制。",
           "update_time": "2020-05-16",
-          "label": "proj_28_135"
+          "label": "2028135"
         },
         {
           "name": "数据合规相关功能",
@@ -2521,7 +2521,7 @@
           "hot_index": 0,
           "description": "Universal OJ 目前没有删除帐号等功能,落后于快速发展的互联网隐私保护行业标准,也有一些合规风险（如 GDPR 、 CCPA 和中国的有关法律法规）。本项目的目标是为 Universal OJ 添加删除帐号、导出信息等数据合规相关功能。",
           "update_time": "2020-05-16",
-          "label": "proj_28_136"
+          "label": "2028136"
         },
         {
           "name": "小工具集编写",
@@ -2531,7 +2531,7 @@
           "hot_index": 0,
           "description": "在用户进行算法学习时,会需要一些小工具,如：图的可视化、代码粘贴器。本项目目标是为 Universal OJ 添加小工具集。",
           "update_time": "2020-05-16",
-          "label": "proj_28_137"
+          "label": "2028137"
         }
       ]
     },
@@ -2560,7 +2560,7 @@
           "hot_index": 0,
           "description": "目前,科大镜像站的前端架构仍然沿用着 2013 年的设计,但是随着时间的发展,我们也发现目前的镜像站前端架构在用户体验、维护与部署上带来了一些不便。目前的镜像站主页是由一套 Python 脚本每小时从模板生成得到的,虽然足够使用,但是在维护中也遇到了一些问题,诸如界面设计的实用性、主页与 status 页面显示不一致等问题。本项目希望能够通过调整镜像站前端架构,提高用户体验,降低维护的复杂度,也方便其他需要的镜像站部署页面显示的解决方案。",
           "update_time": "2020-05-13",
-          "label": "proj_29_138"
+          "label": "2029138"
         },
         {
           "name": "Hackergame CTF 比赛平台改进",
@@ -2571,7 +2571,7 @@
           "hot_index": 0,
           "description": "Hackergame 是 USTCLUG 开发的一套开源 CTF 比赛平台,主要用于每年举办的科大信息安全大赛,随真实需求不断进行技术迭代,并且重视生产环境下的安全性和可靠性。目前使用的是 Django + Vue.js 框架,但前后端解耦仍然不够充分,代码中写死了一些不合理的规则,很多地方缺少通用性和灵活性,测试和部署也不够方便。本项目希望能通过调整架构设计,重构部分代码,得到一个更加通用、健壮的比赛平台,让将来比赛中的实际需求更容易实现。",
           "update_time": "2020-05-13",
-          "label": "proj_29_139"
+          "label": "2029139"
         }
       ]
     },
