@@ -27,7 +27,9 @@ export default class Organisation extends React.Component{
             this.switchTab(2);
         } else if (location.split("/organisations").length > 1 && location.split("/organisations")[1].includes("/")) {
             this.showModal(location.split("/organisations")[1], true);
-            window.addEventListener("resize", ()=>{this.showModal(location.split("/organisations")[1], true)});
+            window.addEventListener("resize", ()=>{
+                this.showModal(location.split("/organisations")[1], location.split("/organisations").length > 1 && location.split("/organisations")[1].includes("/"));
+            });
         }
     }
     resetStyle (category) {
@@ -106,7 +108,8 @@ export default class Organisation extends React.Component{
     }
     showModal(anchor, isDetail) {
         let index = this.state.data.orgList.findIndex(obj => obj.anchor === anchor);
-        
+        const location = window.location.hash;
+
         if (document.getElementById(index+"-tooltip").style.display && document.getElementById(index+"-tooltip").style.display !== 'none' && !isDetail) {
             document.getElementById(index+"-tooltip").style.display = 'none';
         }
