@@ -143,8 +143,8 @@ export default class Organisation extends React.Component{
             else if(window.innerWidth > 850){
                 switch(index % 2) {
                     case 1:
-                        var leftlen = 90 - (382/window.innerWidth)*100;
-                        document.getElementById(index+"-tooltip").style.left = `-${leftlen}vw`;
+                        var leftlen = window.innerWidth*0.9 - 384;
+                        document.getElementById(index+"-tooltip").style.left = `-${leftlen}px`;
                         document.getElementById(index+"-triangle").style.left = '580px';
                         break;
                     default:
