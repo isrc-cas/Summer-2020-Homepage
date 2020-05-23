@@ -35,7 +35,7 @@ var readyWeixin = (title, description, imgUrl) => {
           title: title || document.title, // 分享标题
           desc: description || '关注开源软件和开源社区，培养和发掘更多优秀的开发者。', // 分享描述
           link: window.location.href, // 分享链接
-          imgUrl: imgUrl || "./share.jpg", // 分享图标base64不可以
+          imgUrl: imgUrl || `${window.location.origin}${window.location.pathname}share.jpg`, // 分享图标base64不可以
           success: function () {
             // 设置成功
           }
@@ -45,7 +45,7 @@ var readyWeixin = (title, description, imgUrl) => {
       window.wx.updateTimelineShareData({
           title: title || document.title, // 分享标题
           link: description || window.location.href, // 分享链接
-          imgUrl: imgUrl || "./share.jpg", // 分享图标
+          imgUrl: imgUrl || `${window.location.origin}${window.location.pathname}share.jpg`, // 分享图标
           success: function () {
               // 设置成功
           }

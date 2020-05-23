@@ -2,6 +2,7 @@ import React from 'react'
 import './index.less';
 import data from './data.json';
 import { Input, Pagination } from 'antd';
+import {readyWeixin} from '../../config/weixin.js';
 
 const { Search } = Input;
 export default class Organisation extends React.Component{
@@ -23,7 +24,7 @@ export default class Organisation extends React.Component{
         this.getAllProjectList();
         const location = window.location.hash;
         if (location.split("page=").length > 1 && location.split("page=")[1]==='project') {
-            // window.location.hash = "/organisations?page=project";
+            window.location.hash = "/organisations?page=project";
             this.switchTab(2);
         } else if (location.split("/organisations").length > 1 && location.split("/organisations")[1].includes("/")) {
             this.showModal(location.split("/organisations")[1], true);
@@ -118,7 +119,8 @@ export default class Organisation extends React.Component{
                 if (isDetail) {
                     window.location.hash = "/organisations" + (anchor ? anchor : "");
                     // document.title = `社区详情 - ${this.state.data.orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
-                    window.location.href = window.location.protocol + "//" + window.location.host + window.location.pathname + "?" + window.location.hash;
+                    readyWeixin(item.title, item.description);
+                    // window.location.href = window.location.protocol + "//" + window.location.host + window.location.pathname + "?" + window.location.hash;
                     document.getElementById(index+"-orgListItem").style.display = 'none';
                 }
                 return 0;
