@@ -1,4 +1,4 @@
-const REQUEST_URL = '/wxconfig';
+const REQUEST_URL = 'https://isrc.iscas.ac.cn/summer2020/wxconfig';
 
 var initWeixin = () => {
   if ((/micromessenger/.test(window.navigator.userAgent.toLowerCase())) ? true : false) {
