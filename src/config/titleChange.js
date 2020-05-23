@@ -7,7 +7,7 @@ var gettitle = function(){
     if(location[2]){
         document.title = location[2] +'社区详情-'+ titleContent;
     }else{
-        document.title = `${linkDataMap[location[1]]||location[1]}${titleContent}`;
+        document.title = `${linkDataMap[location[1]]||'首页'}${titleContent}`;
     }
 }
 
