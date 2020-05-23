@@ -9,7 +9,7 @@ var gettitle = function(){
     // }else{
     //     document.title = `${linkDataMap[location[1]]||'首页'}${titleContent}`;
     // }
-    document.title = location[2] ? `${location[2]}社区详情-${titleContent}` : `${linkDataMap[location[1]]||'首页'}${titleContent}`
+    document.title = location[2] ? `社区详情${location[2]}-${titleContent}` : `${linkDataMap[location[1]]||'首页'}${titleContent}`
 }
 
 var titleChange = function(){
