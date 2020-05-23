@@ -25,14 +25,17 @@ export default class Organisation extends React.Component{
         if (location.split("page=").length > 1 && location.split("page=")[1]==='project') {
             window.location.hash = "/organisations?page=project";
             this.switchTab(2);
-        } else if (location.split("/organisations").length > 1 && location.split("/organisations")[1].includes("/")) {
-            this.showModal(location.split("/organisations")[1], true);
-            window.addEventListener("resize", ()=>{
-                if (location.split("/organisations").length > 1 && location.split("/organisations")[1].includes("/")) {
-                    this.showModal(location.split("/organisations")[1], true);
-                }
-            });
-        }
+        } 
+        // else if (location.split("/organisations")[1]) {
+        //     this.showModal(location.split("/organisations")[1], true);
+        //     window.addEventListener("resize", ()=>{
+        //         console.log(location.split("/organisations"))
+        //         console.log(location.split("/organisations")[1])
+        //         if (location.split("/organisations")[1]) {
+        //             this.showModal(location.split("/organisations")[1], true);
+        //         }
+        //     });
+        // }
     }
     resetStyle (category) {
         if (category === 'default') {
@@ -148,8 +151,7 @@ export default class Organisation extends React.Component{
             else if(window.innerWidth > 850){
                 switch(index % 2) {
                     case 1:
-                        var leftlen = window.innerWidth*0.9 - 384;
-                        document.getElementById(index+"-tooltip").style.left = `-${leftlen}px`;
+                        document.getElementById(index+"-tooltip").style.left = `calc(-90vw + 382px)`;
                         document.getElementById(index+"-triangle").style.left = '580px';
                         break;
                     default:
@@ -158,7 +160,7 @@ export default class Organisation extends React.Component{
                 }
                 document.getElementById(index+"-tooltip").style.display = 'flex';
 
-            }
+            } 
             else {
                 document.getElementById(index+"-tooltip").style.display = 'block';
                 document.getElementById(index+"-tooltip").style.left = '0';
@@ -169,7 +171,7 @@ export default class Organisation extends React.Component{
                 document.getElementById(index+"-tooltip").style.display = 'block';
                 document.getElementById("orgListOWrapper").style.display = 'none';
                 document.getElementById("orgListNavBar").style.display = 'block';
-                
+                // document.getElementById(index+"-tooltip").style.left = 0;
                 window.scrollTo(0,0);
                
                 
@@ -392,7 +394,7 @@ export default class Organisation extends React.Component{
                         this.state.data.orgList.map((item,index)=>{
 
                             return (
-                                <div key={index}>
+                                <div key={index} className="orgListWrapperItem">
                                     {/* <div className="orgListItem" key={index} onClick={() => this.openInNewTab(item.project_url ? item.project_url : item.url)}> */}
                                     <div className="orgListItem" key={'list-'+index} onClick={() => this.showModal(item.anchor)} id={index+"-orgListItem"}>
                                             <div
