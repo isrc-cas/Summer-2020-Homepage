@@ -154,7 +154,7 @@ export default class Index extends React.Component{
                 img:'icon1'
             },
             {
-                text:'结识更多的小伙伴和技术大牛，一起热爱开源',
+                text:'结识更多的小伙伴和技术大咖，一起热爱开源',
                 img:'icon2'
             },
             {

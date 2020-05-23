@@ -1,12 +1,13 @@
-const REQUEST_URL = '/wxconfig';
+const REQUEST_URL = 'https://isrc.iscas.ac.cn/summer2020/wxconfig';
 
 var initWeixin = () => {
   if ((/micromessenger/.test(window.navigator.userAgent.toLowerCase())) ? true : false) {
-    fetch(`${REQUEST_URL}?url="${window.location.href.split('#')[0]}`)
+    window.location.href = `${window.location.origin}${window.location.pathname}${window.location.hash}`;
+    fetch(`${REQUEST_URL}?url=${window.location.origin}${window.location.pathname}`)
     .then(res => res.json())
     .then(
         (result) => {
-            // alert(window.location.href.split('#')[0])
+            // console.log(window.location.href.split('#')[0])
             // alert(result.timestamp)
             // alert(result.nonceStr)
             // alert(result.signature)
@@ -34,8 +35,8 @@ var readyWeixin = (title, description, imgUrl) => {
       window.wx.updateAppMessageShareData({
           title: title || document.title, // 分享标题
           desc: description || '关注开源软件和开源社区，培养和发掘更多优秀的开发者。', // 分享描述
-          link: window.location.href, // 分享链接
-          imgUrl: imgUrl || require("../img/share.jpg"), // 分享图标
+          link: `${window.location.origin}${window.location.pathname}${window.location.hash}`, // 分享链接
+          imgUrl: imgUrl || `${window.location.origin}${window.location.pathname}share.jpg`, // 分享图标base64不可以
           success: function () {
             // 设置成功
           }
@@ -44,8 +45,8 @@ var readyWeixin = (title, description, imgUrl) => {
       //分享到朋友圈
       window.wx.updateTimelineShareData({
           title: title || document.title, // 分享标题
-          link: description || window.location.href, // 分享链接
-          imgUrl: imgUrl || require("../img/share.jpg"), // 分享图标
+          link: `${window.location.origin}${window.location.pathname}${window.location.hash}`, // 分享链接
+          imgUrl: imgUrl || `${window.location.origin}${window.location.pathname}share.jpg`, // 分享图标
           success: function () {
               // 设置成功
           }
