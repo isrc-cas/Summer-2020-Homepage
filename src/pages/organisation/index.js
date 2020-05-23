@@ -106,7 +106,11 @@ export default class Organisation extends React.Component{
     }
     showModal(anchor, isDetail) {
         let index = this.state.data.orgList.findIndex(obj => obj.anchor === anchor);
-        
+        if(isDetail) {
+            readyWeixin(this.state.data.orgList[index].title, this.state.data.orgList[index].description);
+            document.title = `社区详情 - ${this.state.data.orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
+        }
+
         if (document.getElementById(index+"-tooltip").style.display && document.getElementById(index+"-tooltip").style.display !== 'none' && !isDetail) {
             document.getElementById(index+"-tooltip").style.display = 'none';
         }
@@ -118,9 +122,6 @@ export default class Organisation extends React.Component{
                 document.getElementById(index+"-tooltip").style.display = 'none';
                 if (isDetail) {
                     window.location.hash = "/organisations" + (anchor ? anchor : "");
-                    // document.title = `社区详情 - ${this.state.data.orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
-                    readyWeixin(item.title, item.description);
-                    // window.location.href = window.location.protocol + "//" + window.location.host + window.location.pathname + "?" + window.location.hash;
                     document.getElementById(index+"-orgListItem").style.display = 'none';
                 }
                 return 0;
@@ -241,6 +242,7 @@ export default class Organisation extends React.Component{
         this.getAllProjectList();
       } else {
         window.location.hash = "/organisations";
+        this.closeModal(0, true);
       }
     }
     getOpensource(){
