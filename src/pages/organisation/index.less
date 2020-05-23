@@ -98,17 +98,19 @@
                 left: 0 !important;
             }
         }
+
+        .orgListWrapperItem:nth-child(3n+2){
+                
+            .org-tooltip{
+                left: -409px !important;
+            }
+        }
         .orgList {
             position: relative;
             display: grid;
             justify-content: space-between;
             grid-template-columns: repeat(auto-fill, 382px);
-            .orgListWrapperItem:nth-child(3n+2){
-                
-                .org-detail{
-                    left: -409px !important;
-                }
-            }
+           
             
 
            
@@ -675,12 +677,13 @@
 
         @media screen and (min-width: 847px)and (max-width:1200px){
             
-            .orgListWrapperItem:nth-child(3n+1)>.org-tooltip,
+            // .orgListWrapperItem:nth-child(3n+1)>.org-tooltip,
             .orgListWrapperItem:nth-child(3n+2)>.org-detail,
             .orgListWrapperItem:nth-child(3n+2)>.org-tooltip.org-detail,
-            .orgListWrapperItem:nth-child(3n+2)>.org-tooltip{
+            .orgListWrapperItem:nth-child(2n+2)>.org-tooltip{
                 left: calc(~'-90vw + 382px') !important;
             }
+            .orgListWrapperItem:nth-child(2n+1)>.org-tooltip,
             .orgListWrapperItem:nth-child(3n+3)>.org-tooltip,
             .orgListWrapperItem:nth-child(3n+3)>.org-tooltip.org-detail{
                 left: 0 !important;
