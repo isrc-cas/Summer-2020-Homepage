@@ -21,8 +21,8 @@ var titleChange = function(){
         gettitle() 
         readyWeixin();
     })
-}
 
+}
 
 export {
     titleChange
