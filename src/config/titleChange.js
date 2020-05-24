@@ -10,7 +10,7 @@ var gettitle = function(){
     //     document.title = `${linkDataMap[location[1]]||'首页'}${titleContent}`;
     // }
     if (location.length < 3) {
-      document.title = `${linkDataMap[location[1]]||'首页'}${titleContent}
+      document.title = `${linkDataMap[location[1]]||'首页'}${titleContent}`;
     }
 }
 
@@ -22,7 +22,7 @@ var titleChange = function(){
         readyWeixin();
     })
 
-}
+
 
 export {
     titleChange
