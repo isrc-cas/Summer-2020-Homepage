@@ -9,7 +9,9 @@ var gettitle = function(){
     // }else{
     //     document.title = `${linkDataMap[location[1]]||'首页'}${titleContent}`;
     // }
-    location[2] ? '' : document.title = `${linkDataMap[location[1]]||'首页'}${titleContent}`
+    if (location.length < 3) {
+      document.title = `${linkDataMap[location[1]]||'首页'}${titleContent}
+    }
 }
 
 var titleChange = function(){
