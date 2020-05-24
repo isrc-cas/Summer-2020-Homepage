@@ -1,7 +1,8 @@
 import liyonglePPT from './../../file/liyongle.pptx'; 
+import wangweiPPT from './../../file/wangwei.pdf'; 
 var data = {
     "liveurl":"https://live.bilibili.com/22221041",
-    "livedata":"2020.5.23 20:00 开源大咖 王伟老师直播  “高校开源创新的故事：以X-lab开放实验室为例”",
+    "livedata":"2020.5.30 20:00 开源大咖 李建盛（适兕）老师直播  开源世界中的“潜规则”",
     "speechlist":[
         {
             "title":"邀您一起玩openEuler",
@@ -31,8 +32,9 @@ var data = {
                 }
             ],  
             "speechcontent":"",
-            "ppt":"",
-            "url":"",
+            "ppt":wangweiPPT,
+            "pptname":"王伟老师高校开源创新的故事：以X-lab开放实验室为例.pdf",
+            "url":"https://www.bilibili.com/video/BV1Tz411i7bC",
         },
         {
             

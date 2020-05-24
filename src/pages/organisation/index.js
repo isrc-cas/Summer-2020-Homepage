@@ -2,7 +2,7 @@ import React from 'react'
 import './index.less';
 import data from './data.json';
 import { Input, Pagination } from 'antd';
-import {readyWeixin} from '../../config/weixin.js';
+// import {readyWeixin} from '../../config/weixin.js';
 
 const { Search } = Input;
 export default class Organisation extends React.Component{
@@ -107,7 +107,7 @@ export default class Organisation extends React.Component{
     showModal(anchor, isDetail) {
         let index = this.state.data.orgList.findIndex(obj => obj.anchor === anchor);
         if(isDetail) {
-            readyWeixin(this.state.data.orgList[index].title, this.state.data.orgList[index].description);
+            // readyWeixin(this.state.data.orgList[index].title, this.state.data.orgList[index].description);
             document.title = `社区详情 - ${this.state.data.orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
         }
 

@@ -1,5 +1,5 @@
 import {linkDataMap} from './../components/header/listLink.js';
-import {readyWeixin} from './weixin.js';
+ import {readyWeixin} from './weixin.js';
 
 var gettitle = function(){
     var titleContent = ` - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
@@ -9,7 +9,9 @@ var gettitle = function(){
     // }else{
     //     document.title = `${linkDataMap[location[1]]||'首页'}${titleContent}`;
     // }
-    document.title = location[2] ? `社区详情${location[2]}-${titleContent}` : `${linkDataMap[location[1]]||'首页'}${titleContent}`
+    if(location.length === 2){
+        document.title = `${linkDataMap[location[1]]||'首页'}${titleContent}`
+    }
 }
 
 var titleChange = function(){

@@ -2,8 +2,8 @@ const REQUEST_URL = 'https://isrc.iscas.ac.cn/summer2020/wxconfig';
 
 var initWeixin = () => {
   if ((/micromessenger/.test(window.navigator.userAgent.toLowerCase())) ? true : false) {
-    window.location.href = `${window.location.origin}${window.location.pathname}${window.location.hash}`;
-    fetch(`${REQUEST_URL}?url=${window.location.origin}${window.location.pathname}`)
+    // window.location.href = `${window.location.origin}${window.location.pathname}${window.location.hash}`;
+    fetch(`${REQUEST_URL}?url=${window.location.href.split("#")[0]}`)
     .then(res => res.json())
     .then(
         (result) => {

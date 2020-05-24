@@ -70,7 +70,13 @@
                 font-stretch: normal;
                 letter-spacing: 1px;
                 color: #ffffff;
-                margin-top:18px
+                margin-top:18px;
+                .indexToBilibili{
+                    cursor: pointer;
+                    display: inline-block;
+                    border-bottom: 1px solid #59e3ff;
+                    color: #59e3ff;
+                }
             }
             .indexHomeOneDakaButtonMore{
                 width: 150px;
@@ -479,7 +485,8 @@
             // height: 470px;
             display: flex;
             transition: all 1s;
-            
+            height: 475px;
+            align-items: flex-end;
             .indexHomeLiveListItem{
                 width: 382px;
                 height: 470px;
@@ -491,7 +498,9 @@
           
             .indexHomeLiveListItem:first-child:hover{
                 cursor: pointer;
-              
+                box-shadow: 4px -1px 6px rgba(0,0,0,.1), 0 4px 6px rgba(0,0,0,.1);
+                -webkit-transform: translate3d(0,-3px,0);
+                transform: translate3d(0,-3px,0);
     
             }
             .indexHomeLiveListItemImage{
