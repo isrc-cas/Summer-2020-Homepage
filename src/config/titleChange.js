@@ -20,7 +20,7 @@ var titleChange = function(){
         readyWeixin();
     })
 
-}
+
 
 export {
     titleChange
