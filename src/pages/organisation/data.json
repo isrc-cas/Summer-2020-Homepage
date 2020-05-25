@@ -1115,6 +1115,25 @@
       "email": "liteos@huawei.com"
     },
     {
+      "anchor": "/hypertrons",
+      "img": "hypertrons.jpg",
+      "title": "Hypertrons",
+      "project_url": "https://www.hypertrons.io/#/zh-cn/event/summer2020",
+      "url": "https://hypertrons.io",
+      "description": "面向开放组织的开源 RPA 平台。",
+      "full_des": "Hypertrons 为一个面向开源组织开放 RPA 平台，在多种平台的连通下，通过可定制化脚本为开放组织提供组织架构管理、自动化流程管理等。目前已经支持 GitHub、GitLab、Gitee、Jenkins、Slack、email 等多种平台的交互。",
+      "tech_tag": [
+        "RPA",
+        "Automation"
+      ],
+      "domain_tag": [
+        "开源治理",
+        "跨平台自动化"
+      ],
+      "mail_list": "community@hypertrons.io",
+      "email": "dev@hypertrons.io"
+    },
+    {
       "anchor": "/kube-edge",
       "img": "KubeEdge.jpg",
       "title": "KubeEdge",
@@ -1731,6 +1750,36 @@
           "label": "2033168"
         }
       ]
+    },
+    {
+      "anchor": "/ros-navigation",
+      "img": "ros.jpg",
+      "title": "ROS Navigation",
+      "project_url": "https://github.com/ros-planning/navigation2/issues?q=is%3Aissue+is%3Aopen+label%3A%22summer+sprint%22",
+      "url": "https://navigation.ros.org",
+      "description": "Mobile robot navigation framework and system.",
+      "full_des": "ROS2 Navigation is a community working to build a high-quality production grade navigation system on ROS2. ROS2 is particularly well suited for production due to its real-time, multi-platform, and secure features. Navigation2 seeks to build a navigation framework to support all manner of mobile robots including differential, omnidirectional, legged, ackermann (cars), and more. We also provide implementations of robust base algorithms to use to get your robot up and running quickly with a rich ecosystem of tools and conventions. Our framework is built using modern multi-processor techniques and behavior trees to enable custom and complex behaviors for your mobile robot system.",
+      "tech_tag": [
+        "robotics",
+        "robot",
+        "navigation",
+        "C++",
+        "control",
+        "planning",
+        "perception"
+      ],
+      "domain_tag": [
+        "robotics",
+        "AI",
+        "navigation",
+        "controllers",
+        "perception",
+        "motion planning",
+        "ROS",
+        "ROS2"
+      ],
+      "mail_list": "https://discourse.ros.org",
+      "email": "stevenmacenski@gmail.com"
     },
     {
       "anchor": "/simple-xx",
