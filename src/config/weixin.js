@@ -37,8 +37,9 @@ var readyWeixin = (title, description, imgUrl) => {
           desc: description || '关注开源软件和开源社区，培养和发掘更多优秀的开发者。', // 分享描述
           link: `${window.location.origin}${window.location.pathname}${window.location.hash}`, // 分享链接
           imgUrl: imgUrl || `http://wx2.sinaimg.cn/large/007f5mwTly1gf4t59re1kj302o02o3yh.jpg`, // 分享图标base64不可以
-          success: function () {
+          success: function (res) {
             // 设置成功
+            console.log(res)
           }
       });
     
@@ -49,6 +50,7 @@ var readyWeixin = (title, description, imgUrl) => {
           imgUrl: imgUrl || `http://wx2.sinaimg.cn/large/007f5mwTly1gf4t59re1kj302o02o3yh.jpg`, // 分享图标
           success: function () {
               // 设置成功
+              
           }
       });
     });

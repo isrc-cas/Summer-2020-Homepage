@@ -19,6 +19,7 @@ export default class IRouter extends React.Component{
         }
     }
     componentDidMount () {
+       
         initWeixin();
     }
     render(){
