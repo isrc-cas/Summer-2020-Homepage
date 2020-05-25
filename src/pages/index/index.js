@@ -318,7 +318,7 @@ export default class Index extends React.Component{
                         <div className="indexHomeVideoTitle">专家寄语</div>
                         <div  className="indexHomeVideoItem">
                             <video className="indexHomeVideoSelf" onClick={()=>{this.controlVideo()}}>
-                                <source src="http://52.82.59.144:8099/static/experts2.mp4" type="video/mp4"/>
+                                <source src="https://isrc.iscas.ac.cn/summer2020/videos/experts2.mp4" type="video/mp4"/>
                                 Your browser does not support the video tag.
                             </video>
                             <div className="indexHomeVideoItemOverLay">
