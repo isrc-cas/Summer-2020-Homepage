@@ -2,7 +2,7 @@ import React from 'react'
 import './index.less';
 import data from './data.json';
 import { Input, Pagination } from 'antd';
-// import {readyWeixin} from '../../config/weixin.js';
+import {readyWeixin} from '../../config/weixin.js';
 
 const { Search } = Input;
 export default class Organisation extends React.Component{
@@ -134,6 +134,10 @@ export default class Organisation extends React.Component{
                 }
                 return 0;
             });
+            if (isDetail) {
+                readyWeixin(`社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`, orgList[index].description);
+                document.title = `社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
+            }
             if (window.innerWidth > 1200) {
                 switch(index % 3) {
                     case 1:
