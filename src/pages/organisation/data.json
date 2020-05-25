@@ -1131,7 +1131,42 @@
         "跨平台自动化"
       ],
       "mail_list": "community@hypertrons.io",
-      "email": "dev@hypertrons.io"
+      "email": "dev@hypertrons.io",
+      "project_list": [
+        {
+          "name": "配置描述的自动化生成",
+          "difficulty": "中",
+          "mentor": "赵生宇",
+          "contact": "frank_zsy@hypertrons.io",
+          "co-mentor": "",
+          "hot_index": 0,
+          "description": "Hypertrons 项目用于连接各种开放平台，并提供完整的跨平台交互能力，这也意味着项目配置会异常复杂，那么如何保证配置结构与文档描述的一致性就是一个非常重要的问题。Hypertrons 项目采用 TypeScript 的 Attribute 特性对所有配置项进行了代码化描述，请参考源代码。采用这种方式，不仅可以让平台在运行中自动生成配置结构与默认值，而且结构化的代码化配置可以使离线脚本轻松通过源代码直接生成配置的描述信息，做到代码即文档。",
+          "update_time": "2020-05-25",
+          "label": ""
+        },
+        {
+          "name": " 文档协作平台交互接入",
+          "difficulty": "高",
+          "mentor": "吴绍岭",
+          "contact": "wsl@hypertrons.io",
+          "co-mentor": "",
+          "hot_index": 0,
+          "description": "Hypertrons 作为一个跨平台 RPA，各类平台的交互能力都是必不可少的，例如目前已经支持的代码托管平台（GitHub、GitLab、Gitee）、持续集成平台（Jenkins）、即时通信平台（Slack）等。而文档协作也是开放组织协作中非常重要的一环，目前大量的开放组织都在通过文档协作产出内容，例如 Google Docs、石墨文档、语雀、飞书文档、QQ 文档等等，都是这个领域的代表，如何有效的抽象在线文档协作平台的接口体系，并接入主流的文档协作平台，成为自动化协作流程的一部分，是项目关键的一部分能力。",
+          "update_time": "2020-05-25",
+          "label": ""
+        },
+        {
+          "name": "迷你项目看板项目",
+          "difficulty": "高",
+          "mentor": "赵生宇",
+          "contact": "frank_zsy@hypertrons.io",
+          "co-mentor": "",
+          "hot_index": 0,
+          "description": "Hypertrons 作为一个跨平台的 RPA 平台，在提供跨平台交互能力的同时，为了能更好的做出决策，也采集了各平台的开放数据作为决策基础。而这些数据同时也为社区的数字化运营分析提供了有效的支撑，我们不希望深度改变用户的使用习惯，故发起一个浏览器插件项目，通过在特定网址的网页中插入迷你看板的方式为开放组织提供有效的监控和运营手段，这个项目是 Hypertrons 一大创新，也是重要的一部分。",
+          "update_time": "2020-05-25",
+          "label": ""
+        }
+      ]
     },
     {
       "anchor": "/kube-edge",
