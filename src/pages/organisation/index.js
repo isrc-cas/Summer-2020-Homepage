@@ -27,16 +27,9 @@ export default class Organisation extends React.Component{
             window.location.hash = "/organisations?page=project";
             this.switchTab(2);
         } 
-        // else if (location.split("/organisations")[1]) {
-        //     this.showModal(location.split("/organisations")[1], true);
-        //     window.addEventListener("resize", ()=>{
-        //         console.log(location.split("/organisations"))
-        //         console.log(location.split("/organisations")[1])
-        //         if (location.split("/organisations")[1]) {
-        //             this.showModal(location.split("/organisations")[1], true);
-        //         }
-        //     });
-        // }
+        else if (location.split("/organisations")[1]) {
+            this.showModal(location.split("/organisations")[1], true);
+        }
     }
     resetStyle (category) {
         if (category === 'default') {
