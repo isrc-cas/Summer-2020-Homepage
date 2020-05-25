@@ -5,7 +5,7 @@ import './ipad.less';
 import {listLinks} from './listLink.js';
 import {NavLink} from 'react-router-dom';
 import {titleChange} from './../../config/titleChange.js';
-
+import sharejpg from './../../img/share.jpg';
 
 // var withl = window.innerWidth
 
@@ -85,10 +85,12 @@ export default class Header extends React.Component{
         return(
             <div className="osscHeader">
                <div className="osscHeaderContent content1200">
+                   
                    <NavLink to="/index">
                     <div className="osscHeaderLogo"></div>
                     </NavLink>
                     <div className="ossHeaderMobileIcon" onClick={()=>this.getHeaderList()}></div>
+                    <img src={sharejpg} width="0" height="0" alt="share"/>
                     <div className="osscHeaderList">
                         {
                             this.state.listLinks.map((item,index)=>{
@@ -108,6 +110,7 @@ export default class Header extends React.Component{
                             })
                         }
                     </div>
+                    
                     <div className={["osscHeaderMobileList " ,this.state.moblieListFlag?"displayblock":""].join(" ")}>
                         <div className="osscClose" onClick={()=>this.closeHeaderList()}></div>
                         {
