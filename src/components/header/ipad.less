@@ -26,6 +26,14 @@
             
 
         }
+        .indexHomeVideo{
+            .indexHomeVideoContainer{
+                .indexHomeVideoItem{
+                    width: 90vw !important;
+                    height: 50.53vw !important;
+                }
+            }
+        }
 
         .indexHomeSecond{
             height: auto !important;
@@ -68,41 +76,45 @@
         }
         .indexHomeLiveShowWrapper{
             .indexHomeLiveListContent{
-                .indexHomeLiveList .indexHomeLiveListItem{
-                    width: 29vw;
-                    height: 39vw;
-                    margin-right: 1vw;
-                    .indexHomeLiveListItemImage{
-                        height: 20vw;
-                    }
-                    .indexHomeLiveListItemDetail{
-                        height: 19vw;
-                        padding: 1vw;
-                    }
-                    .indexHomeLiveListItemTitle{
-                        font-size: 1.5vw;
-                       
-                        margin-bottom: 1vw;
-                    }
-                    .indexHomeLiveListItemName{
-                        font-size: 1vw;
-                        line-height: 1vw;
-                        margin-bottom: 1vw;
-                    }
-                    .indexHomeLiveListItemTime{
-                        font-size: 1vw;
-                        margin: 1vw 0;
+                .indexHomeLiveList{
+                    height: 40vw;
+                    .indexHomeLiveListItem{
+                        width: 29vw;
+                        height: 39vw;
+                        margin-right: 1vw;
                         
-                    }
-                    .indexHomeLiveListItemText{
-                        font-size: 1vw;
-                        max-width: 20vw;
-                    }
-                    .indexHomeLiveListItemTwoCode{
-                        width: 6vw;
-                        height: 6vw;
-                        top: 10vw;
-                        right: 1vw;
+                        .indexHomeLiveListItemImage{
+                            height: 20vw;
+                        }
+                        .indexHomeLiveListItemDetail{
+                            height: 19vw;
+                            padding: 1vw;
+                        }
+                        .indexHomeLiveListItemTitle{
+                            font-size: 1.5vw;
+                           
+                            margin-bottom: 1vw;
+                        }
+                        .indexHomeLiveListItemName{
+                            font-size: 1vw;
+                            line-height: 1vw;
+                            margin-bottom: 1vw;
+                        }
+                        .indexHomeLiveListItemTime{
+                            font-size: 1vw;
+                            margin: 1vw 0;
+                            
+                        }
+                        .indexHomeLiveListItemText{
+                            font-size: 1vw;
+                            max-width: 20vw;
+                        }
+                        .indexHomeLiveListItemTwoCode{
+                            width: 6vw;
+                            height: 6vw;
+                            top: 10vw;
+                            right: 1vw;
+                        }
                     }
                 }
 
@@ -111,15 +123,133 @@
         
         
     }
+    .content{
+        .LiveShow{
+            .indexHomeOneBannerTwo{
+                .indexHomeOneDakaTitle{
+                    width: 100%  !important;
+                }
+            }
+            .LiveShowWrapper{
+                .LiveShowContent{
+                    .LiveShowItem{
+                        padding: 3vw 3vw 0;
+                        .LiveShowItemHeader{
+                            .LiveShowItemHeaderImage{
+                                width: 36%;
+                                background-position: top left;
+                                margin-right: 1%;
+                            }
+                            .LiveShowItemHeaderTitle{
+                                .LiveShowItemHeaderTitleOne{
+                                    font-size: 18px !important;
+                                }
+                                .LiveShowItemHeaderButton{
+                                    position: absolute;
+                                    bottom:0
+                                }
+                                .LiveShowItemHeaderPPTX{
+                                    position: absolute;
+                                    bottom: 0;
+                                    left: 170px;
+                                }
+                            }
+                            .LiveShowItemHeaderTwoCode{
+                                // width: 16%;
+                                // height: 16%;
+                                span{
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+    
+            }
+            
+        }
 
-    .LiveShow{
-        .indexHomeOneBannerTwo{
-            .indexHomeOneDakaTitle{
-                width: 100%  !important;
+    }
+
+    .contactUs{
+        .contactUsWrapper{
+            .contactUsContent{
+                .contentUsContactList{
+                    width: 100%;
+                }
+                .weixindiscuss>.contactWeixinjpg.discuss,
+                .contactWeixinjpg{
+                    width: 52vw;
+                    height: auto;
+                }
+                
+                .contentUsRelateLink{
+                    min-width: 30%;
+                }
+            }
+
+        }
+        
+    }
+    .organisation{
+        .orgListWrapper{
+            .orgList{
+                justify-content: normal;
+             
+                //grid-template-columns: repeat(auto-fill,90vw) !important;
+                .org-tooltip{
+                    width: 90vw !important;
+                }
+                .org-detail{
+                    
+                    
+                    .orgProjectTitleIcon{
+                        width: 100px !important;
+                        top:14px !important;
+                    }
+                    .orgProjectTitleBar > .orgProjectTitle{
+                        font-size: 20px;
+                        width: 63%;
+                       
+                        padding-right: 0;
+                    }
+                    .org-search-bar-wrapper{
+                        width: 90vw !important;
+                    }
+                    .ant-input-search{
+                        width: 40vw !important;
+                    }
+                    .orgProjectItemColumn.orgLeft{
+                        width: 40vw;
+                        .orgProjectName{
+                            font-size: 18px;
+                        }
+                    }
+                    .orgProjectItemColumn.orgRight{
+                        width: 50vw;
+                        ul{
+                            width: 46vw;
+                        }
+                    }
+                }
             }
         }
     }
+   
 
    
+}
+
+
+
+
+@media screen and (min-width: 700px)and (max-width:850px){
+
+            .orgList{
+                .org-tooltip{
+                    left: 0 !important;
+                }
+            }
+
 }
 
