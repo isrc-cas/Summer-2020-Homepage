@@ -1,5 +1,5 @@
 import {linkDataMap} from './../components/header/listLink.js';
- import {readyWeixin} from './weixin.js';
+ import {readyWeixin, initWeixin} from './weixin.js';
 
 var gettitle = function(){
     var titleContent = ` - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
@@ -16,7 +16,8 @@ var gettitle = function(){
 }
 
 var titleChange = function(){
-    gettitle()
+    initWeixin();
+    gettitle();
     window.addEventListener('hashchange',()=>{
         window.scrollTo(0,0);
         gettitle();
