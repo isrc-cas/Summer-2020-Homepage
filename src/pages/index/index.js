@@ -24,7 +24,7 @@ export default class Index extends React.Component{
                     },
                     {
                         img:'openeuler.jpg',
-                        url:'https://gitee.com/openeuler/marketing/blob/master/events/summer2020/tasks.md'
+                        url:'https://openeuler.org/zh/'
                     }
                 ],
                 cooperation: [
