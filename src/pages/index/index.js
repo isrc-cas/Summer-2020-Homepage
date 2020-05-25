@@ -15,6 +15,7 @@ export default class Index extends React.Component{
             buttonLeft:false,
             buttonRight:true,
             logolistMap,
+            videoFlag:false,
             logoMain:{
                 holder: [
                     {
@@ -221,6 +222,31 @@ export default class Index extends React.Component{
         window.location.hash = url
     }
 
+    getVideoPlay(){
+        document.getElementsByClassName("indexHomeVideoSelf")[0].play();
+        document.getElementsByClassName("indexHomeVideoItemOverLay")[0].style.display = "none";
+        this.setState(
+            {
+                videoFlag:true
+            }
+        )
+        
+    }
+    controlVideo(){
+        if(this.state.videoFlag){
+            document.getElementsByClassName("indexHomeVideoSelf")[0].pause();
+            document.getElementsByClassName("indexHomeVideoItemOverLay")[0].style.display = "block";
+            
+        }else{
+            this.getVideoPlay()
+        }
+        this.setState(
+            {
+                videoFlag:!this.state.videoFlag
+            }
+        )
+        
+    }
 
     
     
@@ -270,7 +296,12 @@ export default class Index extends React.Component{
                                     {this.state.data.livedata}
                                 </div>
                                 <div className="indexHomeOneDakaDescriptionTwo">
-                                大咖讲座将为大家带来开源理念的系列介绍，帮助深入了解开源文化、参与开源社区的方式方法。<span className="indexToBilibili" onClick={()=>{this.goLogoLink('https://live.bilibili.com/22221041')}}>讲座通过 Bilibili 网站进行直播</span>，每周一期进行直播。
+                                大咖讲座将为大家带来开源理念的系列介绍，帮助深入了解开源文化、参与开源社区的方式方法。
+                                <span 
+                                    className="indexToBilibili" 
+                                    onClick={()=>{this.goLogoLink('https://live.bilibili.com/22221041')}}>
+                                        讲座通过 Bilibili 网站进行直播</span>,
+                                    每周一期进行直播。
                                 </div>
                                 <div 
                                     onClick={()=>{this.goLink('liveshow')}}
@@ -280,6 +311,26 @@ export default class Index extends React.Component{
                             </div>
                     </div>
                      </Carousel>
+
+               </div>
+               <div className="indexHomeVideo">
+                   <div className="indexHomeVideoContainer content1200">
+                        <div className="indexHomeVideoTitle">专家寄语</div>
+                        <div  className="indexHomeVideoItem">
+                            <video className="indexHomeVideoSelf" onClick={()=>{this.controlVideo()}}>
+                                <source src="http://52.82.59.144:8099/static/experts2.mp4" type="video/mp4"/>
+                                Your browser does not support the video tag.
+                            </video>
+                            <div className="indexHomeVideoItemOverLay">
+                                <div className="indexHomeVideoItemButton" onClick={()=>{this.getVideoPlay()}}>
+                                    <div className="indexHomeVideoItemButtonTri"></div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                      
+                   </div>
 
                </div>
                <div className="indexHomeSecond">        
