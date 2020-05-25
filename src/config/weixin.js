@@ -1,7 +1,7 @@
 const REQUEST_URL = 'https://isrc.iscas.ac.cn/summer2020/wxconfig';
 
 var initWeixin = () => {
-  if ((/micromessenger/.test(window.navigator.userAgent.toLowerCase())) ? true : false) {
+  if ((/mobile/.test(window.navigator.userAgent.toLowerCase())) ? true : false) {
     const url_ = encodeURIComponent(`${window.location.href.split("#")[0]}`);
     fetch(`${REQUEST_URL}?url=${url_}`)
     .then(res => res.json())
