@@ -107,10 +107,6 @@ export default class Organisation extends React.Component{
     showModal(anchor, isDetail) {
         const { orgList } = this.state.data;
         let index = orgList.findIndex(obj => obj.anchor === anchor);
-        if (isDetail) {
-            readyWeixin(orgList[index].title, orgList[index].description);
-            document.title = `社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
-        }
 
         if (document.getElementById(index+"-tooltip").style.display && document.getElementById(index+"-tooltip").style.display !== 'none' && !isDetail) {
             document.getElementById(index+"-tooltip").style.display = 'none';
@@ -124,6 +120,10 @@ export default class Organisation extends React.Component{
                 if (isDetail) {
                     window.location.hash = "/organisations" + (anchor ? anchor : "");
                     document.getElementById(index+"-orgListItem").style.display = 'none';
+                }
+                if (isDetail) {
+                    readyWeixin(`社区详情 - ${orgList[index].title}`, orgList[index].description);
+                    document.title = `社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
                 }
                 return 0;
             });

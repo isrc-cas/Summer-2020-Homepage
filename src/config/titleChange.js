@@ -10,7 +10,8 @@ var gettitle = function(){
     //     document.title = `${linkDataMap[location[1]]||'首页'}${titleContent}`;
     // }
     if(location.length === 2){
-        document.title = `${linkDataMap[location[1]]||'首页'}${titleContent}`
+        document.title = `${linkDataMap[location[1]]||'首页'}${titleContent}`;
+        readyWeixin();
     }
 }
 
@@ -18,8 +19,7 @@ var titleChange = function(){
     gettitle()
     window.addEventListener('hashchange',()=>{
         window.scrollTo(0,0);
-        gettitle() 
-        readyWeixin();
+        gettitle();
     })
 
 }
