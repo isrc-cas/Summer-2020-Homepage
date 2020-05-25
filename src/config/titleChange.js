@@ -12,13 +12,11 @@ var gettitle = function(){
     if(location.length === 2){
         document.title = `${linkDataMap[location[1]]||'首页'}${titleContent}`;
         readyWeixin();
-        console.log('title ready weixin');
     }
 }
 
 var titleChange = function(){
     initWeixin();
-    console.log('init weixin');
     gettitle();
     window.addEventListener('hashchange',()=>{
         window.scrollTo(0,0);

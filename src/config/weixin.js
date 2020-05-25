@@ -7,10 +7,6 @@ var initWeixin = () => {
     .then(res => res.json())
     .then(
         (result) => {
-            // console.log(window.location.href.split('#')[0])
-            // alert(result.timestamp)
-            // alert(result.nonceStr)
-            // alert(result.signature)
             window.wx.config({
                 debug: false, // 开启调试模式。
                 appId: result.appId, // 必填，企业号的唯一标识，此处填写企业号corpid
@@ -18,8 +14,7 @@ var initWeixin = () => {
                 nonceStr: result.nonceStr, // 必填，生成签名的随机串,注意大小写
                 signature: result.signature,// 必填，签名，见附录1
                 jsApiList: ['updateAppMessageShareData', 'updateTimelineShareData', 'onMenuShareTimeline', 'onMenuShareAppMessage', 'onMenuShareQQ', 'onMenuShareQZone']
-            }); 
-            readyWeixin();
+            });
         },
         (error) => {
           console.log(error);
@@ -29,7 +24,7 @@ var initWeixin = () => {
   return 0;
 }
 var readyWeixin = (title, description, imgUrl) => {
-  if ((/micromessenger/.test(window.navigator.userAgent.toLowerCase())) ? true : false) {
+  if ((/mobile/.test(window.navigator.userAgent.toLowerCase())) ? true : false) {
     window.wx.ready(() => {
       //分享给朋友
       window.wx.updateAppMessageShareData({
