@@ -36,7 +36,7 @@ var readyWeixin = (title, description, imgUrl) => {
           title: title || document.title, // 分享标题
           desc: description || '关注开源软件和开源社区，培养和发掘更多优秀的开发者。', // 分享描述
           link: `${window.location.origin}${window.location.pathname}${window.location.hash}`, // 分享链接
-          imgUrl: imgUrl || `${window.location.origin}${window.location.pathname}share.jpg`, // 分享图标base64不可以
+          imgUrl: imgUrl || `${window.location.origin}${window.location.pathname}share.png`, // 分享图标base64不可以
           success: function () {
             // 设置成功
           }
@@ -46,7 +46,7 @@ var readyWeixin = (title, description, imgUrl) => {
       window.wx.updateTimelineShareData({
           title: title || document.title, // 分享标题
           link: `${window.location.origin}${window.location.pathname}${window.location.hash}`, // 分享链接
-          imgUrl: imgUrl || `${window.location.origin}${window.location.pathname}share.jpg`, // 分享图标
+          imgUrl: imgUrl || `${window.location.origin}${window.location.pathname}share.png`, // 分享图标
           success: function () {
               // 设置成功
           }
@@ -55,7 +55,7 @@ var readyWeixin = (title, description, imgUrl) => {
       window.wx.onMenuShareTimeline({ //即将废弃
         title: title || document.title, // 分享标题
           link: `${window.location.origin}${window.location.pathname}${window.location.hash}`, // 分享链接
-          imgUrl: imgUrl || `${window.location.origin}${window.location.pathname}share.jpg`, // 分享图标
+          imgUrl: imgUrl || `${window.location.origin}${window.location.pathname}share.png`, // 分享图标
         success: function () {
         // 用户点击了分享后执行的回调函数
         }
@@ -64,7 +64,7 @@ var readyWeixin = (title, description, imgUrl) => {
         title: title || document.title, // 分享标题
         desc: description || '关注开源软件和开源社区，培养和发掘更多优秀的开发者。', // 分享描述
         link: `${window.location.origin}${window.location.pathname}${window.location.hash}`, // 分享链接
-        imgUrl: imgUrl || `${window.location.origin}${window.location.pathname}share.jpg`, // 分享图标base64不可以
+        imgUrl: imgUrl || `${window.location.origin}${window.location.pathname}share.png`, // 分享图标base64不可以
         success: function () {
           // 用户点击了分享后执行的回调函数
         }

@@ -132,13 +132,17 @@ export default class Organisation extends React.Component{
                     document.getElementById(index+"-tooltip").style.left = 0;
                     
                 }
-                if (isDetail) {
-                    readyWeixin(`社区详情 - ${orgList[index].title}`, orgList[index].description);
-                    document.title = `社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
-                }
                 return 0;
             });
+<<<<<<< HEAD
             if (window.innerWidth > 1200) {
+=======
+            if (isDetail) {
+                readyWeixin(`社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`, orgList[index].description);
+                document.title = `社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
+            }
+            if (window.innerWidth > 700) {
+>>>>>>> 1ff89c61c35a1706a604edd2d5985b315dd3ff04
                 switch(index % 3) {
                     case 1:
                         document.getElementById(index+"-tooltip").style.left = '-409px';
