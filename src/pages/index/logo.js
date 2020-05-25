@@ -130,6 +130,11 @@ const logolistMap = {
             url:'http://liteos.org'
         },
         {
+            name:'Hypertrons',
+            img:'c_Hypertrons.jpg',
+            url:'http://hypertrons.io'
+        },
+        {
             name:'KubeEdge',
             img:'c_KubeEdge.jpg',
             url:'https://kubeedge.io'
@@ -176,6 +181,11 @@ const logolistMap = {
             name:'鹏城汇智社区（iHub）',
             img:'c_iHub.jpg',
             url:'https://www.ihub.org.cn/'
+        },
+        {
+            name:'ROS',
+            img:'c_ROS.jpg',
+            url:'https://navigation.ros.org/'
         },
         {
             name:'Simple-XX',
