@@ -253,6 +253,70 @@
            
         }
     }
+    .indexHomeVideo{
+        position: relative;
+        .indexHomeVideoContainer{
+            .indexHomeVideoTitle{
+                position: relative;
+                text-align: center;
+                font-size: 24px;
+                color: #333;
+                margin: 40px 0 20px;
+            }
+            .indexHomeVideoItem{
+                position: relative;
+                width: 1140px;
+                /* padding: 0 30px; */
+                height: 640px;
+                
+                margin: 0 auto 60px;
+                .indexHomeVideoSelf{
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                }
+                .indexHomeVideoItemOverLay{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.7);
+                    top: 0;
+                    left: 0;
+                }
+                .indexHomeVideoItemButton{
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    border:5px solid rgba(255,255,255, 0.6);
+                    background-color: rgba(0,0,0,0);
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    cursor: pointer;
+                    transition: all 0.3s;
+                }
+                .indexHomeVideoItemButtonTri{
+                    width: 0;
+                    height: 0;
+                    border: 20px solid;
+                    border-color: transparent transparent transparent rgba(255,255,255, 0.6);
+                    left: 28px;
+                    position: relative;
+                    top: 15px;
+                    transition: all 0.3s;
+                }
+                .indexHomeVideoItemButton:hover{
+                    border-color: #fff;
+                    .indexHomeVideoItemButtonTri{
+                        border-color: transparent transparent transparent rgba(255,255,255, 1);
+                    }
+                }
+                
+            }
+
+        }
+    }
     .indexHomeSecond{
         position: relative;
         width: 100%;

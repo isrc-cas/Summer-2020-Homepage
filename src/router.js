@@ -10,7 +10,6 @@ import Organisation from './pages/organisation/index.js';
 // import QuestionAndAnswer from './pages/qa/index.js';
 import {linkDataMap} from './components/header/listLink.js';
 import LiveShow from './pages/liveshow/index.js';
-import {initWeixin} from './config/weixin.js';
 export default class IRouter extends React.Component{
     constructor(props){
         super(props);
@@ -18,9 +17,10 @@ export default class IRouter extends React.Component{
             linkDataMap,
         }
     }
-    componentDidMount () {
-        initWeixin();
-    }
+    // componentDidMount () {
+       
+    //     // initWeixin();
+    // }
     render(){
         return(
             <Router>

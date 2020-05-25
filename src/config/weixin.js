@@ -1,16 +1,12 @@
 const REQUEST_URL = 'https://isrc.iscas.ac.cn/summer2020/wxconfig';
 
 var initWeixin = () => {
-  if ((/micromessenger/.test(window.navigator.userAgent.toLowerCase())) ? true : false) {
-    // window.location.href = `${window.location.origin}${window.location.pathname}${window.location.hash}`;
-    fetch(`${REQUEST_URL}?url=${window.location.href.split("#")[0]}`)
+  if ((/mobile/.test(window.navigator.userAgent.toLowerCase())) ? true : false) {
+    const url_ = encodeURIComponent(`${window.location.href.split("#")[0]}`);
+    fetch(`${REQUEST_URL}?url=${url_}`)
     .then(res => res.json())
     .then(
         (result) => {
-            // console.log(window.location.href.split('#')[0])
-            // alert(result.timestamp)
-            // alert(result.nonceStr)
-            // alert(result.signature)
             window.wx.config({
                 debug: false, // 开启调试模式。
                 appId: result.appId, // 必填，企业号的唯一标识，此处填写企业号corpid
@@ -18,8 +14,7 @@ var initWeixin = () => {
                 nonceStr: result.nonceStr, // 必填，生成签名的随机串,注意大小写
                 signature: result.signature,// 必填，签名，见附录1
                 jsApiList: ['updateAppMessageShareData', 'updateTimelineShareData', 'onMenuShareTimeline', 'onMenuShareAppMessage', 'onMenuShareQQ', 'onMenuShareQZone']
-            }); 
-            readyWeixin();
+            });
         },
         (error) => {
           console.log(error);
@@ -29,16 +24,17 @@ var initWeixin = () => {
   return 0;
 }
 var readyWeixin = (title, description, imgUrl) => {
-  if ((/micromessenger/.test(window.navigator.userAgent.toLowerCase())) ? true : false) {
+  if ((/mobile/.test(window.navigator.userAgent.toLowerCase())) ? true : false) {
     window.wx.ready(() => {
       //分享给朋友
       window.wx.updateAppMessageShareData({
           title: title || document.title, // 分享标题
           desc: description || '关注开源软件和开源社区，培养和发掘更多优秀的开发者。', // 分享描述
           link: `${window.location.origin}${window.location.pathname}${window.location.hash}`, // 分享链接
-          imgUrl: imgUrl || `${window.location.origin}${window.location.pathname}share.jpg`, // 分享图标base64不可以
-          success: function () {
+          imgUrl: imgUrl || `http://wx2.sinaimg.cn/large/007f5mwTly1gf4t59re1kj302o02o3yh.jpg`, // 分享图标base64不可以
+          success: function (res) {
             // 设置成功
+            console.log(res)
           }
       });
     
@@ -46,9 +42,10 @@ var readyWeixin = (title, description, imgUrl) => {
       window.wx.updateTimelineShareData({
           title: title || document.title, // 分享标题
           link: `${window.location.origin}${window.location.pathname}${window.location.hash}`, // 分享链接
-          imgUrl: imgUrl || `${window.location.origin}${window.location.pathname}share.jpg`, // 分享图标
+          imgUrl: imgUrl || `http://wx2.sinaimg.cn/large/007f5mwTly1gf4t59re1kj302o02o3yh.jpg`, // 分享图标
           success: function () {
               // 设置成功
+              
           }
       });
     });

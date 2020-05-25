@@ -1,21 +1,21 @@
 import React from 'react';
 import './index.less';
 import './mobile.less';
-// import './ipad.less';
+import './ipad.less';
 import {listLinks} from './listLink.js';
 import {NavLink} from 'react-router-dom';
 import {titleChange} from './../../config/titleChange.js';
 
 
-var withl = window.innerWidth
+// var withl = window.innerWidth
 
-if(withl<1200 && withl>700){
+// if(withl<1200 && withl>700){
    
-    //1.0 判定为移动手机设备
-    var scaleIndex = withl/1200-0.014;
-    document.getElementsByTagName("body")[0].style.transform = "scale("+scaleIndex+")";
-    document.getElementsByTagName("body")[0].style.transformOrigin = "left top"
-}
+//     //1.0 判定为移动手机设备
+//     var scaleIndex = withl/1200-0.014;
+//     document.getElementsByTagName("body")[0].style.transform = "scale("+scaleIndex+")";
+//     document.getElementsByTagName("body")[0].style.transformOrigin = "left top"
+// }
 
 
 
@@ -85,10 +85,12 @@ export default class Header extends React.Component{
         return(
             <div className="osscHeader">
                <div className="osscHeaderContent content1200">
+                   
                    <NavLink to="/index">
                     <div className="osscHeaderLogo"></div>
                     </NavLink>
                     <div className="ossHeaderMobileIcon" onClick={()=>this.getHeaderList()}></div>
+                   
                     <div className="osscHeaderList">
                         {
                             this.state.listLinks.map((item,index)=>{
@@ -108,6 +110,7 @@ export default class Header extends React.Component{
                             })
                         }
                     </div>
+                    
                     <div className={["osscHeaderMobileList " ,this.state.moblieListFlag?"displayblock":""].join(" ")}>
                         <div className="osscClose" onClick={()=>this.closeHeaderList()}></div>
                         {

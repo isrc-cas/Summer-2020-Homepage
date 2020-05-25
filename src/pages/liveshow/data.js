@@ -34,7 +34,7 @@ var data = {
             "speechcontent":"",
             "ppt":wangweiPPT,
             "pptname":"王伟老师高校开源创新的故事：以X-lab开放实验室为例.pdf",
-            "url":"https://www.bilibili.com/video/BV1Tz411i7bC",
+            "url":"https://www.bilibili.com/video/BV1HK411s7DJ",
         },
         {
             

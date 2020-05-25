@@ -2,7 +2,7 @@ import React from 'react'
 import './index.less';
 import data from './data.json';
 import { Input, Pagination } from 'antd';
-// import {readyWeixin} from '../../config/weixin.js';
+import {readyWeixin} from '../../config/weixin.js';
 
 const { Search } = Input;
 export default class Organisation extends React.Component{
@@ -20,13 +20,15 @@ export default class Organisation extends React.Component{
     }
 
     componentDidMount() {
+       
         window.scrollTo(0,0);
         this.getAllProjectList();
         const location = window.location.hash;
         if (location.split("page=").length > 1 && location.split("page=")[1]==='project') {
             window.location.hash = "/organisations?page=project";
             this.switchTab(2);
-        } else if (location.split("/organisations").length > 1 && location.split("/organisations")[1].includes("/")) {
+        } 
+        else if (location.split("/organisations")[1]) {
             this.showModal(location.split("/organisations")[1], true);
         }
     }
@@ -105,28 +107,32 @@ export default class Organisation extends React.Component{
 
     }
     showModal(anchor, isDetail) {
-        let index = this.state.data.orgList.findIndex(obj => obj.anchor === anchor);
-        if(isDetail) {
-            // readyWeixin(this.state.data.orgList[index].title, this.state.data.orgList[index].description);
-            document.title = `社区详情 - ${this.state.data.orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
-        }
+        const { orgList } = this.state.data;
+        let index = orgList.findIndex(obj => obj.anchor === anchor);
 
         if (document.getElementById(index+"-tooltip").style.display && document.getElementById(index+"-tooltip").style.display !== 'none' && !isDetail) {
             document.getElementById(index+"-tooltip").style.display = 'none';
         }
         else {
-            this.state.data.orgList.map((item,index) => {
+            orgList.map((item,index) => {
                 if (window.innerWidth < 320) {
                     this.openInNewTab(item.project_url);
                 }
                 document.getElementById(index+"-tooltip").style.display = 'none';
+
                 if (isDetail) {
-                    window.location.hash = "/organisations" + (anchor ? anchor : "");
                     document.getElementById(index+"-orgListItem").style.display = 'none';
+                    document.getElementById(index+"-tooltip").style.left = 0;
                 }
                 return 0;
             });
-            if (window.innerWidth > 700) {
+            if (isDetail) {
+                window.location.hash.split("/").length > 1 ? window.location.hash = "/organisations" + (anchor ? anchor : "") : void(0);
+                readyWeixin(`社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`, orgList[index].description);
+                console.log('org ready weixin');
+                document.title = `社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
+            }
+            if (window.innerWidth > 1200) {
                 switch(index % 3) {
                     case 1:
                         document.getElementById(index+"-tooltip").style.left = '-409px';
@@ -140,16 +146,34 @@ export default class Organisation extends React.Component{
                         break;
                 }
                 document.getElementById(index+"-tooltip").style.display = 'flex';
-            } else {
+            } 
+            else if(window.innerWidth > 850){
+                switch(index % 2) {
+                    case 1:
+                        document.getElementById(index+"-tooltip").style.left = `calc(-90vw + 382px)`;
+                        document.getElementById(index+"-triangle").style.left = '580px';
+                        break;
+                    default:
+                        document.getElementById(index+"-tooltip").style.left = '0';
+                        break;
+                }
+                document.getElementById(index+"-tooltip").style.display = 'flex';
+
+            } 
+            else {
                 document.getElementById(index+"-tooltip").style.display = 'block';
                 document.getElementById(index+"-tooltip").style.left = '0';
             }
             if (isDetail) {
                 document.getElementById(index+"-tooltip").setAttribute("class", "org-tooltip org-detail");
+                
                 document.getElementById(index+"-tooltip").style.display = 'block';
                 document.getElementById("orgListOWrapper").style.display = 'none';
                 document.getElementById("orgListNavBar").style.display = 'block';
+                // document.getElementById(index+"-tooltip").style.left = 0;
                 window.scrollTo(0,0);
+               
+                
             } else {
                 document.getElementById(index+"-tooltip").setAttribute("class", "org-tooltip");
             }
@@ -370,7 +394,7 @@ export default class Organisation extends React.Component{
                         this.state.data.orgList.map((item,index)=>{
 
                             return (
-                                <div key={index}>
+                                <div key={index} className="orgListWrapperItem">
                                     {/* <div className="orgListItem" key={index} onClick={() => this.openInNewTab(item.project_url ? item.project_url : item.url)}> */}
                                     <div className="orgListItem" key={'list-'+index} onClick={() => this.showModal(item.anchor)} id={index+"-orgListItem"}>
                                             <div
