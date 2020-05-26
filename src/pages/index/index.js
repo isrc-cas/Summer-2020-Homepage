@@ -56,13 +56,17 @@ export default class Index extends React.Component{
        
         let $list = document.getElementsByClassName("indexHomeLiveList")[0]
         let movNumber = $list.style.transform.split("(")[1].split("px")[0]
-        console.log(flag)
+        let windowwidth = window.innerWidth;
+        let widthItem = 1227;
+        if(windowwidth>700 && windowwidth<1200){
+            widthItem = Math.round(windowwidth*0.9)
+        }
         if(flag === 'left'){
-            movNumber = Number(movNumber) + 1227
+            movNumber = Number(movNumber) + Number(widthItem)
         }
         if(flag === 'right'){
             
-            movNumber = Number(movNumber) - 1227 ;
+            movNumber = Number(movNumber) - Number(widthItem) ;
                
         }
         if(Number(movNumber) === 0){
@@ -77,7 +81,7 @@ export default class Index extends React.Component{
             }
         }
         
-        if(Math.round(Number(movNumber)/1200) === -2){
+        if(Math.round(Number(movNumber)/widthItem) === -2){
             this.setState({
                 buttonRight:false
             })
@@ -88,6 +92,7 @@ export default class Index extends React.Component{
                 })
             }
         }
+        
         $list.style.transform = 'translateX('+ movNumber + 'px)'
         console.log($list.style.transform)   
     }
@@ -318,7 +323,8 @@ export default class Index extends React.Component{
                         <div className="indexHomeVideoTitle">专家寄语</div>
                         <div  className="indexHomeVideoItem">
                             <video className="indexHomeVideoSelf" onClick={()=>{this.controlVideo()}}>
-                                <source src="https://isrc.iscas.ac.cn/summer2020/videos/experts2.mp4" type="video/mp4"/>
+                            {/* <iframe src="//xbeibeix.com/api/bilibili/biliplayer/?url=BV1pV411C7Bs" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe> */}
+                                <source src="http://upos-sz-mirrorkodo.bilivideo.com//upgcxcode//95//21//194332195//194332195-1-208.mp4?e=ig8euxZM2rNcNbKV7bdVhwdl7wdjhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1590464679&gen=playurl&os=kodobv&oi=837395164&trid=c171c273fab94864820db2501de85123T&platform=html5&upsig=8971ff7a2d7cd35261cf3323514c497d&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=580104086&logo=80000000" type="video/mp4"/>
                                 Your browser does not support the video tag.
                             </video>
                             <div className="indexHomeVideoItemOverLay">
@@ -333,20 +339,8 @@ export default class Index extends React.Component{
                    </div>
 
                </div>
-               <div className="indexHomeSecond">        
-                    <div className="indexHomeSecondText ">
-                        <span>我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，促进开源软件在国内的发展</span>
-                        <br className="mobiledisplaynone"/>
-                        <span>和优秀开源软件社区建设，增加开源项目在国内的活跃度，在开源领域与世界接轨。</span>
-                    </div>
-                    <div className="indexHomeSecondWrapper content1200">
-                        <div className="indexHomeSecondTextCons">
-                            
-                                {this.getTextTwo()}
-                        
-                        </div>
-                    </div>               
-               </div>
+              
+               
                <div className="indexHomeThirdWrapper content1200">
                     <div className="indexHomeThirdButton">
                         {this.getButtons()}
@@ -408,6 +402,22 @@ export default class Index extends React.Component{
                    </div>
 
                </div>
+
+               <div className="indexHomeSecond">        
+                    <div className="indexHomeSecondText ">
+                        <span>我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，促进开源软件在国内的发展</span>
+                        <br className="mobiledisplaynone"/>
+                        <span>和优秀开源软件社区建设，增加开源项目在国内的活跃度，在开源领域与世界接轨。</span>
+                    </div>
+                    <div className="indexHomeSecondWrapper content1200">
+                        <div className="indexHomeSecondTextCons">
+                            
+                                {this.getTextTwo()}
+                        
+                        </div>
+                    </div>               
+               </div>
+              
 
                <div className="indexHomeThird">
                         <div className="indexHomeThirdWrapper content1200">
