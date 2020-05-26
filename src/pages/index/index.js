@@ -56,13 +56,17 @@ export default class Index extends React.Component{
        
         let $list = document.getElementsByClassName("indexHomeLiveList")[0]
         let movNumber = $list.style.transform.split("(")[1].split("px")[0]
-        console.log(flag)
+        let windowwidth = window.innerWidth;
+        let widthItem = 1227;
+        if(windowwidth>700 && windowwidth<1200){
+            widthItem = Math.round(windowwidth*0.9)
+        }
         if(flag === 'left'){
-            movNumber = Number(movNumber) + 1227
+            movNumber = Number(movNumber) + Number(widthItem)
         }
         if(flag === 'right'){
             
-            movNumber = Number(movNumber) - 1227 ;
+            movNumber = Number(movNumber) - Number(widthItem) ;
                
         }
         if(Number(movNumber) === 0){
@@ -77,7 +81,7 @@ export default class Index extends React.Component{
             }
         }
         
-        if(Math.round(Number(movNumber)/1200) === -2){
+        if(Math.round(Number(movNumber)/widthItem) === -2){
             this.setState({
                 buttonRight:false
             })
@@ -88,6 +92,7 @@ export default class Index extends React.Component{
                 })
             }
         }
+        
         $list.style.transform = 'translateX('+ movNumber + 'px)'
         console.log($list.style.transform)   
     }
@@ -334,20 +339,7 @@ export default class Index extends React.Component{
                    </div>
 
                </div>
-               <div className="indexHomeSecond">        
-                    <div className="indexHomeSecondText ">
-                        <span>我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，促进开源软件在国内的发展</span>
-                        <br className="mobiledisplaynone"/>
-                        <span>和优秀开源软件社区建设，增加开源项目在国内的活跃度，在开源领域与世界接轨。</span>
-                    </div>
-                    <div className="indexHomeSecondWrapper content1200">
-                        <div className="indexHomeSecondTextCons">
-                            
-                                {this.getTextTwo()}
-                        
-                        </div>
-                    </div>               
-               </div>
+              
                
                <div className="indexHomeThirdWrapper content1200">
                     <div className="indexHomeThirdButton">
@@ -409,6 +401,21 @@ export default class Index extends React.Component{
 
                    </div>
 
+               </div>
+
+               <div className="indexHomeSecond">        
+                    <div className="indexHomeSecondText ">
+                        <span>我们鼓励研究人员、开源爱好者、在校师生参与开源软件的开发与维护，促进开源软件在国内的发展</span>
+                        <br className="mobiledisplaynone"/>
+                        <span>和优秀开源软件社区建设，增加开源项目在国内的活跃度，在开源领域与世界接轨。</span>
+                    </div>
+                    <div className="indexHomeSecondWrapper content1200">
+                        <div className="indexHomeSecondTextCons">
+                            
+                                {this.getTextTwo()}
+                        
+                        </div>
+                    </div>               
                </div>
               
 
