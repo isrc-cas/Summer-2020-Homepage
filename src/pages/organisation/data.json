@@ -308,6 +308,28 @@
       ]
     },
     {
+      "anchor": "/apache-servicecomb",
+      "img": "service-comb.jpg",
+      "title": "Apache ServiceComb",
+      "project_url": "",
+      "url": "https://servicecomb.apache.org",
+      "description": "一站式开源微服务解决方案。",
+      "full_des": "Apache ServiceComb 是Apache基金会首个毕业的开源微服务框架项目。是一个开箱即用、高性能、兼容流行生态、支持多语言的一站式开源微服务解决方案。",
+      "tech_tag": [
+        "微服务",
+        "服务网格",
+        "Saga",
+        "云原生",
+        "go",
+        "java"
+      ],
+      "domain_tag": [
+        "微服务"
+      ],
+      "mail_list": "https://servicecomb.apache.org/cn/developers/subscribe-mail-list",
+      "email": "dev@servicecomb.apache.org"
+    },
+    {
       "anchor": "/apache-sharding",
       "img": "sharding.jpg",
       "title": "Apache ShardingSphere",
@@ -1460,6 +1482,27 @@
           "label": "2018090"
         }
       ]
+    },
+    {
+      "anchor": "/minigui",
+      "img": "minigui.jpg",
+      "title": "MiniGUI",
+      "project_url": "https://gitlab.fmsoft.cn/VincentWei/build-minigui-5.0/blob/master/summer-2020/README.md",
+      "url": "http://www.minigui.com",
+      "description": "跨操作系统的图形用户界面（GUI）支持系统。",
+      "full_des": "MiniGUI是一个快速、稳定、跨操作系统的图形用户界面（GUI）支持系统，广泛应用于智能硬件、智能物联网设备当中，用于为上层应用程序提供图形及图形用户界面的支持。",
+      "tech_tag": [
+        "Linux",
+        "RTOS",
+        "Mini",
+        "GUI"
+      ],
+      "domain_tag": [
+        "嵌入式软件开发",
+        "开源社区"
+      ],
+      "mail_list": "contact@minigui.com",
+      "email": "contact@minigui.com"
     },
     {
       "anchor": "/oi-wiki",
