@@ -204,20 +204,17 @@ export default class Organisation extends React.Component{
         className="orgProjectItem">
             <div className={"orgProjectItemColumn orgLeft org-"+index%3}>
                 <div className="orgProjectTitleBar">
+                    {/* <div className="orgProjectId">{item.label ? '项目ID: '+item.label : ''}</div> */}
                     <div className="orgProjectTitle">
                         {item.name}
-                        
                     </div>
-                    
-                
-                    {/* <div className="orgProjectId">{item.label ? 'ID: '+item.label : ''}</div> */}
-                    
+                    {/* <div className="orgProjectTitleIcon">{this.showHot(item.student_count, item.index)}</div> */}
                 </div>
                 <div className="orgProjectTitleIcon"><img alt="0000000" src={require("./../../img/organisation/"+index%3+".jpg")} /></div>
                 <div className="orgProjectGap"></div>
                 <div className="orgProjectBottomLeft">
-                    {/* <div>热度：{this.showHot(item.hot_index, item.index)}</div> */}
                     <div>项目难度：{item.difficulty}</div>
+                    {/* <div>已申请人数：{item.student_count}</div> */}
                     <div className="orgProjectName">{orgName}</div>
                 </div>
 
