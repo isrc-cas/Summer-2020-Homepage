@@ -1513,7 +1513,7 @@
           "co-mentor": "",
           "hot_index": 0,
           "update_time": "2020-05-26",
-          "label": ""
+          "label": "2038244"
         },
         {
           "name": "MiniGUI 的 DRM 加速图形引擎",
@@ -1524,7 +1524,7 @@
           "co-mentor": "",
           "hot_index": 0,
           "update_time": "2020-05-26",
-          "label": ""
+          "label": "2038245"
         },
         {
           "name": "HybridOS 图形栈增强",
@@ -1535,7 +1535,7 @@
           "co-mentor": "",
           "hot_index": 0,
           "update_time": "2020-05-26",
-          "label": ""
+          "label": "2038246"
         },
         {
           "name": "MiniGUI 中文输入法增强",
@@ -1546,7 +1546,7 @@
           "co-mentor": "",
           "hot_index": 0,
           "update_time": "2020-05-26",
-          "label": ""
+          "label": "2038247"
         },
         {
           "name": "将 MiniGUI 5.0 运行到 RT-Thread 或者 FreeRTOS 开发板上",
@@ -1557,7 +1557,7 @@
           "co-mentor": "",
           "hot_index": 0,
           "update_time": "2020-05-26",
-          "label": ""
+          "label": "2038248"
         }
       ]
     },
@@ -2213,7 +2213,7 @@
           "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
           "hot_index": 0,
           "update_time": "2020-05-26",
-          "label": "2021237"
+          "label": "2021249"
         },
         {
           "name": "对 openEuler 社区发布包 MySQL 进行加固测试",
