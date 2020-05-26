@@ -1502,7 +1502,64 @@
         "开源社区"
       ],
       "mail_list": "contact@minigui.com",
-      "email": "contact@minigui.com"
+      "email": "contact@minigui.com",
+      "project_list": [
+        {
+          "name": "面向小屏幕智能设备的 MiniGUI 合成器",
+          "description": "自 MiniGUI 5.0 起，MiniGUI 的多进程模式开始支持合成图式（compositing schema）。合成图式是现代桌面操作系统和智能手机操作系统的图形及窗口系统使用的技术，其基本原理很简单：系统中所有进程创建的每一个窗口都使用独立的缓冲区来各自渲染其内容，而系统中有一个扮演合成器（compositor）角色的进程，负责将这些内容根据窗口的 Z 序以及叠加效果（如半透明、模糊等）合成在一起并最终显示在屏幕上。本项目要求为 MiniGUI 5.0 的合成图式开发一个适合于小屏幕智能设备的定制合成器，实现自定义的窗口层叠效果（如阴影、模糊、不规则窗口等），以及窗口的切换动画等效果。",
+          "difficulty": "高",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": ""
+        },
+        {
+          "name": "MiniGUI 的 DRM 加速图形引擎",
+          "description": "DRM 已经成为 Linux 环境中新一代的现代图形支持框架。自 4.0 版本以来，MiniGUI 支持 DRM，但目前只提供了一个针对早期 Intel i915 芯片的加速图形引擎。该项目要求您为某个支持 DRM 且包含基础 2D 加速能力的 GPU 开发一个 MiniGUI 的 DRM 加速图形引擎。该 GPU 可以是 PC 显卡，也可以是嵌入式 SoC，如全志、瑞芯或者展讯的 SoC。",
+          "difficulty": "中",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": ""
+        },
+        {
+          "name": "HybridOS 图形栈增强",
+          "description": "HybridOS 是飞漫软件正在开发中的针对物联网的新一代操作系统。飞漫软件已基于 MiniGUI、Mesa、Cairo 等开源软件发布了 HybridOS 图形栈。在 Mesa 的 MiniGUI Backend 实现中，目前未提供对 EGL pixel buffer 的支持。本项目要求在现有 Mesa MiniGUI backend 的实现基础上，提供对 EGL pixel buffer 的支持。",
+          "difficulty": "中",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": ""
+        },
+        {
+          "name": "MiniGUI 中文输入法增强",
+          "description": "MiniGUI 现有开源的中文输入法引擎已经过时了。本项目要求移植一个成熟的开源中文输入法引擎，使得 MiniGUI 应用可以获得更好的中文输入法支持。",
+          "difficulty": "低",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": ""
+        },
+        {
+          "name": "将 MiniGUI 5.0 运行到 RT-Thread 或者 FreeRTOS 开发板上",
+          "description": "将 MiniGUI 5.0 (Standalone 或者 Threads 模式）移植到运行 RT-Thread 或者 FreeRTOS 的开发板上。需要开发针对具体开发板的图形引擎、输入引擎等。",
+          "difficulty": "低",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": ""
+        }
+      ]
     },
     {
       "anchor": "/oi-wiki",
@@ -1798,7 +1855,7 @@
         {
           "name": "iSula 相关项目支持编译 Debian 包",
           "description": "当前 iSula 相关项目，只支持 rpm 编译方式（提供了spec文件）。但是 Debian 相关的系统上面需要源码编译，所以存在编译不方便的问题。因此，需要提供 Debian 打包的支持。",
-          "difficulty": "简单",
+          "difficulty": "低",
           "mentor": "@haozi007",
           "contact": "liuhao27@huawei.com",
           "co-mentor": "",
@@ -2029,7 +2086,7 @@
         {
           "name": "基于 openEuler 的 4.19 内核主线 virtiofs 并完成构建和基础使用",
           "description": "virtio-fs是使用FUSE协议在host和guest之间通信，实现在不同guest之间共享同一个host目录树结构，拥有较好的性能和跟本地文件系统(如ext4)一样的语义。",
-          "difficulty": "简单",
+          "difficulty": "低",
           "mentor": "volcanodragon",
           "contact": "liuzhiqiang@huawei.com",
           "co-mentor": "",
