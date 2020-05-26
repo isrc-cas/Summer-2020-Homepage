@@ -1142,7 +1142,7 @@
           "hot_index": 0,
           "description": "Hypertrons 项目用于连接各种开放平台，并提供完整的跨平台交互能力，这也意味着项目配置会异常复杂，那么如何保证配置结构与文档描述的一致性就是一个非常重要的问题。Hypertrons 项目采用 TypeScript 的 Attribute 特性对所有配置项进行了代码化描述，请参考源代码。采用这种方式，不仅可以让平台在运行中自动生成配置结构与默认值，而且结构化的代码化配置可以使离线脚本轻松通过源代码直接生成配置的描述信息，做到代码即文档。",
           "update_time": "2020-05-25",
-          "label": ""
+          "label": "2035197"
         },
         {
           "name": " 文档协作平台交互接入",
@@ -1153,7 +1153,7 @@
           "hot_index": 0,
           "description": "Hypertrons 作为一个跨平台 RPA，各类平台的交互能力都是必不可少的，例如目前已经支持的代码托管平台（GitHub、GitLab、Gitee）、持续集成平台（Jenkins）、即时通信平台（Slack）等。而文档协作也是开放组织协作中非常重要的一环，目前大量的开放组织都在通过文档协作产出内容，例如 Google Docs、石墨文档、语雀、飞书文档、QQ 文档等等，都是这个领域的代表，如何有效的抽象在线文档协作平台的接口体系，并接入主流的文档协作平台，成为自动化协作流程的一部分，是项目关键的一部分能力。",
           "update_time": "2020-05-25",
-          "label": ""
+          "label": "2035198"
         },
         {
           "name": "迷你项目看板项目",
@@ -1164,7 +1164,7 @@
           "hot_index": 0,
           "description": "Hypertrons 作为一个跨平台的 RPA 平台，在提供跨平台交互能力的同时，为了能更好的做出决策，也采集了各平台的开放数据作为决策基础。而这些数据同时也为社区的数字化运营分析提供了有效的支撑，我们不希望深度改变用户的使用习惯，故发起一个浏览器插件项目，通过在特定网址的网页中插入迷你看板的方式为开放组织提供有效的监控和运营手段，这个项目是 Hypertrons 一大创新，也是重要的一部分。",
           "update_time": "2020-05-25",
-          "label": ""
+          "label": "2035199"
         }
       ]
     },
@@ -1730,7 +1730,7 @@
           "hot_index": 0,
           "description": "没有软件工程师不知道 Hello world，也没有 AI 工程师不知道 mnist 。OpenEuler 上对 AI 的支持也正如火如荼进行，为了让大家熟悉在 openEuler 上 AI 的软件栈和开发流程，请从源代码出发构建 Tensorflow 的 aarch64 架构安装包(包括 pip 和 yum )，用这些安装包基于公开的数据集完成 mnist 的训练过程。",
           "update_time": "2020-05-26",
-          "label": ""
+          "label": "2021200"
         },
         {
           "name": "在 openEuler aarch64 架构上完成 PyTorch 基于公开数据集完成 mnist 训练过程",
@@ -1740,7 +1740,7 @@
           "hot_index": 0,
           "description": "没有软件工程师不知道 Hello world，也没有 AI 工程师不知道 mnist 。OpenEuler 上对 AI 的支持也正如火如荼进行，为了让大家熟悉在 openEuler 上 AI 的软件栈和开发流程，请从源代码出发构建 PyTorch 的 aarch64 架构安装包(包括 pip 和 yum )，用这些安装包基于公开的数据集完成 mnist 的训练过程。",
           "update_time": "2020-05-26",
-          "label": ""
+          "label": "2021201"
         },
         {
           "name": "虚拟化场景下的类似 top 点调测工具 virttop",
@@ -1751,7 +1751,7 @@
           "hot_index": 0,
           "description": "云场景，性能类问题无法快速定位定界，缺少定位手段。例如CPU性能不足，网络性能抖动等常见问题定位周期长，定位手段少。CPU超分场景经常出现虚拟机的 vcpu争抢，需要提供vcpu使用监控手段，期望能够提供一套类似top的实时监测工具。",
           "update_time": "2020-05-26",
-          "label": ""
+          "label": "2021202"
         },
         {
           "name": "构建可运行 iSulad 点容器镜像，并推送到 Docker Hub 镜像仓库",
@@ -1762,7 +1762,7 @@
           "co-mentor": "",
           "hot_index": 0,
           "update_time": "2020-05-26",
-          "label": ""
+          "label": "2021203"
         },
         {
           "name": "C 语言 JSON 解析转换代码生成框架",
@@ -1773,7 +1773,7 @@
           "co-mentor": "",
           "hot_index": 0,
           "update_time": "2020-05-26",
-          "label": ""
+          "label": "2021204"
         },
         {
           "name": "iSula 相关项目支持编译 Debian 包",
@@ -1784,7 +1784,7 @@
           "co-mentor": "",
           "hot_index": 0,
           "update_time": "2020-05-26",
-          "label": ""
+          "label": "2021205"
         },
         {
           "name": "iSula 项目内存池设计与实现",
@@ -1793,405 +1793,405 @@
           "mentor": "@jingwoo",
           "contact": "wujing50@huawei.com",
           "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021206"
         },
         {
           "name": "iSula 项目线程池设计与实现",
-            "description": "当前 iSula 相关项目无线程池设计，程序存在频繁创建和销毁线程的场景，CPU 资源开销大, 效率也相对低下，因此，iSulad 需要设计一个高性能的线程池，能支持自动扩容与收缩的动态资源分配。",
-              "difficulty": "难",
-                "mentor": "@jingwoo",
-                  "contact": "wujing50@huawei.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "当前 iSula 相关项目无线程池设计，程序存在频繁创建和销毁线程的场景，CPU 资源开销大, 效率也相对低下，因此，iSulad 需要设计一个高性能的线程池，能支持自动扩容与收缩的动态资源分配。",
+          "difficulty": "难",
+          "mentor": "@jingwoo",
+          "contact": "wujing50@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021207"
         },
         {
           "name": "iSula-kits 支持在多个 OS 发型版上运行",
-            "description": "iSula-kits 为 iSula 容器全栈的工具集，包括镜像构建工具、容器升级工具等。当前 iSula-kits 只支持在 openEuler OS 上运行，我们需要将 iSula-kits 工具集稳定可靠运行在其他主流的发行版OS上。推荐优先完成 ：CentOS，Ubuntu，openSuse，Fedora，Debian 的最新版本。",
-              "difficulty": "中",
-                "mentor": "@zklei",
-                  "contact": "leizhongkai@huawei.com",
-                    "co-mentor": "@zhangsong234 zhangsong34@huawei.com",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "iSula-kits 为 iSula 容器全栈的工具集，包括镜像构建工具、容器升级工具等。当前 iSula-kits 只支持在 openEuler OS 上运行，我们需要将 iSula-kits 工具集稳定可靠运行在其他主流的发行版OS上。推荐优先完成 ：CentOS，Ubuntu，openSuse，Fedora，Debian 的最新版本。",
+          "difficulty": "中",
+          "mentor": "@zklei",
+          "contact": "leizhongkai@huawei.com",
+          "co-mentor": "@zhangsong234 zhangsong34@huawei.com",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021208"
         },
         {
           "name": "iSula 容器镜像构建工具支持多存储驱动",
-            "description": "iSula-kits 项目中的容器镜像构建工具 isula-build 目前底层驱动只支持 Overlay2。在一些特性场景下块设备具有独特的性能优势，例如：大文件读写等场景。我们需要增加一种后端的存储驱动：devicemapper，并且可以通过配置 来选择驱动。",
-              "difficulty": "中",
-                "mentor": "@jingxiaolu",
-                  "contact": "jingxiaolu@huawei.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "iSula-kits 项目中的容器镜像构建工具 isula-build 目前底层驱动只支持 Overlay2。在一些特性场景下块设备具有独特的性能优势，例如：大文件读写等场景。我们需要增加一种后端的存储驱动：devicemapper，并且可以通过配置 来选择驱动。",
+          "difficulty": "中",
+          "mentor": "@jingxiaolu",
+          "contact": "jingxiaolu@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021209"
         },
         {
           "name": "openEuler 集成 Harbor 项目",
-            "description": "Harbor是一个用于存储和分发Docker镜像的企业级Registry服务器，可以用来构建企业内部的Docker镜像仓库。容器镜像仓库是云原生中的重要组成部分，因此我们希望参与者能够提供harbor在openEuler上的标准发布软件包，并在社区的基础上能够便捷、快速的让使用者使用harbor组件",
-              "difficulty": "中",
-                "mentor": "@caihaomin",
-                  "contact": "caihaomin@huawei.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "Harbor是一个用于存储和分发Docker镜像的企业级Registry服务器，可以用来构建企业内部的Docker镜像仓库。容器镜像仓库是云原生中的重要组成部分，因此我们希望参与者能够提供harbor在openEuler上的标准发布软件包，并在社区的基础上能够便捷、快速的让使用者使用harbor组件",
+          "difficulty": "中",
+          "mentor": "@caihaomin",
+          "contact": "caihaomin@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021210"
         },
         {
           "name": "改进 openEuler-Advisor 来支持 openEuler 快速滚动升级",
-            "description": "绝大多数开源软件被集成到 openEuler 中以后，并不需要做额外的修改。比如当前 openEuler 中有 1276 个软件可以直接基于上游社区源码构建。 我们希望改进 openEuler-Advisor，在识别到这类软件有升级以后，可以自动化的完成软件版本更新，并提交 PR。",
-              "difficulty": "高",
-                "mentor": "@Shinwell_Hu",
-                  "contact": "huxinwei@huawei.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "绝大多数开源软件被集成到 openEuler 中以后，并不需要做额外的修改。比如当前 openEuler 中有 1276 个软件可以直接基于上游社区源码构建。 我们希望改进 openEuler-Advisor，在识别到这类软件有升级以后，可以自动化的完成软件版本更新，并提交 PR。",
+          "difficulty": "高",
+          "mentor": "@Shinwell_Hu",
+          "contact": "huxinwei@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021211"
         },
         {
           "name": "为 ARM 平台优化开源软件的 CRC 实现",
-            "description": "CRC 可以用来检测数据的完整性，在存储、压缩解压缩、通信等领域是被广泛使用的算法，openEuler中就有大量软件使用。鲲鹏平台（兼容ARM v8.1）中全面支持了CRC加速指令，相对软件查表实现，性能有30倍的差异。 但是加速指令并没有在软件实现中得到普及。",
-              "difficulty": "中",
-                "mentor": "@Shinwell_Hu",
-                  "contact": "huxinwei@huawei.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "CRC 可以用来检测数据的完整性，在存储、压缩解压缩、通信等领域是被广泛使用的算法，openEuler中就有大量软件使用。鲲鹏平台（兼容ARM v8.1）中全面支持了CRC加速指令，相对软件查表实现，性能有30倍的差异。 但是加速指令并没有在软件实现中得到普及。",
+          "difficulty": "中",
+          "mentor": "@Shinwell_Hu",
+          "contact": "huxinwei@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021212"
         },
         {
           "name": "库函数行为收集器",
-            "description": "访问控制针对的是应用、被访问的对象以及访问模式。但是，为了做好访问控制，对于一个程序（无论是二进制的还是有源码的)，让开发者去逐个搜罗所有可能的访问对象也是很头疼的事，尤其是隐含在所使用的库函数中的访问对象，甚至是隐藏在深层嵌套的函数中的访问对象。【这里不提strace、ltrace类工具，因为那是需要把应用运行起来才能去收集访问对象的。这里关注的是静态获取访问对象。】对C库的所有函数构造一个{func, file, access_mode}的映射表（可称为 _函数级访问映射表_ ），就可以帮助开发者挖掘出隐含的访问对象。C库的历史很久了，其中所含函数的行为也基本稳定，相应地，这个函数级访问映射表也应该是稳定的。 很多其它库与C库类似，可以把这种方法推广到其它库上。为这些库建立一个映射表后，可以自动获取应用中隐含的访问对象（至少是部分的），其余的部分可以让开发者自己去补充（开发者对此应该非常了解）。 进一步说，对于一个C源程序，找出其中所含的函数(可能是深层调用的)，再借助上述映射表，就可以构建出{app, file, access_mode}这样的 _应用级访问映射表_ ，作为为此应用制定访问控制策略的输入。 本任务的目的就是完成一个工具，实现对这种应用级映射表的自动构建。 具体步骤包括： 1，收集【先只针对C库】  ： 收集C库中的所有函数，找出它们要访问或者引用的文件(具有磁盘文件inode的各类对象)，形成一个{func, file, access_mode}的映射表； 2，扫描：扫描给定app的源码（C），找出步骤1中可以识别的函数； 3，汇总：基于扫描结果，形成该app的访问映射表{app, file, access_mode}集合。 这个集合不是app的所有访问范围，只是隐含在库函数中的访问范围。【其它明确通过open类函数使用的文件对象可由开发者单独列出】",
-              "difficulty": "中",
-                "mentor": "mailofzxf",
-                  "contact": "mailofzxf@aliyun.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "访问控制针对的是应用、被访问的对象以及访问模式。但是，为了做好访问控制，对于一个程序（无论是二进制的还是有源码的)，让开发者去逐个搜罗所有可能的访问对象也是很头疼的事，尤其是隐含在所使用的库函数中的访问对象，甚至是隐藏在深层嵌套的函数中的访问对象。【这里不提strace、ltrace类工具，因为那是需要把应用运行起来才能去收集访问对象的。这里关注的是静态获取访问对象。】对C库的所有函数构造一个{func, file, access_mode}的映射表（可称为 _函数级访问映射表_ ），就可以帮助开发者挖掘出隐含的访问对象。C库的历史很久了，其中所含函数的行为也基本稳定，相应地，这个函数级访问映射表也应该是稳定的。 很多其它库与C库类似，可以把这种方法推广到其它库上。为这些库建立一个映射表后，可以自动获取应用中隐含的访问对象（至少是部分的），其余的部分可以让开发者自己去补充（开发者对此应该非常了解）。 进一步说，对于一个C源程序，找出其中所含的函数(可能是深层调用的)，再借助上述映射表，就可以构建出{app, file, access_mode}这样的 _应用级访问映射表_ ，作为为此应用制定访问控制策略的输入。 本任务的目的就是完成一个工具，实现对这种应用级映射表的自动构建。 具体步骤包括： 1，收集【先只针对C库】  ： 收集C库中的所有函数，找出它们要访问或者引用的文件(具有磁盘文件inode的各类对象)，形成一个{func, file, access_mode}的映射表； 2，扫描：扫描给定app的源码（C），找出步骤1中可以识别的函数； 3，汇总：基于扫描结果，形成该app的访问映射表{app, file, access_mode}集合。 这个集合不是app的所有访问范围，只是隐含在库函数中的访问范围。【其它明确通过open类函数使用的文件对象可由开发者单独列出】",
+          "difficulty": "中",
+          "mentor": "mailofzxf",
+          "contact": "mailofzxf@aliyun.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021213"
         },
         {
           "name": "SVA （Share Virtual Address）引擎",
-            "description": "现代的 Linux 操作系统中的用户态程序均基于 Virtual Address。不用用户态程序的 Virtual Address 相互独立，即用户态程序独占各自的 Virtual Address Space。当两个或者多个进程进行进程间通信时，通过基于 share memory 的 IPC 机制可以将不同 Virtual Address Space 中的 Virtual Address 指向相同的 physical memory。但 App1 中 “共享内存” 所占用的 Virtual Address 和 App2 中 “共享内存” 所占用 的 Virtual Address 可能并不相同。试想有一个 ‘SVA engine’，通过 ‘SVA engine’ 提供的操作接口，将多个 APP 挂载到 ‘SVA engine’ 上。挂载到 ‘SVA engine’ 上同一个 ‘channel’ 的 APP 将共享 Virtual Address Space 中的一段或者多段虚拟地址。",
-              "difficulty": "高",
-                "mentor": "@liliang_euler",
-                  "contact": "liliang6@me.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "现代的 Linux 操作系统中的用户态程序均基于 Virtual Address。不用用户态程序的 Virtual Address 相互独立，即用户态程序独占各自的 Virtual Address Space。当两个或者多个进程进行进程间通信时，通过基于 share memory 的 IPC 机制可以将不同 Virtual Address Space 中的 Virtual Address 指向相同的 physical memory。但 App1 中 “共享内存” 所占用的 Virtual Address 和 App2 中 “共享内存” 所占用 的 Virtual Address 可能并不相同。试想有一个 ‘SVA engine’，通过 ‘SVA engine’ 提供的操作接口，将多个 APP 挂载到 ‘SVA engine’ 上。挂载到 ‘SVA engine’ 上同一个 ‘channel’ 的 APP 将共享 Virtual Address Space 中的一段或者多段虚拟地址。",
+          "difficulty": "高",
+          "mentor": "@liliang_euler",
+          "contact": "liliang6@me.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021214"
         },
         {
           "name": "LSCA - Linux 系统调用代理",
-            "description": "Linux 内核提供了系统调用给用户态程序调用。Linux APP 通过系统调用获取 Linux 内核提供的各项服务。对 APP 而言，使用到的系统调用可能只是 Linux 内核提供的全部系统调用集合的一个子集。基于如下考虑：> 对一个标准 APP 而言，其一般通过 glibc 提供的对系统调用的封装进行系统调用。那么 LSCA（Linux System Call Agent）> 期望取代 glibc 完成的功能，针对系统调用，进行自定义的封装。LSCA 首先接管 APP 的系统调用请求，然后根据配置，完成：- log 到日志（依据配置，可选）- 完成真正的 System Call（真正的系统调用**不能够** 通过和 Linux 内核进行交互来完成，特征是，由 Linux 内核提供的系统调用服务需要切换处理器运行模式，而此处提供系统调用服务的是 LSCA daemon 服务，不需要切换处理器运行模式）。",
-              "difficulty": "高",
-                "mentor": "@liliang_euler",
-                  "contact": "liliang6@me.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "Linux 内核提供了系统调用给用户态程序调用。Linux APP 通过系统调用获取 Linux 内核提供的各项服务。对 APP 而言，使用到的系统调用可能只是 Linux 内核提供的全部系统调用集合的一个子集。基于如下考虑：> 对一个标准 APP 而言，其一般通过 glibc 提供的对系统调用的封装进行系统调用。那么 LSCA（Linux System Call Agent）> 期望取代 glibc 完成的功能，针对系统调用，进行自定义的封装。LSCA 首先接管 APP 的系统调用请求，然后根据配置，完成：- log 到日志（依据配置，可选）- 完成真正的 System Call（真正的系统调用**不能够** 通过和 Linux 内核进行交互来完成，特征是，由 Linux 内核提供的系统调用服务需要切换处理器运行模式，而此处提供系统调用服务的是 LSCA daemon 服务，不需要切换处理器运行模式）。",
+          "difficulty": "高",
+          "mentor": "@liliang_euler",
+          "contact": "liliang6@me.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021215"
         },
         {
           "name": "LUTF - Linux Userspace Task Framework",
-            "description": "标准的 Linux 的用户态任务（基本粒度为 Thread）通常由 Linux 内核进行管理和调度。LUTF 是一套**非标准**的任务框架。LUTF要完成：- 任务的定义与抽象，典型的，一个任务可以是一个**C语言函数**；- 提供任务的管理接口，提供任务的创建，管理等功能；- 进行任务的调度；约束：> 纯 Linux 用户态实现；> 同时支持的任务数量不少于一百万；> 任务的调度支持 FIFO；> 基于 setjmp 和 longjmp 实现任务切换；> 基于 signal 实现中断；",
-              "difficulty": "高",
-                "mentor": "@liliang_euler",
-                  "contact": "liliang6@me.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "标准的 Linux 的用户态任务（基本粒度为 Thread）通常由 Linux 内核进行管理和调度。LUTF 是一套**非标准**的任务框架。LUTF要完成：- 任务的定义与抽象，典型的，一个任务可以是一个**C语言函数**；- 提供任务的管理接口，提供任务的创建，管理等功能；- 进行任务的调度；约束：> 纯 Linux 用户态实现；> 同时支持的任务数量不少于一百万；> 任务的调度支持 FIFO；> 基于 setjmp 和 longjmp 实现任务切换；> 基于 signal 实现中断；",
+          "difficulty": "高",
+          "mentor": "@liliang_euler",
+          "contact": "liliang6@me.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021216"
         },
         {
           "name": "为openEuler - RISC-V 添加grub的引导启动方式",
-            "description": "RISC-V 是一个开源指令集（ISA instruction set architecture )，openEuler 对于此架构正在进行探索性的支持，成立了 [RISC-V SIG 组](https://gitee.com/openeuler/community/tree/master/sig/sig-RISC-V)；Grub是主流linux发行版都采用的引导方式。在启动方式上，与openEuler 发行版镜像所采用的grub2 引导启动不同的是，openEuler for RISC-V 采用的是openSBI + kernel 直接启动的方式。目前openEuler的grub 版本是2.02，在grub 2.04 版本中，新增了对于RISC-V 架构的支持；因此，可以为 openEuler for RISC-V 添加grub 的引导启动的方式，使其能够接近openEuler发行版的启动形式。",
-              "difficulty": "中",
-                "mentor": "@whoisxxx",
-                  "contact": "zhangxuzhou4@huawei.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "RISC-V 是一个开源指令集（ISA instruction set architecture )，openEuler 对于此架构正在进行探索性的支持，成立了 [RISC-V SIG 组](https://gitee.com/openeuler/community/tree/master/sig/sig-RISC-V)；Grub是主流linux发行版都采用的引导方式。在启动方式上，与openEuler 发行版镜像所采用的grub2 引导启动不同的是，openEuler for RISC-V 采用的是openSBI + kernel 直接启动的方式。目前openEuler的grub 版本是2.02，在grub 2.04 版本中，新增了对于RISC-V 架构的支持；因此，可以为 openEuler for RISC-V 添加grub 的引导启动的方式，使其能够接近openEuler发行版的启动形式。",
+          "difficulty": "中",
+          "mentor": "@whoisxxx",
+          "contact": "zhangxuzhou4@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021217"
         },
         {
           "name": "在 openEuler aarch64 架构上完成 mlpack 基于公开数据集完成 mnist 训练过程",
-            "description": "没有软件工程师不知道 Hello world，也没有 AI 工程师不知道 mnist。OpenEuler 上对AI 的支持也正如火如荼，为了让大家熟悉在 openEuler 上 AI 的软件栈和开发流程，现在请从源代码出发构建 mlpack 的安装包(yum)，用自己构建的安装包基于公开的数据集完成 mnist 的训练过程。",
-              "difficulty": "高",
-                "mentor": "@sinever",
-                  "contact": "sinever@126.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "没有软件工程师不知道 Hello world，也没有 AI 工程师不知道 mnist。OpenEuler 上对AI 的支持也正如火如荼，为了让大家熟悉在 openEuler 上 AI 的软件栈和开发流程，现在请从源代码出发构建 mlpack 的安装包(yum)，用自己构建的安装包基于公开的数据集完成 mnist 的训练过程。",
+          "difficulty": "高",
+          "mentor": "@sinever",
+          "contact": "sinever@126.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021218"
         },
         {
           "name": "在 openEuler aarch64 架构上完成 Hadoop WordCount 统计过程",
-            "description": "没有软件工程师不知道Hello world，也没有大数据工程师不知道wordcount。OpenEuler上对bigdata的支持也正如火如荼，为了让大家熟悉在openEuler上的bigdata的软件栈和开发流程，现在请从源代码出发构建hadoop的 安装包(jar和yum)，用自己构建的安装包完成wordcount的统计过程。",
-              "difficulty": "高",
-                "mentor": "@sinever",
-                  "contact": "sinever@126.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "没有软件工程师不知道Hello world，也没有大数据工程师不知道wordcount。OpenEuler上对bigdata的支持也正如火如荼，为了让大家熟悉在openEuler上的bigdata的软件栈和开发流程，现在请从源代码出发构建hadoop的 安装包(jar和yum)，用自己构建的安装包完成wordcount的统计过程。",
+          "difficulty": "高",
+          "mentor": "@sinever",
+          "contact": "sinever@126.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021219"
         },
         {
           "name": "在 openEuler aarch64 架构上完成 Spark WordCount 统计过程",
-            "description": "没有软件工程师不知道Hello world，也没有大数据工程师不知道wordcount。OpenEuler上对bigdata的支持也正如火如荼，为了让大家熟悉在openEuler上的bigdata的软件栈和开发流程，现在请从源代码出发构建spark的安装包(jar和yum)，用自己构建的安装包基于公开的数据集完成wordcount的训练过程。",
-              "difficulty": "高",
-                "mentor": "@sinever",
-                  "contact": "sinever@126.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "没有软件工程师不知道Hello world，也没有大数据工程师不知道wordcount。OpenEuler上对bigdata的支持也正如火如荼，为了让大家熟悉在openEuler上的bigdata的软件栈和开发流程，现在请从源代码出发构建spark的安装包(jar和yum)，用自己构建的安装包基于公开的数据集完成wordcount的训练过程。",
+          "difficulty": "高",
+          "mentor": "@sinever",
+          "contact": "sinever@126.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021220"
         },
         {
           "name": "在 openEuler aarch64 架构上完成 Flink WordCount 统计过程",
-            "description": "没有软件工程师不知道Hello world，也没有大数据工程师不知道wordcount。OpenEuler上对bigdata的支持也正如火如荼，为了让大家熟悉在openEuler上的bigdata的软件栈和开发流程，现在请从源代码出发构建 Flink 的安装包(jar和yum)，用自己构建的安装包完成wordcount的统计过程。",
-              "difficulty": "高",
-                "mentor": "@sinever",
-                  "contact": "sinever@126.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "没有软件工程师不知道Hello world，也没有大数据工程师不知道wordcount。OpenEuler上对bigdata的支持也正如火如荼，为了让大家熟悉在openEuler上的bigdata的软件栈和开发流程，现在请从源代码出发构建 Flink 的安装包(jar和yum)，用自己构建的安装包完成wordcount的统计过程。",
+          "difficulty": "高",
+          "mentor": "@sinever",
+          "contact": "sinever@126.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021221"
         },
         {
           "name": "在openEuler 版本上各个版本间进行包差异比较",
-            "description": "linux操作系统由众多开源软件包组成，为了更好对于各个操作系统版本间的软件包进行对比分析，需要获取操作系统自带软件包信息，以及对不同版本间操作系统软件包进行对比分析，分析内容包括软件包，软件包版本，软件包安装后的文件结构，软件包携带的服务、软件包携带的配置信息等。",
-              "difficulty": "中",
-                "mentor": "@jimmy_hero",
-                  "contact": "huming15@163.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "linux操作系统由众多开源软件包组成，为了更好对于各个操作系统版本间的软件包进行对比分析，需要获取操作系统自带软件包信息，以及对不同版本间操作系统软件包进行对比分析，分析内容包括软件包，软件包版本，软件包安装后的文件结构，软件包携带的服务、软件包携带的配置信息等。",
+          "difficulty": "中",
+          "mentor": "@jimmy_hero",
+          "contact": "huming15@163.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021222"
         },
         {
           "name": "开发工具判断同一个软件在openEuler 不同系统间依赖的软件、接口、参数是否发生变化",
-            "description": "不同操作系统的软件包组成不完全一致，对应用程序而言是灾难性的，存在大量工作在评估软件之间是否兼容性，希望能够有一个软件，对软件的依赖在不同系统下进行评估，确认不同系统对应用的影响，提高跨系统移植的效率。",
-              "difficulty": "中",
-                "mentor": "@jimmy_hero",
-                  "contact": "huming15@163.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "不同操作系统的软件包组成不完全一致，对应用程序而言是灾难性的，存在大量工作在评估软件之间是否兼容性，希望能够有一个软件，对软件的依赖在不同系统下进行评估，确认不同系统对应用的影响，提高跨系统移植的效率。",
+          "difficulty": "中",
+          "mentor": "@jimmy_hero",
+          "contact": "huming15@163.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021223"
         },
         {
           "name": "网络可视化工具",
-            "description": "BCC/BPFTrace/eBPF是目前比较活跃的内核窥探技术，目的是通过此类技术完成内核网络的窥探，实现一些可以可以在生产环境部署的窥探工具。相关的工具包括但不限于：- 窥探TCP流类型，判断应用的流特点，可以 大体划分成时延敏感性、生命周期短、数据流大等几种类型；- 窥探TCP重传、RTT、队列深度、内存占用的情况，评估网络质量;- 窥探协议栈、驱动，通过报文染色方式，完成E2E网络定界;- 实现一个协议栈function trace工具，能够基于流trace内核协议栈函数调用栈。上述工具要充分考虑对现有协议栈性能的影响，最好能够支持在生产环境部署。",
-              "difficulty": "中",
-                "mentor": "@MrRlu",
-                  "contact": "newlife_lala@163.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "BCC/BPFTrace/eBPF是目前比较活跃的内核窥探技术，目的是通过此类技术完成内核网络的窥探，实现一些可以可以在生产环境部署的窥探工具。相关的工具包括但不限于：- 窥探TCP流类型，判断应用的流特点，可以 大体划分成时延敏感性、生命周期短、数据流大等几种类型；- 窥探TCP重传、RTT、队列深度、内存占用的情况，评估网络质量;- 窥探协议栈、驱动，通过报文染色方式，完成E2E网络定界;- 实现一个协议栈function trace工具，能够基于流trace内核协议栈函数调用栈。上述工具要充分考虑对现有协议栈性能的影响，最好能够支持在生产环境部署。",
+          "difficulty": "中",
+          "mentor": "@MrRlu",
+          "contact": "newlife_lala@163.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021224"
         },
         {
           "name": "对openEuler社区发布包osc和obs-build进行加固测试",
-            "description": "openEuler 社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户 使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等- 根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
-              "difficulty": "中",
-                "mentor": "@charlie_li",
-                  "contact": "liyongqiang329@163.com",
-                    "co-mentor": "@lemon-higgins lemon.higgins@aliyun.com",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "openEuler 社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户 使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等- 根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
+          "difficulty": "中",
+          "mentor": "@charlie_li",
+          "contact": "liyongqiang329@163.com",
+          "co-mentor": "@lemon-higgins lemon.higgins@aliyun.com",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021225"
         },
         {
           "name": "基于 openEuler 的 4.19 内核主线 virtiofs 并完成构建和基础使用",
-            "description": "virtio-fs是使用FUSE协议在host和guest之间通信，实现在不同guest之间共享同一个host目录树结构，拥有较好的性能和跟本地文件系统(如ext4)一样的语义。",
-              "difficulty": "简单",
-                "mentor": "volcanodragon",
-                  "contact": "liuzhiqiang@huawei.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "virtio-fs是使用FUSE协议在host和guest之间通信，实现在不同guest之间共享同一个host目录树结构，拥有较好的性能和跟本地文件系统(如ext4)一样的语义。",
+          "difficulty": "简单",
+          "mentor": "volcanodragon",
+          "contact": "liuzhiqiang@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021226"
         },
         {
           "name": "Linux 内核 Crash 问题自动定位工具",
-            "description": "Linux 内核异常 Crash，常需要人工进行定位分析，比如分析反汇编，分析函数栈，分析寄存器等信息。期望根据已有的 Crash 信息，能够通过工具自动化解析足够多有用信息，以及尽量能够定位出问题。",
-              "difficulty": "高",
-                "mentor": "@yeyunfeng-dev",
-                  "contact": "yeyunfeng@huawei.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "Linux 内核异常 Crash，常需要人工进行定位分析，比如分析反汇编，分析函数栈，分析寄存器等信息。期望根据已有的 Crash 信息，能够通过工具自动化解析足够多有用信息，以及尽量能够定位出问题。",
+          "difficulty": "高",
+          "mentor": "@yeyunfeng-dev",
+          "contact": "yeyunfeng@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021227"
         },
         {
           "name": "系统资源负载预测框架",
-            "description": "为了实现对系统资源的及时调度，A-Tune需要对系统各维度资源进行相对准确的预测，从而能够在运行时进行动态调度，满足性能和功耗诉求。",
-              "difficulty": "难",
-                "mentor": "@xiezhipeng1",
-                  "contact": "xiezhipeng1@huawei.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "为了实现对系统资源的及时调度，A-Tune需要对系统各维度资源进行相对准确的预测，从而能够在运行时进行动态调度，满足性能和功耗诉求。",
+          "difficulty": "难",
+          "mentor": "@xiezhipeng1",
+          "contact": "xiezhipeng1@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021228"
         },
         {
           "name": "基于 Posix 接口的协程框架",
-            "description": "对于大部分应用程序，实际并不关心实际的运行实体是什么。基于linux kernel的线程调度机制相较于协程占用资源多，上下文切换时间长。当前行业内的解决方案主要是语言级别的协程调度方案，典型的如go routine。 本课题的目标是基于glibc的posix接口编程，提供用户无感知的协程调度框架，解决提升存量软件性能。具体包含：目标一：pthread相关库的协程化，包含线程管理已经基于线程的条件变量，锁等接口。目标二：基于目标一，实现网络编程相关接口的协程化。目标三：全量的posix接口协程化配合。glibc源码：https://gitee.com/src-openeuler/glibc",
-              "difficulty": "高",
-                "mentor": "@liqingqing_1229",
-                  "contact": "liqingqing3@huawei.com",
-                    "co-mentor": "",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "对于大部分应用程序，实际并不关心实际的运行实体是什么。基于linux kernel的线程调度机制相较于协程占用资源多，上下文切换时间长。当前行业内的解决方案主要是语言级别的协程调度方案，典型的如go routine。 本课题的目标是基于glibc的posix接口编程，提供用户无感知的协程调度框架，解决提升存量软件性能。具体包含：目标一：pthread相关库的协程化，包含线程管理已经基于线程的条件变量，锁等接口。目标二：基于目标一，实现网络编程相关接口的协程化。目标三：全量的posix接口协程化配合。glibc源码：https://gitee.com/src-openeuler/glibc",
+          "difficulty": "高",
+          "mentor": "@liqingqing_1229",
+          "contact": "liqingqing3@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021229"
         },
         {
           "name": "对 openEuler 社区发布包 keepalived 进行加固测试",
-            "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等- 根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
-              "difficulty": "中",
-                "mentor": "@Charlie_Li",
-                  "contact": "liyongqiang329@163.com",
-                    "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等- 根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
+          "difficulty": "中",
+          "mentor": "@Charlie_Li",
+          "contact": "liyongqiang329@163.com",
+          "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021230"
         },
         {
           "name": "对 openEuler 社区发布包 kmod-kvdo 进行加固测试",
-            "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等-  根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
-              "difficulty": "中",
-                "mentor": "@Charlie_Li",
-                  "contact": "liyongqiang329@163.com",
-                    "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等-  根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
+          "difficulty": "中",
+          "mentor": "@Charlie_Li",
+          "contact": "liyongqiang329@163.com",
+          "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021231"
         },
         {
           "name": "对 openEuler 社区发布包 OpenVPN 进行加固测试",
-            "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等-  根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
-              "difficulty": "中",
-                "mentor": "@Charlie_Li",
-                  "contact": "liyongqiang329@163.com",
-                    "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等-  根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
+          "difficulty": "中",
+          "mentor": "@Charlie_Li",
+          "contact": "liyongqiang329@163.com",
+          "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021232"
         },
         {
           "name": "对 openEuler 社区发布包 lrzsz 进行加固测试",
-            "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等-  根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
-              "difficulty": "中",
-                "mentor": "@Charlie_Li",
-                  "contact": "liyongqiang329@163.com",
-                    "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等-  根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
+          "difficulty": "中",
+          "mentor": "@Charlie_Li",
+          "contact": "liyongqiang329@163.com",
+          "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021233"
         },
         {
           "name": "对 openEuler 社区发布包 ipvsadm 进行加固测试",
-            "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。 具体实施策略如下：分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面; 进行相应的测试设计活动，如功能类/性能类/可靠性类等; 根据测试设计编写相应的测试代码和调试; 提交PR到码云对应仓库; maintainer评审合入。",
-              "difficulty": "中",
-                "mentor": "@Charlie_Li",
-                  "contact": "liyongqiang329@163.com",
-                    "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。 具体实施策略如下：分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面; 进行相应的测试设计活动，如功能类/性能类/可靠性类等; 根据测试设计编写相应的测试代码和调试; 提交PR到码云对应仓库; maintainer评审合入。",
+          "difficulty": "中",
+          "mentor": "@Charlie_Li",
+          "contact": "liyongqiang329@163.com",
+          "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021234"
         },
         {
           "name": "对 openEuler 社区发布包 MongoDB 进行加固测试",
-            "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等-  根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
-              "difficulty": "中",
-                "mentor": "@Charlie_Li",
-                  "contact": "liyongqiang329@163.com",
-                    "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等-  根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
+          "difficulty": "中",
+          "mentor": "@Charlie_Li",
+          "contact": "liyongqiang329@163.com",
+          "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021235"
         },
         {
           "name": "对 openEuler 社区发布包 Redis 进行加固测试",
-            "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等-  根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
-              "difficulty": "中",
-                "mentor": "@Charlie_Li",
-                  "contact": "liyongqiang329@163.com",
-                    "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等-  根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
+          "difficulty": "中",
+          "mentor": "@Charlie_Li",
+          "contact": "liyongqiang329@163.com",
+          "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021236"
         },
         {
           "name": "对 openEuler 社区发布包 sshd 进行加固测试",
-            "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等-  根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
-              "difficulty": "中",
-                "mentor": "@Charlie_Li",
-                  "contact": "liyongqiang329@163.com",
-                    "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等-  根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
+          "difficulty": "中",
+          "mentor": "@Charlie_Li",
+          "contact": "liyongqiang329@163.com",
+          "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021237"
         },
         {
           "name": "对 openEuler 社区发布包 MySQL 进行加固测试",
-            "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等-  根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
-              "difficulty": "中",
-                "mentor": "@Charlie_Li",
-                  "contact": "liyongqiang329@163.com",
-                    "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等-  根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
+          "difficulty": "中",
+          "mentor": "@Charlie_Li",
+          "contact": "liyongqiang329@163.com",
+          "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021238"
         },
         {
           "name": "对 openEuler 社区发布包 rpcbind 进行加固测试",
-            "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等-  根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
-              "difficulty": "中",
-                "mentor": "@Charlie_Li",
-                  "contact": "liyongqiang329@163.com",
-                    "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等-  根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
+          "difficulty": "中",
+          "mentor": "@Charlie_Li",
+          "contact": "liyongqiang329@163.com",
+          "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021239"
         },
         {
           "name": "对 openEuler 社区发布包 haproxy 进行加固测试",
-            "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等-  根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
-              "difficulty": "中",
-                "mentor": "@Charlie_Li",
-                  "contact": "liyongqiang329@163.com",
-                    "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "openEuler社区作为一个集成社区，发布了上千个软件包；为更好地保障各软件包提供的能力能够满足用户使用场景，除依赖原生上游社区的测试能力外，还需要进行更深层更广的测试活动。本任务从系统影响程度和用户使用场景角度出发，选取关键软件包进行测试加强活动。具体实施策略如下：- 分析软件包提供的功能/具体用户使用场景/发布命令及参数/提供服务/包使用资源消耗等方面- 进行相应的测试设计活动，如功能类/性能类/可靠性类等-  根据测试设计编写相应的测试代码和调试- 提交PR到码云对应仓库- maintainer评审合入",
+          "difficulty": "中",
+          "mentor": "@Charlie_Li",
+          "contact": "liyongqiang329@163.com",
+          "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021240"
         },
         {
           "name": "移植 libapparmor 到 openEuler 社区",
-            "description": "openEuler社区作为一个集成社区，发布了上千个软件包；上游社区存在多种Linux LSM安全机制，主流包括SELinux、APParmor、SMACK、Tomoyo等，当前openEuler默认使用SELinux安全机制，同时内核也支持APParmor，为 满足社区不同的应用场景，在openEuler上也支持apparmor机制具体实施策略如下：1、分析上游apparmor上游社区提供的软件包https://gitlab.com/apparmor/apparmor/-/wikis/home2、将上层软件包移植到openEuler上并进行验证3、提供移植部署相关的文档材料4、提交PR到码云对应仓库https://gitee.com/src-openeuler/apparmor5、maintainer评审合入",
-              "difficulty": "高",
-                "mentor": "@zhujianwei001",
-                  "contact": "zhujianwei7@huawei.com",
-                    "co-mentor": "@mailofzxf",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "openEuler社区作为一个集成社区，发布了上千个软件包；上游社区存在多种Linux LSM安全机制，主流包括SELinux、APParmor、SMACK、Tomoyo等，当前openEuler默认使用SELinux安全机制，同时内核也支持APParmor，为 满足社区不同的应用场景，在openEuler上也支持apparmor机制具体实施策略如下：1、分析上游apparmor上游社区提供的软件包https://gitlab.com/apparmor/apparmor/-/wikis/home2、将上层软件包移植到openEuler上并进行验证3、提供移植部署相关的文档材料4、提交PR到码云对应仓库https://gitee.com/src-openeuler/apparmor5、maintainer评审合入",
+          "difficulty": "高",
+          "mentor": "@zhujianwei001",
+          "contact": "zhujianwei7@huawei.com",
+          "co-mentor": "@mailofzxf",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021241"
         },
         {
           "name": "SELinux 策略应用指导",
-            "description": "当前openEuler社区主要提供了SELinux机制来保证系统的安全性，但SELinux策略规则应用复杂，这也极大的阻碍了该机制在生产环境中的应用。具体实施策略如下：1、熟悉SELinux基本使用命令，完善SELinux在openEuler中的使用指导。2、分析openEuler系统中现有的SELinux规则3、提供SELinux策略相关问题的排查指导4、提供新建SELinux策略模块的标准步骤5、maintainer评审合入",
-              "difficulty": "中",
-                "mentor": "@zhujianwei001",
-                  "contact": "zhujianwei7@huawei.com",
-                    "co-mentor": "@mailofzxf",
-                      "hot_index": 0,
-                        "update_time": "2020-05-26",
-                          "label": ""
+          "description": "当前openEuler社区主要提供了SELinux机制来保证系统的安全性，但SELinux策略规则应用复杂，这也极大的阻碍了该机制在生产环境中的应用。具体实施策略如下：1、熟悉SELinux基本使用命令，完善SELinux在openEuler中的使用指导。2、分析openEuler系统中现有的SELinux规则3、提供SELinux策略相关问题的排查指导4、提供新建SELinux策略模块的标准步骤5、maintainer评审合入",
+          "difficulty": "中",
+          "mentor": "@zhujianwei001",
+          "contact": "zhujianwei7@huawei.com",
+          "co-mentor": "@mailofzxf",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2021242"
         }
       ]
     },
@@ -2263,7 +2263,7 @@
           "hot_index": 0,
           "description": "新冠状病毒的爆发正在发展成一场重大的国际危机，并开始影响人们的正常生活和国家经济的发展。如果能够预测病毒如何在不同国家和地区传播，建立一个强大的预测模型，有助于缓解风险。这项任务的目标是建立一个预测病毒扩散的模型。本实训主要介绍如何实现“预测新冠状病毒的传播”的开发，通过该实训项目，可以使实训受众了解预测模型的开发。",
           "update_time": "2020-05-25",
-          "label": ""
+          "label": "2033243"
         }
       ]
     },
@@ -2754,7 +2754,7 @@
           "hot_index": 0,
           "description": "通过熟悉 RESTful 接口的调用方法，修改 JDBC connector 支持使用 RESTful 完成 JDBC 对应的 API 实现",
           "update_time": "2020-05-22",
-          "label": ""
+          "label": "2026195"
         },
         {
           "name": "通过 RESTful 接口实现 PHP Connector",
@@ -2765,7 +2765,7 @@
           "hot_index": 0,
           "description": "通过熟悉 RESTful 接口的调用方法，编写 PHP Connector",
           "update_time": "2020-05-22",
-          "label": ""
+          "label": "2026196"
         }
       ]
     },
