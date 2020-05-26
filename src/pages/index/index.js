@@ -322,19 +322,20 @@ export default class Index extends React.Component{
                    <div className="indexHomeVideoContainer content1200">
                         <div className="indexHomeVideoTitle">专家寄语</div>
                         <div  className="indexHomeVideoItem">
-                       
-                            <video className="indexHomeVideoSelf" onClick={()=>{this.controlVideo()}}>
+                            <div className="indexHomeVideoSelfOveflay"></div>
+                        <iframe title="iframetitle" className="indexHomeVideoSelf" src="//player.bilibili.com/player.html?aid=413293097&bvid=BV1pV411C7Bs&page=1" scrolling="no" border="0" frameBorder="no" framespacing="0" allowFullScreen={true}> </iframe>
+                            {/* <video  onClick={()=>{this.controlVideo()}}>
                                
-                                <source src="http://f.video.weibocdn.com/001ZY25Sgx07DzaYaylx010412013ACX0E010.mp4?label=mp4_720p&template=1280x720.25.0&trans_finger=721584770189073627c6ee9d880087b3&Expires=1590496975&ssig=l4IKbWpcc0&KID=unistore,video" type="video/mp4"/>
+                                <source src="https://www.bilibili.com/video/BV1pV411C7Bs/" type="video/mp4"/>
                                 
-                                <source src="http://upos-sz-mirrorkodo.bilivideo.com//upgcxcode//95//21//194332195//194332195-1-208.mp4?e=ig8euxZM2rNcNbKV7bdVhwdl7wdjhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1590464679&gen=playurl&os=kodobv&oi=837395164&trid=c171c273fab94864820db2501de85123T&platform=html5&upsig=8971ff7a2d7cd35261cf3323514c497d&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=580104086&logo=80000000" type="video/mp4"/>
+                               
                                 Your browser does not support the video tag.
-                            </video>
-                            <div className="indexHomeVideoItemOverLay">
+                            </video> */}
+                            {/* <div className="indexHomeVideoItemOverLay">
                                 <div className="indexHomeVideoItemButton" onClick={()=>{this.getVideoPlay()}}>
                                     <div className="indexHomeVideoItemButtonTri"></div>
                                 </div>
-                            </div>
+                            </div> */}
                             
                         </div>
                         
