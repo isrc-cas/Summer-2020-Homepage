@@ -323,7 +323,8 @@ export default class Index extends React.Component{
                         <div className="indexHomeVideoTitle">专家寄语</div>
                         <div  className="indexHomeVideoItem">
                             <video className="indexHomeVideoSelf" onClick={()=>{this.controlVideo()}}>
-                            {/* <iframe src="//xbeibeix.com/api/bilibili/biliplayer/?url=BV1pV411C7Bs" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe> */}
+                                <source src="https://f.video.weibocdn.com/001ZY25Sgx07DzaYaylx010412013ACX0E010.mp4?label=mp4_720p&template=1280x720.25.0&trans_finger=721584770189073627c6ee9d880087b3&Expires=1590489806&ssig=t3m6DZhcUT&KID=unistore,video" type="video/mp4"/>
+                                
                                 <source src="http://upos-sz-mirrorkodo.bilivideo.com//upgcxcode//95//21//194332195//194332195-1-208.mp4?e=ig8euxZM2rNcNbKV7bdVhwdl7wdjhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1590464679&gen=playurl&os=kodobv&oi=837395164&trid=c171c273fab94864820db2501de85123T&platform=html5&upsig=8971ff7a2d7cd35261cf3323514c497d&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=580104086&logo=80000000" type="video/mp4"/>
                                 Your browser does not support the video tag.
                             </video>

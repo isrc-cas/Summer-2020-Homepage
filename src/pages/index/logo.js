@@ -22,6 +22,10 @@ const logolistMap = {
             img:'kaiyuanlianmeng.jpg',
             url:'http://www.coscl.org.cn/'
         },
+        // {
+        //     img:'PostgreSQL.jpg',
+        //     url:'https://www.postgresqlchina.com/'
+        // },
     ],
     opencommunity:[
         {
@@ -71,7 +75,11 @@ const logolistMap = {
             img:'c_ApachePulsar.jpg',
             url:'https://pulsar.apache.org/',
         },
-        
+        // {
+        //     name:'Apache ServiceComb',
+        //     img:'c_ApacheServiceComb.jpg',
+        //     url:'http://servicecomb.apache.org',
+        // },
        
         {
             name:'ApacheShardingSphere',
@@ -160,6 +168,11 @@ const logolistMap = {
             img:'c_MindSpore.jpg',
             url:'https://www.mindspore.cn',
         },
+        // {
+        //     name:'MiniGUI',
+        //     img:'c_MiniGUI.jpg',
+        //     url:' http://www.minigui.com/',
+        // },
         
         {
             name:'milvus',

@@ -365,7 +365,8 @@ export default class Organisation extends React.Component{
             displayProjects:divContainer,
             totalProjects:temp.length,
             isLoading:false,
-            currentProjects: temp
+            currentProjects: temp,
+            currentPage: 1
         })
     }
     itemRender(current, type, originalElement) {
