@@ -14,6 +14,7 @@ export default class Organisation extends React.Component{
             allProjects:[],
             timeProjects: [],
             displayProjects:[],
+            currentProjects:[],
             currentPage: 1,
             totalProjects: 1
         }
@@ -56,6 +57,7 @@ export default class Organisation extends React.Component{
     }
     getAllProjectList () {
         document.getElementById('org-default').setAttribute("class", "org-search-bar-sort orgClick");
+        document.getElementsByClassName("ant-input-clear-icon")[0].click();
         this.resetStyle('default');
         var temp = [];
 
@@ -77,7 +79,8 @@ export default class Organisation extends React.Component{
         this.setState({
             allProjects: temp,
             isLoading:false,
-            totalProjects:temp.length
+            totalProjects:temp.length,
+            currentProjects: temp
         });
         var divContainer = [];
         temp.map((item,index)=>{
@@ -284,9 +287,9 @@ export default class Organisation extends React.Component{
     }
     changePage(pageNo) {
         var divContainer = [];
-        this.state.allProjects.map((item,index)=>{
+        this.state.currentProjects.map((item,index)=>{
             if (index < pageNo*10 && index >= (pageNo-1)*10) {
-                divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url)) 
+                divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url));
 
             }
             return 0;
@@ -302,6 +305,7 @@ export default class Organisation extends React.Component{
             currentPage: 1
         });
         if (category === 'update_time' || category === 'hot_index') {
+            document.getElementsByClassName("ant-input-clear-icon")[0].click();
             const {allProjects} = this.state;
             let newProjects = allProjects.reverse();
             // reset all style
@@ -331,7 +335,9 @@ export default class Organisation extends React.Component{
                 return 0;
             });
             this.setState({
-                displayProjects: divContainer
+                displayProjects: divContainer,
+                totalProjects: allProjects.length,
+                currentProjects: allProjects
             });
         } else {
             this.getAllProjectList();
@@ -339,18 +345,28 @@ export default class Organisation extends React.Component{
     }
     filterItem(value) {
         var divContainer = [];
+        var temp = [];
+        var i = 0;
         this.state.allProjects.map((item,index)=>{
-                
+            
             if (item.name.toLowerCase().includes(value.toLowerCase()) || item.title.toLowerCase().includes(value.toLowerCase()) || item.description.toLowerCase().includes(value.toLowerCase())) {
-                divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url));
-            }
+                if (i < 10) {
+                    divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url));
+                    temp.push(item);
+                } else {
+                    temp.push(item);
+                }
+                i++;
+            }   
+
             return 0;
           })
         this.setState({
             displayProjects:divContainer,
-            totalProjects:divContainer.length,
-            isLoading:false
-          })
+            totalProjects:temp.length,
+            isLoading:false,
+            currentProjects: temp
+        })
     }
     itemRender(current, type, originalElement) {
         if (type === 'prev') {
@@ -476,6 +492,7 @@ export default class Organisation extends React.Component{
                             <Search
                                 placeholder="请输入搜索的项目"
                                 onSearch={value => this.filterItem(value)}
+                                allowClear
                             />
                             </div>
                             <div className="org-search-bar-sort-wrapper">
