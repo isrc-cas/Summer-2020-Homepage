@@ -540,29 +540,6 @@
       ]
     },
     {
-      "anchor": "/arctern",
-      "img": "Arctern.jpg",
-      "title": "Arctern",
-      "project_url": "",
-      "url": "https://arctern.io/",
-      "description": "开源时空大数据分析平台。",
-      "full_des": "Arctern的目标是加速时空数据的处理、分析、模型预测与呈现。Arctern基于开源大数据生态，构建灵活、强大、高性能的时空数据分析平台，帮助用户应对5G/IoT带来的新型数据挑战。",
-      "tech_tag": [
-        "GIS",
-        "Spark",
-        "Pandas",
-        "GPU",
-        "Big data visualization"
-      ],
-      "domain_tag": [
-        "GIS",
-        "5G",
-        "IOT"
-      ],
-      "mail_list": "arctern-io.slack.com",
-      "email": "community@zilliz.com"
-    },
-    {
       "anchor": "/aosc",
       "img": "aosc.jpg",
       "title": "安同开源社区（AOSC）",
