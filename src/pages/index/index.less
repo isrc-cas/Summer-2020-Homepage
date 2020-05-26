@@ -263,20 +263,31 @@
                 text-align: center;
                 font-size: 24px;
                 color: #333;
-                padding: 40px 0 20px;
+                padding: 40px 0 0;
+                z-index: 4;
             }
             .indexHomeVideoItem{
                 position: relative;
                 width: 1140px;
                 /* padding: 0 30px; */
-                height: 640px;
+                height: 765px;
                 
                 margin: 0 auto ;
-                
+                margin-top: -20px;
+                z-index: 1;
                 .indexHomeVideoSelf{
                     width: 100%;
                     height: 100%;
                     position: relative;
+                }
+                .indexHomeVideoSelfOveflay{
+                    position: absolute;
+                    width: 100%;
+                    height: 48px;
+                    top:0;
+                    left: 0;
+                    background-color: #f5f6fa;
+                    z-index: 8;
                 }
                 .indexHomeVideoItemOverLay{
                     position: absolute;
