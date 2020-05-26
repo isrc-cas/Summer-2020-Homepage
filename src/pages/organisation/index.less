@@ -86,36 +86,12 @@
         background-color: #d8dff1;
         padding-bottom: 27px;
         min-height: calc(100vh - 437px);
-        .orgListWrapperItem:nth-child(3n+3){
-            //    border:10px solid #333;
-            .org-tooltip{
-                left: -818px !important;
-            }
-        }
-        .orgListWrapperItem:nth-child(3n+1){
-                
-            .org-tooltip{
-                left: 0 !important;
-            }
-        }
 
-        .orgListWrapperItem:nth-child(3n+2){
-                
-            .org-tooltip{
-                left: -409px !important;
-            }
-        }
         .orgList {
             position: relative;
             display: grid;
             justify-content: space-between;
             grid-template-columns: repeat(auto-fill, 382px);
-           
-            
-
-           
-
-            
             .orgListItem {
                 position: relative;
                 text-align: left;
@@ -163,8 +139,6 @@
                 padding: 0 30px 28px 30px;
             }
            
-            
-            
             .org-tooltip {
                 position: relative;
                 background-color: white;
@@ -516,6 +490,9 @@
                     width: 90vw;
                     box-sizing: border-box;
                     left: 0 !important;
+                    .triangle {
+                        left: 45vw !important;
+                    }
                     .tooltip-divider {
                         width: 90vw;
                         margin-left: -20px;
@@ -545,6 +522,31 @@
 
             }
             
+        }
+        .orgListWrapperItem:nth-child(3n+3){
+            //    border:10px solid #333;
+            .org-tooltip{
+                left: -818px;
+            }
+            .triangle {
+                left: 989px;
+            }
+        }
+        .orgListWrapperItem:nth-child(3n+1){
+                
+            .org-tooltip{
+                left: 0;
+            }
+        }
+
+        .orgListWrapperItem:nth-child(3n+2){
+                
+            .org-tooltip{
+                left: -409px;
+            }
+            .triangle {
+                left: 580px;
+            }
         }
         
         @media screen and (min-width: 100px)and (max-width: 700px){
@@ -616,22 +618,7 @@
             
             
         }
-        @media screen and (min-width: 700px)and (max-width: 1100px){
 
-            .orgList{
-                .org-detail{
-                    .orgProjectButton{
-                        margin-top:-94px !important;
-                        height: 35px;
-                        line-height: 35px;
-                        left: 30px;
-                        font-size: 16px;
-                        width: 124px;
-                    }
-                }
-            }
-
-        }
         @media screen and (min-width: 700px)and (max-width:1200px){
             .orgList{
                 
@@ -640,8 +627,6 @@
                 }
                
                 .org-detail{
-                    
-                    
                     .orgProjectTitleIcon{
                         width: 100px !important;
                         top:14px !important;
@@ -670,39 +655,46 @@
                             width: 46vw;
                         }
                     }
+                    .orgProjectButton{
+                        margin-top:-94px !important;
+                        height: 35px;
+                        line-height: 35px;
+                        left: 30px;
+                        font-size: 16px;
+                        width: 124px;
+                    }
                 }
             }
 
         }
 
         @media screen and (min-width: 847px)and (max-width:1200px){
-            
-            // .orgListWrapperItem:nth-child(3n+1)>.org-tooltip,
-            // .orgListWrapperItem:nth-child(3n+2)>.org-detail,
-            // .orgListWrapperItem:nth-child(3n+2)>.org-tooltip.org-detail,
-            .orgListWrapperItem:nth-child(2n+2)>.org-tooltip{
-                left: calc(~'-90vw + 382px') !important;
+            .orgListWrapperItem:nth-child(2n+2){
+                .org-tooltip{
+                    left: calc(~'-90vw + 382px') !important;
+                }
+                .triangle{
+                    left: calc(~'90vw - 200px') !important;
+                }
             }
-            // .orgListWrapperItem:nth-child(3n+3)>.org-tooltip.org-detail,
-            .orgListWrapperItem:nth-child(2n+1)>.org-tooltip
-            // .orgListWrapperItem:nth-child(3n+3)>.org-tooltip,
-            {
-                left: 0 !important;
+            .orgListWrapperItem:nth-child(2n+1){
+                .org-tooltip {
+                    left: 0 !important;
+                }
+                .triangle {
+                    left: 171px !important;
+                }
             }
-            
-
         }
-
-        
-
-        
-
 
         @media screen and (min-width: 700px)and (max-width:847px){
 
             .orgList{
-                .org-tooltip{
+                .org-tooltip {
                     left: 0 !important;
+                }
+                .triangle {
+                    left: 171px !important;
                 }
                 .orgListWrapperItem:nth-child(3n+2)>.org-tooltip,
                 .orgListWrapperItem:nth-child(3n+3)>.org-tooltip,
@@ -710,10 +702,11 @@
                 .orgListWrapperItem:nth-child(3n+2)>.org-detail{
                     left: 0 !important;
                 }
+                .orgListWrapperItem:nth-child(3n+2)>.triangle,
+                .orgListWrapperItem:nth-child(3n+3)>.triangle{
+                    left: 171px !important;
+                }
             }
-           
-           
-
         }
        
     }
@@ -726,8 +719,6 @@
     }
     .orgListOpensource{
         position: relative;
-        // margin-bottom: 50px;
-        // margin-top:30px;
         margin: 30px auto 50px auto;
         .orgOpensourceItem{
             display: inline-block;
@@ -753,14 +744,10 @@
                 width: 100%;        
             }
         }
-       
-       
     }
     #orgProjectWrapper {
         padding-bottom: 27px;
         display: none;
         background-color: #d8dff1;
     }
-
-
 }

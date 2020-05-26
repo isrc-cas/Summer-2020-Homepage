@@ -135,34 +135,37 @@ export default class Organisation extends React.Component{
                 console.log('org ready weixin');
                 document.title = `社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
             }
-            if (window.innerWidth > 1200) {
-                switch(index % 3) {
-                    case 1:
-                        document.getElementById(index+"-tooltip").style.left = '-409px';
-                        document.getElementById(index+"-triangle").style.left = '580px';
-                        break;
-                    case 2:
-                        document.getElementById(index+"-tooltip").style.left = '-818px';
-                        document.getElementById(index+"-triangle").style.left = '989px';
-                        break;
-                    default:
-                        break;
-                }
-                document.getElementById(index+"-tooltip").style.display = 'flex';
-            } 
-            else if(window.innerWidth > 850){
-                switch(index % 2) {
-                    case 1:
-                        document.getElementById(index+"-tooltip").style.left = `calc(-90vw + 382px)`;
-                        document.getElementById(index+"-triangle").style.left = '580px';
-                        break;
-                    default:
-                        document.getElementById(index+"-tooltip").style.left = '0';
-                        break;
-                }
-                document.getElementById(index+"-tooltip").style.display = 'flex';
+            // if (window.innerWidth > 1200) {
+            //     switch(index % 3) {
+            //         case 1:
+            //             document.getElementById(index+"-tooltip").style.left = '-409px';
+            //             document.getElementById(index+"-triangle").style.left = '580px';
+            //             break;
+            //         case 2:
+            //             document.getElementById(index+"-tooltip").style.left = '-818px';
+            //             document.getElementById(index+"-triangle").style.left = '989px';
+            //             break;
+            //         default:
+            //             break;
+            //     }
+            //     document.getElementById(index+"-tooltip").style.display = 'flex';
+            // } 
+            // else if(window.innerWidth > 850){
+            //     switch(index % 2) {
+            //         case 1:
+            //             document.getElementById(index+"-tooltip").style.left = `calc(-90vw + 382px)`;
+            //             document.getElementById(index+"-triangle").style.left = `calc(90vw - 300px)`;
+            //             break;
+            //         default:
+            //             document.getElementById(index+"-tooltip").style.left = '0';
+            //             break;
+            //     }
+            //     document.getElementById(index+"-tooltip").style.display = 'flex';
 
-            } 
+            // } 
+            if (window.innerWidth > 845) {
+                document.getElementById(index+"-tooltip").style.display = 'flex';
+            }
             else {
                 document.getElementById(index+"-tooltip").style.display = 'block';
                 document.getElementById(index+"-tooltip").style.left = '0';
