@@ -323,7 +323,7 @@ export default class Index extends React.Component{
                         <div className="indexHomeVideoTitle">专家寄语</div>
                         <div  className="indexHomeVideoItem">
                             <div className="indexHomeVideoSelfOveflay"></div>
-                        <iframe title="iframetitle" className="indexHomeVideoSelf" src="//player.bilibili.com/player.html?aid=413293097&bvid=BV1pV411C7Bs&page=1" scrolling="no" border="0" frameBorder="no" framespacing="0" allowFullScreen={true}> </iframe>
+                        <iframe title="iframetitle" className="indexHomeVideoSelf" src="//player.bilibili.com/player.html?aid=413293097&bvid=BV1pV411C7Bs&page=1&high_quality=1" scrolling="no" border="0" frameBorder="no" framespacing="0" allowFullScreen={true}> </iframe>
                             {/* <video  onClick={()=>{this.controlVideo()}}>
                                
                                 <source src="https://www.bilibili.com/video/BV1pV411C7Bs/" type="video/mp4"/>
