@@ -308,6 +308,28 @@
       ]
     },
     {
+      "anchor": "/apache-servicecomb",
+      "img": "service-comb.jpg",
+      "title": "Apache ServiceComb",
+      "project_url": "",
+      "url": "https://servicecomb.apache.org",
+      "description": "一站式开源微服务解决方案。",
+      "full_des": "Apache ServiceComb 是Apache基金会首个毕业的开源微服务框架项目。是一个开箱即用、高性能、兼容流行生态、支持多语言的一站式开源微服务解决方案。",
+      "tech_tag": [
+        "微服务",
+        "服务网格",
+        "Saga",
+        "云原生",
+        "go",
+        "java"
+      ],
+      "domain_tag": [
+        "微服务"
+      ],
+      "mail_list": "https://servicecomb.apache.org/cn/developers/subscribe-mail-list",
+      "email": "dev@servicecomb.apache.org"
+    },
+    {
       "anchor": "/apache-sharding",
       "img": "sharding.jpg",
       "title": "Apache ShardingSphere",
@@ -538,29 +560,6 @@
           "label": "2005036"
         }
       ]
-    },
-    {
-      "anchor": "/arctern",
-      "img": "Arctern.jpg",
-      "title": "Arctern",
-      "project_url": "",
-      "url": "https://arctern.io/",
-      "description": "开源时空大数据分析平台。",
-      "full_des": "Arctern的目标是加速时空数据的处理、分析、模型预测与呈现。Arctern基于开源大数据生态，构建灵活、强大、高性能的时空数据分析平台，帮助用户应对5G/IoT带来的新型数据挑战。",
-      "tech_tag": [
-        "GIS",
-        "Spark",
-        "Pandas",
-        "GPU",
-        "Big data visualization"
-      ],
-      "domain_tag": [
-        "GIS",
-        "5G",
-        "IOT"
-      ],
-      "mail_list": "arctern-io.slack.com",
-      "email": "community@zilliz.com"
     },
     {
       "anchor": "/aosc",
@@ -1485,6 +1484,84 @@
       ]
     },
     {
+      "anchor": "/minigui",
+      "img": "minigui.jpg",
+      "title": "MiniGUI",
+      "project_url": "https://gitlab.fmsoft.cn/VincentWei/build-minigui-5.0/blob/master/summer-2020/README.md",
+      "url": "http://www.minigui.com",
+      "description": "跨操作系统的图形用户界面（GUI）支持系统。",
+      "full_des": "MiniGUI是一个快速、稳定、跨操作系统的图形用户界面（GUI）支持系统，广泛应用于智能硬件、智能物联网设备当中，用于为上层应用程序提供图形及图形用户界面的支持。",
+      "tech_tag": [
+        "Linux",
+        "RTOS",
+        "Mini",
+        "GUI"
+      ],
+      "domain_tag": [
+        "嵌入式软件开发",
+        "开源社区"
+      ],
+      "mail_list": "contact@minigui.com",
+      "email": "contact@minigui.com",
+      "project_list": [
+        {
+          "name": "面向小屏幕智能设备的 MiniGUI 合成器",
+          "description": "自 MiniGUI 5.0 起，MiniGUI 的多进程模式开始支持合成图式（compositing schema）。合成图式是现代桌面操作系统和智能手机操作系统的图形及窗口系统使用的技术，其基本原理很简单：系统中所有进程创建的每一个窗口都使用独立的缓冲区来各自渲染其内容，而系统中有一个扮演合成器（compositor）角色的进程，负责将这些内容根据窗口的 Z 序以及叠加效果（如半透明、模糊等）合成在一起并最终显示在屏幕上。本项目要求为 MiniGUI 5.0 的合成图式开发一个适合于小屏幕智能设备的定制合成器，实现自定义的窗口层叠效果（如阴影、模糊、不规则窗口等），以及窗口的切换动画等效果。",
+          "difficulty": "高",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2038244"
+        },
+        {
+          "name": "MiniGUI 的 DRM 加速图形引擎",
+          "description": "DRM 已经成为 Linux 环境中新一代的现代图形支持框架。自 4.0 版本以来，MiniGUI 支持 DRM，但目前只提供了一个针对早期 Intel i915 芯片的加速图形引擎。该项目要求您为某个支持 DRM 且包含基础 2D 加速能力的 GPU 开发一个 MiniGUI 的 DRM 加速图形引擎。该 GPU 可以是 PC 显卡，也可以是嵌入式 SoC，如全志、瑞芯或者展讯的 SoC。",
+          "difficulty": "中",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2038245"
+        },
+        {
+          "name": "HybridOS 图形栈增强",
+          "description": "HybridOS 是飞漫软件正在开发中的针对物联网的新一代操作系统。飞漫软件已基于 MiniGUI、Mesa、Cairo 等开源软件发布了 HybridOS 图形栈。在 Mesa 的 MiniGUI Backend 实现中，目前未提供对 EGL pixel buffer 的支持。本项目要求在现有 Mesa MiniGUI backend 的实现基础上，提供对 EGL pixel buffer 的支持。",
+          "difficulty": "中",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2038246"
+        },
+        {
+          "name": "MiniGUI 中文输入法增强",
+          "description": "MiniGUI 现有开源的中文输入法引擎已经过时了。本项目要求移植一个成熟的开源中文输入法引擎，使得 MiniGUI 应用可以获得更好的中文输入法支持。",
+          "difficulty": "低",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2038247"
+        },
+        {
+          "name": "将 MiniGUI 5.0 运行到 RT-Thread 或者 FreeRTOS 开发板上",
+          "description": "将 MiniGUI 5.0 (Standalone 或者 Threads 模式）移植到运行 RT-Thread 或者 FreeRTOS 的开发板上。需要开发针对具体开发板的图形引擎、输入引擎等。",
+          "difficulty": "低",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-26",
+          "label": "2038248"
+        }
+      ]
+    },
+    {
       "anchor": "/oi-wiki",
       "img": "oi.jpg",
       "title": " OI Wiki",
@@ -1778,7 +1855,7 @@
         {
           "name": "iSula 相关项目支持编译 Debian 包",
           "description": "当前 iSula 相关项目，只支持 rpm 编译方式（提供了spec文件）。但是 Debian 相关的系统上面需要源码编译，所以存在编译不方便的问题。因此，需要提供 Debian 打包的支持。",
-          "difficulty": "简单",
+          "difficulty": "低",
           "mentor": "@haozi007",
           "contact": "liuhao27@huawei.com",
           "co-mentor": "",
@@ -2009,7 +2086,7 @@
         {
           "name": "基于 openEuler 的 4.19 内核主线 virtiofs 并完成构建和基础使用",
           "description": "virtio-fs是使用FUSE协议在host和guest之间通信，实现在不同guest之间共享同一个host目录树结构，拥有较好的性能和跟本地文件系统(如ext4)一样的语义。",
-          "difficulty": "简单",
+          "difficulty": "低",
           "mentor": "volcanodragon",
           "contact": "liuzhiqiang@huawei.com",
           "co-mentor": "",
@@ -2136,7 +2213,7 @@
           "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
           "hot_index": 0,
           "update_time": "2020-05-26",
-          "label": "2021237"
+          "label": "2021249"
         },
         {
           "name": "对 openEuler 社区发布包 MySQL 进行加固测试",
