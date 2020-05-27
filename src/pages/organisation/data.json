@@ -1300,7 +1300,20 @@
         "容器"
       ],
       "mail_list": "community@kfcoding.com",
-      "email": "gitcourse@kfcoding.com"
+      "email": "gitcourse@kfcoding.com",
+      "project_list": [
+        {
+          "name": "基于 vscode 插件的 GitCourse 制作工具",
+          "description": "GitCourse 是基于 React 的前端项目，使用了 Docker 作为实训环境基础设施，目的是以自由软件促进学校的基本计算机科学教育。GitCourse 需要通过 Git 代码仓库来存储与分发课程，通常需要制作者具备源代码级的协作经验，不利于课程的快速制作和修改。本项目目标是实现一个基于 vscode 插件的 GitCourse 制作工具，通过图形界面辅助课程制作者构建 GitCourse 课程。",
+          "difficulty": "中",
+          "mentor": "刘畅",
+          "contact": "liuchangfreeman@live.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-27",
+          "label": ""
+        }
+      ]
     },
     {
       "anchor": "/huawei-liteos",
