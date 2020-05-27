@@ -311,7 +311,7 @@
       "anchor": "/apache-servicecomb",
       "img": "service-comb.jpg",
       "title": "Apache ServiceComb",
-      "project_url": "",
+      "project_url": "http://servicecomb.apache.org/cn/summer2020",
       "url": "https://servicecomb.apache.org",
       "description": "一站式开源微服务解决方案。",
       "full_des": "Apache ServiceComb 是Apache基金会首个毕业的开源微服务框架项目。是一个开箱即用、高性能、兼容流行生态、支持多语言的一站式开源微服务解决方案。",
@@ -3141,19 +3141,6 @@
       ],
       "mail_list": "volcano-sh@googlegroups.com",
       "email": "volcano-sh@googlegroups.com"
-    },
-    {
-      "anchor": "/xlab",
-      "img": "xlab.jpg",
-      "title": "X-Lab",
-      "project_url": "",
-      "url": "http://xlab.kfcoding.com/",
-      "description": "技术传播文明，践行同步世界。",
-      "full_des": "",
-      "tech_tag": [],
-      "domain_tag": [],
-      "mail_list": "",
-      "email": ""
     }
   ],
   "creditList": [
