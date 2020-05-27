@@ -128,7 +128,7 @@ export default class Organisation extends React.Component{
 
                 if (isDetail) {
                     document.getElementById(index+"-orgListItem").style.display = 'none';
-                    document.getElementById(index+"-tooltip").style.left = 0;
+                    // document.getElementById(index+"-tooltip").style.left = 0;
                 }
                 return 0;
             });
