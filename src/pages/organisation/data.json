@@ -83,6 +83,16 @@
           "description": "增加 commit message checker，以规范贡献者 commit 格式。",
           "update_time": "2020-05-19",
           "label": "2001141"
+        },
+        {
+          "name": "网站本地化",
+          "difficulty": "低",
+          "mentor": "琚致远",
+          "contact": "juzhiyuan@apache.org",
+          "hot_index": 0,
+          "description": "翻译以下页面为指定语言： 下载页 为 中文； 2FA 为 中文； 安全指南 为 中文； 贡献者指南 为 中文； 发布指南 为 英文；",
+          "update_time": "2020-05-27",
+          "label": ""
         }
       ]
     },
@@ -111,9 +121,9 @@
           "difficulty": "低",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "student_count": 0,
-          "description": "提供后端接口。在任务节点中新增“延时等待”的属性，支持任务在开始后一段时间内等待前置任务完成。",
-          "update_time": "2020-05-16",
+          "hot_index": 0,
+          "description": "提供后端接口。在任务节点中新增“延时等待”的属性，支持任务在开始后一段时间内等待前置任务完成。针对调度（任务）执行时，前置依赖没有就绪的情况下，当前任务等待一段时间，在等待时间内，如前置任务就绪，则开始执行当前任务。",
+          "update_time": "2020-05-27",
           "label": "2002005"
         },
         {
@@ -135,6 +145,36 @@
           "student_count": 0,
           "update_time": "2020-05-13",
           "label": "2002007"
+        },
+        {
+          "name": "用户自助注册（后端）",
+          "description": "提供后端接口供用户自助注册。通过用户自助的注册的方式，用户可以创建自己的账号。但是需要管理员审核通过后，账号才能登陆系统。注册信息包括：用户名，密码，邮箱",
+          "difficulty": "中",
+          "mentor": "Lidong Dai",
+          "contact": "lidongdai@apache.org",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": ""
+        },
+        {
+          "name": "工作流标签（后端）",
+          "description": "提供后端接口供用户用标签对工作流分类。工作流标签主要是解决当工作流数量太多时，工作流难以查找的问题。通过标签，用户可以快速查找/筛选对应的工作流。",
+          "difficulty": "中",
+          "mentor": "Gabry.wu",
+          "contact": "wu_shao_jie@qq.com",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": ""
+        },
+        {
+          "name": "弱依赖类型任务（后端）",
+          "description": "弱依赖类型任务为：1）弱依赖任务的执行结果不影响所属工作流的执行结果。即：当弱依赖的任务执行失败时，整个工作流的后续依赖也可以正常执行。2）弱依赖任务失败后，同样可以重跑。",
+          "difficulty": "中",
+          "mentor": "Gabry.wu",
+          "contact": "wu_shao_jie@qq.com",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": ""
         },
         {
           "name": "任务空跑（后端）",
@@ -450,6 +490,16 @@
           "label": "2005025"
         },
         {
+          "name": "支持将当前上下文的segment id 和span id和注入到日志组件中",
+          "description": "模仿目前trace id 注入的模式，响应的支持segment id和span id的注入 https://github.com/apache/skywalking/issues/388",
+          "difficulty": "中",
+          "mentor": "吴晟",
+          "contact": "wu.sheng@foxmail.com",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": ""
+        },
+        {
           "name": "端到端测试框架本地调试增强",
           "description": "测试框架在本地 IDE 直接连接进入容器进行调试",
           "difficulty": "中",
@@ -590,13 +640,13 @@
       "email": "discussions@lists.aosc.io",
       "project_list": [
         {
-          "name": "发行版构建自动化：自动化打包的调度器",
+          "name": "发行版构建自动化：打包调度器",
           "difficulty": "高",
           "mentor": "Dingyuan Wang",
           "contact": "gumblex@aosc.io",
           "student_count": 0,
           "description": "社区主要项目 AOSC OS 的一部分构建过程仍然依赖手工操作。即使大部分繁杂的工作已经能为数个社区项目很好地完成，AOSC OS 仍然面临着社区人手严重不足而带来的更新速度不足及潜在质量缺陷问题。于是我们希望建立一套切合社区实际情况的，能将发行版构建 95% 的操作自动化的基础设施来解决上述问题，以求 AOSC OS 的可持续发展。目前分布式打包方案中包括构建机、调度器、软件包仓库管理和触发器四个部分，其中构建机和调度器是最重要的部分。本项目为编写一套功能较为完整的软件包构建调度器，以实现像 BOINC 分布式科学计算那样，自动分配打包任务、回收二进制软件包和打包时的日志和统计信息。调度器的调度模型、依赖解析已经实现，需要设计并实现的是接口和管理功能。",
-          "update_time": "2020-05-17",
+          "update_time": "2020-05-27",
           "label": "2007037"
         },
         {
@@ -702,6 +752,16 @@
           "description": "Casbin在初始化时将规则集装载到内存中，在规则集发生变更时将该次变更持久化到文件或者数据库等媒介。我们希望在此基础上： 1）基于Raft协议实现单机、分布式环境中不同Casbin实例的规则集同步；２）探索如何将规则集分组，映射到不同节点，使特定规则集的增，删以及某个请求的权限计算都在正确的节点进行，以此减轻单机的内存压力。",
           "update_time": "2020-05-17",
           "label": "2008044"
+        },
+        {
+          "name": "Casbin服务化（C++）",
+          "difficulty": "中",
+          "mentor": "谢非 (Joey)",
+          "contact": "joey.xf@gmail.com",
+          "hot_index": 0,
+          "description": "基于C++版本的casbin探索casbin服务化的可能性，目标是在微服务架构中提供开箱即用的中心化的授权服务",
+          "update_time": "2020-05-27",
+          "label": ""
         }
       ]
     },
@@ -722,7 +782,7 @@
       "project_list": [
         {
           "name": "Ceph官方文档本地化",
-          "difficulty": "适中",
+          "difficulty": "中",
           "mentor": "耿航",
           "contact": "devin@ceph.org.cn",
           "student_count": 0,
@@ -732,13 +792,23 @@
         },
         {
           "name": "轻量级对象存储网关",
-          "difficulty": "适中",
+          "difficulty": "中",
           "mentor": "郭峰",
           "contact": "diluga@ceph.org.cn",
           "student_count": 0,
           "description": "Ceph是一套开源的分布式存储软件，原生已经提供了对象存储网关服务(Rados gateway)，但是该对象存储和底层Ceph的耦合度高，不易改造和扩展新的概念。本次项目的目标是基于Ceph已经提供的Librados API，实现轻量级的对象存储网关服务，满足基本的大、小文件的上传下载的同时还能实现图片缩略图、裁剪、翻转等简单的多媒体操作。",
           "update_time": "2020-05-13",
           "label": "2009046"
+        },
+        {
+          "name": "Ceph社区文件存储系统",
+          "difficulty": "中",
+          "mentor": "曹言虎",
+          "contact": "tiger@ceph.org.cn",
+          "hot_index": 0,
+          "description": "Ceph是目前业界最火的开源项目之一，对外可以提供统一的块、文件、对象存储接口，由于存储的专业性和门槛，本项目主要致力于帮助学生能够快速参与社区，主要是修复一些社区的Bug（难易/紧急程度依次递增）。",
+          "update_time": "2020-05-27",
+          "label": ""
         }
       ]
     },
@@ -822,64 +892,184 @@
       "email": "contact@elastos.org",
       "project_list": [
         {
-          "name": "Elastos DID 存证项目",
+          "name": "基于Elastos DID 侧链的区块链存证和证书",
           "difficulty": "中",
           "mentor": "Bruce Zhang",
           "contact": "zyx@elaphant.app",
           "student_count": 0,
           "description": "区块链的基本功能是信息存证。但这一基本功能，并未能向大众或对区块链有兴趣的用户普及。很多存证应用，也是为了为应用导流，从而导致产品复杂。我们希望能为普通用户，做一款方便体验的区块链存证服务，不强调KYC、不强调助记词、甚至不强调dAPP……就是让用户用最简单的方式，实现数据上链，作为对区块链的第一次体验。社区已经利用相关接口做出了一版产品，可供参考： https://zhengshu.elastos.org/ 我们希望能对此进行改进，并封装为小程序，以方便用户调用。其他改进也可自行添加。",
-          "update_time": "2020-05-14",
+          "update_time": "2020-05-27",
           "label": "2011050"
         },
         {
           "name": "CLIENT 功能扩展",
-          "difficulty": "",
-          "mentor": "",
-          "contact": "",
-          "student_count": 0,
+          "difficulty": "中",
+          "mentor": "Zehua jiang",
+          "contact": "jiangzehua@gelaxy.io",
+          "hot_index": 0,
           "description": "Client是主链上面向开发者的钱包,支持地址创建及简单交易生成。但是很多交易现有的Client并不支持创建,如仲裁人选举、CR（Cyber Rpublic）委员选举及CR提案相关交易等。本题旨在完善主链Client功能,支持更多的交易生成。",
-          "update_time": "2020-05-14",
+          "update_time": "2020-05-27",
           "label": "2011051"
         },
         {
           "name": "CYBERREPUBLIC 提案监测工具",
-          "difficulty": "",
-          "mentor": "",
-          "contact": "",
-          "student_count": 0,
+          "difficulty": "高",
+          "mentor": "Zehua jiang",
+          "contact": "jiangzehua@gelaxy.io",
+          "hot_index": 0,
           "description": "在支持CR委员选举及CR提案注册的主链版本发布后,链上将会出现很多的提案,有的刚注册上链,有的过了评议期,有的进入了公投期,有的正在执行,有的已经执行结束。本题旨在开发提案处理监测工具,实时监测当前存在的提案详情信息,促进提案的有效处理。",
-          "update_time": "2020-05-14",
+          "update_time": "2020-05-27",
           "label": "2011052"
         },
         {
           "name": "ETH 侧链开发",
-          "difficulty": "",
-          "mentor": "",
-          "contact": "",
-          "student_count": 0,
+          "difficulty": "中",
+          "mentor": "Xiaobin Zhang, black",
+          "contact": "zhangxiaobin@gelaxy.io",
+          "hot_index": 0,
           "description": "亦来云的ETH侧链是基于以太坊源码进行开发的。所以ETH侧链完美兼容了以太坊的所有功能和开发方式。可以采用开发以太坊应用的方式来开发亦来云的以太坊侧链应用,比如以太坊的Web3.js库。 我们现在就利用Web3.js 库开发基于亦来云侧链的一些应用。",
-          "update_time": "2020-05-14",
+          "update_time": "2020-05-27",
           "label": "2011053"
         },
         {
+          "name": "主链节点参数简化",
+          "difficulty": "中",
+          "mentor": "Zehua jiang",
+          "contact": "jiangzehua@gelaxy.io",
+          "hot_index": 0,
+          "description": "目前主链配置文件中很多参数是为了测试添加,参数庞杂。bitcoin中开放出来的参数都是对共识没有影响,只是改变节点本身支持的功能项,本题旨在参考其bitcoin,调整目前的参数配置,提供一个面向普通用户的简介版本。",
+          "update_time": "2020-05-27",
+          "label": "2011055"
+        },
+        {
+          "name": "桌面端钱包",
+          "difficulty": "中",
+          "mentor": "Zehua jiang",
+          "contact": "jiangzehua@gelaxy.io",
+          "hot_index": 0,
+          "description": "相比轻量级SPV钱包而言，全节点钱包能获完整的区块信息，支持更多复杂的业务功能扩展。目前有的钱包大多数都是移动端钱包及网页钱包，缺少安卓及苹果版桌面端钱包，桌面端钱包可以给PC端用户带来更多的便利。本题旨在开发一款全节点桌面端钱包。",
+          "update_time": "2020-05-27",
+          "label": ""
+        },
+        {
           "name": "简易版 SPV 钱包",
-          "difficulty": "",
-          "mentor": "",
-          "contact": "",
-          "student_count": 0,
+          "difficulty": "中",
+          "mentor": "Yingxiong Pan",
+          "contact": "heroopan@gmail.com",
+          "hot_index": 0,
           "description": "并非所有的节点都有能⼒储存完整的区块链。SPV的方式可以使它们在不必存储完整区块链的情况下进行工作。这种类型的客端被称为SPV客户端或轻量级客户端。SPV节点只需下载区块头,而不用下载包含在每个区块中的交易信息。由此产生的不含交易信息的区块链,大小比完整区块链小得多。因此,适合智能电话、平板电脑、嵌⼊式系统等这样的设备。本题旨在开发一款桌面版/移动端的Elastos轻量级客户端。",
-          "update_time": "2020-05-14",
+          "update_time": "2020-05-27",
           "label": "2011054"
         },
         {
-          "name": "主链节点参数简化",
-          "difficulty": "",
-          "mentor": "",
-          "contact": "",
-          "student_count": 0,
-          "description": "目前主链配置文件中很多参数是为了测试添加,参数庞杂。bitcoin中开放出来的参数都是对共识没有影响,只是改变节点本身支持的功能项,本题旨在参考其bitcoin,调整目前的参数配置,提供一个面向普通用户的简介版本。",
-          "update_time": "2020-05-14",
-          "label": "2011055"
+          "name": "Carrier Go/Python/NodeJs SDK以及APIs",
+          "difficulty": "中",
+          "mentor": "Tang Zhilong",
+          "contact": "tangzhilong@trinity-tech.io",
+          "hot_index": 0,
+          "description": "Elastos Carrier是去中心的端对端加密的消息/数据通信平台。目前主要支持3个不同的语言版本的SDK：C/Native (Linux/MacOS/Windows); Android/Java; iOS/Swift。 其中，Carrier Native SDK是最基础和核心的实现，由基础语言C实现，同时通过CMake 方式构建整个项目系统。而Android Java SDK是通过JNI集成低层的Native 实现，通过封装C接口并以Java接口呈现给Android Java开发者。同样地，iOS Swift SDK也是通过Swift封装底层SDK C接口和静态库，以Swift 接口形式的Carrier 接口供iOS开发者使用。 目前社区开发者除了Java/Swift Carrier APIs接口需求外，也有对Carrier SDK有其他高层语言接口的需求，比如Go，Python以及NodeJs等。希望社区参与者能够根据底层Native/C接口形式，同时能够抽象和实现基于Go/Python/NodeJs的 Carrier SDK封装接口和对应SDK。",
+          "update_time": "2020-05-27",
+          "label": ""
+        },
+        {
+          "name": "Carrier离线消息中继服务",
+          "difficulty": "高",
+          "mentor": "Tang Zhilong",
+          "contact": "tangzhilong@trinity-tech.io",
+          "hot_index": 0,
+          "description": "在去中心化Carrier消息通信网络中，如果节点Bob向Friend节点Alice发送消息时，分为以下两种场景：如果好友Alice节点处于在线连接状态，则Bob节点直接通过Carrier网络将消息传送到Alice节点；如果好友Alice节点处于离线状态，则Bob节点将消息暂存在去中心化Hive IPFS/Cluster存储网络。一旦好友Alice节点上线后，则直接向Hive IPFS/Cluster存储网络获取所有发送自己的所有离线消息。目前离线消息存储网络Hive IPFS/Cluster 与Carrier通信网络时两个分离的网络。该主题任务希望借助于本身Carrier 网络节点（或者Carrier bootstrap节点）的基础上提供去中心化的离线消息发送/接收服务。",
+          "update_time": "2020-05-27",
+          "label": ""
+        },
+        {
+          "name": "DID SDK的API文档编写",
+          "difficulty": "低",
+          "mentor": "Tang Zhilong",
+          "contact": "tangzhilong@trinity-tech.io",
+          "hot_index": 0,
+          "description": "Elastos DID 是Elastos生态中去中心化的ID身份系统，完全兼容W3C DID/可验证凭证标准，目前Elastos DID在客户端侧SDK已经支持以下特性：创建去中心化的DID身份；DID身份对应的DID文档发布/更新到DID侧链；本地DID文档以及私钥管理；可验证凭证/呈现等接口；同时Elastos DID 提供已Java/Swift/Native等SDK版本供开发者选择使用。虽然目前已经基本完成以上眼版本的SDK的开发，但是目前对应的APIs文档还不完善，有的版本（例如Java SDK）还未启动APIs文档编写。欢迎社区开发者能够在理解相关SDK接口的基础上，按照APIs注释规范，不断完善和丰富APIs接口文档，同时能够编写和完善相应的开发者指导文档。",
+          "update_time": "2020-05-27",
+          "label": ""
+        },
+        {
+          "name": "Elastos DID Go/Python/NodeJs SDK和APIs",
+          "difficulty": "中",
+          "mentor": "Tang Zhilong",
+          "contact": "tangzhilong@trinity-tech.io",
+          "hot_index": 0,
+          "description": "Elastos DID 是Elastos生态中去中心化的ID身份系统，完全兼容W3C DID/可验证凭证标准，目前Elastos DID在客户端侧SDK已经支持以下特性： 创建去中心化的DID身份； DID身份对应的DID文档发布/更新到DID侧链； 本地DID文档以及私钥管理； 可验证凭证/呈现等接口； 目前主要支持3个不同的语言版本的SDK（但是APIs只是形式不同，接口语义基本一致） C/Native (Linux/MacOS); Java SDK; Swift SDK。 目前社区开发者除了Java/Swift/C版本 APIs接口需求外，也有对其他高层语言接口的需求，比如Go，Python以及NodeJs等。希望社区参与能在理解Elasots DID的基础上，根据底层DID/C接口形式，能够抽象和实现基于Go/Python/NodeJs的 DID封装接口和对应SDK。",
+          "update_time": "2020-05-27",
+          "label": ""
+        },
+        {
+          "name": "DID 浏览器插件，支持DID登录",
+          "difficulty": "高",
+          "mentor": "Tang Zhilong",
+          "contact": "tangzhilong@trinity-tech.io",
+          "hot_index": 0,
+          "description": "Elastos DID 是Elastos生态中去中心化的ID身份系统，完全兼容W3C DID/可验证凭证标准，目前Elastos DID在客户端侧SDK已经支持以下特性： 创建去中心化的DID身份； DID身份对应的DID文档发布/更新到DID侧链； 本地DID文档以及私钥管理； 可验证凭证/呈现等接口. 同时Elastos DID 提供已Java/Swift/Native等SDK版本供开发者选择使用。此外，Elatos Trinity平台（即elatOS平台）也提供类似接口的typescript（javascript）的接口。 欢迎社区开发者实现基于任一浏览器（比如Safari/Chrome/Opera等）的Elastos DID服务插件，用户能够通过该DID 服务插件授权Elastos DID身份登录Elastos 应用。",
+          "update_time": "2020-05-27",
+          "label": ""
+        },
+        {
+          "name": "DID在溯源或其他领域的应用",
+          "difficulty": "高",
+          "mentor": "Tang Zhilong",
+          "contact": "tangzhilong@trinity-tech.io",
+          "hot_index": 0,
+          "description": "Elastos DID 是Elastos生态中去中心化的ID身份系统，完全兼容W3C DID/可验证凭证标准，目前Elastos DID在客户端侧SDK已经支持以下特性： 创建去中心化的DID身份； DID身份对应的DID文档发布/更新到DID侧链； 本地DID文档以及私钥管理； 可验证凭证/呈现等接口； 同时Elastos DID 提供已Java/Swift/Native等SDK版本供开发者选择使用。此外，Elatos Trinity平台（即elatOS平台）也提供类似接口的typescript（javascript）的接口。欢迎社区开发者即可以参考其他区块链DID溯源领域的应用，或者也可以根据自己对Elastos DID的理解以及其他的应用场景需求实现基于Elastos DID的应用。",
+          "update_time": "2020-05-27",
+          "label": ""
+        },
+        {
+          "name": "基于Hyper Connect 的物联网方案",
+          "difficulty": "高",
+          "mentor": "Tang Zhilong",
+          "contact": "tangzhilong@trinity-tech.io",
+          "hot_index": 0,
+          "description": "Hyper connect是基于Elastos Carrier去中心化通信平台之上的端对端的IoT（物联网）的解决方案，目前已经提供比较完整的APIs开发文档，同时已有主流语言版本支持。欢迎社区开发者基于Hyper Connect的IoT 框架之上，根据具体的场景需求设计相关的有创意的应用，比如门锁，家具电器控制等。",
+          "update_time": "2020-05-27",
+          "label": ""
+        },
+        {
+          "name": "基于Carrier SDK的WebRTC iOS扩展实现",
+          "difficulty": "高",
+          "mentor": "Tang Zhilong",
+          "contact": "tangzhilong@trinity-tech.io",
+          "hot_index": 0,
+          "description": "利用Elastos Carrier 是去中心化的端到端加密的消息通信平台的特点，经与外部团队合作，初步已经实现了基于Carrier网络的WebRTC Android版本接口，实现了Carrier节点间端对端的WebRTC音视频通信功能。参考WebRTC Android接口，实现相应基于Carrier的WebRTC iOS版本。",
+          "update_time": "2020-05-27",
+          "label": ""
+        },
+        {
+          "name": "基于Trinity的dApp开发",
+          "difficulty": "中",
+          "mentor": "Tang Zhilong",
+          "contact": "tangzhilong@trinity-tech.io",
+          "hot_index": 0,
+          "description": "Elatos Trinity（elatOS）是集成所有Elastos服务的访问入口，包括ELA主链，DID侧链，ETH侧链，Carrier去中心化通信服务，去中心化数据存储服务Hive等。同时Trinity Runtime是提供类似可信运行环境的程序浏览器平台。目前支持运行程序主要是H5+JS程序。欢迎社区开发者基于现有的Trinity提供的Plugin服务以及built-in应用的Intent服务，设计和编写具有创意的Trinity dApp应用。",
+          "update_time": "2020-05-27",
+          "label": ""
+        },
+        {
+          "name": "Hive SDK接到Dropbox等其他云盘",
+          "difficulty": "中",
+          "mentor": "Tang Zhilong",
+          "contact": "tangzhilong@trinity-tech.io",
+          "hot_index": 0,
+          "description": "Elastos Hive SDK是为了方便前端开发者使用的一套文件/数据存储接口。当前Hive SDK已经支持后端文件/数据存储对接到 OneDrive商业云存储平台，同时也支持对标准去中心化的数据存储平台-标准IPFS存储平台。 为了尽可能方便应用平台的开发，目前Hive SDK已经支持以下语言版本： C/Native SDK （MacOS/Linux/Windows）; Java SDK; Swift SDK.  为了集成支持更多的后端云存储平台，欢迎社区开发者扩展Hive SDK对接到更多的主流云存储平台，比如Dropbox，Google Drive，华为等公共云存储平台。",
+          "update_time": "2020-05-27",
+          "label": ""
+        },
+        {
+          "name": "体现Carrier特点的应用",
+          "difficulty": "中",
+          "mentor": "Tang Zhilong",
+          "contact": "tangzhilong@trinity-tech.io",
+          "hot_index": 0,
+          "description": "Elastos Carrier是去中心化的端到端加密的消息/数据通信平台，具有以下特性和特点： 去中心化通信，没有传统服务的单点服务器中心失败，导致整个网络崩溃； 整个Carrier网络是一个自治的网络，没有所谓的中心管理节点； 节点间必须先成为好友后才能相互发送消息和进行数据通信； 节点间端到端的数据加密通信； 节点间即使在不同的局域网也能够直接穿透进行消息/数据通信； 节点由原来的IP地址寻值变成节点ID的地址寻值； 具备消息/数据/Session/多路复用/端口转换等配套接口。 基于Carrier以上的特性，充分发挥Carrier网络的去中心化优势，参与者可以通过自己想象，同时结合具体业务特点和场景需求，设计和开发基于Carrier之上的应用，特别鼓励参与者结合以来云其他的基础设施服务（比如DID，ETH侧链，HiveSDK等）发现和设计出能发挥Carrier优势的新型应用和解决方案。",
+          "update_time": "2020-05-27",
+          "label": ""
         }
       ]
     },
@@ -1379,16 +1569,6 @@
       "email": "community@zilliz.com",
       "project_list": [
         {
-          "name": "使用ETCD作为Milvus元数据后端",
-          "difficulty": "中",
-          "mentor": "莫毅华",
-          "contact": "yihua.mo@zilliz.com",
-          "student_count": 0,
-          "description": "Milvus是一款开源的特征向量搜索引擎。其存储系统使用元数据对数据文件进行统一管理，目前元数据的后台只能选用SQlite或者MySQL，需要支持更多的元数据后台。请实现一套元数据接口以支持ETCD作为元数据后台。",
-          "update_time": "2020-05-18",
-          "label": "2018081"
-        },
-        {
           "name": "Milvus 数据备份恢复工具",
           "difficulty": "高",
           "mentor": "莫毅华",
@@ -1568,7 +1748,7 @@
       "project_url": "https://git.io/summer2020",
       "url": "https://oi-wiki.org",
       "description": "编程竞赛知识,内含炫酷算术魔法！",
-      "full_des": "OI Wiki 是一个编程竞赛知识整合站点,提供有趣又实用的编程竞赛知识以及其他有帮助的内容,帮助广大编程竞赛爱好者更快更深入地学习编程竞赛。同时我们围绕 OI Wiki 主站开展一些相关的基础设施建设,包括 markdown 渲染工具以及周边诸多开发工具。",
+      "full_des": "OI Wiki 是一个编程竞赛知识整合站点,提供有趣又实用的编程竞赛知识以及其他有帮助的内容,帮助广大编程竞赛爱好者更快更深入地学习编程竞赛。同时我们围绕 OI Wiki 主站开展一些相关的基础设施建设,包括 markdown 渲染工具以及周边诸多开发工具。详情可以访问 https://github.com/OI-wiki",
       "tech_tag": [
         "typescript",
         "react",
