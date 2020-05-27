@@ -133,6 +133,7 @@ export default class Organisation extends React.Component{
                 return 0;
             });
             if (isDetail) {
+                this.getOrgProjectList(anchor);
                 window.location.hash.split("/").length > 1 ? window.location.hash = "/organisations" + (anchor ? anchor : "") : void(0);
                 readyWeixin(`社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`, orgList[index].description);
                 console.log('org ready weixin');
@@ -245,19 +246,30 @@ export default class Organisation extends React.Component{
 
         </div>)
     }
-    getOrgProjectList(orgIndex, orgItem, orgName, projectUrl) {
+    getOrgProjectList(anchor) {
+        const {orgList} = this.state.data;
+        let orgIndex = orgList.findIndex(obj => obj.anchor === anchor);
+        let orgItem_ = orgList[orgIndex];
+        let orgItem = orgItem_.project_list;
+        let orgName = orgItem_.title;
+        let projectUrl = orgItem_.project_url;
         var divContainer = [];
+        var temp = [];
         if (orgItem.length !== 0 && orgItem[0].name !== "") {
             orgItem.map((item,index)=>{
-                divContainer.push(this.getProjectList(orgIndex, item, index, orgName, projectUrl));
+                if (index < 10) {
+                    divContainer.push(this.getProjectList(orgIndex, item, index, orgName, projectUrl));
+                }
+                temp.push(item);
                 return 0;
             });
         }
-        else {
-            return [];
-        }
-
-        return divContainer;
+        this.setState({
+            totalProjects: temp.length,
+            currentProjects: temp,
+            currentPage: 1,
+            displayProjects: divContainer
+        });
     }
 
     switchTab (num) {
@@ -288,20 +300,20 @@ export default class Organisation extends React.Component{
         });
         return divContainer
     }
-    changePage(pageNo) {
+    changePage(pageNo, id) {
         var divContainer = [];
         this.state.currentProjects.map((item,index)=>{
             if (index < pageNo*10 && index >= (pageNo-1)*10) {
                 divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url));
-
             }
             return 0;
           })
         this.setState({
-            displayProjects:divContainer,
+            displayProjects: divContainer,
             currentPage: pageNo
         });
-        window.scrollTo(0,0);
+        // console.log(document.getElementById(id).getBoundingClientRect);
+        id.includes("all") ? window.scrollTo(0,300) : window.scrollTo(0,700);
     }
     sortItemBy(category) {
         this.setState({
@@ -463,10 +475,25 @@ export default class Organisation extends React.Component{
                                         <div className="tooltip-detail-button" onClick={() => this.showModal(item.anchor, true)}>查看详情
                                         <img src={require("./../../img/organisation/arrow.png")} alt=">"></img>
                                         </div>
-                                        <div className="tooltip-project-wrapper tooltip-detail">
-                                            {
-                                            this.getOrgProjectList(index, item.project_list || [], item.title, item.project_url ? item.project_url : item.url)
+                                        <div className="tooltip-project-wrapper tooltip-detail org-detail org-search-bar-wrapper">
+                                            <div  id="org-project-lists" className="org-No">
+                                                <span>共{this.state.totalProjects}个项目</span>
+                                                {Math.ceil(this.state.totalProjects / 10) > 1 ? <span className="org-pageNo">第{this.state.currentPage}页 / <span style={{color:'#999999'}}>共{Math.ceil(this.state.totalProjects / 10)}页</span></span> : ''}
+                                            
+                                            </div>
+                                            {this.state.isLoading ? '' :
+                                                this.state.displayProjects
                                             }
+                                            <Pagination 
+                                                onChange={page=>this.changePage(page, "org-project-lists")} 
+                                                defaultCurrent={1} 
+                                                total={this.state.totalProjects} 
+                                                style={{ height: 50, marginTop: 20}}
+                                                itemRender={this.itemRender}
+                                                hideOnSinglePage={true}
+                                                showSizeChanger={false}
+                                                current={this.state.currentPage}
+                                            />
                                         </div>
                                     </div>
                                     {/* </div> */}
@@ -517,8 +544,8 @@ export default class Organisation extends React.Component{
                             </div>
                             
                             <div className="org-No">
-                                <span>共{this.state.totalProjects}个项目</span>
-                                <span className="org-pageNo">第{this.state.currentPage}页 / <span style={{color:'#999999'}}>共{Math.ceil(this.state.totalProjects / 10)}页</span></span>
+                                <span id="all-project-lists">共{this.state.totalProjects}个项目</span>
+                                {Math.ceil(this.state.totalProjects / 10) > 1 ? <span className="org-pageNo">第{this.state.currentPage}页 / <span style={{color:'#999999'}}>共{Math.ceil(this.state.totalProjects / 10)}页</span></span> : ''}
                              
                             </div> 
 
@@ -531,7 +558,7 @@ export default class Organisation extends React.Component{
                             }
                         </div>
                         <Pagination 
-                            onChange={page=>this.changePage(page)} 
+                            onChange={page=>this.changePage(page, "all-project-lists")} 
                             defaultCurrent={1} 
                             total={this.state.totalProjects} 
                             style={{ height: 50, marginTop: 20}}
