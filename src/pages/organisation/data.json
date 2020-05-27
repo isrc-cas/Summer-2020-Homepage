@@ -92,7 +92,7 @@
           "hot_index": 0,
           "description": "翻译以下页面为指定语言： 下载页 为 中文； 2FA 为 中文； 安全指南 为 中文； 贡献者指南 为 中文； 发布指南 为 英文；",
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2001250"
         }
       ]
     },
@@ -154,7 +154,7 @@
           "contact": "lidongdai@apache.org",
           "hot_index": 0,
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2002251"
         },
         {
           "name": "工作流标签（后端）",
@@ -164,7 +164,7 @@
           "contact": "wu_shao_jie@qq.com",
           "hot_index": 0,
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2002252"
         },
         {
           "name": "弱依赖类型任务（后端）",
@@ -174,7 +174,7 @@
           "contact": "wu_shao_jie@qq.com",
           "hot_index": 0,
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2002253"
         },
         {
           "name": "任务空跑（后端）",
@@ -497,7 +497,7 @@
           "contact": "wu.sheng@foxmail.com",
           "hot_index": 0,
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2005254"
         },
         {
           "name": "端到端测试框架本地调试增强",
@@ -647,7 +647,7 @@
           "student_count": 0,
           "description": "社区主要项目 AOSC OS 的一部分构建过程仍然依赖手工操作。即使大部分繁杂的工作已经能为数个社区项目很好地完成，AOSC OS 仍然面临着社区人手严重不足而带来的更新速度不足及潜在质量缺陷问题。于是我们希望建立一套切合社区实际情况的，能将发行版构建 95% 的操作自动化的基础设施来解决上述问题，以求 AOSC OS 的可持续发展。目前分布式打包方案中包括构建机、调度器、软件包仓库管理和触发器四个部分，其中构建机和调度器是最重要的部分。本项目为编写一套功能较为完整的软件包构建调度器，以实现像 BOINC 分布式科学计算那样，自动分配打包任务、回收二进制软件包和打包时的日志和统计信息。调度器的调度模型、依赖解析已经实现，需要设计并实现的是接口和管理功能。",
           "update_time": "2020-05-27",
-          "label": "2007037"
+          "label": "2007255"
         },
         {
           "name": "发行版构建自动化：自动化测试框架",
@@ -761,7 +761,7 @@
           "hot_index": 0,
           "description": "基于C++版本的casbin探索casbin服务化的可能性，目标是在微服务架构中提供开箱即用的中心化的授权服务",
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2008256"
         }
       ]
     },
@@ -808,7 +808,7 @@
           "hot_index": 0,
           "description": "Ceph是目前业界最火的开源项目之一，对外可以提供统一的块、文件、对象存储接口，由于存储的专业性和门槛，本项目主要致力于帮助学生能够快速参与社区，主要是修复一些社区的Bug（难易/紧急程度依次递增）。",
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2009257"
         }
       ]
     },
@@ -899,7 +899,7 @@
           "student_count": 0,
           "description": "区块链的基本功能是信息存证。但这一基本功能，并未能向大众或对区块链有兴趣的用户普及。很多存证应用，也是为了为应用导流，从而导致产品复杂。我们希望能为普通用户，做一款方便体验的区块链存证服务，不强调KYC、不强调助记词、甚至不强调dAPP……就是让用户用最简单的方式，实现数据上链，作为对区块链的第一次体验。社区已经利用相关接口做出了一版产品，可供参考： https://zhengshu.elastos.org/ 我们希望能对此进行改进，并封装为小程序，以方便用户调用。其他改进也可自行添加。",
           "update_time": "2020-05-27",
-          "label": "2011050"
+          "label": "2011258"
         },
         {
           "name": "CLIENT 功能扩展",
@@ -949,7 +949,7 @@
           "hot_index": 0,
           "description": "相比轻量级SPV钱包而言，全节点钱包能获完整的区块信息，支持更多复杂的业务功能扩展。目前有的钱包大多数都是移动端钱包及网页钱包，缺少安卓及苹果版桌面端钱包，桌面端钱包可以给PC端用户带来更多的便利。本题旨在开发一款全节点桌面端钱包。",
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2011259"
         },
         {
           "name": "简易版 SPV 钱包",
@@ -969,7 +969,7 @@
           "hot_index": 0,
           "description": "Elastos Carrier是去中心的端对端加密的消息/数据通信平台。目前主要支持3个不同的语言版本的SDK：C/Native (Linux/MacOS/Windows); Android/Java; iOS/Swift。 其中，Carrier Native SDK是最基础和核心的实现，由基础语言C实现，同时通过CMake 方式构建整个项目系统。而Android Java SDK是通过JNI集成低层的Native 实现，通过封装C接口并以Java接口呈现给Android Java开发者。同样地，iOS Swift SDK也是通过Swift封装底层SDK C接口和静态库，以Swift 接口形式的Carrier 接口供iOS开发者使用。 目前社区开发者除了Java/Swift Carrier APIs接口需求外，也有对Carrier SDK有其他高层语言接口的需求，比如Go，Python以及NodeJs等。希望社区参与者能够根据底层Native/C接口形式，同时能够抽象和实现基于Go/Python/NodeJs的 Carrier SDK封装接口和对应SDK。",
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2011260"
         },
         {
           "name": "Carrier离线消息中继服务",
@@ -979,7 +979,7 @@
           "hot_index": 0,
           "description": "在去中心化Carrier消息通信网络中，如果节点Bob向Friend节点Alice发送消息时，分为以下两种场景：如果好友Alice节点处于在线连接状态，则Bob节点直接通过Carrier网络将消息传送到Alice节点；如果好友Alice节点处于离线状态，则Bob节点将消息暂存在去中心化Hive IPFS/Cluster存储网络。一旦好友Alice节点上线后，则直接向Hive IPFS/Cluster存储网络获取所有发送自己的所有离线消息。目前离线消息存储网络Hive IPFS/Cluster 与Carrier通信网络时两个分离的网络。该主题任务希望借助于本身Carrier 网络节点（或者Carrier bootstrap节点）的基础上提供去中心化的离线消息发送/接收服务。",
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2011261"
         },
         {
           "name": "DID SDK的API文档编写",
@@ -989,7 +989,7 @@
           "hot_index": 0,
           "description": "Elastos DID 是Elastos生态中去中心化的ID身份系统，完全兼容W3C DID/可验证凭证标准，目前Elastos DID在客户端侧SDK已经支持以下特性：创建去中心化的DID身份；DID身份对应的DID文档发布/更新到DID侧链；本地DID文档以及私钥管理；可验证凭证/呈现等接口；同时Elastos DID 提供已Java/Swift/Native等SDK版本供开发者选择使用。虽然目前已经基本完成以上眼版本的SDK的开发，但是目前对应的APIs文档还不完善，有的版本（例如Java SDK）还未启动APIs文档编写。欢迎社区开发者能够在理解相关SDK接口的基础上，按照APIs注释规范，不断完善和丰富APIs接口文档，同时能够编写和完善相应的开发者指导文档。",
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2011262"
         },
         {
           "name": "Elastos DID Go/Python/NodeJs SDK和APIs",
@@ -999,7 +999,7 @@
           "hot_index": 0,
           "description": "Elastos DID 是Elastos生态中去中心化的ID身份系统，完全兼容W3C DID/可验证凭证标准，目前Elastos DID在客户端侧SDK已经支持以下特性： 创建去中心化的DID身份； DID身份对应的DID文档发布/更新到DID侧链； 本地DID文档以及私钥管理； 可验证凭证/呈现等接口； 目前主要支持3个不同的语言版本的SDK（但是APIs只是形式不同，接口语义基本一致） C/Native (Linux/MacOS); Java SDK; Swift SDK。 目前社区开发者除了Java/Swift/C版本 APIs接口需求外，也有对其他高层语言接口的需求，比如Go，Python以及NodeJs等。希望社区参与能在理解Elasots DID的基础上，根据底层DID/C接口形式，能够抽象和实现基于Go/Python/NodeJs的 DID封装接口和对应SDK。",
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2011263"
         },
         {
           "name": "DID 浏览器插件，支持DID登录",
@@ -1009,7 +1009,7 @@
           "hot_index": 0,
           "description": "Elastos DID 是Elastos生态中去中心化的ID身份系统，完全兼容W3C DID/可验证凭证标准，目前Elastos DID在客户端侧SDK已经支持以下特性： 创建去中心化的DID身份； DID身份对应的DID文档发布/更新到DID侧链； 本地DID文档以及私钥管理； 可验证凭证/呈现等接口. 同时Elastos DID 提供已Java/Swift/Native等SDK版本供开发者选择使用。此外，Elatos Trinity平台（即elatOS平台）也提供类似接口的typescript（javascript）的接口。 欢迎社区开发者实现基于任一浏览器（比如Safari/Chrome/Opera等）的Elastos DID服务插件，用户能够通过该DID 服务插件授权Elastos DID身份登录Elastos 应用。",
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2011264"
         },
         {
           "name": "DID在溯源或其他领域的应用",
@@ -1019,7 +1019,7 @@
           "hot_index": 0,
           "description": "Elastos DID 是Elastos生态中去中心化的ID身份系统，完全兼容W3C DID/可验证凭证标准，目前Elastos DID在客户端侧SDK已经支持以下特性： 创建去中心化的DID身份； DID身份对应的DID文档发布/更新到DID侧链； 本地DID文档以及私钥管理； 可验证凭证/呈现等接口； 同时Elastos DID 提供已Java/Swift/Native等SDK版本供开发者选择使用。此外，Elatos Trinity平台（即elatOS平台）也提供类似接口的typescript（javascript）的接口。欢迎社区开发者即可以参考其他区块链DID溯源领域的应用，或者也可以根据自己对Elastos DID的理解以及其他的应用场景需求实现基于Elastos DID的应用。",
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2011265"
         },
         {
           "name": "基于Hyper Connect 的物联网方案",
@@ -1029,7 +1029,7 @@
           "hot_index": 0,
           "description": "Hyper connect是基于Elastos Carrier去中心化通信平台之上的端对端的IoT（物联网）的解决方案，目前已经提供比较完整的APIs开发文档，同时已有主流语言版本支持。欢迎社区开发者基于Hyper Connect的IoT 框架之上，根据具体的场景需求设计相关的有创意的应用，比如门锁，家具电器控制等。",
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2011266"
         },
         {
           "name": "基于Carrier SDK的WebRTC iOS扩展实现",
@@ -1039,7 +1039,7 @@
           "hot_index": 0,
           "description": "利用Elastos Carrier 是去中心化的端到端加密的消息通信平台的特点，经与外部团队合作，初步已经实现了基于Carrier网络的WebRTC Android版本接口，实现了Carrier节点间端对端的WebRTC音视频通信功能。参考WebRTC Android接口，实现相应基于Carrier的WebRTC iOS版本。",
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2011267"
         },
         {
           "name": "基于Trinity的dApp开发",
@@ -1049,7 +1049,7 @@
           "hot_index": 0,
           "description": "Elatos Trinity（elatOS）是集成所有Elastos服务的访问入口，包括ELA主链，DID侧链，ETH侧链，Carrier去中心化通信服务，去中心化数据存储服务Hive等。同时Trinity Runtime是提供类似可信运行环境的程序浏览器平台。目前支持运行程序主要是H5+JS程序。欢迎社区开发者基于现有的Trinity提供的Plugin服务以及built-in应用的Intent服务，设计和编写具有创意的Trinity dApp应用。",
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2011268"
         },
         {
           "name": "Hive SDK接到Dropbox等其他云盘",
@@ -1059,7 +1059,7 @@
           "hot_index": 0,
           "description": "Elastos Hive SDK是为了方便前端开发者使用的一套文件/数据存储接口。当前Hive SDK已经支持后端文件/数据存储对接到 OneDrive商业云存储平台，同时也支持对标准去中心化的数据存储平台-标准IPFS存储平台。 为了尽可能方便应用平台的开发，目前Hive SDK已经支持以下语言版本： C/Native SDK （MacOS/Linux/Windows）; Java SDK; Swift SDK.  为了集成支持更多的后端云存储平台，欢迎社区开发者扩展Hive SDK对接到更多的主流云存储平台，比如Dropbox，Google Drive，华为等公共云存储平台。",
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2011269"
         },
         {
           "name": "体现Carrier特点的应用",
@@ -1069,7 +1069,7 @@
           "hot_index": 0,
           "description": "Elastos Carrier是去中心化的端到端加密的消息/数据通信平台，具有以下特性和特点： 去中心化通信，没有传统服务的单点服务器中心失败，导致整个网络崩溃； 整个Carrier网络是一个自治的网络，没有所谓的中心管理节点； 节点间必须先成为好友后才能相互发送消息和进行数据通信； 节点间端到端的数据加密通信； 节点间即使在不同的局域网也能够直接穿透进行消息/数据通信； 节点由原来的IP地址寻值变成节点ID的地址寻值； 具备消息/数据/Session/多路复用/端口转换等配套接口。 基于Carrier以上的特性，充分发挥Carrier网络的去中心化优势，参与者可以通过自己想象，同时结合具体业务特点和场景需求，设计和开发基于Carrier之上的应用，特别鼓励参与者结合以来云其他的基础设施服务（比如DID，ETH侧链，HiveSDK等）发现和设计出能发挥Carrier优势的新型应用和解决方案。",
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2011270"
         }
       ]
     },
@@ -1311,7 +1311,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-27",
-          "label": ""
+          "label": "2039271"
         }
       ]
     },
@@ -2487,6 +2487,248 @@
           "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021242"
+        },
+        {
+          "name": "开发 openEuler bootstrap 工具",
+          "description": "借鉴 Linux From Scratch 和 crosstool-ng，开发一套自动化构建工具，该工具支持利用src.rpm源代码，从零构建 openEuler 。一个可能的建议是，利用crosstool-ng工具，从openEuler x86_64构建 i686版本的二进制rpm。",
+          "difficulty": "高",
+          "mentor": "overweight",
+          "contact": "hexiaowen@huawei.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-27",
+          "label": "2021272"
+        },
+        {
+          "name": "openEuler aarch64架构上软件包优化和集成",
+          "description": "为了使aarch64平台的用户能够使用上更快的openEuler，我们需要对基础库、加速库进行优化，目前[鲲鹏计算](https://github.com/kunpengcompute)已开源一系列基于aarch64的优化，也有很多加速库在上游社区完成了aarch64优化，但这些软件优化尚未集成到openEuler OS中。这些软件包括但不限于：glibc、snappy、zstd、gzip、isa-l、hyperscan等。我们需要完成3个工作：1. **添加打包**。至少完成 isa-l、x265、hyperscan 等3个软件包的添加，在https://gitee.com/src-openeuler新建仓库并增加打包源代码。2. **aarch64优化集成**。将鲲鹏 优化的集成到已添加的欧拉的发布包中，至少完成glibc、snappy、isa-l、x265、hyperscan、zstd等6个优化的集成，代码合入到https://gitee.com/src-openeuler指定库。注：优化代码可以从https://github.com/kunpengcompute获取。3. **博客总结**。完成后，对鲲鹏优化的优化源码进行阅读，总结完成技术博客，同步发布到openEuler博客。",
+          "difficulty": "中",
+          "mentor": "yikun",
+          "contact": "jiangyikun@huawei.com",
+          "co-mentor": "derek zhangxuelei4@huawei.com",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021273"
+        },
+        {
+          "name": "基于 openEuler 的 ABI 检查工具",
+          "description": "[lvc](https://github.com/lvc) 有一系列abi的导出和分析工具。 借鉴或复用该开源工具，实现一套完整的abi检查工具。 - 该工具能否查询导出与ABI相关的信息（如API接口，头文件数据结构，配置文件，命令行选项等）。 - 该工具提供统一的框架，支持插件式扩展，前期可以支持c/c++的信息导出，后续可增加对python、perl或java等语言 的支持。 - 该工具能够支持统一软件多版本二进制或源码间的abi差异对比。 - 该工具支持报告导出功能。 - 该工具易于应用在openEuler后续软件包升级的差异对比，协助开发者、maintainer评估软件升级的影响。",
+          "difficulty": "高",
+          "mentor": "overweight",
+          "contact": "hexiaowen@huawei.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-27",
+          "label": "2021274"
+        },
+        {
+          "name": "提供 openEuler 满足 openscap 标准的安全配置基线",
+          "description": "OpenSCAP项目提供了由开源社区开发的各种加固指南和配置基线，确保您能够选择适合您组织需求的安全策略。当前openEuler通过安全加固工具已经提供了默认的加固内容，但为了兼容国际主流标准，需要基于openSCAP 提供openEuler的安全配置基线。具体实施策略如下：1、熟悉openSCAP相关标准。2、修改openSCAP软件包，指 定openEuler的安全配置基线。3、提交相应的代码4、maintainer评审合入",
+          "difficulty": "中",
+          "mentor": "@zhujianwei001",
+          "contact": "zhujianwei7@huawei.com",
+          "co-mentor": "@mailofzxf",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021275"
+        },
+        {
+          "name": "optee 移植到openEuler",
+          "description": "鲲鹏芯片有 TrustZone 支持，optee 是开源的ARM trustzone OS。任务目标是把 optee OS/driver/client 移植到 openEuler 并在鲲鹏硬件平台上运行起来。",
+          "difficulty": "高",
+          "mentor": "@blue0613",
+          "contact": "gaoguijin@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021276"
+        },
+        {
+          "name": "openEuler 虚拟化调度性能评估工具及方法构建",
+          "description": "云场景下，为充分利用物理资源，虚拟机通常存在CPU复用场景。虚拟化平台在此种场景下，既要保 障物理资源充分利用，又要保障虚拟化内部业务Qos，这对虚拟化平台调度是一个重要考验。那么如何做好一个虚拟化调 度平台，需要我们构建一套虚拟化调度评估方法及体系，当前openEuler社区此方面能力欠缺，需要我们调研引入适配移 植业界典型工具及业务场景评估方法。",
+          "difficulty": "中",
+          "mentor": "@KuhnChen18",
+          "contact": "kuhn.chenqun@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021277"
+        },
+        {
+          "name": "为 openEuler 创建用户轨迹运营看板",
+          "description": "openEuler运营看板已经采集了部分数据，展示了基础数据以及基础的统计数据，比如issue个数、总数等，但对单用户个体数据并没有进行展示，无法知道用户喜好及时推送并制定对应用户的的运营措施。",
+          "difficulty": "高",
+          "mentor": "@Zhongjun2",
+          "contact": "jun.zhongjun@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021278"
+        },
+        {
+          "name": "对 openEuler 社区发布包 zip/unzip 进行 CRC 加速",
+          "description": "zip/unzip使用了CRC32（多项式0xedb88320）来校验数据的正确性。软件使用了常用的查表法来做CRC计算，性能并不理 想。在ARMv8.1，提供了CRC32/CRC32C的专用指令：crc32d, crc32w, crc32h, crc32b, crc32cd, crc32cw, crc32ch, crc32cb。分别实现64bit、32bit、16bit和8bit数据的CRC计算。相对于查表法，ARM CRC指令快30倍左右。也就是说，对同一数据做CRC，加速指令耗用时间是查表法的1/30。对于CRC-32和CRC-32C，GCC提供了builtin函数，可以在C代码里直接 调用。builtin函数名字就是对应的汇编指令名字前加“__”，比如__crc32d函数对应crc32d指令。另外，还需添加“-march=armv8.1-a”编译选项。openEuler社区的zip/unzip发布包均没有为ARM平台做过优化。本任务的目标就是为这两个软件包在ARM上做加速，提高压缩性能。",
+          "difficulty": "中",
+          "mentor": "@colordev",
+          "contact": "colordev@hotmail.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021279"
+        },
+        {
+          "name": "自动脱敏网络抓包工具",
+          "description": "现有wireshake、tcpdump这类工具存在两类问题- 报文payload信息没有脱敏，导致这类工具无 法在生产环境使用。- 有些抓包工具在大流量情况下会导致crash，无法在生产环境使用。实现一个脱敏网络抓包 工具，要求如下：- 可以灵活抓取网络报文，报文内容要具备自动脱敏能力；- 可以在生产环境部署，不影响在线业务性能。- 支持主流网卡驱动",
+          "difficulty": "中",
+          "mentor": "@MrRlu",
+          "contact": "newlife_lala@163.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021280"
+        },
+        {
+          "name": "以 openEuler LTS 为基础生成公有云镜像",
+          "description": "公有云上都是以镜像的形式来使用OS系统，制作一个工具来帮助自动化从openEuler的iso或者repo制作出各种公有云的虚拟机镜像，例如华为云，阿里云，AWS，腾讯云等。",
+          "difficulty": "高",
+          "mentor": "myeuler",
+          "contact": "myeuler@163.com",
+          "co-mentor": "luanjianhai luanjianhai@163.com",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021281"
+        },
+        {
+          "name": "内核数据竞争检测工具",
+          "description": "内核数据竞争检测，业界当前可以通过静态测试工具（比如 [SVF](https://github.com/lifeasageek/SVF/tree/svf-razzer) 和动态测试方法（比如 [kcsan](https://github.com/google/ktsan/tree/kcsan) 来检测内核竞争，但是静态测试误报较太多，kcsan动态检测出来的很多问题也是无害的，因此本课题目标是把静态测试工具或动态 测试工具（SVF和KCSAN，或其他类似的工具）输出的检测信息作为输入，通过精准构造的方式来构造真实竞争，通过内核自运行或者kasan等机制来检测是否是真正的竞争bug。",
+          "difficulty": "高",
+          "mentor": "walkingwalk",
+          "contact": "wubodong@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021282"
+        },
+        {
+          "name": "为 openEuler 提供 PR Preview 功能",
+          "description": "openEuler官网采用Hugo框架渲染Markdown成最终的静态文件部署，开发流程中缺少针对Pull Request的渲染结果浏览，本任务的目标是通过kubernetes的CRD+Operator提供多静态网站实例的编译和浏览功能，提高开发和 检视流程的易用性。",
+          "difficulty": "中",
+          "mentor": "@TommyLike",
+          "contact": "tommylikehu@gmail.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021283"
+        },
+        {
+          "name": "开源基础设施智能自检自愈系统",
+          "description": "随着社区参与者与贡献规模的增加，社区在不断向开源基础设施提出诸多需求。这给基础设施的运维难度和稳定性带来了挑战，我们希望基础设施能更加强健，并具有一定的自检查、自修复能力。",
+          "difficulty": "中",
+          "mentor": "@George.Cao",
+          "contact": "george.cao@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021284"
+        },
+        {
+          "name": "everything tool on openEuler",
+          "description": "windows下everything工具是非常好用的文件快速检索软件，但是在linux下一直没有对应工具（有一些很有历史的命令，做不到快速检索）；希望能够在openEuler中找到对应everything的快速检索工具。本题目为开 放式，实现方式难度不等，可以去开源社区寻找优秀的业界实现，移植到openEuler平台；或借鉴已有实现，进行相关优 化，目标是实现一个快速，可用，易用的文件检索工具。P.S. 实现方式可以基于命令行或图形界面",
+          "difficulty": "中等-困难",
+          "mentor": "@denggx_elros",
+          "contact": "dengguangxing@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021285"
+        },
+        {
+          "name": "openEuler 集成 Kubernetes 相关软件包",
+          "description": "Kubernetes是用于自动部署，扩展和管理容器化应用程序的开源系统，也是如今云原生中最重要的底层基石之一 。我们希望参与者能够提供Kubernetes相关软件在openEuler上的标准发布软件包，包括kubelet、kubectl等。并能够让 用户在openEuler上更便捷地部署和使用kubernetes",
+          "difficulty": "中",
+          "mentor": "@radeon92",
+          "contact": "caoruidong@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021286"
+        },
+        {
+          "name": "QEMU 用户态进程热补丁框架",
+          "description": "* QEMU进程作为虚拟机进程需要常驻运行，但用户态软件发布上线后经常会存在一些紧急BUG需要在 线修复；* **用户态热补丁技术**是指在程序处于运行状态的时候，在线修改程序运行逻辑的技术，和内核态livepatch机制类似；* 相比内核态热补丁技术而言，用户态热补丁技术更具挑战性，用户态热补丁技术对云软件的可维护性具 有重要意义；* 本题目要求参与者为例如QEMU之类的**用户态进程实现一个简易的热补丁框架**，能够为QEMU进程提供热补丁能力支持。任务链接：* [https://gitee.com/openeuler/marketing/issues/I1IG8E?from=project-issue](https://gitee.com/openeuler/marketing/issues/I1IG8E?from=project-issue)",
+          "difficulty": "高",
+          "mentor": "@zhanghailiang",
+          "contact": "fangying1@huawei.com",
+          "co-mentor": "@yorifang",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021287"
+        },
+        {
+          "name": "openeuler 系统的内存统计工具",
+          "description": "请编写一个内存统计工具，能够统计openeuler系统中内核态内存使用情况，包括：1.vmalloc内存都被谁申请了？2.slab内存都被谁申请了？3.内存page页都被谁申请了？4.lru链表上的内存页都是哪些cache？这些统计信息，可以通过proc接口设置和获取，并可以统计指定模块占用的内存。",
+          "difficulty": "中",
+          "mentor": "@lvying6",
+          "contact": "- lvying6@huawei.com",
+          "co-mentor": "@Pces chenjialong@huawei.com @licihua licihua@huawei.com",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021288"
+        },
+        {
+          "name": "openEuler 集成 CRIU 工具",
+          "description": "CRIU是基于linux的用户态进程迁移软件，也是容器迁移的底层操作工具；CRIU可以完成用户态进程 的Checkpoint/Restore操作，分别用于将进程所有相关运行状态保存到本地磁盘，以及根据磁盘文件恢复完全一致的进程。CRIU本身是纯用户态工具，但是依赖linux内核提供的相关能力，相应内核patch从3.8开始逐渐合入。本次项目目 标是将CRIU工具打包，加入openEuler发布件（基于X86和Arm64平台）",
+          "difficulty": "中",
+          "mentor": "@denggx_elros",
+          "contact": "dengguangxing@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021289"
+        },
+        {
+          "name": "adler32算法在ARM平台的优化",
+          "description": "Adler-32是马克·阿德勒（Mark Adler）在1995年发明的一种校验和 算法，是对弗莱彻校验和的一种改进。与相同长度的循环冗余校验相比，它以可靠性为代价（优先选择后者）。Adler-32比Fletcher-16更可靠，而可靠性却比Fletcher-32低。Adler-32在基础压缩库libz中使用，常见压缩和解压场景中，adler-32的算法热点会比较高，优化该算法可以提升libz基础库的性能。SIMD简介：单指令流多数据流（英语：Single Instruction Multiple Data，缩写：SIMD）是一种采用一个控制器来控制多个处理器，同时对一组数据（又称“数据向量”）中的每一个分别执行相同的操作从而实现空间上的并行性的技术。ARM平台使用SIMD优化adler-32的案例：https://developer.arm.com/architectures/instruction-sets/simd-isas/neon/neon-programmers-guide-for-armv8-a/neon-intrinsics-chromium-case-study/adler-32，使用SIMD向量指令优化adler-32性能能使PNG解码性能提升了5%~18%。",
+          "difficulty": "高",
+          "mentor": "@liqiang9102",
+          "contact": "liqiang64@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021290"
+        },
+        {
+          "name": "QEMU 中集成 virtio-fuzz 能力以支持模拟设备的模糊测试",
+          "description": "QEMU 中模拟大量设备（网卡、磁盘等），这些往往也是不可信的，甚至可能运行一些恶意软件，因 此本课题目标在qemu中开发用于仿真设备的模糊测试；基于覆盖率反馈的启发式模糊测试(libfuzzer/AFL)被认为是一种 较为有效的方式，可通过覆盖率反馈快速快速生成随机输入，而无需依靠人工指导；当前upstream社区提供两种实现方式：1. 基于libFuzzer：https://patchwork.kernel.org/cover/11393233/2. 基于AFL：https://kvmforum2019.sched.com/event/Tmv7/virtio-device-fuzzing-dmitrii-stepanov-yandex可以选择一种将其移植到openEuler qemu中 ，并基于某种设备完成定制。",
+          "difficulty": "中",
+          "mentor": "panny060",
+          "contact": "pannengyuan@huawei.com",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021291"
+        },
+        {
+          "name": "基于需求覆盖度判断的用例筛选方法（RBC，requirement-based coverage）探索及工程构建",
+          "description": "OS内核及基础包众多，在代码迭代过程中，都需要执行大量自动化用例来保证修改的代码不会影响模块的原有功能。但是，现在的用例集和用例级别划分不是很明确，每次执行的用例有很多是冗余的。如何准确的筛选出能够覆盖代码的最小用例集合，在尽量少的时间内完成迭代验证，提升OpenEuler的交付效率，是我们想要解决的问题。通过执行用例时，跟踪用例覆盖到的代码分支和语句，可以有效识别出用例在代码中的覆盖范围，从而可以筛除冗余用 例，构建精简的能够全面覆盖模块功能的用例集。",
+          "difficulty": "高",
+          "mentor": "hw_niubility",
+          "contact": "hw_niubility@yeah.net",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021292"
+        },
+        {
+          "name": "基于 Sealight 构建云手机的自动化测试",
+          "description": "云手机测试包括接口测试、集成测试、数据流测试、UI测试等多个维度的测试，代码层次多，接口多，且UI界面变化频繁，使用传统的测试工具，覆盖难度大。\n使用Sealight等AI测试工具，深度扫描接口和UI，自动生成用例，提升用例开发效率",
+          "difficulty": "高",
+          "mentor": "hw_niubility",
+          "contact": "hw_niubility@yeah.net",
+          "co-mentor": "",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": "2021293"
         }
       ]
     },
@@ -3141,7 +3383,7 @@
           "student_count": 0,
           "description": "以 YubiKey 为代表的密钥存储设备深受 geek 们的喜爱，而相关的密码技术也在开源社区中得到了广泛应用（如 GnuPG）。由于 YubiKey 不开源，近年来，开源社区中陆续诞生了一些开源的硬件密钥设备，例如 SoloKey、CanoKey。作为一个新兴的开源硬件密钥设备，CanoKey 提供了与 YubiKey 一致的FIDO2/U2F、PIV、OpenPGP 和 OATH（HOTP、TOTP）的支持。为了向大众普及和推广密码学工具，CanoKey 还提供了 WebUSB 支持，可以在浏览器中直接使用密码学工具。现在，这些工具的开发还处于起步阶段，需要社区支持，让密码学工具变得更加易用。",
           "update_time": "2020-05-18",
-          "label": "2027125"
+          "label": "2027294"
         },
         {
           "name": "跨平台 TOTP、HOTP 移动客户端",
@@ -3152,7 +3394,7 @@
           "student_count": 0,
           "description": "随着 iOS 13 进一步开放 NFC 功能，Android 和 iOS 系统都具备了 NFC Reader 的能力。TOTP 和 HOTP 是目前不少网站和应用的 2FA 选项之一，无论是 YubiKey、CanoKey 这样的硬件产品，还是装有 OATH 应用的智能卡，都可以通过 NFC 在手机上提供便捷安全的 TOTP 和 HOTP 功能。本项目的目标是利用 NFC 功能，实现一个开源的 TOTP、HOTP 客户端，支持常见的智能卡或类智能卡设备。",
           "update_time": "2020-05-27",
-          "label": "2027126"
+          "label": "2027295"
         },
         {
           "name": "跨平台 NFC 信息读取移动应用开发",
@@ -3163,7 +3405,7 @@
           "student_count": 0,
           "description": "目前,各类移动设备,包括 Android 与 iOS,都增加了对 NFC 通信的支持；但各类应用对于 NFC 的支持都很不完善,缺少一个统一的跨平台的支持库。同时,关于 NFC 各类标准的文档也并不齐全,通常需要到处查找,为开发者造成了很大的障碍。前期,我们在 Android 平台上是实现了一个 NFC 卡片的读取应用 NFSee；目前,需要将其使用 Flutter 重写以实现跨平台。同时,也将搭建一个公开的 Wiki 网站,对 NFC 相关的协议、标准进行整理和阐述,以纠正常见误区,帮助其他开发者更好地在移动端进行 NFC 相关的开发。",
           "update_time": "2020-05-13",
-          "label": "2027127"
+          "label": "2027126"
         },
         {
           "name": "SCIM Qt5 移植",
@@ -3174,7 +3416,7 @@
           "student_count": 0,
           "description": "SCIM 历史悠久的输入法框架，早期为 GNU/Linux 系统的中文本土化立下了汗马功劳，然而近年来 SCIM 的开发团队已经不再活跃，开发停滞，项目处于维护状态。当前 SCIM 依旧可以在各大发行版上顺畅使用，唯一缺失的功能是对 Qt5 的支持。本项目计划把 SCIM 移植到 Qt5。",
           "update_time": "2020-05-18",
-          "label": "2027128"
+          "label": "2027127"
         },
         {
           "name": "将 xgboost 与 prophet 等数据科学软件库集成到 Debian GNU/Linux",
