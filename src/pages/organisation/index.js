@@ -29,8 +29,11 @@ export default class Organisation extends React.Component{
             window.location.hash = "/organisations?page=project";
             this.switchTab(2);
         } 
-        else if (location.split("/organisations")[1]) {
+        else if (location.split("/organisations")[1] && location.split("/organisations")[1].includes("/")) {
             this.showModal(location.split("/organisations")[1], true);
+        }
+        else {
+            window.location.hash = "/organisations";
         }
     }
     resetStyle (category) {
