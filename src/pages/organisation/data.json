@@ -112,8 +112,8 @@
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
           "hot_index": 0,
-          "description": "提供后端接口。在任务节点中新增“延时等待”的属性，支持任务在开始后一段时间内等待前置任务完成。",
-          "update_time": "2020-05-16",
+          "description": "提供后端接口。在任务节点中新增“延时等待”的属性，支持任务在开始后一段时间内等待前置任务完成。针对调度（任务）执行时，前置依赖没有就绪的情况下，当前任务等待一段时间，在等待时间内，如前置任务就绪，则开始执行当前任务。",
+          "update_time": "2020-05-27",
           "label": "2002005"
         },
         {
@@ -135,6 +135,36 @@
           "hot_index": 0,
           "update_time": "2020-05-13",
           "label": "2002007"
+        },
+        {
+          "name": "用户自助注册（后端）",
+          "description": "提供后端接口供用户自助注册。通过用户自助的注册的方式，用户可以创建自己的账号。但是需要管理员审核通过后，账号才能登陆系统。注册信息包括：用户名，密码，邮箱",
+          "difficulty": "中",
+          "mentor": "Lidong Dai",
+          "contact": "lidongdai@apache.org",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": ""
+        },
+        {
+          "name": "工作流标签（后端）",
+          "description": "提供后端接口供用户用标签对工作流分类。工作流标签主要是解决当工作流数量太多时，工作流难以查找的问题。通过标签，用户可以快速查找/筛选对应的工作流。",
+          "difficulty": "中",
+          "mentor": "Gabry.wu",
+          "contact": "wu_shao_jie@qq.com",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": ""
+        },
+        {
+          "name": "弱依赖类型任务（后端）",
+          "description": "弱依赖类型任务为：1）弱依赖任务的执行结果不影响所属工作流的执行结果。即：当弱依赖的任务执行失败时，整个工作流的后续依赖也可以正常执行。2）弱依赖任务失败后，同样可以重跑。",
+          "difficulty": "中",
+          "mentor": "Gabry.wu",
+          "contact": "wu_shao_jie@qq.com",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": ""
         },
         {
           "name": "任务空跑（后端）",
