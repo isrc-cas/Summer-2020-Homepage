@@ -83,6 +83,16 @@
           "description": "增加 commit message checker，以规范贡献者 commit 格式。",
           "update_time": "2020-05-19",
           "label": "2001141"
+        },
+        {
+          "name": "网站本地化",
+          "difficulty": "低",
+          "mentor": "琚致远",
+          "contact": "juzhiyuan@apache.org",
+          "hot_index": 0,
+          "description": "翻译以下页面为指定语言： 下载页 为 中文； 2FA 为 中文； 安全指南 为 中文； 贡献者指南 为 中文； 发布指南 为 英文；",
+          "update_time": "2020-05-27",
+          "label": ""
         }
       ]
     },
