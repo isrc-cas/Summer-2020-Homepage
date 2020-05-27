@@ -813,6 +813,32 @@
       ]
     },
     {
+      "anchor": "/chubao",
+      "img": "chubao.jpg",
+      "title": "ChubaoFS",
+      "project_url": "",
+      "url": "https://www.chubao.io",
+      "description": "开源云原生存储平台。",
+      "full_des": "ChubaoFS 是一个开源，开放的云原生存储平台，提供分布式文件系统与对象存储服务，为云原生应用提供计算与存储分离的持久化存储方案，通过开放的社区形式与全球开发者共建一个开源，开放，多元与包容的生态体系，打造一个拥抱云原生的存储平台。同时 ChubaoFS 社区也是一个技术活跃，鼓励创新，不断开拓技术新方案与最佳实践的平台。",
+      "tech_tag": [
+        "计算",
+        "存储",
+        "分布式",
+        "云原生",
+        "POSIX",
+        "S3存储与技术分离"
+      ],
+      "domain_tag": [
+        "存储",
+        "分布式文件系统",
+        "对象存储",
+        "云原生",
+        "存储与技术分离"
+      ],
+      "mail_list": "chubaofs-maintainers@groups.io",
+      "email": "chubaofs-maintainers@groups.io"
+    },
+    {
       "anchor": "/chatopera",
       "img": "chatopera.jpg",
       "title": "春松客服",
