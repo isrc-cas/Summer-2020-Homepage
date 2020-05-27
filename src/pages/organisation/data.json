@@ -29,7 +29,7 @@
           "difficulty": "中",
           "mentor": "温铭",
           "contact": "wenming@apache.org",
-          "hot_index": 1,
+          "student_count": 1,
           "description": "将 Apache APISIX 相关的开源项目的 CI 进行迁移，包括 apisix， apisix-docker 和 apisix-website。",
           "update_time": "2020-05-13",
           "label": "2001001"
@@ -39,7 +39,7 @@
           "difficulty": "中",
           "mentor": "王院生",
           "contact": "membphis@apache.org",
-          "hot_index": 3,
+          "student_count": 3,
           "description": "允许用户在线完成 API 的 DEBUG。它非常适合辅助用户学习了解 Apache APISIX 的配置规则以及使用方法。",
           "update_time": "2020-05-13",
           "label": "2001002"
@@ -49,7 +49,7 @@
           "difficulty": "高",
           "mentor": "罗泽轩",
           "contact": "spacewander@apache.org",
-          "hot_index": 1,
+          "student_count": 1,
           "description": "允许用户通过配置，捕获某一个route或service中符合特定request header/response header/upstream response time/request time的请求和响应的内容。类似于 envoy 的 traffic tapping 功能：https://www.envoyproxy.io/docs/envoy/latest/operations/traffic_tapping 我们只需实现其中的一个子集，支持 HTTP 即可。",
           "update_time": "2020-05-13",
           "label": "2001003"
@@ -59,7 +59,7 @@
           "difficulty": "中",
           "mentor": "陈军旭",
           "contact": "chenjunxu@apache.org",
-          "hot_index": 2,
+          "student_count": 2,
           "description": "使用 lua-resty-etcd 库中的 v3 版本，使 Apache APISIX 支持 etcd v3 协议。",
           "update_time": "2020-05-13",
           "label": "2001004"
@@ -69,7 +69,7 @@
           "difficulty": "中",
           "mentor": "琚致远",
           "contact": "juzhiyuan@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "使用 GitHub Actions 对 PR、push commit 做 Lint、Build Test",
           "update_time": "2020-05-19",
           "label": "2001140"
@@ -79,7 +79,7 @@
           "difficulty": "中",
           "mentor": "琚致远",
           "contact": "juzhiyuan@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "增加 commit message checker，以规范贡献者 commit 格式。",
           "update_time": "2020-05-19",
           "label": "2001141"
@@ -131,7 +131,7 @@
           "difficulty": "低",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "开发前端页面，调用后端接口。在任务节点中新增“延时等待”的属性，支持任务在开始后一段时间内等待前置任务完成。",
           "update_time": "2020-05-16",
           "label": "2002006"
@@ -142,7 +142,7 @@
           "difficulty": "低",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-13",
           "label": "2002007"
         },
@@ -182,7 +182,7 @@
           "difficulty": "中",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-16",
           "label": "2002008"
         },
@@ -192,7 +192,7 @@
           "difficulty": "低",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-16",
           "label": "2002009"
         },
@@ -202,7 +202,7 @@
           "difficulty": "中",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-16",
           "label": "2002010"
         },
@@ -212,7 +212,7 @@
           "difficulty": "低",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-16",
           "label": "2002011"
         },
@@ -222,7 +222,7 @@
           "difficulty": "中",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-13",
           "label": "2002012"
         },
@@ -232,7 +232,7 @@
           "difficulty": "高",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-16",
           "label": "2002013"
         },
@@ -242,7 +242,7 @@
           "difficulty": "低",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-16",
           "label": "2002014"
         },
@@ -252,7 +252,7 @@
           "difficulty": "高",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-16",
           "label": "2002015"
         },
@@ -262,7 +262,7 @@
           "difficulty": "低",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-16",
           "label": "2002016"
         },
@@ -272,7 +272,7 @@
           "difficulty": "高",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-13",
           "label": "2002017"
         },
@@ -282,7 +282,7 @@
           "difficulty": "高",
           "mentor": "Gabry.wu",
           "contact": "wu_shao_jie@qq.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-16",
           "label": "2002018"
         }
@@ -311,7 +311,7 @@
           "difficulty": "中",
           "mentor": "Jia Zhai (翟佳)",
           "contact": "izhaijia@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-18",
           "label": "2003019"
         },
@@ -321,7 +321,7 @@
           "difficulty": "中",
           "mentor": "Penghui Li(李鹏辉)",
           "contact": "penghui@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-18",
           "label": "2003020"
         },
@@ -331,7 +331,7 @@
           "difficulty": "中",
           "mentor": "Ran Gao(高冉)",
           "contact": "gaoran_10@126.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-18",
           "label": "2003021"
         },
@@ -341,7 +341,7 @@
           "difficulty": "中",
           "mentor": "Xiaolong Ran (冉小龙)",
           "contact": "rxl@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-18",
           "label": "2003022"
         }
@@ -351,7 +351,7 @@
       "anchor": "/apache-servicecomb",
       "img": "service-comb.jpg",
       "title": "Apache ServiceComb",
-      "project_url": "",
+      "project_url": "http://servicecomb.apache.org/cn/summer2020",
       "url": "https://servicecomb.apache.org",
       "description": "一站式开源微服务解决方案。",
       "full_des": "Apache ServiceComb 是Apache基金会首个毕业的开源微服务框架项目。是一个开箱即用、高性能、兼容流行生态、支持多语言的一站式开源微服务解决方案。",
@@ -395,7 +395,7 @@
           "difficulty": "中",
           "mentor": "张亮",
           "contact": "zhangliang@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-13",
           "label": "2004023"
         },
@@ -405,7 +405,7 @@
           "difficulty": "高",
           "mentor": "潘娟",
           "contact": "panjuan@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-19",
           "label": "2004142"
         },
@@ -415,7 +415,7 @@
           "difficulty": "中",
           "mentor": "张永伦",
           "contact": "zhangyonglun@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-19",
           "label": "2004143"
         },
@@ -425,7 +425,7 @@
           "difficulty": "低",
           "mentor": "欧阳文",
           "contact": "ouyangwen@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-19",
           "label": "2004144"
         },
@@ -435,7 +435,7 @@
           "difficulty": "中",
           "mentor": "秦金卫",
           "contact": "kimmking@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-19",
           "label": "2004145"
         }
@@ -475,7 +475,7 @@
           "difficulty": "中",
           "mentor": "吴晟",
           "contact": "wu.sheng@foxmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-13",
           "label": "2005024"
         },
@@ -485,7 +485,7 @@
           "difficulty": "中",
           "mentor": "吴晟",
           "contact": "wu.sheng@foxmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-13",
           "label": "2005025"
         },
@@ -505,7 +505,7 @@
           "difficulty": "中",
           "mentor": "柯振旭",
           "contact": "kezhenxu94@163.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-13",
           "label": "2005026"
         },
@@ -515,7 +515,7 @@
           "difficulty": "中",
           "mentor": "柯振旭",
           "contact": "kezhenxu94@163.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-13",
           "label": "2005027"
         },
@@ -525,7 +525,7 @@
           "difficulty": "低",
           "mentor": "柯振旭",
           "contact": "kezhenxu94@163.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-13",
           "label": "2005028"
         },
@@ -535,7 +535,7 @@
           "difficulty": "低",
           "mentor": "张伟",
           "contact": " zhangwei24@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-13",
           "label": "2005029"
         },
@@ -545,7 +545,7 @@
           "difficulty": "低",
           "mentor": "赵禹光",
           "contact": " zhaoyuguang@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-13",
           "label": "2005030"
         },
@@ -555,7 +555,7 @@
           "difficulty": "中",
           "mentor": "温铭",
           "contact": "wenming@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-13",
           "label": "2005031"
         },
@@ -565,7 +565,7 @@
           "difficulty": "中",
           "mentor": "高洪涛",
           "contact": "hanahmily@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-13",
           "label": "2005032"
         },
@@ -575,7 +575,7 @@
           "difficulty": "低",
           "mentor": "庄浩潮",
           "contact": "daming@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-13",
           "label": "2005033"
         },
@@ -585,7 +585,7 @@
           "difficulty": "高",
           "mentor": "张鑫",
           "contact": "zhangxin@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-13",
           "label": "2005034"
         },
@@ -595,7 +595,7 @@
           "difficulty": "中",
           "mentor": "张鑫",
           "contact": "zhangxin@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-13",
           "label": "2005035"
         },
@@ -605,7 +605,7 @@
           "difficulty": "低",
           "mentor": "何延龙",
           "contact": "heyanlong@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-13",
           "label": "2005036"
         }
@@ -644,7 +644,7 @@
           "difficulty": "高",
           "mentor": "Dingyuan Wang",
           "contact": "gumblex@aosc.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "社区主要项目 AOSC OS 的一部分构建过程仍然依赖手工操作。即使大部分繁杂的工作已经能为数个社区项目很好地完成，AOSC OS 仍然面临着社区人手严重不足而带来的更新速度不足及潜在质量缺陷问题。于是我们希望建立一套切合社区实际情况的，能将发行版构建 95% 的操作自动化的基础设施来解决上述问题，以求 AOSC OS 的可持续发展。目前分布式打包方案中包括构建机、调度器、软件包仓库管理和触发器四个部分，其中构建机和调度器是最重要的部分。本项目为编写一套功能较为完整的软件包构建调度器，以实现像 BOINC 分布式科学计算那样，自动分配打包任务、回收二进制软件包和打包时的日志和统计信息。调度器的调度模型、依赖解析已经实现，需要设计并实现的是接口和管理功能。",
           "update_time": "2020-05-27",
           "label": "2007037"
@@ -654,7 +654,7 @@
           "difficulty": "中",
           "mentor": "Dingyuan Wang",
           "contact": "gumblex@aosc.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "目前 AOSC 的软件包存在一定的质量问题，且已经有了初步的排查方案。我们希望在编译时或编译后主动地将质量问题检测出来，停止编译和发布。本项目需要在当前的打包流程中增加测试环节来确保软件包的质量。",
           "update_time": "2020-05-17",
           "label": "2007038"
@@ -664,7 +664,7 @@
           "difficulty": "中",
           "mentor": "黎民雍（以俊德）",
           "contact": "lmy441900@aosc.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "社区项目 DeployKit 是未来 AOSC OS 的安装和恢复程序。该程序有两种模式：1. 作为安装向导指引用户正确地安装 AOSC OS； 2. 作为恢复向导指引用户在轻微的系统配置错误中恢复系统； 目前，DeployKit 使用 GTK 3 和 Vala 编程语言基本实现了安装向导的图形用户界面，但尚未实现安装向导的实际操作部分（即 DeployKit 还只是个“空壳”）。本项目的目标是按照社区提供的 AOSC OS 安装指引，将这部分原本需要手动操作的安装流程实现到 DeployKit 上。",
           "update_time": "2020-05-13",
           "label": "2007039"
@@ -675,7 +675,7 @@
           "mentor": "白铭骢",
           "contact": "jeffbai@aosc.io",
           "co-mentor": "刘子兴 <liushuyu@aosc.io>",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "当前我国国内有相当数量的 Linux 及各大开源或自由软件 (F/OSS) 使用者，但在使用过程中，用户们不难发现，各种软件的简中翻译及本地化质量参差不齐，错漏繁多。尤其主流桌面环境如 GNOME 及 KDE 简中翻译率并不理想；而又有一些如 NetSurf 的知名开源项目则完全没有翻译。该项目的主要目的是改善当前本地化质量及覆盖率。",
           "update_time": "2020-05-13",
           "label": "2007040"
@@ -686,7 +686,7 @@
           "mentor": "白铭骢",
           "contact": "jeffbai@aosc.io",
           "co-mentor": "刘子兴 <liushuyu@aosc.io>",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "在 Wayland 及如 GNOME 等现代桌面的推动作用下，libinput 即将取代当前诸多碎片化的 X11 输入驱动（如 evdev 及 synaptics，甚至是更老的 mouse 及 keyboard），为用户及开发者带来一定便利。但在 libinput 的实现过程中，上游开发者由于人力有限，选择抛弃了一些他们主观认为不常见的硬件特性的支持。而被抛弃的特性之一是“划圈滚动”，即在触摸板上用手指划圈滚动（类似 iPod 的操作），这一特性在滚动长页面时可有效提高操作精度并降低疲劳。",
           "update_time": "2020-05-13",
           "label": "2007041"
@@ -696,7 +696,7 @@
           "difficulty": "低",
           "mentor": "张顺然 Staph. aureus",
           "contact": "staph@aosc.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "软件包更新在现代社会已经不再是什么稀奇事。每天，无数软件包获得更新，有些是修复漏洞，有些是增加功能，还有些是性能优化等等。然而，并不是每一个软件包都有充分通过回归测试（Regression test），而有些更新则是主动放弃对于旧硬体的支援。由于系统的软件包仓库亦为业余爱好者维护，打包者的技术、使用的平台与配置等等亦可能导致部分软件包更新后损坏。作为一个由历史专家带领的专业考古社区，我们提供了大量的软件包供各种不同时代与架构的硬体使用。以往，为了保证大家可以方便的切换各个版本的软件包，大量的老包被留在了系统的软件源中。再加上 AOSC 支援的架构数量在某段时间的爆发，于 2017 年时，我们的软件包仓库达到了惊人的数十 GiB 。庞大的体积对于我们自身以及各种收录了我们的开源镜像站均造成了压力。我们因此启动了Anthon Optical Storage Center (AOSC Archive) 项目，将过去的软件包从软件源中移除并收录进入 Blu-ray Disc 进行冷储存。然而使用冷储存造成的不便亦是显而易见的。如果出于各种原因，我们需要取回一个软件包进行测试，那么将会需要比较费事的人工寻找目录并取回对应光盘。另外，冷储存的成本亦是比较高的。在近期的一次检查时，我们发现有约 1%-5% 的包可能由于各种原因，在收录进入 BD 时出现了重复收录的情况。这些重复收录的包既提高了维护成本，又不具有价值。同样，整理需要取回的软件包目前也是一个非常耗费人力的工作。每次退休包时，需要寻找每个架构中有收到更新的包，并移除老包。需要把这些包适当分类并分卷放好，以便于未来取回时不需要跨越多张光盘。这一个项目就是为了解决该问题而产生的。我们希望这个系统：可以较为方便的将软件包退休，并且避免不小心移除不应当被移除的软件包; 可以提供检查重复的功能，以避免将一个软件包重复退休多次，白白占用资源; 可以提供一个软件包搜寻功能，可以方便的告知用户，需要的软件包有哪些版本，分别位于哪些光盘中；可以在未来用在许多发行版上，让每个发行版都可以留下过去的软件包，在未来给大家的老机器使用。另外，我们还希望这个系统可以快速提供一个「最小软件仓库」，仅包含最新版本的软件包，占用最少的空间。",
           "update_time": "2020-05-18",
           "label": "2007042"
@@ -738,7 +738,7 @@
           "difficulty": "高",
           "mentor": "罗杨 (hsluoyz)",
           "contact": "hsluoyz@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Casbin采用独特的PERM模型语法（model）来实现强大、灵活的访问控制。Casbin Golang版本作为Casbin的第一个语言实现，拥有最多的用户以及最先进的feature。我们希望在Casbin Golang上：1）增强Casbin语法的表达能力，满足用户多样化的策略制定需求；2）优化Casbin在大规模规则集上（百万以上）的策略评估性能。这两个目标是Casbin的核心竞争力，对于其他Casbin语言的实现也会起到非常重要的借鉴意义。",
           "update_time": "2020-05-17",
           "label": "2008043"
@@ -748,7 +748,7 @@
           "difficulty": "高",
           "mentor": "江成 (GopherJ)",
           "contact": "cacathecafe@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Casbin在初始化时将规则集装载到内存中，在规则集发生变更时将该次变更持久化到文件或者数据库等媒介。我们希望在此基础上： 1）基于Raft协议实现单机、分布式环境中不同Casbin实例的规则集同步；２）探索如何将规则集分组，映射到不同节点，使特定规则集的增，删以及某个请求的权限计算都在正确的节点进行，以此减轻单机的内存压力。",
           "update_time": "2020-05-17",
           "label": "2008044"
@@ -785,7 +785,7 @@
           "difficulty": "中",
           "mentor": "耿航",
           "contact": "devin@ceph.org.cn",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "目前Ceph中国社区已经有文档本地化小组及文档本地化官网（docs.ceph.org.cn）随着Ceph的更新迭代与官方文档尚有部分脱节，故需要进一步校对和翻译。",
           "update_time": "2020-05-13",
           "label": "2009045"
@@ -795,7 +795,7 @@
           "difficulty": "中",
           "mentor": "郭峰",
           "contact": "diluga@ceph.org.cn",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Ceph是一套开源的分布式存储软件，原生已经提供了对象存储网关服务(Rados gateway)，但是该对象存储和底层Ceph的耦合度高，不易改造和扩展新的概念。本次项目的目标是基于Ceph已经提供的Librados API，实现轻量级的对象存储网关服务，满足基本的大、小文件的上传下载的同时还能实现图片缩略图、裁剪、翻转等简单的多媒体操作。",
           "update_time": "2020-05-13",
           "label": "2009046"
@@ -841,7 +841,7 @@
           "difficulty": "低",
           "mentor": "王海良、向宇、张凯",
           "contact": "info@chatopera.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低；基于春松客服开发一套机器人客服智能客服，春松客服本身不具有智能客服的特点，但是其灵活独特的插件机制，可以让使用者便捷的开发具有AI特质的智能客服。既可以对接自己开发的机器人或者第三方的机器人接口，如Chatopera；机器人客服可以7 * 24小时的高效率的回复访客的问题。",
           "update_time": "2020-05-15",
           "label": "2010047"
@@ -851,7 +851,7 @@
           "difficulty": "中",
           "mentor": "王海良、向宇、张凯",
           "contact": "info@chatopera.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低；春松客服基础功能目前是没有更多的接口及SDK，所以希望各位同学可以参考春松客服现有功能实现其SDK，包括IOS、Android、JS端以及RESTfulAPI。",
           "update_time": "2020-05-15",
           "label": "2010048"
@@ -861,7 +861,7 @@
           "difficulty": "高",
           "mentor": "王海良、向宇、张凯",
           "contact": "info@chatopera.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低；春松客服是一个先进的客服系统。其目标是成为客服系统行业中的一个“操作系统”，企业、开发者都可以基于此操作系统开发各种客服业务的“应用”；春松客服系统被大量的下载和使用，目前除了官方发布的基础功能外，非常期待社区开发者企业可以push更多的插件应用，让其更加的丰富，功能更加的强大，普惠更多的人；要在春松客服操作系统中开发插件应用，需要遵循其插件化开发方法，具体参考插件的安装和源码参考；本次活动官方推荐但不限于开发如下的插件：聊天渠道的插件如：微信公众号/企业微信/钉钉/微博/飞书/facebook/skype/Email/电话等等；报表管理",
           "update_time": "2020-05-15",
           "label": "2010049"
@@ -896,7 +896,7 @@
           "difficulty": "中",
           "mentor": "Bruce Zhang",
           "contact": "zyx@elaphant.app",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "区块链的基本功能是信息存证。但这一基本功能，并未能向大众或对区块链有兴趣的用户普及。很多存证应用，也是为了为应用导流，从而导致产品复杂。我们希望能为普通用户，做一款方便体验的区块链存证服务，不强调KYC、不强调助记词、甚至不强调dAPP……就是让用户用最简单的方式，实现数据上链，作为对区块链的第一次体验。社区已经利用相关接口做出了一版产品，可供参考： https://zhengshu.elastos.org/ 我们希望能对此进行改进，并封装为小程序，以方便用户调用。其他改进也可自行添加。",
           "update_time": "2020-05-27",
           "label": "2011050"
@@ -1100,7 +1100,7 @@
           "difficulty": "高",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "use cross-platform IPC instead DBus, WebSocket's async model is not suitable for replacement.",
           "update_time": "2020-05-19",
           "label": "2012146"
@@ -1110,7 +1110,7 @@
           "difficulty": "高",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Make Qt’s QGraphicsSence technology support MacOS; Replace QWindow::setParent with MacOS native cross-process reparent API.",
           "update_time": "2020-05-19",
           "label": "2012147"
@@ -1120,7 +1120,7 @@
           "difficulty": "中",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012148"
@@ -1130,7 +1130,7 @@
           "difficulty": "中",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012149"
@@ -1140,7 +1140,7 @@
           "difficulty": "中",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012150"
@@ -1150,7 +1150,7 @@
           "difficulty": "中",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012151"
@@ -1160,7 +1160,7 @@
           "difficulty": "中",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012152"
@@ -1170,7 +1170,7 @@
           "difficulty": "高",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012153"
@@ -1180,7 +1180,7 @@
           "difficulty": "中",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012154"
@@ -1190,7 +1190,7 @@
           "difficulty": "低",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012155"
@@ -1200,7 +1200,7 @@
           "difficulty": "低",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012156"
@@ -1210,7 +1210,7 @@
           "difficulty": "中",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012071"
@@ -1220,7 +1220,7 @@
           "difficulty": "低",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012065"
@@ -1230,7 +1230,7 @@
           "difficulty": "低",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012157"
@@ -1240,7 +1240,7 @@
           "difficulty": "低",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012158"
@@ -1250,7 +1250,7 @@
           "difficulty": "高",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012159"
@@ -1260,7 +1260,7 @@
           "difficulty": "中",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012067"
@@ -1270,7 +1270,7 @@
           "difficulty": "中",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012160"
@@ -1328,7 +1328,7 @@
           "mentor": "赵生宇",
           "contact": "frank_zsy@hypertrons.io",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Hypertrons 项目用于连接各种开放平台，并提供完整的跨平台交互能力，这也意味着项目配置会异常复杂，那么如何保证配置结构与文档描述的一致性就是一个非常重要的问题。Hypertrons 项目采用 TypeScript 的 Attribute 特性对所有配置项进行了代码化描述，请参考源代码。采用这种方式，不仅可以让平台在运行中自动生成配置结构与默认值，而且结构化的代码化配置可以使离线脚本轻松通过源代码直接生成配置的描述信息，做到代码即文档。",
           "update_time": "2020-05-25",
           "label": "2035197"
@@ -1339,7 +1339,7 @@
           "mentor": "吴绍岭",
           "contact": "wsl@hypertrons.io",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Hypertrons 作为一个跨平台 RPA，各类平台的交互能力都是必不可少的，例如目前已经支持的代码托管平台（GitHub、GitLab、Gitee）、持续集成平台（Jenkins）、即时通信平台（Slack）等。而文档协作也是开放组织协作中非常重要的一环，目前大量的开放组织都在通过文档协作产出内容，例如 Google Docs、石墨文档、语雀、飞书文档、QQ 文档等等，都是这个领域的代表，如何有效的抽象在线文档协作平台的接口体系，并接入主流的文档协作平台，成为自动化协作流程的一部分，是项目关键的一部分能力。",
           "update_time": "2020-05-25",
           "label": "2035198"
@@ -1350,7 +1350,7 @@
           "mentor": "赵生宇",
           "contact": "frank_zsy@hypertrons.io",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Hypertrons 作为一个跨平台的 RPA 平台，在提供跨平台交互能力的同时，为了能更好的做出决策，也采集了各平台的开放数据作为决策基础。而这些数据同时也为社区的数字化运营分析提供了有效的支撑，我们不希望深度改变用户的使用习惯，故发起一个浏览器插件项目，通过在特定网址的网页中插入迷你看板的方式为开放组织提供有效的监控和运营手段，这个项目是 Hypertrons 一大创新，也是重要的一部分。",
           "update_time": "2020-05-25",
           "label": "2035199"
@@ -1423,7 +1423,7 @@
           "mentor": "卢旭辉",
           "contact": "luxuhui@xiaomi.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "相对于手机等移动设备而言，微控制器是小型、低能耗的计算设备，经常嵌入在只需要进行基本运算的硬件中，包括家用电器和物联网设备等。每年都有数十亿个微控制器被生产出来。MACE新增微控制器（MACE Micro）支持，以全面支持手机与IoT设备超低功耗推理场景。具体使用可参考。本项目的内容为将MACE Micro移植到某款微控制器芯片，包括但不限于ST、Ambiq等厂商生产的微控制器芯片，MACE Micro不依赖于任何操作系统、文件系统以及运行时的支持，具有良好的可移植性。",
           "update_time": "2020-05-18",
           "label": "2015076"
@@ -1434,7 +1434,7 @@
           "mentor": "卢旭辉",
           "contact": "luxuhui@xiaomi.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "基于MACE Micro，利用Google的唤醒词识别模型，实现一个能在微控制器上运行的语音识别的Demo。",
           "update_time": "2020-05-18",
           "label": "2015077"
@@ -1445,7 +1445,7 @@
           "mentor": "李滨",
           "contact": "libin11@xiaomi.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "MACE支持了Tensorflow的1.x版本训练的模型的推理，MACE开发了一个Tensorflow1.x模型到MACE专有模型的转换器。本项目的内容为，参考Tensorflow1.x模型到MACE专有模型的转换器代码，开发一个Tensorflow2.0模型到MACE专有模型的转换器。",
           "update_time": "2020-05-18",
           "label": "2015078"
@@ -1456,7 +1456,7 @@
           "mentor": "李滨",
           "contact": "libin11@xiaomi.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "MACE通过支持ONNX标准交换格式，间接支持了Pytorch训练的模型的推理，但模型的两次转换造成了不必要的转换开销。本项目的内容为，参考其他框架模型到MACE专有模型的转换器代码，开发一个Pytorch模型到MACE专有模型的转换器。",
           "update_time": "2020-05-18",
           "label": "2015079"
@@ -1491,7 +1491,7 @@
           "mentor": "@yisiliu",
           "contact": "yisiliu@gmail.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Maskbook 是一个开源的浏览器隐私插件，帮助用户在 Facebook，Twitter 等社交平台自动加密帖子和聊天记录，防止被社交平台审查和滥用用户数据，仅用户本人和指定好友能够解密。除了我们基础的功能之外，我们还开发了一套插件系统，可以支持简单的脚本运行，我们已经尝试过的插件有： 基于 Ethereum（以太坊）的加密货币红包 #634 #672 ，Gitcoin Grant 捐赠 #996 #1079 和 Arweave 文件分享 #1057。在这个 Task 中，我们希望大家能够跟我们一起开动脑洞，思考一下基于我们 Maskbook 和社交网络的关系，有没有什么更加有心意的插件可以加入进来，提供给所有的用户更多的功能和自由。具体的项目介绍可以在 Open Source Promotion Plan - Summer 2020 Task 1 中看到，并期待同学们能在这里跟我们进行交流。",
           "update_time": "2020-05-18",
           "label": "2016080"
@@ -1502,7 +1502,7 @@
           "mentor": "@yisiliu",
           "contact": "yisiliu@gmail.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Maskbook 是一个开源的浏览器隐私插件，帮助用户在 Facebook，Twitter 等社交平台自动加密帖子和聊天记录，防止被社交平台审查和滥用用户数据，仅用户本人和指定好友能够解密。Maskbook 现在有两种 payload 的模式，第一种是纯文字的 payload，格式是 base64 encoded 的加密文本，例如 https://www.google.co.in/%204/4.UN3m8PThWagRN/YaV4HBFVZhmzU-wuIzD1Yugjm7JAPg1BgX9UilZl5jlHp0YsRs2cRu+lNTisyp1J45zvXoSD1fzbsK8+2Do5itncakns29P3BzH8YJACmG64G6tNikZP5oEme+W/to9wv1C43aSTs9rY1F8mFCwimOsZvki1+FN6LuItO3cX/1.NdahzvHRaBdRMI5gQvT5tg_=.27WQHRwyEwW8QwhIR0oOcPU9fbR35j8vKumBMyupnQ==.y5402vqUQoQub+RKHofpxgmQtetSiRwumF4KXaL/l5rmOHHRJBTL9YcZOjz39WtJAgbdg+iYsJdq5gm3MwWAXQ==.Ao+TblKN40/JUXl4B1HsISVoJc5gSVBYCXiolhxa8D5Q.0%40(注：在 Facebook 中，没有字数限制，所以会直接将 payload 放入 post 中，但是在 Twitter 上由于有严格的字数限制，所以我们采用了基于 url 的 hack #198)；另一种是图片模式，是基于**快速傅立叶变换（fft）**的一种方法，将密文隐写到图片中，做到更加美观的效果，目前的实现可以在 DimensionDev/Stego-JS中看到。目前的实现由于算法的限制，导致效果不甚理想，会有一些带有信息的点在图片中显示，并且不够稳定，没有办法在 Facebook 和 Twitter 中都可以抗平台压缩，导致信息缺失，具体细节可以在 Open Source Promotion Plan - Summer 2020 Task 2 中看到。在这个 Task 中，我们希望大家能够跟我们一起调研各种抗压缩图片（或音频）隐写算法，使我们的图片模式更加的高效。",
           "update_time": "2020-05-19",
           "label": "2016161"
@@ -1531,7 +1531,7 @@
           "mentor": "王俊",
           "contact": "wangjun289@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student": 0,
           "description": "MindSpore是华为自研的深度学习框架，采用基于源码转换的自动微分，支持自动并行、深度图优化。MindSpore原生支持昇腾芯片，针对昇腾芯片架构特点，采用Pipeline并行、整图下沉等功能，可以达到很高的执行性能。目前MindSpore还处于发展阶段，本项目向大家介绍MindSpore特性及API使用，希望大家基于MindSpore进行深度学习算法开发，完成某项指定挑战。",
           "update_time": "2020-05-21",
           "label": "2017181"
@@ -1542,7 +1542,7 @@
           "mentor": "高寒",
           "contact": "gaohan19@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "MindSpore是华为自研的深度学习框架，其中的计算图模式是一种业界主流的用来进行数据传递与计算的形式。计算图主要包含节点和有向边，节点表示计算和控制操作，边表示数据的流向和控制等关系。计算图的高效合理展示，有助于用户更好的理解模型结构、发现和调试模型训练过程中出现的问题。然而，大型深度学习模型往往有着复杂的计算图结构，包含有成千上万个节点和更多的边。在这些点和边之中，包含有许多结构相同或高度相似的子结构，这些子结构不仅从图的拓扑结构上，甚至从深度学习语义上具有高度的相似性。快速识别大型计算图中上述的相同子结构，能够支持后续用收折、重叠等方式大幅减少页面中同时呈现的节点和边的数目，从而大幅改善计算图的展示效果。",
           "update_time": "2020-05-21",
           "label": "2017182"
@@ -1569,21 +1569,11 @@
       "email": "community@zilliz.com",
       "project_list": [
         {
-          "name": "使用ETCD作为Milvus元数据后端",
-          "difficulty": "中",
-          "mentor": "莫毅华",
-          "contact": "yihua.mo@zilliz.com",
-          "hot_index": 0,
-          "description": "Milvus是一款开源的特征向量搜索引擎。其存储系统使用元数据对数据文件进行统一管理，目前元数据的后台只能选用SQlite或者MySQL，需要支持更多的元数据后台。请实现一套元数据接口以支持ETCD作为元数据后台。",
-          "update_time": "2020-05-18",
-          "label": "2018081"
-        },
-        {
           "name": "Milvus 数据备份恢复工具",
           "difficulty": "高",
           "mentor": "莫毅华",
           "contact": "yihua.mo@zilliz.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Milvus是一款开源的特征向量搜索引擎。目前正在开发0.10.0版本。由于某些版本间数据无法兼容，需要开发一套数据备份恢复工具和数据迁移工具，将旧版本数据导出备份，能够将备份数据恢复，且能够转换兼容不同版本Milvus。",
           "update_time": "2020-05-18",
           "label": "2018082"
@@ -1593,7 +1583,7 @@
           "difficulty": "高",
           "mentor": "邹英豪",
           "contact": "yinghao.zou@zilliz.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "开发一个在命令行可以查询和管理Milvus的工具。使用这个工具可以测试Milvus实例的服务状态，可以列出实例上的所有Collection以及每个Collection的一些统计信息等，另外这个工具还可以在运行时修改Milvus的一些系统参数，例如auto_flush_interval等。工具需要交互友好，命令支持模糊自动补全。本项目需要使用Python开发。",
           "update_time": "2020-05-18",
           "label": "2018083"
@@ -1603,7 +1593,7 @@
           "difficulty": "中",
           "mentor": "蔡宇东",
           "contact": "yudong.cai@zilliz.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "S3是Simple Storage Service的缩写，即简单存储服务。它是由亚马逊提出的一套云存储服务接口，现在几乎所有的云服务都兼容S3。本项目目标是实现一个兼容S3存储的Codec，使得Milvus能够将结构化数据和非结构化数据存入兼容S3的云端存储，如 MinIO。",
           "update_time": "2020-05-18",
           "label": "2018084"
@@ -1613,7 +1603,7 @@
           "difficulty": "中",
           "mentor": "余昆",
           "contact": "kun.yu@zilliz.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "HDFS是基于流数据模式访问和处理超大文件的需求而开发的分布式文件系统，是分布式计算中数据存储管理的基础，为超大数据集（Large Data Set）的应用处理带来了很多便利。本项目目标是实现一个基于HDFS存储格式的Codec，使得Milvus能够使用HDFS格式来存储结构化数据和非结构化数据。",
           "update_time": "2020-05-18",
           "label": "2018085"
@@ -1623,7 +1613,7 @@
           "difficulty": "中",
           "mentor": "王翔宇",
           "contact": "xy.wang@zilliz.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Parquet是Hadoop生态系统中任何项目均可使用的列式存储格式，与数据处理框架、数据模型或者编程语言无关。本项目目标是实现一个基于Parquet存储格式的Codec，使得Milvus能够使用Parquet格式来存储结构化数据。",
           "update_time": "2020-05-18",
           "label": "2018086"
@@ -1634,7 +1624,7 @@
           "mentor": "李盛俊",
           "contact": "shengjun.li@zilliz.com",
           "co-mentor": "许笑海 xiaohai.xu@zilliz.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Milvus是一款开源的特征向量搜索引擎。聚类是一种常见的数据分类方法，在索引中有着重要的应用。Milvus目前使用k-means来实现聚类。请为它添加更多的聚类算法并添加相应的选择开关。",
           "update_time": "2020-05-18",
           "label": "2018087"
@@ -1645,7 +1635,7 @@
           "mentor": "李成明",
           "contact": "chengming.li@zilliz.com",
           "co-mentor": "李盛俊 shengjun.li@zilliz.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Milvus是一款开源的特征向量搜索引擎。目前已经实现了基于空间分类的、基于图的等多种索引类型。请为其再添加一种基于Hash的索引方式。",
           "update_time": "2020-05-18",
           "label": "2018088"
@@ -1656,7 +1646,7 @@
           "mentor": "李盛俊",
           "contact": "shengjun.li@zilliz.com",
           "co-mentor": "王翔宇 xiangyu.wang@zilliz.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Milvus是一款开源的特征向量搜索引擎。不过目前尚不支持一份数据的多种距离计算，从而导致了某些场景的使用不便。请为其中的Flat索引支持计算时再指定距离类型的功能。",
           "update_time": "2020-05-18",
           "label": "2018089"
@@ -1666,7 +1656,7 @@
           "difficulty": "高",
           "mentor": "王翔宇",
           "contact": "xy.wang@zilliz.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "FAISS IVF GPU 算法运行时所需要的显存与 NQ／nprobe 成正比，但 GPU 上的显存有限，因此当 NQ／nprobe 很大时，会出现 Out Of Memory。 本项目的目的是优化该算法，减小 GPU 显存使用量。",
           "update_time": "2020-05-18",
           "label": "2018090"
@@ -1701,7 +1691,7 @@
           "mentor": "魏永明",
           "contact": "vincent@minigui.org",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2038244"
         },
@@ -1712,7 +1702,7 @@
           "mentor": "魏永明",
           "contact": "vincent@minigui.org",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2038245"
         },
@@ -1723,7 +1713,7 @@
           "mentor": "魏永明",
           "contact": "vincent@minigui.org",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2038246"
         },
@@ -1734,7 +1724,7 @@
           "mentor": "魏永明",
           "contact": "vincent@minigui.org",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2038247"
         },
@@ -1745,7 +1735,7 @@
           "mentor": "魏永明",
           "contact": "vincent@minigui.org",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2038248"
         }
@@ -1758,7 +1748,7 @@
       "project_url": "https://git.io/summer2020",
       "url": "https://oi-wiki.org",
       "description": "编程竞赛知识,内含炫酷算术魔法！",
-      "full_des": "OI Wiki 是一个编程竞赛知识整合站点,提供有趣又实用的编程竞赛知识以及其他有帮助的内容,帮助广大编程竞赛爱好者更快更深入地学习编程竞赛。同时我们围绕 OI Wiki 主站开展一些相关的基础设施建设,包括 markdown 渲染工具以及周边诸多开发工具。",
+      "full_des": "OI Wiki 是一个编程竞赛知识整合站点,提供有趣又实用的编程竞赛知识以及其他有帮助的内容,帮助广大编程竞赛爱好者更快更深入地学习编程竞赛。同时我们围绕 OI Wiki 主站开展一些相关的基础设施建设,包括 markdown 渲染工具以及周边诸多开发工具。详情可以访问 https://github.com/OI-wiki",
       "tech_tag": [
         "typescript",
         "react",
@@ -1782,7 +1772,7 @@
           "mentor": "ir1d",
           "contact": "sirius.caffrey@gmail.com",
           "co-mentor": "Falsyta falsyta@pku.edu.cn",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "OI Wiki 是一个编程竞赛知识整合站点,提供有趣又实用的编程竞赛知识以及其他有帮助的内容,帮助广大编程竞赛爱好者更快更深入地学习编程竞赛。然而,算法与数据结构知识迭代更新较快,仍有很多 OI Wiki 尚未涉及的内容。本项目目标是选定若干新颖有趣的 topic,并将其引入 OI Wiki。寻找有趣的 topic 可以参考 e-maxx-eng, AlgoWiki 。",
           "update_time": "2020-05-13",
           "label": "2019091"
@@ -1793,7 +1783,7 @@
           "mentor": "mgt/Enter-tainer",
           "contact": "mgt@oi-wiki.org",
           "co-mentor": "diauweb diauweb@live.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "当前,OI Wiki 使用 mkdocs 作为静态页面生成引擎。然而由于 mkdocs 并非专门为 Wiki 类项目设计,因而与我们的需求存在较大差距,此外还难以实现对语法和页面的定制。因此,目前 OI Wiki 正在将前端迁移到基于 React 和 GraphQL 的页面生成框架 Gatsby 上,从而实现对页面的深度定制。目前,我们已经实现了基本的框架代码（见下面的仓库）。然而它还不尽完善,我们希望为它添加更多的功能,覆盖用户的需求。",
           "update_time": "2020-05-13",
           "label": "2019092"
@@ -1803,7 +1793,7 @@
           "difficulty": "中",
           "mentor": "ir1d",
           "contact": "sirius.caffrey@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "在即将上线的新前端中,为了支持我们的诸多 markdown 自定义语法, OI Wiki 使用 remark 作为 markdown parser,并使用 rehype 生成对应的 html 页面。首先,我们希望能够基于现有的 Unified AST,生成相应的 LaTeX code 并导出排版优美的 pdf 文档。OI Wiki 开发过一版导出工具（见下面的仓库 remark-latex）,但是由于缺乏维护,对于图片等语法的支持不够完善,使用起来也需要大量人工操作。我们希望能够基于 Unified AST 及现有实现,改进或重构出一个较优美的 markdown 转 LaTeX 导出工具。此外,上游社区也有一些优秀的 LaTeX AST 实现供参考（见下面的 latex-utensils 及 LaTeX.js）。其次,为了让多人协作的 markdown 文件更整齐,我们采用了 remark-lint 来规范 markdown 中内容的格式。目前 OI Wiki 的格式化工具见下方 linter 仓库,启用的格式化规则见 https://github.com/OI-wiki/OI-wiki/blob/master/.remarkrc ,但是目前的实现还不够完善,比如对于公式两侧添加若干多余的空格、details 语法限制过严等等。我们希望通过这个项目,规范整理 lint 规则。",
           "update_time": "2020-05-13",
           "label": "2019093"
@@ -1813,7 +1803,7 @@
           "difficulty": "中",
           "mentor": "Billchenchina",
           "contact": "billchenchina2001@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "在即将上线的新前端中,我们希望能添加一些辅助竞赛选手的实用工具。测试数据生成工具就是其中之一。在解题过程中,选手往往会有自己造一些样例数据的需求,我们希望能设计一个前端工具来简化这一流程。目前有一些类似的工具供参考,如 cyaron,testlib, Tree-Generator 。",
           "update_time": "2020-05-13",
           "label": "2019094"
@@ -1824,7 +1814,7 @@
           "mentor": "Marcythm",
           "contact": "marcythm@gmail.com",
           "co-mentor": "ksyx ksyxmeow@outlook.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "在 wiki 的编写过程中需要参考大量的外界资料以使得 wiki 质量更高、更为完善及更易读。本项目主要工作内容为参考、翻译外文资料并将其融入 OI Wiki 现有内容中。",
           "update_time": "2020-05-19",
           "label": "2019162"
@@ -1835,7 +1825,7 @@
           "mentor": "ksyx",
           "contact": "ksyxmeow@outlook.com",
           "co-mentor": "Marcythm marcythm@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "OI Wiki 上收录了大量优质的算法内容，但是他们主要是以中文编写的，会对外国友人的学习造成一定的障碍，因此为了更好的扩大 OI Wiki 的影响力和帮助到更多的人，开展本项目。本项目主要内容为将 OI Wiki 上现有的内容按照格式要求翻译成英文。",
           "update_time": "2020-05-19",
           "label": "2019163"
@@ -1846,7 +1836,7 @@
           "mentor": "Marcythm",
           "contact": "marcythm@gmail.com",
           "co-mentor": "hi@oi-wiki.org",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "OI Wiki 上收录了大量优质的算法内容，但是仍有相当多的页面在语言表述上较为随意，会对大家学习体验与效果产生一定的影响。本项目希望能将 OI Wiki 上现有的内容按照格式要求进行合理的编修、调整格式、清理、校订。",
           "update_time": "2020-05-19",
           "label": "2019164"
@@ -1880,7 +1870,7 @@
           "difficulty": "中",
           "mentor": "Shiqi Yu",
           "contact": "admin@opencv.org.cn",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Universal intrinsics is OpenCV way to write cross-platform and yet very efficient code on a variety of platforms. The technique is widely used inside OpenCV, but it’s not well-known to many OpenCV users, including contributors, who are supposed to provide high-quality fast code into OpenCV. This tutorial should fill this important missing part of the documentation.",
           "update_time": "2020-05-14",
           "label": "2020095"
@@ -1890,7 +1880,7 @@
           "difficulty": "中",
           "mentor": "Satya Mallick",
           "contact": "admin@opencv.org.cn",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Nuget is the standard Microsoft package manager. If done properly, it can become the most convenient way to install OpenCV on Windows. We can also create opencv_contrib nuget package, and thus provide a convenient way for OpenCV users to install experimental OpenCV functionality on Windows.",
           "update_time": "2020-05-14",
           "label": "2020096"
@@ -1900,7 +1890,7 @@
           "difficulty": "中",
           "mentor": "Intel OpenCV team member",
           "contact": "admin@opencv.org.cn",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "At the moment, OpenCV can works with inference deep neural network with help DNN module. But DNN module has limitation, it work with only images. In addition, exist much network which work with audio. That why proposed support audio input/output in OpenCV for extension functionality of library and more specifically extension functionality of DNN module.",
           "update_time": "2020-05-14",
           "label": "2020097"
@@ -1910,7 +1900,7 @@
           "difficulty": "中",
           "mentor": "Intel OpenCV team member",
           "contact": "admin@opencv.org.cn",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "OpenCV has well-working QR codes detection and decoding algorithm. Currently it uses third party library for decoding and doesn’t have functionality for creation of QR-codes. The first task will be implementation decoder with help of OpenCV functionality. This will help to solve second task – QR-code encoder (tasks are interconnected). Student will need to research QR-codes decoding algorithms, error correction rules, data character encoding methods and to program decoder and encoder.",
           "update_time": "2020-05-14",
           "label": "2020098"
@@ -1920,7 +1910,7 @@
           "difficulty": "中高",
           "mentor": "Intel OpenCV team member",
           "contact": "admin@opencv.org.cn",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Deep learning networks are hungry for data and data augmentation is one of the easiest ways to increase data variation. Augmentation could be as simple image flipping, cropping and scaling on up to more complicated transformations such style transfer using another deep learning network. For computer vision problems, OpenCV is often used for reading images in most of training scenarios, so why we’d like to enhance data reading with simple to use data augmentation techniques as well.",
           "update_time": "2020-05-14",
           "label": "2020099"
@@ -1930,7 +1920,7 @@
           "difficulty": "中",
           "mentor": "Intel OpenCV team member",
           "contact": "admin@opencv.org.cn",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "With a rapid growth of computer vision application areas such as robotics, self-driving cars, drones, as well as augmented reality, and with increasing availability of various depth sensors, there is also more demand in software that would be able to process point clouds coming from these sensors efficiently in realtime on low-power processors. And so the efficient cloud processing becomes one of OpenCV strategic directions. Reducing the number of points in a point cloud prior to triangulation can be used to simultaneously improve the quality of point clouds and reduce the memory footprint. This project aims at an efficient implementation of the “Incremental and Batch Planar Simplification of Dense Point Cloud Maps paper” (see link in Resources).",
           "update_time": "2020-05-22",
           "label": "2020194"
@@ -1964,7 +1954,7 @@
           "difficulty": "高",
           "mentor": "@woqidaideshi",
           "contact": "yafen@iscas.ac.cn",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "树莓派（英语：Raspberry Pi）是基于 Linux 的单片机电脑，目的是以低价硬件及自由软件促进学校的基本计算机科学教育。openEuler 树莓派版本目前没有桌面环境。本项目的目标是为树莓派添加桌面支持，即适配桌面环境 Xfce 到 openEuler 树莓派 4B。",
           "update_time": "2020-05-18",
           "label": "2021100"
@@ -1974,7 +1964,7 @@
           "difficulty": "中",
           "mentor": "@woqidaideshi",
           "contact": "yafen@iscas.ac.cn",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "树莓派（英语：Raspberry Pi）是基于 Linux 的单片机电脑，目的是以低价硬件及自由软件促进学校的基本计算机科学教育。树莓派需要刷写文件系统镜像来实现启动，镜像文件常常都较大，不利于快速分发和安装。本项目目标是为制作压缩前小于 500 MiB 的 openEuler 树莓派 4B 镜像，并能够通过 DNF 或 YUM等安装软件源中更多的软件进来。镜像尽可能小。",
           "update_time": "2020-05-18",
           "label": "2021101"
@@ -1984,7 +1974,7 @@
           "difficulty": "中",
           "mentor": "@woqidaideshi",
           "contact": "yafen@iscas.ac.cn",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "树莓派（英语：Raspberry Pi）是基于 Linux 的单片机电脑，目的是以低价硬件及自由软件促进学校的基本计算机科学教育。为了降低成本，树莓派省去了传统计算机用来存储引导加载程序的板载存储器(BIOS), 直接把引导程序放在了SD卡中。目前树莓派 Pi 4 引入了 UEFI，不过目前处于 EXPERIMENTAL 状态。本项目目标是为树莓派引入 UEFI Firmware 来支持 UEFI 启动 openEuler 树莓派 4B。",
           "update_time": "2020-05-18",
           "label": "2021102"
@@ -1994,7 +1984,7 @@
           "difficulty": "低",
           "mentor": "@sinever",
           "contact": "sinever@126.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "没有软件工程师不知道 Hello world，也没有 AI 工程师不知道 mnist 。OpenEuler 上对 AI 的支持也正如火如荼进行，为了让大家熟悉在 openEuler 上 AI 的软件栈和开发流程，请从源代码出发构建 Tensorflow 的 aarch64 架构安装包(包括 pip 和 yum )，用这些安装包基于公开的数据集完成 mnist 的训练过程。",
           "update_time": "2020-05-26",
           "label": "2021200"
@@ -2004,7 +1994,7 @@
           "difficulty": "低",
           "mentor": "@sinever",
           "contact": "sinever@126.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "没有软件工程师不知道 Hello world，也没有 AI 工程师不知道 mnist 。OpenEuler 上对 AI 的支持也正如火如荼进行，为了让大家熟悉在 openEuler 上 AI 的软件栈和开发流程，请从源代码出发构建 PyTorch 的 aarch64 架构安装包(包括 pip 和 yum )，用这些安装包基于公开的数据集完成 mnist 的训练过程。",
           "update_time": "2020-05-26",
           "label": "2021201"
@@ -2015,7 +2005,7 @@
           "mentor": "@zhanghailiang_lucky",
           "contact": "zhang.zhanghaliang@huawei.com",
           "co-mentor": "@yorifang fangying1@huawei.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "云场景，性能类问题无法快速定位定界，缺少定位手段。例如CPU性能不足，网络性能抖动等常见问题定位周期长，定位手段少。CPU超分场景经常出现虚拟机的 vcpu争抢，需要提供vcpu使用监控手段，期望能够提供一套类似top的实时监测工具。",
           "update_time": "2020-05-26",
           "label": "2021202"
@@ -2027,7 +2017,7 @@
           "mentor": "@lifeng2221dd1",
           "contact": "lifeng68@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021203"
         },
@@ -2038,7 +2028,7 @@
           "mentor": "@haozi007",
           "contact": "liuhao27@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021204"
         },
@@ -2049,7 +2039,7 @@
           "mentor": "@haozi007",
           "contact": "liuhao27@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021205"
         },
@@ -2060,7 +2050,7 @@
           "mentor": "@jingwoo",
           "contact": "wujing50@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021206"
         },
@@ -2071,7 +2061,7 @@
           "mentor": "@jingwoo",
           "contact": "wujing50@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021207"
         },
@@ -2082,7 +2072,7 @@
           "mentor": "@zklei",
           "contact": "leizhongkai@huawei.com",
           "co-mentor": "@zhangsong234 zhangsong34@huawei.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021208"
         },
@@ -2093,7 +2083,7 @@
           "mentor": "@jingxiaolu",
           "contact": "jingxiaolu@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021209"
         },
@@ -2104,7 +2094,7 @@
           "mentor": "@caihaomin",
           "contact": "caihaomin@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021210"
         },
@@ -2115,7 +2105,7 @@
           "mentor": "@Shinwell_Hu",
           "contact": "huxinwei@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021211"
         },
@@ -2126,7 +2116,7 @@
           "mentor": "@Shinwell_Hu",
           "contact": "huxinwei@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021212"
         },
@@ -2137,7 +2127,7 @@
           "mentor": "mailofzxf",
           "contact": "mailofzxf@aliyun.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021213"
         },
@@ -2148,7 +2138,7 @@
           "mentor": "@liliang_euler",
           "contact": "liliang6@me.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021214"
         },
@@ -2159,7 +2149,7 @@
           "mentor": "@liliang_euler",
           "contact": "liliang6@me.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021215"
         },
@@ -2170,7 +2160,7 @@
           "mentor": "@liliang_euler",
           "contact": "liliang6@me.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021216"
         },
@@ -2181,7 +2171,7 @@
           "mentor": "@whoisxxx",
           "contact": "zhangxuzhou4@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021217"
         },
@@ -2192,7 +2182,7 @@
           "mentor": "@sinever",
           "contact": "sinever@126.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021218"
         },
@@ -2203,7 +2193,7 @@
           "mentor": "@sinever",
           "contact": "sinever@126.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021219"
         },
@@ -2214,7 +2204,7 @@
           "mentor": "@sinever",
           "contact": "sinever@126.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021220"
         },
@@ -2225,7 +2215,7 @@
           "mentor": "@sinever",
           "contact": "sinever@126.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021221"
         },
@@ -2236,7 +2226,7 @@
           "mentor": "@jimmy_hero",
           "contact": "huming15@163.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021222"
         },
@@ -2247,7 +2237,7 @@
           "mentor": "@jimmy_hero",
           "contact": "huming15@163.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021223"
         },
@@ -2258,7 +2248,7 @@
           "mentor": "@MrRlu",
           "contact": "newlife_lala@163.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021224"
         },
@@ -2269,7 +2259,7 @@
           "mentor": "@charlie_li",
           "contact": "liyongqiang329@163.com",
           "co-mentor": "@lemon-higgins lemon.higgins@aliyun.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021225"
         },
@@ -2280,7 +2270,7 @@
           "mentor": "volcanodragon",
           "contact": "liuzhiqiang@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021226"
         },
@@ -2291,7 +2281,7 @@
           "mentor": "@yeyunfeng-dev",
           "contact": "yeyunfeng@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021227"
         },
@@ -2302,7 +2292,7 @@
           "mentor": "@xiezhipeng1",
           "contact": "xiezhipeng1@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021228"
         },
@@ -2313,7 +2303,7 @@
           "mentor": "@liqingqing_1229",
           "contact": "liqingqing3@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021229"
         },
@@ -2324,7 +2314,7 @@
           "mentor": "@Charlie_Li",
           "contact": "liyongqiang329@163.com",
           "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021230"
         },
@@ -2335,7 +2325,7 @@
           "mentor": "@Charlie_Li",
           "contact": "liyongqiang329@163.com",
           "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021231"
         },
@@ -2346,7 +2336,7 @@
           "mentor": "@Charlie_Li",
           "contact": "liyongqiang329@163.com",
           "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021232"
         },
@@ -2357,7 +2347,7 @@
           "mentor": "@Charlie_Li",
           "contact": "liyongqiang329@163.com",
           "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021233"
         },
@@ -2368,7 +2358,7 @@
           "mentor": "@Charlie_Li",
           "contact": "liyongqiang329@163.com",
           "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021234"
         },
@@ -2379,7 +2369,7 @@
           "mentor": "@Charlie_Li",
           "contact": "liyongqiang329@163.com",
           "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021235"
         },
@@ -2390,7 +2380,7 @@
           "mentor": "@Charlie_Li",
           "contact": "liyongqiang329@163.com",
           "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021236"
         },
@@ -2401,7 +2391,7 @@
           "mentor": "@Charlie_Li",
           "contact": "liyongqiang329@163.com",
           "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021249"
         },
@@ -2412,7 +2402,7 @@
           "mentor": "@Charlie_Li",
           "contact": "liyongqiang329@163.com",
           "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021238"
         },
@@ -2423,7 +2413,7 @@
           "mentor": "@Charlie_Li",
           "contact": "liyongqiang329@163.com",
           "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021239"
         },
@@ -2434,7 +2424,7 @@
           "mentor": "@Charlie_Li",
           "contact": "liyongqiang329@163.com",
           "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021240"
         },
@@ -2445,7 +2435,7 @@
           "mentor": "@zhujianwei001",
           "contact": "zhujianwei7@huawei.com",
           "co-mentor": "@mailofzxf",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021241"
         },
@@ -2456,7 +2446,7 @@
           "mentor": "@zhujianwei001",
           "contact": "zhujianwei7@huawei.com",
           "co-mentor": "@mailofzxf",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-26",
           "label": "2021242"
         }
@@ -2487,7 +2477,7 @@
           "difficulty": "低",
           "mentor": "陈刚",
           "contact": "cheng83@mail.sysu.edu.cn",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "目标检测作为图像理解中的重要一环，其任务是找出图像中所有感兴趣的目标（物体），确定它们的位置和大小，是深度学习中的重要应用之一。目前有许多优秀的二值神经网络模型，大多都使用的是全精度的网络。但由于PhoneBit框架主要针对二值神经网路进行加速，需要对网络进行二值化处理，并保持一定的精度，以便于部署到移动设备上。",
           "update_time": "2020-05-20",
           "label": "2033165"
@@ -2497,7 +2487,7 @@
           "difficulty": "中",
           "mentor": "陈刚",
           "contact": "cheng83@mail.sysu.edu.cn",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "目标检测作为图像理解中的重要一环，其任务是找出图像中所有感兴趣的目标（物体），确定它们的位置和大小，是深度学习中的重要应用之一。目前有许多优秀的二值神经网络模型，大多都使用的是全精度的网络。但由于PhoneBit框架主要针对二值神经网路进行加速，需要对网络进行二值化处理，并保持一定的精度，以便于部署到移动设备上。",
           "update_time": "2020-05-20",
           "label": "2033166"
@@ -2507,7 +2497,7 @@
           "difficulty": "中",
           "mentor": "陈刚",
           "contact": "cheng83@mail.sysu.edu.cn",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "目前手机的计算能力愈来愈高，已逐步具备进行快速模型部署的能力。PhoneBit框架基于手机GPU进行高度优化，能实现基于手机的快速前向推断。在PhoneBit开源仓库下，提供了二值图像分类网络的Android部署APP示例工程。可以参考示例工程，根据目标检测任务的特性设计APP，实现模型的应用。",
           "update_time": "2020-05-20",
           "label": "2033167"
@@ -2517,7 +2507,7 @@
           "difficulty": "中",
           "mentor": "陈亚云",
           "contact": "563880696@qq.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "在分类问题中，分类的目的是从一系列数据中选择出一个分类（如，给出一张包含苹果或橘子的图片，识别出图片中是哪种水果）。本项目采用心血管疾病数据集，数据集提供11个特征值和1个目标值，包含70000个患者记录数据。通过构建一个算法模型，来预测样本是否患有心血管疾病。本实训主要介绍如何实现“心血管疾病预测模型”的开发，通过该实训项目，可以使实训受众了解预测模型的开发。",
           "update_time": "2020-05-20",
           "label": "2033168"
@@ -2527,7 +2517,7 @@
           "difficulty": "中",
           "mentor": "陈亚云",
           "contact": "563880696@qq.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "新冠状病毒的爆发正在发展成一场重大的国际危机，并开始影响人们的正常生活和国家经济的发展。如果能够预测病毒如何在不同国家和地区传播，建立一个强大的预测模型，有助于缓解风险。这项任务的目标是建立一个预测病毒扩散的模型。本实训主要介绍如何实现“预测新冠状病毒的传播”的开发，通过该实训项目，可以使实训受众了解预测模型的开发。",
           "update_time": "2020-05-25",
           "label": "2033243"
@@ -2591,7 +2581,7 @@
           "difficulty": "中",
           "mentor": "MRNIU",
           "contact": "Zone.Niuzh@hotmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "由于项目早期的遗留问题,有很多 bug 一直没有解决,在代码某处一定还藏有尚未发现的地雷,你的任务是找到它,解决它,并留下足够的测试代码。",
           "update_time": "2020-05-14",
           "label": "2022104"
@@ -2601,7 +2591,7 @@
           "difficulty": "中",
           "mentor": "MRNIU",
           "contact": "Zone.Niuzh@hotmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "现有的内存管理代码可谓千疮百孔,难以说是一个能够作为示例的代码,我们需要你在现有方案的基础上对代码进行重写,使用经典算法如 first-fit,buddy 重新实现内存管理系统。",
           "update_time": "2020-05-14",
           "label": "2022105"
@@ -2611,7 +2601,7 @@
           "difficulty": "高",
           "mentor": "MRNIU",
           "contact": "Zone.Niuzh@hotmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "多任务是内核不可或缺的部分,但现在我们的代码还很简陋。现有代码是对 linux 内核实现的魔改,还不能够正常使用。",
           "update_time": "2020-05-14",
           "label": "2022106"
@@ -2621,7 +2611,7 @@
           "difficulty": "中",
           "mentor": "MRNIU",
           "contact": "Zone.Niuzh@hotmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "目前的实现文档分布在开发日志、代码注释中,有的部分还有缺少,我们需要一份文档告诉使用者我们的代码是怎么来的,背后的原理是什么,为什么这样写。",
           "update_time": "2020-05-14",
           "label": "2022107"
@@ -2631,7 +2621,7 @@
           "difficulty": "中",
           "mentor": "MRNIU",
           "contact": "Zone.Niuzh@hotmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "目前仅实现了基本的词法解析,但对于整个编译器的整体结构尚未有过考虑,我们需要一位对编译器熟悉的同学来把握大方向,站在初学者的角度,我们的代码怎么写能让别人容易理解,便于迁移呢？",
           "update_time": "2020-05-14",
           "label": "2022108"
@@ -2690,7 +2680,7 @@
           "mentor": "杨武",
           "contact": "yangwu@rt-thread.com",
           "co-mentor": "赵辅金,zhaofujin@rt-thread.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器,同时还包括WiFi/BT,千兆以太网,双HDMI输出,CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台,可用于各种AI应用场景。",
           "update_time": "2020-05-13",
           "label": "2023109"
@@ -2701,7 +2691,7 @@
           "mentor": "杨武",
           "contact": "yangwu@rt-thread.com",
           "co-mentor": "赵辅金,zhaofujin@rt-thread.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器,同时还包括WiFi/BT,千兆以太网,双HDMI输出,CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台,可用于各种AI应用场景。",
           "update_time": "2020-05-13",
           "label": "2023110"
@@ -2712,7 +2702,7 @@
           "mentor": "陈晨毅",
           "contact": "lebhoryi@rt-thread.com",
           "co-mentor": "杨武,yangwu@rt-thread.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器,同时还包括WiFi/BT,千兆以太网,双HDMI输出,CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台,可用于各种AI应用场景。TensorflowLite Micro 是面象微控制器级别的设备裁剪定制版本的 Tensorflow Lite,具有良好的跨平台设计和较为完善的单元测试。本项目目标是在树莓派4上将TensorflowLite Micro移植到RT-Thread系统中,并顺利运行自的演示应用。目前树莓派4上的RT-Thread状态为,可以运行ARM64位的RT-Thread,驱动相对较少,只包含中断管理、串口、HDMI、SDIO等。在本项目中,需要开启 RT-Thread 的 C++ 支持,完成 TensorflowLite Micro 的编译链接,并在树莓派4上运行原项目自带的演示应用。",
           "update_time": "2020-05-13",
           "label": "2023111"
@@ -2723,7 +2713,7 @@
           "mentor": "邵进春",
           "contact": "shaojinchun@rt-thread.com",
           "co-mentor": "熊谱翔,bernard.xiong@rt-thread.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "QEMU中已经包含的基本的RISC-V模拟,例如sifive_u、riscv32/64_virt的模拟。RT-Thread对于RISC-V的移植主要局限于machine mode的方式,本项目目标是实现RISC-V的user-mode支持,及对应的基本外设功能,它们包括：支持MMU操作,页管理器；用户态的系统调用；任务切换时,对用户态上下文支持；基本的系统外设支持,例如文件系统,网络,LCD等",
           "update_time": "2020-05-13",
           "label": "2023112"
@@ -2734,7 +2724,7 @@
           "mentor": "赵辅金",
           "contact": "zhaofujin@rt-thread.com",
           "co-mentor": "熊谱翔,bernard.xiong@rt-thread.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "龙芯2K1000处理器是面向网络安全领域及移动智能终端领域的双核处理器芯片。龙芯2K1000处理器集成两个GS264处理器核,芯片外围接口包括两路PCIE2.0、一路SATA2.0、4路USB2.0、两路DVO、64位DDR2/3及其它多种接口,可以满足中低端网络安全应用领域需求,并为其扩展应用提供相应接口。当前RT-Thread系统只支持龙芯2K1000的基本外设（中断处理、串口、定时器等）,基本的MIPS64支持。本项目目标是实现龙芯2K1000下更多的外设支持：SATA/SSD驱动,并对接FAT文件系统；千兆网卡驱动,并对接网络协议栈；",
           "update_time": "2020-05-13",
           "label": "2023113"
@@ -2745,7 +2735,7 @@
           "mentor": "赵辅金",
           "contact": "zhaofujin@rt-thread.com",
           "co-mentor": "熊谱翔,bernard.xiong@rt-thread.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "龙芯2K1000处理器是面向网络安全领域及移动智能终端领域的双核处理器芯片。龙芯2K1000处理器集成两个GS264处理器核,芯片外围接口包括两路PCIE2.0、一路SATA2.0、4路USB2.0、两路DVO、64位DDR2/3及其它多种接口,可以满足中低端网络安全应用领域需求,并为其扩展应用提供相应接口。龙芯2K1000包含了两个核,当前RT-Thread系统只支持龙芯2K1000的基本外设（中断处理、串口、定时器等）,基本的MIPS64支持。本项目的目标是把两个核都独立使用起来,包括一个核心执行Linux系统,一个核心执行RT-Thread。双方通过OpenAMP的方式进行通信。",
           "update_time": "2020-05-13",
           "label": "2023114"
@@ -2755,7 +2745,7 @@
           "difficulty": "高",
           "mentor": "陈勇",
           "contact": "chenyong@rt-thread.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "乐鑫 ESP32 系列芯片提供了一个或两个可以单独控制的 CPU 内核,时钟频率可调,最高可达240 MHz。同时还包括 WIFI/BLE 双模,支持多种低功耗运行模式,具备低噪声放大器,I2S,高速 SPI,以太网等外设接口。是一款理想的嵌入式物联网芯片,可用于各类物联网应用场景。",
           "update_time": "2020-05-13",
           "label": "2023115"
@@ -2766,7 +2756,7 @@
           "mentor": "李想",
           "contact": "lixiang@rt-thread.com",
           "co-mentor": "郭占鑫 guozhanxin@rt-thread.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "RT-Thread 操作系统实现了 USB 基础协议栈,为 USB 摄像头的数据传输提供了基础的支持,双目拍摄系统拍摄同一场景的左、右两幅视点图像,并结合算法将左右图像进行合并。RT-Thread 和双目拍摄二者结合之后可以应用于各种视觉领域。",
           "update_time": "2020-05-13",
           "label": "2023116"
@@ -2802,7 +2792,7 @@
           "mentor": "@rxd",
           "contact": "rxd@tinylab.org",
           "co-mentor": "@lzufalcon, falcon@tinylab.org",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "性能优化是提升产品用户体验的关键,也是所有产品走向高端的必由之路。Linux 系统上的性能优化工具日新月异,从早年的 Oprofile,Ftrace,Systemtap 到如今的 Perf, eBPF,日渐完善,不断强大。但是对于初学者,这些新工具的使用门槛很高,本项需求的目标是基于 Cloud Lab 构建一个开箱即可上手的系统性能优化工具箱,囊括各种常见的系统性能优化工具,并提供配套的实际开发案例。",
           "update_time": "2020-05-13",
           "label": "2024117"
@@ -2813,7 +2803,7 @@
           "mentor": "@robin",
           "contact": "robin@tinylab.org",
           "co-mentor": "@lzufalcon, falcon@tinylab.org",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Linux Lab 是一个 Linux 内核实验环境,当前已经支持国内外的 7 大主流处理器架构和 16 款开发版。当前环境基于 Ubuntu 14.04,难以适应各类软件新版本的开发需要,本项需求旨在升级当前环境到最新的 Ubuntu 20.04 或者其他更为合适的同时期 Linux 发行版。",
           "update_time": "2020-05-13",
           "label": "2024118"
@@ -2824,7 +2814,7 @@
           "mentor": "@ping.wu",
           "contact": "ping.wu@tinylab.org",
           "co-mentor": "@lzufalcon, falcon@tinylab.org",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Linux Lab 是一个 Linux 内核实验环境,当前已支持 Linux、Buildroot、Uboot 和 Qemu 四大核心软件,但是当前软件支持的耦合度非常高。本项需求旨在解耦,把各个软件的支持拆解到独立的软件支持文件中,增加可扩展性,从而方便进一步导入其他软件实验功能。",
           "update_time": "2020-05-13",
           "label": "2024119"
@@ -2834,7 +2824,7 @@
           "difficulty": "中",
           "mentor": "@lzufalcon",
           "contact": "falcon@tinylab.org",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Markdown Lab 是一个 Markdown 编辑环境,当前内置简历、文档、幻灯和书籍的 Markdown 模板,可导出为 html 和 pdf,本项需求旨在进一步完善中文支持、美化 PDF 输出格式、增加加密和水印功能等。",
           "update_time": "2020-05-13",
           "label": "2024120"
@@ -2867,7 +2857,7 @@
           "difficulty": "低",
           "mentor": "张禄",
           "contact": "zhanglu@megvii.com",
-          "hot_index": "",
+          "student_count": "",
           "update_time": "2020-05-20",
           "label": "2025169"
         },
@@ -2877,7 +2867,7 @@
           "difficulty": "中",
           "mentor": "陈远昭",
           "contact": "chenyuanzhao@megvii.com",
-          "hot_index": "",
+          "student_count": "",
           "update_time": "2020-05-20",
           "label": "2025170"
         },
@@ -2887,7 +2877,7 @@
           "difficulty": "中",
           "mentor": "陈远昭",
           "contact": "chenyuanzhao@megvii.com",
-          "hot_index": "",
+          "student_count": "",
           "update_time": "2020-05-20",
           "label": "2025171"
         },
@@ -2897,7 +2887,7 @@
           "difficulty": "中",
           "mentor": "胡焜",
           "contact": "hukun@megvii.com",
-          "hot_index": "",
+          "student_count": "",
           "update_time": "2020-05-20",
           "label": "2025172"
         },
@@ -2907,7 +2897,7 @@
           "difficulty": "中",
           "mentor": "周亦庄",
           "contact": "zhouyizhuang@megvii.com",
-          "hot_index": "",
+          "student_count": "",
           "update_time": "2020-05-20",
           "label": "2025173"
         },
@@ -2917,7 +2907,7 @@
           "difficulty": "中",
           "mentor": "许欣然",
           "contact": "xxr@megvii.com",
-          "hot_index": "",
+          "student_count": "",
           "update_time": "2020-05-20",
           "label": "2025174"
         },
@@ -2927,7 +2917,7 @@
           "difficulty": "高",
           "mentor": "许欣然",
           "contact": "xxr@megvii.com",
-          "hot_index": "",
+          "student_count": "",
           "update_time": "2020-05-20",
           "label": "2025175"
         },
@@ -2937,7 +2927,7 @@
           "difficulty": "中",
           "mentor": "许欣然",
           "contact": "xxr@megvii.com",
-          "hot_index": "",
+          "student_count": "",
           "update_time": "2020-05-20",
           "label": "2025176"
         },
@@ -2947,7 +2937,7 @@
           "difficulty": "中",
           "mentor": "王枫",
           "contact": "wangfeng02@megvii.com",
-          "hot_index": "",
+          "student_count": "",
           "update_time": "2020-05-20",
           "label": "2025177"
         }
@@ -2985,7 +2975,7 @@
           "mentor": "李夏昕",
           "contact": "xxli@taosdata.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "根据项目要求，为官网增加新模块，并对现有内容进行优化。",
           "update_time": "2020-05-20",
           "label": "2026178"
@@ -2996,7 +2986,7 @@
           "mentor": "桑树多",
           "contact": "sdsang@taosdata.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "使用 Python 针对时序数据库 TDengine 开发自动化测试方法。",
           "update_time": "2020-05-20",
           "label": "2026179"
@@ -3007,7 +2997,7 @@
           "mentor": "刘涛",
           "contact": "tliu@taosdata.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "使用开源的时序数据库对比测试程序针对框架开发写入和查询的适配，并进行多个时序数据库的对比测试",
           "update_time": "2020-05-21",
           "label": "2026180"
@@ -3018,7 +3008,7 @@
           "mentor": "常帅强",
           "contact": "sqchang@taosdata.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "通过熟悉 RESTful 接口的调用方法，修改 JDBC connector 支持使用 RESTful 完成 JDBC 对应的 API 实现",
           "update_time": "2020-05-22",
           "label": "2026195"
@@ -3029,7 +3019,7 @@
           "mentor": "常帅强",
           "contact": "sqchang@taosdata.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "通过熟悉 RESTful 接口的调用方法，编写 PHP Connector",
           "update_time": "2020-05-22",
           "label": "2026196"
@@ -3066,7 +3056,7 @@
           "mentor": "王邈",
           "contact": "miao.wang@tuna.tsinghua.edu.cn",
           "co-mentor": "朱晟菁 zhsj@debian.org",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "当前开源软件镜像站多采用 rsync 协议从上游差异更新,而 rsync 工具只支持 POSIX 文件系统。然而 POSIX 文件系统的大部分功能（如权限管理、目录遍历）对于镜像站是无意义的,反而引入了很多额外开销,降低了性能。目前 CDN 等高性能文件服务都采用对象存储系统（如 AWS S3）作为后端,而不是 POSIX 文件系统,因其访问延迟低,性能几乎不因文件数量增加而下降。若能将 rsync 协议与对象存储结合,实现一个在对象存储上工作的类 rsync 同步工具,那么镜像站就可从 POSIX 文件系统迁移到对象存储系统,从而提供更高质量的服务。项目不要求实现 rsync 的全部功能,只需要将远端文件列表与对象存储中的文件列表对比,下载缺失文件,删除多余文件,并更新修改日期不同的文件即可。",
           "update_time": "2020-05-13",
           "label": "2027121"
@@ -3077,7 +3067,7 @@
           "mentor": "Aron Xu",
           "contact": "aron@debian.org",
           "co-mentor": "王邈 miao.wang@tuna.tsinghua.edu.cn",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "TUNA Mirrors 是国内外知名的综合型开源与自由软件镜像，其收录软件数量庞大，长久以来持续服务于国内外的学术界及工业界对软件仓库的需求。由于用户需求日益上升，服务器存储系统中的ZFS一直在遭受严峻的挑战，并屡屡触碰性能瓶颈以及各类疑难的性能问题。本项目旨在考察 TUNA Mirrors 的 ZFS 软硬件配置，调研其中存在的各种疑难性能问题及瓶颈，并尽可能给出相应的性能调优建议。性能调优对于提升 TUNA Mirrors 及其姊妹镜像站用户体验而言意义重大。",
           "update_time": "2020-05-18",
           "label": "2027122"
@@ -3088,7 +3078,7 @@
           "mentor": "陈晟祺 (@Harry-Chen on GitHub)",
           "contact": "shengqi.chen@tuna.tsinghua.edu.cn",
           "co-mentor": "张宇翔,yuxiang.zhang@tuna.tsinghua.edu.cn, @z4yx on GitHub",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "弹幕是常用的听众与讲者的互动手段。TUNA 开发了自己的 C/S 弹幕系统 danmaQ（见下面的仓库）,使用于多种场合,也被多个发行版收录。其服务端使用 Python 编写,客户端使用 Qt 编写,基本实现了跨平台。然而,目前该项目缺乏维护,代码比较陈旧,一些功能缺乏（如 Web 弹幕墙）、不完善（如审核）或已经损坏（如微信互联）。此外,清华大学计算机系科协亦有一套自己实现的弹幕系统 Comment9（见下）,使用 Node.js 编写。它与 danmaQ 相比,具有一些高级功能（如多个活动、弹幕墙、多路审核、支持硬件弹幕机）,但缺乏弹幕属性配置等。我们希望,整合当前两个系统的功能,改进得到一套全功能的开源弹幕系统,覆盖用户需求。",
           "update_time": "2020-05-13",
           "label": "2027123"
@@ -3099,7 +3089,7 @@
           "mentor": "王邈",
           "contact": "miao.wang@tuna.tsinghua.edu.cn",
           "co-mentor": "陈晟祺,shengqi.chen@tuna.tsinghua.edu.cn, @Harry-Chen on GitHub",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "开源镜像站在呈现文件之外,也需要向用户呈现服务器状态、同步状态、使用帮助等更多的信息。目前,TUNA 镜像站使用了一套 Jekyll 静态生成页面 + AJAX 动态获取信息 + 服务端 njs 渲染结合的方法来向多种平台（现代浏览器、老旧浏览器、文本终端浏览器）提供支持。然而这种方法可维护性略差,也缺少通用性。同时,TUNA 镜像站的前端也硬编码了大量信息,对其他组织的使用造成了一定的不便。我们希望,能够在当前的基础上,对 TUNA 镜像站的前端进行详细设计与重构,形成一套通用的适用于各大开源镜像站的前端框架。",
           "update_time": "2020-05-13",
           "label": "2027124"
@@ -3110,7 +3100,7 @@
           "mentor": "党凡",
           "contact": "dangfan@tsinghua.edu.cn",
           "co-mentor": "Zamir Sum，zsun@fedoraproject.org",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "以 YubiKey 为代表的密钥存储设备深受 geek 们的喜爱，而相关的密码技术也在开源社区中得到了广泛应用（如 GnuPG）。由于 YubiKey 不开源，近年来，开源社区中陆续诞生了一些开源的硬件密钥设备，例如 SoloKey、CanoKey。作为一个新兴的开源硬件密钥设备，CanoKey 提供了与 YubiKey 一致的FIDO2/U2F、PIV、OpenPGP 和 OATH（HOTP、TOTP）的支持。为了向大众普及和推广密码学工具，CanoKey 还提供了 WebUSB 支持，可以在浏览器中直接使用密码学工具。现在，这些工具的开发还处于起步阶段，需要社区支持，让密码学工具变得更加易用。",
           "update_time": "2020-05-18",
           "label": "2027125"
@@ -3121,7 +3111,7 @@
           "mentor": "党凡",
           "contact": "dangfan@tsinghua.edu.cn",
           "co-mentor": "陈晟祺,shengqi.chen@tuna.tsinghua.edu.cn, @Harry-Chen on GitHub",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "目前,各类移动设备,包括 Android 与 iOS,都增加了对 NFC 通信的支持；但各类应用对于 NFC 的支持都很不完善,缺少一个统一的跨平台的支持库。同时,关于 NFC 各类标准的文档也并不齐全,通常需要到处查找,为开发者造成了很大的障碍。前期,我们在 Android 平台上是实现了一个 NFC 卡片的读取应用 NFSee；目前,需要将其使用 Flutter 重写以实现跨平台。同时,也将搭建一个公开的 Wiki 网站,对 NFC 相关的协议、标准进行整理和阐述,以纠正常见误区,帮助其他开发者更好地在移动端进行 NFC 相关的开发。",
           "update_time": "2020-05-13",
           "label": "2027126"
@@ -3132,7 +3122,7 @@
           "mentor": "续本达",
           "contact": "heroxbd@gentoo.org",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "SCIM 历史悠久的输入法框架，早期为 GNU/Linux 系统的中文本土化立下了汗马功劳，然而近年来 SCIM 的开发团队已经不再活跃，开发停滞，项目处于维护状态。当前 SCIM 依旧可以在各大发行版上顺畅使用，唯一缺失的功能是对 Qt5 的支持。本项目计划把 SCIM 移植到 Qt5。",
           "update_time": "2020-05-18",
           "label": "2027127"
@@ -3142,7 +3132,7 @@
           "difficulty": "中",
           "mentor": "韩朴宇",
           "contact": "w12101111@outlook.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Fcitx5 是 Linux 和 BSD 下的新一代输入法框架,支持中日韩等东亚语言的输入。Wayland 是 Linux 和 BSD 新一代的显示协议,用于替代老旧的X11协议。Fcitx5 目前可以在 Xorg 下正常的输入,但是受 Wayland 协议的限制,Fcitx5 在 Wayland 下有诸多问题,其中最主要的是无法显示候选框,导致无法选词。本项目目标是改进 Fcitx5 在 Wayland 桌面下的体验,达到与 Xorg 相同的使用效果。",
           "update_time": "2020-05-13",
           "label": "2027128"
@@ -3153,7 +3143,7 @@
           "mentor": "Aron Xu",
           "contact": "aron@debian.org",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "xgboost （梯度提升），prophet （时间序列预测）以及 Stan （高性能统计建模），pytorch （深度学习）等是重要的数据科学软件。Debian 作为用户基数庞大的 Linux 发行版之一，用户群中不乏数据科学用户群体，而上述软件尚未集成到该系统中，或者缺乏一部分计算性能相关的依赖库。为帮助用户获得更佳使用体验，方便安装及部署，该项目旨在为 Debian 官方仓库引入这些软件及其对应的依赖库，并将仓库中已有的依赖更新到理想状态。",
           "update_time": "2020-05-18",
           "label": "2027129"
@@ -3164,7 +3154,7 @@
           "mentor": "续本达",
           "contact": "heroxbd@gentoo.org",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Gentoo R Overlay是一个读取 CRAN 和 BIOC 仓库，并自动生成 Gentoo ebuild 组成 portage overlay 的项目。从2013年至今，一直为 Gentoo 的统计学、生物学和物理学领域的科学家提供服务。本项目将针对 Gentoo R Overlay 的现状和用户需求，对其进行升级。",
           "update_time": "2020-05-18",
           "label": "2027130"
@@ -3175,7 +3165,7 @@
           "mentor": "续本达",
           "contact": "heroxbd@gentoo.org",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "在 Gentoo 上使用 PyPI 包一种做法是先把 PyPI 的软件打包成 Gentoo 的 ebuild，其缺点是更新需要由人工完成，效率较低。另一种做法是使用 PyPI 的 pip 来绕过 Gentoo 的包管理系统 portage 直接安装，其缺点是容易与 portage 冲突，导致 Python 子系统的混乱。本项目计划采两家之长，通过一个 PyPI ebuild 生成器自动生成一个 PyPI 的 portage overlay，为 Gentoo 用户提供最新 Python 软件仓库。项目可以借鉴现已无人维护的 gs-pypi 代码。",
           "update_time": "2020-05-18",
           "label": "2027131"
@@ -3186,7 +3176,7 @@
           "mentor": "许朋程",
           "contact": "i@jsteward.moe",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Gentoo on Android 可以在 Android 上运行 Gentoo Prefix，实现无性能损耗的完整的 GNU 环境。然而，当前的 Gentoo on Android 一方面需要 root 权限，另一方面需要手动安装，亟需一个不需 root 的 Android App 完成安装，更方便地把手机转换成开发和生产工具。在 Android 的系统中，每个 App 有一个专有的用户 uid 和一个保留的空间存放数据，适合嵌入一个这个 uid 下的 Gentoo Prefix 实例，解决当前 Gentoo on Android 的两个问题。",
           "update_time": "2020-05-18",
           "label": "2027132"
@@ -3197,7 +3187,7 @@
           "mentor": "续本达",
           "contact": "heroxbd@gentoo.org",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "ROCm 是 AMD 显卡的自由开源的科学计算系统，HIP 是 ROCm 的 CUDA 兼容层，提供类似于 CUDA 的 API。然而 ROCm 和 HIP 的文档校为缺乏，除了官方指定的个别平台之外，安装和部署较为困难。Gentoo Linux 是一个元发行版，具有高度的可定制性，是各发行版中进行科学计算相关开发的良好选择。当前，Gentoo 中的 ROCm 相关的软件包已经成熟，但是 HIP 及与之相关的 rocBLAS 等高级库尚未完成，依旧有许多难点。本项目将完成 Gentoo 的 HIP 软件包，并为 PyTorch, Tensorflow 提供 AMD 设备上的进行方案。完成发行版上开源 GPGPU 框架的布局。",
           "update_time": "2020-05-18",
           "label": "2027133"
@@ -3208,7 +3198,7 @@
           "mentor": "续本达",
           "contact": "heroxbd@gentoo.org",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Emacs 是久负盛名的编辑器，以其高度的可编程扩展性闻名于世。Jupyter 是基于 HTTP 的远程异步运行系统，在科学计算有广泛的应用。EIN 项目为 Emacs 提供 Jupyter 客户端，可以弥补 Jupyter 网页上输入功能薄弱的劣势，把 Emacs 的强大编辑功能与 Jupyter 异步执行功能有机结合，成为 literate programming 的最强方案之一。但是，EIN使用的 HTTP 框架由基于 callback 的异步编程框架，维护较为困难，本项目将使用 coroutine 的函数式编程模型重写 EIN，完成现代的 Emacs Jupyter 客户端。",
           "update_time": "2020-05-18",
           "label": "2027134"
@@ -3241,7 +3231,7 @@
           "difficulty": "中",
           "mentor": "ceba",
           "contact": "ceba_robot@outlook.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Universal OJ 目前赛制支持的并不全面,目前仅完全的支持了 OI 赛制。本项目目标是为 Universal OJ 的比赛功能支持多赛制。",
           "update_time": "2020-05-16",
           "label": "2028135"
@@ -3251,7 +3241,7 @@
           "difficulty": "低",
           "mentor": "TechCiel",
           "contact": "ciel+uoj@ciel.dev",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Universal OJ 目前没有删除帐号等功能,落后于快速发展的互联网隐私保护行业标准,也有一些合规风险（如 GDPR 、 CCPA 和中国的有关法律法规）。本项目的目标是为 Universal OJ 添加删除帐号、导出信息等数据合规相关功能。",
           "update_time": "2020-05-16",
           "label": "2028136"
@@ -3261,7 +3251,7 @@
           "difficulty": "低",
           "mentor": "billchenchina",
           "contact": "billchenchina2001@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "在用户进行算法学习时,会需要一些小工具,如：图的可视化、代码粘贴器。本项目目标是为 Universal OJ 添加小工具集。",
           "update_time": "2020-05-16",
           "label": "2028137"
@@ -3290,7 +3280,7 @@
           "mentor": "付佳伟",
           "contact": "ibug@ustclug.org",
           "co-mentor": "陶柯宇 taoky@ustclug.org",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "目前,科大镜像站的前端架构仍然沿用着 2013 年的设计,但是随着时间的发展,我们也发现目前的镜像站前端架构在用户体验、维护与部署上带来了一些不便。目前的镜像站主页是由一套 Python 脚本每小时从模板生成得到的,虽然足够使用,但是在维护中也遇到了一些问题,诸如界面设计的实用性、主页与 status 页面显示不一致等问题。本项目希望能够通过调整镜像站前端架构,提高用户体验,降低维护的复杂度,也方便其他需要的镜像站部署页面显示的解决方案。",
           "update_time": "2020-05-13",
           "label": "2029138"
@@ -3301,7 +3291,7 @@
           "mentor": "王子博",
           "contact": "hypercube@0x01.me",
           "co-mentor": "陶柯宇 taoky@ustclug.org",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Hackergame 是 USTCLUG 开发的一套开源 CTF 比赛平台,主要用于每年举办的科大信息安全大赛,随真实需求不断进行技术迭代,并且重视生产环境下的安全性和可靠性。目前使用的是 Django + Vue.js 框架,但前后端解耦仍然不够充分,代码中写死了一些不合理的规则,很多地方缺少通用性和灵活性,测试和部署也不够方便。本项目希望能通过调整架构设计,重构部分代码,得到一个更加通用、健壮的比赛平台,让将来比赛中的实际需求更容易实现。",
           "update_time": "2020-05-13",
           "label": "2029139"
@@ -3331,19 +3321,6 @@
       ],
       "mail_list": "volcano-sh@googlegroups.com",
       "email": "volcano-sh@googlegroups.com"
-    },
-    {
-      "anchor": "/xlab",
-      "img": "xlab.jpg",
-      "title": "X-Lab",
-      "project_url": "",
-      "url": "http://xlab.kfcoding.com/",
-      "description": "技术传播文明，践行同步世界。",
-      "full_des": "",
-      "tech_tag": [],
-      "domain_tag": [],
-      "mail_list": "",
-      "email": ""
     }
   ],
   "creditList": [

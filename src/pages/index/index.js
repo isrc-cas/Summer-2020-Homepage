@@ -143,13 +143,6 @@ export default class Index extends React.Component{
             divContainer.push(<br key={index1}/>)
             return 0;
         })
-        // this.state.logolistMap.map((item,index)=>{
-        //     divContainer.push(<div 
-        //         key = {index}
-        //         style={{backgroundImage:"url("+require("./../../img/logolist/"+item.img) + ")"}}
-        //         className="indexHomOpensourceItem"></div>)
-        //     return 0;
-        // })
         return divContainer
     }
 
@@ -201,7 +194,7 @@ export default class Index extends React.Component{
             {
                 img:'3_3.jpg',
                 name:'浏览项目',
-                url:'organisations?to=head',
+                url:'organisations',
             },
         ]
         data.map((item,index)=>{
@@ -280,7 +273,7 @@ export default class Index extends React.Component{
                                 Open Source Promotion Plan <span className="mobiledisplaynone">-</span><br className="indexHomeOneTextConsEngTwoNone"/> Summer 2020
                                 </div>
                                 <div className="indexHomeOneTextConsChi">开源软件供应链点亮计划鼓励大家关注开源软件和开源社区，培养和发掘更多优秀的开发者。</div><br/>
-                                <span className="indexHomeOneTextConsChi">活动将在暑期进行，我们将与开源社区紧密合作，提供一对一的导师指导，邀技术大牛免费讲座。</span>
+                                <span className="indexHomeOneTextConsChi">活动将在暑期进行，我们将与开源社区紧密合作，提供一对一的导师指导，邀技术大咖免费讲座。</span>
                               
                             </div>
                             <div className="indexHomeOneImage"></div>
@@ -322,19 +315,22 @@ export default class Index extends React.Component{
                    <div className="indexHomeVideoContainer content1200">
                         <div className="indexHomeVideoTitle">专家寄语</div>
                         <div  className="indexHomeVideoItem">
-                       
-                            <video className="indexHomeVideoSelf" onClick={()=>{this.controlVideo()}}>
+                            <div className="indexHomeVideoSelfOveflay"></div>
+                            <div className="indexHomeVideoSelf" >
+                            <iframe title="iframetitle" className="indexHomeVideoSelfiframe" src="//player.bilibili.com/player.html?aid=413293097&bvid=BV1pV411C7Bs&page=1&high_quality=1" scrolling="no" border="0" frameBorder="no" framespacing="0" allowFullScreen={true}> </iframe>
+                            </div>
+                            {/* <video  onClick={()=>{this.controlVideo()}}>
                                
-                                <source src="http://f.video.weibocdn.com/001ZY25Sgx07DzaYaylx010412013ACX0E010.mp4?label=mp4_720p&template=1280x720.25.0&trans_finger=721584770189073627c6ee9d880087b3&Expires=1590496975&ssig=l4IKbWpcc0&KID=unistore,video" type="video/mp4"/>
+                                <source src="https://www.bilibili.com/video/BV1pV411C7Bs/" type="video/mp4"/>
                                 
-                                <source src="http://upos-sz-mirrorkodo.bilivideo.com//upgcxcode//95//21//194332195//194332195-1-208.mp4?e=ig8euxZM2rNcNbKV7bdVhwdl7wdjhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1590464679&gen=playurl&os=kodobv&oi=837395164&trid=c171c273fab94864820db2501de85123T&platform=html5&upsig=8971ff7a2d7cd35261cf3323514c497d&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=580104086&logo=80000000" type="video/mp4"/>
+                               
                                 Your browser does not support the video tag.
-                            </video>
-                            <div className="indexHomeVideoItemOverLay">
+                            </video> */}
+                            {/* <div className="indexHomeVideoItemOverLay">
                                 <div className="indexHomeVideoItemButton" onClick={()=>{this.getVideoPlay()}}>
                                     <div className="indexHomeVideoItemButtonTri"></div>
                                 </div>
-                            </div>
+                            </div> */}
                             
                         </div>
                         

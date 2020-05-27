@@ -23,6 +23,11 @@ const logolistMap = {
             url:'http://www.coscl.org.cn/'
         },
         {
+            name:'xlab',
+            img:'c_xlab.jpg',
+            url:'http://xlab.kfcoding.com/'
+        },
+        {
             img:'PostgreSQL.jpg',
             url:'https://www.postgresqlchina.com/'
         },
@@ -251,11 +256,7 @@ const logolistMap = {
             img:'c_volcano.jpg',
             url:'https://volcano.sh'
         },
-        {
-            name:'xlab',
-            img:'c_xlab.jpg',
-            url:'http://xlab.kfcoding.com/'
-        },
+        
        
     ],
     university:[
