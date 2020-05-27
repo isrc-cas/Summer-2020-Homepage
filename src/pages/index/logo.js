@@ -123,6 +123,11 @@ const logolistMap = {
             url:'http://ceph.org.cn/'
         },
         {
+            name:'ChubaoFS社区',
+            img:'c_ChubaoFS.jpg',
+            url:' https://www.chubao.io/'
+        },
+        {
             name:'春松客服',
             img:'c_chunsong.jpg',
             url:'https://github.com/chatopera/cosin'
