@@ -1278,6 +1278,31 @@
       ]
     },
     {
+      "anchor": "/gitcourse",
+      "img": "gitcourse.jpg",
+      "title": "GitCourse",
+      "project_url": "http://gitcourse-io.kfcoding.com/events/summer2020",
+      "url": "http://gitcourse-io.kfcoding.com",
+      "description": "开源交互式课程制作及实训平台。",
+      "full_des": "GitCourse 是一款强大的在线实训工具，其基于 Markdown 进行内容渲染，基于 Git 进行内容创作，使用 Docker 作为实训环境，覆盖在线实训的各个场景。",
+      "tech_tag": [
+        "Git",
+        "React",
+        "Docker",
+        "JavaScript",
+        "NPM",
+        "vscode"
+      ],
+      "domain_tag": [
+        "vscode",
+        "插件开发",
+        "前端",
+        "容器"
+      ],
+      "mail_list": "community@kfcoding.com",
+      "email": "gitcourse@kfcoding.com"
+    },
+    {
       "anchor": "/huawei-liteos",
       "img": "huaweiLite.jpg",
       "title": "Huawei LiteOS",
@@ -1550,6 +1575,84 @@
       ]
     },
     {
+      "anchor": "/minigui",
+      "img": "minigui.jpg",
+      "title": "MiniGUI",
+      "project_url": "https://gitlab.fmsoft.cn/VincentWei/build-minigui-5.0/blob/master/summer-2020/README.md",
+      "url": "http://www.minigui.com",
+      "description": "跨操作系统的图形用户界面（GUI）支持系统。",
+      "full_des": "MiniGUI是一个快速、稳定、跨操作系统的图形用户界面（GUI）支持系统，广泛应用于智能硬件、智能物联网设备当中，用于为上层应用程序提供图形及图形用户界面的支持。",
+      "tech_tag": [
+        "Linux",
+        "RTOS",
+        "Mini",
+        "GUI"
+      ],
+      "domain_tag": [
+        "嵌入式软件开发",
+        "开源社区"
+      ],
+      "mail_list": "contact@minigui.com",
+      "email": "contact@minigui.com",
+      "project_list": [
+        {
+          "name": "面向小屏幕智能设备的 MiniGUI 合成器",
+          "description": "自 MiniGUI 5.0 起，MiniGUI 的多进程模式开始支持合成图式（compositing schema）。合成图式是现代桌面操作系统和智能手机操作系统的图形及窗口系统使用的技术，其基本原理很简单：系统中所有进程创建的每一个窗口都使用独立的缓冲区来各自渲染其内容，而系统中有一个扮演合成器（compositor）角色的进程，负责将这些内容根据窗口的 Z 序以及叠加效果（如半透明、模糊等）合成在一起并最终显示在屏幕上。本项目要求为 MiniGUI 5.0 的合成图式开发一个适合于小屏幕智能设备的定制合成器，实现自定义的窗口层叠效果（如阴影、模糊、不规则窗口等），以及窗口的切换动画等效果。",
+          "difficulty": "高",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-26",
+          "label": "2038244"
+        },
+        {
+          "name": "MiniGUI 的 DRM 加速图形引擎",
+          "description": "DRM 已经成为 Linux 环境中新一代的现代图形支持框架。自 4.0 版本以来，MiniGUI 支持 DRM，但目前只提供了一个针对早期 Intel i915 芯片的加速图形引擎。该项目要求您为某个支持 DRM 且包含基础 2D 加速能力的 GPU 开发一个 MiniGUI 的 DRM 加速图形引擎。该 GPU 可以是 PC 显卡，也可以是嵌入式 SoC，如全志、瑞芯或者展讯的 SoC。",
+          "difficulty": "中",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-26",
+          "label": "2038245"
+        },
+        {
+          "name": "HybridOS 图形栈增强",
+          "description": "HybridOS 是飞漫软件正在开发中的针对物联网的新一代操作系统。飞漫软件已基于 MiniGUI、Mesa、Cairo 等开源软件发布了 HybridOS 图形栈。在 Mesa 的 MiniGUI Backend 实现中，目前未提供对 EGL pixel buffer 的支持。本项目要求在现有 Mesa MiniGUI backend 的实现基础上，提供对 EGL pixel buffer 的支持。",
+          "difficulty": "中",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-26",
+          "label": "2038246"
+        },
+        {
+          "name": "MiniGUI 中文输入法增强",
+          "description": "MiniGUI 现有开源的中文输入法引擎已经过时了。本项目要求移植一个成熟的开源中文输入法引擎，使得 MiniGUI 应用可以获得更好的中文输入法支持。",
+          "difficulty": "低",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-26",
+          "label": "2038247"
+        },
+        {
+          "name": "将 MiniGUI 5.0 运行到 RT-Thread 或者 FreeRTOS 开发板上",
+          "description": "将 MiniGUI 5.0 (Standalone 或者 Threads 模式）移植到运行 RT-Thread 或者 FreeRTOS 的开发板上。需要开发针对具体开发板的图形引擎、输入引擎等。",
+          "difficulty": "低",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-26",
+          "label": "2038248"
+        }
+      ]
+    },
+    {
       "anchor": "/milvus",
       "img": "milvus.jpg",
       "title": "Milvus",
@@ -1660,84 +1763,6 @@
           "description": "FAISS IVF GPU 算法运行时所需要的显存与 NQ／nprobe 成正比，但 GPU 上的显存有限，因此当 NQ／nprobe 很大时，会出现 Out Of Memory。 本项目的目的是优化该算法，减小 GPU 显存使用量。",
           "update_time": "2020-05-18",
           "label": "2018090"
-        }
-      ]
-    },
-    {
-      "anchor": "/minigui",
-      "img": "minigui.jpg",
-      "title": "MiniGUI",
-      "project_url": "https://gitlab.fmsoft.cn/VincentWei/build-minigui-5.0/blob/master/summer-2020/README.md",
-      "url": "http://www.minigui.com",
-      "description": "跨操作系统的图形用户界面（GUI）支持系统。",
-      "full_des": "MiniGUI是一个快速、稳定、跨操作系统的图形用户界面（GUI）支持系统，广泛应用于智能硬件、智能物联网设备当中，用于为上层应用程序提供图形及图形用户界面的支持。",
-      "tech_tag": [
-        "Linux",
-        "RTOS",
-        "Mini",
-        "GUI"
-      ],
-      "domain_tag": [
-        "嵌入式软件开发",
-        "开源社区"
-      ],
-      "mail_list": "contact@minigui.com",
-      "email": "contact@minigui.com",
-      "project_list": [
-        {
-          "name": "面向小屏幕智能设备的 MiniGUI 合成器",
-          "description": "自 MiniGUI 5.0 起，MiniGUI 的多进程模式开始支持合成图式（compositing schema）。合成图式是现代桌面操作系统和智能手机操作系统的图形及窗口系统使用的技术，其基本原理很简单：系统中所有进程创建的每一个窗口都使用独立的缓冲区来各自渲染其内容，而系统中有一个扮演合成器（compositor）角色的进程，负责将这些内容根据窗口的 Z 序以及叠加效果（如半透明、模糊等）合成在一起并最终显示在屏幕上。本项目要求为 MiniGUI 5.0 的合成图式开发一个适合于小屏幕智能设备的定制合成器，实现自定义的窗口层叠效果（如阴影、模糊、不规则窗口等），以及窗口的切换动画等效果。",
-          "difficulty": "高",
-          "mentor": "魏永明",
-          "contact": "vincent@minigui.org",
-          "co-mentor": "",
-          "student_count": 0,
-          "update_time": "2020-05-26",
-          "label": "2038244"
-        },
-        {
-          "name": "MiniGUI 的 DRM 加速图形引擎",
-          "description": "DRM 已经成为 Linux 环境中新一代的现代图形支持框架。自 4.0 版本以来，MiniGUI 支持 DRM，但目前只提供了一个针对早期 Intel i915 芯片的加速图形引擎。该项目要求您为某个支持 DRM 且包含基础 2D 加速能力的 GPU 开发一个 MiniGUI 的 DRM 加速图形引擎。该 GPU 可以是 PC 显卡，也可以是嵌入式 SoC，如全志、瑞芯或者展讯的 SoC。",
-          "difficulty": "中",
-          "mentor": "魏永明",
-          "contact": "vincent@minigui.org",
-          "co-mentor": "",
-          "student_count": 0,
-          "update_time": "2020-05-26",
-          "label": "2038245"
-        },
-        {
-          "name": "HybridOS 图形栈增强",
-          "description": "HybridOS 是飞漫软件正在开发中的针对物联网的新一代操作系统。飞漫软件已基于 MiniGUI、Mesa、Cairo 等开源软件发布了 HybridOS 图形栈。在 Mesa 的 MiniGUI Backend 实现中，目前未提供对 EGL pixel buffer 的支持。本项目要求在现有 Mesa MiniGUI backend 的实现基础上，提供对 EGL pixel buffer 的支持。",
-          "difficulty": "中",
-          "mentor": "魏永明",
-          "contact": "vincent@minigui.org",
-          "co-mentor": "",
-          "student_count": 0,
-          "update_time": "2020-05-26",
-          "label": "2038246"
-        },
-        {
-          "name": "MiniGUI 中文输入法增强",
-          "description": "MiniGUI 现有开源的中文输入法引擎已经过时了。本项目要求移植一个成熟的开源中文输入法引擎，使得 MiniGUI 应用可以获得更好的中文输入法支持。",
-          "difficulty": "低",
-          "mentor": "魏永明",
-          "contact": "vincent@minigui.org",
-          "co-mentor": "",
-          "student_count": 0,
-          "update_time": "2020-05-26",
-          "label": "2038247"
-        },
-        {
-          "name": "将 MiniGUI 5.0 运行到 RT-Thread 或者 FreeRTOS 开发板上",
-          "description": "将 MiniGUI 5.0 (Standalone 或者 Threads 模式）移植到运行 RT-Thread 或者 FreeRTOS 的开发板上。需要开发针对具体开发板的图形引擎、输入引擎等。",
-          "difficulty": "低",
-          "mentor": "魏永明",
-          "contact": "vincent@minigui.org",
-          "co-mentor": "",
-          "student_count": 0,
-          "update_time": "2020-05-26",
-          "label": "2038248"
         }
       ]
     },
