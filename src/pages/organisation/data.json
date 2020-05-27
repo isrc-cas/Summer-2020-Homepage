@@ -1379,16 +1379,6 @@
       "email": "community@zilliz.com",
       "project_list": [
         {
-          "name": "使用ETCD作为Milvus元数据后端",
-          "difficulty": "中",
-          "mentor": "莫毅华",
-          "contact": "yihua.mo@zilliz.com",
-          "student_count": 0,
-          "description": "Milvus是一款开源的特征向量搜索引擎。其存储系统使用元数据对数据文件进行统一管理，目前元数据的后台只能选用SQlite或者MySQL，需要支持更多的元数据后台。请实现一套元数据接口以支持ETCD作为元数据后台。",
-          "update_time": "2020-05-18",
-          "label": "2018081"
-        },
-        {
           "name": "Milvus 数据备份恢复工具",
           "difficulty": "高",
           "mentor": "莫毅华",
@@ -1568,7 +1558,7 @@
       "project_url": "https://git.io/summer2020",
       "url": "https://oi-wiki.org",
       "description": "编程竞赛知识,内含炫酷算术魔法！",
-      "full_des": "OI Wiki 是一个编程竞赛知识整合站点,提供有趣又实用的编程竞赛知识以及其他有帮助的内容,帮助广大编程竞赛爱好者更快更深入地学习编程竞赛。同时我们围绕 OI Wiki 主站开展一些相关的基础设施建设,包括 markdown 渲染工具以及周边诸多开发工具。",
+      "full_des": "OI Wiki 是一个编程竞赛知识整合站点,提供有趣又实用的编程竞赛知识以及其他有帮助的内容,帮助广大编程竞赛爱好者更快更深入地学习编程竞赛。同时我们围绕 OI Wiki 主站开展一些相关的基础设施建设,包括 markdown 渲染工具以及周边诸多开发工具。详情可以访问 https://github.com/OI-wiki",
       "tech_tag": [
         "typescript",
         "react",
