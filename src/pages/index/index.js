@@ -143,13 +143,6 @@ export default class Index extends React.Component{
             divContainer.push(<br key={index1}/>)
             return 0;
         })
-        // this.state.logolistMap.map((item,index)=>{
-        //     divContainer.push(<div 
-        //         key = {index}
-        //         style={{backgroundImage:"url("+require("./../../img/logolist/"+item.img) + ")"}}
-        //         className="indexHomOpensourceItem"></div>)
-        //     return 0;
-        // })
         return divContainer
     }
 
@@ -201,7 +194,7 @@ export default class Index extends React.Component{
             {
                 img:'3_3.jpg',
                 name:'浏览项目',
-                url:'organisations?to=head',
+                url:'organisations',
             },
         ]
         data.map((item,index)=>{
