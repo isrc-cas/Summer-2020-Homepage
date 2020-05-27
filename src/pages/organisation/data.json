@@ -480,6 +480,16 @@
           "label": "2005025"
         },
         {
+          "name": "支持将当前上下文的segment id 和span id和注入到日志组件中",
+          "description": "模仿目前trace id 注入的模式，响应的支持segment id和span id的注入 https://github.com/apache/skywalking/issues/388",
+          "difficulty": "中",
+          "mentor": "吴晟",
+          "contact": "wu.sheng@foxmail.com",
+          "hot_index": 0,
+          "update_time": "2020-05-27",
+          "label": ""
+        },
+        {
           "name": "端到端测试框架本地调试增强",
           "description": "测试框架在本地 IDE 直接连接进入容器进行调试",
           "difficulty": "中",
