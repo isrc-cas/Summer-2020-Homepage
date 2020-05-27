@@ -772,7 +772,7 @@
       "project_list": [
         {
           "name": "Ceph官方文档本地化",
-          "difficulty": "适中",
+          "difficulty": "中",
           "mentor": "耿航",
           "contact": "devin@ceph.org.cn",
           "hot_index": 0,
@@ -782,13 +782,23 @@
         },
         {
           "name": "轻量级对象存储网关",
-          "difficulty": "适中",
+          "difficulty": "中",
           "mentor": "郭峰",
           "contact": "diluga@ceph.org.cn",
           "hot_index": 0,
           "description": "Ceph是一套开源的分布式存储软件，原生已经提供了对象存储网关服务(Rados gateway)，但是该对象存储和底层Ceph的耦合度高，不易改造和扩展新的概念。本次项目的目标是基于Ceph已经提供的Librados API，实现轻量级的对象存储网关服务，满足基本的大、小文件的上传下载的同时还能实现图片缩略图、裁剪、翻转等简单的多媒体操作。",
           "update_time": "2020-05-13",
           "label": "2009046"
+        },
+        {
+          "name": "Ceph社区文件存储系统",
+          "difficulty": "中",
+          "mentor": "曹言虎",
+          "contact": "tiger@ceph.org.cn",
+          "hot_index": 0,
+          "description": "Ceph是目前业界最火的开源项目之一，对外可以提供统一的块、文件、对象存储接口，由于存储的专业性和门槛，本项目主要致力于帮助学生能够快速参与社区，主要是修复一些社区的Bug（难易/紧急程度依次递增）。",
+          "update_time": "2020-05-27",
+          "label": ""
         }
       ]
     },
