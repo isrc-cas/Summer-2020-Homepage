@@ -1319,7 +1319,7 @@
       "anchor": "/huawei-liteos",
       "img": "huaweiLite.jpg",
       "title": "Huawei LiteOS",
-      "project_url": "",
+      "project_url": "https://bbs.huaweicloud.com/blogs/170628",
       "url": "http://liteos.org",
       "description": "轻量级物联网操作系统。",
       "full_des": "Huawei LiteOS 是华为针对物联网领域推出的轻量级物联网操作系统，具备轻量、智能、安全、组件丰富、简易开发等关键能力，基于物联网领域业务特征打造领域性技术栈，为开发者提供 “一站式” 完整软件平台，有效降低开发门槛、缩短开发周期，可广泛应用于可穿戴设备、智能家居、车联网、智慧城市等领域。自开源社区发布以来，持续围绕物联网市场从技术、生态、解决方案、商用支持等多维度使能合作伙伴，构建开源的物联网生态，帮助众多行业客户快速推出物联网终端和解决方案，加速物联网产业发展和行业数字化转型。",
@@ -1339,7 +1339,75 @@
         "低功耗"
       ],
       "mail_list": "liteos@huawei.com",
-      "email": "liteos@huawei.com"
+      "email": "liteos@huawei.com",
+      "project_list": [
+        {
+          "name": "用LiteOS基于BearPi-IoT开发板上移植MicroPython",
+          "description": "Huawei LiteOS是华为的物联网操作系统，BearPi-IoT是小熊派的物联网开发板。当前物联网终端主要开发语言以C语言为主，C语言开发需要涉及到底层硬件驱动，具有一定门槛。MicroPython包含Python标准库中的一小部分，本项目目标是通过移植MicroPython解释器到LiteOS上，让软件开发者也能实现硬件开发。",
+          "difficulty": "中",
+          "mentor": "王城",
+          "contact": "wangcheng@holdiot.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-27",
+          "label": "2032296"
+        },
+        {
+          "name": "用LiteOS基于BearPi-IoT开发板实现多程序选择切换运行",
+          "description": "Huawei LiteOS是华为的物联网操作系统，BearPi-IoT是小熊派的物联网开发板。本项目是通过编写多个基于LiteOS的应用程序并合并在一起，打包在BearPi-IoT的板载Flash中，可通过按键选择并在屏幕展现，实现选择需要运行的程序。",
+          "difficulty": "中",
+          "mentor": "王城",
+          "contact": "wangcheng@holdiot.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-27",
+          "label": "2032297"
+        },
+        {
+          "name": "用LiteOS基于BearPi-IoT开发板上移植GUI库",
+          "description": "Huawei LiteOS是华为的物联网操作系统，BearPi-IoT是小熊派的物联网开发板。本项目是通过移植主流GUI库运行在LiteOS上，并通过BearPi-IoT的LCD屏展示。",
+          "difficulty": "低",
+          "mentor": "王城",
+          "contact": "wangcheng@holdiot.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-27",
+          "label": "2032298"
+        },
+        {
+          "name": "基于LiteOS的硬件仿真平台开发",
+          "description": "搭建一款基于risc-v硬件仿真平台，包含但不限于risc-v芯片，led，显示屏，按键等硬件，要求在搭建的仿真平台上运行LiteOS+gui,在显示屏上显示一些动画效果，并且通过仿真可以达到按键的效果，在按键时(鼠标点击模拟)完成一定的动作，比如led的暗灭。",
+          "difficulty": "高",
+          "mentor": "庄圣恩",
+          "contact": "zhuangxxchn@163.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-27",
+          "label": "2032299"
+        },
+        {
+          "name": "基于LiteOS的AI拍照功能",
+          "description": "选择一款合适的AI框架训练并部署到LiteOS，完成笑脸抓拍的功能，不限硬件平台",
+          "difficulty": "高",
+          "mentor": "庄圣恩",
+          "contact": "zhuangxxchn@163.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-27",
+          "label": "2032300"
+        },
+        {
+          "name": "基于北斗定位的智慧物流定位系统基于北斗定位的智慧物流定位系统",
+          "description": "基于小熊派BearPi-IoT开发板+LiteOS平台，选择合适的北斗定位模块，在微信小程序上实时获取板子的位置信息",
+          "difficulty": "中",
+          "mentor": "庄圣恩",
+          "contact": "zhuangxxchn@163.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-27",
+          "label": "2032301"
+        }
+      ]
     },
     {
       "anchor": "/hypertrons",
