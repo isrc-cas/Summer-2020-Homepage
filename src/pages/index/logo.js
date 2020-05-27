@@ -138,6 +138,11 @@ const logolistMap = {
             url:'https://www.gnu.org/software/emacs/'
         },
         {
+            name:'GitCourse',
+            img:'c_gitcourse.jpg',
+            url:'http://gitcourse-io.kfcoding.com'
+        },
+        {
             name:'Huawei LiteOS',
             img:'c_HuaweiLiteOS.jpg',
             url:'http://liteos.org'
