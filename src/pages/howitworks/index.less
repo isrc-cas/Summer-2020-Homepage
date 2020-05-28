@@ -157,35 +157,61 @@
             }
         }
     }
+    .HowitworksCommitteePinyin{
+        position: relative;
+        font-size: 12px;
+        color:#999
+    }
     .HowitworksCommittee{
         position: relative;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
          justify-content: space-between;
+         .HowitworksCommitteeItem:nth-child(2)>.HowitworksCommitteeItemName:after,
+        .HowitworksCommitteeItem:nth-child(1)>.HowitworksCommitteeItemName:after{
+            content:"组委会联名主席";
+            position: absolute;
+            font-size: 12px;
+            padding: 4px;
+            top: 0;
+            right: 0;
+            height: 22px;
+            line-height: 14px;
+            background: #d9d9ff;
+            color: #7979d3;
+        }
         .HowitworksCommitteeItem{
             width: 48.3%;
-            display: inline-block;
+            display: inline-flex;
             position: relative;
             height: 69px;
-            line-height: 70px;
+            // line-height: 70px;
             background-color: #f5f5fa;
             margin-bottom: 30px;
             font-family: PingFang-SC-Regular;
             font-size: 20px;
+
             .HowitworksCommitteeItemUniversity{
-                display: inline-block;
+               
                 position: relative;
                 background-color: #ececf6;
                 width: 60.3%;
                 color: #292933;
-                padding-left: 9.4%;
+                padding-left: 7%;
+                height: 100%;
+                display: inline-flex;
+                align-items: center;
             }
             .HowitworksCommitteeItemName{
-                display: inline-block;
+               
                 position: relative;
                 color: #666666;
-                padding-left: 13.04%;
+                padding-left: 6.5%;
+                width: 39.5%;
+                height: 100%;
+                display: inline-flex;
+                align-items: center;
                
             }
         }

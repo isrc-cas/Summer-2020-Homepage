@@ -1493,7 +1493,7 @@
       "anchor": "/kube-edge",
       "img": "KubeEdge.jpg",
       "title": "KubeEdge",
-      "project_url": "",
+      "project_url": "https://github.com/kubeedge/community/blob/master/OpenSourcePromotionPlan2020/summer2020-cn.md",
       "url": "https://kubeedge.io",
       "description": "云原生边缘计算平台。",
       "full_des": "KubeEdge 将云原生技术应用到智能边缘计算领域，具备边云可靠协同、极致轻量、边缘智能、强劲算力、离线自治、海量边缘设备管理等能力，利用云原生生态的众多优势解决边缘计算中的挑战。",
@@ -2085,7 +2085,7 @@
         },
         {
           "name": "Data Augmentation",
-          "difficulty": "中高",
+          "difficulty": "高",
           "mentor": "Intel OpenCV team member",
           "contact": "admin@opencv.org.cn",
           "student_count": 0,
