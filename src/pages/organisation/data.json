@@ -1,6 +1,98 @@
 {
   "orgList": [
     {
+      "anchor": "/aosc",
+      "img": "aosc.jpg",
+      "title": "安同开源社区（AOSC）",
+      "project_url": "https://wiki.aosc.io/zh/ospp-2020-projects",
+      "url": "https://aosc.io",
+      "description": "Linux 发行版 AOSC OS 的开源社区。",
+      "full_des": "安同开源社区（Anthon Open Source Community, 简称 AOSC）是围绕社区项目 AOSC OS 形成的开源社区。AOSC OS 是一款遵循简约、本地化、包容、可持续及精制原则独立开发的通用 Linux 发行版，致力于改善开源软件的使用体验。",
+      "tech_tag": [
+        "Linux",
+        "dpkg",
+        "L10n",
+        "Container",
+        "CI/CD",
+        "Automation",
+        "C",
+        "Python",
+        "Bash",
+        "Vala",
+        "GTK"
+      ],
+      "domain_tag": [
+        "Linux 发行版",
+        "中文本地化"
+      ],
+      "mail_list": "discussions@lists.aosc.io",
+      "email": "discussions@lists.aosc.io",
+      "project_list": [
+        {
+          "name": "发行版构建自动化：打包调度器",
+          "difficulty": "高",
+          "mentor": "Dingyuan Wang",
+          "contact": "gumblex@aosc.io",
+          "student_count": 0,
+          "description": "社区主要项目 AOSC OS 的一部分构建过程仍然依赖手工操作。即使大部分繁杂的工作已经能为数个社区项目很好地完成，AOSC OS 仍然面临着社区人手严重不足而带来的更新速度不足及潜在质量缺陷问题。于是我们希望建立一套切合社区实际情况的，能将发行版构建 95% 的操作自动化的基础设施来解决上述问题，以求 AOSC OS 的可持续发展。目前分布式打包方案中包括构建机、调度器、软件包仓库管理和触发器四个部分，其中构建机和调度器是最重要的部分。本项目为编写一套功能较为完整的软件包构建调度器，以实现像 BOINC 分布式科学计算那样，自动分配打包任务、回收二进制软件包和打包时的日志和统计信息。调度器的调度模型、依赖解析已经实现，需要设计并实现的是接口和管理功能。",
+          "update_time": "2020-05-27",
+          "label": "2007255"
+        },
+        {
+          "name": "发行版构建自动化：自动化测试框架",
+          "difficulty": "中",
+          "mentor": "Dingyuan Wang",
+          "contact": "gumblex@aosc.io",
+          "student_count": 0,
+          "description": "目前 AOSC 的软件包存在一定的质量问题，且已经有了初步的排查方案。我们希望在编译时或编译后主动地将质量问题检测出来，停止编译和发布。本项目需要在当前的打包流程中增加测试环节来确保软件包的质量。",
+          "update_time": "2020-05-17",
+          "label": "2007038"
+        },
+        {
+          "name": "安装程序 DeployKit 的实现",
+          "difficulty": "中",
+          "mentor": "黎民雍（以俊德）",
+          "contact": "lmy441900@aosc.io",
+          "student_count": 0,
+          "description": "社区项目 DeployKit 是未来 AOSC OS 的安装和恢复程序。该程序有两种模式：1. 作为安装向导指引用户正确地安装 AOSC OS； 2. 作为恢复向导指引用户在轻微的系统配置错误中恢复系统； 目前，DeployKit 使用 GTK 3 和 Vala 编程语言基本实现了安装向导的图形用户界面，但尚未实现安装向导的实际操作部分（即 DeployKit 还只是个“空壳”）。本项目的目标是按照社区提供的 AOSC OS 安装指引，将这部分原本需要手动操作的安装流程实现到 DeployKit 上。",
+          "update_time": "2020-05-13",
+          "label": "2007039"
+        },
+        {
+          "name": "自由及开源软件简中本地化工作",
+          "difficulty": "低",
+          "mentor": "白铭骢",
+          "contact": "jeffbai@aosc.io",
+          "co-mentor": "刘子兴 <liushuyu@aosc.io>",
+          "student_count": 0,
+          "description": "当前我国国内有相当数量的 Linux 及各大开源或自由软件 (F/OSS) 使用者，但在使用过程中，用户们不难发现，各种软件的简中翻译及本地化质量参差不齐，错漏繁多。尤其主流桌面环境如 GNOME 及 KDE 简中翻译率并不理想；而又有一些如 NetSurf 的知名开源项目则完全没有翻译。该项目的主要目的是改善当前本地化质量及覆盖率。",
+          "update_time": "2020-05-13",
+          "label": "2007040"
+        },
+        {
+          "name": "为 libinput 框架实现“划圈滚动 (Circular Srolling)”",
+          "difficulty": "中",
+          "mentor": "白铭骢",
+          "contact": "jeffbai@aosc.io",
+          "co-mentor": "刘子兴 <liushuyu@aosc.io>",
+          "student_count": 0,
+          "description": "在 Wayland 及如 GNOME 等现代桌面的推动作用下，libinput 即将取代当前诸多碎片化的 X11 输入驱动（如 evdev 及 synaptics，甚至是更老的 mouse 及 keyboard），为用户及开发者带来一定便利。但在 libinput 的实现过程中，上游开发者由于人力有限，选择抛弃了一些他们主观认为不常见的硬件特性的支持。而被抛弃的特性之一是“划圈滚动”，即在触摸板上用手指划圈滚动（类似 iPod 的操作），这一特性在滚动长页面时可有效提高操作精度并降低疲劳。",
+          "update_time": "2020-05-13",
+          "label": "2007041"
+        },
+        {
+          "name": "半自动软件包退休、封存与整理系统",
+          "difficulty": "低",
+          "mentor": "张顺然 Staph. aureus",
+          "contact": "staph@aosc.io",
+          "student_count": 0,
+          "description": "软件包更新在现代社会已经不再是什么稀奇事。每天，无数软件包获得更新，有些是修复漏洞，有些是增加功能，还有些是性能优化等等。然而，并不是每一个软件包都有充分通过回归测试（Regression test），而有些更新则是主动放弃对于旧硬体的支援。由于系统的软件包仓库亦为业余爱好者维护，打包者的技术、使用的平台与配置等等亦可能导致部分软件包更新后损坏。作为一个由历史专家带领的专业考古社区，我们提供了大量的软件包供各种不同时代与架构的硬体使用。以往，为了保证大家可以方便的切换各个版本的软件包，大量的老包被留在了系统的软件源中。再加上 AOSC 支援的架构数量在某段时间的爆发，于 2017 年时，我们的软件包仓库达到了惊人的数十 GiB 。庞大的体积对于我们自身以及各种收录了我们的开源镜像站均造成了压力。我们因此启动了Anthon Optical Storage Center (AOSC Archive) 项目，将过去的软件包从软件源中移除并收录进入 Blu-ray Disc 进行冷储存。然而使用冷储存造成的不便亦是显而易见的。如果出于各种原因，我们需要取回一个软件包进行测试，那么将会需要比较费事的人工寻找目录并取回对应光盘。另外，冷储存的成本亦是比较高的。在近期的一次检查时，我们发现有约 1%-5% 的包可能由于各种原因，在收录进入 BD 时出现了重复收录的情况。这些重复收录的包既提高了维护成本，又不具有价值。同样，整理需要取回的软件包目前也是一个非常耗费人力的工作。每次退休包时，需要寻找每个架构中有收到更新的包，并移除老包。需要把这些包适当分类并分卷放好，以便于未来取回时不需要跨越多张光盘。这一个项目就是为了解决该问题而产生的。我们希望这个系统：可以较为方便的将软件包退休，并且避免不小心移除不应当被移除的软件包; 可以提供检查重复的功能，以避免将一个软件包重复退休多次，白白占用资源; 可以提供一个软件包搜寻功能，可以方便的告知用户，需要的软件包有哪些版本，分别位于哪些光盘中；可以在未来用在许多发行版上，让每个发行版都可以留下过去的软件包，在未来给大家的老机器使用。另外，我们还希望这个系统可以快速提供一个「最小软件仓库」，仅包含最新版本的软件包，占用最少的空间。",
+          "update_time": "2020-05-18",
+          "label": "2007042"
+        }
+      ]
+    },
+    {
       "anchor": "/apache-apisix",
       "img": "ApacheAPISIX.jpg",
       "title": "Apache APISIX (incubating)",
@@ -612,98 +704,6 @@
       ]
     },
     {
-      "anchor": "/aosc",
-      "img": "aosc.jpg",
-      "title": "安同开源社区（AOSC）",
-      "project_url": "https://wiki.aosc.io/zh/ospp-2020-projects",
-      "url": "https://aosc.io",
-      "description": "Linux 发行版 AOSC OS 的开源社区。",
-      "full_des": "安同开源社区（Anthon Open Source Community, 简称 AOSC）是围绕社区项目 AOSC OS 形成的开源社区。AOSC OS 是一款遵循简约、本地化、包容、可持续及精制原则独立开发的通用 Linux 发行版，致力于改善开源软件的使用体验。",
-      "tech_tag": [
-        "Linux",
-        "dpkg",
-        "L10n",
-        "Container",
-        "CI/CD",
-        "Automation",
-        "C",
-        "Python",
-        "Bash",
-        "Vala",
-        "GTK"
-      ],
-      "domain_tag": [
-        "Linux 发行版",
-        "中文本地化"
-      ],
-      "mail_list": "discussions@lists.aosc.io",
-      "email": "discussions@lists.aosc.io",
-      "project_list": [
-        {
-          "name": "发行版构建自动化：打包调度器",
-          "difficulty": "高",
-          "mentor": "Dingyuan Wang",
-          "contact": "gumblex@aosc.io",
-          "student_count": 0,
-          "description": "社区主要项目 AOSC OS 的一部分构建过程仍然依赖手工操作。即使大部分繁杂的工作已经能为数个社区项目很好地完成，AOSC OS 仍然面临着社区人手严重不足而带来的更新速度不足及潜在质量缺陷问题。于是我们希望建立一套切合社区实际情况的，能将发行版构建 95% 的操作自动化的基础设施来解决上述问题，以求 AOSC OS 的可持续发展。目前分布式打包方案中包括构建机、调度器、软件包仓库管理和触发器四个部分，其中构建机和调度器是最重要的部分。本项目为编写一套功能较为完整的软件包构建调度器，以实现像 BOINC 分布式科学计算那样，自动分配打包任务、回收二进制软件包和打包时的日志和统计信息。调度器的调度模型、依赖解析已经实现，需要设计并实现的是接口和管理功能。",
-          "update_time": "2020-05-27",
-          "label": "2007255"
-        },
-        {
-          "name": "发行版构建自动化：自动化测试框架",
-          "difficulty": "中",
-          "mentor": "Dingyuan Wang",
-          "contact": "gumblex@aosc.io",
-          "student_count": 0,
-          "description": "目前 AOSC 的软件包存在一定的质量问题，且已经有了初步的排查方案。我们希望在编译时或编译后主动地将质量问题检测出来，停止编译和发布。本项目需要在当前的打包流程中增加测试环节来确保软件包的质量。",
-          "update_time": "2020-05-17",
-          "label": "2007038"
-        },
-        {
-          "name": "安装程序 DeployKit 的实现",
-          "difficulty": "中",
-          "mentor": "黎民雍（以俊德）",
-          "contact": "lmy441900@aosc.io",
-          "student_count": 0,
-          "description": "社区项目 DeployKit 是未来 AOSC OS 的安装和恢复程序。该程序有两种模式：1. 作为安装向导指引用户正确地安装 AOSC OS； 2. 作为恢复向导指引用户在轻微的系统配置错误中恢复系统； 目前，DeployKit 使用 GTK 3 和 Vala 编程语言基本实现了安装向导的图形用户界面，但尚未实现安装向导的实际操作部分（即 DeployKit 还只是个“空壳”）。本项目的目标是按照社区提供的 AOSC OS 安装指引，将这部分原本需要手动操作的安装流程实现到 DeployKit 上。",
-          "update_time": "2020-05-13",
-          "label": "2007039"
-        },
-        {
-          "name": "自由及开源软件简中本地化工作",
-          "difficulty": "低",
-          "mentor": "白铭骢",
-          "contact": "jeffbai@aosc.io",
-          "co-mentor": "刘子兴 <liushuyu@aosc.io>",
-          "student_count": 0,
-          "description": "当前我国国内有相当数量的 Linux 及各大开源或自由软件 (F/OSS) 使用者，但在使用过程中，用户们不难发现，各种软件的简中翻译及本地化质量参差不齐，错漏繁多。尤其主流桌面环境如 GNOME 及 KDE 简中翻译率并不理想；而又有一些如 NetSurf 的知名开源项目则完全没有翻译。该项目的主要目的是改善当前本地化质量及覆盖率。",
-          "update_time": "2020-05-13",
-          "label": "2007040"
-        },
-        {
-          "name": "为 libinput 框架实现“划圈滚动 (Circular Srolling)”",
-          "difficulty": "中",
-          "mentor": "白铭骢",
-          "contact": "jeffbai@aosc.io",
-          "co-mentor": "刘子兴 <liushuyu@aosc.io>",
-          "student_count": 0,
-          "description": "在 Wayland 及如 GNOME 等现代桌面的推动作用下，libinput 即将取代当前诸多碎片化的 X11 输入驱动（如 evdev 及 synaptics，甚至是更老的 mouse 及 keyboard），为用户及开发者带来一定便利。但在 libinput 的实现过程中，上游开发者由于人力有限，选择抛弃了一些他们主观认为不常见的硬件特性的支持。而被抛弃的特性之一是“划圈滚动”，即在触摸板上用手指划圈滚动（类似 iPod 的操作），这一特性在滚动长页面时可有效提高操作精度并降低疲劳。",
-          "update_time": "2020-05-13",
-          "label": "2007041"
-        },
-        {
-          "name": "半自动软件包退休、封存与整理系统",
-          "difficulty": "低",
-          "mentor": "张顺然 Staph. aureus",
-          "contact": "staph@aosc.io",
-          "student_count": 0,
-          "description": "软件包更新在现代社会已经不再是什么稀奇事。每天，无数软件包获得更新，有些是修复漏洞，有些是增加功能，还有些是性能优化等等。然而，并不是每一个软件包都有充分通过回归测试（Regression test），而有些更新则是主动放弃对于旧硬体的支援。由于系统的软件包仓库亦为业余爱好者维护，打包者的技术、使用的平台与配置等等亦可能导致部分软件包更新后损坏。作为一个由历史专家带领的专业考古社区，我们提供了大量的软件包供各种不同时代与架构的硬体使用。以往，为了保证大家可以方便的切换各个版本的软件包，大量的老包被留在了系统的软件源中。再加上 AOSC 支援的架构数量在某段时间的爆发，于 2017 年时，我们的软件包仓库达到了惊人的数十 GiB 。庞大的体积对于我们自身以及各种收录了我们的开源镜像站均造成了压力。我们因此启动了Anthon Optical Storage Center (AOSC Archive) 项目，将过去的软件包从软件源中移除并收录进入 Blu-ray Disc 进行冷储存。然而使用冷储存造成的不便亦是显而易见的。如果出于各种原因，我们需要取回一个软件包进行测试，那么将会需要比较费事的人工寻找目录并取回对应光盘。另外，冷储存的成本亦是比较高的。在近期的一次检查时，我们发现有约 1%-5% 的包可能由于各种原因，在收录进入 BD 时出现了重复收录的情况。这些重复收录的包既提高了维护成本，又不具有价值。同样，整理需要取回的软件包目前也是一个非常耗费人力的工作。每次退休包时，需要寻找每个架构中有收到更新的包，并移除老包。需要把这些包适当分类并分卷放好，以便于未来取回时不需要跨越多张光盘。这一个项目就是为了解决该问题而产生的。我们希望这个系统：可以较为方便的将软件包退休，并且避免不小心移除不应当被移除的软件包; 可以提供检查重复的功能，以避免将一个软件包重复退休多次，白白占用资源; 可以提供一个软件包搜寻功能，可以方便的告知用户，需要的软件包有哪些版本，分别位于哪些光盘中；可以在未来用在许多发行版上，让每个发行版都可以留下过去的软件包，在未来给大家的老机器使用。另外，我们还希望这个系统可以快速提供一个「最小软件仓库」，仅包含最新版本的软件包，占用最少的空间。",
-          "update_time": "2020-05-18",
-          "label": "2007042"
-        }
-      ]
-    },
-    {
       "anchor": "/casbin",
       "img": "casbin.jpg",
       "title": "Casbin",
@@ -1100,6 +1100,44 @@
       ]
     },
     {
+      "anchor": "/gitcourse",
+      "img": "gitcourse.jpg",
+      "title": "GitCourse",
+      "project_url": "http://gitcourse-io.kfcoding.com/events/summer2020",
+      "url": "http://gitcourse-io.kfcoding.com",
+      "description": "开源交互式课程制作及实训平台。",
+      "full_des": "GitCourse 是一款强大的在线实训工具，其基于 Markdown 进行内容渲染，基于 Git 进行内容创作，使用 Docker 作为实训环境，覆盖在线实训的各个场景。",
+      "tech_tag": [
+        "Git",
+        "React",
+        "Docker",
+        "JavaScript",
+        "NPM",
+        "vscode"
+      ],
+      "domain_tag": [
+        "vscode",
+        "插件开发",
+        "前端",
+        "容器"
+      ],
+      "mail_list": "community@kfcoding.com",
+      "email": "gitcourse@kfcoding.com",
+      "project_list": [
+        {
+          "name": "基于 vscode 插件的 GitCourse 制作工具",
+          "description": "GitCourse 是基于 React 的前端项目，使用了 Docker 作为实训环境基础设施，目的是以自由软件促进学校的基本计算机科学教育。GitCourse 需要通过 Git 代码仓库来存储与分发课程，通常需要制作者具备源代码级的协作经验，不利于课程的快速制作和修改。本项目目标是实现一个基于 vscode 插件的 GitCourse 制作工具，通过图形界面辅助课程制作者构建 GitCourse 课程。",
+          "difficulty": "中",
+          "mentor": "刘畅",
+          "contact": "liuchangfreeman@live.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-27",
+          "label": "2039271"
+        }
+      ]
+    },
+    {
       "anchor": "/emacs",
       "img": "emacs.jpg",
       "title": "GNU Emacs（中文）",
@@ -1304,44 +1342,6 @@
       ]
     },
     {
-      "anchor": "/gitcourse",
-      "img": "gitcourse.jpg",
-      "title": "GitCourse",
-      "project_url": "http://gitcourse-io.kfcoding.com/events/summer2020",
-      "url": "http://gitcourse-io.kfcoding.com",
-      "description": "开源交互式课程制作及实训平台。",
-      "full_des": "GitCourse 是一款强大的在线实训工具，其基于 Markdown 进行内容渲染，基于 Git 进行内容创作，使用 Docker 作为实训环境，覆盖在线实训的各个场景。",
-      "tech_tag": [
-        "Git",
-        "React",
-        "Docker",
-        "JavaScript",
-        "NPM",
-        "vscode"
-      ],
-      "domain_tag": [
-        "vscode",
-        "插件开发",
-        "前端",
-        "容器"
-      ],
-      "mail_list": "community@kfcoding.com",
-      "email": "gitcourse@kfcoding.com",
-      "project_list": [
-        {
-          "name": "基于 vscode 插件的 GitCourse 制作工具",
-          "description": "GitCourse 是基于 React 的前端项目，使用了 Docker 作为实训环境基础设施，目的是以自由软件促进学校的基本计算机科学教育。GitCourse 需要通过 Git 代码仓库来存储与分发课程，通常需要制作者具备源代码级的协作经验，不利于课程的快速制作和修改。本项目目标是实现一个基于 vscode 插件的 GitCourse 制作工具，通过图形界面辅助课程制作者构建 GitCourse 课程。",
-          "difficulty": "中",
-          "mentor": "刘畅",
-          "contact": "liuchangfreeman@live.com",
-          "co-mentor": "",
-          "student_count": 0,
-          "update_time": "2020-05-27",
-          "label": "2039271"
-        }
-      ]
-    },
-    {
       "anchor": "/huawei-liteos",
       "img": "huaweiLite.jpg",
       "title": "Huawei LiteOS",
@@ -1486,6 +1486,78 @@
           "description": "Hypertrons 作为一个跨平台的 RPA 平台，在提供跨平台交互能力的同时，为了能更好的做出决策，也采集了各平台的开放数据作为决策基础。而这些数据同时也为社区的数字化运营分析提供了有效的支撑，我们不希望深度改变用户的使用习惯，故发起一个浏览器插件项目，通过在特定网址的网页中插入迷你看板的方式为开放组织提供有效的监控和运营手段，这个项目是 Hypertrons 一大创新，也是重要的一部分。",
           "update_time": "2020-05-25",
           "label": "2035199"
+        }
+      ]
+    },
+    {
+      "anchor": "/ihub",
+      "img": "ihub.jpg",
+      "title": "鹏城汇智社区（iHub）",
+      "project_url": "https://code.ihub.org.cn/projects/1360",
+      "url": "https://www.ihub.org.cn",
+      "description": "优选和汇聚全球AI开源资源。",
+      "full_des": "iHub 开源平台是面向以汉语为母语的开发者，优选和汇聚 AI 和 RISC-V 等开源项目与代码的托管平台。iHub 开源平台致力于为众多的开发者和科研人员提供一个具有专业的代码托管功能、稳定易用、访问速度快的开源平台。",
+      "tech_tag": [
+        "软件环境",
+        "算法框架",
+        "实训课程"
+      ],
+      "domain_tag": [
+        "人工智能",
+        "RISC-V"
+      ],
+      "mail_list": "wangs02@pcl.ac.cn",
+      "email": "ihub@pcl.ac.cn",
+      "project_list": [
+        {
+          "name": "二值目标检测网络的设计与训练",
+          "difficulty": "低",
+          "mentor": "陈刚",
+          "contact": "cheng83@mail.sysu.edu.cn",
+          "student_count": 0,
+          "description": "目标检测作为图像理解中的重要一环，其任务是找出图像中所有感兴趣的目标（物体），确定它们的位置和大小，是深度学习中的重要应用之一。目前有许多优秀的二值神经网络模型，大多都使用的是全精度的网络。但由于PhoneBit框架主要针对二值神经网路进行加速，需要对网络进行二值化处理，并保持一定的精度，以便于部署到移动设备上。",
+          "update_time": "2020-05-20",
+          "label": "2033165"
+        },
+        {
+          "name": "PhoneBit框架上的二值目标检测模型部署",
+          "difficulty": "中",
+          "mentor": "陈刚",
+          "contact": "cheng83@mail.sysu.edu.cn",
+          "student_count": 0,
+          "description": "目标检测作为图像理解中的重要一环，其任务是找出图像中所有感兴趣的目标（物体），确定它们的位置和大小，是深度学习中的重要应用之一。目前有许多优秀的二值神经网络模型，大多都使用的是全精度的网络。但由于PhoneBit框架主要针对二值神经网路进行加速，需要对网络进行二值化处理，并保持一定的精度，以便于部署到移动设备上。",
+          "update_time": "2020-05-20",
+          "label": "2033166"
+        },
+        {
+          "name": "基于PhoneBit框架上的移动二值目标检测模型应用",
+          "difficulty": "中",
+          "mentor": "陈刚",
+          "contact": "cheng83@mail.sysu.edu.cn",
+          "student_count": 0,
+          "description": "目前手机的计算能力愈来愈高，已逐步具备进行快速模型部署的能力。PhoneBit框架基于手机GPU进行高度优化，能实现基于手机的快速前向推断。在PhoneBit开源仓库下，提供了二值图像分类网络的Android部署APP示例工程。可以参考示例工程，根据目标检测任务的特性设计APP，实现模型的应用。",
+          "update_time": "2020-05-20",
+          "label": "2033167"
+        },
+        {
+          "name": "心血管疾病预测",
+          "difficulty": "中",
+          "mentor": "陈亚云",
+          "contact": "563880696@qq.com",
+          "student_count": 0,
+          "description": "在分类问题中，分类的目的是从一系列数据中选择出一个分类（如，给出一张包含苹果或橘子的图片，识别出图片中是哪种水果）。本项目采用心血管疾病数据集，数据集提供11个特征值和1个目标值，包含70000个患者记录数据。通过构建一个算法模型，来预测样本是否患有心血管疾病。本实训主要介绍如何实现“心血管疾病预测模型”的开发，通过该实训项目，可以使实训受众了解预测模型的开发。",
+          "update_time": "2020-05-20",
+          "label": "2033168"
+        },
+        {
+          "name": "新冠病毒传播预测",
+          "difficulty": "中",
+          "mentor": "陈亚云",
+          "contact": "563880696@qq.com",
+          "student_count": 0,
+          "description": "新冠状病毒的爆发正在发展成一场重大的国际危机，并开始影响人们的正常生活和国家经济的发展。如果能够预测病毒如何在不同国家和地区传播，建立一个强大的预测模型，有助于缓解风险。这项任务的目标是建立一个预测病毒扩散的模型。本实训主要介绍如何实现“预测新冠状病毒的传播”的开发，通过该实训项目，可以使实训受众了解预测模型的开发。",
+          "update_time": "2020-05-25",
+          "label": "2033243"
         }
       ]
     },
@@ -1688,120 +1760,114 @@
       ]
     },
     {
-      "anchor": "/mind-spore",
-      "img": "MindSpore.jpg",
-      "title": "MindSpore",
-      "project_url": "https://gitee.com/mindspore/community/tree/master/events/summer2020",
-      "url": "https://www.mindspore.cn",
-      "description": "全场景的的深度学习框架。",
-      "full_des": "MindSpore是华为开源的一款支持端边云全场景的深度学习训练推理框架,当前主要应用于计算机视觉、自然语言处理等AI领域,旨在为数据科学家和算法工程师提供设计友好、运行高效的开发体验,提供昇腾AI处理器原生支持及软硬件协同优化。同时构筑面向全球的人工智能开源社区,推动人工智能软硬件应用生态繁荣发展。",
+      "anchor": "/megengine",
+      "img": "megEngine.jpg",
+      "title": "天元（MegEngine）",
+      "project_url": "https://github.com/MegEngine/Resource/blob/master/Open_Source_Promotion_Plan-Summer_2020_MegEngine.md",
+      "url": "https://megengine.org.cn/",
+      "description": "旷视自主研发的开源深度学习框架。",
+      "full_des": "天元（MegEngine）是在旷视长期进行大规模AI业务落地过程中诞生的,这种业务形态对深度学习框架有很多挑战,在不断解决这些挑战的过程中,天元形成了动静合一、兼容并包、灵活高效、训练推理一体化等特性,能够帮助开发者高效的完成深度学习算法的设计、训练、部署,有效提升AI研发工作效率。",
       "tech_tag": [
-        "AI",
-        "Deep Learning Framework"
-      ],
-      "domain_tag": [],
-      "mail_list": "https://mailweb.mindspore.cn/postorius/lists/mindspore-discuss.mindspore.cn/",
-      "email": "contact@mindspore.cn",
-      "project_list": [
-        {
-          "name": "基于 MindSpore 的深度学习算法开发",
-          "difficulty": "中",
-          "mentor": "王俊",
-          "contact": "wangjun289@huawei.com",
-          "co-mentor": "",
-          "student": 0,
-          "description": "MindSpore是华为自研的深度学习框架，采用基于源码转换的自动微分，支持自动并行、深度图优化。MindSpore原生支持昇腾芯片，针对昇腾芯片架构特点，采用Pipeline并行、整图下沉等功能，可以达到很高的执行性能。目前MindSpore还处于发展阶段，本项目向大家介绍MindSpore特性及API使用，希望大家基于MindSpore进行深度学习算法开发，完成某项指定挑战。",
-          "update_time": "2020-05-21",
-          "label": "2017181"
-        },
-        {
-          "name": "深度学习模型计算图相同子结构的识别和展示",
-          "difficulty": "中",
-          "mentor": "高寒",
-          "contact": "gaohan19@huawei.com",
-          "co-mentor": "",
-          "student_count": 0,
-          "description": "MindSpore是华为自研的深度学习框架，其中的计算图模式是一种业界主流的用来进行数据传递与计算的形式。计算图主要包含节点和有向边，节点表示计算和控制操作，边表示数据的流向和控制等关系。计算图的高效合理展示，有助于用户更好的理解模型结构、发现和调试模型训练过程中出现的问题。然而，大型深度学习模型往往有着复杂的计算图结构，包含有成千上万个节点和更多的边。在这些点和边之中，包含有许多结构相同或高度相似的子结构，这些子结构不仅从图的拓扑结构上，甚至从深度学习语义上具有高度的相似性。快速识别大型计算图中上述的相同子结构，能够支持后续用收折、重叠等方式大幅减少页面中同时呈现的节点和边的数目，从而大幅改善计算图的展示效果。",
-          "update_time": "2020-05-21",
-          "label": "2017182"
-        }
-      ]
-    },
-    {
-      "anchor": "/minigui",
-      "img": "minigui.jpg",
-      "title": "MiniGUI",
-      "project_url": "https://gitlab.fmsoft.cn/VincentWei/build-minigui-5.0/blob/master/summer-2020/README.md",
-      "url": "http://www.minigui.com",
-      "description": "跨操作系统的图形用户界面（GUI）支持系统。",
-      "full_des": "MiniGUI是一个快速、稳定、跨操作系统的图形用户界面（GUI）支持系统，广泛应用于智能硬件、智能物联网设备当中，用于为上层应用程序提供图形及图形用户界面的支持。",
-      "tech_tag": [
-        "Linux",
-        "RTOS",
-        "Mini",
-        "GUI"
+        "C++",
+        "深度学习框架"
       ],
       "domain_tag": [
-        "嵌入式软件开发",
-        "开源社区"
+        "深度学习",
+        "人工智能",
+        "CV"
       ],
-      "mail_list": "summer2020@minigui.com",
-      "email": "summer2020@minigui.com",
+      "mail_list": "megengine.org.cn",
+      "email": "megengine-support@megvii.com",
       "project_list": [
         {
-          "name": "面向小屏幕智能设备的 MiniGUI 合成器",
-          "description": "自 MiniGUI 5.0 起，MiniGUI 的多进程模式开始支持合成图式（compositing schema）。合成图式是现代桌面操作系统和智能手机操作系统的图形及窗口系统使用的技术，其基本原理很简单：系统中所有进程创建的每一个窗口都使用独立的缓冲区来各自渲染其内容，而系统中有一个扮演合成器（compositor）角色的进程，负责将这些内容根据窗口的 Z 序以及叠加效果（如半透明、模糊等）合成在一起并最终显示在屏幕上。本项目要求为 MiniGUI 5.0 的合成图式开发一个适合于小屏幕智能设备的定制合成器，实现自定义的窗口层叠效果（如阴影、模糊、不规则窗口等），以及窗口的切换动画等效果。",
+          "name": "Github CI 增加 commit 内容检查",
+          "description": "增加 commit message checker，以规范贡献者 commit 格式",
+          "difficulty": "中",
+          "mentor": "张禄",
+          "contact": "zhanglu@megvii.com",
+          "student_count": "",
+          "update_time": "2020-05-20",
+          "label": "2025169"
+        },
+        {
+          "name": "实现 MegEngine to Caffe 转换器",
+          "description": "编写转换器，将 MegEngine 训练出的模型转换成 Caffe 模型",
           "difficulty": "高",
-          "mentor": "魏永明",
-          "contact": "vincent@minigui.org",
-          "co-mentor": "",
-          "student_count": 0,
-          "update_time": "2020-05-26",
-          "label": "2038244"
+          "mentor": "陈远昭",
+          "contact": "chenyuanzhao@megvii.com",
+          "student_count": "",
+          "update_time": "2020-05-20",
+          "label": "2025170"
         },
         {
-          "name": "MiniGUI 的 DRM 加速图形引擎",
-          "description": "DRM 已经成为 Linux 环境中新一代的现代图形支持框架。自 4.0 版本以来，MiniGUI 支持 DRM，但目前只提供了一个针对早期 Intel i915 芯片的加速图形引擎。该项目要求您为某个支持 DRM 且包含基础 2D 加速能力的 GPU 开发一个 MiniGUI 的 DRM 加速图形引擎。该 GPU 可以是 PC 显卡，也可以是嵌入式 SoC，如全志、瑞芯或者展讯的 SoC。",
+          "name": "实现 MegEngine to TFLite 转换器",
+          "description": "编写转换器，将 MegEngine 训练出的模型转换成 TFLite 模型",
+          "difficulty": "高",
+          "mentor": "陈远昭",
+          "contact": "chenyuanzhao@megvii.com",
+          "student_count": "",
+          "update_time": "2020-05-20",
+          "label": "2025171"
+        },
+        {
+          "name": "添加一些常用的opr",
+          "description": "添加一些目前MegEngine缺乏的、常用的opr，大部分只需要在python层进行封装。",
           "difficulty": "中",
-          "mentor": "魏永明",
-          "contact": "vincent@minigui.org",
-          "co-mentor": "",
-          "student_count": 0,
-          "update_time": "2020-05-26",
-          "label": "2038245"
+          "mentor": "胡焜",
+          "contact": "hukun@megvii.com",
+          "student_count": "",
+          "update_time": "2020-05-20",
+          "label": "2025172"
         },
         {
-          "name": "HybridOS 图形栈增强",
-          "description": "HybridOS 是飞漫软件正在开发中的针对物联网的新一代操作系统。飞漫软件已基于 MiniGUI、Mesa、Cairo 等开源软件发布了 HybridOS 图形栈。在 Mesa 的 MiniGUI Backend 实现中，目前未提供对 EGL pixel buffer 的支持。本项目要求在现有 Mesa MiniGUI backend 的实现基础上，提供对 EGL pixel buffer 的支持。",
+          "name": "添加各类常用分类模型",
+          "description": "classification模型比如mobilenet/inception，但不需要训练/推理等完整代码，也不需要预训练权重，只需要模型实现即可，统一放在 vision/classification/models[contribution]下面，类似于torchvision那样， 前期可以提供示例。",
           "difficulty": "中",
-          "mentor": "魏永明",
-          "contact": "vincent@minigui.org",
-          "co-mentor": "",
-          "student_count": 0,
-          "update_time": "2020-05-26",
-          "label": "2038246"
+          "mentor": "周亦庄",
+          "contact": "zhouyizhuang@megvii.com",
+          "student_count": "",
+          "update_time": "2020-05-20",
+          "label": "2025173"
         },
         {
-          "name": "MiniGUI 中文输入法增强",
-          "description": "MiniGUI 现有开源的中文输入法引擎已经过时了。本项目要求移植一个成熟的开源中文输入法引擎，使得 MiniGUI 应用可以获得更好的中文输入法支持。",
-          "difficulty": "低",
-          "mentor": "魏永明",
-          "contact": "vincent@minigui.org",
-          "co-mentor": "",
-          "student_count": 0,
-          "update_time": "2020-05-26",
-          "label": "2038247"
+          "name": "实现 assistant 库",
+          "description": "针对容易出错的使用方式，进行 warning 提示。希望达到玩游戏的时候的那种辅助提示的效果，比如 momentum < 0.5 的时候，提示：\"The momentum of batch normalization layer rarely uses a value less than 0.5, Please check the document for momentum's definition, which is different from PyTorch.\"。至多提示一次，如果用户觉得我明白风险，可以忽略或显式用 API 表明”我了解这个风险”",
+          "difficulty": "高",
+          "mentor": "许欣然",
+          "contact": "xxr@megvii.com",
+          "student_count": "",
+          "update_time": "2020-05-20",
+          "label": "2025174"
         },
         {
-          "name": "将 MiniGUI 5.0 运行到 RT-Thread 或者 FreeRTOS 开发板上",
-          "description": "将 MiniGUI 5.0 (Standalone 或者 Threads 模式）移植到运行 RT-Thread 或者 FreeRTOS 的开发板上。需要开发针对具体开发板的图形引擎、输入引擎等。",
-          "difficulty": "低",
-          "mentor": "魏永明",
-          "contact": "vincent@minigui.org",
-          "co-mentor": "",
-          "student_count": 0,
-          "update_time": "2020-05-26",
-          "label": "2038248"
+          "name": "MegEngine 网络可视化",
+          "description": "基于 Netron，对 MegEngine 训练网络进行可视化",
+          "difficulty": "高",
+          "mentor": "许欣然",
+          "contact": "xxr@megvii.com",
+          "student_count": "",
+          "update_time": "2020-05-20",
+          "label": "2025175"
+        },
+        {
+          "name": "C++ 文档生成",
+          "description": "基于 Doxygen 和 Sphinx，生成用于集成在官网的 C++ 使用文档",
+          "difficulty": "中",
+          "mentor": "许欣然",
+          "contact": "xxr@megvii.com",
+          "student_count": "",
+          "update_time": "2020-05-20",
+          "label": "2025176"
+        },
+        {
+          "name": "Models-CI 增加模型检查",
+          "description": "对于Models中开源出去模型，进行试运行检查，及时定位Models中的问题",
+          "difficulty": "高",
+          "mentor": "王枫",
+          "contact": "wangfeng02@megvii.com",
+          "student_count": "",
+          "update_time": "2020-05-20",
+          "label": "2025177"
         }
       ]
     },
@@ -1916,6 +1982,124 @@
           "description": "FAISS IVF GPU 算法运行时所需要的显存与 NQ／nprobe 成正比，但 GPU 上的显存有限，因此当 NQ／nprobe 很大时，会出现 Out Of Memory。 本项目的目的是优化该算法，减小 GPU 显存使用量。",
           "update_time": "2020-05-18",
           "label": "2018090"
+        }
+      ]
+    },
+    {
+      "anchor": "/mind-spore",
+      "img": "MindSpore.jpg",
+      "title": "MindSpore",
+      "project_url": "https://gitee.com/mindspore/community/tree/master/events/summer2020",
+      "url": "https://www.mindspore.cn",
+      "description": "全场景的的深度学习框架。",
+      "full_des": "MindSpore是华为开源的一款支持端边云全场景的深度学习训练推理框架,当前主要应用于计算机视觉、自然语言处理等AI领域,旨在为数据科学家和算法工程师提供设计友好、运行高效的开发体验,提供昇腾AI处理器原生支持及软硬件协同优化。同时构筑面向全球的人工智能开源社区,推动人工智能软硬件应用生态繁荣发展。",
+      "tech_tag": [
+        "AI",
+        "Deep Learning Framework"
+      ],
+      "domain_tag": [],
+      "mail_list": "https://mailweb.mindspore.cn/postorius/lists/mindspore-discuss.mindspore.cn/",
+      "email": "contact@mindspore.cn",
+      "project_list": [
+        {
+          "name": "基于 MindSpore 的深度学习算法开发",
+          "difficulty": "中",
+          "mentor": "王俊",
+          "contact": "wangjun289@huawei.com",
+          "co-mentor": "",
+          "student": 0,
+          "description": "MindSpore是华为自研的深度学习框架，采用基于源码转换的自动微分，支持自动并行、深度图优化。MindSpore原生支持昇腾芯片，针对昇腾芯片架构特点，采用Pipeline并行、整图下沉等功能，可以达到很高的执行性能。目前MindSpore还处于发展阶段，本项目向大家介绍MindSpore特性及API使用，希望大家基于MindSpore进行深度学习算法开发，完成某项指定挑战。",
+          "update_time": "2020-05-21",
+          "label": "2017181"
+        },
+        {
+          "name": "深度学习模型计算图相同子结构的识别和展示",
+          "difficulty": "中",
+          "mentor": "高寒",
+          "contact": "gaohan19@huawei.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "description": "MindSpore是华为自研的深度学习框架，其中的计算图模式是一种业界主流的用来进行数据传递与计算的形式。计算图主要包含节点和有向边，节点表示计算和控制操作，边表示数据的流向和控制等关系。计算图的高效合理展示，有助于用户更好的理解模型结构、发现和调试模型训练过程中出现的问题。然而，大型深度学习模型往往有着复杂的计算图结构，包含有成千上万个节点和更多的边。在这些点和边之中，包含有许多结构相同或高度相似的子结构，这些子结构不仅从图的拓扑结构上，甚至从深度学习语义上具有高度的相似性。快速识别大型计算图中上述的相同子结构，能够支持后续用收折、重叠等方式大幅减少页面中同时呈现的节点和边的数目，从而大幅改善计算图的展示效果。",
+          "update_time": "2020-05-21",
+          "label": "2017182"
+        }
+      ]
+    },
+    {
+      "anchor": "/minigui",
+      "img": "minigui.jpg",
+      "title": "MiniGUI",
+      "project_url": "https://gitlab.fmsoft.cn/VincentWei/build-minigui-5.0/blob/master/summer-2020/README.md",
+      "url": "http://www.minigui.com",
+      "description": "跨操作系统的图形用户界面（GUI）支持系统。",
+      "full_des": "MiniGUI是一个快速、稳定、跨操作系统的图形用户界面（GUI）支持系统，广泛应用于智能硬件、智能物联网设备当中，用于为上层应用程序提供图形及图形用户界面的支持。",
+      "tech_tag": [
+        "Linux",
+        "RTOS",
+        "Mini",
+        "GUI"
+      ],
+      "domain_tag": [
+        "嵌入式软件开发",
+        "开源社区"
+      ],
+      "mail_list": "summer2020@minigui.com",
+      "email": "summer2020@minigui.com",
+      "project_list": [
+        {
+          "name": "面向小屏幕智能设备的 MiniGUI 合成器",
+          "description": "自 MiniGUI 5.0 起，MiniGUI 的多进程模式开始支持合成图式（compositing schema）。合成图式是现代桌面操作系统和智能手机操作系统的图形及窗口系统使用的技术，其基本原理很简单：系统中所有进程创建的每一个窗口都使用独立的缓冲区来各自渲染其内容，而系统中有一个扮演合成器（compositor）角色的进程，负责将这些内容根据窗口的 Z 序以及叠加效果（如半透明、模糊等）合成在一起并最终显示在屏幕上。本项目要求为 MiniGUI 5.0 的合成图式开发一个适合于小屏幕智能设备的定制合成器，实现自定义的窗口层叠效果（如阴影、模糊、不规则窗口等），以及窗口的切换动画等效果。",
+          "difficulty": "高",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-26",
+          "label": "2038244"
+        },
+        {
+          "name": "MiniGUI 的 DRM 加速图形引擎",
+          "description": "DRM 已经成为 Linux 环境中新一代的现代图形支持框架。自 4.0 版本以来，MiniGUI 支持 DRM，但目前只提供了一个针对早期 Intel i915 芯片的加速图形引擎。该项目要求您为某个支持 DRM 且包含基础 2D 加速能力的 GPU 开发一个 MiniGUI 的 DRM 加速图形引擎。该 GPU 可以是 PC 显卡，也可以是嵌入式 SoC，如全志、瑞芯或者展讯的 SoC。",
+          "difficulty": "中",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-26",
+          "label": "2038245"
+        },
+        {
+          "name": "HybridOS 图形栈增强",
+          "description": "HybridOS 是飞漫软件正在开发中的针对物联网的新一代操作系统。飞漫软件已基于 MiniGUI、Mesa、Cairo 等开源软件发布了 HybridOS 图形栈。在 Mesa 的 MiniGUI Backend 实现中，目前未提供对 EGL pixel buffer 的支持。本项目要求在现有 Mesa MiniGUI backend 的实现基础上，提供对 EGL pixel buffer 的支持。",
+          "difficulty": "中",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-26",
+          "label": "2038246"
+        },
+        {
+          "name": "MiniGUI 中文输入法增强",
+          "description": "MiniGUI 现有开源的中文输入法引擎已经过时了。本项目要求移植一个成熟的开源中文输入法引擎，使得 MiniGUI 应用可以获得更好的中文输入法支持。",
+          "difficulty": "低",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-26",
+          "label": "2038247"
+        },
+        {
+          "name": "将 MiniGUI 5.0 运行到 RT-Thread 或者 FreeRTOS 开发板上",
+          "description": "将 MiniGUI 5.0 (Standalone 或者 Threads 模式）移植到运行 RT-Thread 或者 FreeRTOS 的开发板上。需要开发针对具体开发板的图形引擎、输入引擎等。",
+          "difficulty": "低",
+          "mentor": "魏永明",
+          "contact": "vincent@minigui.org",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-26",
+          "label": "2038248"
         }
       ]
     },
@@ -2873,78 +3057,6 @@
       ]
     },
     {
-      "anchor": "/ihub",
-      "img": "ihub.jpg",
-      "title": "鹏城汇智社区（iHub）",
-      "project_url": "https://code.ihub.org.cn/projects/1360",
-      "url": "https://www.ihub.org.cn",
-      "description": "优选和汇聚全球AI开源资源。",
-      "full_des": "iHub 开源平台是面向以汉语为母语的开发者，优选和汇聚 AI 和 RISC-V 等开源项目与代码的托管平台。iHub 开源平台致力于为众多的开发者和科研人员提供一个具有专业的代码托管功能、稳定易用、访问速度快的开源平台。",
-      "tech_tag": [
-        "软件环境",
-        "算法框架",
-        "实训课程"
-      ],
-      "domain_tag": [
-        "人工智能",
-        "RISC-V"
-      ],
-      "mail_list": "wangs02@pcl.ac.cn",
-      "email": "ihub@pcl.ac.cn",
-      "project_list": [
-        {
-          "name": "二值目标检测网络的设计与训练",
-          "difficulty": "低",
-          "mentor": "陈刚",
-          "contact": "cheng83@mail.sysu.edu.cn",
-          "student_count": 0,
-          "description": "目标检测作为图像理解中的重要一环，其任务是找出图像中所有感兴趣的目标（物体），确定它们的位置和大小，是深度学习中的重要应用之一。目前有许多优秀的二值神经网络模型，大多都使用的是全精度的网络。但由于PhoneBit框架主要针对二值神经网路进行加速，需要对网络进行二值化处理，并保持一定的精度，以便于部署到移动设备上。",
-          "update_time": "2020-05-20",
-          "label": "2033165"
-        },
-        {
-          "name": "PhoneBit框架上的二值目标检测模型部署",
-          "difficulty": "中",
-          "mentor": "陈刚",
-          "contact": "cheng83@mail.sysu.edu.cn",
-          "student_count": 0,
-          "description": "目标检测作为图像理解中的重要一环，其任务是找出图像中所有感兴趣的目标（物体），确定它们的位置和大小，是深度学习中的重要应用之一。目前有许多优秀的二值神经网络模型，大多都使用的是全精度的网络。但由于PhoneBit框架主要针对二值神经网路进行加速，需要对网络进行二值化处理，并保持一定的精度，以便于部署到移动设备上。",
-          "update_time": "2020-05-20",
-          "label": "2033166"
-        },
-        {
-          "name": "基于PhoneBit框架上的移动二值目标检测模型应用",
-          "difficulty": "中",
-          "mentor": "陈刚",
-          "contact": "cheng83@mail.sysu.edu.cn",
-          "student_count": 0,
-          "description": "目前手机的计算能力愈来愈高，已逐步具备进行快速模型部署的能力。PhoneBit框架基于手机GPU进行高度优化，能实现基于手机的快速前向推断。在PhoneBit开源仓库下，提供了二值图像分类网络的Android部署APP示例工程。可以参考示例工程，根据目标检测任务的特性设计APP，实现模型的应用。",
-          "update_time": "2020-05-20",
-          "label": "2033167"
-        },
-        {
-          "name": "心血管疾病预测",
-          "difficulty": "中",
-          "mentor": "陈亚云",
-          "contact": "563880696@qq.com",
-          "student_count": 0,
-          "description": "在分类问题中，分类的目的是从一系列数据中选择出一个分类（如，给出一张包含苹果或橘子的图片，识别出图片中是哪种水果）。本项目采用心血管疾病数据集，数据集提供11个特征值和1个目标值，包含70000个患者记录数据。通过构建一个算法模型，来预测样本是否患有心血管疾病。本实训主要介绍如何实现“心血管疾病预测模型”的开发，通过该实训项目，可以使实训受众了解预测模型的开发。",
-          "update_time": "2020-05-20",
-          "label": "2033168"
-        },
-        {
-          "name": "新冠病毒传播预测",
-          "difficulty": "中",
-          "mentor": "陈亚云",
-          "contact": "563880696@qq.com",
-          "student_count": 0,
-          "description": "新冠状病毒的爆发正在发展成一场重大的国际危机，并开始影响人们的正常生活和国家经济的发展。如果能够预测病毒如何在不同国家和地区传播，建立一个强大的预测模型，有助于缓解风险。这项任务的目标是建立一个预测病毒扩散的模型。本实训主要介绍如何实现“预测新冠状病毒的传播”的开发，通过该实训项目，可以使实训受众了解预测模型的开发。",
-          "update_time": "2020-05-25",
-          "label": "2033243"
-        }
-      ]
-    },
-    {
       "anchor": "/ros-navigation",
       "img": "ros.jpg",
       "title": "ROS Navigation",
@@ -2973,100 +3085,6 @@
       ],
       "mail_list": "https://discourse.ros.org",
       "email": "stevenmacenski@gmail.com"
-    },
-    {
-      "anchor": "/simple-xx",
-      "img": "simpleX.jpg",
-      "title": "Simple-XX",
-      "project_url": "https://github.com/Simple-XX/summer2020",
-      "url": "https://github.com/Simple-XX",
-      "description": "提供易于学习的代码示例与实现思路。",
-      "full_des": "Simple-XX 是⼀次写代码写崩溃后的产物,我尝试从头实现⼀个简单的内核,但是互联⽹上的内容太过零散,对于初学者来说很不友好,严重拖慢了学习效率。SimpleKernel 是 Simple-XX 的第⼀次尝试,⽬前收到了 700+ star 与 80+ fork,后续还会有编译器、数据库、搜索引擎等内容。",
-      "tech_tag": [
-        "Linux",
-        "GCC",
-        "Compiler",
-        "软件⼯程"
-      ],
-      "domain_tag": [
-        "操作系统",
-        "编译器",
-        "数据库"
-      ],
-      "mail_list": "",
-      "email": "zone.niuzh@hotmail.com",
-      "project_list": [
-        {
-          "name": "SimpleKernel 修复存在的 bug",
-          "difficulty": "中",
-          "mentor": "MRNIU",
-          "contact": "Zone.Niuzh@hotmail.com",
-          "student_count": 0,
-          "description": "由于项目早期的遗留问题,有很多 bug 一直没有解决,在代码某处一定还藏有尚未发现的地雷,你的任务是找到它,解决它,并留下足够的测试代码。",
-          "update_time": "2020-05-14",
-          "label": "2022104"
-        },
-        {
-          "name": "SimpleKernel 优化现有内存管理代码的实现",
-          "difficulty": "中",
-          "mentor": "MRNIU",
-          "contact": "Zone.Niuzh@hotmail.com",
-          "student_count": 0,
-          "description": "现有的内存管理代码可谓千疮百孔,难以说是一个能够作为示例的代码,我们需要你在现有方案的基础上对代码进行重写,使用经典算法如 first-fit,buddy 重新实现内存管理系统。",
-          "update_time": "2020-05-14",
-          "label": "2022105"
-        },
-        {
-          "name": "SimpleKernel 完成多任务系统",
-          "difficulty": "高",
-          "mentor": "MRNIU",
-          "contact": "Zone.Niuzh@hotmail.com",
-          "student_count": 0,
-          "description": "多任务是内核不可或缺的部分,但现在我们的代码还很简陋。现有代码是对 linux 内核实现的魔改,还不能够正常使用。",
-          "update_time": "2020-05-14",
-          "label": "2022106"
-        },
-        {
-          "name": "SimpleKernel 编写实现文档",
-          "difficulty": "中",
-          "mentor": "MRNIU",
-          "contact": "Zone.Niuzh@hotmail.com",
-          "student_count": 0,
-          "description": "目前的实现文档分布在开发日志、代码注释中,有的部分还有缺少,我们需要一份文档告诉使用者我们的代码是怎么来的,背后的原理是什么,为什么这样写。",
-          "update_time": "2020-05-14",
-          "label": "2022107"
-        },
-        {
-          "name": "SimpleCompiler 完善编译器架构",
-          "difficulty": "中",
-          "mentor": "MRNIU",
-          "contact": "Zone.Niuzh@hotmail.com",
-          "student_count": 0,
-          "description": "目前仅实现了基本的词法解析,但对于整个编译器的整体结构尚未有过考虑,我们需要一位对编译器熟悉的同学来把握大方向,站在初学者的角度,我们的代码怎么写能让别人容易理解,便于迁移呢？",
-          "update_time": "2020-05-14",
-          "label": "2022108"
-        }
-      ]
-    },
-    {
-      "anchor": "/soda-foundation",
-      "img": "soda.jpg",
-      "title": "SODA Foundation",
-      "project_url": "",
-      "url": "https://sodafoundation.io",
-      "description": "开放智能的数据管理平台。",
-      "full_des": "SODA 是 Linux 基金会在数据与存储领域的第一个子基金会，由华为联合业界领先的数据与存储供应商，以及全球各行业的优秀企业共同建立，旨在帮助用户更好的应当对数据基础设施云化转型过程中的各种挑战。SODA从成立至今，已吸引华为，中国联通，FUJITSU，建信金科，NTT，TOYOTA，SONY，YAHOO!JAPAN，CESI等21家全球知名公司加入。SODA社区主要包含北向插件项目（nbp），存储控制器项目（opensds），多云项目（multi-cloud），编排项目（orchestration），用户界面项目（opensds-dashboard），安装部署项目（opensds-intaller）等9个项目。其中，nbp用于支持SODA存储服务与云及应用框架进行北向对接；opensds用于统一管理本地数据中心和云端的块、文件、对象存储；multi-cloud是基于策略的多云数据控制器，支持跨云数据流动以及数据生命周期管理。",
-      "tech_tag": [
-        "云原生",
-        "容器",
-        "微服务"
-      ],
-      "domain_tag": [
-        "数据生命周期管理",
-        "多云数据流动"
-      ],
-      "mail_list": "https://lists.sodafoundation.io/g/opensds-tech-discuss",
-      "email": "https://lists.sodafoundation.io/g/opensds-tech-discuss"
     },
     {
       "anchor": "/rt-thread",
@@ -3184,6 +3202,100 @@
       ]
     },
     {
+      "anchor": "/simple-xx",
+      "img": "simpleX.jpg",
+      "title": "Simple-XX",
+      "project_url": "https://github.com/Simple-XX/summer2020",
+      "url": "https://github.com/Simple-XX",
+      "description": "提供易于学习的代码示例与实现思路。",
+      "full_des": "Simple-XX 是⼀次写代码写崩溃后的产物,我尝试从头实现⼀个简单的内核,但是互联⽹上的内容太过零散,对于初学者来说很不友好,严重拖慢了学习效率。SimpleKernel 是 Simple-XX 的第⼀次尝试,⽬前收到了 700+ star 与 80+ fork,后续还会有编译器、数据库、搜索引擎等内容。",
+      "tech_tag": [
+        "Linux",
+        "GCC",
+        "Compiler",
+        "软件⼯程"
+      ],
+      "domain_tag": [
+        "操作系统",
+        "编译器",
+        "数据库"
+      ],
+      "mail_list": "",
+      "email": "zone.niuzh@hotmail.com",
+      "project_list": [
+        {
+          "name": "SimpleKernel 修复存在的 bug",
+          "difficulty": "中",
+          "mentor": "MRNIU",
+          "contact": "Zone.Niuzh@hotmail.com",
+          "student_count": 0,
+          "description": "由于项目早期的遗留问题,有很多 bug 一直没有解决,在代码某处一定还藏有尚未发现的地雷,你的任务是找到它,解决它,并留下足够的测试代码。",
+          "update_time": "2020-05-14",
+          "label": "2022104"
+        },
+        {
+          "name": "SimpleKernel 优化现有内存管理代码的实现",
+          "difficulty": "中",
+          "mentor": "MRNIU",
+          "contact": "Zone.Niuzh@hotmail.com",
+          "student_count": 0,
+          "description": "现有的内存管理代码可谓千疮百孔,难以说是一个能够作为示例的代码,我们需要你在现有方案的基础上对代码进行重写,使用经典算法如 first-fit,buddy 重新实现内存管理系统。",
+          "update_time": "2020-05-14",
+          "label": "2022105"
+        },
+        {
+          "name": "SimpleKernel 完成多任务系统",
+          "difficulty": "高",
+          "mentor": "MRNIU",
+          "contact": "Zone.Niuzh@hotmail.com",
+          "student_count": 0,
+          "description": "多任务是内核不可或缺的部分,但现在我们的代码还很简陋。现有代码是对 linux 内核实现的魔改,还不能够正常使用。",
+          "update_time": "2020-05-14",
+          "label": "2022106"
+        },
+        {
+          "name": "SimpleKernel 编写实现文档",
+          "difficulty": "中",
+          "mentor": "MRNIU",
+          "contact": "Zone.Niuzh@hotmail.com",
+          "student_count": 0,
+          "description": "目前的实现文档分布在开发日志、代码注释中,有的部分还有缺少,我们需要一份文档告诉使用者我们的代码是怎么来的,背后的原理是什么,为什么这样写。",
+          "update_time": "2020-05-14",
+          "label": "2022107"
+        },
+        {
+          "name": "SimpleCompiler 完善编译器架构",
+          "difficulty": "中",
+          "mentor": "MRNIU",
+          "contact": "Zone.Niuzh@hotmail.com",
+          "student_count": 0,
+          "description": "目前仅实现了基本的词法解析,但对于整个编译器的整体结构尚未有过考虑,我们需要一位对编译器熟悉的同学来把握大方向,站在初学者的角度,我们的代码怎么写能让别人容易理解,便于迁移呢？",
+          "update_time": "2020-05-14",
+          "label": "2022108"
+        }
+      ]
+    },
+    {
+      "anchor": "/soda-foundation",
+      "img": "soda.jpg",
+      "title": "SODA Foundation",
+      "project_url": "",
+      "url": "https://sodafoundation.io",
+      "description": "开放智能的数据管理平台。",
+      "full_des": "SODA 是 Linux 基金会在数据与存储领域的第一个子基金会，由华为联合业界领先的数据与存储供应商，以及全球各行业的优秀企业共同建立，旨在帮助用户更好的应当对数据基础设施云化转型过程中的各种挑战。SODA从成立至今，已吸引华为，中国联通，FUJITSU，建信金科，NTT，TOYOTA，SONY，YAHOO!JAPAN，CESI等21家全球知名公司加入。SODA社区主要包含北向插件项目（nbp），存储控制器项目（opensds），多云项目（multi-cloud），编排项目（orchestration），用户界面项目（opensds-dashboard），安装部署项目（opensds-intaller）等9个项目。其中，nbp用于支持SODA存储服务与云及应用框架进行北向对接；opensds用于统一管理本地数据中心和云端的块、文件、对象存储；multi-cloud是基于策略的多云数据控制器，支持跨云数据流动以及数据生命周期管理。",
+      "tech_tag": [
+        "云原生",
+        "容器",
+        "微服务"
+      ],
+      "domain_tag": [
+        "数据生命周期管理",
+        "多云数据流动"
+      ],
+      "mail_list": "https://lists.sodafoundation.io/g/opensds-tech-discuss",
+      "email": "https://lists.sodafoundation.io/g/opensds-tech-discuss"
+    },
+    {
       "anchor": "/tinylab",
       "img": "tinylab.jpg",
       "title": "泰晓科技",
@@ -3248,118 +3360,6 @@
           "description": "Markdown Lab 是一个 Markdown 编辑环境,当前内置简历、文档、幻灯和书籍的 Markdown 模板,可导出为 html 和 pdf,本项需求旨在进一步完善中文支持、美化 PDF 输出格式、增加加密和水印功能等。",
           "update_time": "2020-05-13",
           "label": "2024120"
-        }
-      ]
-    },
-    {
-      "anchor": "/megengine",
-      "img": "megEngine.jpg",
-      "title": "天元（MegEngine）",
-      "project_url": "https://github.com/MegEngine/Resource/blob/master/Open_Source_Promotion_Plan-Summer_2020_MegEngine.md",
-      "url": "https://megengine.org.cn/",
-      "description": "旷视自主研发的开源深度学习框架。",
-      "full_des": "天元（MegEngine）是在旷视长期进行大规模AI业务落地过程中诞生的,这种业务形态对深度学习框架有很多挑战,在不断解决这些挑战的过程中,天元形成了动静合一、兼容并包、灵活高效、训练推理一体化等特性,能够帮助开发者高效的完成深度学习算法的设计、训练、部署,有效提升AI研发工作效率。",
-      "tech_tag": [
-        "C++",
-        "深度学习框架"
-      ],
-      "domain_tag": [
-        "深度学习",
-        "人工智能",
-        "CV"
-      ],
-      "mail_list": "megengine.org.cn",
-      "email": "megengine-support@megvii.com",
-      "project_list": [
-        {
-          "name": "Github CI 增加 commit 内容检查",
-          "description": "增加 commit message checker，以规范贡献者 commit 格式",
-          "difficulty": "中",
-          "mentor": "张禄",
-          "contact": "zhanglu@megvii.com",
-          "student_count": "",
-          "update_time": "2020-05-20",
-          "label": "2025169"
-        },
-        {
-          "name": "实现 MegEngine to Caffe 转换器",
-          "description": "编写转换器，将 MegEngine 训练出的模型转换成 Caffe 模型",
-          "difficulty": "高",
-          "mentor": "陈远昭",
-          "contact": "chenyuanzhao@megvii.com",
-          "student_count": "",
-          "update_time": "2020-05-20",
-          "label": "2025170"
-        },
-        {
-          "name": "实现 MegEngine to TFLite 转换器",
-          "description": "编写转换器，将 MegEngine 训练出的模型转换成 TFLite 模型",
-          "difficulty": "高",
-          "mentor": "陈远昭",
-          "contact": "chenyuanzhao@megvii.com",
-          "student_count": "",
-          "update_time": "2020-05-20",
-          "label": "2025171"
-        },
-        {
-          "name": "添加一些常用的opr",
-          "description": "添加一些目前MegEngine缺乏的、常用的opr，大部分只需要在python层进行封装。",
-          "difficulty": "中",
-          "mentor": "胡焜",
-          "contact": "hukun@megvii.com",
-          "student_count": "",
-          "update_time": "2020-05-20",
-          "label": "2025172"
-        },
-        {
-          "name": "添加各类常用分类模型",
-          "description": "classification模型比如mobilenet/inception，但不需要训练/推理等完整代码，也不需要预训练权重，只需要模型实现即可，统一放在 vision/classification/models[contribution]下面，类似于torchvision那样， 前期可以提供示例。",
-          "difficulty": "中",
-          "mentor": "周亦庄",
-          "contact": "zhouyizhuang@megvii.com",
-          "student_count": "",
-          "update_time": "2020-05-20",
-          "label": "2025173"
-        },
-        {
-          "name": "实现 assistant 库",
-          "description": "针对容易出错的使用方式，进行 warning 提示。希望达到玩游戏的时候的那种辅助提示的效果，比如 momentum < 0.5 的时候，提示：\"The momentum of batch normalization layer rarely uses a value less than 0.5, Please check the document for momentum's definition, which is different from PyTorch.\"。至多提示一次，如果用户觉得我明白风险，可以忽略或显式用 API 表明”我了解这个风险”",
-          "difficulty": "高",
-          "mentor": "许欣然",
-          "contact": "xxr@megvii.com",
-          "student_count": "",
-          "update_time": "2020-05-20",
-          "label": "2025174"
-        },
-        {
-          "name": "MegEngine 网络可视化",
-          "description": "基于 Netron，对 MegEngine 训练网络进行可视化",
-          "difficulty": "高",
-          "mentor": "许欣然",
-          "contact": "xxr@megvii.com",
-          "student_count": "",
-          "update_time": "2020-05-20",
-          "label": "2025175"
-        },
-        {
-          "name": "C++ 文档生成",
-          "description": "基于 Doxygen 和 Sphinx，生成用于集成在官网的 C++ 使用文档",
-          "difficulty": "中",
-          "mentor": "许欣然",
-          "contact": "xxr@megvii.com",
-          "student_count": "",
-          "update_time": "2020-05-20",
-          "label": "2025176"
-        },
-        {
-          "name": "Models-CI 增加模型检查",
-          "description": "对于Models中开源出去模型，进行试运行检查，及时定位Models中的问题",
-          "difficulty": "高",
-          "mentor": "王枫",
-          "contact": "wangfeng02@megvii.com",
-          "student_count": "",
-          "update_time": "2020-05-20",
-          "label": "2025177"
         }
       ]
     },
@@ -3723,7 +3723,7 @@
       "anchor": "/volcano",
       "img": "vol.jpg",
       "title": "Volcano",
-      "project_url": "",
+      "project_url": "https://github.com/volcano-sh/volcano/blob/master/docs/community/summer2020-cn.md",
       "url": "https://volcano.sh",
       "description": "云原生批量计算平台。",
       "full_des": "Volcano是基于Kubernetes构建的云原生批量计算引擎，基于华为云在AI、大数据领域的深厚业务积累，补齐了Kubernetes在面向AI、大数据、高性能计算等批量计算任务调度、编排等场景下的短板，向下支持鲲鹏、昇腾、X86等多元算力，向上使能TensorFlow、Spark、华为MindSpore等主流行业计算框架，让数据科学家和算法工程师充分享受到云原生技术所带来的高效计算与极致体验。",
