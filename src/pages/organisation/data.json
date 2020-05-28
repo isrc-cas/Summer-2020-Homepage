@@ -3741,7 +3741,53 @@
         "批量计算"
       ],
       "mail_list": "volcano-sh@googlegroups.com",
-      "email": "volcano-sh@googlegroups.com"
+      "email": "volcano-sh@googlegroups.com",
+      "project_list": [
+        {
+          "name": "Arm架构支持",
+          "description": "Migrate to run volcano on arm64 platform",
+          "difficulty": "低",
+          "mentor": "Zhonghu Xu",
+          "contact": "zhhxu2011@163.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-28",
+          "label": ""
+        },
+        {
+          "name": "官方文档",
+          "description": "Redesign and reimplement the official website to support multi-versioned docs.",
+          "difficulty": "中",
+          "mentor": "Mada",
+          "contact": "klaus1982.cn@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-28",
+          "label": ""
+        },
+        {
+          "name": "Volcano DAG引擎开发",
+          "description": "HPC and Gene analysis need workload dependency, to implement a DAG engine in job controller.",
+          "difficulty": "高",
+          "mentor": "Leibo Wang",
+          "contact": "wang.platform@hotmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-28",
+          "label": ""
+        },
+        {
+          "name": "Volcano工作流可视化UI开发Volcano工作流可视化UI开发",
+          "description": "Implement a UI to show workloads status and dependency relationships.",
+          "difficulty": "高",
+          "mentor": "Zhonghu Xu",
+          "contact": "zhhxu2011@163.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-28",
+          "label": ""
+        }
+      ]
     }
   ],
   "creditList": [
