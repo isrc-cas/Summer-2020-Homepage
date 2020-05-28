@@ -2039,7 +2039,7 @@
         },
         {
           "name": "Data Augmentation",
-          "difficulty": "中高",
+          "difficulty": "高",
           "mentor": "Intel OpenCV team member",
           "contact": "admin@opencv.org.cn",
           "student_count": 0,
