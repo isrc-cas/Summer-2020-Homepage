@@ -815,7 +815,7 @@
     {
       "anchor": "/chubao",
       "img": "chubao.jpg",
-      "title": "ChubaoFS",
+      "title": "ChubaoFS (CNCF sandbox)",
       "project_url": "",
       "url": "https://www.chubao.io",
       "description": "开源云原生存储平台。",
