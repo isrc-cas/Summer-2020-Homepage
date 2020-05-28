@@ -1493,7 +1493,7 @@
       "anchor": "/kube-edge",
       "img": "KubeEdge.jpg",
       "title": "KubeEdge",
-      "project_url": "",
+      "project_url": "https://github.com/kubeedge/community/blob/master/OpenSourcePromotionPlan2020/summer2020-cn.md",
       "url": "https://kubeedge.io",
       "description": "云原生边缘计算平台。",
       "full_des": "KubeEdge 将云原生技术应用到智能边缘计算领域，具备边云可靠协同、极致轻量、边缘智能、强劲算力、离线自治、海量边缘设备管理等能力，利用云原生生态的众多优势解决边缘计算中的挑战。",
@@ -1507,7 +1507,53 @@
       ],
       "domain_tag": [],
       "mail_list": "kubeedge@googlegroups.com",
-      "email": "kubeedge@googlegroups.com"
+      "email": "kubeedge@googlegroups.com",
+      "project_list": [
+        {
+          "name": "KubeEdge AI边缘应用开发",
+          "description": "Build a sample example to run AI application on KubeEdge platform, using the device API, and ideally running inference on the edge and training on the cloud, showing cloud-edge collaboration.",
+          "difficulty": "中",
+          "mentor": "Kevin Wang",
+          "contact": "kevinwzf0126@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-28",
+          "label": ""
+        },
+        {
+          "name": "一键安装脚本开发",
+          "description": "Write a script to install KubeEdge cloud and edge with one click, including K8s, Runtime.",
+          "difficulty": "低",
+          "mentor": "Fei Xu",
+          "contact": "fisherxu1@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-28",
+          "label": ""
+        },
+        {
+          "name": "集成chaos-mesh测试KubeEdge",
+          "description": "Now we have unit tests, integration tests and e2e tsets that guarantee the KubeEdge is running well, but to better identify system vulnerabilities and improve resilience, let's use chaosMesh to injects various types of faults into the KubeEdge, like low quality network, etc. to test KubeEdge.",
+          "difficulty": "中",
+          "mentor": "Kevin Wang",
+          "contact": "kevinwzf0126@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-28",
+          "label": ""
+        },
+        {
+          "name": "社区网站",
+          "description": "Redesign and reimplement the official website to show the key features of KubeEdge.",
+          "difficulty": "中",
+          "mentor": "Kevin Wang",
+          "contact": "kevinwzf0126@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-28",
+          "label": ""
+        }
+      ]
     },
     {
       "anchor": "/kernal-travel",
@@ -1699,8 +1745,8 @@
         "嵌入式软件开发",
         "开源社区"
       ],
-      "mail_list": "contact@minigui.com",
-      "email": "contact@minigui.com",
+      "mail_list": "summer2020@minigui.com",
+      "email": "summer2020@minigui.com",
       "project_list": [
         {
           "name": "面向小屏幕智能设备的 MiniGUI 合成器",
@@ -2039,7 +2085,7 @@
         },
         {
           "name": "Data Augmentation",
-          "difficulty": "中高",
+          "difficulty": "高",
           "mentor": "Intel OpenCV team member",
           "contact": "admin@opencv.org.cn",
           "student_count": 0,
