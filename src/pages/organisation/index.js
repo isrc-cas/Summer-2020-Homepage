@@ -502,7 +502,9 @@ export default class Organisation extends React.Component{
                             )
                         })
                     }
+
                 </div>
+                <div className="OrgCommitteePinyin content1200">*按单位名称英文字母、中文拼音字母排序</div>
 
                 </div>
                   <div id="orgListOWrapper">
