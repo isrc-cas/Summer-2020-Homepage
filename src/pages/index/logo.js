@@ -60,11 +60,13 @@ const logolistMap = {
         },
     ],
     technology:[
-        // {
-        //     name:'openeuler',
-        //     img:'c_openeuler.jpg',
-        //     url:'https://openeuler.org/zh/'
-        // },
+        {
+            name:'安同开源社区AOSC',
+            img:'c_aosc.jpg',
+            url:'https://aosc.io'
+
+            
+        },
         {
             name:'ApacheAPISIX',
             img:'c_ApacheAPISIX.jpg',
@@ -103,13 +105,7 @@ const logolistMap = {
 
             
         // },
-        {
-            name:'安同开源社区AOSC',
-            img:'c_aosc.jpg',
-            url:'https://aosc.io'
-
-            
-        },
+       
         {
             name:'casbin',
             img:'c_casbin.jpg',
@@ -138,15 +134,16 @@ const logolistMap = {
             url:'https://www.elastos.org/'
         },
         {
-            name:'emacs',
-            img:'c_emacs.jpg',
-            url:'https://www.gnu.org/software/emacs/'
-        },
-        {
             name:'GitCourse',
             img:'c_gitcourse.jpg',
             url:'http://gitcourse-io.kfcoding.com'
         },
+        {
+            name:'emacs',
+            img:'c_emacs.jpg',
+            url:'https://www.gnu.org/software/emacs/'
+        },
+       
         {
             name:'Huawei LiteOS',
             img:'c_HuaweiLiteOS.jpg',
@@ -156,6 +153,11 @@ const logolistMap = {
             name:'Hypertrons',
             img:'c_Hypertrons.jpg',
             url:'http://hypertrons.io'
+        },
+        {
+            name:'鹏城汇智社区（iHub）',
+            img:'c_iHub.jpg',
+            url:'https://www.ihub.org.cn/'
         },
         {
             name:'KubeEdge',
@@ -179,6 +181,18 @@ const logolistMap = {
             url:'https://maskbook.com',
         },
         {
+            name:'天元矿视 megengine',
+            img:'c_megengine.jpg',
+            url:'https://megengine.org.cn/'
+        },
+
+        {
+            name:'milvus',
+            img:'c_milvus.jpg',
+            url:'https://www.milvus.io/cn/'
+        },
+
+        {
             name:'MindSpore',
             img:'c_MindSpore.jpg',
             url:'https://www.mindspore.cn',
@@ -189,11 +203,7 @@ const logolistMap = {
             url:' http://www.minigui.com/',
         },
         
-        {
-            name:'milvus',
-            img:'c_milvus.jpg',
-            url:'https://www.milvus.io/cn/'
-        },
+        
 
         {
             name:'oiwiki',
@@ -205,15 +215,16 @@ const logolistMap = {
             img:'c_opencvchina.jpg',
             url:' http://www.opencv.org.cn'
         },
-        {
-            name:'鹏城汇智社区（iHub）',
-            img:'c_iHub.jpg',
-            url:'https://www.ihub.org.cn/'
-        },
+       
         {
             name:'ROS',
             img:'c_ROS.jpg',
             url:'https://navigation.ros.org/'
+        },
+        {
+            name:'RT-Thread',
+            img:'c_rtthread.jpg',
+            url:'https://www.rt-thread.org/'
         },
         {
             name:'Simple-XX',
@@ -225,21 +236,10 @@ const logolistMap = {
             img:'c_SODAFoundation.jpg',
             url:' https://sodafoundation.io/'
         },
-
-        {
-            name:'rtthread',
-            img:'c_rtthread.jpg',
-            url:'https://www.rt-thread.org/'
-        },
         {
             name:'泰晓',
             img:'c_taixiao.jpg',
             url:'http://tinylab.org'
-        },
-        {
-            name:'天元矿视',
-            img:'c_megengine.jpg',
-            url:'https://megengine.org.cn/'
         },
         {
             name:'TDengine社区',
@@ -266,6 +266,13 @@ const logolistMap = {
             img:'c_volcano.jpg',
             url:'https://volcano.sh'
         },
+       
+        
+        
+        
+      
+        
+        
         
        
     ],
