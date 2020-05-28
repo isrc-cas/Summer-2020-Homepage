@@ -181,7 +181,7 @@ export default class Organisation extends React.Component{
                         {item.name}
                     </div>
                     <div className="orgProjectRuleTeam">
-                        {item.rule}
+                        {item.rules[0]}&nbsp;&nbsp;&nbsp;&nbsp;{item.rules[1]}
                     </div>
                 </div>
                 <div className="orgProjectGap"></div>
@@ -420,6 +420,21 @@ export default class Organisation extends React.Component{
                     <div className="orgBannerTitle content1200">
                         <div>开源社区</div>
                         <div className="orgBannerTitle1">&nbsp;&nbsp;&nbsp;&nbsp;开源项目每日更新，欢迎关注！</div>
+                        {window.location.hash.split("page=").length > 1 && window.location.hash.split("page=")[1]==='project' ? 
+                        <div className= "orgBannerTeam">
+                            <p>
+                            移植 openEuler 至 RK3399 平台
+                            </p>
+                            <p className="orgBannerTeamDes">
+                            团队项目(3-6人)&nbsp;&nbsp;&nbsp;&nbsp;奖金额度6万
+                            </p>
+                            <div className="orgBannerButton" onClick={()=>this.openInNewTab("https://gitee.com/openeuler/marketing/blob/master/events/summer2020/tasks.md")}>
+                            了解更多
+                            <img src={require("./../../img/organisation/arrow.png")} alt=">"></img>
+                            </div>
+                        </div> 
+                        : ""
+                        }
                     </div>
                     
                 </div>
