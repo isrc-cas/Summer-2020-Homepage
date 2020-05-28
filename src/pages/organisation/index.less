@@ -396,6 +396,9 @@
                 .org-2 {
                     background: rgb(49,94,139);
                 }
+                .org-team {
+                    background: #993d7a;
+                }
                 .orgLeft {
                     grid-column: 1;
                     width: 500px;
@@ -431,10 +434,33 @@
                     min-height: 40px;
                     height: 110px;
                 }
-                .orgProjectTitle {
+                .orgProjectTitleTeam {
                     line-height: 28px;
                     padding: 0 28px;
-                    width: 330px;
+                    width: 450px;
+                    font-size: 24px;
+                    font-weight: bolder;
+                }
+                .orgProjectTitleTeam::after {
+                    content: '';
+                    position: absolute;
+                    border-top: 1px solid #fff;
+                    left: 30px; /* adjust this */
+                    margin-top: 38px;
+                    height: 2px; /* adjust this */
+                    width: 381px;
+                }
+                .orgProjectRuleTeam {
+                    font-size: 18px;
+                    font-style: italic;
+                    padding: 0 28px;
+                    margin-top: 20px;
+                }
+                .orgProjectTitle {
+                    font-weight: bolder;
+                    line-height: 28px;
+                    padding: 0 28px;
+                    width: 390px;
                     font-size: 24px;
                     background-position: top right;
                     background-repeat: no-repeat;
@@ -464,6 +490,13 @@
                     color: rgb(174,201,255);
                     font-size: 20px;
                 }
+                .orgProjectSponsor {
+                    font-size: 20px;
+                    font-style: italic;
+                    color: #fff;
+                    font-weight: normal;
+                    margin-top: 40px;
+                }
                 .orgProjectDes {
                     line-height: 25px;
                     height: 125px;
@@ -476,7 +509,7 @@
                 .orgProjectButton {
                     position: absolute;
                     margin-top: -50px;
-                    right: 60px;
+                    right: 20px;
                     display: inline-block;
                 }
             }
@@ -611,14 +644,14 @@
                     .orgProjectDes {
                         height: 100%;
                     }
-                    .orgProjectTitle {
+                    .orgProjectTitle, .orgProjectTitleTeam, .orgProjectTitleTeam::after {
                         width: 100%;
+                    }
+                    .orgProjectTitleTeam::after { 
+                        left: 0;
                     }
                     .orgProjectTitleIcon {
                         display: none;
-                        // padding: 0 !important;
-                        // position: relative !important;
-                        // margin: 10px 0 0 28px;
                     }
                     .orgProjectGap {
                         height: 50px;
@@ -644,7 +677,7 @@
                 }
                
                 .org-detail{
-                    .orgProjectTitleBar > .orgProjectTitle{
+                    .orgProjectTitleBar > .orgProjectTitle, .orgProjectTitleTeam, .orgProjectTitleTeam::after, .orgProjectRuleTeam{
                         font-size: 20px;
                         width: 63%;
                         padding-right: 0;
@@ -672,7 +705,7 @@
                         }
                     }
                     .orgProjectButton{
-                        margin-top:-94px !important;
+                        margin-top:-99px !important;
                         height: 35px;
                         line-height: 35px;
                         left: 30px;
