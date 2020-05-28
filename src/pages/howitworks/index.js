@@ -130,7 +130,7 @@ export default class Howitworks extends React.Component{
                                 })
                             }
                        </div>
-                       <div className="HowitworksCommitteePinyin">*按委员会姓名拼音排序</div>
+                       <div className="HowitworksCommitteePinyin">*按委员姓名拼音排序</div>
                     </div>
                </div>
            </div>
