@@ -2314,6 +2314,7 @@
         {
           "name": "移植 openEuler 至 RK3399 平台",
           "rule": "团队项目(3-6人)  奖金额度6万",
+          "difficulty": "高",
           "sponsor": "该项目由 openEuler社区 资助",
           "mentor": ["@overweight","@woqidaideshi"],
           "contact": ["hexiaowen@huawei.com","yafen@iscas.ac.cn"],
