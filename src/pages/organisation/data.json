@@ -896,14 +896,19 @@
         "分布式",
         "云原生",
         "POSIX",
-        "S3存储与技术分离"
+        "S3",
+        "Raft",
+        "Go",
+        "Rust",
+        "计算与存储分离"
       ],
       "domain_tag": [
         "存储",
-        "分布式文件系统",
+        "分布式",
+        "文件系统",
         "对象存储",
         "云原生",
-        "存储与技术分离"
+        "计算与存储分离"     
       ],
       "mail_list": "chubaofs-maintainers@groups.io",
       "email": "chubaofs-maintainers@groups.io"
