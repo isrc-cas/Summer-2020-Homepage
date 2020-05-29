@@ -124,6 +124,11 @@ const logolistMap = {
             url:' https://www.chubao.io/'
         },
         {
+            name:'Claps',
+            img:'c_Claps.jpg',
+            url:'https://github.com/lyricat/claps.dev'
+        },
+        {
             name:'春松客服',
             img:'c_chunsong.jpg',
             url:'https://github.com/chatopera/cosin'
@@ -266,7 +271,11 @@ const logolistMap = {
             img:'c_volcano.jpg',
             url:'https://volcano.sh'
         },
-       
+        {
+            name:'Wechaty',
+            img:'c_Wechaty.jpg',
+            url:'https://github.com/wechaty/'
+        },
         
         
         
