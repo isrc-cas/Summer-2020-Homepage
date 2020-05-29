@@ -896,14 +896,19 @@
         "分布式",
         "云原生",
         "POSIX",
-        "S3存储与技术分离"
+        "S3",
+        "Raft",
+        "Go",
+        "Rust",
+        "计算与存储分离"
       ],
       "domain_tag": [
         "存储",
-        "分布式文件系统",
+        "分布式",
+        "文件系统",
         "对象存储",
         "云原生",
-        "存储与技术分离"
+        "计算与存储分离"     
       ],
       "mail_list": "chubaofs-maintainers@groups.io",
       "email": "chubaofs-maintainers@groups.io"
@@ -3313,7 +3318,7 @@
       ],
       "mail_list": "https://discourse.ros.org",
       "email": "stevenmacenski@gmail.com",
-      "project_url": [
+      "project_list": [
         {
           "name": "Create a Configuration Assistant (Analog to MoveIt)",
           "description": "Moveit has long has a QT configuration assistant. This setup assistent helps the user configure their UDRF and needs to setup MoveIt configuration files. A configuration assistant could be extremely beneficial to Navigation2 users as a way to minimize friction. We should provide a gui tool to cover the following configurations: the broad strokes with the costmap, with a visualizer to show the user what it will look like; Select configurable costmap layers; Select recovery behavior parameters; URDF, footprint, and frame selection to make sure the options comply with standards, planner, and controller; Set minimum and maximum speed and other kinematic parameters; Select from a dropdown of possible planners and controllers; Helpful notes throughout the prompts to aid in selecting appropriate parameters; Selecting at behavior tree; @steve please add more specific options. After the items are configured, there should be a preview to see how the parameters effect the robot.",
