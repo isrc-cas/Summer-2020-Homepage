@@ -469,7 +469,7 @@
           "contact": "xiaoliang.tian@gmail.com",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2037302"
         },
         {
           "name": "Java-chassis 支持 JDK 14",
@@ -479,7 +479,7 @@
           "contact": "liubao@apache.org",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2037303"
         },
         {
           "name": "添加新的Object Storage Service云服务SDK组件，方便微服务开发者使用OBS",
@@ -489,7 +489,7 @@
           "contact": "xiaoliang.tian@gmail.com",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2037304"
         },
         {
           "name": "丰富ServiceComb Pack在分布式事务场景下的验收测试",
@@ -499,7 +499,7 @@
           "contact": "ningjiang@apache.org",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2037305"
         }
       ]
     },
@@ -793,7 +793,7 @@
           "student_count": 0,
           "description": "Casbin在初始化时将规则集装载到内存中，在规则集发生变更时将该次变更持久化到文件或者数据库等媒介。我们希望在此基础上： 1）基于Raft协议实现单机、分布式环境中不同Casbin实例的规则集同步；２）探索如何将规则集分组，映射到不同节点，使特定规则集的增，删以及某个请求的权限计算都在正确的节点进行，以此减轻单机的内存压力。在未来此插件可以替代 watcher。",
           "update_time": "2020-05-28",
-          "label": ""
+          "label": "2008306"
         },
         {
           "name": "Casbin分布式高可用（Rust）",
@@ -823,7 +823,7 @@
           "student_count": 0,
           "description": "jCasbin 在 Java 平台上取得了不错的进展，但是我们仍然需要努力工作，以帮助 Casbin 成为世界上最受欢迎的身份授权库。目前Java语言上最流行的授权库是Apache Shiro和Spring Security，最流行的Web框架是Spring。我们需要实现Casbin针对Spring等框架的插件，使Spring用户可以无缝接入Casbin。同时要兼容Apache Shiro和Spring Security的接口，让目前正在使用Apache Shiro和Spring Security的项目可以无缝迁移到Casbin。同时jCasbin也需要及时跟踪Golang Casbin主库的最新feature并移植到Java版本中来。",
           "update_time": "2020-05-28",
-          "label": ""
+          "label": "2008307"
         },
         {
           "name": "PyCasbin完善和优化",
@@ -833,7 +833,7 @@
           "student_count": 0,
           "description": "PyCasbin 是Casbin的Python版实现，功能和 Casbin（Golang）基本一致。目前，PyCasbin实现了Casbin的主要功能，但还有少许功能尚未实现，另外代码质量还有调优的可能，PyCasbin对周边框架的支持不够完善，所以我们希望对PyCasibn进行完善和优化，同时需要对PyCasin的生态予以完善。",
           "update_time": "2020-05-28",
-          "label": ""
+          "label": "2008308"
         },
         {
           "name": "PHP-Casbin生态完善",
@@ -843,7 +843,7 @@
           "student_count": 0,
           "description": "PHP-Casbin 是Casbin的PHP版实现，功能和 Casbin（Golang）基本一致。目前，PHP-Casbin已经支持对Laravel ThinkPHP Yii Codeigniter CakePHP 等主流框架的适配。目前还需要开发对Symfony的扩展，C级别的框架进行支持，例如：Phalcon Framework，基于Swoole的框架支持，例如： Hyperf easyswoole等。除此之外，我们也希望Casbin有个PHP的C/C++扩展，以提升性能。",
           "update_time": "2020-05-28",
-          "label": ""
+          "label": "2008309"
         },
         {
           "name": "Node-Casbin 生态完善",
@@ -853,7 +853,7 @@
           "student_count": 0,
           "description": "Node-Casbin 在 Node.js 平台上取得了不错的进展，但是我们仍然需要努力工作，以帮助 Casbin 成为世界上最受欢迎的身份授权库。目前 Node-Casbin 已经对koa、egg、express、hapi 等主流框架提供了权限认证中间件，还需要对nest、meteor 提供支持。adapter 是 Casbin 持久化策略的插件，目前我们已经支持TypeORM、Sequelize，这些都是 ORM, 因此我们还需要考虑提供纯数据库驱动的 adapter。",
           "update_time": "2020-05-28",
-          "label": ""
+          "label": "2008310"
         },
         {
           "name": "Casbin.NET生态完善",
@@ -863,7 +863,7 @@
           "student_count": 0,
           "description": "Casbin.NET是Casbin的Dotnet版实现，目前仅完成核心功能，需要对项目进行进一步的优化和完善。目前计划提供一个完成核心能力开箱即用的服务化(RESTful)的解决方案(Casbin.SamNet)，并且适配Steeltoe。",
           "update_time": "2020-05-28",
-          "label": ""
+          "label": "2008311"
         },
         {
           "name": "Casbin 仪表盘Web界面（前端React + Javascript，后端Golang）",
@@ -873,7 +873,7 @@
           "student_count": 0,
           "description": "Casbin-Dashboard（https://dashboard.casbin.org/）是我们近期启动的一个项目，由于Casbin通常在后台运行，没有界面，只有API，配置起来不够友好。因此我们打算开发一个Casbin的图形化界面，即Casbin Dashboard。我们希望Casbin Dashboard能够帮助Casbin的用户，尤其是对代码不熟悉的运维人员，能够通过图形化界面的操作，管理Casbin的模型、策略、正确性、集群运行状态等等。未来一切与Casbin有关的，可图形化的操作，都会集成到Casbin Dashboard中。",
           "update_time": "2020-05-28",
-          "label": ""
+          "label": "2008312"
         }
       ]
     },
@@ -950,7 +950,7 @@
         "文件系统",
         "对象存储",
         "云原生",
-        "计算与存储分离"     
+        "计算与存储分离"
       ],
       "mail_list": "chubaofs-maintainers@groups.io",
       "email": "chubaofs-maintainers@groups.io",
@@ -963,7 +963,7 @@
           "contact": "wei.ding@jd.com",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2040313"
         },
         {
           "name": "基于DataFusion和ChubaoDB的存储计算分离",
@@ -973,7 +973,7 @@
           "contact": "wei.ding@jd.com",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2040314"
         },
         {
           "name": "分布式文件系统ChubaoFS测试框架",
@@ -983,7 +983,7 @@
           "contact": "zhengyi.zhu.hust@gmail.com",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2040315"
         },
         {
           "name": "基于Raft和Rocksdb实现一个简单的分布式Key-Value数据库",
@@ -993,7 +993,7 @@
           "contact": "ansj-sun@163.com",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2040316"
         },
         {
           "name": "ChubaoFS项目文档重构",
@@ -1003,7 +1003,7 @@
           "contact": "mofei2816@gmail.com",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2040317"
         },
         {
           "name": "分布式文件系统ChubaoFS命令行管理工具",
@@ -1013,7 +1013,7 @@
           "contact": "xxscott@163.com",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2040318"
         },
         {
           "name": "ChubaoFS的高级检索引擎ChubaoDB集群调度",
@@ -1023,7 +1023,7 @@
           "contact": "ansj-sun@163.com",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2040319"
         },
         {
           "name": "基于Rook在Kubernetes集群中部署ChubaoFS Console",
@@ -1033,7 +1033,7 @@
           "contact": "liuchengyu@jd.com",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2040320"
         },
         {
           "name": "基于Rook在Kubernetes集群中部署ChubaoFS CSI",
@@ -1043,7 +1043,7 @@
           "contact": "xxscott@163.com",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2040321"
         },
         {
           "name": "基于Rook在Kubernetes集群中部署ChubaoFS",
@@ -1053,7 +1053,7 @@
           "contact": "liuchengyu@jd.com",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2040322"
         },
         {
           "name": "基于Rook在Kubernetes集群中部署ChubaoFS Monitor",
@@ -1063,7 +1063,7 @@
           "contact": "liuchengyu@jd.com",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2040323"
         }
       ]
     },
@@ -1151,7 +1151,7 @@
           "student_count": 0,
           "description": "将新增项目的 git url 提交到 Persper，并且编写一个 job，定期从 Persper 获取最新的贡献值数据，将数据写入 Claps 数据库。",
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2041324"
         },
         {
           "name": "根据不同评价算法给开发者分配捐赠",
@@ -1161,7 +1161,7 @@
           "student_count": 0,
           "description": "目前，所有的分配方式都是平均分的。但是我们预留了另外三种分配方式，分别为：按照 Persper 贡献值分；按照代码行数分；按照 Commit 数量分。需要设计三种不同的 distribute 方法，当用户捐赠时，可以选择任意一种，然后使用该方法进行分配。",
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2041325"
         },
         {
           "name": "可配置接受捐赠的货币种类",
@@ -1171,7 +1171,7 @@
           "student_count": 0,
           "description": "每个项目现在可接受捐赠的货币种类是固定的。需要为每个项目添加单独的配置，让每个项目支持不同的可捐赠货币种类。",
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2041326"
         },
         {
           "name": "页面 UI 改造",
@@ -1181,7 +1181,7 @@
           "student_count": 0,
           "description": "现在项目 UI 比较简陋，需将其改造，PC 和移动端都有较好的浏览体验",
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2041327"
         },
         {
           "name": "管理员后台",
@@ -1191,7 +1191,7 @@
           "student_count": 0,
           "description": "现在 Claps 没有管理员后台，需要设计和实现管理员后台，支持如下功能：管理项目，初始化项目钱包，管理项目 repo，管理项目成员，管理用户，查看捐赠流水",
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2041328"
         },
         {
           "name": "自助开源项目提交",
@@ -1201,7 +1201,7 @@
           "student_count": 0,
           "description": "任何开发者都可以向 claps 提交项目。提交项目需包含至少一条 git repo url。程序需要检查该 url，并且确保该 url 与提交账号之间时所属关系。程序将提交记录通知管理员，管理员可以审批项目上线。",
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2041329"
         },
         {
           "name": "项目 widget",
@@ -1211,7 +1211,7 @@
           "student_count": 0,
           "description": "每一个项目都可以提供一小段代码，生成 widget。任何一个人都可以将这段代码挂在自己的博客、Github Readme、网页。点击这个 widget 可以打开项目主页。widget 上显示项目已经收到了多少捐赠。",
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2041330"
         }
       ]
     },
@@ -1518,7 +1518,7 @@
           "student_count": 0,
           "description": "",
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2012331"
         },
         {
           "name": "Core: Investigate the possibility to support chemacs. If possible, support it, if not, explain. #297",
@@ -1528,7 +1528,7 @@
           "student_count": 0,
           "description": "",
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2012332"
         },
         {
           "name": "Core: English documentation for all functions",
@@ -1538,7 +1538,7 @@
           "student_count": 0,
           "description": "",
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2012333"
         },
         {
           "name": "Browser: Create ad-blocker plugin",
@@ -1698,7 +1698,7 @@
           "student_count": 0,
           "description": "",
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2012334"
         }
       ]
     },
@@ -1792,7 +1792,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-27",
-          "label": "2032301"
+          "label": "2032335"
         }
       ]
     },
@@ -1951,7 +1951,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-28",
-          "label": ""
+          "label": "2013336"
         },
         {
           "name": "一键安装脚本开发",
@@ -1962,7 +1962,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-28",
-          "label": ""
+          "label": "2013337"
         },
         {
           "name": "集成chaos-mesh测试KubeEdge",
@@ -1973,7 +1973,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-28",
-          "label": ""
+          "label": "2013338"
         },
         {
           "name": "社区网站",
@@ -1984,7 +1984,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-28",
-          "label": ""
+          "label": "2013339"
         }
       ]
     },
@@ -2016,7 +2016,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2014340"
         }
       ]
     },
@@ -2686,16 +2686,26 @@
       "project_list": [
         {
           "name": "移植 openEuler 至 RK3399 平台",
-          "rules": ["本年度唯一团队项目","限3-6人","奖金额度6万"],
+          "rules": [
+            "本年度唯一团队项目",
+            "限3-6人",
+            "奖金额度6万"
+          ],
           "difficulty": "高",
           "sponsor": "该项目由 openEuler社区 资助",
-          "mentor": ["@overweight","@woqidaideshi"],
-          "contact": ["hexiaowen@huawei.com","yafen@iscas.ac.cn"],
+          "mentor": [
+            "@overweight",
+            "@woqidaideshi"
+          ],
+          "contact": [
+            "hexiaowen@huawei.com",
+            "yafen@iscas.ac.cn"
+          ],
           "hot_index": 2,
           "student_count": 4,
           "description": "openEuler 是一款开源操作系统。当前 openEuler 内核源于 Linux，支持鲲鹏及其它多种处理器，能够充分释放计算芯片的潜能，是由全球开源贡献者构建的高效、稳定、安全的开源操作系统。RK3399 是瑞芯微推出的一款低功耗、高性能的应用处理器芯片。作为 Firefly 新一代的顶级开源平台，RK3399 凭借其高稳定性、高性能、高集成度、高扩展性而广泛用于人脸识别设备、无人机、机器人、游戏机等应用产品。本项目的目标是将 openEuler 移植到 Firefly-RK3399 上，并保证 RK3399 的外设均可用。",
           "update_time": "2020-05-28",
-          "label": ""
+          "label": "2021341"
         },
         {
           "name": "为 openEuler 添加 Xfce 桌面环境并能够运行在树莓派 4B 上",
@@ -3442,367 +3452,367 @@
         },
         {
           "name": "api-sanity-checker 与 oss-fuzz 测试结合的误报优化",
-            "description": "api-sanity-checker是一款基于c/c++ 库文件和头文件信息，为头文件中声明的每一个对外接口自动生成用例，然后进行编译，运行的开源工具。\noss-fuzz是google开发的一个开源软件fuzz测试自动化平台，使用clusterfuzz作为 后台，利用容器快速构建环境，同时集成了ASAN/MSAN/UBSAN等故障检测工具。\n当 前，我们将这两个工具进行结合，即改造api-sanity-checker工具，使其为满足一定条件的接口自动生成fuzz用例，然后使用oss-fuzz进行编译、执行用例。但当前初步实践后，进行失败用例分析时，发现很多都是误报，非代码bug，故需要进行优化， 自动过滤掉误报，使报错率更准确，提高测试效率。",
-              "difficulty": "高",
-                "mentor": "yanjineuler",
-                  "contact": "jiqin.ji@huawei.com",
-                    "co-mentor": "",
-                      "student_count": 0,
-                        "update_time": "2020-05-29",
-                          "label": ""
+          "description": "api-sanity-checker是一款基于c/c++ 库文件和头文件信息，为头文件中声明的每一个对外接口自动生成用例，然后进行编译，运行的开源工具。\noss-fuzz是google开发的一个开源软件fuzz测试自动化平台，使用clusterfuzz作为 后台，利用容器快速构建环境，同时集成了ASAN/MSAN/UBSAN等故障检测工具。\n当 前，我们将这两个工具进行结合，即改造api-sanity-checker工具，使其为满足一定条件的接口自动生成fuzz用例，然后使用oss-fuzz进行编译、执行用例。但当前初步实践后，进行失败用例分析时，发现很多都是误报，非代码bug，故需要进行优化， 自动过滤掉误报，使报错率更准确，提高测试效率。",
+          "difficulty": "高",
+          "mentor": "yanjineuler",
+          "contact": "jiqin.ji@huawei.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021342"
         },
         {
           "name": "openEuler 源码包成分提取、归档",
-            "description": "linux操作系统由众多开源软件包组成，需要获取 openEuler 操作系统源码包信息 包括：软件包范围、包版本、源码包拆分为二进制包信息，二进 制包的内容文件信息，并将获取信息格式化输入到数据库)。",
-              "difficulty": "中",
-                "mentor": "@jimmy_hero",
-                  "contact": "huming15@163.com",
-                    "co-mentor": "",
-                      "student_count": 0,
-                        "update_time": "2020-05-29",
-                          "label": ""
+          "description": "linux操作系统由众多开源软件包组成，需要获取 openEuler 操作系统源码包信息 包括：软件包范围、包版本、源码包拆分为二进制包信息，二进 制包的内容文件信息，并将获取信息格式化输入到数据库)。",
+          "difficulty": "中",
+          "mentor": "@jimmy_hero",
+          "contact": "huming15@163.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021343"
         },
         {
           "name": "openEuler 不同系统间源码包成分信息比较",
-            "description": "linux操作系统由众多开源软件包组成，需要根据不同openEuler操作系统源码包信息尽心比较， 包括：软件包范围、包版本、源码包拆分为二进制 包信息，二进制包的内容文件信息，比较源码包信息的一致性。",
-              "difficulty": "低",
-                "mentor": "@jimmy_hero",
-                  "contact": "huming15@163.com",
-                    "co-mentor": "",
-                      "student_count": 0,
-                        "update_time": "2020-05-29",
-                          "label": ""
+          "description": "linux操作系统由众多开源软件包组成，需要根据不同openEuler操作系统源码包信息尽心比较， 包括：软件包范围、包版本、源码包拆分为二进制 包信息，二进制包的内容文件信息，比较源码包信息的一致性。",
+          "difficulty": "低",
+          "mentor": "@jimmy_hero",
+          "contact": "huming15@163.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021344"
         },
         {
           "name": "针对Go加解密库进行ARM64相关的优化",
-            "description": "Go加解密（crypto）库中包含着通用的对称、非对称加密算法，通过SIMD、CPU流水线、缓存命中等进行汇编，提升Go语言该包的性能优化",
-              "difficulty": "中",
-                "mentor": "@mabingo",
-                  "contact": "mabin@apache.org",
-                    "co-mentor": "",
-                      "student_count": 0,
-                        "update_time": "2020-05-29",
-                          "label": ""
+          "description": "Go加解密（crypto）库中包含着通用的对称、非对称加密算法，通过SIMD、CPU流水线、缓存命中等进行汇编，提升Go语言该包的性能优化",
+          "difficulty": "中",
+          "mentor": "@mabingo",
+          "contact": "mabin@apache.org",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021345"
         },
-  {
-    "name": "增强Golang运行时库在ARM上的性能和安全性",
-    "description": "Golang运行时库(runtime)包含go语言运行的基础设施，负责管理协程调度、垃圾回收、内存分配、与操作系统交互等。是go语言的核心模块。本项目的目标是结合基本的Linux操作系统和ARM64体系结构、汇编知识，优化Golang运行时库在ARM64服务器的表现，提高部分运行时库函数的性能或安全性，通过深度参与社区了解SIMD、CPU Cache、流水线调优、SSA编译规则调优等技术的原理和具体使用，成长为开源贡献者。",
-    "difficulty": "高",
-    "mentor": "@mabingo",
-    "contact": "mabin@apache.org",
-    "co-mentor": "@surechen 814464284@qq.com",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "优化Golang图像库功能和性能",
-    "description": "Golang图像库是一个基本的二维图像库，支持gif、jpeg、png等格式。本项目的目标是优化图像库在ARM64服务器的表现，包括性能、安全性、空间占用、代码可读性等方面，通过本项目熟悉SIMD、CPU Cache、指令和寄存器选择、流水线调优等技术。",
-    "difficulty": "中",
-    "mentor": "@surechen",
-    "contact": "814464284@qq.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "Numpy 在 ARM 平台的优化",
-    "description": "NumPy是一个高性能的Python数学库，支持大量的维度数组与矩阵运算，广泛应用在信号处理、图像处理和AI领域，但目前社区主要针对X86平台提供了SIMD优化，ARM平台的优化工作才刚刚起步，需要采用ARM特有的Neon指令集，尽可能的提高数学运算的性能。",
-    "difficulty": "中",
-    "mentor": "@iotwins",
-    "contact": "fangchunlin@huawei.com, 834352945@qq.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "优化golang压缩库的压缩率或压缩性能",
-    "description": "目前的golang压缩库中有包括bzip2、zlib、flate、gzip等多种压缩算法，要求结合ARM硬件架构的特征，采用并行计算、汇编等方法实现压缩库中的至少2种算法在ARM平台上的优化，将压缩率或压缩速度尽可能提高。",
-    "difficulty": "中",
-    "mentor": "@Heisenberg_li",
-    "contact": "lziqiang1@gmail.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "在Eigen社区中提供ARM的CI环境",
-    "description": "Eigen是一个基础数学库开源项目，当前基于不同的架构进行了大量优化，需要提供基于ARM的CI环境，以简化开源开发工作。",
-    "difficulty": "中",
-    "mentor": "陈衎",
-    "contact": "chenkan5@huawei.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "基于ARM的硬件加速能力软硬件协同调优go数学库函数",
-    "description": "灵活运用ARM64汇编优化、SIMD指令优化、算法改进等软硬协同调优方法，提升go数学库函数在ARM64硬件上的性能。",
-    "difficulty": "中",
-    "mentor": "周中元",
-    "contact": "zhouzhongyuan96@gmail.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "Golang 编解码算法性能优化",
-    "description": "在golang的编解码库中有多种算法，要求结合ARM硬件架构的特征，实现编解码至少2种算法在ARM平台上的优化，提高编解码算法的性能。",
-    "difficulty": "中",
-    "mentor": "@Heisenberg_li",
-    "contact": "lziqiang1@gmail.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "增强 Golang 编译器基于ARM64的智能化编译",
-    "description": "增强Go原生编译器内架构相关的代码降级、转换、优化等处理过程，智能化提升基于ARM64硬件的Go编译能力，提高Go库函数在ARM64上的运行性能。",
-    "difficulty": "高",
-    "mentor": "周中元",
-    "contact": "zhouzhongyuan96@gmail.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "优化Go同步包中锁或原子操作在 ARM64 上的实现，提升安全并发的性能",
-    "description": "Go同步（sync）包中有三个关于安全并发的保障机制：原子操作（atomic.Value）、同步锁（sync.Mutex）、读写锁（sync.RWMutex）,通过逻辑或算法实现对其中一个或多个进行优化，提升性能",
-    "difficulty": "高",
-    "mentor": "@chinx",
-    "contact": "zhuchen@apache.org",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "基于spdk的高性能用户态用户态文件系统",
-    "description": "基于spdk打造高性能用户态文件系统- 文件系统的功能完善，功能对标ext4。- 高效：针对NVMe SSD设备设计高效的元数据管理，高效的cache机制，预读等能力- 可靠：数据一致性- 安全：具备访问权限能力- 性能相对内核态10倍提升（用户态FS+SPDK+用户态NVMe driver vs. 内核态FS+内核态block+内核态NVMe Driver）",
-    "difficulty": "高",
-    "mentor": "@yanxiaodan",
-    "contact": "yanxiaodan@huawei.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "在Risc-V架构openEuler平台上提供golang支持",
-    "description": "Golang社区正在进行Risc-V架构的移植工作，并通过issue跟踪对应进展，目前已经能够完成构建，但还有部分特性待完成。跟踪并参与社区移植工作，在Risc-V架构的OpenEuler平台上完成golang工具包的构建，构建Risc-V golang生态。",
-    "difficulty": "难",
-    "mentor": "@denggx_elros",
-    "contact": "dengguangxing@huawei.com",
-    "co-mentor": "@whoisxxx<zhangxuzhou4@huawei.com>, @haomintsai<caihaomin@huawei.com>",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "在 RISC-V 架构 openEuler 平台上提供 iSulad",
-    "description": "iSulad是openEuler开源的容器管理工具，基于C语言开发；本任务希望能够在基于Risc-V架构的OpenEuler平台上实现iSulad工具支持，构建Risc-V架构openEuler容器生态基础。",
-    "difficulty": "中等",
-    "mentor": "@denggx_elros",
-    "contact": "dengguangxing@huawei.com",
-    "co-mentor": "@whoisxxx<zhangxuzhou4@huawei.com>, @haomintsai<caihaomin@huawei.com>",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "对openEuler社区发布包xz进行CRC加速",
-    "description": "xz使用了CRC32（多项式0xedb88320）来校验数据的正确性。软件使用了常用的查表法来做CRC计算，性能并不理想。在ARMv8.1，提供了CRC32/CRC32C的专用指令：crc32d, crc32w, crc32h, crc32b, crc32cd, crc32cw, crc32ch, crc32cb。分别实现64bit、32bit、16bit和8bit数据的CRC计算。相对于查表法，ARM CRC指令快30倍左右。也就是说，对同一数据做CRC，加速指令耗用时间是查表法的1/30。对于CRC-32和CRC-32C，GCC提供了builtin函数，可以在C代码里直接调用。builtin函数名字就是对应的汇编指令名字前加“__”，比如__crc32d函数对应crc32d指令。另外，还需添加“-march=armv8.1-a”编译选项。openEuler社区的xz发布包没有为ARM平台做过优化：https://gitee.com/src-openeuler/xz。本任务的目标就是为这个软件包在ARM上做加速，提高压缩性能。",
-    "difficulty": "中",
-    "mentor": "@colordev",
-    "contact": "colordev@hotmail.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "对openEuler社区发布包busybox进行CRC加速",
-    "description": "busybox使用了CRC32（多项式0xedb88320）来校验数据的正确性。软件使用了常用的查表法来做CRC计算，性能并不理想。在ARMv8.1，提供了CRC32/CRC32C的专用指令：crc32d, crc32w, crc32h, crc32b, crc32cd, crc32cw, crc32ch, crc32cb。分别实现64bit、32bit、16bit和8bit数据的CRC计算。相对于查表法，ARM CRC指令快30倍左右。也就是说，对同一数据做CRC，加速指令耗用时间是查表法的1/30。对于CRC-32和CRC-32C，GCC提供了builtin函数，可以在C代码里直接调用。builtin函数名字就是对应的汇编指令名字前加“__”，比如__crc32d函数对应crc32d指令。另外，还需添加“-march=armv8.1-a”编译选项。openEuler社区的busybox发布包没有为ARM平台做过优化：https://gitee.com/src-openeuler/busybox。本任务的目标就是为这个软件包在ARM上做加速，提高压缩性能。",
-    "difficulty": "中",
-    "mentor": "@colordev",
-    "contact": "colordev@hotmail.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "基于Rust高性能HTTP库Hyper或Tide实现S3服务端",
-    "description": "Rust是性能非常好的系统语言，Rust社区已经提供了高性能的HTTP库Hyper和Tide,但是还没有基于Rust实现的高性能S3服务端。由于S3协议是基于HTTP协议的，因此基于Rust的高性能的HTTP库Hyper或Tide，可以实现高性能S3服务端。本任务要求用Rust异步编程框架，基于Hyper或Tide实现高性能S3服务端。",
-    "difficulty": "高",
-    "mentor": "@pwang7",
-    "contact": "pwang7@foxmail.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "基于Rust实现HDFS的用户态FUSE驱动",
-    "description": "HDFS是标准的大数据文件系统，但是访问HDFS需要使用专门的客户端程序。虽然已经有一些HDFS挂载到Linux的程序，但是访问性能不佳，没有得到普遍使用。Linux已经提供了用户态文件系统接口FUSE，用于给Linux挂载各种用户自定义的文件系统。本任务要求使用Rust实现基于FUSE的HDFS驱动，把HDFS通过FUSE挂载到Linux作为用户态的文件系统。",
-    "difficulty": "高",
-    "mentor": "@pwang7",
-    "contact": "pwang7@foxmail.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "基于Perf或eBPF对FUSE进行tracing分析",
-    "description": "Perf和eBPF是Linux的tracing机制，用于分析应用程序的系统调用性能。FUSE是Linux的用户态文件系统接口，用于实现用户自定义的文件系统。目前FUSE缺乏对于系统调用的性能分析。本任务要求采用Perf或eBPF对FUSE做tracing，实现对FUSE的系统调用的深入性能分析。",
-    "difficulty": "高",
-    "mentor": "@pwang7",
-    "contact": "pwang7@foxmail.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "用RUST实现基于FUSE的Kubernetes CSI接口",
-    "description": "- CSI是Kubernetes (K8S)的存储管理接口。FUSE是Linux的用户态文件系统接口。- 目前CSI还不能对接Linux下通过FUSE挂载的用户态文件系统。- 本任务要求用Rust实现CSI对接FUSE挂载的文件系统，实现对FUSE挂载的文件系统的管理。",
-    "difficulty": "高",
-    "mentor": "@pwang7",
-    "contact": "pwang7@foxmail.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "用Rust实现无锁LRU缓存",
-    "description": "Rust是一门高性能系统级语言。LRU缓存是底层系统经常用到的数据结构，出于性能的考虑LRU缓存不能加锁。本任务要求用Rust实现高性能的无锁LRU缓存。",
-    "difficulty": "高",
-    "mentor": "@pwang7",
-    "contact": "pwang7@foxmail.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "用 Rust 实现无锁 HashMap",
-    "description": "Rust是一门高性能系统级语言。HashMap是经常用到的数据结构，在多线程并发情况下，出于性能的考虑要使用无锁HashMap。本任务要求用Rust实现高性能的无锁HashMap。",
-    "difficulty": "高",
-    "mentor": "@pwang7",
-    "contact": "pwang7@foxmail.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "实现API识别软件包依赖的功能",
-    "description": "linux 软件之间采用模块化设计交付，各个软件之间独立安装及使用，为了方便接口的来源，需要直接根据软件模块的API 接口查询到属于哪个软件包，利于初学者对于软件 依赖模块的熟悉。",
-    "difficulty": "中",
-    "mentor": "@jimmy_hero",
-    "contact": "huming15@163.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "openEuler CPU故障隔离",
-    "description": "操作系统可靠运行才能保证运行在其上的业务可靠运转，然而操作系统管理的硬件并不是可靠的，往往也会出现硬件错误。如内存会出现单bit位翻转或者多bit位翻转，当前的ECC内存可以对单bit翻转进行硬件纠错，保证数据的正确性，对于多Bit ECC错误则需要硬件与操作系统协同防止故障扩散。同样，系统中的其他硬件如CPU也会出现硬件故障，当CPU出现故障的时候，操作系统需要与硬件协同进行故障恢复以及故障隔离防止故障扩散，从而确保系统的可靠性。",
-    "difficulty": "中",
-    "mentor": "@lvying6",
-    "contact": "lvying6@huawei.com",
-    "co-mentor": "@Pces<chenjialong@huawei.com>, @licihua<licihua@huawei.com>",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "优化nfs-utils锁以解决并发性能差问题",
-    "description": "NFS目前在共享存储中使用非常普遍，对客户端访问文件而言，NFS简单高效，NFS的缺点是IO性能较低。当前在性能测试和分析过程中，NFS的并发性能受限于NFS客户端锁机制，导致很多NFS请求出现较大的调度时延，在并发高时，时延达到几十秒，导致业务有异常。所以希望能够通过nfs客户端侧锁的优化来提高nfs客户端侧的并发能力。",
-    "difficulty": "高",
-    "mentor": "@liuzhiqiang26",
-    "contact": "lzhq28@mail.ustc.edu.cn",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "优化glibc内存管理框架内容空洞导致内存占用不断增加的问题",
-    "description": "glibc 2.28以上版本的内存管理，是尝试从内核申请内存，自行管理，不直接释放给操作系统，在不断的申请释放过程中，由于不满足释放条件，会出现内存占用不断增加，无法释放的情况",
-    "difficulty": "高",
-    "mentor": "刘思睿",
-    "contact": "liusirui@huawei.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "众核场景下OS基础设施机制线性度探索",
-    "description": "SMP多处理器架构的发展，核数的线性增长是多核性能提升的非充要条件。经过测试证明，在鲲鹏场景下随着核数增加，性能甚至会出现下降，例如当core增长到128->256 core时，性能下降明显，其中的关键瓶颈在于glibc提供的锁机制在众核竞争场景下性能劣化验证。解决该问题的一个方法是，拆锁减小临界区。但是有大量应用，例如mysql等代码规模大，历史时间长，面向处理器重构编程不太现实；提出一种新的方案或者优化机制，在上层应用无感知的情况下，屏蔽众核硬件差异，提供最佳的共享资源竞争策略",
-    "difficulty": "高",
-    "mentor": "吴旭",
-    "contact": "wuxu.wu@huawei.com",
-    "co-mentor": "李清清 liqingqing3@huawei.com",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "MySQL 数据库性能线性度问题",
-    "description": "传统OLTP数据库已经被证明在100个CPU左右达到性能瓶颈;研究软硬件结合的新一致性算法, 提升CPU拐点;",
-    "difficulty": "高",
-    "mentor": "@softkiller",
-    "contact": "zhoukang7@huawei.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "将UKUI移植到openEuler，并支持生物识别",
-    "description": "UKUI是由麒麟团队打造的一款基于Qt的桌面环境，具有美观、简洁、易用的特点，生物识别是指通过计算机与光学、声学、生物传感器和生物统计学原理等高科技手段密切结合，利用人体固有的生理特性，（如指纹、脸象、虹膜等）和行为特征（如笔迹、声音、步态等）来进行个人身份的鉴定。本项目的目标是，将UKUI移植到openEuler,并移植、适配、完善已有的生物识别框架，使得在openEuler上，用户可以通过指纹仪、指静脉、虹膜等设备进行登录系统、提权等操作。",
-    "difficulty": "中",
-    "mentor": "@dou33",
-    "contact": "douyan@kylinos.cn",
-    "co-mentor": "@handsome_feng jianfengli@ubuntukylin.com",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "BCC功能扩展 -- 网络包在业务流程中，端到端消耗的时间统计",
-    "description": "1： BCC 现在都是网卡中断的时间，队列里边的时间，及协议处理的时间，没有一个端到端的统计；2： 虚拟化层--virtio层--网络中断--中断处理--协议栈--应用处理 端到端的统计这些时间，有一个全局的时间；3: 能够根据具体的接口与TCP Session进行详细的时间统计；",
-    "difficulty": "中",
-    "mentor": "@luanjianhai",
-    "contact": "luanjianhai@163.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  },
-  {
-    "name": "内核态CR(Checkpoint and Restore )用户态应用程序",
-    "description": "用户态CR（checkpoint and restore）用户态程序 CRIU在用户态操作，性能效率低下。在内核态做对应用层的Checkpoint and Restore操作，能够提升应用层的保存与恢复效率。",
-    "difficulty": "高",
-    "mentor": "@栾建海",
-    "contact": "luanjianhai@163.com",
-    "co-mentor": "",
-    "student_count": 0,
-    "update_time": "2020-05-29",
-    "label": ""
-  }
+        {
+          "name": "增强Golang运行时库在ARM上的性能和安全性",
+          "description": "Golang运行时库(runtime)包含go语言运行的基础设施，负责管理协程调度、垃圾回收、内存分配、与操作系统交互等。是go语言的核心模块。本项目的目标是结合基本的Linux操作系统和ARM64体系结构、汇编知识，优化Golang运行时库在ARM64服务器的表现，提高部分运行时库函数的性能或安全性，通过深度参与社区了解SIMD、CPU Cache、流水线调优、SSA编译规则调优等技术的原理和具体使用，成长为开源贡献者。",
+          "difficulty": "高",
+          "mentor": "@mabingo",
+          "contact": "mabin@apache.org",
+          "co-mentor": "@surechen 814464284@qq.com",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021346"
+        },
+        {
+          "name": "优化Golang图像库功能和性能",
+          "description": "Golang图像库是一个基本的二维图像库，支持gif、jpeg、png等格式。本项目的目标是优化图像库在ARM64服务器的表现，包括性能、安全性、空间占用、代码可读性等方面，通过本项目熟悉SIMD、CPU Cache、指令和寄存器选择、流水线调优等技术。",
+          "difficulty": "中",
+          "mentor": "@surechen",
+          "contact": "814464284@qq.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021347"
+        },
+        {
+          "name": "Numpy 在 ARM 平台的优化",
+          "description": "NumPy是一个高性能的Python数学库，支持大量的维度数组与矩阵运算，广泛应用在信号处理、图像处理和AI领域，但目前社区主要针对X86平台提供了SIMD优化，ARM平台的优化工作才刚刚起步，需要采用ARM特有的Neon指令集，尽可能的提高数学运算的性能。",
+          "difficulty": "中",
+          "mentor": "@iotwins",
+          "contact": "fangchunlin@huawei.com, 834352945@qq.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021348"
+        },
+        {
+          "name": "优化golang压缩库的压缩率或压缩性能",
+          "description": "目前的golang压缩库中有包括bzip2、zlib、flate、gzip等多种压缩算法，要求结合ARM硬件架构的特征，采用并行计算、汇编等方法实现压缩库中的至少2种算法在ARM平台上的优化，将压缩率或压缩速度尽可能提高。",
+          "difficulty": "中",
+          "mentor": "@Heisenberg_li",
+          "contact": "lziqiang1@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021349"
+        },
+        {
+          "name": "在Eigen社区中提供ARM的CI环境",
+          "description": "Eigen是一个基础数学库开源项目，当前基于不同的架构进行了大量优化，需要提供基于ARM的CI环境，以简化开源开发工作。",
+          "difficulty": "中",
+          "mentor": "陈衎",
+          "contact": "chenkan5@huawei.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021350"
+        },
+        {
+          "name": "基于ARM的硬件加速能力软硬件协同调优go数学库函数",
+          "description": "灵活运用ARM64汇编优化、SIMD指令优化、算法改进等软硬协同调优方法，提升go数学库函数在ARM64硬件上的性能。",
+          "difficulty": "中",
+          "mentor": "周中元",
+          "contact": "zhouzhongyuan96@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021351"
+        },
+        {
+          "name": "Golang 编解码算法性能优化",
+          "description": "在golang的编解码库中有多种算法，要求结合ARM硬件架构的特征，实现编解码至少2种算法在ARM平台上的优化，提高编解码算法的性能。",
+          "difficulty": "中",
+          "mentor": "@Heisenberg_li",
+          "contact": "lziqiang1@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021352"
+        },
+        {
+          "name": "增强 Golang 编译器基于ARM64的智能化编译",
+          "description": "增强Go原生编译器内架构相关的代码降级、转换、优化等处理过程，智能化提升基于ARM64硬件的Go编译能力，提高Go库函数在ARM64上的运行性能。",
+          "difficulty": "高",
+          "mentor": "周中元",
+          "contact": "zhouzhongyuan96@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021353"
+        },
+        {
+          "name": "优化Go同步包中锁或原子操作在 ARM64 上的实现，提升安全并发的性能",
+          "description": "Go同步（sync）包中有三个关于安全并发的保障机制：原子操作（atomic.Value）、同步锁（sync.Mutex）、读写锁（sync.RWMutex）,通过逻辑或算法实现对其中一个或多个进行优化，提升性能",
+          "difficulty": "高",
+          "mentor": "@chinx",
+          "contact": "zhuchen@apache.org",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021354"
+        },
+        {
+          "name": "基于spdk的高性能用户态用户态文件系统",
+          "description": "基于spdk打造高性能用户态文件系统- 文件系统的功能完善，功能对标ext4。- 高效：针对NVMe SSD设备设计高效的元数据管理，高效的cache机制，预读等能力- 可靠：数据一致性- 安全：具备访问权限能力- 性能相对内核态10倍提升（用户态FS+SPDK+用户态NVMe driver vs. 内核态FS+内核态block+内核态NVMe Driver）",
+          "difficulty": "高",
+          "mentor": "@yanxiaodan",
+          "contact": "yanxiaodan@huawei.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021355"
+        },
+        {
+          "name": "在Risc-V架构openEuler平台上提供golang支持",
+          "description": "Golang社区正在进行Risc-V架构的移植工作，并通过issue跟踪对应进展，目前已经能够完成构建，但还有部分特性待完成。跟踪并参与社区移植工作，在Risc-V架构的OpenEuler平台上完成golang工具包的构建，构建Risc-V golang生态。",
+          "difficulty": "难",
+          "mentor": "@denggx_elros",
+          "contact": "dengguangxing@huawei.com",
+          "co-mentor": "@whoisxxx<zhangxuzhou4@huawei.com>, @haomintsai<caihaomin@huawei.com>",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021356"
+        },
+        {
+          "name": "在 RISC-V 架构 openEuler 平台上提供 iSulad",
+          "description": "iSulad是openEuler开源的容器管理工具，基于C语言开发；本任务希望能够在基于Risc-V架构的OpenEuler平台上实现iSulad工具支持，构建Risc-V架构openEuler容器生态基础。",
+          "difficulty": "中等",
+          "mentor": "@denggx_elros",
+          "contact": "dengguangxing@huawei.com",
+          "co-mentor": "@whoisxxx<zhangxuzhou4@huawei.com>, @haomintsai<caihaomin@huawei.com>",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021357"
+        },
+        {
+          "name": "对openEuler社区发布包xz进行CRC加速",
+          "description": "xz使用了CRC32（多项式0xedb88320）来校验数据的正确性。软件使用了常用的查表法来做CRC计算，性能并不理想。在ARMv8.1，提供了CRC32/CRC32C的专用指令：crc32d, crc32w, crc32h, crc32b, crc32cd, crc32cw, crc32ch, crc32cb。分别实现64bit、32bit、16bit和8bit数据的CRC计算。相对于查表法，ARM CRC指令快30倍左右。也就是说，对同一数据做CRC，加速指令耗用时间是查表法的1/30。对于CRC-32和CRC-32C，GCC提供了builtin函数，可以在C代码里直接调用。builtin函数名字就是对应的汇编指令名字前加“__”，比如__crc32d函数对应crc32d指令。另外，还需添加“-march=armv8.1-a”编译选项。openEuler社区的xz发布包没有为ARM平台做过优化：https://gitee.com/src-openeuler/xz。本任务的目标就是为这个软件包在ARM上做加速，提高压缩性能。",
+          "difficulty": "中",
+          "mentor": "@colordev",
+          "contact": "colordev@hotmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021358"
+        },
+        {
+          "name": "对openEuler社区发布包busybox进行CRC加速",
+          "description": "busybox使用了CRC32（多项式0xedb88320）来校验数据的正确性。软件使用了常用的查表法来做CRC计算，性能并不理想。在ARMv8.1，提供了CRC32/CRC32C的专用指令：crc32d, crc32w, crc32h, crc32b, crc32cd, crc32cw, crc32ch, crc32cb。分别实现64bit、32bit、16bit和8bit数据的CRC计算。相对于查表法，ARM CRC指令快30倍左右。也就是说，对同一数据做CRC，加速指令耗用时间是查表法的1/30。对于CRC-32和CRC-32C，GCC提供了builtin函数，可以在C代码里直接调用。builtin函数名字就是对应的汇编指令名字前加“__”，比如__crc32d函数对应crc32d指令。另外，还需添加“-march=armv8.1-a”编译选项。openEuler社区的busybox发布包没有为ARM平台做过优化：https://gitee.com/src-openeuler/busybox。本任务的目标就是为这个软件包在ARM上做加速，提高压缩性能。",
+          "difficulty": "中",
+          "mentor": "@colordev",
+          "contact": "colordev@hotmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021359"
+        },
+        {
+          "name": "基于Rust高性能HTTP库Hyper或Tide实现S3服务端",
+          "description": "Rust是性能非常好的系统语言，Rust社区已经提供了高性能的HTTP库Hyper和Tide,但是还没有基于Rust实现的高性能S3服务端。由于S3协议是基于HTTP协议的，因此基于Rust的高性能的HTTP库Hyper或Tide，可以实现高性能S3服务端。本任务要求用Rust异步编程框架，基于Hyper或Tide实现高性能S3服务端。",
+          "difficulty": "高",
+          "mentor": "@pwang7",
+          "contact": "pwang7@foxmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021360"
+        },
+        {
+          "name": "基于Rust实现HDFS的用户态FUSE驱动",
+          "description": "HDFS是标准的大数据文件系统，但是访问HDFS需要使用专门的客户端程序。虽然已经有一些HDFS挂载到Linux的程序，但是访问性能不佳，没有得到普遍使用。Linux已经提供了用户态文件系统接口FUSE，用于给Linux挂载各种用户自定义的文件系统。本任务要求使用Rust实现基于FUSE的HDFS驱动，把HDFS通过FUSE挂载到Linux作为用户态的文件系统。",
+          "difficulty": "高",
+          "mentor": "@pwang7",
+          "contact": "pwang7@foxmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021361"
+        },
+        {
+          "name": "基于Perf或eBPF对FUSE进行tracing分析",
+          "description": "Perf和eBPF是Linux的tracing机制，用于分析应用程序的系统调用性能。FUSE是Linux的用户态文件系统接口，用于实现用户自定义的文件系统。目前FUSE缺乏对于系统调用的性能分析。本任务要求采用Perf或eBPF对FUSE做tracing，实现对FUSE的系统调用的深入性能分析。",
+          "difficulty": "高",
+          "mentor": "@pwang7",
+          "contact": "pwang7@foxmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021362"
+        },
+        {
+          "name": "用RUST实现基于FUSE的Kubernetes CSI接口",
+          "description": "- CSI是Kubernetes (K8S)的存储管理接口。FUSE是Linux的用户态文件系统接口。- 目前CSI还不能对接Linux下通过FUSE挂载的用户态文件系统。- 本任务要求用Rust实现CSI对接FUSE挂载的文件系统，实现对FUSE挂载的文件系统的管理。",
+          "difficulty": "高",
+          "mentor": "@pwang7",
+          "contact": "pwang7@foxmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021363"
+        },
+        {
+          "name": "用Rust实现无锁LRU缓存",
+          "description": "Rust是一门高性能系统级语言。LRU缓存是底层系统经常用到的数据结构，出于性能的考虑LRU缓存不能加锁。本任务要求用Rust实现高性能的无锁LRU缓存。",
+          "difficulty": "高",
+          "mentor": "@pwang7",
+          "contact": "pwang7@foxmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021364"
+        },
+        {
+          "name": "用 Rust 实现无锁 HashMap",
+          "description": "Rust是一门高性能系统级语言。HashMap是经常用到的数据结构，在多线程并发情况下，出于性能的考虑要使用无锁HashMap。本任务要求用Rust实现高性能的无锁HashMap。",
+          "difficulty": "高",
+          "mentor": "@pwang7",
+          "contact": "pwang7@foxmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021365"
+        },
+        {
+          "name": "实现API识别软件包依赖的功能",
+          "description": "linux 软件之间采用模块化设计交付，各个软件之间独立安装及使用，为了方便接口的来源，需要直接根据软件模块的API 接口查询到属于哪个软件包，利于初学者对于软件 依赖模块的熟悉。",
+          "difficulty": "中",
+          "mentor": "@jimmy_hero",
+          "contact": "huming15@163.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021366"
+        },
+        {
+          "name": "openEuler CPU故障隔离",
+          "description": "操作系统可靠运行才能保证运行在其上的业务可靠运转，然而操作系统管理的硬件并不是可靠的，往往也会出现硬件错误。如内存会出现单bit位翻转或者多bit位翻转，当前的ECC内存可以对单bit翻转进行硬件纠错，保证数据的正确性，对于多Bit ECC错误则需要硬件与操作系统协同防止故障扩散。同样，系统中的其他硬件如CPU也会出现硬件故障，当CPU出现故障的时候，操作系统需要与硬件协同进行故障恢复以及故障隔离防止故障扩散，从而确保系统的可靠性。",
+          "difficulty": "中",
+          "mentor": "@lvying6",
+          "contact": "lvying6@huawei.com",
+          "co-mentor": "@Pces<chenjialong@huawei.com>, @licihua<licihua@huawei.com>",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021367"
+        },
+        {
+          "name": "优化nfs-utils锁以解决并发性能差问题",
+          "description": "NFS目前在共享存储中使用非常普遍，对客户端访问文件而言，NFS简单高效，NFS的缺点是IO性能较低。当前在性能测试和分析过程中，NFS的并发性能受限于NFS客户端锁机制，导致很多NFS请求出现较大的调度时延，在并发高时，时延达到几十秒，导致业务有异常。所以希望能够通过nfs客户端侧锁的优化来提高nfs客户端侧的并发能力。",
+          "difficulty": "高",
+          "mentor": "@liuzhiqiang26",
+          "contact": "lzhq28@mail.ustc.edu.cn",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021368"
+        },
+        {
+          "name": "优化glibc内存管理框架内容空洞导致内存占用不断增加的问题",
+          "description": "glibc 2.28以上版本的内存管理，是尝试从内核申请内存，自行管理，不直接释放给操作系统，在不断的申请释放过程中，由于不满足释放条件，会出现内存占用不断增加，无法释放的情况",
+          "difficulty": "高",
+          "mentor": "刘思睿",
+          "contact": "liusirui@huawei.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021369"
+        },
+        {
+          "name": "众核场景下OS基础设施机制线性度探索",
+          "description": "SMP多处理器架构的发展，核数的线性增长是多核性能提升的非充要条件。经过测试证明，在鲲鹏场景下随着核数增加，性能甚至会出现下降，例如当core增长到128->256 core时，性能下降明显，其中的关键瓶颈在于glibc提供的锁机制在众核竞争场景下性能劣化验证。解决该问题的一个方法是，拆锁减小临界区。但是有大量应用，例如mysql等代码规模大，历史时间长，面向处理器重构编程不太现实；提出一种新的方案或者优化机制，在上层应用无感知的情况下，屏蔽众核硬件差异，提供最佳的共享资源竞争策略",
+          "difficulty": "高",
+          "mentor": "吴旭",
+          "contact": "wuxu.wu@huawei.com",
+          "co-mentor": "李清清 liqingqing3@huawei.com",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021370"
+        },
+        {
+          "name": "MySQL 数据库性能线性度问题",
+          "description": "传统OLTP数据库已经被证明在100个CPU左右达到性能瓶颈;研究软硬件结合的新一致性算法, 提升CPU拐点;",
+          "difficulty": "高",
+          "mentor": "@softkiller",
+          "contact": "zhoukang7@huawei.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021371"
+        },
+        {
+          "name": "将UKUI移植到openEuler，并支持生物识别",
+          "description": "UKUI是由麒麟团队打造的一款基于Qt的桌面环境，具有美观、简洁、易用的特点，生物识别是指通过计算机与光学、声学、生物传感器和生物统计学原理等高科技手段密切结合，利用人体固有的生理特性，（如指纹、脸象、虹膜等）和行为特征（如笔迹、声音、步态等）来进行个人身份的鉴定。本项目的目标是，将UKUI移植到openEuler,并移植、适配、完善已有的生物识别框架，使得在openEuler上，用户可以通过指纹仪、指静脉、虹膜等设备进行登录系统、提权等操作。",
+          "difficulty": "中",
+          "mentor": "@dou33",
+          "contact": "douyan@kylinos.cn",
+          "co-mentor": "@handsome_feng jianfengli@ubuntukylin.com",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021372"
+        },
+        {
+          "name": "BCC功能扩展 -- 网络包在业务流程中，端到端消耗的时间统计",
+          "description": "1： BCC 现在都是网卡中断的时间，队列里边的时间，及协议处理的时间，没有一个端到端的统计；2： 虚拟化层--virtio层--网络中断--中断处理--协议栈--应用处理 端到端的统计这些时间，有一个全局的时间；3: 能够根据具体的接口与TCP Session进行详细的时间统计；",
+          "difficulty": "中",
+          "mentor": "@luanjianhai",
+          "contact": "luanjianhai@163.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021373"
+        },
+        {
+          "name": "内核态CR(Checkpoint and Restore )用户态应用程序",
+          "description": "用户态CR（checkpoint and restore）用户态程序 CRIU在用户态操作，性能效率低下。在内核态做对应用层的Checkpoint and Restore操作，能够提升应用层的保存与恢复效率。",
+          "difficulty": "高",
+          "mentor": "@栾建海",
+          "contact": "luanjianhai@163.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2021374"
+        }
       ]
     },
     {
@@ -3838,7 +3848,7 @@
           "co-mentor": "Grant Zhou",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2042375"
         },
         {
           "name": "Oracle数据库到PostgreSQL数据库迁移转换持续集成",
@@ -3849,18 +3859,18 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2042376"
         },
         {
-         "name": "PgSql移植计划",
-         "description": "将一系列应用后台数据库从SqlServer移植到PgSql数据库上",
-         "difficulty": "中",
-         "mentor": "王斌",
-         "contact": "wb_eai@qq.com",
+          "name": "PgSql移植计划",
+          "description": "将一系列应用后台数据库从SqlServer移植到PgSql数据库上",
+          "difficulty": "中",
+          "mentor": "王斌",
+          "contact": "wb_eai@qq.com",
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2042377"
         },
         {
           "name": "实现MongoDB FDW的排序、联接和聚合的下推",
@@ -3871,7 +3881,7 @@
           "co-mentor": "Ahsan Hadi",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2042378"
         },
         {
           "name": "在pl/pgsql语言上添加游标(cursor)属性的支持",
@@ -3882,18 +3892,18 @@
           "co-mentor": "Ahsan Hadi",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2042379"
         },
         {
-          "name": "在PostgreSQL的存储过程中启用\"OUT\"参数",
-          "description": "在PostgreSQL的存储过程中启用\"OUT\"参数",
+          "name": "在PostgreSQL的存储过程中启用'OUT'参数",
+          "description": "在PostgreSQL的存储过程中启用'OUT'参数",
           "difficulty": "中",
           "mentor": "DAVID ZHANG",
           "contact": "david.zhang@highgo.ca",
           "co-mentor": "GRANT ZHOU",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2042380"
         },
         {
           "name": "利用机器学习自动优化PostgreSQL版本12和版本13",
@@ -3904,7 +3914,7 @@
           "co-mentor": "Grant Zhou",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2042381"
         },
         {
           "name": "让pgcrypto更安全 - 更好的密钥管理（KMS）",
@@ -3915,7 +3925,7 @@
           "co-mentor": "Grant Zhou",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2042382"
         },
         {
           "name": "将Redis作为Pgpool-II缓存服务",
@@ -3926,7 +3936,7 @@
           "co-mentor": "Ahsan Hadi",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2042383"
         },
         {
           "name": "添加PCP和看门狗的IPv6网络支持",
@@ -3937,7 +3947,7 @@
           "co-mentor": "Ahsan Hadi",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2042384"
         },
         {
           "name": "向窗口函数添加并行性",
@@ -3948,7 +3958,7 @@
           "co-mentor": "Ahsan Hadi",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2042385"
         },
         {
           "name": "分区表的分割和合并命令",
@@ -3959,7 +3969,7 @@
           "co-mentor": "Ahsan Hadi",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2042386"
         }
       ]
     },
@@ -3994,7 +4004,7 @@
           "co-mentor": "刘丰源 liufy17@mails.tsinghua.edu.cn",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2043387"
         },
         {
           "name": "zCore 的文档与单元测试完善",
@@ -4005,7 +4015,7 @@
           "co-mentor": "潘庆霖 panqinglin00@163.com",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2043388"
         },
         {
           "name": "zCore 的树莓派4支持",
@@ -4016,7 +4026,7 @@
           "co-mentor": "王润基 wangrunji0408@163.com",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2043389"
         },
         {
           "name": "rCore 到 zCore 的功能迁移",
@@ -4027,7 +4037,7 @@
           "co-mentor": "陈嘉杰 c@jia.je",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2043390"
         },
         {
           "name": "改进 RVM 虚拟机",
@@ -4038,7 +4048,7 @@
           "co-mentor": "戴臻旸 daizy19@mails.tsinghua.edu.cn",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2043391"
         }
       ]
     },
@@ -4081,7 +4091,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2036392"
         },
         {
           "name": "Create New Planner and Controller Plugins",
@@ -4092,7 +4102,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2036393"
         },
         {
           "name": "Port Grid Maps to ROS2 and Environmental Model",
@@ -4103,7 +4113,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2036394"
         },
         {
           "name": "Advanced Navigation Testing Framework",
@@ -4114,7 +4124,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2036395"
         },
         {
           "name": "Navigation Branding and Website",
@@ -4125,7 +4135,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2036396"
         },
         {
           "name": "2D/3D Localization Improvements",
@@ -4136,7 +4146,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2036397"
         },
         {
           "name": "Navigation Dynamic Obstacle Integration",
@@ -4147,7 +4157,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2036398"
         }
       ]
     },
@@ -4367,7 +4377,7 @@
           "contact": "ThisIsClark@163.com",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2034399"
         },
         {
           "name": "实现driver作为plugin加载",
@@ -4377,7 +4387,7 @@
           "contact": "ThisIsClark@163.com",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2034400"
         },
         {
           "name": "开发nbp项目中的卷克隆功能",
@@ -4387,7 +4397,7 @@
           "contact": "ThisIsClark@163.com",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2034401"
         },
         {
           "name": "引入Sanity作为nbp测试框架",
@@ -4397,7 +4407,7 @@
           "contact": "ThisIsClark@163.com",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2034402"
         }
       ]
     },
@@ -4858,7 +4868,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-28",
-          "label": ""
+          "label": "2030403"
         },
         {
           "name": "官方文档",
@@ -4869,7 +4879,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-28",
-          "label": ""
+          "label": "2030404"
         },
         {
           "name": "Volcano DAG引擎开发",
@@ -4880,7 +4890,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-28",
-          "label": ""
+          "label": "2030405"
         },
         {
           "name": "Volcano工作流可视化UI开发",
@@ -4891,7 +4901,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-28",
-          "label": ""
+          "label": "2030406"
         }
       ]
     },
@@ -4904,11 +4914,11 @@
       "description": "Conversational AI RPA Chatbot SDK for Wechat Individual Account.",
       "full_des": "Wechaty 是一个开源聊天机器人框架SDK，具有高度封装、高可用的特性，支持NodeJs,  Python,  Go 和Java 等多语言版本。在过去的4年中，服务了数万名开发者，收获了 Github 的 8000 Star。同时配置了完整的DevOps体系并持续按照Apache 的方式管理技术社区。",
       "tech_tag": [
-        "Conversational AI", 
-        "NLP", 
-        "TypeScript", 
-        "Python", 
-        "Go", 
+        "Conversational AI",
+        "NLP",
+        "TypeScript",
+        "Python",
+        "Go",
         "Java"
       ],
       "domain_tag": [
@@ -4928,7 +4938,7 @@
           "co-mentor": "李佳芮 rui@juzi.bot",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2044407"
         },
         {
           "name": "Wechaty Java 移植组件开发",
@@ -4939,7 +4949,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2044408"
         },
         {
           "name": "python-wechaty 自动化测试构建和发布",
@@ -4950,7 +4960,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2044409"
         },
         {
           "name": "基于python-wechaty的群聊助手机器人",
@@ -4961,7 +4971,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2044410"
         },
         {
           "name": "基于Python-wechaty建立一个斗图机器人",
@@ -4972,7 +4982,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2044411"
         },
         {
           "name": "Go-wechaty Github Action optimization",
@@ -4983,7 +4993,7 @@
           "co-mentor": "丁超飞<dchaofei@163.com> 李博杰<silkage@silkage.net>",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2044412"
         },
         {
           "name": "为 go-wechaty 设计实现 插件体系",
@@ -4994,7 +5004,7 @@
           "co-mentor": "丁超飞<dchaofei@163.com> 李博杰<silkage@silkage.net>",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2044413"
         }
       ]
     }
