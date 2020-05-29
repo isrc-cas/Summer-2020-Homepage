@@ -582,7 +582,7 @@ export default class Organisation extends React.Component{
                                         </div>
                                         <div className="tooltip-project-wrapper tooltip-detail org-detail org-search-bar-wrapper">
                                             <div  id="org-project-lists" className="org-No">
-                                                <span>共{this.state.totalProjects}个项目</span>
+                                                {this.state.totalProjects > 0 ? <span>共{this.state.totalProjects}个项目</span> : ""}
                                                 {Math.ceil(this.state.totalProjects / 10) > 1 ? <span className="org-pageNo">第{this.state.currentPage}页 / <span style={{color:'#999999'}}>共{Math.ceil(this.state.totalProjects / 10)}页</span></span> : ''}
                                             
                                             </div>
@@ -609,7 +609,12 @@ export default class Organisation extends React.Component{
                     }
 
                 </div>
-                <div className="OrgCommitteePinyin content1200">*按单位名称英文字母、中文拼音字母排序</div>
+                {
+                    window.location.hash === "#/organisations" ?
+                        <div className="OrgCommitteePinyin content1200">*按单位名称英文字母、中文拼音字母排序</div>
+                    :
+                        ""
+                }
 
                 </div>
                   <div id="orgListOWrapper">
