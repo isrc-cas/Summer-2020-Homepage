@@ -1352,6 +1352,36 @@
           "label": "2012148"
         },
         {
+          "name": "Core: Compatibility with HiDPi. Resolve issues in #287 and #288",
+          "difficulty": "中",
+          "mentor": "Matthew Zeng",
+          "contact": "matthewzmd@gmail.com",
+          "student_count": 0,
+          "description": "",
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "Core: Investigate the possibility to support chemacs. If possible, support it, if not, explain. #297",
+          "difficulty": "低",
+          "mentor": "Matthew Zeng",
+          "contact": "matthewzmd@gmail.com",
+          "student_count": 0,
+          "description": "",
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "Core: English documentation for all functions",
+          "difficulty": "低",
+          "mentor": "Matthew Zeng",
+          "contact": "matthewzmd@gmail.com",
+          "student_count": 0,
+          "description": "",
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
           "name": "Browser: Create ad-blocker plugin",
           "difficulty": "中",
           "mentor": "Matthew Zeng",
@@ -1500,6 +1530,16 @@
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012160"
+        },
+        {
+          "name": "Painter: Create this new app using wither Qt or JavaScript!",
+          "difficulty": "中",
+          "mentor": "Matthew Zeng",
+          "contact": "matthewzmd@gmail.com",
+          "student_count": 0,
+          "description": "",
+          "update_time": "2020-05-29",
+          "label": ""
         }
       ]
     },
