@@ -3860,7 +3860,7 @@
           "label": ""
         },
         {
-          "name": "Volcano工作流可视化UI开发Volcano工作流可视化UI开发",
+          "name": "Volcano工作流可视化UI开发",
           "description": "Implement a UI to show workloads status and dependency relationships.",
           "difficulty": "高",
           "mentor": "Zhonghu Xu",
