@@ -181,7 +181,7 @@
           "difficulty": "低",
           "mentor": "琚致远",
           "contact": "juzhiyuan@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "翻译以下页面为指定语言： 下载页 为 中文； 2FA 为 中文； 安全指南 为 中文； 贡献者指南 为 中文； 发布指南 为 英文；",
           "update_time": "2020-05-27",
           "label": "2001250"
@@ -213,7 +213,7 @@
           "difficulty": "低",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "提供后端接口。在任务节点中新增“延时等待”的属性，支持任务在开始后一段时间内等待前置任务完成。针对调度（任务）执行时，前置依赖没有就绪的情况下，当前任务等待一段时间，在等待时间内，如前置任务就绪，则开始执行当前任务。",
           "update_time": "2020-05-27",
           "label": "2002005"
@@ -244,7 +244,7 @@
           "difficulty": "中",
           "mentor": "Lidong Dai",
           "contact": "lidongdai@apache.org",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2002251"
         },
@@ -254,7 +254,7 @@
           "difficulty": "中",
           "mentor": "Gabry.wu",
           "contact": "wu_shao_jie@qq.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2002252"
         },
@@ -264,7 +264,7 @@
           "difficulty": "中",
           "mentor": "Gabry.wu",
           "contact": "wu_shao_jie@qq.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2002253"
         },
@@ -629,7 +629,7 @@
           "difficulty": "中",
           "mentor": "吴晟",
           "contact": "wu.sheng@foxmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2005254"
         },
@@ -810,7 +810,7 @@
           "difficulty": "中",
           "mentor": "谢非 (Joey)",
           "contact": "joey.xf@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "基于C++版本的casbin探索casbin服务化的可能性，目标是在微服务架构中提供开箱即用的中心化的授权服务",
           "update_time": "2020-05-27",
           "label": "2008256"
@@ -917,7 +917,7 @@
           "difficulty": "中",
           "mentor": "曹言虎",
           "contact": "tiger@ceph.org.cn",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Ceph是目前业界最火的开源项目之一，对外可以提供统一的块、文件、对象存储接口，由于存储的专业性和门槛，本项目主要致力于帮助学生能够快速参与社区，主要是修复一些社区的Bug（难易/紧急程度依次递增）。",
           "update_time": "2020-05-27",
           "label": "2009257"
@@ -961,7 +961,7 @@
           "difficulty": "高",
           "mentor": "Dr. Wei Ding",
           "contact": "wei.ding@jd.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-29",
           "label": ""
         },
@@ -971,7 +971,7 @@
           "difficulty": "高",
           "mentor": "Dr. Wei Ding",
           "contact": "wei.ding@jd.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-29",
           "label": ""
         },
@@ -981,7 +981,7 @@
           "difficulty": "中",
           "mentor": "Zhengyi Zhu",
           "contact": "zhengyi.zhu.hust@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-29",
           "label": ""
         },
@@ -991,7 +991,7 @@
           "difficulty": "中",
           "mentor": "Jian Sun",
           "contact": "ansj-sun@163.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-29",
           "label": ""
         },
@@ -1001,7 +1001,7 @@
           "difficulty": "中",
           "mentor": "Mofei Zhang",
           "contact": "mofei2816@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-29",
           "label": ""
         },
@@ -1011,7 +1011,7 @@
           "difficulty": "中",
           "mentor": "Xihao Xu",
           "contact": "xxscott@163.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-29",
           "label": ""
         },
@@ -1021,7 +1021,7 @@
           "difficulty": "高",
           "mentor": "Jian Sun",
           "contact": "ansj-sun@163.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-29",
           "label": ""
         },
@@ -1031,7 +1031,7 @@
           "difficulty": "高",
           "mentor": "Chengyu Liu",
           "contact": "liuchengyu@jd.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-29",
           "label": ""
         },
@@ -1041,7 +1041,7 @@
           "difficulty": "高",
           "mentor": "Xihao Xu",
           "contact": "xxscott@163.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-29",
           "label": ""
         },
@@ -1051,7 +1051,7 @@
           "difficulty": "高",
           "mentor": "Chengyu Liu",
           "contact": "liuchengyu@jd.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-29",
           "label": ""
         },
@@ -1061,7 +1061,7 @@
           "difficulty": "高",
           "mentor": "Chengyu Liu",
           "contact": "liuchengyu@jd.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-29",
           "label": ""
         }
@@ -1253,7 +1253,7 @@
           "difficulty": "中",
           "mentor": "Zehua jiang",
           "contact": "jiangzehua@gelaxy.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Client是主链上面向开发者的钱包,支持地址创建及简单交易生成。但是很多交易现有的Client并不支持创建,如仲裁人选举、CR（Cyber Rpublic）委员选举及CR提案相关交易等。本题旨在完善主链Client功能,支持更多的交易生成。",
           "update_time": "2020-05-27",
           "label": "2011051"
@@ -1263,7 +1263,7 @@
           "difficulty": "高",
           "mentor": "Zehua jiang",
           "contact": "jiangzehua@gelaxy.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "在支持CR委员选举及CR提案注册的主链版本发布后,链上将会出现很多的提案,有的刚注册上链,有的过了评议期,有的进入了公投期,有的正在执行,有的已经执行结束。本题旨在开发提案处理监测工具,实时监测当前存在的提案详情信息,促进提案的有效处理。",
           "update_time": "2020-05-27",
           "label": "2011052"
@@ -1273,7 +1273,7 @@
           "difficulty": "中",
           "mentor": "Xiaobin Zhang, black",
           "contact": "zhangxiaobin@gelaxy.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "亦来云的ETH侧链是基于以太坊源码进行开发的。所以ETH侧链完美兼容了以太坊的所有功能和开发方式。可以采用开发以太坊应用的方式来开发亦来云的以太坊侧链应用,比如以太坊的Web3.js库。 我们现在就利用Web3.js 库开发基于亦来云侧链的一些应用。",
           "update_time": "2020-05-27",
           "label": "2011053"
@@ -1283,7 +1283,7 @@
           "difficulty": "中",
           "mentor": "Zehua jiang",
           "contact": "jiangzehua@gelaxy.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "目前主链配置文件中很多参数是为了测试添加,参数庞杂。bitcoin中开放出来的参数都是对共识没有影响,只是改变节点本身支持的功能项,本题旨在参考其bitcoin,调整目前的参数配置,提供一个面向普通用户的简介版本。",
           "update_time": "2020-05-27",
           "label": "2011055"
@@ -1293,7 +1293,7 @@
           "difficulty": "中",
           "mentor": "Zehua jiang",
           "contact": "jiangzehua@gelaxy.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "相比轻量级SPV钱包而言，全节点钱包能获完整的区块信息，支持更多复杂的业务功能扩展。目前有的钱包大多数都是移动端钱包及网页钱包，缺少安卓及苹果版桌面端钱包，桌面端钱包可以给PC端用户带来更多的便利。本题旨在开发一款全节点桌面端钱包。",
           "update_time": "2020-05-27",
           "label": "2011259"
@@ -1303,7 +1303,7 @@
           "difficulty": "中",
           "mentor": "Yingxiong Pan",
           "contact": "heroopan@gmail.com",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "并非所有的节点都有能⼒储存完整的区块链。SPV的方式可以使它们在不必存储完整区块链的情况下进行工作。这种类型的客端被称为SPV客户端或轻量级客户端。SPV节点只需下载区块头,而不用下载包含在每个区块中的交易信息。由此产生的不含交易信息的区块链,大小比完整区块链小得多。因此,适合智能电话、平板电脑、嵌⼊式系统等这样的设备。本题旨在开发一款桌面版/移动端的Elastos轻量级客户端。",
           "update_time": "2020-05-27",
           "label": "2011054"
@@ -1313,7 +1313,7 @@
           "difficulty": "中",
           "mentor": "Tang Zhilong",
           "contact": "tangzhilong@trinity-tech.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Elastos Carrier是去中心的端对端加密的消息/数据通信平台。目前主要支持3个不同的语言版本的SDK：C/Native (Linux/MacOS/Windows); Android/Java; iOS/Swift。 其中，Carrier Native SDK是最基础和核心的实现，由基础语言C实现，同时通过CMake 方式构建整个项目系统。而Android Java SDK是通过JNI集成低层的Native 实现，通过封装C接口并以Java接口呈现给Android Java开发者。同样地，iOS Swift SDK也是通过Swift封装底层SDK C接口和静态库，以Swift 接口形式的Carrier 接口供iOS开发者使用。 目前社区开发者除了Java/Swift Carrier APIs接口需求外，也有对Carrier SDK有其他高层语言接口的需求，比如Go，Python以及NodeJs等。希望社区参与者能够根据底层Native/C接口形式，同时能够抽象和实现基于Go/Python/NodeJs的 Carrier SDK封装接口和对应SDK。",
           "update_time": "2020-05-27",
           "label": "2011260"
@@ -1323,7 +1323,7 @@
           "difficulty": "高",
           "mentor": "Tang Zhilong",
           "contact": "tangzhilong@trinity-tech.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "在去中心化Carrier消息通信网络中，如果节点Bob向Friend节点Alice发送消息时，分为以下两种场景：如果好友Alice节点处于在线连接状态，则Bob节点直接通过Carrier网络将消息传送到Alice节点；如果好友Alice节点处于离线状态，则Bob节点将消息暂存在去中心化Hive IPFS/Cluster存储网络。一旦好友Alice节点上线后，则直接向Hive IPFS/Cluster存储网络获取所有发送自己的所有离线消息。目前离线消息存储网络Hive IPFS/Cluster 与Carrier通信网络时两个分离的网络。该主题任务希望借助于本身Carrier 网络节点（或者Carrier bootstrap节点）的基础上提供去中心化的离线消息发送/接收服务。",
           "update_time": "2020-05-27",
           "label": "2011261"
@@ -1333,7 +1333,7 @@
           "difficulty": "低",
           "mentor": "Tang Zhilong",
           "contact": "tangzhilong@trinity-tech.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Elastos DID 是Elastos生态中去中心化的ID身份系统，完全兼容W3C DID/可验证凭证标准，目前Elastos DID在客户端侧SDK已经支持以下特性：创建去中心化的DID身份；DID身份对应的DID文档发布/更新到DID侧链；本地DID文档以及私钥管理；可验证凭证/呈现等接口；同时Elastos DID 提供已Java/Swift/Native等SDK版本供开发者选择使用。虽然目前已经基本完成以上眼版本的SDK的开发，但是目前对应的APIs文档还不完善，有的版本（例如Java SDK）还未启动APIs文档编写。欢迎社区开发者能够在理解相关SDK接口的基础上，按照APIs注释规范，不断完善和丰富APIs接口文档，同时能够编写和完善相应的开发者指导文档。",
           "update_time": "2020-05-27",
           "label": "2011262"
@@ -1343,7 +1343,7 @@
           "difficulty": "中",
           "mentor": "Tang Zhilong",
           "contact": "tangzhilong@trinity-tech.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Elastos DID 是Elastos生态中去中心化的ID身份系统，完全兼容W3C DID/可验证凭证标准，目前Elastos DID在客户端侧SDK已经支持以下特性： 创建去中心化的DID身份； DID身份对应的DID文档发布/更新到DID侧链； 本地DID文档以及私钥管理； 可验证凭证/呈现等接口； 目前主要支持3个不同的语言版本的SDK（但是APIs只是形式不同，接口语义基本一致） C/Native (Linux/MacOS); Java SDK; Swift SDK。 目前社区开发者除了Java/Swift/C版本 APIs接口需求外，也有对其他高层语言接口的需求，比如Go，Python以及NodeJs等。希望社区参与能在理解Elasots DID的基础上，根据底层DID/C接口形式，能够抽象和实现基于Go/Python/NodeJs的 DID封装接口和对应SDK。",
           "update_time": "2020-05-27",
           "label": "2011263"
@@ -1353,7 +1353,7 @@
           "difficulty": "高",
           "mentor": "Tang Zhilong",
           "contact": "tangzhilong@trinity-tech.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Elastos DID 是Elastos生态中去中心化的ID身份系统，完全兼容W3C DID/可验证凭证标准，目前Elastos DID在客户端侧SDK已经支持以下特性： 创建去中心化的DID身份； DID身份对应的DID文档发布/更新到DID侧链； 本地DID文档以及私钥管理； 可验证凭证/呈现等接口. 同时Elastos DID 提供已Java/Swift/Native等SDK版本供开发者选择使用。此外，Elatos Trinity平台（即elatOS平台）也提供类似接口的typescript（javascript）的接口。 欢迎社区开发者实现基于任一浏览器（比如Safari/Chrome/Opera等）的Elastos DID服务插件，用户能够通过该DID 服务插件授权Elastos DID身份登录Elastos 应用。",
           "update_time": "2020-05-27",
           "label": "2011264"
@@ -1363,7 +1363,7 @@
           "difficulty": "高",
           "mentor": "Tang Zhilong",
           "contact": "tangzhilong@trinity-tech.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Elastos DID 是Elastos生态中去中心化的ID身份系统，完全兼容W3C DID/可验证凭证标准，目前Elastos DID在客户端侧SDK已经支持以下特性： 创建去中心化的DID身份； DID身份对应的DID文档发布/更新到DID侧链； 本地DID文档以及私钥管理； 可验证凭证/呈现等接口； 同时Elastos DID 提供已Java/Swift/Native等SDK版本供开发者选择使用。此外，Elatos Trinity平台（即elatOS平台）也提供类似接口的typescript（javascript）的接口。欢迎社区开发者即可以参考其他区块链DID溯源领域的应用，或者也可以根据自己对Elastos DID的理解以及其他的应用场景需求实现基于Elastos DID的应用。",
           "update_time": "2020-05-27",
           "label": "2011265"
@@ -1373,7 +1373,7 @@
           "difficulty": "高",
           "mentor": "Tang Zhilong",
           "contact": "tangzhilong@trinity-tech.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Hyper connect是基于Elastos Carrier去中心化通信平台之上的端对端的IoT（物联网）的解决方案，目前已经提供比较完整的APIs开发文档，同时已有主流语言版本支持。欢迎社区开发者基于Hyper Connect的IoT 框架之上，根据具体的场景需求设计相关的有创意的应用，比如门锁，家具电器控制等。",
           "update_time": "2020-05-27",
           "label": "2011266"
@@ -1383,7 +1383,7 @@
           "difficulty": "高",
           "mentor": "Tang Zhilong",
           "contact": "tangzhilong@trinity-tech.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "利用Elastos Carrier 是去中心化的端到端加密的消息通信平台的特点，经与外部团队合作，初步已经实现了基于Carrier网络的WebRTC Android版本接口，实现了Carrier节点间端对端的WebRTC音视频通信功能。参考WebRTC Android接口，实现相应基于Carrier的WebRTC iOS版本。",
           "update_time": "2020-05-27",
           "label": "2011267"
@@ -1393,7 +1393,7 @@
           "difficulty": "中",
           "mentor": "Tang Zhilong",
           "contact": "tangzhilong@trinity-tech.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Elatos Trinity（elatOS）是集成所有Elastos服务的访问入口，包括ELA主链，DID侧链，ETH侧链，Carrier去中心化通信服务，去中心化数据存储服务Hive等。同时Trinity Runtime是提供类似可信运行环境的程序浏览器平台。目前支持运行程序主要是H5+JS程序。欢迎社区开发者基于现有的Trinity提供的Plugin服务以及built-in应用的Intent服务，设计和编写具有创意的Trinity dApp应用。",
           "update_time": "2020-05-27",
           "label": "2011268"
@@ -1403,7 +1403,7 @@
           "difficulty": "中",
           "mentor": "Tang Zhilong",
           "contact": "tangzhilong@trinity-tech.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Elastos Hive SDK是为了方便前端开发者使用的一套文件/数据存储接口。当前Hive SDK已经支持后端文件/数据存储对接到 OneDrive商业云存储平台，同时也支持对标准去中心化的数据存储平台-标准IPFS存储平台。 为了尽可能方便应用平台的开发，目前Hive SDK已经支持以下语言版本： C/Native SDK （MacOS/Linux/Windows）; Java SDK; Swift SDK.  为了集成支持更多的后端云存储平台，欢迎社区开发者扩展Hive SDK对接到更多的主流云存储平台，比如Dropbox，Google Drive，华为等公共云存储平台。",
           "update_time": "2020-05-27",
           "label": "2011269"
@@ -1413,7 +1413,7 @@
           "difficulty": "中",
           "mentor": "Tang Zhilong",
           "contact": "tangzhilong@trinity-tech.io",
-          "hot_index": 0,
+          "student_count": 0,
           "description": "Elastos Carrier是去中心化的端到端加密的消息/数据通信平台，具有以下特性和特点： 去中心化通信，没有传统服务的单点服务器中心失败，导致整个网络崩溃； 整个Carrier网络是一个自治的网络，没有所谓的中心管理节点； 节点间必须先成为好友后才能相互发送消息和进行数据通信； 节点间端到端的数据加密通信； 节点间即使在不同的局域网也能够直接穿透进行消息/数据通信； 节点由原来的IP地址寻值变成节点ID的地址寻值； 具备消息/数据/Session/多路复用/端口转换等配套接口。 基于Carrier以上的特性，充分发挥Carrier网络的去中心化优势，参与者可以通过自己想象，同时结合具体业务特点和场景需求，设计和开发基于Carrier之上的应用，特别鼓励参与者结合以来云其他的基础设施服务（比如DID，ETH侧链，HiveSDK等）发现和设计出能发挥Carrier优势的新型应用和解决方案。",
           "update_time": "2020-05-27",
           "label": "2011270"
@@ -2691,8 +2691,8 @@
           "sponsor": "该项目由 openEuler社区 资助",
           "mentor": ["@overweight","@woqidaideshi"],
           "contact": ["hexiaowen@huawei.com","yafen@iscas.ac.cn"],
-          "student_count": 2,
-          "hot_index": 4,
+          "hot_index": 2,
+          "student_count": 4,
           "description": "openEuler 是一款开源操作系统。当前 openEuler 内核源于 Linux，支持鲲鹏及其它多种处理器，能够充分释放计算芯片的潜能，是由全球开源贡献者构建的高效、稳定、安全的开源操作系统。RK3399 是瑞芯微推出的一款低功耗、高性能的应用处理器芯片。作为 Firefly 新一代的顶级开源平台，RK3399 凭借其高稳定性、高性能、高集成度、高扩展性而广泛用于人脸识别设备、无人机、机器人、游戏机等应用产品。本项目的目标是将 openEuler 移植到 Firefly-RK3399 上，并保证 RK3399 的外设均可用。",
           "update_time": "2020-05-28",
           "label": ""
@@ -3216,7 +3216,7 @@
           "mentor": "yikun",
           "contact": "jiangyikun@huawei.com",
           "co-mentor": "derek zhangxuelei4@huawei.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021273"
         },
@@ -3238,7 +3238,7 @@
           "mentor": "@zhujianwei001",
           "contact": "zhujianwei7@huawei.com",
           "co-mentor": "@mailofzxf",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021275"
         },
@@ -3249,7 +3249,7 @@
           "mentor": "@blue0613",
           "contact": "gaoguijin@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021276"
         },
@@ -3260,7 +3260,7 @@
           "mentor": "@KuhnChen18",
           "contact": "kuhn.chenqun@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021277"
         },
@@ -3271,7 +3271,7 @@
           "mentor": "@Zhongjun2",
           "contact": "jun.zhongjun@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021278"
         },
@@ -3282,7 +3282,7 @@
           "mentor": "@colordev",
           "contact": "colordev@hotmail.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021279"
         },
@@ -3293,7 +3293,7 @@
           "mentor": "@MrRlu",
           "contact": "newlife_lala@163.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021280"
         },
@@ -3304,7 +3304,7 @@
           "mentor": "myeuler",
           "contact": "myeuler@163.com",
           "co-mentor": "luanjianhai luanjianhai@163.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021281"
         },
@@ -3315,7 +3315,7 @@
           "mentor": "walkingwalk",
           "contact": "wubodong@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021282"
         },
@@ -3326,7 +3326,7 @@
           "mentor": "@TommyLike",
           "contact": "tommylikehu@gmail.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021283"
         },
@@ -3337,7 +3337,7 @@
           "mentor": "@George.Cao",
           "contact": "george.cao@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021284"
         },
@@ -3348,7 +3348,7 @@
           "mentor": "@denggx_elros",
           "contact": "dengguangxing@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021285"
         },
@@ -3359,7 +3359,7 @@
           "mentor": "@radeon92",
           "contact": "caoruidong@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021286"
         },
@@ -3370,7 +3370,7 @@
           "mentor": "@zhanghailiang",
           "contact": "fangying1@huawei.com",
           "co-mentor": "@yorifang",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021287"
         },
@@ -3381,7 +3381,7 @@
           "mentor": "@lvying6",
           "contact": "- lvying6@huawei.com",
           "co-mentor": "@Pces chenjialong@huawei.com @licihua licihua@huawei.com",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021288"
         },
@@ -3392,7 +3392,7 @@
           "mentor": "@denggx_elros",
           "contact": "dengguangxing@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021289"
         },
@@ -3403,7 +3403,7 @@
           "mentor": "@liqiang9102",
           "contact": "liqiang64@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021290"
         },
@@ -3414,7 +3414,7 @@
           "mentor": "panny060",
           "contact": "pannengyuan@huawei.com",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021291"
         },
@@ -3425,21 +3425,384 @@
           "mentor": "hw_niubility",
           "contact": "hw_niubility@yeah.net",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021292"
         },
         {
           "name": "基于 Sealight 构建云手机的自动化测试",
-          "description": "云手机测试包括接口测试、集成测试、数据流测试、UI测试等多个维度的测试，代码层次多，接口多，且UI界面变化频繁，使用传统的测试工具，覆盖难度大。\n使用Sealight等AI测试工具，深度扫描接口和UI，自动生成用例，提升用例开发效率",
+          "description": "云手机测试包括接口测试、集成测试、数据流测试、UI测试等多个维度的测试，代码层次多，接口多，且UI界面变化频繁，使用传统的测试工具，覆盖难度大。使用Sealight等AI测试工具，深度扫描接口和UI，自动生成用例，提升用例开发效率",
           "difficulty": "高",
           "mentor": "hw_niubility",
           "contact": "hw_niubility@yeah.net",
           "co-mentor": "",
-          "hot_index": 0,
+          "student_count": 0,
           "update_time": "2020-05-27",
           "label": "2021293"
-        }
+        },
+        {
+          "name": "api-sanity-checker 与 oss-fuzz 测试结合的误报优化",
+            "description": "api-sanity-checker是一款基于c/c++ 库文件和头文件信息，为头文件中声明的每一个对外接口自动生成用例，然后进行编译，运行的开源工具。\noss-fuzz是google开发的一个开源软件fuzz测试自动化平台，使用clusterfuzz作为 后台，利用容器快速构建环境，同时集成了ASAN/MSAN/UBSAN等故障检测工具。\n当 前，我们将这两个工具进行结合，即改造api-sanity-checker工具，使其为满足一定条件的接口自动生成fuzz用例，然后使用oss-fuzz进行编译、执行用例。但当前初步实践后，进行失败用例分析时，发现很多都是误报，非代码bug，故需要进行优化， 自动过滤掉误报，使报错率更准确，提高测试效率。",
+              "difficulty": "高",
+                "mentor": "yanjineuler",
+                  "contact": "jiqin.ji@huawei.com",
+                    "co-mentor": "",
+                      "student_count": 0,
+                        "update_time": "2020-05-29",
+                          "label": ""
+        },
+        {
+          "name": "openEuler 源码包成分提取、归档",
+            "description": "linux操作系统由众多开源软件包组成，需要获取 openEuler 操作系统源码包信息 包括：软件包范围、包版本、源码包拆分为二进制包信息，二进 制包的内容文件信息，并将获取信息格式化输入到数据库)。",
+              "difficulty": "中",
+                "mentor": "@jimmy_hero",
+                  "contact": "huming15@163.com",
+                    "co-mentor": "",
+                      "student_count": 0,
+                        "update_time": "2020-05-29",
+                          "label": ""
+        },
+        {
+          "name": "openEuler 不同系统间源码包成分信息比较",
+            "description": "linux操作系统由众多开源软件包组成，需要根据不同openEuler操作系统源码包信息尽心比较， 包括：软件包范围、包版本、源码包拆分为二进制 包信息，二进制包的内容文件信息，比较源码包信息的一致性。",
+              "difficulty": "低",
+                "mentor": "@jimmy_hero",
+                  "contact": "huming15@163.com",
+                    "co-mentor": "",
+                      "student_count": 0,
+                        "update_time": "2020-05-29",
+                          "label": ""
+        },
+        {
+          "name": "针对Go加解密库进行ARM64相关的优化",
+            "description": "Go加解密（crypto）库中包含着通用的对称、非对称加密算法，通过SIMD、CPU流水线、缓存命中等进行汇编，提升Go语言该包的性能优化",
+              "difficulty": "中",
+                "mentor": "@mabingo",
+                  "contact": "mabin@apache.org",
+                    "co-mentor": "",
+                      "student_count": 0,
+                        "update_time": "2020-05-29",
+                          "label": ""
+        },
+  {
+    "name": "增强Golang运行时库在ARM上的性能和安全性",
+    "description": "Golang运行时库(runtime)包含go语言运行的基础设施，负责管理协程调度、垃圾回收、内存分配、与操作系统交互等。是go语言的核心模块。本项目的目标是结合基本的Linux操作系统和ARM64体系结构、汇编知识，优化Golang运行时库在ARM64服务器的表现，提高部分运行时库函数的性能或安全性，通过深度参与社区了解SIMD、CPU Cache、流水线调优、SSA编译规则调优等技术的原理和具体使用，成长为开源贡献者。",
+    "difficulty": "高",
+    "mentor": "@mabingo",
+    "contact": "mabin@apache.org",
+    "co-mentor": "@surechen 814464284@qq.com",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "优化Golang图像库功能和性能",
+    "description": "Golang图像库是一个基本的二维图像库，支持gif、jpeg、png等格式。本项目的目标是优化图像库在ARM64服务器的表现，包括性能、安全性、空间占用、代码可读性等方面，通过本项目熟悉SIMD、CPU Cache、指令和寄存器选择、流水线调优等技术。",
+    "difficulty": "中",
+    "mentor": "@surechen",
+    "contact": "814464284@qq.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "Numpy 在 ARM 平台的优化",
+    "description": "NumPy是一个高性能的Python数学库，支持大量的维度数组与矩阵运算，广泛应用在信号处理、图像处理和AI领域，但目前社区主要针对X86平台提供了SIMD优化，ARM平台的优化工作才刚刚起步，需要采用ARM特有的Neon指令集，尽可能的提高数学运算的性能。",
+    "difficulty": "中",
+    "mentor": "@iotwins",
+    "contact": "fangchunlin@huawei.com, 834352945@qq.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "优化golang压缩库的压缩率或压缩性能",
+    "description": "目前的golang压缩库中有包括bzip2、zlib、flate、gzip等多种压缩算法，要求结合ARM硬件架构的特征，采用并行计算、汇编等方法实现压缩库中的至少2种算法在ARM平台上的优化，将压缩率或压缩速度尽可能提高。",
+    "difficulty": "中",
+    "mentor": "@Heisenberg_li",
+    "contact": "lziqiang1@gmail.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "在Eigen社区中提供ARM的CI环境",
+    "description": "Eigen是一个基础数学库开源项目，当前基于不同的架构进行了大量优化，需要提供基于ARM的CI环境，以简化开源开发工作。",
+    "difficulty": "中",
+    "mentor": "陈衎",
+    "contact": "chenkan5@huawei.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "基于ARM的硬件加速能力软硬件协同调优go数学库函数",
+    "description": "灵活运用ARM64汇编优化、SIMD指令优化、算法改进等软硬协同调优方法，提升go数学库函数在ARM64硬件上的性能。",
+    "difficulty": "中",
+    "mentor": "周中元",
+    "contact": "zhouzhongyuan96@gmail.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "Golang 编解码算法性能优化",
+    "description": "在golang的编解码库中有多种算法，要求结合ARM硬件架构的特征，实现编解码至少2种算法在ARM平台上的优化，提高编解码算法的性能。",
+    "difficulty": "中",
+    "mentor": "@Heisenberg_li",
+    "contact": "lziqiang1@gmail.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "增强 Golang 编译器基于ARM64的智能化编译",
+    "description": "增强Go原生编译器内架构相关的代码降级、转换、优化等处理过程，智能化提升基于ARM64硬件的Go编译能力，提高Go库函数在ARM64上的运行性能。",
+    "difficulty": "高",
+    "mentor": "周中元",
+    "contact": "zhouzhongyuan96@gmail.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "优化Go同步包中锁或原子操作在 ARM64 上的实现，提升安全并发的性能",
+    "description": "Go同步（sync）包中有三个关于安全并发的保障机制：原子操作（atomic.Value）、同步锁（sync.Mutex）、读写锁（sync.RWMutex）,通过逻辑或算法实现对其中一个或多个进行优化，提升性能",
+    "difficulty": "高",
+    "mentor": "@chinx",
+    "contact": "zhuchen@apache.org",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "基于spdk的高性能用户态用户态文件系统",
+    "description": "基于spdk打造高性能用户态文件系统- 文件系统的功能完善，功能对标ext4。- 高效：针对NVMe SSD设备设计高效的元数据管理，高效的cache机制，预读等能力- 可靠：数据一致性- 安全：具备访问权限能力- 性能相对内核态10倍提升（用户态FS+SPDK+用户态NVMe driver vs. 内核态FS+内核态block+内核态NVMe Driver）",
+    "difficulty": "高",
+    "mentor": "@yanxiaodan",
+    "contact": "yanxiaodan@huawei.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "在Risc-V架构openEuler平台上提供golang支持",
+    "description": "Golang社区正在进行Risc-V架构的移植工作，并通过issue跟踪对应进展，目前已经能够完成构建，但还有部分特性待完成。跟踪并参与社区移植工作，在Risc-V架构的OpenEuler平台上完成golang工具包的构建，构建Risc-V golang生态。",
+    "difficulty": "难",
+    "mentor": "@denggx_elros",
+    "contact": "dengguangxing@huawei.com",
+    "co-mentor": "@whoisxxx<zhangxuzhou4@huawei.com>, @haomintsai<caihaomin@huawei.com>",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "在 RISC-V 架构 openEuler 平台上提供 iSulad",
+    "description": "iSulad是openEuler开源的容器管理工具，基于C语言开发；本任务希望能够在基于Risc-V架构的OpenEuler平台上实现iSulad工具支持，构建Risc-V架构openEuler容器生态基础。",
+    "difficulty": "中等",
+    "mentor": "@denggx_elros",
+    "contact": "dengguangxing@huawei.com",
+    "co-mentor": "@whoisxxx<zhangxuzhou4@huawei.com>, @haomintsai<caihaomin@huawei.com>",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "对openEuler社区发布包xz进行CRC加速",
+    "description": "xz使用了CRC32（多项式0xedb88320）来校验数据的正确性。软件使用了常用的查表法来做CRC计算，性能并不理想。在ARMv8.1，提供了CRC32/CRC32C的专用指令：crc32d, crc32w, crc32h, crc32b, crc32cd, crc32cw, crc32ch, crc32cb。分别实现64bit、32bit、16bit和8bit数据的CRC计算。相对于查表法，ARM CRC指令快30倍左右。也就是说，对同一数据做CRC，加速指令耗用时间是查表法的1/30。对于CRC-32和CRC-32C，GCC提供了builtin函数，可以在C代码里直接调用。builtin函数名字就是对应的汇编指令名字前加“__”，比如__crc32d函数对应crc32d指令。另外，还需添加“-march=armv8.1-a”编译选项。openEuler社区的xz发布包没有为ARM平台做过优化：https://gitee.com/src-openeuler/xz。本任务的目标就是为这个软件包在ARM上做加速，提高压缩性能。",
+    "difficulty": "中",
+    "mentor": "@colordev",
+    "contact": "colordev@hotmail.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "对openEuler社区发布包busybox进行CRC加速",
+    "description": "busybox使用了CRC32（多项式0xedb88320）来校验数据的正确性。软件使用了常用的查表法来做CRC计算，性能并不理想。在ARMv8.1，提供了CRC32/CRC32C的专用指令：crc32d, crc32w, crc32h, crc32b, crc32cd, crc32cw, crc32ch, crc32cb。分别实现64bit、32bit、16bit和8bit数据的CRC计算。相对于查表法，ARM CRC指令快30倍左右。也就是说，对同一数据做CRC，加速指令耗用时间是查表法的1/30。对于CRC-32和CRC-32C，GCC提供了builtin函数，可以在C代码里直接调用。builtin函数名字就是对应的汇编指令名字前加“__”，比如__crc32d函数对应crc32d指令。另外，还需添加“-march=armv8.1-a”编译选项。openEuler社区的busybox发布包没有为ARM平台做过优化：https://gitee.com/src-openeuler/busybox。本任务的目标就是为这个软件包在ARM上做加速，提高压缩性能。",
+    "difficulty": "中",
+    "mentor": "@colordev",
+    "contact": "colordev@hotmail.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "基于Rust高性能HTTP库Hyper或Tide实现S3服务端",
+    "description": "Rust是性能非常好的系统语言，Rust社区已经提供了高性能的HTTP库Hyper和Tide,但是还没有基于Rust实现的高性能S3服务端。由于S3协议是基于HTTP协议的，因此基于Rust的高性能的HTTP库Hyper或Tide，可以实现高性能S3服务端。本任务要求用Rust异步编程框架，基于Hyper或Tide实现高性能S3服务端。",
+    "difficulty": "高",
+    "mentor": "@pwang7",
+    "contact": "pwang7@foxmail.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "基于Rust实现HDFS的用户态FUSE驱动",
+    "description": "HDFS是标准的大数据文件系统，但是访问HDFS需要使用专门的客户端程序。虽然已经有一些HDFS挂载到Linux的程序，但是访问性能不佳，没有得到普遍使用。Linux已经提供了用户态文件系统接口FUSE，用于给Linux挂载各种用户自定义的文件系统。本任务要求使用Rust实现基于FUSE的HDFS驱动，把HDFS通过FUSE挂载到Linux作为用户态的文件系统。",
+    "difficulty": "高",
+    "mentor": "@pwang7",
+    "contact": "pwang7@foxmail.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "基于Perf或eBPF对FUSE进行tracing分析",
+    "description": "Perf和eBPF是Linux的tracing机制，用于分析应用程序的系统调用性能。FUSE是Linux的用户态文件系统接口，用于实现用户自定义的文件系统。目前FUSE缺乏对于系统调用的性能分析。本任务要求采用Perf或eBPF对FUSE做tracing，实现对FUSE的系统调用的深入性能分析。",
+    "difficulty": "高",
+    "mentor": "@pwang7",
+    "contact": "pwang7@foxmail.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "用RUST实现基于FUSE的Kubernetes CSI接口",
+    "description": "- CSI是Kubernetes (K8S)的存储管理接口。FUSE是Linux的用户态文件系统接口。- 目前CSI还不能对接Linux下通过FUSE挂载的用户态文件系统。- 本任务要求用Rust实现CSI对接FUSE挂载的文件系统，实现对FUSE挂载的文件系统的管理。",
+    "difficulty": "高",
+    "mentor": "@pwang7",
+    "contact": "pwang7@foxmail.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "用Rust实现无锁LRU缓存",
+    "description": "Rust是一门高性能系统级语言。LRU缓存是底层系统经常用到的数据结构，出于性能的考虑LRU缓存不能加锁。本任务要求用Rust实现高性能的无锁LRU缓存。",
+    "difficulty": "高",
+    "mentor": "@pwang7",
+    "contact": "pwang7@foxmail.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "用 Rust 实现无锁 HashMap",
+    "description": "Rust是一门高性能系统级语言。HashMap是经常用到的数据结构，在多线程并发情况下，出于性能的考虑要使用无锁HashMap。本任务要求用Rust实现高性能的无锁HashMap。",
+    "difficulty": "高",
+    "mentor": "@pwang7",
+    "contact": "pwang7@foxmail.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "实现API识别软件包依赖的功能",
+    "description": "linux 软件之间采用模块化设计交付，各个软件之间独立安装及使用，为了方便接口的来源，需要直接根据软件模块的API 接口查询到属于哪个软件包，利于初学者对于软件 依赖模块的熟悉。",
+    "difficulty": "中",
+    "mentor": "@jimmy_hero",
+    "contact": "huming15@163.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "openEuler CPU故障隔离",
+    "description": "操作系统可靠运行才能保证运行在其上的业务可靠运转，然而操作系统管理的硬件并不是可靠的，往往也会出现硬件错误。如内存会出现单bit位翻转或者多bit位翻转，当前的ECC内存可以对单bit翻转进行硬件纠错，保证数据的正确性，对于多Bit ECC错误则需要硬件与操作系统协同防止故障扩散。同样，系统中的其他硬件如CPU也会出现硬件故障，当CPU出现故障的时候，操作系统需要与硬件协同进行故障恢复以及故障隔离防止故障扩散，从而确保系统的可靠性。",
+    "difficulty": "中",
+    "mentor": "@lvying6",
+    "contact": "lvying6@huawei.com",
+    "co-mentor": "@Pces<chenjialong@huawei.com>, @licihua<licihua@huawei.com>",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "优化nfs-utils锁以解决并发性能差问题",
+    "description": "NFS目前在共享存储中使用非常普遍，对客户端访问文件而言，NFS简单高效，NFS的缺点是IO性能较低。当前在性能测试和分析过程中，NFS的并发性能受限于NFS客户端锁机制，导致很多NFS请求出现较大的调度时延，在并发高时，时延达到几十秒，导致业务有异常。所以希望能够通过nfs客户端侧锁的优化来提高nfs客户端侧的并发能力。",
+    "difficulty": "高",
+    "mentor": "@liuzhiqiang26",
+    "contact": "lzhq28@mail.ustc.edu.cn",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "优化glibc内存管理框架内容空洞导致内存占用不断增加的问题",
+    "description": "glibc 2.28以上版本的内存管理，是尝试从内核申请内存，自行管理，不直接释放给操作系统，在不断的申请释放过程中，由于不满足释放条件，会出现内存占用不断增加，无法释放的情况",
+    "difficulty": "高",
+    "mentor": "刘思睿",
+    "contact": "liusirui@huawei.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "众核场景下OS基础设施机制线性度探索",
+    "description": "SMP多处理器架构的发展，核数的线性增长是多核性能提升的非充要条件。经过测试证明，在鲲鹏场景下随着核数增加，性能甚至会出现下降，例如当core增长到128->256 core时，性能下降明显，其中的关键瓶颈在于glibc提供的锁机制在众核竞争场景下性能劣化验证。解决该问题的一个方法是，拆锁减小临界区。但是有大量应用，例如mysql等代码规模大，历史时间长，面向处理器重构编程不太现实；提出一种新的方案或者优化机制，在上层应用无感知的情况下，屏蔽众核硬件差异，提供最佳的共享资源竞争策略",
+    "difficulty": "高",
+    "mentor": "吴旭",
+    "contact": "wuxu.wu@huawei.com",
+    "co-mentor": "李清清 liqingqing3@huawei.com",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "MySQL 数据库性能线性度问题",
+    "description": "传统OLTP数据库已经被证明在100个CPU左右达到性能瓶颈;研究软硬件结合的新一致性算法, 提升CPU拐点;",
+    "difficulty": "高",
+    "mentor": "@softkiller",
+    "contact": "zhoukang7@huawei.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "将UKUI移植到openEuler，并支持生物识别",
+    "description": "UKUI是由麒麟团队打造的一款基于Qt的桌面环境，具有美观、简洁、易用的特点，生物识别是指通过计算机与光学、声学、生物传感器和生物统计学原理等高科技手段密切结合，利用人体固有的生理特性，（如指纹、脸象、虹膜等）和行为特征（如笔迹、声音、步态等）来进行个人身份的鉴定。本项目的目标是，将UKUI移植到openEuler,并移植、适配、完善已有的生物识别框架，使得在openEuler上，用户可以通过指纹仪、指静脉、虹膜等设备进行登录系统、提权等操作。",
+    "difficulty": "中",
+    "mentor": "@dou33",
+    "contact": "douyan@kylinos.cn",
+    "co-mentor": "@handsome_feng jianfengli@ubuntukylin.com",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "BCC功能扩展 -- 网络包在业务流程中，端到端消耗的时间统计",
+    "description": "1： BCC 现在都是网卡中断的时间，队列里边的时间，及协议处理的时间，没有一个端到端的统计；2： 虚拟化层--virtio层--网络中断--中断处理--协议栈--应用处理 端到端的统计这些时间，有一个全局的时间；3: 能够根据具体的接口与TCP Session进行详细的时间统计；",
+    "difficulty": "中",
+    "mentor": "@luanjianhai",
+    "contact": "luanjianhai@163.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  },
+  {
+    "name": "内核态CR(Checkpoint and Restore )用户态应用程序",
+    "description": "用户态CR（checkpoint and restore）用户态程序 CRIU在用户态操作，性能效率低下。在内核态做对应用层的Checkpoint and Restore操作，能够提升应用层的保存与恢复效率。",
+    "difficulty": "高",
+    "mentor": "@栾建海",
+    "contact": "luanjianhai@163.com",
+    "co-mentor": "",
+    "student_count": 0,
+    "update_time": "2020-05-29",
+    "label": ""
+  }
       ]
     },
     {
