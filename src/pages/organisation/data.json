@@ -3401,6 +3401,52 @@
       ]
     },
     {
+      "anchor": "postgresqlchina",
+      "img": "postgresqlchina.jpg",
+      "title": "中国开源软件联盟PostgreSQL分会",
+      "project_url": "https://pgfans.cn/a-detail?id=20",
+      "url": "https://www.postgresqlchina.com",
+      "description": "在中国构建PostgreSQL产业生态，推动PostgreSQL产学研用发展。",
+      "full_des": "中国开源软件推进联盟PostgreSQL分会（简称：中国PG分会）于2017年成立，由国内多家PostgreSQL生态企业所共同发起，业务上接受工信部中国电子信息产业发展研究院指导。中国PG分会是一个非盈利行业协会组织。在技术方面，我们通过PGFans问答社区，帮助中国的PG从业者解决各种各样的技术问题，并助力他们在技术能力、职业生涯、影响力上获得提升。",
+      "tech_tag": [
+        "PostgreSQL",
+        "数据库",
+        "开源数据库",
+        "Database"
+      ],
+      "domain_tag": [
+        "数据库",
+        "内核开发",
+        "运维管理",
+        "DBA",
+        "DEV"
+      ],
+      "mail_list": "",
+      "email": "partner@postgresqlchina.com"
+    },
+    {
+      "anchor": "rcore-os",
+      "img": "rcore.jpg",
+      "title": "rCore OS",
+      "project_url": "https://github.com/rcore-os/rCore/wiki/OSPP-2020",
+      "url": "https://github.com/rcore-os/",
+      "description": "用 Rust 开发操作系统！",
+      "full_des": "rCore OS 是探索用 Rust 语言开发系统软件的一个以学生为主的开源软件社区。rCore/zCore 是用 Rust 语言实现的小型操作系统内核，兼容 Linux 程序 / Fuchsia 程序。此项目起源于清华大学计算机系操作系统课的课程设计，目前已经发展出一整套 Rust 语言开发操作系统的解决方案和生态环境，相关成果正尝试用于操作系统课的教学实验与科研探索中。我们的使命是继续探索挖掘 Rust 语言开发底层系统的潜力，使之成为 C/C++ 之外开发 OS 的另一种选择。",
+      "tech_tag": [
+        "Rust",
+        "x86_64",
+        "ARM",
+        "RISCV",
+        "MIPS"
+      ],
+      "domain_tag": [
+        "Rust 语言",
+        "操作系统内核"
+      ],
+      "mail_list": "",
+      "email": ""
+    },
+    {
       "anchor": "ros-navigation",
       "img": "ros.jpg",
       "title": "ROS Navigation",
