@@ -3163,7 +3163,7 @@
       "anchor": "/ros-navigation",
       "img": "ros.jpg",
       "title": "ROS Navigation",
-      "project_url": "https://github.com/ros-planning/navigation2/issues?q=is%3Aissue+is%3Aopen+label%3A%22summer+sprint%22",
+      "project_url": "https://navigation.ros.org/2020summerOfCode/projects/create_configuration_assistant.html",
       "url": "https://navigation.ros.org",
       "description": "Mobile robot navigation framework and system.",
       "full_des": "ROS2 Navigation is a community working to build a high-quality production grade navigation system on ROS2. ROS2 is particularly well suited for production due to its real-time, multi-platform, and secure features. Navigation2 seeks to build a navigation framework to support all manner of mobile robots including differential, omnidirectional, legged, ackermann (cars), and more. We also provide implementations of robust base algorithms to use to get your robot up and running quickly with a rich ecosystem of tools and conventions. Our framework is built using modern multi-processor techniques and behavior trees to enable custom and complex behaviors for your mobile robot system.",
