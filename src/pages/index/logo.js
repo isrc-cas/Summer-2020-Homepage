@@ -27,10 +27,7 @@ const logolistMap = {
             img:'c_xlab.jpg',
             url:'http://xlab.kfcoding.com/'
         },
-        {
-            img:'PostgreSQL.jpg',
-            url:'https://www.postgresqlchina.com/'
-        },
+       
     ],
     opencommunity:[
         {
@@ -219,6 +216,15 @@ const logolistMap = {
             name:'opencv',
             img:'c_opencvchina.jpg',
             url:' http://www.opencv.org.cn'
+        },
+        {
+            img:'PostgreSQL.jpg',
+            url:'https://www.postgresqlchina.com/'
+        },
+        {
+            name:'rcore-os',
+            img:'c_rcoreos.jpg',
+            url:'https://github.com/rcore-os'
         },
        
         {

@@ -68,7 +68,7 @@ export default class Organisation extends React.Component{
     }
 
     /**
-     * get all projects list and render div
+     * get all projects and render first 10 projects
      */
     getAllProjectList () {
         document.getElementById('org-default').setAttribute("class", "org-search-bar-sort orgClick");
@@ -145,7 +145,7 @@ export default class Organisation extends React.Component{
                 return 0;
             });
             if (isDetail) {
-                this.getOrgProjectList(anchor);
+                this.displayOrgProjectList(anchor);
                 window.location.hash.split("/").length > 1 ? window.location.hash = "/organisations/" + (anchor ? anchor : "") : void(0);
                 readyWeixin(`社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`, orgList[index].description);
                 document.title = `社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
@@ -206,7 +206,6 @@ export default class Organisation extends React.Component{
     getProjectList(orgIndex, item, index, orgName, projectUrl) {
       return item.sponsor ? 
       (<div
-        id = {item.anchor}
         key = {orgIndex+'-'+index}
         className="orgProjectItem">
             <div className="orgProjectItemColumn orgLeft org-team">
@@ -267,9 +266,9 @@ export default class Organisation extends React.Component{
                 {item.sponsor ? "" : <div className="orgProjectTitleIcon"><img alt="0000000" src={require("./../../img/organisation/"+index%3+".jpg")} /></div>}
                 <div className="orgProjectGap"></div>
                 <div className="orgProjectBottomLeft">
-                    <div>{item.difficulty ? "项目难度："+item.difficulty : ""}</div>
+                    <div>{"项目难度："+item.difficulty}</div>
                     {/* <div>已申请人数：{item.student_count}</div> */}
-                    <div className="orgProjectName">{item.name.includes("RK3399")?"":orgName}</div>
+                    <div className="orgProjectName">{orgName}</div>
                 </div>
 
             </div>
@@ -301,10 +300,10 @@ export default class Organisation extends React.Component{
     }
 
     /**
-     * 
+     * render a list of projects for a specific organisation
      * @param {string} anchor 
      */
-    getOrgProjectList(anchor) {
+    displayOrgProjectList(anchor) {
         const {orgList} = this.state.data;
         let orgIndex = orgList.findIndex(obj => obj.anchor === anchor);
         let orgItem_ = orgList[orgIndex];
@@ -318,6 +317,9 @@ export default class Organisation extends React.Component{
                 if (index < 10) {
                     divContainer.push(this.getProjectList(orgIndex, item, index, orgName, projectUrl));
                 }
+                item.index = orgIndex;
+                item.title = orgName;
+                item.project_url = projectUrl || orgItem.url;
                 temp.push(item);
                 return 0;
             });
