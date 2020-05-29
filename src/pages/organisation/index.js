@@ -553,9 +553,14 @@ export default class Organisation extends React.Component{
                                         <div className="tooltip-list-title">
                                             官网：<a href={item.url} target="_blank" rel="noopener noreferrer">{item.url}</a>
                                         </div>
+                                        {
+                                            item.mail_list ? 
                                         <div className="tooltip-list-title tooltip-detail">
-                                        社区邮件列表：<a href={"mailto:"+item.url} target="_blank" rel="noopener noreferrer">{item.mail_list}</a>
+                                            社区邮件列表：<a href={"mailto:"+item.url} target="_blank" rel="noopener noreferrer">{item.mail_list}</a>
                                         </div>
+                                        : ""
+                                        }
+                                        
                                         <div className="tooltip-list-title tooltip-detail">
                                         社区官方公共联系邮箱：<a href={"mailto:"+item.email} target="_blank" rel="noopener noreferrer">{item.email}</a>
                                         </div>
