@@ -37,17 +37,24 @@ export default class Organisation extends React.Component{
             window.location.hash = "/organisations";
         }
     }
+
+    /**
+     * 
+     * @param {string} category 
+     */
     resetStyle (category) {
         if (category === 'default') {
             document.getElementById('update_time-down').setAttribute("class", "org-arrow down-0");
             document.getElementById('update_time-up').setAttribute("class", "org-arrow up-0");
         }
-        // let cat = category === 'update_time' ? 'hot_index' : 'update_time';
         document.getElementById('org-update_time').setAttribute("class", "org-search-bar-sort");
-        // document.getElementById('update_time-down').setAttribute("class", "org-arrow down-0");
-        // document.getElementById('update_time-up').setAttribute("class", "org-arrow up-0");
-        // document.getElementById('org-hot_index').setAttribute("class", "org-search-bar-sort");
     }
+
+    /**
+     * 
+     * @param {number} hot_index 
+     * @param {number} index 
+     */
     showHot (hot_index, index) {
         var divContainer = [];
         for (var i = 0; i < 3; i++) {
@@ -59,6 +66,10 @@ export default class Organisation extends React.Component{
         }
         return divContainer;
     }
+
+    /**
+     * get all projects list and render div
+     */
     getAllProjectList () {
         document.getElementById('org-default').setAttribute("class", "org-search-bar-sort orgClick");
         document.getElementsByClassName("ant-input-clear-icon")[0].click();
@@ -97,20 +108,23 @@ export default class Organisation extends React.Component{
             displayProjects: divContainer
         });
     };
+
+    /**
+     * 
+     * @param {string} url 
+     */
     openInNewTab(url) {
         if (url !== "") {
             var win = window.open(url, '_blank');
             win.focus();
         }
     }
-    showDetail (index) {
-        this.state.data.orgList.map((item,index) => {
-            document.getElementById(index+"-tooltip").style.display = 'none';
-            return 0;
-        })
 
-
-    }
+    /**
+     * 
+     * @param {string} anchor 
+     * @param {boolean} isDetail 
+     */
     showModal(anchor, isDetail) {
         const { orgList } = this.state.data;
         let index = orgList.findIndex(obj => obj.anchor === `/${anchor.split("/")[1]}`);
@@ -161,6 +175,12 @@ export default class Organisation extends React.Component{
             }
         }
     }
+
+    /**
+     * 
+     * @param {number} index 
+     * @param {boolean} isDetail 
+     */
     closeModal (index, isDetail) {
         window.location.hash = "/organisations";
         document.getElementById(index+"-tooltip").style.display = 'none';
@@ -174,6 +194,15 @@ export default class Organisation extends React.Component{
           })
         }
     }
+
+    /**
+     * 
+     * @param {number} orgIndex 
+     * @param {Dict} item 
+     * @param {number} index 
+     * @param {string} orgName 
+     * @param {string} projectUrl 
+     */
     getProjectList(orgIndex, item, index, orgName, projectUrl) {
       return item.sponsor ? 
       (<div
@@ -270,6 +299,11 @@ export default class Organisation extends React.Component{
 
         </div>)
     }
+
+    /**
+     * 
+     * @param {string} anchor 
+     */
     getOrgProjectList(anchor) {
         const {orgList} = this.state.data;
         let orgIndex = orgList.findIndex(obj => obj.anchor === `/${anchor.split("/")[1]}`);
@@ -297,14 +331,18 @@ export default class Organisation extends React.Component{
         });
     }
 
-    switchTab (num) {
+    /**
+     * 
+     * @param {number} tabNum 
+     */
+    switchTab (tabNum) {
       var wrappers = ["orgWrapper", "orgProjectWrapper"];
-      document.getElementById("orgListTab-"+(3-num)).setAttribute("class","orgListTabItem");
-      document.getElementById("orgListTab-"+num).setAttribute("class","orgListTabItem tabSelected");
+      document.getElementById("orgListTab-"+(3-tabNum)).setAttribute("class","orgListTabItem");
+      document.getElementById("orgListTab-"+tabNum).setAttribute("class","orgListTabItem tabSelected");
       
-      document.getElementById(wrappers[num-1]).style.display = "block";
-      document.getElementById(wrappers[2-num]).style.display = "none";
-      if (num === 2) {
+      document.getElementById(wrappers[tabNum-1]).style.display = "block";
+      document.getElementById(wrappers[2-tabNum]).style.display = "none";
+      if (tabNum === 2) {
         window.location.hash = "/organisations?page=project";
         this.getAllProjectList();
       } else {
@@ -312,6 +350,7 @@ export default class Organisation extends React.Component{
         this.closeModal(0, true);
       }
     }
+
     getOpensource(){
         var divContainer = []
         this.state.data.creditList.map((item,index)=>{
@@ -325,6 +364,12 @@ export default class Organisation extends React.Component{
         });
         return divContainer
     }
+
+    /**
+     * 
+     * @param {number} pageNo 
+     * @param {number} id 
+     */
     changePage(pageNo, id) {
         var divContainer = [];
         this.state.currentProjects.map((item,index)=>{
@@ -337,9 +382,13 @@ export default class Organisation extends React.Component{
             displayProjects: divContainer,
             currentPage: pageNo
         });
-        // console.log(document.getElementById(id).getBoundingClientRect);
         id.includes("all") ? window.scrollTo(0,300) : window.scrollTo(0,700);
     }
+
+    /**
+     * 
+     * @param {string} category ("update_time","hot_index")
+     */
     sortItemBy(category) {
         this.setState({
             currentPage: 1
@@ -383,6 +432,11 @@ export default class Organisation extends React.Component{
             this.getAllProjectList();
         }
     }
+
+    /**
+     * 
+     * @param {string} value 
+     */
     filterItem(value) {
         var divContainer = [];
         var temp = [];
@@ -409,6 +463,13 @@ export default class Organisation extends React.Component{
             currentPage: 1
         })
     }
+
+    /**
+     * antd pagination settings
+     * @param {*} current 
+     * @param {string} type 
+     * @param {*} originalElement 
+     */
     itemRender(current, type, originalElement) {
         if (type === 'prev') {
           // eslint-disable-next-line
@@ -419,7 +480,8 @@ export default class Organisation extends React.Component{
           return <a>下一页</a>;
         }
         return originalElement;
-      }
+    }
+
     render(){
         return(
             <div className="organisation">
