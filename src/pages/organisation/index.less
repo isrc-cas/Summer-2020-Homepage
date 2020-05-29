@@ -1,9 +1,13 @@
 .organisation {
+    .OrgCommitteePinyin{
+        font-size: 12px;
+        color:#999;
+        margin-top: 30px;
+    }
     .orgBanner {
         position: relative;
         width: 100%;
         height: 280px;
-        // background-color: #1465e3;
         background-image: url(./../../img/organisation/banner.jpg);
         background-size: cover;
         background-position: left;
@@ -23,6 +27,44 @@
             background-image: url(./../../img/organisation/banner2.png);
             background-repeat: no-repeat;
             background-position: left;
+        }
+        .orgBannerTeam {
+            padding: 8px 15px;
+            text-align: center;
+            font-size: 20px;
+            position: absolute;
+            right: 0;
+            bottom: 50px;
+            background-image: url(./../../img/organisation/bannerTeam.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 320px;
+            height: 180px;
+        }
+        .orgBannerTeamDes {
+            margin-top: -12px;
+            font-size: 12px;
+            font-style: italic;
+        }
+        .orgBannerButton {
+            display: inline-block;
+            color: white;
+            line-height: 40px;
+            height: 40px;
+            width: 150px; 
+            font-size: 18px;
+            margin: 5px 0;
+            background: rgba(255, 255, 255, 0);
+            border: 1px solid #fff;
+            border-radius: 4px;
+            text-align: center;
+            font-weight: bolder;
+            img {
+                margin-left: 12px;
+            }
+        }
+        .orgBannerButton:hover {
+            cursor: pointer;
         }
     }
     .orgListTab {
@@ -50,6 +92,29 @@
         }
     }
     @media screen and (min-width: 100px)and (max-width: 700px){
+        .orgBanner {
+            height: 380px;
+            .orgBannerTeam {
+                margin-top: 5px;
+                padding: 10px 0 0 50px;
+                font-size: 18px;
+                width: 100%;
+                position: relative;
+                bottom: 0;
+                height: 100%;
+                text-align: left;
+                background-position: top;
+                background-size: contain;
+                p {
+                    margin-bottom: 4%;
+                }
+            }
+            .orgBannerButton {
+                font-size: 16px;
+                height: 32px;
+                line-height: 32px;
+            }
+        }
         .orgListTab {
             .orgListTabItem {
                 cursor: pointer;
@@ -391,6 +456,9 @@
                 .org-2 {
                     background: rgb(49,94,139);
                 }
+                .org-team {
+                    background: #993d7a;
+                }
                 .orgLeft {
                     grid-column: 1;
                     width: 500px;
@@ -426,10 +494,33 @@
                     min-height: 40px;
                     height: 110px;
                 }
-                .orgProjectTitle {
+                .orgProjectTitleTeam {
                     line-height: 28px;
                     padding: 0 28px;
-                    width: 330px;
+                    width: 450px;
+                    font-size: 24px;
+                    font-weight: bolder;
+                }
+                .orgProjectTitleTeam::after {
+                    content: '';
+                    position: absolute;
+                    border-top: 1px solid #fff;
+                    left: 30px; /* adjust this */
+                    margin-top: 38px;
+                    height: 2px; /* adjust this */
+                    width: 400px;
+                }
+                .orgProjectRuleTeam {
+                    font-size: 18px;
+                    font-style: italic;
+                    padding: 0 28px;
+                    margin-top: 20px;
+                }
+                .orgProjectTitle {
+                    font-weight: bolder;
+                    line-height: 28px;
+                    padding: 0 28px;
+                    width: 390px;
                     font-size: 24px;
                     background-position: top right;
                     background-repeat: no-repeat;
@@ -459,6 +550,13 @@
                     color: rgb(174,201,255);
                     font-size: 20px;
                 }
+                .orgProjectSponsor {
+                    font-size: 20px;
+                    font-style: italic;
+                    color: #fff;
+                    font-weight: normal;
+                    margin-top: 40px;
+                }
                 .orgProjectDes {
                     line-height: 25px;
                     height: 125px;
@@ -471,7 +569,7 @@
                 .orgProjectButton {
                     position: absolute;
                     margin-top: -50px;
-                    right: 60px;
+                    right: 20px;
                     display: inline-block;
                 }
             }
@@ -606,14 +704,14 @@
                     .orgProjectDes {
                         height: 100%;
                     }
-                    .orgProjectTitle {
+                    .orgProjectTitle, .orgProjectTitleTeam, .orgProjectTitleTeam::after {
                         width: 100%;
+                    }
+                    .orgProjectTitleTeam::after { 
+                        left: 0;
                     }
                     .orgProjectTitleIcon {
                         display: none;
-                        // padding: 0 !important;
-                        // position: relative !important;
-                        // margin: 10px 0 0 28px;
                     }
                     .orgProjectGap {
                         height: 50px;
@@ -639,7 +737,7 @@
                 }
                
                 .org-detail{
-                    .orgProjectTitleBar > .orgProjectTitle{
+                    .orgProjectTitleBar > .orgProjectTitle, .orgProjectTitleTeam, .orgProjectTitleTeam::after, .orgProjectRuleTeam{
                         font-size: 20px;
                         width: 63%;
                         padding-right: 0;
@@ -667,7 +765,7 @@
                         }
                     }
                     .orgProjectButton{
-                        margin-top:-94px !important;
+                        margin-top:-99px !important;
                         height: 35px;
                         line-height: 35px;
                         left: 30px;

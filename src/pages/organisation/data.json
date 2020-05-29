@@ -744,6 +744,16 @@
           "label": "2008043"
         },
         {
+          "name": "Casbin分布式插件（Golang)",
+          "difficulty": "高",
+          "mentor": "刘子轩 (Nodece)",
+          "contact": "nodeces@gmail.com",
+          "student_count": 0,
+          "description": "Casbin在初始化时将规则集装载到内存中，在规则集发生变更时将该次变更持久化到文件或者数据库等媒介。我们希望在此基础上： 1）基于Raft协议实现单机、分布式环境中不同Casbin实例的规则集同步；２）探索如何将规则集分组，映射到不同节点，使特定规则集的增，删以及某个请求的权限计算都在正确的节点进行，以此减轻单机的内存压力。在未来此插件可以替代 watcher。",
+          "update_time": "2020-05-28",
+          "label": ""
+        },
+        {
           "name": "Casbin分布式高可用（Rust）",
           "difficulty": "高",
           "mentor": "江成 (GopherJ)",
@@ -762,6 +772,66 @@
           "description": "基于C++版本的casbin探索casbin服务化的可能性，目标是在微服务架构中提供开箱即用的中心化的授权服务",
           "update_time": "2020-05-27",
           "label": "2008256"
+        },
+        {
+          "name": "jCasbin 生态完善（Java）",
+          "difficulty": "中",
+          "mentor": "罗杨 (hsluoyz)",
+          "contact": "hsluoyz@gmail.com",
+          "student_count": 0,
+          "description": "jCasbin 在 Java 平台上取得了不错的进展，但是我们仍然需要努力工作，以帮助 Casbin 成为世界上最受欢迎的身份授权库。目前Java语言上最流行的授权库是Apache Shiro和Spring Security，最流行的Web框架是Spring。我们需要实现Casbin针对Spring等框架的插件，使Spring用户可以无缝接入Casbin。同时要兼容Apache Shiro和Spring Security的接口，让目前正在使用Apache Shiro和Spring Security的项目可以无缝迁移到Casbin。同时jCasbin也需要及时跟踪Golang Casbin主库的最新feature并移植到Java版本中来。",
+          "update_time": "2020-05-28",
+          "label": ""
+        },
+        {
+          "name": "PyCasbin完善和优化",
+          "difficulty": "中",
+          "mentor": "techoner",
+          "contact": "techqiang@gmail.com",
+          "student_count": 0,
+          "description": "PyCasbin 是Casbin的Python版实现，功能和 Casbin（Golang）基本一致。目前，PyCasbin实现了Casbin的主要功能，但还有少许功能尚未实现，另外代码质量还有调优的可能，PyCasbin对周边框架的支持不够完善，所以我们希望对PyCasibn进行完善和优化，同时需要对PyCasin的生态予以完善。",
+          "update_time": "2020-05-28",
+          "label": ""
+        },
+        {
+          "name": "PHP-Casbin生态完善",
+          "difficulty": "中",
+          "mentor": "techoner",
+          "contact": "techqiang@gmail.com",
+          "student_count": 0,
+          "description": "PHP-Casbin 是Casbin的PHP版实现，功能和 Casbin（Golang）基本一致。目前，PHP-Casbin已经支持对Laravel ThinkPHP Yii Codeigniter CakePHP 等主流框架的适配。目前还需要开发对Symfony的扩展，C级别的框架进行支持，例如：Phalcon Framework，基于Swoole的框架支持，例如： Hyperf easyswoole等。除此之外，我们也希望Casbin有个PHP的C/C++扩展，以提升性能。",
+          "update_time": "2020-05-28",
+          "label": ""
+        },
+        {
+          "name": "Node-Casbin 生态完善",
+          "difficulty": "低",
+          "mentor": "刘子轩 (Nodece)",
+          "contact": "nodeces@gmail.com",
+          "student_count": 0,
+          "description": "Node-Casbin 在 Node.js 平台上取得了不错的进展，但是我们仍然需要努力工作，以帮助 Casbin 成为世界上最受欢迎的身份授权库。目前 Node-Casbin 已经对koa、egg、express、hapi 等主流框架提供了权限认证中间件，还需要对nest、meteor 提供支持。adapter 是 Casbin 持久化策略的插件，目前我们已经支持TypeORM、Sequelize，这些都是 ORM, 因此我们还需要考虑提供纯数据库驱动的 adapter。",
+          "update_time": "2020-05-28",
+          "label": ""
+        },
+        {
+          "name": "Casbin.NET生态完善",
+          "difficulty": "高",
+          "mentor": "周而易始(huazhikui)",
+          "contact": "huazhikui@126.com",
+          "student_count": 0,
+          "description": "Casbin.NET是Casbin的Dotnet版实现，目前仅完成核心功能，需要对项目进行进一步的优化和完善。目前计划提供一个完成核心能力开箱即用的服务化(RESTful)的解决方案(Casbin.SamNet)，并且适配Steeltoe。",
+          "update_time": "2020-05-28",
+          "label": ""
+        },
+        {
+          "name": "Casbin 仪表盘Web界面（前端React + Javascript，后端Golang）",
+          "difficulty": "高",
+          "mentor": "张合龙 (BetaCat0)",
+          "contact": "outman99@hotmail.com",
+          "student_count": 0,
+          "description": "Casbin-Dashboard（https://dashboard.casbin.org/）是我们近期启动的一个项目，由于Casbin通常在后台运行，没有界面，只有API，配置起来不够友好。因此我们打算开发一个Casbin的图形化界面，即Casbin Dashboard。我们希望Casbin Dashboard能够帮助Casbin的用户，尤其是对代码不熟悉的运维人员，能够通过图形化界面的操作，管理Casbin的模型、策略、正确性、集群运行状态等等。未来一切与Casbin有关的，可图形化的操作，都会集成到Casbin Dashboard中。",
+          "update_time": "2020-05-28",
+          "label": ""
         }
       ]
     },
@@ -2293,7 +2363,7 @@
       "anchor": "/openeuler",
       "img": "openeuler.jpg",
       "title": "openEuler Community",
-      "project_url": " https://gitee.com/openeuler/marketing/blob/master/events/summer2020/tasks.md",
+      "project_url": "https://openeuler.org/zh/events/20200607.html",
       "url": "https://www.openeuler.org",
       "description": "通过社区合作,创新 Linux 平台。",
       "full_des": "openEuler 是一个开源、免费的 Linux 发行版平台,将通过开放的社区形式与全球的开发者共同构建一个开放、多元和架构包容的软件生态体系。同时,openEuler 也是一个创新的平台,鼓励任何人在该平台上提出新想法、开拓新思路、实践新方案。",
@@ -2311,6 +2381,19 @@
       "mail_list": "community@openEuler.org",
       "email": "contact@openeuler.org",
       "project_list": [
+        {
+          "name": "移植 openEuler 至 RK3399 平台",
+          "rules": ["本年度唯一团队项目","限3-6人","奖金额度6万"],
+          "difficulty": "高",
+          "sponsor": "该项目由 openEuler社区 资助",
+          "mentor": ["@overweight","@woqidaideshi"],
+          "contact": ["hexiaowen@huawei.com","yafen@iscas.ac.cn"],
+          "student_count": 2,
+          "hot_index": 4,
+          "description": "openEuler 是一款开源操作系统。当前 openEuler 内核源于 Linux，支持鲲鹏及其它多种处理器，能够充分释放计算芯片的潜能，是由全球开源贡献者构建的高效、稳定、安全的开源操作系统。RK3399 是瑞芯微推出的一款低功耗、高性能的应用处理器芯片。作为 Firefly 新一代的顶级开源平台，RK3399 凭借其高稳定性、高性能、高集成度、高扩展性而广泛用于人脸识别设备、无人机、机器人、游戏机等应用产品。本项目的目标是将 openEuler 移植到 Firefly-RK3399 上，并保证 RK3399 的外设均可用。",
+          "update_time": "2020-05-28",
+          "label": ""
+        },
         {
           "name": "为 openEuler 添加 Xfce 桌面环境并能够运行在树莓派 4B 上",
           "difficulty": "高",
@@ -3777,7 +3860,7 @@
           "label": ""
         },
         {
-          "name": "Volcano工作流可视化UI开发Volcano工作流可视化UI开发",
+          "name": "Volcano工作流可视化UI开发",
           "description": "Implement a UI to show workloads status and dependency relationships.",
           "difficulty": "高",
           "mentor": "Zhonghu Xu",

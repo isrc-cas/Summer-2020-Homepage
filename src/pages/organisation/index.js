@@ -21,16 +21,17 @@ export default class Organisation extends React.Component{
     }
 
     componentDidMount() {
-       
-        window.scrollTo(0,0);
-        this.getAllProjectList();
         const location = window.location.hash;
+        window.scrollTo(0,0);
+        
         if (location.split("page=").length > 1 && location.split("page=")[1]==='project') {
             window.location.hash = "/organisations?page=project";
+            this.getAllProjectList();
             this.switchTab(2);
         } 
         else if (location.split("/organisations")[1] && location.split("/organisations")[1].includes("/")) {
-            this.showModal(location.split("/organisations")[1], true);
+            const anchor = location.split("/organisations")[1];
+            this.showModal(anchor, true); 
         }
         else {
             window.location.hash = "/organisations";
@@ -95,8 +96,6 @@ export default class Organisation extends React.Component{
         this.setState({
             displayProjects: divContainer
         });
-     
-        return divContainer;
     };
     openInNewTab(url) {
         if (url !== "") {
@@ -114,7 +113,7 @@ export default class Organisation extends React.Component{
     }
     showModal(anchor, isDetail) {
         const { orgList } = this.state.data;
-        let index = orgList.findIndex(obj => obj.anchor === anchor);
+        let index = orgList.findIndex(obj => obj.anchor === `/${anchor.split("/")[1]}`);
 
         if (document.getElementById(index+"-tooltip").style.display && document.getElementById(index+"-tooltip").style.display !== 'none' && !isDetail) {
             document.getElementById(index+"-tooltip").style.display = 'none';
@@ -128,7 +127,6 @@ export default class Organisation extends React.Component{
 
                 if (isDetail) {
                     document.getElementById(index+"-orgListItem").style.display = 'none';
-                    // document.getElementById(index+"-tooltip").style.left = 0;
                 }
                 return 0;
             });
@@ -136,37 +134,8 @@ export default class Organisation extends React.Component{
                 this.getOrgProjectList(anchor);
                 window.location.hash.split("/").length > 1 ? window.location.hash = "/organisations" + (anchor ? anchor : "") : void(0);
                 readyWeixin(`社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`, orgList[index].description);
-                console.log('org ready weixin');
                 document.title = `社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
             }
-            // if (window.innerWidth > 1200) {
-            //     switch(index % 3) {
-            //         case 1:
-            //             document.getElementById(index+"-tooltip").style.left = '-409px';
-            //             document.getElementById(index+"-triangle").style.left = '580px';
-            //             break;
-            //         case 2:
-            //             document.getElementById(index+"-tooltip").style.left = '-818px';
-            //             document.getElementById(index+"-triangle").style.left = '989px';
-            //             break;
-            //         default:
-            //             break;
-            //     }
-            //     document.getElementById(index+"-tooltip").style.display = 'flex';
-            // } 
-            // else if(window.innerWidth > 850){
-            //     switch(index % 2) {
-            //         case 1:
-            //             document.getElementById(index+"-tooltip").style.left = `calc(-90vw + 382px)`;
-            //             document.getElementById(index+"-triangle").style.left = `calc(90vw - 300px)`;
-            //             break;
-            //         default:
-            //             document.getElementById(index+"-tooltip").style.left = '0';
-            //             break;
-            //     }
-            //     document.getElementById(index+"-tooltip").style.display = 'flex';
-
-            // } 
             if (window.innerWidth > 845) {
                 document.getElementById(index+"-tooltip").style.display = 'flex';
             }
@@ -176,13 +145,16 @@ export default class Organisation extends React.Component{
             }
             if (isDetail) {
                 document.getElementById(index+"-tooltip").setAttribute("class", "org-tooltip org-detail");
-                
                 document.getElementById(index+"-tooltip").style.display = 'block';
                 document.getElementById("orgListOWrapper").style.display = 'none';
                 document.getElementById("orgListNavBar").style.display = 'block';
-                // document.getElementById(index+"-tooltip").style.left = 0;
-                window.scrollTo(0,0);
-               
+                if (orgList[index].project_list && orgList[index].project_list[0].anchor && anchor.split("/").length === 3) {
+                    alert(orgList[index].project_list[0].anchor)
+                    document.getElementById(orgList[index].project_list[0].anchor).scrollIntoView();
+                    // window.scrollTo(0,750)
+                } else {
+                    window.scrollTo(0,0);
+                }
                 
             } else {
                 document.getElementById(index+"-tooltip").setAttribute("class", "org-tooltip");
@@ -203,7 +175,56 @@ export default class Organisation extends React.Component{
         }
     }
     getProjectList(orgIndex, item, index, orgName, projectUrl) {
-      return (<div
+      return item.sponsor ? 
+      (<div
+        id = {item.anchor}
+        key = {orgIndex+'-'+index}
+        className="orgProjectItem">
+            <div className="orgProjectItemColumn orgLeft org-team">
+                <div className="orgProjectTitleBar">
+                    {/* <div className="orgProjectId">{item.label ? '项目ID: '+item.label : ''}</div> */}
+                    <div className="orgProjectTitleTeam">
+                        {item.name}
+                    </div>
+                    <div className="orgProjectRuleTeam">
+                        {item.rules[0]}&nbsp;&nbsp;&nbsp;&nbsp;{item.rules[1]}&nbsp;&nbsp;&nbsp;&nbsp;{item.rules[2]}
+                    </div>
+                </div>
+                <div className="orgProjectGap"></div>
+                <div className="orgProjectBottomLeft">
+                    {/* <div>已申请团队数：{item.student_count}</div> */}
+                    <div className="orgProjectSponsor">{item.sponsor}</div>
+                </div>
+
+            </div>
+
+            <div className="orgProjectItemColumn orgRight">
+      <div className="orgProjectDes">{item.description}</div>
+                <div>
+                    <ul>
+                        <li>
+                        项目社区导师：{(typeof item.mentor) === "object" ? item.mentor[0]+"、"+item.mentor[1]
+                        : item.mentor}
+                        </li>
+                        <li>
+                        
+                        导师联系方式：{(typeof item.mentor) === "object" ?
+                        <span><a href={"mailto:"+item.contact[0]}>{item.contact[0]}</a> <a href={"mailto:"+item.contact[1]}>{item.contact[1]}</a></span> : <a href={"mailto:"+item.contact}>{item.contact}</a>}
+                        </li>
+                    </ul>
+                    <div
+                        className="tooltip-detail-button orgProjectButton"
+                        onClick={() => this.openInNewTab("https://gitee.com/openeuler/marketing/issues/I1IJ4B")}
+                    >项目详情
+                    <img src={require("./../../img/organisation/arrow.png")} alt=">"></img></div>
+                </div>
+
+            </div>
+
+        </div>)
+    
+      : 
+      (<div
         key = {orgIndex+'-'+index}
         className="orgProjectItem">
             <div className={"orgProjectItemColumn orgLeft org-"+index%3}>
@@ -214,12 +235,12 @@ export default class Organisation extends React.Component{
                     </div>
                     {/* <div className="orgProjectTitleIcon">{this.showHot(item.student_count, item.index)}</div> */}
                 </div>
-                <div className="orgProjectTitleIcon"><img alt="0000000" src={require("./../../img/organisation/"+index%3+".jpg")} /></div>
+                {item.sponsor ? "" : <div className="orgProjectTitleIcon"><img alt="0000000" src={require("./../../img/organisation/"+index%3+".jpg")} /></div>}
                 <div className="orgProjectGap"></div>
                 <div className="orgProjectBottomLeft">
-                    <div>项目难度：{item.difficulty}</div>
+                    <div>{item.difficulty ? "项目难度："+item.difficulty : ""}</div>
                     {/* <div>已申请人数：{item.student_count}</div> */}
-                    <div className="orgProjectName">{orgName}</div>
+                    <div className="orgProjectName">{item.name.includes("RK3399")?"":orgName}</div>
                 </div>
 
             </div>
@@ -229,10 +250,13 @@ export default class Organisation extends React.Component{
                 <div>
                     <ul>
                         <li>
-                        项目社区导师：{item.mentor}
+                        项目社区导师：{(typeof item.mentor) === "object" ? item.mentor[0]+"、"+item.mentor[1]
+                        : item.mentor}
                         </li>
                         <li>
-                        导师联系方式：<a href={"mailto:"+item.contact}>{item.contact}</a>
+                        
+                        导师联系方式：{(typeof item.mentor) === "object" ?
+                        <span><a href={"mailto:"+item.contact[0]}>{item.contact[0]}</a> <a href={"mailto:"+item.contact[1]}>{item.contact[1]}</a></span> : <a href={"mailto:"+item.contact}>{item.contact}</a>}
                         </li>
                     </ul>
                     <div
@@ -248,7 +272,7 @@ export default class Organisation extends React.Component{
     }
     getOrgProjectList(anchor) {
         const {orgList} = this.state.data;
-        let orgIndex = orgList.findIndex(obj => obj.anchor === anchor);
+        let orgIndex = orgList.findIndex(obj => obj.anchor === `/${anchor.split("/")[1]}`);
         let orgItem_ = orgList[orgIndex];
         let orgItem = orgItem_.project_list;
         let orgName = orgItem_.title;
@@ -268,7 +292,8 @@ export default class Organisation extends React.Component{
             totalProjects: temp.length,
             currentProjects: temp,
             currentPage: 1,
-            displayProjects: divContainer
+            displayProjects: divContainer,
+            isLoading:false
         });
     }
 
@@ -402,6 +427,24 @@ export default class Organisation extends React.Component{
                     <div className="orgBannerTitle content1200">
                         <div>开源社区</div>
                         <div className="orgBannerTitle1">&nbsp;&nbsp;&nbsp;&nbsp;开源项目每日更新，欢迎关注！</div>
+                        {window.location.hash.split("page=").length > 1 && window.location.hash.split("page=")[1]==='project' ? 
+                        <div className= "orgBannerTeam">
+                            <p>
+                            特别团队项目
+                            </p>
+                            <p style={{"font-size":"16px"}}>
+                            “移植 openEuler 至 RK3399 平台”
+                            </p>
+                            <p className="orgBannerTeamDes">
+                            本年度唯一团队项目&nbsp;&nbsp;&nbsp;&nbsp;限3-6人&nbsp;&nbsp;&nbsp;&nbsp;奖金额度6万
+                            </p>
+                            <div className="orgBannerButton" onClick={()=>this.openInNewTab("https://gitee.com/openeuler/marketing/issues/I1IJ4B")}>
+                            了解更多
+                            <img src={require("./../../img/organisation/arrow.png")} alt=">"></img>
+                            </div>
+                        </div> 
+                        : ""
+                        }
                     </div>
                     
                 </div>
@@ -502,7 +545,9 @@ export default class Organisation extends React.Component{
                             )
                         })
                     }
+
                 </div>
+                <div className="OrgCommitteePinyin content1200">*按单位名称英文字母、中文拼音字母排序</div>
 
                 </div>
                   <div id="orgListOWrapper">

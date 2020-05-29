@@ -443,6 +443,7 @@ export default class Index extends React.Component{
                             <div  className="indexHomeOrListOpensource">
                                 {this.getOpensource()}
                             </div>
+                            <div className="HowitworksCommitteePinyin">*按单位名称英文字母、中文拼音字母排序</div>
                         </div>
                </div>
            </div>
