@@ -2350,7 +2350,7 @@
         {
           "name": "Incremental and Batch Simplification of Point Clouds",
           "difficulty": "中",
-          "mentor": "Intel OpenCV team member",
+          "mentor": "Mihai Bujanca",
           "contact": "admin@opencv.org.cn",
           "student_count": 0,
           "description": "With a rapid growth of computer vision application areas such as robotics, self-driving cars, drones, as well as augmented reality, and with increasing availability of various depth sensors, there is also more demand in software that would be able to process point clouds coming from these sensors efficiently in realtime on low-power processors. And so the efficient cloud processing becomes one of OpenCV strategic directions. Reducing the number of points in a point cloud prior to triangulation can be used to simultaneously improve the quality of point clouds and reduce the memory footprint. This project aims at an efficient implementation of the “Incremental and Batch Planar Simplification of Dense Point Cloud Maps paper” (see link in Resources).",
