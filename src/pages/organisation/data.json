@@ -886,7 +886,7 @@
       "anchor": "/chubao",
       "img": "chubao.jpg",
       "title": "ChubaoFS (CNCF sandbox)",
-      "project_url": "",
+      "project_url": "https://github.com/chubaofs/open-source-promotion-plan-summer-2020-tasks",
       "url": "https://www.chubao.io",
       "description": "开源云原生存储平台。",
       "full_des": "ChubaoFS 是一个开源，开放的云原生存储平台，提供分布式文件系统与对象存储服务，为云原生应用提供计算与存储分离的持久化存储方案，通过开放的社区形式与全球开发者共建一个开源，开放，多元与包容的生态体系，打造一个拥抱云原生的存储平台。同时 ChubaoFS 社区也是一个技术活跃，鼓励创新，不断开拓技术新方案与最佳实践的平台。",
@@ -961,6 +961,98 @@
           "description": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低；春松客服是一个先进的客服系统。其目标是成为客服系统行业中的一个“操作系统”，企业、开发者都可以基于此操作系统开发各种客服业务的“应用”；春松客服系统被大量的下载和使用，目前除了官方发布的基础功能外，非常期待社区开发者企业可以push更多的插件应用，让其更加的丰富，功能更加的强大，普惠更多的人；要在春松客服操作系统中开发插件应用，需要遵循其插件化开发方法，具体参考插件的安装和源码参考；本次活动官方推荐但不限于开发如下的插件：聊天渠道的插件如：微信公众号/企业微信/钉钉/微博/飞书/facebook/skype/Email/电话等等；报表管理",
           "update_time": "2020-05-15",
           "label": "2010049"
+        }
+      ]
+    },
+    {
+      "anchor": "/claps",
+      "img": "claps.jpg",
+      "title": "Claps",
+      "project_url": "https://github.com/claps-dev/Summer2020",
+      "url": "https://github.com/lyricat/claps.dev",
+      "description": "使用加密货币资助创作者和开源项目。",
+      "full_des": "为开源项目做出贡献的人们需要您支持他们的工作。 两者都进行初始工作，并且要保持它既费时又费钱。 Claps.dev的捐赠系统旨在提供一种为创作者和团队筹集基本收入的好方法，使他们能够继续做对所有人都有好处的出色工作。",
+      "tech_tag": [
+        "NodeJS",
+        "Cryptocurrency",
+        "Blockchain"
+      ],
+      "domain_tag": [
+        "数字货币",
+        "区块链"
+      ],
+      "mail_list": "community@meri.co",
+      "email": "contact@meri.co",
+      "project_list": [
+        {
+          "name": "接入 Persper 评价算法",
+          "difficulty": "中",
+          "mentor": "Lyric",
+          "contact": "w@fox.one",
+          "student_count": 0,
+          "description": "将新增项目的 git url 提交到 Persper，并且编写一个 job，定期从 Persper 获取最新的贡献值数据，将数据写入 Claps 数据库。",
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "根据不同评价算法给开发者分配捐赠",
+          "difficulty": "中",
+          "mentor": "Lyric",
+          "contact": "w@fox.one",
+          "student_count": 0,
+          "description": "目前，所有的分配方式都是平均分的。但是我们预留了另外三种分配方式，分别为：按照 Persper 贡献值分；按照代码行数分；按照 Commit 数量分。需要设计三种不同的 distribute 方法，当用户捐赠时，可以选择任意一种，然后使用该方法进行分配。",
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "可配置接受捐赠的货币种类",
+          "difficulty": "低",
+          "mentor": "Lyric",
+          "contact": "w@fox.one",
+          "student_count": 0,
+          "description": "每个项目现在可接受捐赠的货币种类是固定的。需要为每个项目添加单独的配置，让每个项目支持不同的可捐赠货币种类。",
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "页面 UI 改造",
+          "difficulty": "低",
+          "mentor": "Lyric",
+          "contact": "w@fox.one",
+          "student_count": 0,
+          "description": "现在项目 UI 比较简陋，需将其改造，PC 和移动端都有较好的浏览体验",
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "管理员后台",
+          "difficulty": "高",
+          "mentor": "Lyric",
+          "contact": "w@fox.one",
+          "student_count": 0,
+          "description": "现在 Claps 没有管理员后台，需要设计和实现管理员后台，支持如下功能：管理项目，初始化项目钱包，管理项目 repo，管理项目成员，管理用户，查看捐赠流水",
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "自助开源项目提交",
+          "difficulty": "高",
+          "mentor": "Lyric",
+          "contact": "w@fox.one",
+          "student_count": 0,
+          "description": "任何开发者都可以向 claps 提交项目。提交项目需包含至少一条 git repo url。程序需要检查该 url，并且确保该 url 与提交账号之间时所属关系。程序将提交记录通知管理员，管理员可以审批项目上线。",
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "项目 widget",
+          "difficulty": "中",
+          "mentor": "Lyric",
+          "contact": "w@fox.one",
+          "student_count": 0,
+          "description": "每一个项目都可以提供一小段代码，生成 widget。任何一个人都可以将这段代码挂在自己的博客、Github Readme、网页。点击这个 widget 可以打开项目主页。widget 上显示项目已经收到了多少捐赠。",
+          "update_time": "2020-05-29",
+          "label": ""
         }
       ]
     },
@@ -1701,7 +1793,7 @@
       "anchor": "/kernal-travel",
       "img": "kernal.jpg",
       "title": "Linux 内核之旅",
-      "project_url": "",
+      "project_url": "http://kerneltravel.net/project/",
       "url": "http://kerneltravel.net/",
       "description": "Linux 内核爱好者的家园。",
       "full_des": "Linux 内核之旅开源社区是一个完全自由和开放的平台，创建于2004年，重构于2020年，社区以国际开源社区的方式运作，所有人都可以参与到Linux内核之旅开源社区的共建中，您是贡献者，也是受益者。社区由网站、公众号、慕课、Github和视频网站五大模块构成，为Linux内核爱好者提供丰富的学习资源，恳请你的参与。",
@@ -1714,7 +1806,20 @@
         "操作系统"
       ],
       "mail_list": "kerneltravel@groups.163.com",
-      "email": "liangjinrong111@163.com"
+      "email": "liangjinrong111@163.com",
+      "project_list": [
+        {
+          "name": "Linux显微镜",
+          "description": "LMP(Linux microscope)是一个基于bcc(BPF Compiler Collection)的Linux系统性能数据实时展示的web工具，它使用BPF(Berkeley Packet Filters)，也叫eBPF技术，提取Linux内核细粒度性能数据，展示在web界面，为运维人员提供参考。",
+          "difficulty": "低",
+          "mentor": "陈莉君",
+          "contact": "cljcore@126.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        }
+      ]
     },
     {
       "anchor": "/mace",
@@ -3143,7 +3248,7 @@
       "anchor": "/ros-navigation",
       "img": "ros.jpg",
       "title": "ROS Navigation",
-      "project_url": "https://github.com/ros-planning/navigation2/issues?q=is%3Aissue+is%3Aopen+label%3A%22summer+sprint%22",
+      "project_url": "https://navigation.ros.org/2020summerOfCode/projects/create_configuration_assistant.html",
       "url": "https://navigation.ros.org",
       "description": "Mobile robot navigation framework and system.",
       "full_des": "ROS2 Navigation is a community working to build a high-quality production grade navigation system on ROS2. ROS2 is particularly well suited for production due to its real-time, multi-platform, and secure features. Navigation2 seeks to build a navigation framework to support all manner of mobile robots including differential, omnidirectional, legged, ackermann (cars), and more. We also provide implementations of robust base algorithms to use to get your robot up and running quickly with a rich ecosystem of tools and conventions. Our framework is built using modern multi-processor techniques and behavior trees to enable custom and complex behaviors for your mobile robot system.",
@@ -3362,7 +3467,7 @@
       "anchor": "/soda-foundation",
       "img": "soda.jpg",
       "title": "SODA Foundation",
-      "project_url": "",
+      "project_url": "https://github.com/sodafoundation/ecosystem/blob/master/events/Open_Source_Promotion_Plan_Summer_2020.md",
       "url": "https://sodafoundation.io",
       "description": "开放智能的数据管理平台。",
       "full_des": "SODA 是 Linux 基金会在数据与存储领域的第一个子基金会，由华为联合业界领先的数据与存储供应商，以及全球各行业的优秀企业共同建立，旨在帮助用户更好的应当对数据基础设施云化转型过程中的各种挑战。SODA从成立至今，已吸引华为，中国联通，FUJITSU，建信金科，NTT，TOYOTA，SONY，YAHOO!JAPAN，CESI等21家全球知名公司加入。SODA社区主要包含北向插件项目（nbp），存储控制器项目（opensds），多云项目（multi-cloud），编排项目（orchestration），用户界面项目（opensds-dashboard），安装部署项目（opensds-intaller）等9个项目。其中，nbp用于支持SODA存储服务与云及应用框架进行北向对接；opensds用于统一管理本地数据中心和云端的块、文件、对象存储；multi-cloud是基于策略的多云数据控制器，支持跨云数据流动以及数据生命周期管理。",
@@ -3868,6 +3973,109 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-28",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "anchor": "/wechaty",
+      "img": "wechaty.jpg",
+      "title": "Wechaty",
+      "project_url": "https://github.com/wechaty/summer-of-code/issues/3",
+      "url": "https://github.com/wechaty",
+      "description": "Conversational AI RPA Chatbot SDK for Wechat Individual Account.",
+      "full_des": "Wechaty 是一个开源聊天机器人框架SDK，具有高度封装、高可用的特性，支持NodeJs,  Python,  Go 和Java 等多语言版本。在过去的4年中，服务了数万名开发者，收获了 Github 的 8000 Star。同时配置了完整的DevOps体系并持续按照Apache 的方式管理技术社区。",
+      "tech_tag": [
+        "Conversational AI", 
+        "NLP", 
+        "TypeScript", 
+        "Python", 
+        "Go", 
+        "Java"
+      ],
+      "domain_tag": [
+        "Conversational AI",
+        "NLP",
+        "Chatbot"
+      ],
+      "mail_list": "wechaty@googlegroups.com",
+      "email": "wechaty@chatie.io",
+      "project_list": [
+        {
+          "name": "基于开放 API 封装 Wechaty 接口下的企业微信聊天机器人",
+          "description": "企业需要将聊天记录储存并进行分析，但接口过于复杂，需要基于现有开放接口进行二次封装企业微信作为微信的企业版，提供多种API来满足企业的不同需求。而企业微信提供的会话存档功能能满足企业消息做留存、进而通过分析大量的消息数据优化工作流程、追责和质检这一需求。 但是，企业微信的会话存档接口因为安全要求很高，所以有很多的加密，解析等工作，虽然一方面保证了安全性，但是却大大增加了开发的难度。Wechaty是全球最大的开源聊天机器人框架，希望实现基于同一套应用层代码实现不同软件的聊天机器人 Wechaty 作为全球最大的聊天机器人开发者社区之一，提供了非常简单的接口实现，让开发者能够用6行代码就实现自己的一个聊天机器人，如果能把企业微信的会话存档接口封装到 Wechaty 里来，则可以大大简化企业内开发者的开发流程。因为 Wechaty 是建立在 puppet 系统之上的，puppet 是 Wechaty 依赖的一层抽象层，它定义了底层各个 IM 接入方案需要实现的接口，也正是因为 puppet 抽象层的存在，让很多 Wechaty 开发者可以仅仅通过一个变量，就能够随意切换不同的底层 IM 接入。",
+          "difficulty": "高",
+          "mentor": "高原",
+          "contact": "gaoyuan@juzi.bot",
+          "co-mentor": "李佳芮 rui@juzi.bot",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "Wechaty Java 移植组件开发",
+          "description": "Wechaty 使用 TypeScript 进行开发，目前 Java 移植版也在开发进程中。目前完成基本功能开发，可以实现部分 TypeScript 版本功能。需要继续对 StateSwitch，MemoryCard 等核心组件进行移植开发。 Wechaty是全球最大的开源聊天机器人框架，希望实现基于同一套应用层代码实现不同软件的聊天机器人 Wechaty 作为全球最大的聊天机器人开发者社区之一，提供了非常简单的接口实现，让开发者能够用6行代码就实现自己的一个聊天机器人，如果能把企业微信的会话存档接口封装到 Wechaty 里来，则可以大大简化企业内开发者的开发流程。因为 Wechaty 是建立在 puppet 系统之上的，puppet 是 Wechaty 依赖的一层抽象层，它定义了底层各个 IM 接入方案需要实现的接口，也正是因为 puppet 抽象层的存在，让很多 Wechaty 开发者可以仅仅通过一个变量，就能够随意切换不同的底层 IM 接入。",
+          "difficulty": "低",
+          "mentor": "刁政欣",
+          "contact": "diaozxin@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "python-wechaty 自动化测试构建和发布",
+          "description": "开源项目在不断迭代更新的过程中会存在很多的单元测试，项目构建和版本发布等任务，而这一系列的操作过程如果使用人力来完成的话，会存在大量的劳动力浪费，故需要一个自动化测试构建和发布的工具，而这个工具简称为CI/CD。Github有一套很完备的工具来完成这个过程。此次的项目主要是为python-wechaty开发一套Github自动化测试，构建和发布的流程。",
+          "difficulty": "中",
+          "mentor": "吴京京",
+          "contact": "1435130236@qq.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "基于python-wechaty的群聊助手机器人",
+          "description": "在实际工作和学习过程中，微信作为主要的沟通渠道工具，承载着主要的事件发布任务。可是由于群聊信息是依时间线展开，一旦信息数量过大，将导致历史消息难以寻找。故此时需要一款群聊助手机器人，能够根据引用消息的回复，提取出其中的历史消息，并将其打上对应的标签同时保存到服务器本地。消息是保存在群聊助手机器人内部中，群内人员只需要艾特助手机器人即可查询历史消息，同时会定时清除和展示一定时间段内的历史打标消息，同时还支持手动清除和展示历史打标消息。请基于python-wechaty制作一个群聊助手机器人，完成群聊消息打标任务。",
+          "difficulty": "高",
+          "mentor": "吴京京",
+          "contact": "1435130236@qq.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "基于Python-wechaty建立一个斗图机器人",
+          "description": "斗图功能是目前很多年轻人，甚至很多00后非常喜欢玩的，很受20岁左右的人的喜爱。目前市面上有很多斗图的软件，自动生成斗图的软件，还有很多自制的表情包也拿出来斗图，其下载量也还是不错的。所以说，在此背景下，开发出一款基于Python-wechaty的斗图机器人也是不错的。",
+          "difficulty": "中偏高",
+          "mentor": "黄纯洪",
+          "contact": "huangaszaq@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "Go-wechaty Github Action optimization",
+          "description": "Github Action 已经发布有段时间了，在 go-wechaty 的 单元测试，代码检测和代码评级均有已有所落地。但是 Github Action 的玩法远非于此，如果你对 Github 平台很有兴趣，我想你可以基于此学到更多的玩法。在这里你可以获得相应的技术指导，可以获得项目的持续集成等知识。",
+          "difficulty": "中",
+          "mentor": "丁小雨",
+          "contact": "614422099@qq.com",
+          "co-mentor": "丁超飞<dchaofei@163.com> 李博杰<silkage@silkage.net>",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "为 go-wechaty 设计实现 插件体系",
+          "description": "wechaty 是一个款支持多协议的微信接入方案，随着社区多语言生态的建立，吸引了更多的开发者和爱好者的加入；同时需求的推动和技术的发展，插件系统逐渐完善，但是在多语言系统中 Plugin 体系尚未完成，我们希望通过这个任务，能够让更多的人加入 go-wechaty 的建设。目前 go-wechaty examples/ding-dong-bot.go 有一个 ding-dong bot, 但是我们希望这个 ding-dong 是通用的，如果我们的 Plugin 体系能编写出来，也许实现 ding-dong 就只需要一行代码。",
+          "difficulty": "中",
+          "mentor": "丁小雨",
+          "contact": "614422099@qq.com",
+          "co-mentor": "丁超飞<dchaofei@163.com> 李博杰<silkage@silkage.net>",
+          "student_count": 0,
+          "update_time": "2020-05-29",
           "label": ""
         }
       ]
