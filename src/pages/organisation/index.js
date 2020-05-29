@@ -21,16 +21,17 @@ export default class Organisation extends React.Component{
     }
 
     componentDidMount() {
-       
-        window.scrollTo(0,0);
-        this.getAllProjectList();
         const location = window.location.hash;
+        window.scrollTo(0,0);
+        
         if (location.split("page=").length > 1 && location.split("page=")[1]==='project') {
             window.location.hash = "/organisations?page=project";
+            this.getAllProjectList();
             this.switchTab(2);
         } 
         else if (location.split("/organisations")[1] && location.split("/organisations")[1].includes("/")) {
-            this.showModal(location.split("/organisations")[1], true);
+            const anchor = location.split("/organisations")[1];
+            this.showModal(anchor, true); 
         }
         else {
             window.location.hash = "/organisations";
@@ -95,8 +96,6 @@ export default class Organisation extends React.Component{
         this.setState({
             displayProjects: divContainer
         });
-     
-        return divContainer;
     };
     openInNewTab(url) {
         if (url !== "") {
@@ -114,7 +113,7 @@ export default class Organisation extends React.Component{
     }
     showModal(anchor, isDetail) {
         const { orgList } = this.state.data;
-        let index = orgList.findIndex(obj => obj.anchor === anchor);
+        let index = orgList.findIndex(obj => obj.anchor === `/${anchor.split("/")[1]}`);
 
         if (document.getElementById(index+"-tooltip").style.display && document.getElementById(index+"-tooltip").style.display !== 'none' && !isDetail) {
             document.getElementById(index+"-tooltip").style.display = 'none';
@@ -135,7 +134,6 @@ export default class Organisation extends React.Component{
                 this.getOrgProjectList(anchor);
                 window.location.hash.split("/").length > 1 ? window.location.hash = "/organisations" + (anchor ? anchor : "") : void(0);
                 readyWeixin(`社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`, orgList[index].description);
-                console.log('org ready weixin');
                 document.title = `社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
             }
             if (window.innerWidth > 845) {
@@ -150,7 +148,14 @@ export default class Organisation extends React.Component{
                 document.getElementById(index+"-tooltip").style.display = 'block';
                 document.getElementById("orgListOWrapper").style.display = 'none';
                 document.getElementById("orgListNavBar").style.display = 'block';
-                window.scrollTo(0,0);
+                if (orgList[index].project_list && orgList[index].project_list[0].anchor && anchor.split("/").length === 3) {
+                    alert(orgList[index].project_list[0].anchor)
+                    document.getElementById(orgList[index].project_list[0].anchor).scrollIntoView();
+                    // window.scrollTo(0,750)
+                } else {
+                    window.scrollTo(0,0);
+                }
+                
             } else {
                 document.getElementById(index+"-tooltip").setAttribute("class", "org-tooltip");
             }
@@ -172,6 +177,7 @@ export default class Organisation extends React.Component{
     getProjectList(orgIndex, item, index, orgName, projectUrl) {
       return item.sponsor ? 
       (<div
+        id = {item.anchor}
         key = {orgIndex+'-'+index}
         className="orgProjectItem">
             <div className="orgProjectItemColumn orgLeft org-team">
@@ -181,7 +187,7 @@ export default class Organisation extends React.Component{
                         {item.name}
                     </div>
                     <div className="orgProjectRuleTeam">
-                        {item.rules[0]}&nbsp;&nbsp;&nbsp;&nbsp;{item.rules[1]}
+                        {item.rules[0]}&nbsp;&nbsp;&nbsp;&nbsp;{item.rules[1]}&nbsp;&nbsp;&nbsp;&nbsp;{item.rules[2]}
                     </div>
                 </div>
                 <div className="orgProjectGap"></div>
@@ -193,7 +199,7 @@ export default class Organisation extends React.Component{
             </div>
 
             <div className="orgProjectItemColumn orgRight">
-      <div className="orgProjectDes">{item.description ? item.description : "项目描述见 "}<a href={projectUrl} target="_blank" rel="noopener noreferrer">{item.description ? "" : "社区“暑期2020”主页"}</a></div>
+      <div className="orgProjectDes">{item.description}</div>
                 <div>
                     <ul>
                         <li>
@@ -208,7 +214,7 @@ export default class Organisation extends React.Component{
                     </ul>
                     <div
                         className="tooltip-detail-button orgProjectButton"
-                        onClick={() => this.openInNewTab(projectUrl)}
+                        onClick={() => this.openInNewTab("https://gitee.com/openeuler/marketing/issues/I1IJ4B")}
                     >项目详情
                     <img src={require("./../../img/organisation/arrow.png")} alt=">"></img></div>
                 </div>
@@ -266,7 +272,7 @@ export default class Organisation extends React.Component{
     }
     getOrgProjectList(anchor) {
         const {orgList} = this.state.data;
-        let orgIndex = orgList.findIndex(obj => obj.anchor === anchor);
+        let orgIndex = orgList.findIndex(obj => obj.anchor === `/${anchor.split("/")[1]}`);
         let orgItem_ = orgList[orgIndex];
         let orgItem = orgItem_.project_list;
         let orgName = orgItem_.title;
@@ -286,7 +292,8 @@ export default class Organisation extends React.Component{
             totalProjects: temp.length,
             currentProjects: temp,
             currentPage: 1,
-            displayProjects: divContainer
+            displayProjects: divContainer,
+            isLoading:false
         });
     }
 
@@ -423,12 +430,15 @@ export default class Organisation extends React.Component{
                         {window.location.hash.split("page=").length > 1 && window.location.hash.split("page=")[1]==='project' ? 
                         <div className= "orgBannerTeam">
                             <p>
-                            移植 openEuler 至 RK3399 平台
+                            特别团队项目
+                            </p>
+                            <p style={{"font-size":"16px"}}>
+                            “移植 openEuler 至 RK3399 平台”
                             </p>
                             <p className="orgBannerTeamDes">
-                            团队项目(3-6人)&nbsp;&nbsp;&nbsp;&nbsp;奖金额度6万
+                            本年度唯一团队项目&nbsp;&nbsp;&nbsp;&nbsp;限3-6人&nbsp;&nbsp;&nbsp;&nbsp;奖金额度6万
                             </p>
-                            <div className="orgBannerButton" onClick={()=>this.openInNewTab("https://gitee.com/openeuler/marketing/blob/master/events/summer2020/tasks.md")}>
+                            <div className="orgBannerButton" onClick={()=>this.openInNewTab("https://gitee.com/openeuler/marketing/issues/I1IJ4B")}>
                             了解更多
                             <img src={require("./../../img/organisation/arrow.png")} alt=">"></img>
                             </div>
