@@ -982,7 +982,79 @@
         "区块链"
       ],
       "mail_list": "community@meri.co",
-      "email": "contact@meri.co"
+      "email": "contact@meri.co",
+      "project_list": [
+        {
+          "name": "接入 Persper 评价算法",
+          "difficulty": "中",
+          "mentor": "Lyric",
+          "contact": "w@fox.one",
+          "student_count": 0,
+          "description": "将新增项目的 git url 提交到 Persper，并且编写一个 job，定期从 Persper 获取最新的贡献值数据，将数据写入 Claps 数据库。",
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "根据不同评价算法给开发者分配捐赠",
+          "difficulty": "中",
+          "mentor": "Lyric",
+          "contact": "w@fox.one",
+          "student_count": 0,
+          "description": "目前，所有的分配方式都是平均分的。但是我们预留了另外三种分配方式，分别为：按照 Persper 贡献值分；按照代码行数分；按照 Commit 数量分。需要设计三种不同的 distribute 方法，当用户捐赠时，可以选择任意一种，然后使用该方法进行分配。",
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "可配置接受捐赠的货币种类",
+          "difficulty": "低",
+          "mentor": "Lyric",
+          "contact": "w@fox.one",
+          "student_count": 0,
+          "description": "每个项目现在可接受捐赠的货币种类是固定的。需要为每个项目添加单独的配置，让每个项目支持不同的可捐赠货币种类。",
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "页面 UI 改造",
+          "difficulty": "低",
+          "mentor": "Lyric",
+          "contact": "w@fox.one",
+          "student_count": 0,
+          "description": "现在项目 UI 比较简陋，需将其改造，PC 和移动端都有较好的浏览体验",
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "管理员后台",
+          "difficulty": "高",
+          "mentor": "Lyric",
+          "contact": "w@fox.one",
+          "student_count": 0,
+          "description": "现在 Claps 没有管理员后台，需要设计和实现管理员后台，支持如下功能：管理项目，初始化项目钱包，管理项目 repo，管理项目成员，管理用户，查看捐赠流水",
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "自助开源项目提交",
+          "difficulty": "高",
+          "mentor": "Lyric",
+          "contact": "w@fox.one",
+          "student_count": 0,
+          "description": "任何开发者都可以向 claps 提交项目。提交项目需包含至少一条 git repo url。程序需要检查该 url，并且确保该 url 与提交账号之间时所属关系。程序将提交记录通知管理员，管理员可以审批项目上线。",
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "项目 widget",
+          "difficulty": "中",
+          "mentor": "Lyric",
+          "contact": "w@fox.one",
+          "student_count": 0,
+          "description": "每一个项目都可以提供一小段代码，生成 widget。任何一个人都可以将这段代码挂在自己的博客、Github Readme、网页。点击这个 widget 可以打开项目主页。widget 上显示项目已经收到了多少捐赠。",
+          "update_time": "2020-05-29",
+          "label": ""
+        }
+      ]
     },
     {
       "anchor": "/elastos",
