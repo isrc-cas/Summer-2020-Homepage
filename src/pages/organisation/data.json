@@ -459,7 +459,49 @@
         "微服务"
       ],
       "mail_list": "https://servicecomb.apache.org/cn/developers/subscribe-mail-list",
-      "email": "dev@servicecomb.apache.org"
+      "email": "dev@servicecomb.apache.org",
+      "project_list": [
+        {
+          "name": "微服务一键部署工具",
+          "description": "一个微服务系统会包含会多个微服务，微服务框架本身的也会包含多个组件，如注册中心，网关，分布式事务组件等，如何方便快速的将整个微服务在不同的环境中迁移是一个挑战。希望能使用Terraform开发一个工具，帮助ServiceComb微服务 应用一键迁移上云。（AWS, 华为云等）。",
+          "difficulty": "中",
+          "mentor": "田晓亮",
+          "contact": "xiaoliang.tian@gmail.com",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "Java-chassis 支持 JDK 14",
+          "description": "Java-chassis是ServiceComb微服务框架的Java SDK, 希望调整它的部分源代码，实现当开发者使用JDK 14 + java-chassis开发微服务时能正常开发，同时java-chassis在JDK14下能通过所有的测试用例。",
+          "difficulty": "中",
+          "mentor": "刘宝",
+          "contact": "liubao@apache.org",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "添加新的Object Storage Service云服务SDK组件，方便微服务开发者使用OBS",
+          "description": "企业进行微服务转型的一大原因是为了更方便的上云，通过为开发者提供健壮的OBS访问SDK，让开发者可以简单的使用注解将OBS储存的内容 注入java对象实例中。",
+          "difficulty": "低",
+          "mentor": "田晓亮",
+          "contact": "xiaoliang.tian@gmail.com",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "丰富ServiceComb Pack在分布式事务场景下的验收测试",
+          "description": "ServiceComb Pack作为一个分布式事务引擎，需要有完善的验收测试来保证其服务功能的完备性。 任务描述参见SCB-306。此任务包含验收测试的场景分析整理，以及缺失场景的代码实现。通过此任务你可以学习到如何动态注入故障，验收测试框架的使用，以及自动化测试的常用工具。",
+          "difficulty": "中",
+          "mentor": "姜宁",
+          "contact": "ningjiang@apache.org",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        }
+      ]
     },
     {
       "anchor": "apache-sharding",
