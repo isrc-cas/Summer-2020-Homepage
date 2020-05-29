@@ -3464,7 +3464,141 @@
         "DEV"
       ],
       "mail_list": "",
-      "email": "partner@postgresqlchina.com"
+      "email": "partner@postgresqlchina.com",
+      "project_list": [
+        {
+          "name": "Walminer2.0",
+          "description": "walminer是开源数据库PsotgreSQL的wal日志解析工具，开源地址为https://gitee.com/movead/XLogMiner。目前walminer已经有一个版本，但是此版本有诸多遗留问题，比如解析效率低下，不支持解析并行事务，使用场景单一等。WalMiner2.0旨在解决第一个版本存在的问题，并开发更多适用场景。",
+          "difficulty": "中",
+          "mentor": "李传成",
+          "contact": "lchch1990@sina.cn",
+          "co-mentor": "Grant Zhou",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "Oracle数据库到PostgreSQL数据库迁移转换持续集成",
+          "description": "Oracle数据库里结构对象迁移到PostgreSQL，数据库对象包括表、视图、同义词、物化视图、函数、存储过程、包及包体等",
+          "difficulty": "中",
+          "mentor": "彭冲",
+          "contact": "pcsuccess@sina.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+         "name": "PgSql移植计划",
+         "description": "将一系列应用后台数据库从SqlServer移植到PgSql数据库上，",
+         "difficulty": "中",
+         "mentor": "王斌",
+         "contact": "wb_eai@qq.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "实现MongoDB FDW的排序、联接和聚合的下推",
+          "description": "实现PostgreSQLc插件MongoDB FDW的排序、联接和聚合的下推",
+          "difficulty": "高",
+          "mentor": "Hamid Akhtar",
+          "contact": "hamid.akhtar@highgo.ca",
+          "co-mentor": "Ahsan Hadi",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "在pl/pgsql语言上添加游标(cursor)属性的支持",
+          "description": "向PostgreSQL项目中的pl/pgsql语言添加对游标(cursor)属性的支持",
+          "difficulty": "中",
+          "mentor": "Rana Asif",
+          "contact": "asif.rana@highgo.ca",
+          "co-mentor": "Ahsan Hadi",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "在PostgreSQL的存储过程中启用\"OUT\"参数",
+          "description": "在PostgreSQL的存储过程中启用\"OUT\"参数",
+          "difficulty": "中",
+          "mentor": "DAVID ZHANG",
+          "contact": "david.zhang@highgo.ca",
+          "co-mentor": "GRANT ZHOU",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "利用机器学习自动优化PostgreSQL版本12和版本13",
+          "description": "升级OtterTune（一个通过机器学习自动优化数据库的项目）可以自动调整控制PostgreSQL 12和13的所有配置，以获得“最佳”性能。",
+          "difficulty": "中",
+          "mentor": "David Zhang",
+          "contact": "david.zhang@highgo.ca",
+          "co-mentor": "Grant Zhou",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "让pgcrypto更安全 - 更好的密钥管理（KMS）",
+          "description": "Pgcrypto是一个PG扩展，提供许多加密功能，这些功能允许数据库用户保护其数据，但是它没有用于管理加密密钥的综合系统，因此在某些情况下pgcrypto被视为不安全。 在项目结束时，应将更好的加密密钥管理例程与当前的pgcrypto扩展集成在一起，以便更好地管理和保护所有加密密钥。",
+          "difficulty": "中",
+          "mentor": "Cary Huang",
+          "contact": "cary.huang@highgo.ca",
+          "co-mentor": "Grant Zhou",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "将Redis作为Pgpool-II缓存服务",
+          "description": "Redis缓存，并允许将多个Pgpool-II实例与内存中查询缓存一起使用",
+          "difficulty": "高",
+          "mentor": "Muhammad Usama",
+          "contact": "m.usama@highgo.ca",
+          "co-mentor": "Ahsan Hadi",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "添加PCP和看门狗的IPv6网络支持",
+          "description": "支持PCP和看门狗的IPv6网络",
+          "difficulty": "中",
+          "mentor": "穆罕默德·乌萨马（Muhammad Usama）",
+          "contact": "m.usama@highgo.ca",
+          "co-mentor": "Ahsan Hadi",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "向窗口函数添加并行性",
+          "description": "向PostgreSQL中的窗口函数添加并行性支持",
+          "difficulty": "高",
+          "mentor": "Rana Asif",
+          "contact": "asif.rana@highgo.ca",
+          "co-mentor": "Ahsan Hadi",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "分区表的分割和合并命令",
+          "description": "添加PG分区表的分割和合并命令支持",
+          "difficulty": "高",
+          "mentor": "Rana Asif",
+          "contact": "asif.rana@highgo.ca",
+          "co-mentor": "Ahsan Hadi",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        }
+      ]
     },
     {
       "anchor": "rcore-os",
