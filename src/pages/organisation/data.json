@@ -1,7 +1,7 @@
 {
   "orgList": [
     {
-      "anchor": "/aosc",
+      "anchor": "aosc",
       "img": "aosc.jpg",
       "title": "安同开源社区（AOSC）",
       "project_url": "https://wiki.aosc.io/zh/ospp-2020-projects",
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "anchor": "/apache-apisix",
+      "anchor": "apache-apisix",
       "img": "ApacheAPISIX.jpg",
       "title": "Apache APISIX (incubating)",
       "project_url": "https://cwiki.apache.org/confluence/display/APISIX/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "anchor": "/apache-ds",
+      "anchor": "apache-ds",
       "img": "dolphin.jpg",
       "title": "Apache DolphinScheduler (incubating)",
       "project_url": "https://cwiki.apache.org/confluence/display/DOLPHINSCHEDULER/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
@@ -381,7 +381,7 @@
       ]
     },
     {
-      "anchor": "/apache-pulsar",
+      "anchor": "apache-pulsar",
       "img": "pulsar.jpg",
       "title": "Apache Pulsar",
       "project_url": "https://github.com/apache/pulsar/wiki/Open-Source-Promotion-Plan---Summer-2020-Apache-Pulsar-Tasks",
@@ -440,7 +440,7 @@
       ]
     },
     {
-      "anchor": "/apache-servicecomb",
+      "anchor": "apache-servicecomb",
       "img": "service-comb.jpg",
       "title": "Apache ServiceComb",
       "project_url": "http://servicecomb.apache.org/cn/summer2020",
@@ -462,7 +462,7 @@
       "email": "dev@servicecomb.apache.org"
     },
     {
-      "anchor": "/apache-sharding",
+      "anchor": "apache-sharding",
       "img": "sharding.jpg",
       "title": "Apache ShardingSphere",
       "project_url": "https://cwiki.apache.org/confluence/display/SHARDINGSPHERE/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
@@ -534,7 +534,7 @@
       ]
     },
     {
-      "anchor": "/apache-sw",
+      "anchor": "apache-sw",
       "img": "ApacheSkyWalking.jpg",
       "title": "Apache SkyWalking",
       "project_url": "https://cwiki.apache.org/confluence/display/SKYWALKING/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
@@ -704,7 +704,7 @@
       ]
     },
     {
-      "anchor": "/casbin",
+      "anchor": "casbin",
       "img": "casbin.jpg",
       "title": "Casbin",
       "project_url": "https://github.com/casbin/Summer2020",
@@ -836,7 +836,7 @@
       ]
     },
     {
-      "anchor": "/ceph",
+      "anchor": "ceph",
       "img": "ceph.jpg",
       "title": "Ceph 中国",
       "project_url": "http://ceph.org.cn/2020/05/09/open-source-promotion-plan-summer-2020/",
@@ -883,7 +883,7 @@
       ]
     },
     {
-      "anchor": "/chubao",
+      "anchor": "chubao",
       "img": "chubao.jpg",
       "title": "ChubaoFS (CNCF sandbox)",
       "project_url": "https://github.com/chubaofs/open-source-promotion-plan-summer-2020-tasks",
@@ -1026,7 +1026,7 @@
       ]
     },
     {
-      "anchor": "/chatopera",
+      "anchor": "chatopera",
       "img": "chatopera.jpg",
       "title": "春松客服",
       "project_url": "https://github.com/chatopera/cosin/wiki/Open-Source-Promotion-Plan---Summer-2020",
@@ -1082,7 +1082,7 @@
       ]
     },
     {
-      "anchor": "/claps",
+      "anchor": "claps",
       "img": "claps.jpg",
       "title": "Claps",
       "project_url": "https://github.com/claps-dev/Summer2020",
@@ -1174,7 +1174,7 @@
       ]
     },
     {
-      "anchor": "/elastos",
+      "anchor": "elastos",
       "img": "elastos.jpg",
       "title": "Elastos 亦来云",
       "project_url": "https://developer.elastos.org/discover/hackathons/202005_beijing/",
@@ -1379,7 +1379,7 @@
       ]
     },
     {
-      "anchor": "/gitcourse",
+      "anchor": "gitcourse",
       "img": "gitcourse.jpg",
       "title": "GitCourse",
       "project_url": "http://gitcourse-io.kfcoding.com/events/summer2020",
@@ -1417,7 +1417,7 @@
       ]
     },
     {
-      "anchor": "/emacs",
+      "anchor": "emacs",
       "img": "emacs.jpg",
       "title": "GNU Emacs（中文）",
       "project_url": "https://manateelazycat.github.io/eaf/emacs/2020/05/10/eaf-community.html",
@@ -1661,7 +1661,7 @@
       ]
     },
     {
-      "anchor": "/huawei-liteos",
+      "anchor": "huawei-liteos",
       "img": "huaweiLite.jpg",
       "title": "Huawei LiteOS",
       "project_url": "https://bbs.huaweicloud.com/blogs/170628",
@@ -1755,7 +1755,7 @@
       ]
     },
     {
-      "anchor": "/hypertrons",
+      "anchor": "hypertrons",
       "img": "hypertrons.jpg",
       "title": "Hypertrons",
       "project_url": "https://www.hypertrons.io/#/zh-cn/event/summer2020",
@@ -1809,7 +1809,7 @@
       ]
     },
     {
-      "anchor": "/ihub",
+      "anchor": "ihub",
       "img": "ihub.jpg",
       "title": "鹏城汇智社区（iHub）",
       "project_url": "https://code.ihub.org.cn/projects/1360",
@@ -1881,7 +1881,7 @@
       ]
     },
     {
-      "anchor": "/kube-edge",
+      "anchor": "kube-edge",
       "img": "KubeEdge.jpg",
       "title": "KubeEdge",
       "project_url": "https://github.com/kubeedge/community/blob/master/OpenSourcePromotionPlan2020/summer2020-cn.md",
@@ -1947,7 +1947,7 @@
       ]
     },
     {
-      "anchor": "/kernal-travel",
+      "anchor": "kernal-travel",
       "img": "kernal.jpg",
       "title": "Linux 内核之旅",
       "project_url": "http://kerneltravel.net/project/",
@@ -1979,7 +1979,7 @@
       ]
     },
     {
-      "anchor": "/mace",
+      "anchor": "mace",
       "img": "mace.jpg",
       "title": "MACE",
       "project_url": "https://github.com/XiaoMi/mace/issues/643",
@@ -2046,7 +2046,7 @@
       ]
     },
     {
-      "anchor": "/maskbook",
+      "anchor": "maskbook",
       "img": "maskbook.jpg",
       "title": "Maskbook",
       "project_url": "https://github.com/DimensionDev/Maskbook/wiki/Open-Source-Promotion-Plan---Summer-2020",
@@ -2092,7 +2092,7 @@
       ]
     },
     {
-      "anchor": "/megengine",
+      "anchor": "megengine",
       "img": "megEngine.jpg",
       "title": "天元（MegEngine）",
       "project_url": "https://github.com/MegEngine/Resource/blob/master/Open_Source_Promotion_Plan-Summer_2020_MegEngine.md",
@@ -2204,7 +2204,7 @@
       ]
     },
     {
-      "anchor": "/milvus",
+      "anchor": "milvus",
       "img": "milvus.jpg",
       "title": "Milvus",
       "project_url": "https://github.com/milvus-io/community/tree/master/Events",
@@ -2318,7 +2318,7 @@
       ]
     },
     {
-      "anchor": "/mind-spore",
+      "anchor": "mind-spore",
       "img": "MindSpore.jpg",
       "title": "MindSpore",
       "project_url": "https://gitee.com/mindspore/community/tree/master/events/summer2020",
@@ -2358,7 +2358,7 @@
       ]
     },
     {
-      "anchor": "/minigui",
+      "anchor": "minigui",
       "img": "minigui.jpg",
       "title": "MiniGUI",
       "project_url": "https://gitlab.fmsoft.cn/VincentWei/build-minigui-5.0/blob/master/summer-2020/README.md",
@@ -2436,7 +2436,7 @@
       ]
     },
     {
-      "anchor": "/oi-wiki",
+      "anchor": "oi-wiki",
       "img": "oi.jpg",
       "title": " OI Wiki",
       "project_url": "https://git.io/summer2020",
@@ -2538,7 +2538,7 @@
       ]
     },
     {
-      "anchor": "/opencv",
+      "anchor": "opencv",
       "img": "opencv.jpg",
       "title": "OpenCV China",
       "project_url": "http://www.opencv.org.cn/?page_id=411",
@@ -2556,7 +2556,6 @@
         "计算机视觉",
         "深度学习"
       ],
-      "mail_list": "",
       "email": "admin@opencv.org.cn",
       "project_list": [
         {
@@ -2622,7 +2621,7 @@
       ]
     },
     {
-      "anchor": "/openeuler",
+      "anchor": "openeuler",
       "img": "openeuler.jpg",
       "title": "openEuler Community",
       "project_url": "https://openeuler.org/zh/events/20200607.html",
@@ -3402,7 +3401,7 @@
       ]
     },
     {
-      "anchor": "/ros-navigation",
+      "anchor": "ros-navigation",
       "img": "ros.jpg",
       "title": "ROS Navigation",
       "project_url": "https://navigation.ros.org/2020summerOfCode/projects/create_configuration_assistant.html",
@@ -3511,7 +3510,7 @@
       ]
     },
     {
-      "anchor": "/rt-thread",
+      "anchor": "rt-thread",
       "img": "RT-Thread.jpg",
       "title": "RT-Thread",
       "project_url": "https://www.rt-thread.org/news/174.html",
@@ -3626,7 +3625,7 @@
       ]
     },
     {
-      "anchor": "/simple-xx",
+      "anchor": "simple-xx",
       "img": "simpleX.jpg",
       "title": "Simple-XX",
       "project_url": "https://github.com/Simple-XX/summer2020",
@@ -3644,7 +3643,6 @@
         "编译器",
         "数据库"
       ],
-      "mail_list": "",
       "email": "zone.niuzh@hotmail.com",
       "project_list": [
         {
@@ -3700,7 +3698,7 @@
       ]
     },
     {
-      "anchor": "/soda-foundation",
+      "anchor": "soda-foundation",
       "img": "soda.jpg",
       "title": "SODA Foundation",
       "project_url": "https://github.com/sodafoundation/ecosystem/blob/master/events/Open_Source_Promotion_Plan_Summer_2020.md",
@@ -3762,7 +3760,7 @@
       ]
     },
     {
-      "anchor": "/tinylab",
+      "anchor": "tinylab",
       "img": "tinylab.jpg",
       "title": "泰晓科技",
       "project_url": "http://tinylab.org/summer2020",
@@ -3830,7 +3828,7 @@
       ]
     },
     {
-      "anchor": "/tdengine",
+      "anchor": "tdengine",
       "img": "td.jpg",
       "title": "TDEngine",
       "project_url": "https://www.taosdata.com/blog/2020/05/20/1521.html",
@@ -3913,7 +3911,7 @@
       ]
     },
     {
-      "anchor": "/tuna",
+      "anchor": "tuna",
       "img": "tuna.jpg",
       "title": "清华大学 TUNA 协会",
       "project_url": "https://tuna.moe/blog/2020/ospp-summer-2020/",
@@ -4093,7 +4091,7 @@
       ]
     },
     {
-      "anchor": "/uoj",
+      "anchor": "uoj",
       "img": "oj.jpg",
       "title": "Universal OJ",
       "project_url": "https://git.io/uojsummer2020",
@@ -4146,7 +4144,7 @@
       ]
     },
     {
-      "anchor": "/ustclug",
+      "anchor": "ustclug",
       "img": "ustclug.jpg",
       "title": "USTCLUG",
       "project_url": "https://news.ustclug.org/2020/05/opensource-summer-projects/",
@@ -4186,7 +4184,7 @@
       ]
     },
     {
-      "anchor": "/volcano",
+      "anchor": "volcano",
       "img": "vol.jpg",
       "title": "Volcano",
       "project_url": "https://github.com/volcano-sh/volcano/blob/master/docs/community/summer2020-cn.md",
@@ -4256,7 +4254,7 @@
       ]
     },
     {
-      "anchor": "/wechaty",
+      "anchor": "wechaty",
       "img": "wechaty.jpg",
       "title": "Wechaty",
       "project_url": "https://github.com/wechaty/summer-of-code/issues/3",
