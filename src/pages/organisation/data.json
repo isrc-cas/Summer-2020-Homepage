@@ -965,6 +965,26 @@
       ]
     },
     {
+      "anchor": "/claps",
+      "img": "claps.jpg",
+      "title": "Claps",
+      "project_url": "https://github.com/claps-dev/Summer2020",
+      "url": "https://github.com/lyricat/claps.dev",
+      "description": "使用加密货币资助创作者和开源项目。",
+      "full_des": "为开源项目做出贡献的人们需要您支持他们的工作。 两者都进行初始工作，并且要保持它既费时又费钱。 Claps.dev的捐赠系统旨在提供一种为创作者和团队筹集基本收入的好方法，使他们能够继续做对所有人都有好处的出色工作。",
+      "tech_tag": [
+        "NodeJS",
+        "Cryptocurrency",
+        "Blockchain"
+      ],
+      "domain_tag": [
+        "数字货币",
+        "区块链"
+      ],
+      "mail_list": "community@meri.co",
+      "email": "contact@meri.co"
+    },
+    {
       "anchor": "/elastos",
       "img": "elastos.jpg",
       "title": "Elastos 亦来云",
@@ -3871,6 +3891,30 @@
           "label": ""
         }
       ]
+    },
+    {
+      "anchor": "/wechaty",
+      "img": "wechaty.jpg",
+      "title": "Wechaty",
+      "project_url": "https://github.com/wechaty/summer-of-code/issues/3",
+      "url": "https://github.com/wechaty",
+      "description": "Conversational AI RPA Chatbot SDK for Wechat Individual Account.",
+      "full_des": "Wechaty 是一个开源聊天机器人框架SDK，具有高度封装、高可用的特性，支持NodeJs,  Python,  Go 和Java 等多语言版本。在过去的4年中，服务了数万名开发者，收获了 Github 的 8000 Star。同时配置了完整的DevOps体系并持续按照Apache 的方式管理技术社区。",
+      "tech_tag": [
+        "Conversational AI", 
+        "NLP", 
+        "TypeScript", 
+        "Python", 
+        "Go", 
+        "Java"
+      ],
+      "domain_tag": [
+        "Conversational AI",
+        "NLP",
+        "Chatbot"
+      ],
+      "mail_list": "wechaty@googlegroups.com",
+      "email": "wechaty@chatie.io"
     }
   ],
   "creditList": [
