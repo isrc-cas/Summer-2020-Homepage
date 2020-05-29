@@ -3272,7 +3272,86 @@
         "ROS2"
       ],
       "mail_list": "https://discourse.ros.org",
-      "email": "stevenmacenski@gmail.com"
+      "email": "stevenmacenski@gmail.com",
+      "project_url": [
+        {
+          "name": "Create a Configuration Assistant (Analog to MoveIt)",
+          "description": "Moveit has long has a QT configuration assistant. This setup assistent helps the user configure their UDRF and needs to setup MoveIt configuration files. A configuration assistant could be extremely beneficial to Navigation2 users as a way to minimize friction. We should provide a gui tool to cover the following configurations: the broad strokes with the costmap, with a visualizer to show the user what it will look like; Select configurable costmap layers; Select recovery behavior parameters; URDF, footprint, and frame selection to make sure the options comply with standards, planner, and controller; Set minimum and maximum speed and other kinematic parameters; Select from a dropdown of possible planners and controllers; Helpful notes throughout the prompts to aid in selecting appropriate parameters; Selecting at behavior tree; @steve please add more specific options. After the items are configured, there should be a preview to see how the parameters effect the robot.",
+          "difficulty": "高",
+          "mentor": "Steve Macenski",
+          "contact": "stevenmacenski@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "Create New Planner and Controller Plugins",
+          "description": "The ROS2 Navigation Stack has a number of plugin interfaces to help users create or select specific plugins for planning, control, and recovery for their applications. Two specific areas that the Navigation2 stack could use more algorithm plugins for is for path planning (referred to as a planner plugin) and local trajectory generation (referred to as controller plugins). A simple tutorial for creating a planner plugin can be found here. Currently, we have one planner, NavFn which implements an A* and Dijkstra’s planner. It also has two controllers, DWB and TEB which implement a DWA and timed elastic-band optimization techniques. There is also a Hybrid-A* and OMPL planner in development. Your task will be to create a high-quality implementation of one of the following algorithms for the navigation2 plugin interfaces. Alternative algorithms may also be considered upon approval, please ask @steve in the application phase. Please select only one to discuss. Planner Plugin Options: D* or variant, Vornoi planner, Navigation graph route planner, State Lattice planner, kinodynamic planner, and any planning method given a set of dynamic and static obstacles. Controller Plugin Options: CiLQR, iLQR, MPC, Splines, path following or dynamic obstacle following controllers. Additional options: helping in completing the OMPL or Hybrid-A* planner.",
+          "difficulty": "高",
+          "mentor": "Steve Macenski",
+          "contact": "stevenmacenski@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "Port Grid Maps to ROS2 and Environmental Model",
+          "description": "Grid Maps was created by ETH Zurich and later transferred to ANYbotics. It is a universal grid map library for mobile robotic mapping that can be used as the basis of environmental models and various forms of grid maps available in ROS1. This library is one of the top downloaded ROS packages. Your task will be to work with the community and the mentor to port grid_maps metapackage from ROS1 to ROS2 and help develop the next generation environment model in ROS2 to replace costmap_2d. This will involve porting code from ROS1 to ROS2, analyzing uses of the environmental model to define an abstract interface to allow replacement of costmap_2d with grid_map, and building up the basic grid-operations for costmaps. It is not expected to complete the full new model with sensor processing over the course of the summer. If completed early, you may be able to help design a gradient model to complement your implemented costmap model using grid_maps. This will allow robots to select a gradient or a costmap model on startup.",
+          "difficulty": "高",
+          "mentor": "Steve Macenski",
+          "contact": "stevenmacenski@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "Advanced Navigation Testing Framework",
+          "description": "The ROS2 Navigation Stack has had a focus on testing and reliability as a characteristic change from ROS1 to ROS2. We currently have a test coverage rate of 65% and do full system simulations in Continuous Integration (CI) to test the entire navigation system with a real robot completing real navigation tasks. Your task will be to increase the testing coverage rate to 70% (or +5% from your starting) and improve on the existing system tests to represent a more realistic environment. You will then work to make sure of that environment to actively block the robot from completing its task to simulate worst-case conditions.",
+          "difficulty": "中",
+          "mentor": "Steve Macenski",
+          "contact": "stevenmacenski@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "Navigation Branding and Website",
+          "description": "Navigation2 has made significant strides to be the best navigation system in the world. Over time, the original navigation stack in ROS has gained a reputation, fair or unfair, of being relatively limited in the types of tasks it can accomplish that are no longer true in ROS2 Navigation2. As such, we would like to initiate a re-branding effort to help differentiate it from its foundings. MoveIt has a high-quality landing page with consistent graphics, color schemes, logos, and a catchy name. Your task will be to create a logo, color scheme, and work with maintainers to develop a new name to use in creating a new website for Navigation2. The existing website is a Read The Docs design with just the technical tutorials and details. We would like the new Navigation2 website to be analog to the MoveIt website and allow for future expansions such as a blog and pages highlighting demos and robots using the framework.",
+          "difficulty": "中",
+          "mentor": "Steve Macenski",
+          "contact": "stevenmacenski@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "2D/3D Localization Improvements",
+          "description": "The Navigation2 stack uses AMCL as its primary localization engine. Over the last 10 years, essentially no updates to AMCL has been made. This is due to the code base for this implementation of an Adaptive Monte Carlo Localizer is written in embedded C, not well structured, and very sensitive to changes. A-MCL implementations have been a hallmark of localization for over a decade but this particular implementation should be deprecated. Your target involves designing and creating a new localization engine for the navigation2 stack. The requirements of this are: - Support 2D laser scanners - Support 3D laser scanners, where 2D case could potentially be a simplified case - Accurately track the localization of a robot in a given occupancy grid. The reason that specific method is left open-ended is to allow for creativity, novelty, or reimplementation of a what you feel is best. We have, however, analyzed other MCL variants as being good options. This may include reimplementing an A-MCL that is designed to be modified with modular components and support sampling from a 3D lidar. Another option is a NDT-MCL using NDT 2D/3D scan matching. Other options may be proposed and discussed with mentors during the application phase. The task involves 3D as well since there is no standard 3D localizer in ROS2 yet and more and more robust 3D SLAM libraries have emerged over the last 2 years. An optional but recommended feature of this work would be to also accept the inputs from multiple laser scanners. However it is not strictly required.",
+          "difficulty": "高",
+          "mentor": "Steve Macenski",
+          "contact": "stevenmacenski@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "Navigation Dynamic Obstacle Integration",
+          "description": "The Navigation Stack has long provided robust navigation in a wide range of environments. Controllers have been developed to operate effectively in the presence of dynamic obstacles without explicitly modeling the characteristics of dynamic obstacles. However, as the field has progressed and we see more and more robots using ROS deployed in human-filled spaces, more consideration must be taken with respect to dynamic obstacles such as people, carts, animals, and vehicles. Your task will be to create integrations with existing machine learning tools that create dynamic obstacle information (ComplexYolo, Yolo3D, etc) and tie them into the navigation stack for use. It is not in the scope for you to retrain or otherwise become an expert in 3D machine learning, but some basic knowledge will be helpful. This task will involve identifying a few techniques that produce position and velocity information about dynamic obstacles that can run on a mobile robot (using high-power Intel CPU, Nvidia Jetson SoC, external GPUs, etc) and get them running with ROS and Navigation. Next, you will help create a new costmap layer to use this information to mark the dynamic obstacle in the costmap to ensure a robot does not collide with a future trajectory of an obstacle. If time permits, you may also work to also integrate this dynamic information into a path planner and/or controller to help in direct motion consideration. This will likely be in collaboration with another community member.",
+          "difficulty": "高",
+          "mentor": "Steve Macenski",
+          "contact": "stevenmacenski@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        }
+      ]
     },
     {
       "anchor": "/rt-thread",
