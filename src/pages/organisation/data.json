@@ -911,7 +911,119 @@
         "计算与存储分离"     
       ],
       "mail_list": "chubaofs-maintainers@groups.io",
-      "email": "chubaofs-maintainers@groups.io"
+      "email": "chubaofs-maintainers@groups.io",
+      "project_list": [
+        {
+          "name": "基于DataFusion和ChubaoFS的存储计算分离",
+          "description": "在ChubaoFS创建一个基于DataFusion的compute node, 并提供基于ChubaoFS存储节点的SQL服务,使用户可通过SQL在ChubaoFS中存储的非结构化文件中检索信息。",
+          "difficulty": "高",
+          "mentor": "Dr. Wei Ding",
+          "contact": "wei.ding@jd.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "基于DataFusion和ChubaoDB的存储计算分离",
+          "description": "在ChubaoFS创建一个基于DataFusion的compute node并提供基于ChubaoDB的SQL服务。",
+          "difficulty": "高",
+          "mentor": "Dr. Wei Ding",
+          "contact": "wei.ding@jd.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "分布式文件系统ChubaoFS测试框架",
+          "description": "ChubaoFS是云原生的分布式文件系统及对象存储，提供高可用可扩展的分布式存储服务。如何对分布式系统进行有效的自动化测试至关重要，是项目稳定性重要保证，可缩短发布周期和及时发现低概率问题。",
+          "difficulty": "中",
+          "mentor": "Zhengyi Zhu",
+          "contact": "zhengyi.zhu.hust@gmail.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "基于Raft和Rocksdb实现一个简单的分布式Key-Value数据库",
+          "description": "利用已有的Raft和Rocksdb，组合实现最终一致的分布式Key-Value数据库软件。效果类似etcd或者是zookeeper。",
+          "difficulty": "中",
+          "mentor": "Jian Sun",
+          "contact": "ansj-sun@163.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "ChubaoFS项目文档重构",
+          "description": "对当前项目的中英文文档的结构进行重新组织，优化文档结构并补充缺少的的内容。包括项目的设计文档、管理员手册、用户文档、FAQ等主题。",
+          "difficulty": "中",
+          "mentor": "Mofei Zhang",
+          "contact": "mofei2816@gmail.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "分布式文件系统ChubaoFS命令行管理工具",
+          "description": "ChubaoFS是云原生的分布式文件系统及对象存储，基于http协议提供了丰富的资源管理接口。将这些接口整合和封装到基于Linux操作系统的命令行客户端，对于ChubaoFS分布式文件系统易用性提升、推广和普及具有十分重要的意义。",
+          "difficulty": "中",
+          "mentor": "Xihao Xu",
+          "contact": "xxscott@163.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "ChubaoFS的高级检索引擎ChubaoDB集群调度",
+          "description": "ChubaoDB是ChubaoFS的高级数据检索引擎，是基于ChubaoFS的检索服务。对ChubaoDB的集群调度进行设计和开发，平衡集群资源的负载。",
+          "difficulty": "高",
+          "mentor": "Jian Sun",
+          "contact": "ansj-sun@163.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "基于Rook在Kubernetes集群中部署ChubaoFS Console",
+          "description": "服务容器化已成为部署服务的主流方式，Kubernetes作为管理容器化的工作负载和服务最流行的平台，拥有庞大且快速成长的生态系统。一个Kubernetes集群中能够部署多少应用，除了受限于CPU和内存外，还会受限与磁盘空间，尤其是需要大量数据存储需求的应用。本项目希望基于Rook实现在Kubernetes集群中更加简单高效的部署和运维ChubaoFS Console。",
+          "difficulty": "高",
+          "mentor": "Chengyu Liu",
+          "contact": "liuchengyu@jd.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "基于Rook在Kubernetes集群中部署ChubaoFS CSI",
+          "description": "服务容器化已成为部署服务的主流方式，Kubernetes作为管理容器化的工作负载和服务最流行的平台，拥有庞大且快速成长的生态系统。一个Kubernetes集群中能够部署多少应用，除了受限于CPU和内存外，还会受限与磁盘空间，尤其是需要大量数据存储需求的应用。本项目希望基于Rook实现在Kubernetes集群中更加简单高效的部署和运维ChubaoFS-CSI。",
+          "difficulty": "高",
+          "mentor": "Xihao Xu",
+          "contact": "xxscott@163.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "基于Rook在Kubernetes集群中部署ChubaoFS",
+          "description": "服务容器化已成为部署服务的主流方式，Kubernetes作为管理容器化的工作负载和服务最流行的平台，拥有庞大且快速成长的生态系统。一个Kubernetes集群中能够部署多少应用，除了受限于CPU和内存外，还会受限与磁盘空间，尤其是需要大量数据存储需求的应用。本项目希望基于Rook实现在Kubernetes集群中更加简单高效的部署和运维ChubaoFS。",
+          "difficulty": "高",
+          "mentor": "Chengyu Liu",
+          "contact": "liuchengyu@jd.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "基于Rook在Kubernetes集群中部署ChubaoFS Monitor",
+          "description": "服务容器化已成为部署服务的主流方式，Kubernetes作为管理容器化的工作负载和服务最流行的平台，拥有庞大且快速成长的生态系统。一个Kubernetes集群中能够部署多少应用，除了受限于CPU和内存外，还会受限与磁盘空间，尤其是需要大量数据存储需求的应用。本项目希望基于Rook实现在Kubernetes集群中更加简单高效的部署和运维ChubaoFS Monitor。",
+          "difficulty": "高",
+          "mentor": "Chengyu Liu",
+          "contact": "liuchengyu@jd.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        }
+      ]
     },
     {
       "anchor": "/chatopera",
