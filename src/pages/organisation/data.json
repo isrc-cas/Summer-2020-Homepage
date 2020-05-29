@@ -3490,7 +3490,7 @@
         },
         {
          "name": "PgSql移植计划",
-         "description": "将一系列应用后台数据库从SqlServer移植到PgSql数据库上，",
+         "description": "将一系列应用后台数据库从SqlServer移植到PgSql数据库上",
          "difficulty": "中",
          "mentor": "王斌",
          "contact": "wb_eai@qq.com",
