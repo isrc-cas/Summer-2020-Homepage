@@ -1,7 +1,7 @@
 {
   "orgList": [
     {
-      "anchor": "/aosc",
+      "anchor": "aosc",
       "img": "aosc.jpg",
       "title": "安同开源社区（AOSC）",
       "project_url": "https://wiki.aosc.io/zh/ospp-2020-projects",
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "anchor": "/apache-apisix",
+      "anchor": "apache-apisix",
       "img": "ApacheAPISIX.jpg",
       "title": "Apache APISIX (incubating)",
       "project_url": "https://cwiki.apache.org/confluence/display/APISIX/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "anchor": "/apache-ds",
+      "anchor": "apache-ds",
       "img": "dolphin.jpg",
       "title": "Apache DolphinScheduler (incubating)",
       "project_url": "https://cwiki.apache.org/confluence/display/DOLPHINSCHEDULER/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
@@ -381,7 +381,7 @@
       ]
     },
     {
-      "anchor": "/apache-pulsar",
+      "anchor": "apache-pulsar",
       "img": "pulsar.jpg",
       "title": "Apache Pulsar",
       "project_url": "https://github.com/apache/pulsar/wiki/Open-Source-Promotion-Plan---Summer-2020-Apache-Pulsar-Tasks",
@@ -440,7 +440,7 @@
       ]
     },
     {
-      "anchor": "/apache-servicecomb",
+      "anchor": "apache-servicecomb",
       "img": "service-comb.jpg",
       "title": "Apache ServiceComb",
       "project_url": "http://servicecomb.apache.org/cn/summer2020",
@@ -462,7 +462,7 @@
       "email": "dev@servicecomb.apache.org"
     },
     {
-      "anchor": "/apache-sharding",
+      "anchor": "apache-sharding",
       "img": "sharding.jpg",
       "title": "Apache ShardingSphere",
       "project_url": "https://cwiki.apache.org/confluence/display/SHARDINGSPHERE/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
@@ -534,7 +534,7 @@
       ]
     },
     {
-      "anchor": "/apache-sw",
+      "anchor": "apache-sw",
       "img": "ApacheSkyWalking.jpg",
       "title": "Apache SkyWalking",
       "project_url": "https://cwiki.apache.org/confluence/display/SKYWALKING/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
@@ -704,7 +704,7 @@
       ]
     },
     {
-      "anchor": "/casbin",
+      "anchor": "casbin",
       "img": "casbin.jpg",
       "title": "Casbin",
       "project_url": "https://github.com/casbin/Summer2020",
@@ -836,7 +836,7 @@
       ]
     },
     {
-      "anchor": "/ceph",
+      "anchor": "ceph",
       "img": "ceph.jpg",
       "title": "Ceph 中国",
       "project_url": "http://ceph.org.cn/2020/05/09/open-source-promotion-plan-summer-2020/",
@@ -883,7 +883,7 @@
       ]
     },
     {
-      "anchor": "/chubao",
+      "anchor": "chubao",
       "img": "chubao.jpg",
       "title": "ChubaoFS (CNCF sandbox)",
       "project_url": "https://github.com/chubaofs/open-source-promotion-plan-summer-2020-tasks",
@@ -896,20 +896,137 @@
         "分布式",
         "云原生",
         "POSIX",
-        "S3存储与技术分离"
+        "S3",
+        "Raft",
+        "Go",
+        "Rust",
+        "计算与存储分离"
       ],
       "domain_tag": [
         "存储",
-        "分布式文件系统",
+        "分布式",
+        "文件系统",
         "对象存储",
         "云原生",
-        "存储与技术分离"
+        "计算与存储分离"     
       ],
       "mail_list": "chubaofs-maintainers@groups.io",
-      "email": "chubaofs-maintainers@groups.io"
+      "email": "chubaofs-maintainers@groups.io",
+      "project_list": [
+        {
+          "name": "基于DataFusion和ChubaoFS的存储计算分离",
+          "description": "在ChubaoFS创建一个基于DataFusion的compute node, 并提供基于ChubaoFS存储节点的SQL服务,使用户可通过SQL在ChubaoFS中存储的非结构化文件中检索信息。",
+          "difficulty": "高",
+          "mentor": "Dr. Wei Ding",
+          "contact": "wei.ding@jd.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "基于DataFusion和ChubaoDB的存储计算分离",
+          "description": "在ChubaoFS创建一个基于DataFusion的compute node并提供基于ChubaoDB的SQL服务。",
+          "difficulty": "高",
+          "mentor": "Dr. Wei Ding",
+          "contact": "wei.ding@jd.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "分布式文件系统ChubaoFS测试框架",
+          "description": "ChubaoFS是云原生的分布式文件系统及对象存储，提供高可用可扩展的分布式存储服务。如何对分布式系统进行有效的自动化测试至关重要，是项目稳定性重要保证，可缩短发布周期和及时发现低概率问题。",
+          "difficulty": "中",
+          "mentor": "Zhengyi Zhu",
+          "contact": "zhengyi.zhu.hust@gmail.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "基于Raft和Rocksdb实现一个简单的分布式Key-Value数据库",
+          "description": "利用已有的Raft和Rocksdb，组合实现最终一致的分布式Key-Value数据库软件。效果类似etcd或者是zookeeper。",
+          "difficulty": "中",
+          "mentor": "Jian Sun",
+          "contact": "ansj-sun@163.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "ChubaoFS项目文档重构",
+          "description": "对当前项目的中英文文档的结构进行重新组织，优化文档结构并补充缺少的的内容。包括项目的设计文档、管理员手册、用户文档、FAQ等主题。",
+          "difficulty": "中",
+          "mentor": "Mofei Zhang",
+          "contact": "mofei2816@gmail.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "分布式文件系统ChubaoFS命令行管理工具",
+          "description": "ChubaoFS是云原生的分布式文件系统及对象存储，基于http协议提供了丰富的资源管理接口。将这些接口整合和封装到基于Linux操作系统的命令行客户端，对于ChubaoFS分布式文件系统易用性提升、推广和普及具有十分重要的意义。",
+          "difficulty": "中",
+          "mentor": "Xihao Xu",
+          "contact": "xxscott@163.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "ChubaoFS的高级检索引擎ChubaoDB集群调度",
+          "description": "ChubaoDB是ChubaoFS的高级数据检索引擎，是基于ChubaoFS的检索服务。对ChubaoDB的集群调度进行设计和开发，平衡集群资源的负载。",
+          "difficulty": "高",
+          "mentor": "Jian Sun",
+          "contact": "ansj-sun@163.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "基于Rook在Kubernetes集群中部署ChubaoFS Console",
+          "description": "服务容器化已成为部署服务的主流方式，Kubernetes作为管理容器化的工作负载和服务最流行的平台，拥有庞大且快速成长的生态系统。一个Kubernetes集群中能够部署多少应用，除了受限于CPU和内存外，还会受限与磁盘空间，尤其是需要大量数据存储需求的应用。本项目希望基于Rook实现在Kubernetes集群中更加简单高效的部署和运维ChubaoFS Console。",
+          "difficulty": "高",
+          "mentor": "Chengyu Liu",
+          "contact": "liuchengyu@jd.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "基于Rook在Kubernetes集群中部署ChubaoFS CSI",
+          "description": "服务容器化已成为部署服务的主流方式，Kubernetes作为管理容器化的工作负载和服务最流行的平台，拥有庞大且快速成长的生态系统。一个Kubernetes集群中能够部署多少应用，除了受限于CPU和内存外，还会受限与磁盘空间，尤其是需要大量数据存储需求的应用。本项目希望基于Rook实现在Kubernetes集群中更加简单高效的部署和运维ChubaoFS-CSI。",
+          "difficulty": "高",
+          "mentor": "Xihao Xu",
+          "contact": "xxscott@163.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "基于Rook在Kubernetes集群中部署ChubaoFS",
+          "description": "服务容器化已成为部署服务的主流方式，Kubernetes作为管理容器化的工作负载和服务最流行的平台，拥有庞大且快速成长的生态系统。一个Kubernetes集群中能够部署多少应用，除了受限于CPU和内存外，还会受限与磁盘空间，尤其是需要大量数据存储需求的应用。本项目希望基于Rook实现在Kubernetes集群中更加简单高效的部署和运维ChubaoFS。",
+          "difficulty": "高",
+          "mentor": "Chengyu Liu",
+          "contact": "liuchengyu@jd.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "基于Rook在Kubernetes集群中部署ChubaoFS Monitor",
+          "description": "服务容器化已成为部署服务的主流方式，Kubernetes作为管理容器化的工作负载和服务最流行的平台，拥有庞大且快速成长的生态系统。一个Kubernetes集群中能够部署多少应用，除了受限于CPU和内存外，还会受限与磁盘空间，尤其是需要大量数据存储需求的应用。本项目希望基于Rook实现在Kubernetes集群中更加简单高效的部署和运维ChubaoFS Monitor。",
+          "difficulty": "高",
+          "mentor": "Chengyu Liu",
+          "contact": "liuchengyu@jd.com",
+          "hot_index": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        }
+      ]
     },
     {
-      "anchor": "/chatopera",
+      "anchor": "chatopera",
       "img": "chatopera.jpg",
       "title": "春松客服",
       "project_url": "https://github.com/chatopera/cosin/wiki/Open-Source-Promotion-Plan---Summer-2020",
@@ -965,7 +1082,7 @@
       ]
     },
     {
-      "anchor": "/claps",
+      "anchor": "claps",
       "img": "claps.jpg",
       "title": "Claps",
       "project_url": "https://github.com/claps-dev/Summer2020",
@@ -1057,7 +1174,7 @@
       ]
     },
     {
-      "anchor": "/elastos",
+      "anchor": "elastos",
       "img": "elastos.jpg",
       "title": "Elastos 亦来云",
       "project_url": "https://developer.elastos.org/discover/hackathons/202005_beijing/",
@@ -1262,7 +1379,7 @@
       ]
     },
     {
-      "anchor": "/gitcourse",
+      "anchor": "gitcourse",
       "img": "gitcourse.jpg",
       "title": "GitCourse",
       "project_url": "http://gitcourse-io.kfcoding.com/events/summer2020",
@@ -1300,7 +1417,7 @@
       ]
     },
     {
-      "anchor": "/emacs",
+      "anchor": "emacs",
       "img": "emacs.jpg",
       "title": "GNU Emacs（中文）",
       "project_url": "https://manateelazycat.github.io/eaf/emacs/2020/05/10/eaf-community.html",
@@ -1350,6 +1467,36 @@
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012148"
+        },
+        {
+          "name": "Core: Compatibility with HiDPi. Resolve issues in #287 and #288",
+          "difficulty": "中",
+          "mentor": "Matthew Zeng",
+          "contact": "matthewzmd@gmail.com",
+          "student_count": 0,
+          "description": "",
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "Core: Investigate the possibility to support chemacs. If possible, support it, if not, explain. #297",
+          "difficulty": "低",
+          "mentor": "Matthew Zeng",
+          "contact": "matthewzmd@gmail.com",
+          "student_count": 0,
+          "description": "",
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "Core: English documentation for all functions",
+          "difficulty": "低",
+          "mentor": "Matthew Zeng",
+          "contact": "matthewzmd@gmail.com",
+          "student_count": 0,
+          "description": "",
+          "update_time": "2020-05-29",
+          "label": ""
         },
         {
           "name": "Browser: Create ad-blocker plugin",
@@ -1500,11 +1647,21 @@
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012160"
+        },
+        {
+          "name": "Painter: Create this new app using wither Qt or JavaScript!",
+          "difficulty": "中",
+          "mentor": "Matthew Zeng",
+          "contact": "matthewzmd@gmail.com",
+          "student_count": 0,
+          "description": "",
+          "update_time": "2020-05-29",
+          "label": ""
         }
       ]
     },
     {
-      "anchor": "/huawei-liteos",
+      "anchor": "huawei-liteos",
       "img": "huaweiLite.jpg",
       "title": "Huawei LiteOS",
       "project_url": "https://bbs.huaweicloud.com/blogs/170628",
@@ -1598,7 +1755,7 @@
       ]
     },
     {
-      "anchor": "/hypertrons",
+      "anchor": "hypertrons",
       "img": "hypertrons.jpg",
       "title": "Hypertrons",
       "project_url": "https://www.hypertrons.io/#/zh-cn/event/summer2020",
@@ -1652,7 +1809,7 @@
       ]
     },
     {
-      "anchor": "/ihub",
+      "anchor": "ihub",
       "img": "ihub.jpg",
       "title": "鹏城汇智社区（iHub）",
       "project_url": "https://code.ihub.org.cn/projects/1360",
@@ -1724,7 +1881,7 @@
       ]
     },
     {
-      "anchor": "/kube-edge",
+      "anchor": "kube-edge",
       "img": "KubeEdge.jpg",
       "title": "KubeEdge",
       "project_url": "https://github.com/kubeedge/community/blob/master/OpenSourcePromotionPlan2020/summer2020-cn.md",
@@ -1790,7 +1947,7 @@
       ]
     },
     {
-      "anchor": "/kernal-travel",
+      "anchor": "kernal-travel",
       "img": "kernal.jpg",
       "title": "Linux 内核之旅",
       "project_url": "http://kerneltravel.net/project/",
@@ -1822,7 +1979,7 @@
       ]
     },
     {
-      "anchor": "/mace",
+      "anchor": "mace",
       "img": "mace.jpg",
       "title": "MACE",
       "project_url": "https://github.com/XiaoMi/mace/issues/643",
@@ -1889,7 +2046,7 @@
       ]
     },
     {
-      "anchor": "/maskbook",
+      "anchor": "maskbook",
       "img": "maskbook.jpg",
       "title": "Maskbook",
       "project_url": "https://github.com/DimensionDev/Maskbook/wiki/Open-Source-Promotion-Plan---Summer-2020",
@@ -1935,7 +2092,7 @@
       ]
     },
     {
-      "anchor": "/megengine",
+      "anchor": "megengine",
       "img": "megEngine.jpg",
       "title": "天元（MegEngine）",
       "project_url": "https://github.com/MegEngine/Resource/blob/master/Open_Source_Promotion_Plan-Summer_2020_MegEngine.md",
@@ -2047,7 +2204,7 @@
       ]
     },
     {
-      "anchor": "/milvus",
+      "anchor": "milvus",
       "img": "milvus.jpg",
       "title": "Milvus",
       "project_url": "https://github.com/milvus-io/community/tree/master/Events",
@@ -2161,7 +2318,7 @@
       ]
     },
     {
-      "anchor": "/mind-spore",
+      "anchor": "mind-spore",
       "img": "MindSpore.jpg",
       "title": "MindSpore",
       "project_url": "https://gitee.com/mindspore/community/tree/master/events/summer2020",
@@ -2201,7 +2358,7 @@
       ]
     },
     {
-      "anchor": "/minigui",
+      "anchor": "minigui",
       "img": "minigui.jpg",
       "title": "MiniGUI",
       "project_url": "https://gitlab.fmsoft.cn/VincentWei/build-minigui-5.0/blob/master/summer-2020/README.md",
@@ -2279,7 +2436,7 @@
       ]
     },
     {
-      "anchor": "/oi-wiki",
+      "anchor": "oi-wiki",
       "img": "oi.jpg",
       "title": " OI Wiki",
       "project_url": "https://git.io/summer2020",
@@ -2381,7 +2538,7 @@
       ]
     },
     {
-      "anchor": "/opencv",
+      "anchor": "opencv",
       "img": "opencv.jpg",
       "title": "OpenCV China",
       "project_url": "http://www.opencv.org.cn/?page_id=411",
@@ -2399,7 +2556,6 @@
         "计算机视觉",
         "深度学习"
       ],
-      "mail_list": "",
       "email": "admin@opencv.org.cn",
       "project_list": [
         {
@@ -2465,7 +2621,7 @@
       ]
     },
     {
-      "anchor": "/openeuler",
+      "anchor": "openeuler",
       "img": "openeuler.jpg",
       "title": "openEuler Community",
       "project_url": "https://openeuler.org/zh/events/20200607.html",
@@ -3245,7 +3401,7 @@
       ]
     },
     {
-      "anchor": "/ros-navigation",
+      "anchor": "ros-navigation",
       "img": "ros.jpg",
       "title": "ROS Navigation",
       "project_url": "https://navigation.ros.org/2020summerOfCode/projects/create_configuration_assistant.html",
@@ -3272,10 +3428,89 @@
         "ROS2"
       ],
       "mail_list": "https://discourse.ros.org",
-      "email": "stevenmacenski@gmail.com"
+      "email": "stevenmacenski@gmail.com",
+      "project_list": [
+        {
+          "name": "Create a Configuration Assistant (Analog to MoveIt)",
+          "description": "Moveit has long has a QT configuration assistant. This setup assistent helps the user configure their UDRF and needs to setup MoveIt configuration files. A configuration assistant could be extremely beneficial to Navigation2 users as a way to minimize friction. We should provide a gui tool to cover the following configurations: the broad strokes with the costmap, with a visualizer to show the user what it will look like; Select configurable costmap layers; Select recovery behavior parameters; URDF, footprint, and frame selection to make sure the options comply with standards, planner, and controller; Set minimum and maximum speed and other kinematic parameters; Select from a dropdown of possible planners and controllers; Helpful notes throughout the prompts to aid in selecting appropriate parameters; Selecting at behavior tree; @steve please add more specific options. After the items are configured, there should be a preview to see how the parameters effect the robot.",
+          "difficulty": "高",
+          "mentor": "Steve Macenski",
+          "contact": "stevenmacenski@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "Create New Planner and Controller Plugins",
+          "description": "The ROS2 Navigation Stack has a number of plugin interfaces to help users create or select specific plugins for planning, control, and recovery for their applications. Two specific areas that the Navigation2 stack could use more algorithm plugins for is for path planning (referred to as a planner plugin) and local trajectory generation (referred to as controller plugins). A simple tutorial for creating a planner plugin can be found here. Currently, we have one planner, NavFn which implements an A* and Dijkstra’s planner. It also has two controllers, DWB and TEB which implement a DWA and timed elastic-band optimization techniques. There is also a Hybrid-A* and OMPL planner in development. Your task will be to create a high-quality implementation of one of the following algorithms for the navigation2 plugin interfaces. Alternative algorithms may also be considered upon approval, please ask @steve in the application phase. Please select only one to discuss. Planner Plugin Options: D* or variant, Vornoi planner, Navigation graph route planner, State Lattice planner, kinodynamic planner, and any planning method given a set of dynamic and static obstacles. Controller Plugin Options: CiLQR, iLQR, MPC, Splines, path following or dynamic obstacle following controllers. Additional options: helping in completing the OMPL or Hybrid-A* planner.",
+          "difficulty": "高",
+          "mentor": "Steve Macenski",
+          "contact": "stevenmacenski@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "Port Grid Maps to ROS2 and Environmental Model",
+          "description": "Grid Maps was created by ETH Zurich and later transferred to ANYbotics. It is a universal grid map library for mobile robotic mapping that can be used as the basis of environmental models and various forms of grid maps available in ROS1. This library is one of the top downloaded ROS packages. Your task will be to work with the community and the mentor to port grid_maps metapackage from ROS1 to ROS2 and help develop the next generation environment model in ROS2 to replace costmap_2d. This will involve porting code from ROS1 to ROS2, analyzing uses of the environmental model to define an abstract interface to allow replacement of costmap_2d with grid_map, and building up the basic grid-operations for costmaps. It is not expected to complete the full new model with sensor processing over the course of the summer. If completed early, you may be able to help design a gradient model to complement your implemented costmap model using grid_maps. This will allow robots to select a gradient or a costmap model on startup.",
+          "difficulty": "高",
+          "mentor": "Steve Macenski",
+          "contact": "stevenmacenski@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "Advanced Navigation Testing Framework",
+          "description": "The ROS2 Navigation Stack has had a focus on testing and reliability as a characteristic change from ROS1 to ROS2. We currently have a test coverage rate of 65% and do full system simulations in Continuous Integration (CI) to test the entire navigation system with a real robot completing real navigation tasks. Your task will be to increase the testing coverage rate to 70% (or +5% from your starting) and improve on the existing system tests to represent a more realistic environment. You will then work to make sure of that environment to actively block the robot from completing its task to simulate worst-case conditions.",
+          "difficulty": "中",
+          "mentor": "Steve Macenski",
+          "contact": "stevenmacenski@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "Navigation Branding and Website",
+          "description": "Navigation2 has made significant strides to be the best navigation system in the world. Over time, the original navigation stack in ROS has gained a reputation, fair or unfair, of being relatively limited in the types of tasks it can accomplish that are no longer true in ROS2 Navigation2. As such, we would like to initiate a re-branding effort to help differentiate it from its foundings. MoveIt has a high-quality landing page with consistent graphics, color schemes, logos, and a catchy name. Your task will be to create a logo, color scheme, and work with maintainers to develop a new name to use in creating a new website for Navigation2. The existing website is a Read The Docs design with just the technical tutorials and details. We would like the new Navigation2 website to be analog to the MoveIt website and allow for future expansions such as a blog and pages highlighting demos and robots using the framework.",
+          "difficulty": "中",
+          "mentor": "Steve Macenski",
+          "contact": "stevenmacenski@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "2D/3D Localization Improvements",
+          "description": "The Navigation2 stack uses AMCL as its primary localization engine. Over the last 10 years, essentially no updates to AMCL has been made. This is due to the code base for this implementation of an Adaptive Monte Carlo Localizer is written in embedded C, not well structured, and very sensitive to changes. A-MCL implementations have been a hallmark of localization for over a decade but this particular implementation should be deprecated. Your target involves designing and creating a new localization engine for the navigation2 stack. The requirements of this are: - Support 2D laser scanners - Support 3D laser scanners, where 2D case could potentially be a simplified case - Accurately track the localization of a robot in a given occupancy grid. The reason that specific method is left open-ended is to allow for creativity, novelty, or reimplementation of a what you feel is best. We have, however, analyzed other MCL variants as being good options. This may include reimplementing an A-MCL that is designed to be modified with modular components and support sampling from a 3D lidar. Another option is a NDT-MCL using NDT 2D/3D scan matching. Other options may be proposed and discussed with mentors during the application phase. The task involves 3D as well since there is no standard 3D localizer in ROS2 yet and more and more robust 3D SLAM libraries have emerged over the last 2 years. An optional but recommended feature of this work would be to also accept the inputs from multiple laser scanners. However it is not strictly required.",
+          "difficulty": "高",
+          "mentor": "Steve Macenski",
+          "contact": "stevenmacenski@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "Navigation Dynamic Obstacle Integration",
+          "description": "The Navigation Stack has long provided robust navigation in a wide range of environments. Controllers have been developed to operate effectively in the presence of dynamic obstacles without explicitly modeling the characteristics of dynamic obstacles. However, as the field has progressed and we see more and more robots using ROS deployed in human-filled spaces, more consideration must be taken with respect to dynamic obstacles such as people, carts, animals, and vehicles. Your task will be to create integrations with existing machine learning tools that create dynamic obstacle information (ComplexYolo, Yolo3D, etc) and tie them into the navigation stack for use. It is not in the scope for you to retrain or otherwise become an expert in 3D machine learning, but some basic knowledge will be helpful. This task will involve identifying a few techniques that produce position and velocity information about dynamic obstacles that can run on a mobile robot (using high-power Intel CPU, Nvidia Jetson SoC, external GPUs, etc) and get them running with ROS and Navigation. Next, you will help create a new costmap layer to use this information to mark the dynamic obstacle in the costmap to ensure a robot does not collide with a future trajectory of an obstacle. If time permits, you may also work to also integrate this dynamic information into a path planner and/or controller to help in direct motion consideration. This will likely be in collaboration with another community member.",
+          "difficulty": "高",
+          "mentor": "Steve Macenski",
+          "contact": "stevenmacenski@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        }
+      ]
     },
     {
-      "anchor": "/rt-thread",
+      "anchor": "rt-thread",
       "img": "RT-Thread.jpg",
       "title": "RT-Thread",
       "project_url": "https://www.rt-thread.org/news/174.html",
@@ -3390,7 +3625,7 @@
       ]
     },
     {
-      "anchor": "/simple-xx",
+      "anchor": "simple-xx",
       "img": "simpleX.jpg",
       "title": "Simple-XX",
       "project_url": "https://github.com/Simple-XX/summer2020",
@@ -3408,7 +3643,6 @@
         "编译器",
         "数据库"
       ],
-      "mail_list": "",
       "email": "zone.niuzh@hotmail.com",
       "project_list": [
         {
@@ -3464,7 +3698,7 @@
       ]
     },
     {
-      "anchor": "/soda-foundation",
+      "anchor": "soda-foundation",
       "img": "soda.jpg",
       "title": "SODA Foundation",
       "project_url": "https://github.com/sodafoundation/ecosystem/blob/master/events/Open_Source_Promotion_Plan_Summer_2020.md",
@@ -3481,10 +3715,52 @@
         "多云数据流动"
       ],
       "mail_list": "https://lists.sodafoundation.io/g/opensds-tech-discuss",
-      "email": "https://lists.sodafoundation.io/g/opensds-tech-discuss"
+      "email": "https://lists.sodafoundation.io/g/opensds-tech-discuss",
+      "project_list": [
+        {
+          "name": "开发nbp项目中的在线扩容功能",
+          "description": "nbp能通过api，controller和dock进行卷的创建，但随着业务的深入，数据量会逐渐增大，数据盘的容量会变得不能满足需求，需要进行扩容。请在nbp中实现卷的在线扩容功能。",
+          "difficulty": "中",
+          "mentor": "刘羽",
+          "contact": "ThisIsClark@163.com",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "实现driver作为plugin加载",
+          "description": "当前所有driver都会被编译到运行包中，程序启动时不管某款driver是否需要都会被加载进来，但实际上对于用户来说，并不是所有的driver都是需要的，加载额外的driver会给程序带来不必要的负担。 Go 1.8新增了plugin package，请使用这个机制，使程序启动时根据配置只以插件形式加载对应的driver。",
+          "difficulty": "高",
+          "mentor": "刘羽",
+          "contact": "ThisIsClark@163.com",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "开发nbp项目中的卷克隆功能",
+          "description": "为了更好的管理和保护数据，许多存储系统提供创建卷的克隆功能，Kubernetes也于v1.15引入了对卷克隆的支持。 目前nbp，api，controller和dock均未支持卷克隆，请进行相应开发使其支持卷克隆功能。",
+          "difficulty": "中",
+          "mentor": "刘羽",
+          "contact": "ThisIsClark@163.com",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "引入Sanity作为nbp测试框架",
+          "description": "nbp通过kubernetes和CSI插件进行存储设备的管理，请使用Sanity进行CSI插件基本功能的测试。",
+          "difficulty": "低",
+          "mentor": "刘羽",
+          "contact": "ThisIsClark@163.com",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        }
+      ]
     },
     {
-      "anchor": "/tinylab",
+      "anchor": "tinylab",
       "img": "tinylab.jpg",
       "title": "泰晓科技",
       "project_url": "http://tinylab.org/summer2020",
@@ -3552,7 +3828,7 @@
       ]
     },
     {
-      "anchor": "/tdengine",
+      "anchor": "tdengine",
       "img": "td.jpg",
       "title": "TDEngine",
       "project_url": "https://www.taosdata.com/blog/2020/05/20/1521.html",
@@ -3635,7 +3911,7 @@
       ]
     },
     {
-      "anchor": "/tuna",
+      "anchor": "tuna",
       "img": "tuna.jpg",
       "title": "清华大学 TUNA 协会",
       "project_url": "https://tuna.moe/blog/2020/ospp-summer-2020/",
@@ -3815,7 +4091,7 @@
       ]
     },
     {
-      "anchor": "/uoj",
+      "anchor": "uoj",
       "img": "oj.jpg",
       "title": "Universal OJ",
       "project_url": "https://git.io/uojsummer2020",
@@ -3868,7 +4144,7 @@
       ]
     },
     {
-      "anchor": "/ustclug",
+      "anchor": "ustclug",
       "img": "ustclug.jpg",
       "title": "USTCLUG",
       "project_url": "https://news.ustclug.org/2020/05/opensource-summer-projects/",
@@ -3908,7 +4184,7 @@
       ]
     },
     {
-      "anchor": "/volcano",
+      "anchor": "volcano",
       "img": "vol.jpg",
       "title": "Volcano",
       "project_url": "https://github.com/volcano-sh/volcano/blob/master/docs/community/summer2020-cn.md",
@@ -3978,7 +4254,7 @@
       ]
     },
     {
-      "anchor": "/wechaty",
+      "anchor": "wechaty",
       "img": "wechaty.jpg",
       "title": "Wechaty",
       "project_url": "https://github.com/wechaty/summer-of-code/issues/3",
@@ -4048,7 +4324,7 @@
         {
           "name": "基于Python-wechaty建立一个斗图机器人",
           "description": "斗图功能是目前很多年轻人，甚至很多00后非常喜欢玩的，很受20岁左右的人的喜爱。目前市面上有很多斗图的软件，自动生成斗图的软件，还有很多自制的表情包也拿出来斗图，其下载量也还是不错的。所以说，在此背景下，开发出一款基于Python-wechaty的斗图机器人也是不错的。",
-          "difficulty": "中偏高",
+          "difficulty": "中",
           "mentor": "黄纯洪",
           "contact": "huangaszaq@gmail.com",
           "co-mentor": "",

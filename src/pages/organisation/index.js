@@ -29,8 +29,8 @@ export default class Organisation extends React.Component{
             this.getAllProjectList();
             this.switchTab(2);
         } 
-        else if (location.split("/organisations")[1] && location.split("/organisations")[1].includes("/")) {
-            const anchor = location.split("/organisations")[1];
+        else if (location.split("/organisations/")[1]) {
+            const anchor = location.split("/organisations/")[1];
             this.showModal(anchor, true); 
         }
         else {
@@ -127,7 +127,7 @@ export default class Organisation extends React.Component{
      */
     showModal(anchor, isDetail) {
         const { orgList } = this.state.data;
-        let index = orgList.findIndex(obj => obj.anchor === `/${anchor.split("/")[1]}`);
+        let index = orgList.findIndex(obj => obj.anchor === anchor);
 
         if (document.getElementById(index+"-tooltip").style.display && document.getElementById(index+"-tooltip").style.display !== 'none' && !isDetail) {
             document.getElementById(index+"-tooltip").style.display = 'none';
@@ -146,7 +146,7 @@ export default class Organisation extends React.Component{
             });
             if (isDetail) {
                 this.getOrgProjectList(anchor);
-                window.location.hash.split("/").length > 1 ? window.location.hash = "/organisations" + (anchor ? anchor : "") : void(0);
+                window.location.hash.split("/").length > 1 ? window.location.hash = "/organisations/" + (anchor ? anchor : "") : void(0);
                 readyWeixin(`社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`, orgList[index].description);
                 document.title = `社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
             }
@@ -306,7 +306,7 @@ export default class Organisation extends React.Component{
      */
     getOrgProjectList(anchor) {
         const {orgList} = this.state.data;
-        let orgIndex = orgList.findIndex(obj => obj.anchor === `/${anchor.split("/")[1]}`);
+        let orgIndex = orgList.findIndex(obj => obj.anchor === anchor);
         let orgItem_ = orgList[orgIndex];
         let orgItem = orgItem_.project_list;
         let orgName = orgItem_.title;
@@ -539,7 +539,7 @@ export default class Organisation extends React.Component{
                                                 style={{backgroundImage:"url("+require("./../../img/organisation/"+item.img) + ")"}}
                                             >
                                             </div>
-                                            <div className="orgListItemTitle" id={"orgListItemTitle-"+index}>{item.title}</div>
+                                            <div className="orgListItemTitle" id={item.anchor}>{item.title}</div>
                                             <div className="orgListItemDes">{item.description}</div>
                                     </div>
                                     {/* <div id="org-tooltip-wrapper"> */}
@@ -553,9 +553,14 @@ export default class Organisation extends React.Component{
                                         <div className="tooltip-list-title">
                                             官网：<a href={item.url} target="_blank" rel="noopener noreferrer">{item.url}</a>
                                         </div>
+                                        {
+                                            item.mail_list ? 
                                         <div className="tooltip-list-title tooltip-detail">
-                                        社区邮件列表：<a href={"mailto:"+item.url} target="_blank" rel="noopener noreferrer">{item.mail_list}</a>
+                                            社区邮件列表：<a href={"mailto:"+item.url} target="_blank" rel="noopener noreferrer">{item.mail_list}</a>
                                         </div>
+                                        : ""
+                                        }
+                                        
                                         <div className="tooltip-list-title tooltip-detail">
                                         社区官方公共联系邮箱：<a href={"mailto:"+item.email} target="_blank" rel="noopener noreferrer">{item.email}</a>
                                         </div>
