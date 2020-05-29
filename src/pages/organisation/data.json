@@ -886,7 +886,7 @@
       "anchor": "/chubao",
       "img": "chubao.jpg",
       "title": "ChubaoFS (CNCF sandbox)",
-      "project_url": "",
+      "project_url": "https://github.com/chubaofs/open-source-promotion-plan-summer-2020-tasks",
       "url": "https://www.chubao.io",
       "description": "开源云原生存储平台。",
       "full_des": "ChubaoFS 是一个开源，开放的云原生存储平台，提供分布式文件系统与对象存储服务，为云原生应用提供计算与存储分离的持久化存储方案，通过开放的社区形式与全球开发者共建一个开源，开放，多元与包容的生态体系，打造一个拥抱云原生的存储平台。同时 ChubaoFS 社区也是一个技术活跃，鼓励创新，不断开拓技术新方案与最佳实践的平台。",
@@ -963,6 +963,26 @@
           "label": "2010049"
         }
       ]
+    },
+    {
+      "anchor": "/claps",
+      "img": "claps.jpg",
+      "title": "Claps",
+      "project_url": "https://github.com/claps-dev/Summer2020",
+      "url": "https://github.com/lyricat/claps.dev",
+      "description": "使用加密货币资助创作者和开源项目。",
+      "full_des": "为开源项目做出贡献的人们需要您支持他们的工作。 两者都进行初始工作，并且要保持它既费时又费钱。 Claps.dev的捐赠系统旨在提供一种为创作者和团队筹集基本收入的好方法，使他们能够继续做对所有人都有好处的出色工作。",
+      "tech_tag": [
+        "NodeJS",
+        "Cryptocurrency",
+        "Blockchain"
+      ],
+      "domain_tag": [
+        "数字货币",
+        "区块链"
+      ],
+      "mail_list": "community@meri.co",
+      "email": "contact@meri.co"
     },
     {
       "anchor": "/elastos",
@@ -1701,7 +1721,7 @@
       "anchor": "/kernal-travel",
       "img": "kernal.jpg",
       "title": "Linux 内核之旅",
-      "project_url": "",
+      "project_url": "http://kerneltravel.net/project/",
       "url": "http://kerneltravel.net/",
       "description": "Linux 内核爱好者的家园。",
       "full_des": "Linux 内核之旅开源社区是一个完全自由和开放的平台，创建于2004年，重构于2020年，社区以国际开源社区的方式运作，所有人都可以参与到Linux内核之旅开源社区的共建中，您是贡献者，也是受益者。社区由网站、公众号、慕课、Github和视频网站五大模块构成，为Linux内核爱好者提供丰富的学习资源，恳请你的参与。",
@@ -3375,7 +3395,7 @@
       "anchor": "/soda-foundation",
       "img": "soda.jpg",
       "title": "SODA Foundation",
-      "project_url": "",
+      "project_url": "https://github.com/sodafoundation/ecosystem/blob/master/events/Open_Source_Promotion_Plan_Summer_2020.md",
       "url": "https://sodafoundation.io",
       "description": "开放智能的数据管理平台。",
       "full_des": "SODA 是 Linux 基金会在数据与存储领域的第一个子基金会，由华为联合业界领先的数据与存储供应商，以及全球各行业的优秀企业共同建立，旨在帮助用户更好的应当对数据基础设施云化转型过程中的各种挑战。SODA从成立至今，已吸引华为，中国联通，FUJITSU，建信金科，NTT，TOYOTA，SONY，YAHOO!JAPAN，CESI等21家全球知名公司加入。SODA社区主要包含北向插件项目（nbp），存储控制器项目（opensds），多云项目（multi-cloud），编排项目（orchestration），用户界面项目（opensds-dashboard），安装部署项目（opensds-intaller）等9个项目。其中，nbp用于支持SODA存储服务与云及应用框架进行北向对接；opensds用于统一管理本地数据中心和云端的块、文件、对象存储；multi-cloud是基于策略的多云数据控制器，支持跨云数据流动以及数据生命周期管理。",
@@ -3884,6 +3904,30 @@
           "label": ""
         }
       ]
+    },
+    {
+      "anchor": "/wechaty",
+      "img": "wechaty.jpg",
+      "title": "Wechaty",
+      "project_url": "https://github.com/wechaty/summer-of-code/issues/3",
+      "url": "https://github.com/wechaty",
+      "description": "Conversational AI RPA Chatbot SDK for Wechat Individual Account.",
+      "full_des": "Wechaty 是一个开源聊天机器人框架SDK，具有高度封装、高可用的特性，支持NodeJs,  Python,  Go 和Java 等多语言版本。在过去的4年中，服务了数万名开发者，收获了 Github 的 8000 Star。同时配置了完整的DevOps体系并持续按照Apache 的方式管理技术社区。",
+      "tech_tag": [
+        "Conversational AI", 
+        "NLP", 
+        "TypeScript", 
+        "Python", 
+        "Go", 
+        "Java"
+      ],
+      "domain_tag": [
+        "Conversational AI",
+        "NLP",
+        "Chatbot"
+      ],
+      "mail_list": "wechaty@googlegroups.com",
+      "email": "wechaty@chatie.io"
     }
   ],
   "creditList": [

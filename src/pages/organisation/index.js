@@ -313,7 +313,7 @@ export default class Organisation extends React.Component{
         let projectUrl = orgItem_.project_url;
         var divContainer = [];
         var temp = [];
-        if (orgItem.length !== 0 && orgItem[0].name !== "") {
+        if (orgItem && orgItem[0].name !== "") {
             orgItem.map((item,index)=>{
                 if (index < 10) {
                     divContainer.push(this.getProjectList(orgIndex, item, index, orgName, projectUrl));
