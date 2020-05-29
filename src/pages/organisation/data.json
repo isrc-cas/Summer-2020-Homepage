@@ -3605,7 +3605,49 @@
         "多云数据流动"
       ],
       "mail_list": "https://lists.sodafoundation.io/g/opensds-tech-discuss",
-      "email": "https://lists.sodafoundation.io/g/opensds-tech-discuss"
+      "email": "https://lists.sodafoundation.io/g/opensds-tech-discuss",
+      "project_list": [
+        {
+          "name": "开发nbp项目中的在线扩容功能",
+          "description": "nbp能通过api，controller和dock进行卷的创建，但随着业务的深入，数据量会逐渐增大，数据盘的容量会变得不能满足需求，需要进行扩容。请在nbp中实现卷的在线扩容功能。",
+          "difficulty": "中",
+          "mentor": "刘羽",
+          "contact": "ThisIsClark@163.com",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "实现driver作为plugin加载",
+          "description": "当前所有driver都会被编译到运行包中，程序启动时不管某款driver是否需要都会被加载进来，但实际上对于用户来说，并不是所有的driver都是需要的，加载额外的driver会给程序带来不必要的负担。 Go 1.8新增了plugin package，请使用这个机制，使程序启动时根据配置只以插件形式加载对应的driver。",
+          "difficulty": "高",
+          "mentor": "刘羽",
+          "contact": "ThisIsClark@163.com",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "开发nbp项目中的卷克隆功能",
+          "description": "为了更好的管理和保护数据，许多存储系统提供创建卷的克隆功能，Kubernetes也于v1.15引入了对卷克隆的支持。 目前nbp，api，controller和dock均未支持卷克隆，请进行相应开发使其支持卷克隆功能。",
+          "difficulty": "中",
+          "mentor": "刘羽",
+          "contact": "ThisIsClark@163.com",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        },
+        {
+          "name": "引入Sanity作为nbp测试框架",
+          "description": "nbp通过kubernetes和CSI插件进行存储设备的管理，请使用Sanity进行CSI插件基本功能的测试。",
+          "difficulty": "低",
+          "mentor": "刘羽",
+          "contact": "ThisIsClark@163.com",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": ""
+        }
+      ]
     },
     {
       "anchor": "/tinylab",
@@ -4172,7 +4214,7 @@
         {
           "name": "基于Python-wechaty建立一个斗图机器人",
           "description": "斗图功能是目前很多年轻人，甚至很多00后非常喜欢玩的，很受20岁左右的人的喜爱。目前市面上有很多斗图的软件，自动生成斗图的软件，还有很多自制的表情包也拿出来斗图，其下载量也还是不错的。所以说，在此背景下，开发出一款基于Python-wechaty的斗图机器人也是不错的。",
-          "difficulty": "中偏高",
+          "difficulty": "中",
           "mentor": "黄纯洪",
           "contact": "huangaszaq@gmail.com",
           "co-mentor": "",
