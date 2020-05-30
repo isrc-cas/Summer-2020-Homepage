@@ -27,6 +27,7 @@ var readyWeixin = (title, description, imgUrl) => {
   if ((/mobile/.test(window.navigator.userAgent.toLowerCase())) ? true : false) {
     window.wx.ready(() => {
       //分享给朋友
+      console.log("weixin"+document.getElementsByTagName("meta")[2].content)
       window.wx.updateAppMessageShareData({
           title: title || document.title, // 分享标题
           desc: description || document.getElementsByTagName("meta")[2].content, // 分享描述
@@ -35,6 +36,7 @@ var readyWeixin = (title, description, imgUrl) => {
           success: function (res) {
             // 设置成功
             console.log(res)
+            
           }
       });
     
