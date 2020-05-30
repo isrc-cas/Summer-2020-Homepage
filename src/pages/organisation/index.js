@@ -148,7 +148,7 @@ export default class Organisation extends React.Component{
                 window.location.hash.split("/").length > 1 ? window.location.hash = "/organisations/" + (anchor ? anchor : "") : void(0);
                 document.getElementsByTagName("meta")[2].content = orgList[index].description;
                 document.title = `社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
-                console.log("organisation_title"+document.title)
+                
             }
             if (window.innerWidth > 845) {
                 document.getElementById(index+"-tooltip").style.display = 'flex';
