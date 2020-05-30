@@ -5001,72 +5001,6 @@
       "email": "wechaty@chatie.io",
       "project_list": [
         {
-          "name": "基于python-wechaty的群聊助手机器人",
-          "description": "在实际工作和学习过程中，微信作为主要的沟通渠道工具，承载着主要的事件发布任务。可是由于群聊信息是依时间线展开，一旦信息数量过大，将导致历史消息难以寻找。故此时需要一款群聊助手机器人，能够根据引用消息的回复，提取出其中的历史消息，并将其打上对应的标签同时保存到服务器本地。消息是保存在群聊助手机器人内部中，群内人员只需要艾特助手机器人即可查询历史消息，同时会定时清除和展示一定时间段内的历史打标消息，同时还支持手动清除和展示历史打标消息。请基于python-wechaty制作一个群聊助手机器人，完成群聊消息打标任务。",
-          "difficulty": "中",
-          "mentor": "吴京京",
-          "contact": "1435130236@qq.com",
-          "co-mentor": "",
-          "student_count": 0,
-          "update_time": "2020-05-29",
-          "label": "2044410"
-        },
-        {
-          "name": "基于Python-wechaty建立一个斗图机器人",
-          "description": "斗图功能是目前很多年轻人，甚至很多00后非常喜欢玩的，很受20岁左右的人的喜爱。目前市面上有很多斗图的软件，自动生成斗图的软件，还有很多自制的表情包也拿出来斗图，其下载量也还是不错的。所以说，在此背景下，开发出一款基于Python-wechaty的斗图机器人也是不错的。",
-          "difficulty": "中",
-          "mentor": "黄纯洪",
-          "contact": "huangaszaq@gmail.com",
-          "co-mentor": "",
-          "student_count": 0,
-          "update_time": "2020-05-29",
-          "label": "2044411"
-        },
-        {
-          "name": "编写一个“每日一句”插件",
-          "description": "利用插件为机器人赋能。 在很多交流群中会有需求说每天的某个时间机器人在群里发送一句话，或者一篇文章咨讯。 这个取决于交流群本身的属性。 比如英文学习群可能需要每天一句英文知识点， 炒股群可能需要每天一则财经资讯。 工作群每天一心灵鸡汤 等等",
-          "difficulty": "低",
-          "mentor": "gcaufy",
-          "contact": "gcaufy@gmail.com",
-          "co-mentor": "",
-          "student_count": 0,
-          "update_time": "2020-05-29",
-          "label": "2044422"
-        },
-        {
-          "name": "Wechaty Java 移植组件开发",
-          "description": "Wechaty 使用 TypeScript 进行开发，目前 Java 移植版也在开发进程中。目前完成基本功能开发，可以实现部分 TypeScript 版本功能。需要继续对 StateSwitch，MemoryCard 等核心组件进行移植开发。 Wechaty是全球最大的开源聊天机器人框架，希望实现基于同一套应用层代码实现不同软件的聊天机器人 Wechaty 作为全球最大的聊天机器人开发者社区之一，提供了非常简单的接口实现，让开发者能够用6行代码就实现自己的一个聊天机器人，如果能把企业微信的会话存档接口封装到 Wechaty 里来，则可以大大简化企业内开发者的开发流程。因为 Wechaty 是建立在 puppet 系统之上的，puppet 是 Wechaty 依赖的一层抽象层，它定义了底层各个 IM 接入方案需要实现的接口，也正是因为 puppet 抽象层的存在，让很多 Wechaty 开发者可以仅仅通过一个变量，就能够随意切换不同的底层 IM 接入。",
-          "difficulty": "低",
-          "mentor": "刁政欣",
-          "contact": "diaozxin@gmail.com",
-          "co-mentor": "",
-          "student_count": 0,
-          "update_time": "2020-05-29",
-          "label": "2044408"
-        },
-        {
-          "name": "Go-wechaty Github Action optimization",
-          "description": "Github Action 已经发布有段时间了，在 go-wechaty 的 单元测试，代码检测和代码评级均有已有所落地。但是 Github Action 的玩法远非于此，如果你对 Github 平台很有兴趣，我想你可以基于此学到更多的玩法。在这里你可以获得相应的技术指导，可以获得项目的持续集成等知识。",
-          "difficulty": "中",
-          "mentor": "丁小雨",
-          "contact": "614422099@qq.com",
-          "co-mentor": "丁超飞<dchaofei@163.com> 李博杰<silkage@silkage.net>",
-          "student_count": 0,
-          "update_time": "2020-05-29",
-          "label": "2044412"
-        },
-        {
-          "name": "为 go-wechaty 设计实现 插件体系",
-          "description": "wechaty 是一个款支持多协议的微信接入方案，随着社区多语言生态的建立，吸引了更多的开发者和爱好者的加入；同时需求的推动和技术的发展，插件系统逐渐完善，但是在多语言系统中 Plugin 体系尚未完成，我们希望通过这个任务，能够让更多的人加入 go-wechaty 的建设。目前 go-wechaty examples/ding-dong-bot.go 有一个 ding-dong bot, 但是我们希望这个 ding-dong 是通用的，如果我们的 Plugin 体系能编写出来，也许实现 ding-dong 就只需要一行代码。",
-          "difficulty": "中",
-          "mentor": "丁小雨",
-          "contact": "614422099@qq.com",
-          "co-mentor": "丁超飞<dchaofei@163.com> 李博杰<silkage@silkage.net>",
-          "student_count": 0,
-          "update_time": "2020-05-29",
-          "label": "2044413"
-        },
-        {
           "name": "基于开放 API 封装 Wechaty 接口下的企业微信聊天机器人",
           "description": "企业需要将聊天记录储存并进行分析，但接口过于复杂，需要基于现有开放接口进行二次封装企业微信作为微信的企业版，提供多种API来满足企业的不同需求。而企业微信提供的会话存档功能能满足企业消息做留存、进而通过分析大量的消息数据优化工作流程、追责和质检这一需求。 但是，企业微信的会话存档接口因为安全要求很高，所以有很多的加密，解析等工作，虽然一方面保证了安全性，但是却大大增加了开发的难度。Wechaty是全球最大的开源聊天机器人框架，希望实现基于同一套应用层代码实现不同软件的聊天机器人 Wechaty 作为全球最大的聊天机器人开发者社区之一，提供了非常简单的接口实现，让开发者能够用6行代码就实现自己的一个聊天机器人，如果能把企业微信的会话存档接口封装到 Wechaty 里来，则可以大大简化企业内开发者的开发流程。因为 Wechaty 是建立在 puppet 系统之上的，puppet 是 Wechaty 依赖的一层抽象层，它定义了底层各个 IM 接入方案需要实现的接口，也正是因为 puppet 抽象层的存在，让很多 Wechaty 开发者可以仅仅通过一个变量，就能够随意切换不同的底层 IM 接入。",
           "difficulty": "高",
@@ -5120,6 +5054,72 @@
           "student_count": 0,
           "update_time": "2020-05-29",
           "label": "2044426"
+        },
+        {
+          "name": "Wechaty Java 移植组件开发",
+          "description": "Wechaty 使用 TypeScript 进行开发，目前 Java 移植版也在开发进程中。目前完成基本功能开发，可以实现部分 TypeScript 版本功能。需要继续对 StateSwitch，MemoryCard 等核心组件进行移植开发。 Wechaty是全球最大的开源聊天机器人框架，希望实现基于同一套应用层代码实现不同软件的聊天机器人 Wechaty 作为全球最大的聊天机器人开发者社区之一，提供了非常简单的接口实现，让开发者能够用6行代码就实现自己的一个聊天机器人，如果能把企业微信的会话存档接口封装到 Wechaty 里来，则可以大大简化企业内开发者的开发流程。因为 Wechaty 是建立在 puppet 系统之上的，puppet 是 Wechaty 依赖的一层抽象层，它定义了底层各个 IM 接入方案需要实现的接口，也正是因为 puppet 抽象层的存在，让很多 Wechaty 开发者可以仅仅通过一个变量，就能够随意切换不同的底层 IM 接入。",
+          "difficulty": "低",
+          "mentor": "刁政欣",
+          "contact": "diaozxin@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2044408"
+        },
+        {
+          "name": "Go-wechaty Github Action optimization",
+          "description": "Github Action 已经发布有段时间了，在 go-wechaty 的 单元测试，代码检测和代码评级均有已有所落地。但是 Github Action 的玩法远非于此，如果你对 Github 平台很有兴趣，我想你可以基于此学到更多的玩法。在这里你可以获得相应的技术指导，可以获得项目的持续集成等知识。",
+          "difficulty": "中",
+          "mentor": "丁小雨",
+          "contact": "614422099@qq.com",
+          "co-mentor": "丁超飞<dchaofei@163.com> 李博杰<silkage@silkage.net>",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2044412"
+        },
+        {
+          "name": "为 go-wechaty 设计实现 插件体系",
+          "description": "wechaty 是一个款支持多协议的微信接入方案，随着社区多语言生态的建立，吸引了更多的开发者和爱好者的加入；同时需求的推动和技术的发展，插件系统逐渐完善，但是在多语言系统中 Plugin 体系尚未完成，我们希望通过这个任务，能够让更多的人加入 go-wechaty 的建设。目前 go-wechaty examples/ding-dong-bot.go 有一个 ding-dong bot, 但是我们希望这个 ding-dong 是通用的，如果我们的 Plugin 体系能编写出来，也许实现 ding-dong 就只需要一行代码。",
+          "difficulty": "中",
+          "mentor": "丁小雨",
+          "contact": "614422099@qq.com",
+          "co-mentor": "丁超飞<dchaofei@163.com> 李博杰<silkage@silkage.net>",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2044413"
+        },
+        {
+          "name": "基于python-wechaty的群聊助手机器人",
+          "description": "在实际工作和学习过程中，微信作为主要的沟通渠道工具，承载着主要的事件发布任务。可是由于群聊信息是依时间线展开，一旦信息数量过大，将导致历史消息难以寻找。故此时需要一款群聊助手机器人，能够根据引用消息的回复，提取出其中的历史消息，并将其打上对应的标签同时保存到服务器本地。消息是保存在群聊助手机器人内部中，群内人员只需要艾特助手机器人即可查询历史消息，同时会定时清除和展示一定时间段内的历史打标消息，同时还支持手动清除和展示历史打标消息。请基于python-wechaty制作一个群聊助手机器人，完成群聊消息打标任务。",
+          "difficulty": "中",
+          "mentor": "吴京京",
+          "contact": "1435130236@qq.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2044410"
+        },
+        {
+          "name": "基于Python-wechaty建立一个斗图机器人",
+          "description": "斗图功能是目前很多年轻人，甚至很多00后非常喜欢玩的，很受20岁左右的人的喜爱。目前市面上有很多斗图的软件，自动生成斗图的软件，还有很多自制的表情包也拿出来斗图，其下载量也还是不错的。所以说，在此背景下，开发出一款基于Python-wechaty的斗图机器人也是不错的。",
+          "difficulty": "中",
+          "mentor": "黄纯洪",
+          "contact": "huangaszaq@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2044411"
+        },
+        {
+          "name": "编写一个“每日一句”插件",
+          "description": "利用插件为机器人赋能。 在很多交流群中会有需求说每天的某个时间机器人在群里发送一句话，或者一篇文章咨讯。 这个取决于交流群本身的属性。 比如英文学习群可能需要每天一句英文知识点， 炒股群可能需要每天一则财经资讯。 工作群每天一心灵鸡汤 等等",
+          "difficulty": "低",
+          "mentor": "gcaufy",
+          "contact": "gcaufy@gmail.com",
+          "co-mentor": "",
+          "student_count": 0,
+          "update_time": "2020-05-29",
+          "label": "2044422"
         }
       ]
     }
