@@ -332,7 +332,12 @@
                             }
                             .indexHomeVideoSelfBilibiliText{
                                 position: relative;
-                                padding: 17px;
+                                padding: 5px 15px;
+                                width: 190px;
+                                box-sizing: border-box;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
                             }
                             .indexHomeVideoSelfBilibiliTextOne{
                                 position: relative;
@@ -354,7 +359,7 @@
                                 border-radius: 4px;
                                 width: auto;
                                 padding:5px 10px;
-                                margin-top:20px;
+                                
                                 cursor: pointer;
                             }
                         }
@@ -513,10 +518,27 @@
             color: #66ffff;
             width: 94.3%;
             text-align: left;
+            transition: all 0.3s;
+            cursor: pointer;
             .indexHomeOneListenItemText{
                 display: inline-block;
                 margin-left: 60px;
             }
+           
+        }
+        .indexHomeOneListenItem:hover{
+            background-color: rgba(128,255,255,0.4);
+        }
+        .indexHomeOneListenItem.fire:after{
+            content: url(./../../img/index/fire.png);
+           
+            height: 100%;
+            position: absolute;
+            right: 20px;
+            top:0;
+            display: inline-flex;
+            align-items: center;
+            text-align: center;
         }
         .indexHomeOneListenItem::before{
             content: url(./../../img/index/listen.png);
@@ -796,7 +818,7 @@
         line-height: 36px;
         letter-spacing: 2px;
         color: #ffffff;
-        text-align: left;
+        text-align: justify;
         font-family: PingFang-SC-Regular;
         font-size: 22px;
         font-weight: normal;
