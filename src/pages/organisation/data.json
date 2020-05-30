@@ -2832,7 +2832,7 @@
         {
           "name": "C 语言 JSON 解析转换代码生成框架",
           "description": "当前 iSulad 项目中，存在大量的json相关的操作（C结构体转换为JSON字符串，JSON字符串转换为C结构体）。由于C语言没有反射机制，导致无法动态解析JSON字符串。因此，需要一个生成解析和转换代码的框架。而且该框架可以支持多种json解析库，例如c-json，yajl等等。",
-          "difficulty": "难",
+          "difficulty": "高",
           "mentor": "@haozi007",
           "contact": "liuhao27@huawei.com",
           "co-mentor": "",
@@ -2854,7 +2854,7 @@
         {
           "name": "iSula 项目内存池设计与实现",
           "description": "当前 iSula 相关项目无内存池设计，程序在堆上频繁分配和释放内存，容易造成系统出现大量内存碎片，同时也降低了内存的利用率，也造成了 iSulad 性能的损失，因此，iSulad 需要设计一个高效高性能且可应对高并 发的内存池设计。",
-          "difficulty": "难",
+          "difficulty": "高",
           "mentor": "@jingwoo",
           "contact": "wujing50@huawei.com",
           "co-mentor": "",
@@ -2865,7 +2865,7 @@
         {
           "name": "iSula 项目线程池设计与实现",
           "description": "当前 iSula 相关项目无线程池设计，程序存在频繁创建和销毁线程的场景，CPU 资源开销大, 效率也相对低下，因此，iSulad 需要设计一个高性能的线程池，能支持自动扩容与收缩的动态资源分配。",
-          "difficulty": "难",
+          "difficulty": "高",
           "mentor": "@jingwoo",
           "contact": "wujing50@huawei.com",
           "co-mentor": "",
@@ -3096,7 +3096,7 @@
         {
           "name": "系统资源负载预测框架",
           "description": "为了实现对系统资源的及时调度，A-Tune需要对系统各维度资源进行相对准确的预测，从而能够在运行时进行动态调度，满足性能和功耗诉求。",
-          "difficulty": "难",
+          "difficulty": "高",
           "mentor": "@xiezhipeng1",
           "contact": "xiezhipeng1@huawei.com",
           "co-mentor": "",
@@ -3404,7 +3404,7 @@
         {
           "name": "everything tool on openEuler",
           "description": "windows下everything工具是非常好用的文件快速检索软件，但是在linux下一直没有对应工具（有一些很有历史的命令，做不到快速检索）；希望能够在openEuler中找到对应everything的快速检索工具。本题目为开 放式，实现方式难度不等，可以去开源社区寻找优秀的业界实现，移植到openEuler平台；或借鉴已有实现，进行相关优 化，目标是实现一个快速，可用，易用的文件检索工具。P.S. 实现方式可以基于命令行或图形界面",
-          "difficulty": "中等-困难",
+          "difficulty": "中",
           "mentor": "@denggx_elros",
           "contact": "dengguangxing@huawei.com",
           "co-mentor": "",
@@ -3657,7 +3657,7 @@
         {
           "name": "在Risc-V架构openEuler平台上提供golang支持",
           "description": "Golang社区正在进行Risc-V架构的移植工作，并通过issue跟踪对应进展，目前已经能够完成构建，但还有部分特性待完成。跟踪并参与社区移植工作，在Risc-V架构的OpenEuler平台上完成golang工具包的构建，构建Risc-V golang生态。",
-          "difficulty": "难",
+          "difficulty": "高",
           "mentor": "@denggx_elros",
           "contact": "dengguangxing@huawei.com",
           "co-mentor": "@whoisxxx<zhangxuzhou4@huawei.com>, @haomintsai<caihaomin@huawei.com>",
@@ -3668,7 +3668,7 @@
         {
           "name": "在 RISC-V 架构 openEuler 平台上提供 iSulad",
           "description": "iSulad是openEuler开源的容器管理工具，基于C语言开发；本任务希望能够在基于Risc-V架构的OpenEuler平台上实现iSulad工具支持，构建Risc-V架构openEuler容器生态基础。",
-          "difficulty": "中等",
+          "difficulty": "中",
           "mentor": "@denggx_elros",
           "contact": "dengguangxing@huawei.com",
           "co-mentor": "@whoisxxx<zhangxuzhou4@huawei.com>, @haomintsai<caihaomin@huawei.com>",
