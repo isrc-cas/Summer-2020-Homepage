@@ -333,6 +333,8 @@
                             .indexHomeVideoSelfBilibiliText{
                                 position: relative;
                                 padding: 17px;
+                                width: 190px;
+                                box-sizing: border-box;
                             }
                             .indexHomeVideoSelfBilibiliTextOne{
                                 position: relative;
@@ -513,10 +515,27 @@
             color: #66ffff;
             width: 94.3%;
             text-align: left;
+            transition: all 0.3s;
+            cursor: pointer;
             .indexHomeOneListenItemText{
                 display: inline-block;
                 margin-left: 60px;
             }
+           
+        }
+        .indexHomeOneListenItem:hover{
+            background-color: rgba(128,255,255,0.4);
+        }
+        .indexHomeOneListenItem.fire:after{
+            content: url(./../../img/index/fire.png);
+           
+            height: 100%;
+            position: absolute;
+            right: 20px;
+            top:0;
+            display: inline-flex;
+            align-items: center;
+            text-align: center;
         }
         .indexHomeOneListenItem::before{
             content: url(./../../img/index/listen.png);
@@ -796,7 +815,7 @@
         line-height: 36px;
         letter-spacing: 2px;
         color: #ffffff;
-        text-align: left;
+        text-align: justify;
         font-family: PingFang-SC-Regular;
         font-size: 22px;
         font-weight: normal;

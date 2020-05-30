@@ -16,34 +16,6 @@ export default class Index extends React.Component{
             buttonRight:true,
             logolistMap,
             videoFlag:false,
-            logoMain:{
-                holder: [
-                    {
-                        img:'iscaslogo.jpg',
-                        url:'http://www.iscas.ac.cn'
-                    },
-                    {
-                        img:'openeuler.jpg',
-                        url:'https://openeuler.org/zh/'
-                    }
-                ],
-                cooperation: [
-                    {
-                        img:'huawei.jpg',
-                        url:'https://www.huawei.com/cn/'
-                    },
-                    {
-                        img:'zhongkeruan.jpg',
-                        url:'http://www.sinosoft.com.cn/'
-                    },
-                    {
-                        img:'huaruijinrong.jpg',
-                        url:'http://www.archforce.cn'
-                    },
-                    
-                   
-                ]
-            }
         }
        
     }
@@ -230,7 +202,7 @@ export default class Index extends React.Component{
         let settings = {
            
             speed: 500,
-            autoplaySpeed: 5000,
+            autoplaySpeed: 500000,
           }
         
         return(
@@ -247,9 +219,15 @@ export default class Index extends React.Component{
                                 Open Source Promotion Plan <span className="mobiledisplaynone">-</span><br className="indexHomeOneTextConsEngTwoNone"/> Summer 2020
                                 </div>
                                 <div className="indexHomeOneTextConsChi">开源软件供应链点亮计划鼓励大家关注开源软件和开源社区，发掘和培养更多优秀的开发者。活动在暑期进行，我们提供一对一的导师指导，邀请技术大咖免费讲座。</div>
-                                <div className="indexHomeOneListenItem"><span className="indexHomeOneListenItemText">5.30  大咖说开源系列讲座  开源世界中的“隐规则”</span></div>
-                                <div className="indexHomeOneListenItem"><span className="indexHomeOneListenItemText">6.1  正式开始接收全国高校学生项目申请</span></div>
-                                <div className="indexHomeOneListenItem"><span className="indexHomeOneListenItemText">6.3-6.5/每晚19:00  暑期2020-活动宣讲直播  </span></div>
+                                <div className="indexHomeOneListenItem"  onClick={()=>{this.goLink('liveshow')}}>
+                                    <span className="indexHomeOneListenItemText">5.30  大咖说开源系列讲座  开源世界中的“隐规则”</span>
+                                </div>
+                                <div className="indexHomeOneListenItem " onClick={()=>{this.goLink('organisations?page=project')}}>
+                                    <span className="indexHomeOneListenItemText">6.1  正式开始接收全国高校学生项目申请</span>
+                                </div>
+                                <div className="indexHomeOneListenItem fire" onClick={()=>{this.goLogoLink('https://live.bilibili.com/22221041')}}>
+                                    <span className="indexHomeOneListenItemText">6.3-6.5/每晚19:00  暑期2020-活动宣讲直播  </span>
+                                </div>
                                 
                               
                             </div>
@@ -306,7 +284,8 @@ export default class Index extends React.Component{
                                        
                                         <img className="indexHomeVideoSelfBilibiliImage" src={liveTwoCode} alt="二维码"></img>
                                         <div className="indexHomeVideoSelfBilibiliText">
-                                            <div className="indexHomeVideoSelfBilibiliTextOne">扫一扫关注B站主页<br/>查看更多精彩视频</div>
+                                            <div className="indexHomeVideoSelfBilibiliTextOne">扫一扫关注B站主页</div>
+                                            <div className="indexHomeVideoSelfBilibiliTextOne">查看更多精彩视频</div>
                                             <div className="indexHomeVideoSelfBilibiliButton" onClick={()=>{this.goLogoLink(this.state.data.spaceurl)}}>查看主页</div>
                                         </div>
                                     </div>
@@ -403,7 +382,7 @@ export default class Index extends React.Component{
                         <div className="indexHomeThirdWrapper content1200">
                             <div className="indexHomeThirdTitle">主办单位</div>
                             <div className="indexHomeOrList holder">
-                                    {this.getOrList(this.state.logoMain.holder)}
+                                    {this.getOrList(this.state.logolistMap.holder)}
                             </div>
                             <div className="indexHomeThirdTitle">承办单位</div>
                             <div className="indexHomeOrList">
@@ -413,7 +392,7 @@ export default class Index extends React.Component{
                             </div>
                             <div className="indexHomeThirdTitle">协办单位</div>
                             <div className="indexHomeOrList">
-                                    {this.getOrList(this.state.logoMain.cooperation)}       
+                                    {this.getOrList(this.state.logolistMap.cooperation)}       
                             </div>
                             <div className="indexHomeThirdTitle">合作单位</div>
                             {/* <div className="indexHomeOrList relateThree">
