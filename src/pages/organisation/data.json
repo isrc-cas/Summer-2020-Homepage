@@ -194,7 +194,7 @@
           "student_count": 0,
           "description": "完善身份验证模块：当前默认登录页为账号密码，但与 API 不兼容，请修改为动态设置 API Key 来校验 API 身份，并为其它方式保留兼容性、可配置性。",
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2001414"
         }
       ]
     },
@@ -246,7 +246,7 @@
           "student_count": 0,
           "description": "提供后端接口。查询一定时间范围内执行时间最长的 TOP N 任务实例。",
           "update_time": "2020-05-30",
-          "label": ""
+          "label": "2002415"
         },
         {
           "name": "DS 任务节点说明文档编写",
@@ -813,7 +813,7 @@
           "student_count": 0,
           "description": "Casbin社区目前采用QQ群（中文），Gitter（英文）进行社区交流，交流渠道比较有限。我们打算开发一个同时面向Casbin开发者和用户的官方论坛：Casbin-forum（https://github.com/casbin/casbin-forum ），风格与V2EX类似。该论坛的另一个功能是全方位展示Casbin访问控制的功能，后台利用Casbin进行权限管理，前台利用casbin.js控制UI元素，如按钮的显示。该论坛会成为Casbin技术最强有力的展示。该论坛开源，因此也欢迎其他开源社区使用。",
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2008416"
         },
         {
           "name": "Casbin分布式插件（Golang)",
@@ -913,7 +913,7 @@
           "student_count": 0,
           "description": "随着云原生技术的普及，Kubernetes 已成为云原生的基石，依赖 Kubernetes 构建一个分布式、可管理多种应用的权限策略的访问控制应用。",
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2008417"
         }
       ]
     },
@@ -1316,7 +1316,7 @@
           "student_count": 0,
           "description": "亦来云的ETH侧链是基于以太坊源码进行开发的。所以ETH侧链完美兼容了以太坊的所有功能和开发方式。可以采用开发以太坊应用的方式来开发亦来云的以太坊侧链应用,比如以太坊的Web3.js库。 我们现在就利用Web3.js 库开发基于亦来云侧链的一些应用。",
           "update_time": "2020-05-30",
-          "label": "2011053"
+          "label": "2011418"
         },
         {
           "name": "主链节点参数简化",
@@ -1618,7 +1618,7 @@
           "student_count": 0,
           "description": "",
           "update_time": "2020-05-30",
-          "label": ""
+          "label": "2012419"
         },
         {
           "name": "PDF: Invent a better dark mode color algorithm for PDF pages",
@@ -2832,7 +2832,7 @@
         {
           "name": "C 语言 JSON 解析转换代码生成框架",
           "description": "当前 iSulad 项目中，存在大量的json相关的操作（C结构体转换为JSON字符串，JSON字符串转换为C结构体）。由于C语言没有反射机制，导致无法动态解析JSON字符串。因此，需要一个生成解析和转换代码的框架。而且该框架可以支持多种json解析库，例如c-json，yajl等等。",
-          "difficulty": "难",
+          "difficulty": "高",
           "mentor": "@haozi007",
           "contact": "liuhao27@huawei.com",
           "co-mentor": "",
@@ -2854,7 +2854,7 @@
         {
           "name": "iSula 项目内存池设计与实现",
           "description": "当前 iSula 相关项目无内存池设计，程序在堆上频繁分配和释放内存，容易造成系统出现大量内存碎片，同时也降低了内存的利用率，也造成了 iSulad 性能的损失，因此，iSulad 需要设计一个高效高性能且可应对高并 发的内存池设计。",
-          "difficulty": "难",
+          "difficulty": "高",
           "mentor": "@jingwoo",
           "contact": "wujing50@huawei.com",
           "co-mentor": "",
@@ -2865,7 +2865,7 @@
         {
           "name": "iSula 项目线程池设计与实现",
           "description": "当前 iSula 相关项目无线程池设计，程序存在频繁创建和销毁线程的场景，CPU 资源开销大, 效率也相对低下，因此，iSulad 需要设计一个高性能的线程池，能支持自动扩容与收缩的动态资源分配。",
-          "difficulty": "难",
+          "difficulty": "高",
           "mentor": "@jingwoo",
           "contact": "wujing50@huawei.com",
           "co-mentor": "",
@@ -3096,7 +3096,7 @@
         {
           "name": "系统资源负载预测框架",
           "description": "为了实现对系统资源的及时调度，A-Tune需要对系统各维度资源进行相对准确的预测，从而能够在运行时进行动态调度，满足性能和功耗诉求。",
-          "difficulty": "难",
+          "difficulty": "高",
           "mentor": "@xiezhipeng1",
           "contact": "xiezhipeng1@huawei.com",
           "co-mentor": "",
@@ -3404,7 +3404,7 @@
         {
           "name": "everything tool on openEuler",
           "description": "windows下everything工具是非常好用的文件快速检索软件，但是在linux下一直没有对应工具（有一些很有历史的命令，做不到快速检索）；希望能够在openEuler中找到对应everything的快速检索工具。本题目为开 放式，实现方式难度不等，可以去开源社区寻找优秀的业界实现，移植到openEuler平台；或借鉴已有实现，进行相关优 化，目标是实现一个快速，可用，易用的文件检索工具。P.S. 实现方式可以基于命令行或图形界面",
-          "difficulty": "中等-困难",
+          "difficulty": "中",
           "mentor": "@denggx_elros",
           "contact": "dengguangxing@huawei.com",
           "co-mentor": "",
@@ -3657,7 +3657,7 @@
         {
           "name": "在Risc-V架构openEuler平台上提供golang支持",
           "description": "Golang社区正在进行Risc-V架构的移植工作，并通过issue跟踪对应进展，目前已经能够完成构建，但还有部分特性待完成。跟踪并参与社区移植工作，在Risc-V架构的OpenEuler平台上完成golang工具包的构建，构建Risc-V golang生态。",
-          "difficulty": "难",
+          "difficulty": "高",
           "mentor": "@denggx_elros",
           "contact": "dengguangxing@huawei.com",
           "co-mentor": "@whoisxxx<zhangxuzhou4@huawei.com>, @haomintsai<caihaomin@huawei.com>",
@@ -3668,7 +3668,7 @@
         {
           "name": "在 RISC-V 架构 openEuler 平台上提供 iSulad",
           "description": "iSulad是openEuler开源的容器管理工具，基于C语言开发；本任务希望能够在基于Risc-V架构的OpenEuler平台上实现iSulad工具支持，构建Risc-V架构openEuler容器生态基础。",
-          "difficulty": "中等",
+          "difficulty": "中",
           "mentor": "@denggx_elros",
           "contact": "dengguangxing@huawei.com",
           "co-mentor": "@whoisxxx<zhangxuzhou4@huawei.com>, @haomintsai<caihaomin@huawei.com>",
@@ -4892,7 +4892,7 @@
           "student_count": 0,
           "description": "传统文件系统（如 XFS）、ZFS、RAID 等解决方案对于镜像站的负载类型来说并不高效：首先在用户读取文件时，RAID 会带来读取放大，在用户读取小文件时影响尤甚；其次文件系统的元数据无法确保一直缓存于内存中，从而使列目录等操作容易成为性能瓶颈。而使用单副本的对象存储可以解决以上的两个问题：由于镜像站的数据更像是缓存，允许丢失，因此可以采用单副本的方式存储，免去冗余保护。坏盘后只需更新元数据删除对应的文件，触发增量同步即可；而关于元数据，在对象存储的实现中，大多使用数据库存放元数据，而数据库性能调优有许多成熟的工具和经验。这对元数据访问优化是比较有利的。本项目的难点在于：对象存储的实现需要考虑坏盘更新元数据，删除对应文件，平滑过渡、平衡各个磁盘的读负载，避免负载集中在同一块磁盘上，以及使用 SSD 加速读取请求。目前开源的对象存储实现（如 OpenIO 和 minio）都无法很好满足需求；另外，下游的 rsync 同步会带来较高的并发量，fuse 可能会带来性能问题。在工业界中，CDN 缓存的需求（数据可靠性不敏感、数据量大、吞吐量高）与本项目希望解决的问题也是类似的。",
           "update_time": "2020-05-30",
-          "label": ""
+          "label": "2029420"
         },
         {
           "name": "rsync 反向代理",
@@ -4903,7 +4903,7 @@
           "student_count": 0,
           "description": "镜像站通常会借助 rsync 协议，在上下游之间同步数据。在实践中，我们遇到的问题是：当有两台服务器分别存储不同的镜像内容（例如，一台存储热门内容，另一台存储冷门镜像），对外提供 rsync 服务时， 接入点无法统一。本项目希望以反向代理 rsync 服务的方式解决此问题。 即：所有 rsync 请求通过一台统一的反向代理服务器，根据请求的 module name 代理至不同后端服务器。",
           "update_time": "2020-05-30",
-          "label": ""
+          "label": "2029421"
         }
       ]
     },
@@ -5032,7 +5032,7 @@
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2044422"
         },
         {
           "name": "Wechaty Java 移植组件开发",
@@ -5087,7 +5087,7 @@
           "co-mentor": "李佳芮 rui@juzi.bot",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2044423"
         },
         {
           "name": "基于开放 API 封装 Wechaty 接口下的飞书聊天机器人",
@@ -5098,7 +5098,7 @@
           "co-mentor": "李佳芮 rui@juzi.bot",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2044424"
         },
         {
           "name": "基于 RPA 封装 Wechaty 接口下的抖音聊天机器人",
@@ -5109,7 +5109,7 @@
           "co-mentor": "王凯峰",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2044425"
         },
         {
           "name": "基于 RPA 封装 Wechaty 接口下的快手聊天机器人",
@@ -5120,7 +5120,7 @@
           "co-mentor": "王凯峰",
           "student_count": 0,
           "update_time": "2020-05-29",
-          "label": ""
+          "label": "2044426"
         }
       ]
     }

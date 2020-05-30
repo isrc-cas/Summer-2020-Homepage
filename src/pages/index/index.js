@@ -247,9 +247,10 @@ export default class Index extends React.Component{
                                 Open Source Promotion Plan <span className="mobiledisplaynone">-</span><br className="indexHomeOneTextConsEngTwoNone"/> Summer 2020
                                 </div>
                                 <div className="indexHomeOneTextConsChi">开源软件供应链点亮计划鼓励大家关注开源软件和开源社区，发掘和培养更多优秀的开发者。活动在暑期进行，我们提供一对一的导师指导，邀请技术大咖免费讲座。</div>
+                                <div className="indexHomeOneListenItem"><span className="indexHomeOneListenItemText">5.30  大咖说开源系列讲座  开源世界中的“隐规则”</span></div>
                                 <div className="indexHomeOneListenItem"><span className="indexHomeOneListenItemText">6.1  正式开始接收全国高校学生项目申请</span></div>
                                 <div className="indexHomeOneListenItem"><span className="indexHomeOneListenItemText">6.3-6.5/每晚19:00  暑期2020-活动宣讲直播  </span></div>
-                                <div className="indexHomeOneListenItem"><span className="indexHomeOneListenItemText">6.6  大咖说开源系列讲座  讲人生中的开源故事</span></div>
+                                
                               
                             </div>
                             <div className="indexHomeOneImage"></div>
@@ -291,9 +292,25 @@ export default class Index extends React.Component{
                    <div className="indexHomeVideoContainer content1200">
                         <div className="indexHomeVideoTitle">专家寄语</div>
                         <div  className="indexHomeVideoItem">
-                            <div className="indexHomeVideoSelfOveflay"></div>
+                            
                             <div className="indexHomeVideoSelf" >
-                            <iframe title="iframetitle" className="indexHomeVideoSelfiframe" src="//player.bilibili.com/player.html?aid=413293097&bvid=BV1pV411C7Bs&page=1&high_quality=1" scrolling="no" border="0" frameBorder="no" framespacing="0" allowFullScreen={true}> </iframe>
+                                <div className="indexHomeVideoSelfOveflay"></div>
+                                <div className="indexHomeVideoSelfiframe">
+                                    
+                                    <iframe title="iframetitle"  src="//player.bilibili.com/player.html?aid=413293097&bvid=BV1pV411C7Bs&page=1&high_quality=1" scrolling="no" border="0" frameBorder="no" framespacing="0" allowFullScreen={true}> </iframe>
+                                </div>
+                                <div className="indexHomeVideoSelfCommitte">
+                                    <div className="indexHomeVideoSelfCommitteText">本届活动邀请的指导委员会专家们通过云录制视频给同学们寄语，鼓励大家共同投入开源！</div>
+                                    <div className="indexHomeVideoSelfCommitteButton" onClick={()=>{this.goLink('howitworks?to=committee')}}>指导委员会名单</div>
+                                    <div className="indexHomeVideoSelfBilibili">
+                                       
+                                        <img className="indexHomeVideoSelfBilibiliImage" src={liveTwoCode} alt="二维码"></img>
+                                        <div className="indexHomeVideoSelfBilibiliText">
+                                            <div className="indexHomeVideoSelfBilibiliTextOne">扫一扫关注B站主页<br/>查看更多精彩视频</div>
+                                            <div className="indexHomeVideoSelfBilibiliButton" onClick={()=>{this.goLogoLink(this.state.data.spaceurl)}}>查看主页</div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             
                         </div>

@@ -26,7 +26,13 @@ export default class Howitworks extends React.Component{
        
         const location = window.location.hash.split("to=")
         if(location[1]){
-            const position = document.getElementsByClassName("HowitworksTimelineWrapper")[0].offsetHeight - 400;
+            let position;
+            if(location[1] === 'timeline'){
+                position = document.getElementsByClassName("HowitworksContent")[0].offsetHeight + 600;
+            }else{
+                position = document.getElementsByClassName("HowitworksCommittee")[0].offsetHeight + 700;
+            }
+            
            
             scrollSmoothTo(position)
         }else{
