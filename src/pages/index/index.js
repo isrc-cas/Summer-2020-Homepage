@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.less';
 import './index.css';
-import logolistMap from './logo.js';
+import {logolistMap,holderlist} from './logo.js';
 import { Carousel } from 'antd';
 import data from '../liveshow/data';
 import liveTwoCode from './../../img/index/twoCode.jpg';
@@ -15,6 +15,7 @@ export default class Index extends React.Component{
             buttonLeft:false,
             buttonRight:true,
             logolistMap,
+            holderlist,
             videoFlag:false,
         }
        
@@ -209,9 +210,24 @@ export default class Index extends React.Component{
            <div className="indexHomeZ">
                <div className="indexHomeOne">
                <Carousel autoplay {...settings}>
+                    {/* <div className="indexHomeOneBanner indexHomeOneBannerThree">
+                        <div className="indexHomeThreeBanner content1200">
+                            <div className="indexHomeThreeBannerTitle"></div>
+                            <div className="indexHomeThreeBannerTime">6.3-6.5/每晚19:00</div>
+                            <div className="indexHomeThreeBannerTextCommittee">组委会联合开源社区通过
+                                <span 
+                                        className="indexToBilibili" 
+                                        onClick={()=>{this.goLogoLink('https://live.bilibili.com/22221041')}}>
+                                            Bilibili直播
+                                </span>
+                            </div>
+                            <div className="indexHomeThreeBannerTextCommittee">为大家全方位解读活动细则，深入剖析开源社区及项目。在线问答，解疑释惑！</div>
+                            <div className="indexHomeThreeBannerButton" >了解更多</div>
+                        </div>
+                    </div> */}
                     <div className="indexHomeOneBanner indexHomeOneBannerOne">
                             <div className="indexHomeOneWrapper content1200">
-                            <div className="indexHomeOneTextCons">
+                                <div className="indexHomeOneTextCons">
                                 <div className="indexHomeOneTextConsEngOne">
                                  ISCAS & openEuler Community
                                 </div>
@@ -231,7 +247,7 @@ export default class Index extends React.Component{
                                 
                               
                             </div>
-                            <div className="indexHomeOneImage"></div>
+                                <div className="indexHomeOneImage"></div>
 
                             </div>
                     </div>
@@ -382,7 +398,7 @@ export default class Index extends React.Component{
                         <div className="indexHomeThirdWrapper content1200">
                             <div className="indexHomeThirdTitle">主办单位</div>
                             <div className="indexHomeOrList holder">
-                                    {this.getOrList(this.state.logolistMap.holder)}
+                                    {this.getOrList(this.state.holderlist.holder)}
                             </div>
                             <div className="indexHomeThirdTitle">承办单位</div>
                             <div className="indexHomeOrList">
@@ -392,7 +408,7 @@ export default class Index extends React.Component{
                             </div>
                             <div className="indexHomeThirdTitle">协办单位</div>
                             <div className="indexHomeOrList">
-                                    {this.getOrList(this.state.logolistMap.cooperation)}       
+                                    {this.getOrList(this.state.holderlist.cooperation)}       
                             </div>
                             <div className="indexHomeThirdTitle">合作单位</div>
                             {/* <div className="indexHomeOrList relateThree">
