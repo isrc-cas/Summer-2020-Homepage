@@ -202,7 +202,7 @@ export default class Index extends React.Component{
         let settings = {
            
             speed: 500,
-            autoplaySpeed: 500000,
+            autoplaySpeed: 5000,
           }
         
         return(
@@ -225,7 +225,7 @@ export default class Index extends React.Component{
                                 <div className="indexHomeOneListenItem " onClick={()=>{this.goLink('organisations?page=project')}}>
                                     <span className="indexHomeOneListenItemText">6.1  正式开始接收全国高校学生项目申请</span>
                                 </div>
-                                <div className="indexHomeOneListenItem fire" onClick={()=>{this.goLogoLink('https://live.bilibili.com/22221041')}}>
+                                <div className="indexHomeOneListenItem fire" onClick={()=>{this.goLogoLink('https://isrc.iscas.ac.cn/summer2020/help/podcast.html')}}>
                                     <span className="indexHomeOneListenItemText">6.3-6.5/每晚19:00  暑期2020-活动宣讲直播  </span>
                                 </div>
                                 
@@ -343,7 +343,7 @@ export default class Index extends React.Component{
                                                         
                                                     }</div>
                                                     <div className="indexHomeLiveListItemTime">{item.time}</div>
-                                                    <div className="indexHomeLiveListItemText">直播时间 / 右侧可扫码观看 </div>
+                                                    <div className="indexHomeLiveListItemText">了解更多 / 右侧可扫码观看 </div>
                                                     <div className="indexHomeLiveListItemTwoCode">
                                                         <img src={liveTwoCode} alt="直播二维码"/>
                                                     </div>
