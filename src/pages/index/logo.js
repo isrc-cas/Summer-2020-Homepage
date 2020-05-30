@@ -472,6 +472,10 @@ const logolistMap = {
         
 
     ],
+
+}
+
+var holderlist = {
     holder: [
         {
             img:'iscaslogo.jpg',
@@ -500,4 +504,7 @@ const logolistMap = {
 
 
 
-export default logolistMap
+export {
+    holderlist,
+    logolistMap
+} 
