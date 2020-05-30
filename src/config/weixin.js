@@ -15,6 +15,7 @@ var initWeixin = () => {
                 signature: result.signature,// 必填，签名，见附录1
                 jsApiList: ['updateAppMessageShareData', 'updateTimelineShareData', 'onMenuShareTimeline', 'onMenuShareAppMessage', 'onMenuShareQQ', 'onMenuShareQZone']
             });
+            readyWeixin();
         },
         (error) => {
           console.log(error);
@@ -29,7 +30,7 @@ var readyWeixin = (title, description, imgUrl) => {
       //分享给朋友
       window.wx.updateAppMessageShareData({
           title: title || document.title, // 分享标题
-          desc: description || '关注开源软件和开源社区，培养和发掘更多优秀的开发者。', // 分享描述
+          desc: description || document.getElementsByTagName("meta")[2].content, // 分享描述
           link: `${window.location.origin}${window.location.pathname}${window.location.hash}`, // 分享链接
           imgUrl: imgUrl || `http://wx2.sinaimg.cn/large/007f5mwTly1gf4t59re1kj302o02o3yh.jpg`, // 分享图标base64不可以
           success: function (res) {
