@@ -2,6 +2,7 @@ import liyonglePPT from './../../file/liyongle.pptx';
 import wangweiPPT from './../../file/wangwei.pdf'; 
 var data = {
     "liveurl":"https://live.bilibili.com/22221041",
+    "spaceurl":"https://space.bilibili.com/578074510",
     "livedata":"2020.5.30 20:00 开源大咖 李建盛（适兕）老师直播  开源世界中的“隐规则”",
     "speechlist":[
         {

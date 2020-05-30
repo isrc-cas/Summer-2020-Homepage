@@ -291,9 +291,25 @@ export default class Index extends React.Component{
                    <div className="indexHomeVideoContainer content1200">
                         <div className="indexHomeVideoTitle">专家寄语</div>
                         <div  className="indexHomeVideoItem">
-                            <div className="indexHomeVideoSelfOveflay"></div>
+                            
                             <div className="indexHomeVideoSelf" >
-                            <iframe title="iframetitle" className="indexHomeVideoSelfiframe" src="//player.bilibili.com/player.html?aid=413293097&bvid=BV1pV411C7Bs&page=1&high_quality=1" scrolling="no" border="0" frameBorder="no" framespacing="0" allowFullScreen={true}> </iframe>
+                                <div className="indexHomeVideoSelfOveflay"></div>
+                                <div className="indexHomeVideoSelfiframe">
+                                    
+                                    <iframe title="iframetitle"  src="//player.bilibili.com/player.html?aid=413293097&bvid=BV1pV411C7Bs&page=1&high_quality=1" scrolling="no" border="0" frameBorder="no" framespacing="0" allowFullScreen={true}> </iframe>
+                                </div>
+                                <div className="indexHomeVideoSelfCommitte">
+                                    <div className="indexHomeVideoSelfCommitteText">本届活动邀请的指导委员会专家们通过云录制视频给同学们寄语，鼓励大家共同投入开源！</div>
+                                    <div className="indexHomeVideoSelfCommitteButton" onClick={()=>{this.goLink('howitworks?to=committee')}}>指导委员会名单</div>
+                                    <div className="indexHomeVideoSelfBilibili">
+                                       
+                                        <img className="indexHomeVideoSelfBilibiliImage" src={liveTwoCode} alt="二维码"></img>
+                                        <div className="indexHomeVideoSelfBilibiliText">
+                                            <div className="indexHomeVideoSelfBilibiliTextOne">扫一扫关注B站主页<br/>查看更多精彩视频</div>
+                                            <div className="indexHomeVideoSelfBilibiliButton" onClick={()=>{this.goLogoLink(this.state.data.spaceurl)}}>查看主页</div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             
                         </div>
