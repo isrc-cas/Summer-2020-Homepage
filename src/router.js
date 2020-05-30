@@ -17,10 +17,7 @@ export default class IRouter extends React.Component{
             linkDataMap,
         }
     }
-    // componentDidMount () {
-       
-    //     // initWeixin();
-    // }
+
     render(){
         return(
             <Router>

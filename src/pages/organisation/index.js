@@ -2,7 +2,6 @@ import React from 'react'
 import './index.less';
 import data from './data.json';
 import { Input, Pagination } from 'antd';
-import {readyWeixin} from '../../config/weixin.js';
 
 const { Search } = Input;
 export default class Organisation extends React.Component{
@@ -31,7 +30,7 @@ export default class Organisation extends React.Component{
         } 
         else if (location.split("/organisations/")[1]) {
             const anchor = location.split("/organisations/")[1];
-            this.showModal(anchor, true); 
+            this.showModal(anchor, true);
         }
         else {
             window.location.hash = "/organisations";
@@ -147,8 +146,9 @@ export default class Organisation extends React.Component{
             if (isDetail) {
                 this.displayOrgProjectList(anchor);
                 window.location.hash.split("/").length > 1 ? window.location.hash = "/organisations/" + (anchor ? anchor : "") : void(0);
-                readyWeixin(`社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`, orgList[index].description);
+                document.getElementsByTagName("meta")[2].content = orgList[index].description;
                 document.title = `社区详情 - ${orgList[index].title} - 开源软件供应链点亮计划 - 暑期2020 | 中国科学院软件研究所 | openEuler 社区`;
+                
             }
             if (window.innerWidth > 845) {
                 document.getElementById(index+"-tooltip").style.display = 'flex';
