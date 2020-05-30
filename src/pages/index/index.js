@@ -343,7 +343,7 @@ export default class Index extends React.Component{
                                                         
                                                     }</div>
                                                     <div className="indexHomeLiveListItemTime">{item.time}</div>
-                                                    <div className="indexHomeLiveListItemText">直播时间 / 右侧可扫码观看 </div>
+                                                    <div className="indexHomeLiveListItemText">了解更多 / 右侧可扫码观看 </div>
                                                     <div className="indexHomeLiveListItemTwoCode">
                                                         <img src={liveTwoCode} alt="直播二维码"/>
                                                     </div>

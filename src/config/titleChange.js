@@ -15,7 +15,7 @@ var titleChange = function(){
     gettitle();
    
     window.addEventListener('hashchange',()=>{
-        console.log(2)
+        
         window.scrollTo(0,0);
         gettitle();
     })
