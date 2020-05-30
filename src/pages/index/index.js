@@ -284,8 +284,8 @@ export default class Index extends React.Component{
                                        
                                         <img className="indexHomeVideoSelfBilibiliImage" src={liveTwoCode} alt="二维码"></img>
                                         <div className="indexHomeVideoSelfBilibiliText">
-                                            <div className="indexHomeVideoSelfBilibiliTextOne">扫一扫关注B站主页</div>
-                                            <div className="indexHomeVideoSelfBilibiliTextOne">查看更多精彩视频</div>
+                                            <div className="indexHomeVideoSelfBilibiliTextOne">扫一扫关注B站主页查看更多精彩视频</div>
+                        
                                             <div className="indexHomeVideoSelfBilibiliButton" onClick={()=>{this.goLogoLink(this.state.data.spaceurl)}}>查看主页</div>
                                         </div>
                                     </div>
