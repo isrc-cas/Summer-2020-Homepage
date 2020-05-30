@@ -471,6 +471,30 @@ const logolistMap = {
         },
         
 
+    ],
+    holder: [
+        {
+            img:'iscaslogo.jpg',
+            url:'http://www.iscas.ac.cn'
+        },
+        {
+            img:'openeuler.jpg',
+            url:'https://openeuler.org/zh/'
+        }
+    ],
+    cooperation: [
+        {
+            img:'huawei.jpg',
+            url:'https://www.huawei.com/cn/'
+        },
+        {
+            img:'zhongkeruan.jpg',
+            url:'http://www.sinosoft.com.cn/'
+        },
+        {
+            img:'huaruijinrong.jpg',
+            url:'http://www.archforce.cn'
+        },  
     ]
 }
 
