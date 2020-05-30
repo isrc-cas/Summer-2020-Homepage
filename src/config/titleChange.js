@@ -6,6 +6,7 @@ var gettitle = function(){
     var location = window.location.hash.split("?")[0].split("/");
     if(location.length === 2){
         document.title = `${linkDataMap[location[1]]||'首页'}${titleContent}`;
+        document.getElementsByTagName("meta")[2].content = "关注开源软件和开源社区，培养和发掘更多优秀的开发者。";
     }
     try {
         readyWeixin();

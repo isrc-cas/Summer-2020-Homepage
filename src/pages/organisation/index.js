@@ -30,7 +30,7 @@ export default class Organisation extends React.Component{
         } 
         else if (location.split("/organisations/")[1]) {
             const anchor = location.split("/organisations/")[1];
-            this.showModal(anchor, true); 
+            this.showModal(anchor, true);
         }
         else {
             window.location.hash = "/organisations";
