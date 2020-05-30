@@ -237,6 +237,21 @@ export default class Index extends React.Component{
 
                             </div>
                     </div>
+                    <div className="indexHomeOneBanner indexHomeOneBannerThree">
+                        <div className="indexHomeThreeBanner content1200">
+                            <div className="indexHomeThreeBannerTitle"></div>
+                            <div className="indexHomeThreeBannerTime">6.3-6.5/每晚19:00</div>
+                            <div className="indexHomeThreeBannerTextCommittee">组委会联合开源社区通过
+                                <span 
+                                        className="indexToBilibili" 
+                                        onClick={()=>{this.goLogoLink('https://live.bilibili.com/22221041')}}>
+                                            Bilibili直播
+                                </span>
+                            </div>
+                            <div className="indexHomeThreeBannerTextCommittee">为大家全方位解读活动细则，深入剖析开源社区及项目。在线问答，解疑释惑！</div>
+                            <div className="indexHomeThreeBannerButton" onClick={()=>{this.goLogoLink('https://isrc.iscas.ac.cn/summer2020/help/podcast.html')}}>了解更多</div>
+                        </div>
+                    </div>
                    <div className="indexHomeOneBanner indexHomeOneBannerTwo">
                             <div className="indexHomeTwoWrapper content1200">                            
                                 <div className="indexHomeOneDakaTitle"></div>
@@ -265,21 +280,7 @@ export default class Index extends React.Component{
 
                             </div>
                     </div>
-                    <div className="indexHomeOneBanner indexHomeOneBannerThree">
-                        <div className="indexHomeThreeBanner content1200">
-                            <div className="indexHomeThreeBannerTitle"></div>
-                            <div className="indexHomeThreeBannerTime">6.3-6.5/每晚19:00</div>
-                            <div className="indexHomeThreeBannerTextCommittee">组委会联合开源社区通过
-                                <span 
-                                        className="indexToBilibili" 
-                                        onClick={()=>{this.goLogoLink('https://live.bilibili.com/22221041')}}>
-                                            Bilibili直播
-                                </span>
-                            </div>
-                            <div className="indexHomeThreeBannerTextCommittee">为大家全方位解读活动细则，深入剖析开源社区及项目。在线问答，解疑释惑！</div>
-                            <div className="indexHomeThreeBannerButton" onClick={()=>{this.goLogoLink('https://isrc.iscas.ac.cn/summer2020/help/podcast.html')}}>了解更多</div>
-                        </div>
-                    </div>
+                   
                      </Carousel>
 
                </div>
