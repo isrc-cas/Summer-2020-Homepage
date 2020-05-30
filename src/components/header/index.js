@@ -19,6 +19,9 @@ import {titleChange} from './../../config/titleChange.js';
 
 
 
+
+
+
     
 
 export default class Header extends React.Component{
@@ -39,24 +42,12 @@ export default class Header extends React.Component{
     componentDidMount(){
        
         titleChange();
-        // let urlnow = window.location.hash.split("/")[1]
-        // this.setState({
-        //     pageflag:urlnow?'index':urlnow.split("#")[1]
-        // })
-      
-
-        // window.addEventListener('hashchange',function(e){
-        //     let urlnow = window.location.hash.split("#")[1].split("/")[1]
-        //     let flagpage = urlnow ? urlnow : 'index';   
-              
-        //     setTimeout(()=>{
-        //         window.history.replaceState('','',`./${flagpage}`)
-        //     },5);
-            
-        // })
-
-
-      
+        setTimeout(()=>{
+            let hashopl = window.location.hash.split("#/");         
+            if(hashopl[1] === ""){
+                window.history.replaceState('','',window.location.pathname)
+            }
+        },5) 
 
     }
     getLink(title){
