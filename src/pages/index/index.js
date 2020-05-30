@@ -203,7 +203,7 @@ export default class Index extends React.Component{
         let settings = {
            
             speed: 500,
-            autoplaySpeed: 500000,
+            autoplaySpeed: 5000,
           }
         
         return(
