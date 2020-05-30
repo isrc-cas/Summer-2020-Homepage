@@ -15,7 +15,6 @@ var initWeixin = () => {
                 signature: result.signature,// 必填，签名，见附录1
                 jsApiList: ['updateAppMessageShareData', 'updateTimelineShareData', 'onMenuShareTimeline', 'onMenuShareAppMessage', 'onMenuShareQQ', 'onMenuShareQZone']
             });
-            readyWeixin();
         },
         (error) => {
           console.log(error);
