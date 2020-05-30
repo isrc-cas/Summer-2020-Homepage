@@ -398,7 +398,7 @@ export default class Organisation extends React.Component{
         if (category === 'update_time' || category === 'hot_index') {
             document.getElementsByClassName("ant-input-clear-icon")[0].click();
             const {allProjects} = this.state;
-            let newProjects = allProjects.reverse();
+            let newProjects = allProjects;
             // reset all style
             document.getElementById('org-default').setAttribute("class", "org-search-bar-sort");
             this.resetStyle(category);
