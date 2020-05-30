@@ -138,7 +138,7 @@
         },
         {
           "name": "在线捕获HTTP流量",
-          "difficulty": "高",
+          "difficulty": "中",
           "mentor": "罗泽轩",
           "contact": "spacewander@apache.org",
           "student_count": 1,
@@ -239,13 +239,23 @@
           "label": "2002006"
         },
         {
+          "name": "耗时任务 TOP N 查询（后端）",
+          "difficulty": "低",
+          "mentor": "Gabry.wu",
+          "contact": "wu_shao_jie@qq.com",
+          "student_count": 0,
+          "description": "提供后端接口。查询一定时间范围内执行时间最长的 TOP N 任务实例。",
+          "update_time": "2020-05-30",
+          "label": ""
+        },
+        {
           "name": "DS 任务节点说明文档编写",
           "description": "基于现有文档和 DS 功能，补充文档，对 DS 现有任务节点进行详细说明。",
           "difficulty": "低",
-          "mentor": "Jave-Chen",
-          "contact": "kejia.chen@foxmail.com",
+          "mentor": "nauu",
+          "contact": "zhukai@apache.org",
           "student_count": 0,
-          "update_time": "2020-05-13",
+          "update_time": "2020-05-30",
           "label": "2002007"
         },
         {
@@ -322,50 +332,50 @@
           "name": "新任务节点开发文档整理",
           "description": "基于代码和 PR ，整理新任务节点开发文档。",
           "difficulty": "中",
-          "mentor": "Jave-Chen",
-          "contact": "kejia.chen@foxmail.com",
+          "mentor": "Lidong Dai",
+          "contact": "lidongdai@apache.org",
           "student_count": 0,
-          "update_time": "2020-05-13",
+          "update_time": "2020-05-30",
           "label": "2002012"
         },
         {
           "name": "查询所有上下游依赖（后端）",
           "description": "提供后端接口。查询任务的所有上下游依赖。",
           "difficulty": "高",
-          "mentor": "Jave-Chen",
-          "contact": "kejia.chen@foxmail.com",
+          "mentor": "温合民",
+          "contact": "wenhemin@apache.org",
           "student_count": 0,
-          "update_time": "2020-05-16",
+          "update_time": "2020-05-30",
           "label": "2002013"
         },
         {
           "name": "查询所有上下游依赖（前端）",
           "description": "开发前端页面，调用后端接口。查询任务的所有上下游依赖。",
           "difficulty": "低",
-          "mentor": "Jave-Chen",
-          "contact": "kejia.chen@foxmail.com",
+          "mentor": "温合民",
+          "contact": "wenhemin@apache.org",
           "student_count": 0,
-          "update_time": "2020-05-16",
+          "update_time": "2020-05-30",
           "label": "2002014"
         },
         {
           "name": "任务结果/变量传递（后端）",
           "description": "提供后端接口。支持任务节点间传递变量/任务执行结果。",
           "difficulty": "高",
-          "mentor": "Jave-Chen",
-          "contact": "kejia.chen@foxmail.com",
+          "mentor": "simon",
+          "contact": "3656562@qq.com",
           "student_count": 0,
-          "update_time": "2020-05-16",
+          "update_time": "2020-05-30",
           "label": "2002015"
         },
         {
           "name": "任务结果/变量传递（前端）",
           "description": "开发前端页面，调用后端接口。支持任务节点间传递变量/任务执行结果。",
-          "difficulty": "低",
-          "mentor": "Jave-Chen",
-          "contact": "kejia.chen@foxmail.com",
+          "difficulty": "高",
+          "mentor": "simon",
+          "contact": "3656562@qq.com",
           "student_count": 0,
-          "update_time": "2020-05-16",
+          "update_time": "2020-05-30",
           "label": "2002016"
         },
         {
@@ -887,7 +897,7 @@
         },
         {
           "name": "Casbin 仪表盘Web界面（前端React + Javascript，后端Golang）",
-          "difficulty": "高",
+          "difficulty": "中",
           "mentor": "张合龙 (BetaCat0)",
           "contact": "outman99@hotmail.com",
           "student_count": 0,
@@ -1299,13 +1309,13 @@
           "label": "2011052"
         },
         {
-          "name": "ETH 侧链开发",
+          "name": "Elastos ETH 侧链项目",
           "difficulty": "中",
           "mentor": "Xiaobin Zhang, black",
           "contact": "zhangxiaobin@gelaxy.io",
           "student_count": 0,
           "description": "亦来云的ETH侧链是基于以太坊源码进行开发的。所以ETH侧链完美兼容了以太坊的所有功能和开发方式。可以采用开发以太坊应用的方式来开发亦来云的以太坊侧链应用,比如以太坊的Web3.js库。 我们现在就利用Web3.js 库开发基于亦来云侧链的一些应用。",
-          "update_time": "2020-05-27",
+          "update_time": "2020-05-30",
           "label": "2011053"
         },
         {
@@ -1599,6 +1609,16 @@
           "description": "",
           "update_time": "2020-05-19",
           "label": "2012151"
+        },
+        {
+          "name": "Browser: Mouseless browsing.",
+          "difficulty": "中",
+          "mentor": "Matthew Zeng",
+          "contact": "matthewzmd@gmail.com",
+          "student_count": 0,
+          "description": "",
+          "update_time": "2020-05-30",
+          "label": ""
         },
         {
           "name": "PDF: Invent a better dark mode color algorithm for PDF pages",
@@ -2040,7 +2060,7 @@
         {
           "name": "Linux显微镜",
           "description": "LMP(Linux microscope)是一个基于bcc(BPF Compiler Collection)的Linux系统性能数据实时展示的web工具，它使用BPF(Berkeley Packet Filters)，也叫eBPF技术，提取Linux内核细粒度性能数据，展示在web界面，为运维人员提供参考。",
-          "difficulty": "低",
+          "difficulty": "中",
           "mentor": "陈莉君",
           "contact": "cljcore@126.com",
           "co-mentor": "",
@@ -2455,7 +2475,7 @@
           "description": "自 MiniGUI 5.0 起，MiniGUI 的多进程模式开始支持合成图式（compositing schema）。合成图式是现代桌面操作系统和智能手机操作系统的图形及窗口系统使用的技术，其基本原理很简单：系统中所有进程创建的每一个窗口都使用独立的缓冲区来各自渲染其内容，而系统中有一个扮演合成器（compositor）角色的进程，负责将这些内容根据窗口的 Z 序以及叠加效果（如半透明、模糊等）合成在一起并最终显示在屏幕上。本项目要求为 MiniGUI 5.0 的合成图式开发一个适合于小屏幕智能设备的定制合成器，实现自定义的窗口层叠效果（如阴影、模糊、不规则窗口等），以及窗口的切换动画等效果。",
           "difficulty": "高",
           "mentor": "魏永明",
-          "contact": "vincent@minigui.org",
+          "contact": "summer2020@minigui.com",
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-26",
@@ -2466,7 +2486,7 @@
           "description": "DRM 已经成为 Linux 环境中新一代的现代图形支持框架。自 4.0 版本以来，MiniGUI 支持 DRM，但目前只提供了一个针对早期 Intel i915 芯片的加速图形引擎。该项目要求您为某个支持 DRM 且包含基础 2D 加速能力的 GPU 开发一个 MiniGUI 的 DRM 加速图形引擎。该 GPU 可以是 PC 显卡，也可以是嵌入式 SoC，如全志、瑞芯或者展讯的 SoC。",
           "difficulty": "中",
           "mentor": "魏永明",
-          "contact": "vincent@minigui.org",
+          "contact": "summer2020@minigui.com",
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-26",
@@ -2477,7 +2497,7 @@
           "description": "HybridOS 是飞漫软件正在开发中的针对物联网的新一代操作系统。飞漫软件已基于 MiniGUI、Mesa、Cairo 等开源软件发布了 HybridOS 图形栈。在 Mesa 的 MiniGUI Backend 实现中，目前未提供对 EGL pixel buffer 的支持。本项目要求在现有 Mesa MiniGUI backend 的实现基础上，提供对 EGL pixel buffer 的支持。",
           "difficulty": "中",
           "mentor": "魏永明",
-          "contact": "vincent@minigui.org",
+          "contact": "summer2020@minigui.com",
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-26",
@@ -2488,7 +2508,7 @@
           "description": "MiniGUI 现有开源的中文输入法引擎已经过时了。本项目要求移植一个成熟的开源中文输入法引擎，使得 MiniGUI 应用可以获得更好的中文输入法支持。",
           "difficulty": "低",
           "mentor": "魏永明",
-          "contact": "vincent@minigui.org",
+          "contact": "summer2020@minigui.com",
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-26",
@@ -2499,7 +2519,7 @@
           "description": "将 MiniGUI 5.0 (Standalone 或者 Threads 模式）移植到运行 RT-Thread 或者 FreeRTOS 的开发板上。需要开发针对具体开发板的图形引擎、输入引擎等。",
           "difficulty": "低",
           "mentor": "魏永明",
-          "contact": "vincent@minigui.org",
+          "contact": "summer2020@minigui.com",
           "co-mentor": "",
           "student_count": 0,
           "update_time": "2020-05-26",
