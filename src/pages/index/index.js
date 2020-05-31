@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.less';
 import './index.css';
-import logolistMap from './logo.js';
+import {logolistMap,holderlist} from './logo.js';
 import { Carousel } from 'antd';
 import data from '../liveshow/data';
 import liveTwoCode from './../../img/index/twoCode.jpg';
@@ -15,6 +15,7 @@ export default class Index extends React.Component{
             buttonLeft:false,
             buttonRight:true,
             logolistMap,
+            holderlist,
             videoFlag:false,
         }
        
@@ -209,9 +210,10 @@ export default class Index extends React.Component{
            <div className="indexHomeZ">
                <div className="indexHomeOne">
                <Carousel autoplay {...settings}>
+                    
                     <div className="indexHomeOneBanner indexHomeOneBannerOne">
                             <div className="indexHomeOneWrapper content1200">
-                            <div className="indexHomeOneTextCons">
+                                <div className="indexHomeOneTextCons">
                                 <div className="indexHomeOneTextConsEngOne">
                                  ISCAS & openEuler Community
                                 </div>
@@ -219,21 +221,37 @@ export default class Index extends React.Component{
                                 Open Source Promotion Plan <span className="mobiledisplaynone">-</span><br className="indexHomeOneTextConsEngTwoNone"/> Summer 2020
                                 </div>
                                 <div className="indexHomeOneTextConsChi">开源软件供应链点亮计划鼓励大家关注开源软件和开源社区，发掘和培养更多优秀的开发者。活动在暑期进行，我们提供一对一的导师指导，邀请技术大咖免费讲座。</div>
-                                <div className="indexHomeOneListenItem"  onClick={()=>{this.goLink('liveshow')}}>
-                                    <span className="indexHomeOneListenItemText">5.30  大咖说开源系列讲座  开源世界中的“隐规则”</span>
-                                </div>
+                                
                                 <div className="indexHomeOneListenItem " onClick={()=>{this.goLink('organisations?page=project')}}>
                                     <span className="indexHomeOneListenItemText">6.1  正式开始接收全国高校学生项目申请</span>
                                 </div>
                                 <div className="indexHomeOneListenItem fire" onClick={()=>{this.goLogoLink('https://isrc.iscas.ac.cn/summer2020/help/podcast.html')}}>
                                     <span className="indexHomeOneListenItemText">6.3-6.5/每晚19:00  暑期2020-活动宣讲直播  </span>
                                 </div>
+                                <div className="indexHomeOneListenItem"  onClick={()=>{this.goLink('liveshow')}}>
+                                    <span className="indexHomeOneListenItemText">6.30  大咖说开源讲座 在你的人生经历中，有哪些开源故事</span>
+                                </div>
                                 
                               
                             </div>
-                            <div className="indexHomeOneImage"></div>
+                                <div className="indexHomeOneImage"></div>
 
                             </div>
+                    </div>
+                    <div className="indexHomeOneBanner indexHomeOneBannerThree">
+                        <div className="indexHomeThreeBanner content1200">
+                            <div className="indexHomeThreeBannerTitle"></div>
+                            <div className="indexHomeThreeBannerTime">6.3-6.5/每晚19:00</div>
+                            <div className="indexHomeThreeBannerTextCommittee">组委会联合开源社区通过
+                                <span 
+                                        className="indexToBilibili" 
+                                        onClick={()=>{this.goLogoLink('https://live.bilibili.com/22221041')}}>
+                                            Bilibili直播
+                                </span>
+                            </div>
+                            <div className="indexHomeThreeBannerTextCommittee">为大家全方位解读活动细则，深入剖析开源社区及项目。在线问答，解疑释惑！</div>
+                            <div className="indexHomeThreeBannerButton" onClick={()=>{this.goLogoLink('https://isrc.iscas.ac.cn/summer2020/help/podcast.html')}}>了解更多</div>
+                        </div>
                     </div>
                    <div className="indexHomeOneBanner indexHomeOneBannerTwo">
                             <div className="indexHomeTwoWrapper content1200">                            
@@ -263,6 +281,7 @@ export default class Index extends React.Component{
 
                             </div>
                     </div>
+                   
                      </Carousel>
 
                </div>
@@ -382,7 +401,7 @@ export default class Index extends React.Component{
                         <div className="indexHomeThirdWrapper content1200">
                             <div className="indexHomeThirdTitle">主办单位</div>
                             <div className="indexHomeOrList holder">
-                                    {this.getOrList(this.state.logolistMap.holder)}
+                                    {this.getOrList(this.state.holderlist.holder)}
                             </div>
                             <div className="indexHomeThirdTitle">承办单位</div>
                             <div className="indexHomeOrList">
@@ -392,7 +411,7 @@ export default class Index extends React.Component{
                             </div>
                             <div className="indexHomeThirdTitle">协办单位</div>
                             <div className="indexHomeOrList">
-                                    {this.getOrList(this.state.logolistMap.cooperation)}       
+                                    {this.getOrList(this.state.holderlist.cooperation)}       
                             </div>
                             <div className="indexHomeThirdTitle">合作单位</div>
                             {/* <div className="indexHomeOrList relateThree">
