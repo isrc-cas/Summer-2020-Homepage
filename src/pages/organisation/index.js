@@ -221,7 +221,7 @@ export default class Organisation extends React.Component{
                 <div className="orgProjectGap"></div>
                 <div className="orgProjectBottomLeft">
                     {/* <div>已申请团队数：{item.student_count}</div> */}
-                    {/*<div className="orgProjectSponsor">{item.sponsor}</div>*/
+                    {/*<div className="orgProjectSponsor">{item.sponsor}</div>*/}
                     <div className="orgProjectName">{orgName}</div>
                 </div>
 
