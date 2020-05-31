@@ -418,18 +418,18 @@
       "email": "dev@pulsar.apache.org",
       "project_list": [
         {
-          "name": "Pulsar .NET/C# client feature catch up",
-          "description": "Description: Recently community contributed .NET/C# client library for Apache Pulsar. But lack of some of the features in Pulsar main repo. This task is to catch up the missing features in .NET/C# client.",
+          "name": "丰富 Pulsar .NET 客户端相关功能",
+          "description": "Pulsar .NET/C# 客户端是近期刚刚捐献给 Apache Pulsar 的一个新项目。现在 Pulsar .NET 客户端 已经具备了基础的 Pub/Sub 功能，但是缺少其他一些Java Client 具备的高级的功能。这个项目参与者可以和导师协商感兴趣的功能，理解现有的 Java 客户端的高级功能，并在 .NET 的client 端中进行相关的实现。这个项目为参与者提供消息系统的高级功能的深入理解。",
           "difficulty": "中",
           "mentor": "Jia Zhai (翟佳)",
-          "contact": "izhaijia@apache.org",
+          "contact": "zhaijia@apache.org",
           "student_count": 0,
           "update_time": "2020-05-18",
           "label": "2003019"
         },
         {
-          "name": "Schema independent from the topic",
-          "description": "Schema is widely used in data storage systems and Apache Pulsar uses Apache Avro to manage schemas such as schema definition, evolution, and data encoding. Currently, schemas are stored for each topic. In the scenario where the same schema is used for different topics, we store redundant schemas. This task is aimed to support the same schema that can be reused between different topics, make schema independent from the topic. And while being compatible with the existing architecture.",
+          "name": "独立与 Topic 外的 Schema 管理",
+          "description": "Schema 广泛应用在数据存储系统中。Apache Pulsar 使用 Apache Avro 进行Schema定义，兼容性检查，数据序列化反序列化等。当前的实现 Schema 和 Topic 具有绑定关系，同一个 Schema 无法被不同的 Topic 重复使用，因此我们需要存储更多冗余的 Schema。这个任务主要的目的是为了将 Schema 从 Topic 中独立出来从而能够支持 Schema 的复用。并且能够和已有的机制保持兼容。",
           "difficulty": "中",
           "mentor": "Penghui Li(李鹏辉)",
           "contact": "penghui@apache.org",
@@ -438,8 +438,8 @@
           "label": "2003020"
         },
         {
-          "name": "Read compacted topic in Pulsar SQL",
-          "description": "Compacted topic compact the history version message of the same message key. This is more like a row update in the database. Pulsar SQL can query data and analyze data from Pulsar topics. Currently, Pulsar SQL can't read data from the compacted topic, this task is to support reading data from the compacted topics in Pulsar SQL.",
+          "name": "Pulsar SQL 读取 Compacted Topic 中的消息",
+          "description": "Compacted Topic 会根据消息的 key 不断的进行merge为每个 key 保留最新的消息，这很像更新数据库中的一行数据，更新后就只能读到新的消息。Pulsar SQL 可以从 Topic 中读取消息并进行分析。当前 Pulsar SQL 并不支持读取 Compacted Topic 中的消息(读取最新版本消息的方式)，这个任务主要是支持 Pulsar SQL 能够读取以读取最新版本消息的方式读取 Compacted Topic 中的数据。",
           "difficulty": "中",
           "mentor": "Ran Gao(高冉)",
           "contact": "gaoran_10@126.com",
@@ -448,8 +448,8 @@
           "label": "2003021"
         },
         {
-          "name": "Pulsar Go client feature catch up",
-          "description": "Recently community contributed go client library for Apache Pulsar. But lack of some of the features in Pulsar main repo. This task is to catch up the missing features in go client.",
+          "name": "完善 Apache Pulsar Go client 的功能",
+          "description": "pulsar-client-go 是一个使用 Go 语言编写的 Go Client 库，旨在替换原来的 CGO client，从而更好地支持 Pulsar在 Go 社区的应用和集成。",
           "difficulty": "中",
           "mentor": "Xiaolong Ran (冉小龙)",
           "contact": "rxl@apache.org",
