@@ -210,7 +210,7 @@ export default class Organisation extends React.Component{
         className="orgProjectItem">
             <div className="orgProjectItemColumn orgLeft org-team">
                 <div className="orgProjectTitleBar">
-                    {/* <div className="orgProjectId">{item.label ? '项目ID: '+item.label : ''}</div> */}
+                    <div className="orgProjectId">{item.label ? '项目ID: '+item.label : ''}</div>
                     <div className="orgProjectTitleTeam">
                         {item.name}
                     </div>
@@ -221,7 +221,8 @@ export default class Organisation extends React.Component{
                 <div className="orgProjectGap"></div>
                 <div className="orgProjectBottomLeft">
                     {/* <div>已申请团队数：{item.student_count}</div> */}
-                    <div className="orgProjectSponsor">{item.sponsor}</div>
+                    {/*<div className="orgProjectSponsor">{item.sponsor}</div>*/}
+                    <div className="orgProjectName">{orgName}</div>
                 </div>
 
             </div>
@@ -257,7 +258,7 @@ export default class Organisation extends React.Component{
         className="orgProjectItem">
             <div className={"orgProjectItemColumn orgLeft org-"+index%3}>
                 <div className="orgProjectTitleBar">
-                    {/* <div className="orgProjectId">{item.label ? '项目ID: '+item.label : ''}</div> */}
+                    <div className="orgProjectId">{item.label ? '项目ID: '+item.label : ''}</div>
                     <div className="orgProjectTitle">
                         {item.name}
                     </div>
