@@ -210,7 +210,7 @@ export default class Organisation extends React.Component{
         className="orgProjectItem">
             <div className="orgProjectItemColumn orgLeft org-team">
                 <div className="orgProjectTitleBar">
-                    {/* <div className="orgProjectId">{item.label ? '项目ID: '+item.label : ''}</div> */}
+                    <div className="orgProjectId">{item.label ? '项目ID: '+item.label : ''}</div>
                     <div className="orgProjectTitleTeam">
                         {item.name}
                     </div>
@@ -257,7 +257,7 @@ export default class Organisation extends React.Component{
         className="orgProjectItem">
             <div className={"orgProjectItemColumn orgLeft org-"+index%3}>
                 <div className="orgProjectTitleBar">
-                    {/* <div className="orgProjectId">{item.label ? '项目ID: '+item.label : ''}</div> */}
+                    <div className="orgProjectId">{item.label ? '项目ID: '+item.label : ''}</div>
                     <div className="orgProjectTitle">
                         {item.name}
                     </div>
