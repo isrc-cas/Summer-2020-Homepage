@@ -1,0 +1,25 @@
+{
+    "bannerlist":[
+        {
+            "img":"1.png",
+            "title":"合作单位",
+            "stitle":"sponsor",
+            "text":"和我们一起贡献开源！",
+            "button": "联系我们"
+        },
+        {
+            "img":"2.png",
+            "title":"社区",
+            "stitle":"community",
+            "text":"让更多的学生和开发者们加入你的社区!",
+            "button": "立即报名"
+        },
+        {
+            "img":"3.png",
+            "title":"学生",
+            "stitle":"student",
+            "button": "立即报名",
+            "text":"利用暑期的时间，贡献你的代码吧！"
+        }
+    ]
+}
