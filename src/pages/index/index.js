@@ -53,8 +53,9 @@ export default class Index extends React.Component{
                 })
             }
         }
-        
-        if(Math.round(Number(movNumber)/widthItem) === -2){
+        console.log(movNumber)
+        console.log(Number(movNumber)/widthItem)
+        if(Math.round(Number(movNumber)/widthItem) === -1){
             this.setState({
                 buttonRight:false
             })
@@ -343,7 +344,7 @@ export default class Index extends React.Component{
                                 {
                                     this.state.data.speechlist.map((item,index)=>{
                                         return (
-                                           !item.ppt?
+                                           !item.url?
                                            <div className="indexHomeLiveListItem" key={index} onClick={()=>{this.liveUrl(item.time)}}>
                                                 <div 
                                                     style={{backgroundImage:"url("+require("./../../img/index/"+item.profilelist[0].imgurl) + ")"}}

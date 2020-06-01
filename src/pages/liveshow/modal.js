@@ -34,10 +34,13 @@ export default class LiveModal extends React.Component{
                                     <div 
                                         onClick={()=>{this.goLogoLink(this.props.item.url)}}
                                         className="LiveShowItemHeaderButton" >观看回放</div>
-                                     <a     
+                                     {
+                                         this.props.item.ppt?
+                                         <a     
                                         download={this.props.item.pptname}  
                                         href = {this.props.item.ppt}                    
-                                        className="LiveShowItemHeaderPPTX" >下载PPT</a>
+                                        className="LiveShowItemHeaderPPTX" >下载PPT</a>:""
+                                     }
                                 </>
                             :
                             <div>

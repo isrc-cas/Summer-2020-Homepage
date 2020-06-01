@@ -52,7 +52,7 @@ export default class LiveShow extends React.Component{
                         {
                             this.state.data.speechlist.map((item,index)=>{
                                 return (
-                                    item.ppt?"":
+                                    item.url?"":
                                     <LiveModal 
                                     key = {index}
                                     item ={item}/>
@@ -64,7 +64,7 @@ export default class LiveShow extends React.Component{
                         {
                             this.state.data.speechlist.map((item,index)=>{
                                 return (
-                                    item.ppt?
+                                    item.url?
                                     <LiveModal 
                                     key = {index}
                                     flag = "over"
