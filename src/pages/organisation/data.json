@@ -1,5 +1,7 @@
 {
   "LICENSE": "Mulan PSL v2",
+  "max": 1,
+  "min": 0,
   "orgList": [
     {
       "anchor": "aosc",
