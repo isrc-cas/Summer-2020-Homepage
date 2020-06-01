@@ -13,7 +13,7 @@
 import React from 'react'
 import './index.less';
 import data from './data.js';
-import scrollSmoothTo from './../../config/scroll.js'
+
 
 export default class Howitworks extends React.Component{
     constructor(props){
@@ -43,10 +43,13 @@ export default class Howitworks extends React.Component{
                 position = document.getElementsByClassName("HowitworksContent")[0].offsetHeight + 600;
             }else{
                 position = document.getElementsByClassName("HowitworksCommittee")[0].offsetHeight + 700;
-            }
-            
-           
-            scrollSmoothTo(position)
+            } 
+            window.scrollTo({
+                top: position,
+                left: 0,
+                behavior: 'smooth'
+              });
+              
         }else{
             window.scrollTo(0,0);
         }
