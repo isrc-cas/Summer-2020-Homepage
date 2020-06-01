@@ -10,8 +10,8 @@
  * See the Mulan PSL v2 for more details.
  */
 
-import liyonglePPT from './../../file/liyongle.pptx'; 
-import wangweiPPT from './../../file/wangwei.pdf'; 
+import PPT2020_05_16 from './../../file/2020_05_16.pptx'; 
+import PPT2020_05_23 from './../../file/2020_05_23.pdf'; 
 var data = {
     "liveurl":"https://live.bilibili.com/22221041",
     "spaceurl":"https://space.bilibili.com/578074510",
@@ -29,7 +29,7 @@ var data = {
                 }
             ],       
             "speechcontent":"",
-            "ppt":liyonglePPT,
+            "ppt":PPT2020_05_16,
             "pptname":"李永乐老师“邀您一起玩openEuler”.pptx",
             "url":"https://www.bilibili.com/video/BV1gz4y1d7cu",
         },
@@ -45,7 +45,7 @@ var data = {
                 }
             ],  
             "speechcontent":"",
-            "ppt":wangweiPPT,
+            "ppt":PPT2020_05_23,
             "pptname":"王伟老师高校开源创新的故事：以X-lab开放实验室为例.pdf",
             "url":"https://www.bilibili.com/video/BV1HK411s7DJ",
         },
