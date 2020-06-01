@@ -174,14 +174,6 @@ export default class Organisation extends React.Component{
                 document.getElementById(index+"-tooltip").style.display = 'block';
                 document.getElementById("orgListOWrapper").style.display = 'none';
                 document.getElementById("orgListNavBar").style.display = 'block';
-                if (orgList[index].project_list && orgList[index].project_list[0].anchor && anchor.split("/").length === 3) {
-                    alert(orgList[index].project_list[0].anchor)
-                    document.getElementById(orgList[index].project_list[0].anchor).scrollIntoView();
-                    // window.scrollTo(0,750)
-                } else {
-                    window.scrollTo(0,0);
-                }
-                
             } else {
                 document.getElementById(index+"-tooltip").setAttribute("class", "org-tooltip");
             }
@@ -397,7 +389,7 @@ export default class Organisation extends React.Component{
             displayProjects: divContainer,
             currentPage: pageNo
         });
-        id.includes("all") ? window.scrollTo(0,300) : window.scrollTo(0,700);
+        id.includes("all") ? document.getElementById(id).scrollIntoView(true) : window.scrollTo(0,700);
     }
 
     /**
@@ -509,7 +501,7 @@ export default class Organisation extends React.Component{
                             <p>
                             特别团队项目
                             </p>
-                            <p style={{"font-size":"16px"}}>
+                            <p style={{"fontSize":"16px"}}>
                             “移植 openEuler 至 RK3399 平台”
                             </p>
                             <p className="orgBannerTeamDes">
@@ -592,7 +584,7 @@ export default class Organisation extends React.Component{
                                             )
                                         }):''}</div>
                                         <div className="tooltip-list-title tooltip-detail">技术标签</div>
-                                        <div className="tooltip-tag">{item.tech_tag?item.tech_tag.map((item,index)=>{
+                                        <div id="org-project-lists" className="tooltip-tag">{item.tech_tag?item.tech_tag.map((item,index)=>{
                                             return (
                                                 <div className="orgTagListItem tech" key={'tech-'+index}>{item}</div>
                                             )
@@ -601,10 +593,9 @@ export default class Organisation extends React.Component{
                                         <img src={require("./../../img/organisation/arrow.png")} alt=">"></img>
                                         </div>
                                         <div className="tooltip-project-wrapper tooltip-detail org-detail org-search-bar-wrapper">
-                                            <div  id="org-project-lists" className="org-No">
+                                            <div id="org-project-lists" className="org-No">
                                                 {this.state.totalProjects > 0 ? <span>共{this.state.totalProjects}个项目</span> : ""}
                                                 {Math.ceil(this.state.totalProjects / 10) > 1 ? <span className="org-pageNo">第{this.state.currentPage}页 / <span style={{color:'#999999'}}>共{Math.ceil(this.state.totalProjects / 10)}页</span></span> : ''}
-                                            
                                             </div>
                                             {this.state.isLoading ? '' :
                                                 this.state.displayProjects
@@ -651,7 +642,7 @@ export default class Organisation extends React.Component{
                             
                       <div className="org-detail">
                         <div className="org-search-bar-wrapper">
-                            <div className="org-search-bar">
+                            <div id="all-project-lists" className="org-search-bar">
                             <Search
                                 placeholder="请输入搜索的项目"
                                 onSearch={value => this.filterItem(value)}
@@ -676,7 +667,7 @@ export default class Organisation extends React.Component{
                             </div>
                             
                             <div className="org-No">
-                                <span id="all-project-lists">共{this.state.totalProjects}个项目</span>
+                                <span>共{this.state.totalProjects}个项目</span>
                                 {Math.ceil(this.state.totalProjects / 10) > 1 ? <span className="org-pageNo">第{this.state.currentPage}页 / <span style={{color:'#999999'}}>共{Math.ceil(this.state.totalProjects / 10)}页</span></span> : ''}
                              
                             </div> 
