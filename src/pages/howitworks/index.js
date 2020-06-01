@@ -40,9 +40,9 @@ export default class Howitworks extends React.Component{
         if(location[1]){
             let position;
             if(location[1] === 'timeline'){
-                position = document.getElementsByClassName("HowitworksContent")[0].offsetHeight + 600;
+                position = document.getElementsByClassName("HowitworksTimeline")[0].offsetTop ;
             }else{
-                position = document.getElementsByClassName("HowitworksCommittee")[0].offsetHeight + 700;
+                position = document.getElementsByClassName("HowitworksCommittee")[0].offsetTop + 600;
             } 
             window.scrollTo({
                 top: position,
