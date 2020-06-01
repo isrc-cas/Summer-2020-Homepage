@@ -1,4 +1,5 @@
 {
+  "LICENSE": "Mulan PSL v2",
   "orgList": [
     {
       "anchor": "aosc",
@@ -2431,7 +2432,7 @@
           "mentor": "王俊",
           "contact": "wangjun289@huawei.com",
           "co-mentor": "",
-          "student": 0,
+          "student_count": 0,
           "description": "MindSpore是华为自研的深度学习框架，采用基于源码转换的自动微分，支持自动并行、深度图优化。MindSpore原生支持昇腾芯片，针对昇腾芯片架构特点，采用Pipeline并行、整图下沉等功能，可以达到很高的执行性能。目前MindSpore还处于发展阶段，本项目向大家介绍MindSpore特性及API使用，希望大家基于MindSpore进行深度学习算法开发，完成某项指定挑战。",
           "update_time": "2020-05-21",
           "label": "2017181"
@@ -4761,7 +4762,7 @@
           "difficulty": "高",
           "mentor": "许朋程",
           "contact": "i@jsteward.moe",
-          "co-mentor": "",
+          "co-mentor": "续本达 heroxbd@gentoo.org,陈晟祺 shengqi.chen@tuna.tsinghua.edu.cn ",
           "student_count": 0,
           "description": "Gentoo on Android 可以在 Android 上运行 Gentoo Prefix，实现无性能损耗的完整的 GNU 环境。然而，当前的 Gentoo on Android 一方面需要 root 权限，另一方面需要手动安装，亟需一个不需 root 的 Android App 完成安装，更方便地把手机转换成开发和生产工具。在 Android 的系统中，每个 App 有一个专有的用户 uid 和一个保留的空间存放数据，适合嵌入一个这个 uid 下的 Gentoo Prefix 实例，解决当前 Gentoo on Android 的两个问题。",
           "update_time": "2020-05-18",
@@ -4876,7 +4877,7 @@
           "difficulty": "中",
           "mentor": "王子博",
           "contact": "hypercube@0x01.me",
-          "co-mentor": "陶柯宇 taoky@ustclug.org",
+          "co-mentor": "",
           "student_count": 0,
           "description": "Hackergame 是 USTCLUG 开发的一套开源 CTF 比赛平台,主要用于每年举办的科大信息安全大赛,随真实需求不断进行技术迭代,并且重视生产环境下的安全性和可靠性。目前使用的是 Django + Vue.js 框架,但前后端解耦仍然不够充分,代码中写死了一些不合理的规则,很多地方缺少通用性和灵活性,测试和部署也不够方便。本项目希望能通过调整架构设计,重构部分代码,得到一个更加通用、健壮的比赛平台,让将来比赛中的实际需求更容易实现。",
           "update_time": "2020-05-13",

@@ -1,5 +1,17 @@
-import liyonglePPT from './../../file/liyongle.pptx'; 
-import wangweiPPT from './../../file/wangwei.pdf'; 
+/**
+ * Copyright (c) 2020 Intelligent Software Research Center of ISCAS
+ * Summer 2020 Homepage is licensed under Mulan PSL v2.
+ * You can use this software according to the terms and conditions of the Mulan PSL v2.
+ * You may obtain a copy of Mulan PSL v2 at:
+ *          http://license.coscl.org.cn/MulanPSL2
+ * THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND,
+ * EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT,
+ * MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
+ * See the Mulan PSL v2 for more details.
+ */
+
+import PPT2020_05_16 from './../../file/2020_05_16.pptx'; 
+import PPT2020_05_23 from './../../file/2020_05_23.pdf'; 
 var data = {
     "liveurl":"https://live.bilibili.com/22221041",
     "spaceurl":"https://space.bilibili.com/578074510",
@@ -17,7 +29,7 @@ var data = {
                 }
             ],       
             "speechcontent":"",
-            "ppt":liyonglePPT,
+            "ppt":PPT2020_05_16,
             "pptname":"李永乐老师“邀您一起玩openEuler”.pptx",
             "url":"https://www.bilibili.com/video/BV1gz4y1d7cu",
         },
@@ -33,7 +45,7 @@ var data = {
                 }
             ],  
             "speechcontent":"",
-            "ppt":wangweiPPT,
+            "ppt":PPT2020_05_23,
             "pptname":"王伟老师高校开源创新的故事：以X-lab开放实验室为例.pdf",
             "url":"https://www.bilibili.com/video/BV1HK411s7DJ",
         },
@@ -51,7 +63,7 @@ var data = {
             ],  
             "speechcontent":"尽管如今的开源，已经不是多年以前的边缘人群，而是进入了软件产业的主流，各大企业公司、非营利组织、个人、政府机构等等都在争相进入这个世界，那么除了大家公认的免费、再分发、修改、“社区”、基金会、行为准则、许可证等等这些几乎每个开源项目都会明文规定的内容，还有大家可能会忽略掉的潜在的内容，如技术大于业务、No Crying in Open Source .....适兕将会和大家分享关于开源世界中那些没有被大家说出，但是都在遵行的规则。",
             "ppt":"",
-            "url":"",
+            "url":"https://www.bilibili.com/video/BV1Fg4y1z7bF",
         },
         {
             "title":"在你的人生经历中，有哪些开源故事？",

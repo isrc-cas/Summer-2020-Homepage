@@ -1,18 +1,35 @@
+/**
+ * Copyright (c) 2020 Intelligent Software Research Center of ISCAS
+ * Summer 2020 Homepage is licensed under Mulan PSL v2.
+ * You can use this software according to the terms and conditions of the Mulan PSL v2.
+ * You may obtain a copy of Mulan PSL v2 at:
+ *          http://license.coscl.org.cn/MulanPSL2
+ * THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND,
+ * EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT,
+ * MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
+ * See the Mulan PSL v2 for more details.
+ */
+
 import React from 'react'
 import './index.less';
 import './mobile-start.less';
-import data from './data.js'
+import data from './data.json'
 export default class Start extends React.Component{
     constructor(props){
-        super(props)
+        super(props);
         this.state ={
             data,
-        }
+        };
     }
-    componentDidMount(){
+    componentDidMount () {
         window.scrollTo(0,0);
     }
-    scrollLocation (indexStr) {
+
+    /**
+     * open markdown link in new tab.
+     * @param {string} indexStr 
+     */
+    openInNewTab (indexStr) {
         var win;
         switch (indexStr) {
             case "student":
@@ -26,31 +43,19 @@ export default class Start extends React.Component{
                 break;
         }
         win.focus();
-        // if (indexStr === "student") {
-        //     var win = window.open("https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名", '_blank');
-            
-        // }
-        // else {
-        //     document.getElementById("start-"+indexStr).scrollIntoView();
-        //     document.getElementById(indexStr).style.display = "block";
-        //     setTimeout(()=>{document.getElementById(indexStr).style.display = "none";}, 2000);
-        //     // window.scrollTo(0,document.body.scrollHeight);
-        // }
-
         return 0;
     }
 
-    render(){  
-        
+    render() {
         return(
            <div className="indexStart">
                <div className="startBanner">
                     <div className="startBannerContent content1200">
                         <div className="startList" >
                             {
-                                this.state.data.bannerlist.map((item,index)=>{
+                                this.state.data.bannerlist.map( (item,index) => {
                                     
-                                    return item.button ? (
+                                    return (
                                         <div className="startListItem" key={index}>
                                                 <div className={["startListItemImage",item.stitle].join(" ")}></div>
                                                 <div className="startListItemTitle">{item.title}</div>
@@ -58,20 +63,9 @@ export default class Start extends React.Component{
                                                 <div className="startListItemContent">
                                                     <div 
                                                         className="startListButton"
-                                                        onClick={() => this.scrollLocation(item.stitle)}
-
+                                                        onClick={() => this.openInNewTab(item.stitle)}
                                                     >{item.button}</div>
-                                                    {/* <span id={item.stitle} className="tn-box-color-1">可通过下方联系方式，咨询合作和报名事宜。</span> */}
                                                 </div>
-                                        </div>
-                                    )
-                                    :
-                                    (
-                                        <div className="startListItem" key={index}>
-                                                <div className={["startListItemImage",item.stitle].join(" ")}></div>
-                                                <div className="startListItemTitle">{item.title}</div>
-                                                <div className="startListItemContent">{item.text}</div>
-                                                <div className="startListItemContent bold">{item.text_2}</div>
                                         </div>
                                     )
                                 })
@@ -92,23 +86,6 @@ export default class Start extends React.Component{
                                      
                                 </ul>
                             </span>
-                            {/* <span className="indexStartOneTextConsChi indexStartContact" id="start-sponsor">
-                                    <h2>如何联系</h2>
-                                    <h3>
-                                        请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn?subject=合作单位报名暑期2020！&body=请填写合作单位名称、联系人姓名和联系人联系方式，我们会尽快联系您。">summer2020@iscas.ac.cn</a>
-                                    </h3>
-                                    <ul>
-                                        <li>
-                                            合作单位名称
-                                        </li>
-                                        <li>
-                                            联系人
-                                        </li>
-                                        <li>
-                                            联系方式
-                                        </li>
-                                    </ul>
-                            </span> */}
                         </div>
                         <div className="indexStartOneTextCons">
                             <span className="indexStartOneTextConsChi"><h2>社区要求</h2></span>
@@ -124,24 +101,7 @@ export default class Start extends React.Component{
                                     <a href="https://isrc.iscas.ac.cn/summer2020/help/assets/community-rules.txt" target="_blank" rel="noopener noreferrer">组织参与协议</a>。
                                     </li>
                                 </ul>
-                            </span>  
-                            {/* <span className="indexStartOneTextConsChi indexStartContact community-contact" id="start-community">
-                                <h2>如何报名</h2>
-                                <h3>
-                                    请将以下信息发送到邮箱 <a href="mailto:summer2020@iscas.ac.cn?subject=开源社区报名暑期2020！&body=请填写社区名称、联系人姓名和联系人联系方式，我们会尽快联系您。">summer2020@iscas.ac.cn</a>
-                                </h3>
-                                <ul>
-                                    <li>
-                                        社区或开源项目名称
-                                    </li>
-                                    <li>
-                                        联系人
-                                    </li>
-                                    <li>
-                                        联系方式
-                                    </li>
-                                </ul>
-                            </span> */}
+                            </span>
                         </div>
                         <div className="indexStartOneTextCons">
                             <span className="indexStartOneTextConsChi "><h2>学生要求</h2></span>
@@ -158,16 +118,6 @@ export default class Start extends React.Component{
                                     </li>
                                 </ul>
                             </span>
-                            {/* <span className="indexStartOneTextConsChi indexStartContact">
-                                <h3>2020年6月1日</h3>
-                                <h3>学生报名正式开始！</h3>
-                                <h3><a 
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    href="https://isrc.iscas.ac.cn/summer2020/help/">
-                                        点击查看如何报名
-                                </a></h3>
-                            </span> */}
                         </div>
                         </div>
                     </div>

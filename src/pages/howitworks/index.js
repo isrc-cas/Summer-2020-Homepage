@@ -1,7 +1,19 @@
+/**
+ * Copyright (c) 2020 Intelligent Software Research Center of ISCAS
+ * Summer 2020 Homepage is licensed under Mulan PSL v2.
+ * You can use this software according to the terms and conditions of the Mulan PSL v2.
+ * You may obtain a copy of Mulan PSL v2 at:
+ *          http://license.coscl.org.cn/MulanPSL2
+ * THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND,
+ * EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT,
+ * MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
+ * See the Mulan PSL v2 for more details.
+ */
+
 import React from 'react'
 import './index.less';
 import data from './data.js';
-import scrollSmoothTo from './../../config/scroll.js'
+
 
 export default class Howitworks extends React.Component{
     constructor(props){
@@ -28,13 +40,16 @@ export default class Howitworks extends React.Component{
         if(location[1]){
             let position;
             if(location[1] === 'timeline'){
-                position = document.getElementsByClassName("HowitworksContent")[0].offsetHeight + 600;
+                position = document.getElementsByClassName("HowitworksTimeline")[0].offsetTop ;
             }else{
-                position = document.getElementsByClassName("HowitworksCommittee")[0].offsetHeight + 700;
-            }
-            
-           
-            scrollSmoothTo(position)
+                position = document.getElementsByClassName("HowitworksCommittee")[0].offsetTop + 600;
+            } 
+            window.scrollTo({
+                top: position,
+                left: 0,
+                behavior: 'smooth'
+              });
+              
         }else{
             window.scrollTo(0,0);
         }
