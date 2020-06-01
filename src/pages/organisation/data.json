@@ -2431,7 +2431,7 @@
           "mentor": "王俊",
           "contact": "wangjun289@huawei.com",
           "co-mentor": "",
-          "student": 0,
+          "student_count": 0,
           "description": "MindSpore是华为自研的深度学习框架，采用基于源码转换的自动微分，支持自动并行、深度图优化。MindSpore原生支持昇腾芯片，针对昇腾芯片架构特点，采用Pipeline并行、整图下沉等功能，可以达到很高的执行性能。目前MindSpore还处于发展阶段，本项目向大家介绍MindSpore特性及API使用，希望大家基于MindSpore进行深度学习算法开发，完成某项指定挑战。",
           "update_time": "2020-05-21",
           "label": "2017181"
