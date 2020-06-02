@@ -92,7 +92,7 @@ export default class Organisation extends React.Component{
     getAllProjectList () {
         document.getElementById('org-default').setAttribute("class", "org-search-bar-sort orgClick");
         document.getElementsByClassName("ant-input-clear-icon")[0].click();
-        this.resetStyle(['update_time',['student_count']]);
+        this.resetStyle('update_time');
         var temp = [];
 
         this.state.data.orgList.map((item,index)=>{
