@@ -34,8 +34,11 @@ export default class Index extends React.Component{
     }
     componentDidMount() {
        
-        let $list = document.getElementsByClassName("indexHomeLiveList")[0] 
-        $list.style.transform = 'translateX(0)'
+        let $list = document.getElementsByClassName("indexHomeLiveList")[0];
+        $list.style.transform = 'translateX(0)';
+        if (window.location.hash.includes("cooperation")) { //go to cooperation list
+            document.getElementById("cooperation").scrollIntoView();
+        }
     }
     move(flag){
        
@@ -421,7 +424,7 @@ export default class Index extends React.Component{
                                     
                                     className="indexHomOrItem nanjing" ></div>                         
                             </div>
-                            <div className="indexHomeThirdTitle">协办单位</div>
+                            <div id="cooperation" className="indexHomeThirdTitle">协办单位</div>
                             <div className="indexHomeOrList">
                                     {this.getOrList(this.state.holderlist.cooperation)}       
                             </div>
