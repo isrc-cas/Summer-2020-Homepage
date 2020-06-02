@@ -54,19 +54,24 @@ export default class Organisation extends React.Component{
      * @param {string} category 
      */
     resetStyle (category) {
-        let mCategory = category === 'update_time' ? 'student_count' : 'update_time';
-        if (typeof category === 'object') {
-            category.map((item,index)=>{
-                document.getElementById('org-'+category[index]).setAttribute("class", "org-search-bar-sort");
-                document.getElementById(category[index]+'-down').setAttribute("class", "org-arrow down-0");
-                document.getElementById(category[index]+'-up').setAttribute("class", "org-arrow up-0");
-                return 0;
-            }); 
-        } else {
-            document.getElementById('org-'+mCategory).setAttribute("class", "org-search-bar-sort");
-            document.getElementById(mCategory+'-down').setAttribute("class", "org-arrow down-0");
-            document.getElementById(mCategory+'-up').setAttribute("class", "org-arrow up-0");
+        // let mCategory = category === 'update_time' ? 'student_count' : 'update_time';
+        // if (typeof category === 'object') {
+        //     category.map((item,index)=>{
+        //         document.getElementById('org-'+category[index]).setAttribute("class", "org-search-bar-sort");
+        //         document.getElementById(category[index]+'-down').setAttribute("class", "org-arrow down-0");
+        //         document.getElementById(category[index]+'-up').setAttribute("class", "org-arrow up-0");
+        //         return 0;
+        //     }); 
+        // } else {
+        //     document.getElementById('org-'+mCategory).setAttribute("class", "org-search-bar-sort");
+        //     document.getElementById(mCategory+'-down').setAttribute("class", "org-arrow down-0");
+        //     document.getElementById(mCategory+'-up').setAttribute("class", "org-arrow up-0");
+        // }
+        if (category === 'default') {
+            document.getElementById('update_time-down').setAttribute("class", "org-arrow down-0");
+            document.getElementById('update_time-up').setAttribute("class", "org-arrow up-0");
         }
+        document.getElementById('org-update_time').setAttribute("class", "org-search-bar-sort");
     }
 
     /**
@@ -92,7 +97,7 @@ export default class Organisation extends React.Component{
     getAllProjectList () {
         document.getElementById('org-default').setAttribute("class", "org-search-bar-sort orgClick");
         document.getElementsByClassName("ant-input-clear-icon")[0].click();
-        this.resetStyle('update_time');
+        this.resetStyle('default');
         var temp = [];
 
         this.state.data.orgList.map((item,index)=>{
