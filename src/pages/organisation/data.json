@@ -1,5 +1,7 @@
 {
   "LICENSE": "Mulan PSL v2",
+  "max": 1,
+  "min": 0,
   "orgList": [
     {
       "anchor": "aosc",
@@ -122,7 +124,7 @@
           "difficulty": "中",
           "mentor": "温铭",
           "contact": "wenming@apache.org",
-          "student_count": 1,
+          "student_count": 0,
           "description": "将 Apache APISIX 相关的开源项目的 CI 进行迁移，包括 apisix， apisix-docker 和 apisix-website。",
           "update_time": "2020-05-13",
           "label": "2001001"
@@ -132,7 +134,7 @@
           "difficulty": "中",
           "mentor": "王院生",
           "contact": "membphis@apache.org",
-          "student_count": 3,
+          "student_count": 0,
           "description": "允许用户在线完成 API 的 DEBUG。它非常适合辅助用户学习了解 Apache APISIX 的配置规则以及使用方法。",
           "update_time": "2020-05-13",
           "label": "2001002"
@@ -142,7 +144,7 @@
           "difficulty": "中",
           "mentor": "罗泽轩",
           "contact": "spacewander@apache.org",
-          "student_count": 1,
+          "student_count": 0,
           "description": "允许用户通过配置，捕获某一个route或service中符合特定request header/response header/upstream response time/request time的请求和响应的内容。类似于 envoy 的 traffic tapping 功能：https://www.envoyproxy.io/docs/envoy/latest/operations/traffic_tapping 我们只需实现其中的一个子集，支持 HTTP 即可。",
           "update_time": "2020-05-13",
           "label": "2001003"
@@ -152,7 +154,7 @@
           "difficulty": "中",
           "mentor": "陈军旭",
           "contact": "chenjunxu@apache.org",
-          "student_count": 2,
+          "student_count": 0,
           "description": "使用 lua-resty-etcd 库中的 v3 版本，使 Apache APISIX 支持 etcd v3 协议。",
           "update_time": "2020-05-13",
           "label": "2001004"
@@ -265,7 +267,7 @@
           "difficulty": "中",
           "mentor": "Lidong Dai",
           "contact": "lidongdai@apache.org",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-27",
           "label": "2002251"
         },
@@ -2250,7 +2252,7 @@
           "difficulty": "中",
           "mentor": "周亦庄",
           "contact": "zhouyizhuang@megvii.com",
-          "student_count": "",
+          "student_count": 1,
           "update_time": "2020-05-20",
           "label": "2025173"
         },
