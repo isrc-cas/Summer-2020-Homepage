@@ -232,7 +232,7 @@ export default class Organisation extends React.Component{
                 </div>
                 <div className="orgProjectGap"></div>
                 <div className="orgProjectBottomLeft">
-                    <div>已申请团队数：{item.student_count}</div>
+                    {/* <div>已申请团队数：{item.student_count}</div> */}
                     {/*<div className="orgProjectSponsor">{item.sponsor}</div>*/}
                     <div className="orgProjectName">{orgName}</div>
                 </div>
@@ -280,7 +280,7 @@ export default class Organisation extends React.Component{
                 <div className="orgProjectGap"></div>
                 <div className="orgProjectBottomLeft">
                     <div>{"项目难度："+item.difficulty}</div>
-                    <div>已申请人数：{item.student_count}</div>
+                    {/* <div>已申请人数：{item.student_count}</div> */}
                     <div className="orgProjectName">{orgName}</div>
                 </div>
 
@@ -690,11 +690,11 @@ export default class Organisation extends React.Component{
                                 <span id="update_time-down" className="org-arrow down-0"></span>
                                 <span id="update_time-up" className="org-arrow up-0"></span>
                             </div>
-                            <div id="org-student_count" className="org-search-bar-sort" onClick={()=>this.sortItemBy('student_count')}>
+                            {/* <div id="org-student_count" className="org-search-bar-sort" onClick={()=>this.sortItemBy('student_count')}>
                                 按申请人数
                                 <span id="student_count-down" className="org-arrow down-0"></span>
                                 <span id="student_count-up" className="org-arrow up-0"></span>
-                            </div>
+                            </div> */}
                             </div>
                             
                             <div className="org-No">
