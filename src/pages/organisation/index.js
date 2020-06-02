@@ -33,7 +33,6 @@ export default class Organisation extends React.Component{
 
     componentDidMount() {
         const location = window.location.hash;
-        window.scrollTo(0,0);
         
         if (location.split("page=").length > 1 && location.split("page=")[1]==='project') {
             window.location.hash = "/organisations?page=project";
@@ -54,6 +53,7 @@ export default class Organisation extends React.Component{
      * @param {string} category 
      */
     resetStyle (category) {
+        // TODO: show student:
         // let mCategory = category === 'update_time' ? 'student_count' : 'update_time';
         // if (typeof category === 'object') {
         //     category.map((item,index)=>{
@@ -97,7 +97,7 @@ export default class Organisation extends React.Component{
     getAllProjectList () {
         document.getElementById('org-default').setAttribute("class", "org-search-bar-sort orgClick");
         document.getElementsByClassName("ant-input-clear-icon")[0].click();
-        this.resetStyle('default');
+        this.resetStyle('default'); //TODO: show student: (['update_time'],['student_count'])
         var temp = [];
 
         this.state.data.orgList.map((item,index)=>{

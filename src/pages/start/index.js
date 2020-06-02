@@ -21,9 +21,6 @@ export default class Start extends React.Component{
             data,
         };
     }
-    componentDidMount () {
-        window.scrollTo(0,0);
-    }
 
     /**
      * open markdown link in new tab.
@@ -34,15 +31,16 @@ export default class Start extends React.Component{
         switch (indexStr) {
             case "student":
                 win = window.open("https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名", '_blank');
+                win.focus();
                 break;
             case "community":
-                win = window.open("https://isrc.iscas.ac.cn/summer2020/help/community.html#社区如何报名", '_blank');
+                window.location.hash = `/organisations`;
                 break;
             default:
-                win = window.open(" https://isrc.iscas.ac.cn/summer2020/help/cooperation.html#如何成为合作单位", '_blank');
+                window.location.hash = `/?to=cooperation`;
                 break;
         }
-        win.focus();
+        
         return 0;
     }
 
