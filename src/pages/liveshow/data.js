@@ -15,7 +15,7 @@ import PPT2020_05_23 from './../../file/2020_05_23.pdf';
 var data = {
     "liveurl":"https://live.bilibili.com/22221041",
     "spaceurl":"https://space.bilibili.com/578074510",
-    "livedata":"2020.6.6 20:00 开源大咖 庄表伟老师和林旅强老师直播  在你的人生经历中，有哪些开源故事？",
+    "livedata":"2020.6.13 20:00 开源大咖 吴晟老师直播  从个人项目开源到Apache Member的5年 -- 如何做一个专业的开源玩家",
     "speechlist":[
         {
             "title":"邀您一起玩openEuler",
@@ -83,7 +83,7 @@ var data = {
             ],  
             "speechcontent":"",
             "ppt":"",
-            "url":"",
+            "url":"#",
         },
         {         
             "title":"从个人项目开源到Apache Member的5年 -- 如何做一个专业的开源玩家",
