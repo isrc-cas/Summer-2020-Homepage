@@ -100,7 +100,7 @@
     {
       "anchor": "apache-apisix",
       "slide": "apache-apisix.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV12A411q7am?p=3",
       "img": "ApacheAPISIX.jpg",
       "title": "Apache APISIX (incubating)",
       "project_url": "https://cwiki.apache.org/confluence/display/APISIX/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
@@ -208,7 +208,7 @@
     {
       "anchor": "apache-ds",
       "slide": "apache-ds.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV12A411q7am?p=10",
       "img": "dolphin.jpg",
       "title": "Apache DolphinScheduler (incubating)",
       "project_url": "https://cwiki.apache.org/confluence/display/DOLPHINSCHEDULER/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
@@ -412,7 +412,7 @@
     {
       "anchor": "apache-pulsar",
       "slide": "apache-pulsar.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV12A411q7am?p=4",
       "img": "pulsar.jpg",
       "title": "Apache Pulsar",
       "project_url": "https://github.com/apache/pulsar/wiki/Open-Source-Promotion-Plan---Summer-2020-Apache-Pulsar-Tasks",
@@ -473,7 +473,7 @@
     {
       "anchor": "apache-servicecomb",
       "slide": "apache-servicecomb.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV12A411q7am?p=5",
       "img": "service-comb.jpg",
       "title": "Apache ServiceComb",
       "project_url": "http://servicecomb.apache.org/cn/summer2020",
@@ -539,7 +539,7 @@
     {
       "anchor": "apache-sharding",
       "slide": "apache-sharding.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV12A411q7am?p=6",
       "img": "sharding.jpg",
       "title": "Apache ShardingSphere",
       "project_url": "https://cwiki.apache.org/confluence/display/SHARDINGSPHERE/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
@@ -613,7 +613,7 @@
     {
       "anchor": "apache-sw",
       "slide": "apache-sw.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV12A411q7am?p=7",
       "img": "ApacheSkyWalking.jpg",
       "title": "Apache SkyWalking",
       "project_url": "https://cwiki.apache.org/confluence/display/SKYWALKING/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
@@ -785,7 +785,7 @@
     {
       "anchor": "casbin",
       "slide": "casbin.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV12A411q7am?p=8",
       "img": "casbin.jpg",
       "title": "Casbin",
       "project_url": "https://github.com/casbin/Summer2020",
@@ -939,7 +939,7 @@
     {
       "anchor": "ceph",
       "slide": "ceph.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV12A411q7am?p=11",
       "img": "ceph.jpg",
       "title": "Ceph 中国",
       "project_url": "http://ceph.org.cn/2020/05/09/open-source-promotion-plan-summer-2020/",
@@ -988,7 +988,7 @@
     {
       "anchor": "chubao",
       "slide": "chubaofs.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV12A411q7am?p=12",
       "img": "chubao.jpg",
       "title": "ChubaoFS (CNCF sandbox)",
       "project_url": "https://github.com/chubaofs/open-source-promotion-plan-summer-2020-tasks",
@@ -1191,7 +1191,7 @@
     {
       "anchor": "claps",
       "slide": "claps.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV12A411q7am?p=16",
       "img": "claps.jpg",
       "title": "Claps",
       "project_url": "https://github.com/claps-dev/Summer2020",
@@ -1285,7 +1285,7 @@
     {
       "anchor": "elastos",
       "slide": "elastos.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV12A411q7am?p=9",
       "img": "elastos.jpg",
       "title": "Elastos 亦来云",
       "project_url": "https://developer.elastos.org/discover/hackathons/202005_beijing/",
@@ -2014,7 +2014,7 @@
     {
       "anchor": "kube-edge",
       "slide": "kube-edge.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV12A411q7am?p=1",
       "img": "KubeEdge.jpg",
       "title": "KubeEdge",
       "project_url": "https://github.com/kubeedge/community/blob/master/OpenSourcePromotionPlan2020/summer2020-cn.md",
@@ -3928,7 +3928,7 @@
     {
       "anchor": "postgresqlchina",
       "slide": "postgresqlchina.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV12A411q7am?p=15",
       "img": "postgresqlchina.jpg",
       "title": "中国开源软件联盟PostgreSQL分会",
       "project_url": "https://pgfans.cn/a-detail?id=20",
@@ -4472,7 +4472,7 @@
     {
       "anchor": "soda-foundation",
       "slide": "soda-foundation.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV12A411q7am?p=13",
       "img": "soda.jpg",
       "title": "SODA Foundation",
       "project_url": "https://github.com/sodafoundation/ecosystem/blob/master/events/Open_Source_Promotion_Plan_Summer_2020.md",
@@ -4606,7 +4606,7 @@
     {
       "anchor": "tdengine",
       "slide": "tdengine.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV12A411q7am?p=14",
       "img": "td.jpg",
       "title": "TDEngine",
       "project_url": "https://www.taosdata.com/blog/2020/05/20/1521.html",
@@ -4992,7 +4992,7 @@
     {
       "anchor": "volcano",
       "slide": "volcano.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV12A411q7am?p=2",
       "img": "vol.jpg",
       "title": "Volcano",
       "project_url": "https://github.com/volcano-sh/volcano/blob/master/docs/community/summer2020-cn.md",
