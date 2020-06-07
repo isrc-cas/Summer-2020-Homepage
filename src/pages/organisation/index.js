@@ -155,6 +155,7 @@ export default class Organisation extends React.Component{
 
         if (document.getElementById(index+"-tooltip").style.display && document.getElementById(index+"-tooltip").style.display !== 'none' && !isDetail) {
             document.getElementById(index+"-tooltip").style.display = 'none';
+            document.getElementById(index+"tooltip-buttons").style.display = 'none';
         }
         else {
             orgList.map((item,index) => {
@@ -162,9 +163,11 @@ export default class Organisation extends React.Component{
                     this.openInNewTab(item.project_url);
                 }
                 document.getElementById(index+"-tooltip").style.display = 'none';
+                document.getElementById(index+"tooltip-buttons").style.display = 'none';
 
                 if (isDetail) {
                     document.getElementById(index+"-orgListItem").style.display = 'none';
+                    document.getElementById(index+"tooltip-buttons").style.display = 'block';
                 }
                 return 0;
             });
@@ -548,7 +551,22 @@ export default class Organisation extends React.Component{
                             <img src={require("./../../img/organisation/arrow.png")} alt=">"></img>
                             </div>
                         </div> 
-                        : ""
+                        : 
+                        <div className= "orgBannerTeam">
+                            <p>
+                            活动宣讲直播
+                            </p>
+                            <p style={{"fontSize":"16px"}}>
+                            组委会联合开源社区通过bilibili直播
+                            </p>
+                            <p className="orgBannerTeamDes">
+                            全方位解读活动细则，深入剖析开源社区及项目
+                            </p>
+                            <div className="orgBannerButton" onClick={()=>this.openInNewTab("https://www.bilibili.com/video/BV1Nk4y1z7UL")}>
+                            观看回放
+                            <img src={require("./../../img/organisation/arrow.png")} alt=">"></img>
+                            </div>
+                        </div> 
                         }
                     </div>
                     
@@ -590,7 +608,23 @@ export default class Organisation extends React.Component{
 
                                         <span className="triangle" id={index+'-triangle'}></span>
                                         <div className="tooltip-close" onClick={() => {this.closeModal(index, false)}}></div>
-                                        <div className="tooltip-title">{item.title}</div>
+                                        <div className="tooltip-title">{item.title}
+                                        <div id={index+"tooltip-buttons"} style={{float:'right'}}>
+                                        {
+                                            item.slide ?
+                                            <a href={'https://isrc.iscas.ac.cn/summer2020/static/preach/'+item.slide} target="_blank" rel="noopener noreferrer" download><span className="tooltip-title-button">下载宣讲PPT
+                                            <img src={require("./../../img/index/down.png")} alt="play"></img></span></a>
+                                            : ''
+
+                                        }
+                                        {
+                                            item.video ?
+                                            <a href={item.video} target="_blank" rel="noopener noreferrer"><span className="tooltip-title-button">查看视频
+                                            <img src={require("./../../img/organisation/play.png")} alt="play"></img></span></a>
+                                            : ''
+                                        }
+                                        </div>
+                                        </div>
                                         <div className="tooltip-description">{item.full_des}</div>
                                         <div className="tooltip-divider"></div>
                                         <div className="tooltip-list-title">
