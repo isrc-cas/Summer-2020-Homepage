@@ -281,8 +281,11 @@
                     color: rgb(83,86,103);
                     text-align: left;
                 }
-                a {
-                    color: rgb(89,89,255);
+                .tooltip-buttons {
+                    a {
+                        color: rgb(89,89,255);
+                    }
+                    float: right;
                 }
                 .tooltip-title-button {
                     font-size: 20px;
@@ -636,12 +639,17 @@
                     .tooltip-title {
                         font-size: 24px;
                     }
-                    .tooltip-title-button {
-                        display: block;
-                        font-size: 16px;
+                    .tooltip-buttons {
                         float: none;
-                        margin: 0;
+                        .tooltip-title-button {
+                            display: block;
+                            margin: 10px 0;
+                            text-align: center;
+                            float: none;
+                            width: 200px;
+                        }
                     }
+                    
                     .orgTagListItem { 
                         display: inline-block;
                         margin: 5px 5px;

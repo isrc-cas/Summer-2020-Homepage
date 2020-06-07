@@ -609,7 +609,7 @@ export default class Organisation extends React.Component{
                                         <span className="triangle" id={index+'-triangle'}></span>
                                         <div className="tooltip-close" onClick={() => {this.closeModal(index, false)}}></div>
                                         <div className="tooltip-title">{item.title}
-                                        <div id={index+"tooltip-buttons"} style={{float:'right'}}>
+                                        <div className="tooltip-buttons" id={index+"tooltip-buttons"}>
                                         {
                                             item.slide ?
                                             <a href={'https://isrc.iscas.ac.cn/summer2020/static/preach/'+item.slide} target="_blank" rel="noopener noreferrer" download><span className="tooltip-title-button">下载宣讲PPT
@@ -619,7 +619,7 @@ export default class Organisation extends React.Component{
                                         }
                                         {
                                             item.video ?
-                                            <a href={item.video} target="_blank" rel="noopener noreferrer"><span className="tooltip-title-button">查看视频
+                                            <a href={item.video} target="_blank" rel="noopener noreferrer"><span className="tooltip-title-button">宣讲视频
                                             <img src={require("./../../img/organisation/play.png")} alt="play"></img></span></a>
                                             : ''
                                         }
