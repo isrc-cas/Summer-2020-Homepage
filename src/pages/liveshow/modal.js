@@ -42,10 +42,13 @@ export default class LiveModal extends React.Component{
                             this.props.flag === 'over' ?
                                 <>
                                  <div className="LiveShowItemHeaderTitleTwo LiveShowItemOver">{this.props.item.time}</div>
-                                   
-                                    <div 
+                                   {
+                                       this.props.item.url !== "#"?
+                                       <div 
                                         onClick={()=>{this.goLogoLink(this.props.item.url)}}
-                                        className="LiveShowItemHeaderButton" >观看回放</div>
+                                        className="LiveShowItemHeaderButton" >观看回放</div>:""
+                                   }
+                                    
                                      {
                                          this.props.item.ppt?
                                          <a     

@@ -11,6 +11,30 @@
  */
  
 .organisation {
+    .tooltip-detail-button {
+        display: inline-block;
+        color: white;
+        line-height: 40px;
+        height: 40px;
+        width: 150px; 
+        font-size: 18px;
+        margin: 5px 0;
+        background: #5959ff;
+        border-style: solid;
+        border-width: 0.1px;
+        border-radius: 4px;
+        text-align: center;
+        font-weight: bolder;
+        img {
+            margin-left: 12px;
+        }
+    }
+    .tooltip-detail-button:hover {
+        background-color: #4c4cd9;
+        cursor: pointer;
+        box-shadow: none;
+    }
+
     .OrgCommitteePinyin{
         font-size: 12px;
         color:#999;
@@ -327,29 +351,6 @@
                 }
                 display: none;
             }
-            .tooltip-detail-button {
-                display: inline-block;
-                color: white;
-                line-height: 40px;
-                height: 40px;
-                width: 150px; 
-                font-size: 18px;
-                margin: 5px 0;
-                background: #5959ff;
-                border-style: solid;
-                border-width: 0.1px;
-                border-radius: 4px;
-                text-align: center;
-                font-weight: bolder;
-                img {
-                    margin-left: 12px;
-                }
-            }
-            .tooltip-detail-button:hover {
-                background-color: #4c4cd9;
-                cursor: pointer;
-                box-shadow: none;
-            }
             .org-detail {
                 margin-top: 0;
                 z-index: 1;
@@ -396,12 +397,17 @@
                     .down-0 {
                         background-image: url(./../../img/organisation/down-0.png);
                     }
-                    .org-search-bar-sort-wrapper, .org-pageNo {
+                    .org-search-bar-sort-wrapper {
                         float: right;
+                    }
+                    .org-pageNo {
+                        margin-left: 20px;
                     }
                     .org-No {
                         margin: 20px 10px;
                         color: #666666;
+                        height: 45px;
+                        line-height: 45px;
                     }
                     .org-search-bar-sort {
                         cursor: pointer;
@@ -419,6 +425,12 @@
                 }
                 .triangle, .tooltip-close, .tooltip-detail-button {
                     display: none;
+                }
+                .org-pageNo-button {
+                    display: block;
+                    float: right;
+                    background: #884cff;
+                    border: none;
                 }
                 .tooltip-detail {
                     display: block;
@@ -660,6 +672,9 @@
         
         @media screen and (min-width: 100px)and (max-width: 700px){
             .orgList .org-detail {
+                .org-pageNo-button {
+                    float: none;
+                }
                 .ant-pagination {
                     width: 100%;
                     text-align: center;
@@ -673,6 +688,9 @@
                         .org-search-bar-sort {
                             margin: 20px 20px 0 0;
                         }
+                    }
+                    .org-No {
+                        height: 100%;
                     }
                     .org-pageNo {
                         float: unset;

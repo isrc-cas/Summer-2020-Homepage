@@ -100,7 +100,7 @@ module.exports = function(webpackEnv) {
               autoprefixer: {
                 flexbox: 'no-2009',
               },
-              stage: 3,
+              stage: 0,
             }),
             // Adds PostCSS Normalize as the reset css with default options,
             // so that it honors browserslist config in package.json
@@ -471,7 +471,7 @@ module.exports = function(webpackEnv) {
                   modules: true,
                   getLocalIdent: getCSSModuleLocalIdent,
                 },
-                'less-loader'
+                'less-loader','postcss-loader'
               ),
             },
             // Opt-in support for SASS (using .scss or .sass extensions).

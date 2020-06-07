@@ -77,6 +77,11 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",

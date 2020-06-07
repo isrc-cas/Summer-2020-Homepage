@@ -34,8 +34,9 @@ var titleChange = function(){
     gettitle();
    
     window.addEventListener('hashchange',()=>{
-        
-        window.scrollTo(0,0);
+        if(!window.location.hash.includes('?')) {
+            window.scrollTo(0,0);
+        }
         gettitle();
     })
 

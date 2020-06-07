@@ -33,7 +33,6 @@ export default class Organisation extends React.Component{
 
     componentDidMount() {
         const location = window.location.hash;
-        window.scrollTo(0,0);
         
         if (location.split("page=").length > 1 && location.split("page=")[1]==='project') {
             window.location.hash = "/organisations?page=project";
@@ -54,19 +53,25 @@ export default class Organisation extends React.Component{
      * @param {string} category 
      */
     resetStyle (category) {
-        let mCategory = category === 'update_time' ? 'student_count' : 'update_time';
-        if (typeof category === 'object') {
-            category.map((item,index)=>{
-                document.getElementById('org-'+category[index]).setAttribute("class", "org-search-bar-sort");
-                document.getElementById(category[index]+'-down').setAttribute("class", "org-arrow down-0");
-                document.getElementById(category[index]+'-up').setAttribute("class", "org-arrow up-0");
-                return 0;
-            }); 
-        } else {
-            document.getElementById('org-'+mCategory).setAttribute("class", "org-search-bar-sort");
-            document.getElementById(mCategory+'-down').setAttribute("class", "org-arrow down-0");
-            document.getElementById(mCategory+'-up').setAttribute("class", "org-arrow up-0");
+        // TODO: show student:
+        // let mCategory = category === 'update_time' ? 'student_count' : 'update_time';
+        // if (typeof category === 'object') {
+        //     category.map((item,index)=>{
+        //         document.getElementById('org-'+category[index]).setAttribute("class", "org-search-bar-sort");
+        //         document.getElementById(category[index]+'-down').setAttribute("class", "org-arrow down-0");
+        //         document.getElementById(category[index]+'-up').setAttribute("class", "org-arrow up-0");
+        //         return 0;
+        //     }); 
+        // } else {
+        //     document.getElementById('org-'+mCategory).setAttribute("class", "org-search-bar-sort");
+        //     document.getElementById(mCategory+'-down').setAttribute("class", "org-arrow down-0");
+        //     document.getElementById(mCategory+'-up').setAttribute("class", "org-arrow up-0");
+        // }
+        if (category === 'default') {
+            document.getElementById('update_time-down').setAttribute("class", "org-arrow down-0");
+            document.getElementById('update_time-up').setAttribute("class", "org-arrow up-0");
         }
+        document.getElementById('org-update_time').setAttribute("class", "org-search-bar-sort");
     }
 
     /**
@@ -92,7 +97,7 @@ export default class Organisation extends React.Component{
     getAllProjectList () {
         document.getElementById('org-default').setAttribute("class", "org-search-bar-sort orgClick");
         document.getElementsByClassName("ant-input-clear-icon")[0].click();
-        this.resetStyle(['update_time',['student_count']]);
+        this.resetStyle('default'); //TODO: show student: (['update_time'],['student_count'])
         var temp = [];
 
         this.state.data.orgList.map((item,index)=>{
@@ -232,7 +237,7 @@ export default class Organisation extends React.Component{
                 </div>
                 <div className="orgProjectGap"></div>
                 <div className="orgProjectBottomLeft">
-                    <div>已申请团队数：{item.student_count}</div>
+                    {/* <div>已申请团队数：{item.student_count}</div> */}
                     {/*<div className="orgProjectSponsor">{item.sponsor}</div>*/}
                     <div className="orgProjectName">{orgName}</div>
                 </div>
@@ -280,7 +285,7 @@ export default class Organisation extends React.Component{
                 <div className="orgProjectGap"></div>
                 <div className="orgProjectBottomLeft">
                     <div>{"项目难度："+item.difficulty}</div>
-                    <div>已申请人数：{item.student_count}</div>
+                    {/* <div>已申请人数：{item.student_count}</div> */}
                     <div className="orgProjectName">{orgName}</div>
                 </div>
 
@@ -627,6 +632,7 @@ export default class Organisation extends React.Component{
                                             <div id="org-project-lists" className="org-No">
                                                 {this.state.totalProjects > 0 ? <span>共{this.state.totalProjects}个项目</span> : ""}
                                                 {Math.ceil(this.state.totalProjects / 10) > 1 ? <span className="org-pageNo">第{this.state.currentPage}页 / <span style={{color:'#999999'}}>共{Math.ceil(this.state.totalProjects / 10)}页</span></span> : ''}
+                                                <a href="https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名" target="_blank" rel="noopener noreferrer"><span className="org-pageNo-button tooltip-detail-button">申请须知</span></a>
                                             </div>
                                             {this.state.isLoading ? '' :
                                                 this.state.displayProjects
@@ -690,17 +696,17 @@ export default class Organisation extends React.Component{
                                 <span id="update_time-down" className="org-arrow down-0"></span>
                                 <span id="update_time-up" className="org-arrow up-0"></span>
                             </div>
-                            <div id="org-student_count" className="org-search-bar-sort" onClick={()=>this.sortItemBy('student_count')}>
+                            {/* <div id="org-student_count" className="org-search-bar-sort" onClick={()=>this.sortItemBy('student_count')}>
                                 按申请人数
                                 <span id="student_count-down" className="org-arrow down-0"></span>
                                 <span id="student_count-up" className="org-arrow up-0"></span>
-                            </div>
+                            </div> */}
                             </div>
                             
                             <div className="org-No">
                                 <span>共{this.state.totalProjects}个项目</span>
                                 {Math.ceil(this.state.totalProjects / 10) > 1 ? <span className="org-pageNo">第{this.state.currentPage}页 / <span style={{color:'#999999'}}>共{Math.ceil(this.state.totalProjects / 10)}页</span></span> : ''}
-                             
+                                <a href="https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名" target="_blank" rel="noopener noreferrer"><span className="org-pageNo-button tooltip-detail-button">申请须知</span></a>
                             </div> 
 
                         </div>

@@ -34,8 +34,11 @@ export default class Index extends React.Component{
     }
     componentDidMount() {
        
-        let $list = document.getElementsByClassName("indexHomeLiveList")[0] 
-        $list.style.transform = 'translateX(0)'
+        let $list = document.getElementsByClassName("indexHomeLiveList")[0];
+        $list.style.transform = 'translateX(0)';
+        if (window.location.hash.includes("cooperation")) { //go to cooperation list
+            document.getElementById("cooperation").scrollIntoView();
+        }
     }
     move(flag){
        
@@ -241,7 +244,7 @@ export default class Index extends React.Component{
                                     <span className="indexHomeOneListenItemText">6.3-6.5/每晚19:00  暑期2020-活动宣讲直播  </span>
                                 </div>
                                 <div className="indexHomeOneListenItem"  onClick={()=>{this.goLink('liveshow')}}>
-                                    <span className="indexHomeOneListenItemText">6.30  大咖说开源讲座 在你的人生经历中，有哪些开源故事</span>
+                                    <span className="indexHomeOneListenItemText">6.13  大咖说开源讲座 如何做一个专业的开源玩家</span>
                                 </div>
                                 
                               
@@ -421,7 +424,7 @@ export default class Index extends React.Component{
                                     
                                     className="indexHomOrItem nanjing" ></div>                         
                             </div>
-                            <div className="indexHomeThirdTitle">协办单位</div>
+                            <div id="cooperation" className="indexHomeThirdTitle">协办单位</div>
                             <div className="indexHomeOrList">
                                     {this.getOrList(this.state.holderlist.cooperation)}       
                             </div>
