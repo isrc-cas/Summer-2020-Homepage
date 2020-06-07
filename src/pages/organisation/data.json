@@ -6,7 +6,7 @@
     {
       "anchor": "aosc",
       "slide": "aosc.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1Nk4y1z7UL?p=8",
       "img": "aosc.jpg",
       "title": "安同开源社区（AOSC）",
       "project_url": "https://wiki.aosc.io/zh/ospp-2020-projects",
@@ -1532,7 +1532,7 @@
     {
       "anchor": "emacs",
       "slide": "emacs.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1Nk4y1z7UL?p=5",
       "img": "emacs.jpg",
       "title": "GNU Emacs（中文）",
       "project_url": "https://manateelazycat.github.io/eaf/emacs/2020/05/10/eaf-community.html",
@@ -1788,7 +1788,7 @@
     {
       "anchor": "huawei-liteos",
       "slide": "huawei-liteos.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1Nk4y1z7UL?p=9",
       "img": "huaweiLite.jpg",
       "title": "Huawei LiteOS",
       "project_url": "https://bbs.huaweicloud.com/blogs/170628",
@@ -2082,7 +2082,7 @@
     {
       "anchor": "kernal-travel",
       "slide": "kernal-travel.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1Nk4y1z7UL?p=2",
       "img": "kernal.jpg",
       "title": "Linux 内核之旅",
       "project_url": "http://kerneltravel.net/project/",
@@ -2505,7 +2505,7 @@
     {
       "anchor": "minigui",
       "slide": "minigui.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1Nk4y1z7UL?p=10",
       "img": "minigui.jpg",
       "title": "MiniGUI",
       "project_url": "https://gitlab.fmsoft.cn/VincentWei/build-minigui-5.0/blob/master/summer-2020/README.md",
@@ -2584,7 +2584,7 @@
     {
       "anchor": "oi-wiki",
       "slide": "oi-wiki.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1Nk4y1z7UL?p=6",
       "img": "oi.jpg",
       "title": " OI Wiki",
       "project_url": "https://git.io/summer2020",
@@ -4397,7 +4397,7 @@
     {
       "anchor": "simple-xx",
       "slide": "simple-xx.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1Nk4y1z7UL?p=3",
       "img": "simpleX.jpg",
       "title": "Simple-XX",
       "project_url": "https://github.com/Simple-XX/summer2020",
@@ -4536,7 +4536,7 @@
     {
       "anchor": "tinylab",
       "slide": "tinylab.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1Nk4y1z7UL?p=4",
       "img": "tinylab.jpg",
       "title": "泰晓科技",
       "project_url": "http://tinylab.org/summer2020",
@@ -4691,7 +4691,7 @@
     {
       "anchor": "tuna",
       "slide": "tuna.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1Nk4y1z7UL?p=7",
       "img": "tuna.jpg",
       "title": "清华大学 TUNA 协会",
       "project_url": "https://tuna.moe/blog/2020/ospp-summer-2020/",
