@@ -53,7 +53,7 @@ export default class LiveModal extends React.Component{
                                          this.props.item.ppt?
                                          <a     
                                         download={this.props.item.pptname}  
-                                        href = {this.props.item.ppt}                    
+                                        href = {'https://isrc.iscas.ac.cn/summer2020/downloads/'+this.props.item.ppt}                    
                                         className="LiveShowItemHeaderPPTX" >下载PPT</a>:""
                                      }
                                 </>
