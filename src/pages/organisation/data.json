@@ -2743,7 +2743,7 @@
           "difficulty": "中",
           "mentor": "Intel OpenCV team member",
           "contact": "admin@opencv.org.cn",
-          "student_count": 0,
+          "student_count": 1,
           "description": "OpenCV has well-working QR codes detection and decoding algorithm. Currently it uses third party library for decoding and doesn’t have functionality for creation of QR-codes. The first task will be implementation decoder with help of OpenCV functionality. This will help to solve second task – QR-code encoder (tasks are interconnected). Student will need to research QR-codes decoding algorithms, error correction rules, data character encoding methods and to program decoder and encoder.",
           "update_time": "2020-05-14",
           "label": "2020098"
@@ -4355,7 +4355,7 @@
           "mentor": "赵辅金",
           "contact": "zhaofujin@rt-thread.com",
           "co-mentor": "熊谱翔,bernard.xiong@rt-thread.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "龙芯2K1000处理器是面向网络安全领域及移动智能终端领域的双核处理器芯片。龙芯2K1000处理器集成两个GS264处理器核,芯片外围接口包括两路PCIE2.0、一路SATA2.0、4路USB2.0、两路DVO、64位DDR2/3及其它多种接口,可以满足中低端网络安全应用领域需求,并为其扩展应用提供相应接口。当前RT-Thread系统只支持龙芯2K1000的基本外设（中断处理、串口、定时器等）,基本的MIPS64支持。本项目目标是实现龙芯2K1000下更多的外设支持：SATA/SSD驱动,并对接FAT文件系统；千兆网卡驱动,并对接网络协议栈；",
           "update_time": "2020-05-13",
           "label": "2023113"
@@ -4918,7 +4918,7 @@
           "difficulty": "低",
           "mentor": "billchenchina",
           "contact": "billchenchina2001@gmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "在用户进行算法学习时,会需要一些小工具,如：图的可视化、代码粘贴器。本项目目标是为 Universal OJ 添加小工具集。",
           "update_time": "2020-05-16",
           "label": "2028137"
