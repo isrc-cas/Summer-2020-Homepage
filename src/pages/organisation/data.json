@@ -1,7 +1,7 @@
 {
   "LICENSE": "Mulan PSL v2",
-  "max": 1,
-  "min": 0,
+  "max": 2,
+  "min": 1,
   "orgList": [
     {
       "anchor": "aosc",
@@ -128,7 +128,7 @@
           "difficulty": "中",
           "mentor": "温铭",
           "contact": "wenming@apache.org",
-          "student_count": 0,
+          "student_count": 1,
           "description": "将 Apache APISIX 相关的开源项目的 CI 进行迁移，包括 apisix， apisix-docker 和 apisix-website。",
           "update_time": "2020-05-13",
           "label": "2001001"
@@ -168,7 +168,7 @@
           "difficulty": "中",
           "mentor": "琚致远",
           "contact": "juzhiyuan@apache.org",
-          "student_count": 0,
+          "student_count": 1,
           "description": "使用 GitHub Actions 对 PR、push commit 做 Lint、Build Test",
           "update_time": "2020-05-19",
           "label": "2001140"
@@ -696,7 +696,7 @@
           "difficulty": "低",
           "mentor": "柯振旭",
           "contact": "kezhenxu94@163.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-13",
           "label": "2005028"
         },
@@ -706,7 +706,7 @@
           "difficulty": "低",
           "mentor": "张伟",
           "contact": " zhangwei24@apache.org",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-13",
           "label": "2005029"
         },
@@ -899,7 +899,7 @@
           "difficulty": "低",
           "mentor": "刘子轩 (Nodece)",
           "contact": "nodeces@gmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Node-Casbin 在 Node.js 平台上取得了不错的进展，但是我们仍然需要努力工作，以帮助 Casbin 成为世界上最受欢迎的身份授权库。目前 Node-Casbin 已经对koa、egg、express、hapi 等主流框架提供了权限认证中间件，还需要对nest、meteor 提供支持。adapter 是 Casbin 持久化策略的插件，目前我们已经支持TypeORM、Sequelize，这些都是 ORM, 因此我们还需要考虑提供纯数据库驱动的 adapter。",
           "update_time": "2020-05-28",
           "label": "2008310"
@@ -919,7 +919,7 @@
           "difficulty": "中",
           "mentor": "张合龙 (BetaCat0)",
           "contact": "outman99@hotmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Casbin-Dashboard（https://dashboard.casbin.org/）是我们近期启动的一个项目，由于Casbin通常在后台运行，没有界面，只有API，配置起来不够友好。因此我们打算开发一个Casbin的图形化界面，即Casbin Dashboard。我们希望Casbin Dashboard能够帮助Casbin的用户，尤其是对代码不熟悉的运维人员，能够通过图形化界面的操作，管理Casbin的模型、策略、正确性、集群运行状态等等。未来一切与Casbin有关的，可图形化的操作，都会集成到Casbin Dashboard中。",
           "update_time": "2020-05-28",
           "label": "2008312"
@@ -2278,7 +2278,7 @@
           "difficulty": "高",
           "mentor": "陈远昭",
           "contact": "chenyuanzhao@megvii.com",
-          "student_count": "",
+          "student_count": 1,
           "update_time": "2020-05-20",
           "label": "2025171"
         },
@@ -2298,7 +2298,7 @@
           "difficulty": "中",
           "mentor": "周亦庄",
           "contact": "zhouyizhuang@megvii.com",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-20",
           "label": "2025173"
         },
@@ -2614,7 +2614,7 @@
           "mentor": "ir1d",
           "contact": "sirius.caffrey@gmail.com",
           "co-mentor": "Falsyta falsyta@pku.edu.cn",
-          "student_count": 0,
+          "student_count": 1,
           "description": "OI Wiki 是一个编程竞赛知识整合站点,提供有趣又实用的编程竞赛知识以及其他有帮助的内容,帮助广大编程竞赛爱好者更快更深入地学习编程竞赛。然而,算法与数据结构知识迭代更新较快,仍有很多 OI Wiki 尚未涉及的内容。本项目目标是选定若干新颖有趣的 topic,并将其引入 OI Wiki。寻找有趣的 topic 可以参考 e-maxx-eng, AlgoWiki 。",
           "update_time": "2020-05-13",
           "label": "2019091"
@@ -2667,7 +2667,7 @@
           "mentor": "ksyx",
           "contact": "ksyxmeow@outlook.com",
           "co-mentor": "Marcythm marcythm@gmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "OI Wiki 上收录了大量优质的算法内容，但是他们主要是以中文编写的，会对外国友人的学习造成一定的障碍，因此为了更好的扩大 OI Wiki 的影响力和帮助到更多的人，开展本项目。本项目主要内容为将 OI Wiki 上现有的内容按照格式要求翻译成英文。",
           "update_time": "2020-05-19",
           "label": "2019163"
@@ -2678,7 +2678,7 @@
           "mentor": "Marcythm",
           "contact": "marcythm@gmail.com",
           "co-mentor": "hi@oi-wiki.org",
-          "student_count": 0,
+          "student_count": 1,
           "description": "OI Wiki 上收录了大量优质的算法内容，但是仍有相当多的页面在语言表述上较为随意，会对大家学习体验与效果产生一定的影响。本项目希望能将 OI Wiki 上现有的内容按照格式要求进行合理的编修、调整格式、清理、校订。",
           "update_time": "2020-05-19",
           "label": "2019164"
@@ -4322,7 +4322,7 @@
           "mentor": "杨武",
           "contact": "yangwu@rt-thread.com",
           "co-mentor": "赵辅金,zhaofujin@rt-thread.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器,同时还包括WiFi/BT,千兆以太网,双HDMI输出,CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台,可用于各种AI应用场景。",
           "update_time": "2020-05-13",
           "label": "2023110"
@@ -4596,7 +4596,7 @@
           "difficulty": "中",
           "mentor": "@wuzhangjin",
           "contact": "falcon@tinylab.org",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Markdown Lab 是一个 Markdown 编辑环境,当前内置简历、文档、幻灯和书籍的 Markdown 模板,可导出为 html 和 pdf,本项需求旨在进一步完善中文支持、美化 PDF 输出格式、增加加密和水印功能等。",
           "update_time": "2020-05-13",
           "label": "2024120"
@@ -4786,7 +4786,7 @@
           "mentor": "党凡",
           "contact": "dangfan@tsinghua.edu.cn",
           "co-mentor": "陈晟祺,shengqi.chen@tuna.tsinghua.edu.cn, @Harry-Chen on GitHub",
-          "student_count": 0,
+          "student_count": 1,
           "description": "目前,各类移动设备,包括 Android 与 iOS,都增加了对 NFC 通信的支持；但各类应用对于 NFC 的支持都很不完善,缺少一个统一的跨平台的支持库。同时,关于 NFC 各类标准的文档也并不齐全,通常需要到处查找,为开发者造成了很大的障碍。前期,我们在 Android 平台上是实现了一个 NFC 卡片的读取应用 NFSee；目前,需要将其使用 Flutter 重写以实现跨平台。同时,也将搭建一个公开的 Wiki 网站,对 NFC 相关的协议、标准进行整理和阐述,以纠正常见误区,帮助其他开发者更好地在移动端进行 NFC 相关的开发。",
           "update_time": "2020-05-13",
           "label": "2027126"
@@ -4908,7 +4908,7 @@
           "difficulty": "低",
           "mentor": "TechCiel",
           "contact": "ciel+uoj@ciel.dev",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Universal OJ 目前没有删除帐号等功能,落后于快速发展的互联网隐私保护行业标准,也有一些合规风险（如 GDPR 、 CCPA 和中国的有关法律法规）。本项目的目标是为 Universal OJ 添加删除帐号、导出信息等数据合规相关功能。",
           "update_time": "2020-05-16",
           "label": "2028136"
