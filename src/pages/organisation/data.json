@@ -1133,7 +1133,7 @@
     {
       "anchor": "chatopera",
       "slide": "chatopera.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1et4y1y7a2?p=6",
       "img": "chatopera.jpg",
       "title": "春松客服",
       "project_url": "https://github.com/chatopera/cosin/wiki/Open-Source-Promotion-Plan---Summer-2020",
@@ -1492,7 +1492,7 @@
     {
       "anchor": "gitcourse",
       "slide": "gitcourse.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1et4y1y7a2?p=1",
       "img": "gitcourse.jpg",
       "title": "GitCourse",
       "project_url": "http://gitcourse-io.kfcoding.com/events/summer2020",
@@ -1884,7 +1884,7 @@
     {
       "anchor": "hypertrons",
       "slide": "hypertrons.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1et4y1y7a2?p=2",
       "img": "hypertrons.jpg",
       "title": "Hypertrons",
       "project_url": "https://www.hypertrons.io/#/zh-cn/event/summer2020",
@@ -1940,7 +1940,7 @@
     {
       "anchor": "ihub",
       "slide": "ihub.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1et4y1y7a2?p=7",
       "img": "ihub.jpg",
       "title": "鹏城汇智社区（iHub）",
       "project_url": "https://code.ihub.org.cn/projects/1360",
@@ -2116,7 +2116,7 @@
     {
       "anchor": "mace",
       "slide": "mace.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1et4y1y7a2?p=8",
       "img": "mace.jpg",
       "title": "MACE",
       "project_url": "https://github.com/XiaoMi/mace/issues/643",
@@ -2185,7 +2185,7 @@
     {
       "anchor": "maskbook",
       "slide": "maskbook.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1et4y1y7a2?p=3",
       "img": "maskbook.jpg",
       "title": "Maskbook",
       "project_url": "https://github.com/DimensionDev/Maskbook/wiki/Open-Source-Promotion-Plan---Summer-2020",
@@ -2233,7 +2233,7 @@
     {
       "anchor": "megengine",
       "slide": "megengine.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1et4y1y7a2?p=9",
       "img": "megEngine.jpg",
       "title": "天元（MegEngine）",
       "project_url": "https://github.com/MegEngine/Resource/blob/master/Open_Source_Promotion_Plan-Summer_2020_MegEngine.md",
@@ -2347,7 +2347,7 @@
     {
       "anchor": "milvus",
       "slide": "milvus.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1et4y1y7a2?p=10",
       "img": "milvus.jpg",
       "title": "Milvus",
       "project_url": "https://github.com/milvus-io/community/tree/master/Events",
@@ -2463,7 +2463,7 @@
     {
       "anchor": "mind-spore",
       "slide": "mind-spore.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1et4y1y7a2?p=11",
       "img": "MindSpore.jpg",
       "title": "MindSpore",
       "project_url": "https://gitee.com/mindspore/community/tree/master/events/summer2020",
@@ -2688,7 +2688,7 @@
     {
       "anchor": "opencv",
       "slide": "opencv.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1et4y1y7a2?p=12",
       "img": "opencv.jpg",
       "title": "OpenCV China",
       "project_url": "http://www.opencv.org.cn/?page_id=411",
@@ -2773,7 +2773,7 @@
     {
       "anchor": "openeuler",
       "slide": "openeuler.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1Nk4y1z7UL?p=11",
       "img": "openeuler.jpg",
       "title": "openEuler Community",
       "project_url": "https://openeuler.org/zh/events/20200607.html",
@@ -4088,7 +4088,7 @@
     {
       "anchor": "rcore-os",
       "slide": "rcore-os.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1Nk4y1z7UL?p=14",
       "img": "rcore.jpg",
       "title": "rCore OS",
       "project_url": "https://github.com/rcore-os/rCore/wiki/OSPP-2020",
@@ -4169,7 +4169,7 @@
     {
       "anchor": "ros-navigation",
       "slide": "ros-navigation.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1Nk4y1z7UL?p=12",
       "img": "ros.jpg",
       "title": "ROS Navigation",
       "project_url": "https://navigation.ros.org/2020summerOfCode/Summer_2020_Student_Program.html",
@@ -4280,7 +4280,7 @@
     {
       "anchor": "rt-thread",
       "slide": "rt-thread.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1Nk4y1z7UL?p=13",
       "img": "RT-Thread.jpg",
       "title": "RT-Thread",
       "project_url": "https://www.rt-thread.org/news/174.html",
@@ -4873,7 +4873,7 @@
     {
       "anchor": "uoj",
       "slide": "uoj.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1et4y1y7a2?p=4",
       "img": "oj.jpg",
       "title": "Universal OJ",
       "project_url": "https://git.io/uojsummer2020",
@@ -4928,7 +4928,7 @@
     {
       "anchor": "ustclug",
       "slide": "ustclug.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1et4y1y7a2?p=5",
       "img": "ustclug.jpg",
       "title": "USTCLUG",
       "project_url": "https://news.ustclug.org/2020/05/opensource-summer-projects/",
@@ -5064,7 +5064,7 @@
     {
       "anchor": "wechaty",
       "slide": "wechaty.pdf",
-      "video": "",
+      "video": "https://www.bilibili.com/video/BV1et4y1y7a2?p=13",
       "img": "wechaty.jpg",
       "title": "Wechaty",
       "project_url": "https://github.com/wechaty/summer-of-code",
