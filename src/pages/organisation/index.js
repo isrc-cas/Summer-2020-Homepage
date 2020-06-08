@@ -562,7 +562,7 @@ export default class Organisation extends React.Component{
                             <p className="orgBannerTeamDes">
                             全方位解读活动细则，深入剖析开源社区及项目
                             </p>
-                            <div className="orgBannerButton" onClick={()=>this.openInNewTab("https://www.bilibili.com/video/BV1Nk4y1z7UL")}>
+                            <div className="orgBannerButton" onClick={()=>this.openInNewTab("https://space.bilibili.com/578074510/channel/detail?cid=132789")}>
                             观看回放
                             <img src={require("./../../img/organisation/arrow.png")} alt=">"></img>
                             </div>
@@ -612,7 +612,7 @@ export default class Organisation extends React.Component{
                                         <div className="tooltip-buttons" id={index+"tooltip-buttons"}>
                                         {
                                             item.slide ?
-                                            <a href={'https://isrc.iscas.ac.cn/summer2020/static/preach/'+item.slide} target="_blank" rel="noopener noreferrer" download><span className="tooltip-title-button">下载宣讲PPT
+                                            <a href={'https://isrc.iscas.ac.cn/summer2020/downloads/preach/'+item.slide} target="_blank" rel="noopener noreferrer" download><span className="tooltip-title-button">下载宣讲PPT
                                             <img src={require("./../../img/index/down.png")} alt="play"></img></span></a>
                                             : ''
 
