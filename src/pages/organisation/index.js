@@ -612,7 +612,7 @@ export default class Organisation extends React.Component{
                                         <div className="tooltip-buttons" id={index+"tooltip-buttons"}>
                                         {
                                             item.slide ?
-                                            <a href={'https://isrc.iscas.ac.cn/summer2020/static/preach/'+item.slide} target="_blank" rel="noopener noreferrer" download><span className="tooltip-title-button">下载宣讲PPT
+                                            <a href={'https://isrc.iscas.ac.cn/summer2020/downloads/preach/'+item.slide} target="_blank" rel="noopener noreferrer" download><span className="tooltip-title-button">下载宣讲PPT
                                             <img src={require("./../../img/index/down.png")} alt="play"></img></span></a>
                                             : ''
 
