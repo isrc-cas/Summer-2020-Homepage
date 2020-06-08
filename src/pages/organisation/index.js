@@ -562,7 +562,7 @@ export default class Organisation extends React.Component{
                             <p className="orgBannerTeamDes">
                             全方位解读活动细则，深入剖析开源社区及项目
                             </p>
-                            <div className="orgBannerButton" onClick={()=>this.openInNewTab("https://www.bilibili.com/video/BV1Nk4y1z7UL")}>
+                            <div className="orgBannerButton" onClick={()=>this.openInNewTab("https://space.bilibili.com/578074510/channel/detail?cid=132789")}>
                             观看回放
                             <img src={require("./../../img/organisation/arrow.png")} alt=">"></img>
                             </div>
