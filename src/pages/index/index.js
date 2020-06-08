@@ -240,7 +240,7 @@ export default class Index extends React.Component{
                                 <div className="indexHomeOneListenItem " onClick={()=>{this.goLink('organisations?page=project')}}>
                                     <span className="indexHomeOneListenItemText">6.1  正式开始接收全国高校学生项目申请</span>
                                 </div>
-                                <div className="indexHomeOneListenItem fire" onClick={()=>{this.goLogoLink('https://isrc.iscas.ac.cn/summer2020/help/podcast.html')}}>
+                                <div className="indexHomeOneListenItem fire" onClick={()=>{this.goLogoLink('https://space.bilibili.com/578074510/channel/detail?cid=132789')}}>
                                     <span className="indexHomeOneListenItemText">6.3-6.5/每晚19:00  暑期2020-活动宣讲直播  </span>
                                 </div>
                                 <div className="indexHomeOneListenItem"  onClick={()=>{this.goLink('liveshow')}}>
@@ -265,7 +265,7 @@ export default class Index extends React.Component{
                                 </span>
                             </div>
                             <div className="indexHomeThreeBannerTextCommittee">为大家全方位解读活动细则，深入剖析开源社区及项目。在线问答，解疑释惑！</div>
-                            <div className="indexHomeThreeBannerButton" onClick={()=>{this.goLogoLink('https://isrc.iscas.ac.cn/summer2020/help/podcast.html')}}>了解更多</div>
+                            <div className="indexHomeThreeBannerButton" onClick={()=>{this.goLogoLink('https://space.bilibili.com/578074510/channel/detail?cid=132789')}}>观看回放</div>
                         </div>
                     </div>
                    <div className="indexHomeOneBanner indexHomeOneBannerTwo">
