@@ -83,7 +83,7 @@ var data = {
             ],  
             "speechcontent":"",
             "ppt":"",
-            "url":"#",
+            "url":"https://www.bilibili.com/video/BV1Ni4y1x7LY",
         },
         {         
             "title":"从个人项目开源到Apache Member的5年 -- 如何做一个专业的开源玩家",
