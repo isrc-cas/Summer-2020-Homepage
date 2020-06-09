@@ -53,7 +53,7 @@ export default class Organisation extends React.Component{
      * @param {string} category 
      */
     resetStyle (category) {
-        // TODO: show student:
+        // TODO: hide student:
         let mCategory = category === 'update_time' ? 'student_count' : 'update_time';
         if (typeof category === 'object') {
             category.map((item,index)=>{
@@ -97,7 +97,7 @@ export default class Organisation extends React.Component{
     getAllProjectList () {
         document.getElementById('org-default').setAttribute("class", "org-search-bar-sort orgClick");
         document.getElementsByClassName("ant-input-clear-icon")[0].click();
-        this.resetStyle(['update_time'],['student_count']); //TODO: show student: (['update_time'],['student_count'])
+        this.resetStyle(['update_time','student_count']); //TODO: hide student: (['update_time'],['student_count'])
         var temp = [];
 
         this.state.data.orgList.map((item,index)=>{
