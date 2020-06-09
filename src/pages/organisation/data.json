@@ -604,7 +604,7 @@
           "difficulty": "中",
           "mentor": "秦金卫",
           "contact": "kimmking@apache.org",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-19",
           "label": "2004145"
         }
@@ -2004,7 +2004,7 @@
           "difficulty": "中",
           "mentor": "陈亚云",
           "contact": "563880696@qq.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "新冠状病毒的爆发正在发展成一场重大的国际危机，并开始影响人们的正常生活和国家经济的发展。如果能够预测病毒如何在不同国家和地区传播，建立一个强大的预测模型，有助于缓解风险。这项任务的目标是建立一个预测病毒扩散的模型。本实训主要介绍如何实现“预测新冠状病毒的传播”的开发，通过该实训项目，可以使实训受众了解预测模型的开发。",
           "update_time": "2020-05-25",
           "label": "2033243"
