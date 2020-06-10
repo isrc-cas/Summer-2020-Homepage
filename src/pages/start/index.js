@@ -11,8 +11,8 @@
  */
 
 import React from 'react';
-import './mobile-start.less';
 import './index.less';
+import './mobile-start.less';
 import data from './data.json'
 export default class Start extends React.Component{
     constructor(props){
