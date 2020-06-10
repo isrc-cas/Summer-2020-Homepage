@@ -103,12 +103,13 @@ export default class Header extends React.Component{
                                             
                                             className={["osscListItem",this.state.pageflag===item.title?'left0':'',item.title==="started"?"header-highlight":""].join(" ")}>
                                         
-                                                    <span> {item.name}
+                                                <span> {item.name}
                                                     {
                                                     item.name === '我要报名' ?
-                                                    <img src={require("./../../img/fire.png")} alt="fire" style={{marginLeft: "5px"}}></img>
+                                                    <img src={require("./../../img/fire.png")} alt="fire" style={{marginLeft: "3px", marginBottom: "15px"}}></img>
                                                     : ''
-                                                }</span>
+                                                    }
+                                                </span>
                                         
                                         
                                     </div>
