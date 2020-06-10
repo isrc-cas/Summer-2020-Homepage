@@ -10,7 +10,7 @@
  * See the Mulan PSL v2 for more details.
  */
 
-import React from 'react'
+import React from 'react';
 import './index.less';
 import './mobile-start.less';
 import data from './data.json'
@@ -62,7 +62,8 @@ export default class Start extends React.Component{
                                                     <div 
                                                         className="startListButton"
                                                         onClick={() => this.openInNewTab(item.stitle)}
-                                                    >{item.button}</div>
+                                                    >{item.button}
+                                                    </div>
                                                 </div>
                                         </div>
                                     )
