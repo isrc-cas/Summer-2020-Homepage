@@ -246,6 +246,7 @@ export default class Index extends React.Component{
                                 </div>
                                 <div className="indexHomeOneListenItem"  onClick={()=>{this.goLink('liveshow')}}>
                                     <span className="indexHomeOneListenItemText">6.13  大咖说开源讲座 如何做一个专业的开源玩家</span>
+                                    
                                 </div>
                                 
                               
