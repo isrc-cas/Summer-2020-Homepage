@@ -1,6 +1,6 @@
 {
   "LICENSE": "Mulan PSL v2",
-  "max": 2,
+  "max": 3,
   "min": 1,
   "orgList": [
     {
@@ -958,7 +958,7 @@
           "difficulty": "中",
           "mentor": "耿航",
           "contact": "devin@ceph.org.cn",
-          "student_count": 0,
+          "student_count": 1,
           "description": "目前Ceph中国社区已经有文档本地化小组及文档本地化官网（docs.ceph.org.cn）随着Ceph的更新迭代与官方文档尚有部分脱节，故需要进一步校对和翻译。",
           "update_time": "2020-05-13",
           "label": "2009045"
@@ -1161,7 +1161,7 @@
           "difficulty": "低",
           "mentor": "王海良、向宇、张凯",
           "contact": "info@chatopera.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低；基于春松客服开发一套机器人客服智能客服，春松客服本身不具有智能客服的特点，但是其灵活独特的插件机制，可以让使用者便捷的开发具有AI特质的智能客服。既可以对接自己开发的机器人或者第三方的机器人接口，如Chatopera；机器人客服可以7 * 24小时的高效率的回复访客的问题。",
           "update_time": "2020-05-15",
           "label": "2010047"
@@ -1964,7 +1964,7 @@
           "difficulty": "低",
           "mentor": "陈刚",
           "contact": "cheng83@mail.sysu.edu.cn",
-          "student_count": 0,
+          "student_count": 1,
           "description": "目标检测作为图像理解中的重要一环，其任务是找出图像中所有感兴趣的目标（物体），确定它们的位置和大小，是深度学习中的重要应用之一。目前有许多优秀的二值神经网络模型，大多都使用的是全精度的网络。但由于PhoneBit框架主要针对二值神经网路进行加速，需要对网络进行二值化处理，并保持一定的精度，以便于部署到移动设备上。",
           "update_time": "2020-05-20",
           "label": "2033165"
@@ -1974,7 +1974,7 @@
           "difficulty": "中",
           "mentor": "陈刚",
           "contact": "cheng83@mail.sysu.edu.cn",
-          "student_count": 0,
+          "student_count": 1,
           "description": "为了减少模型体积，降低计算难度，训练后的模型需要进行压缩和格式转换后，才可部署到PhoneBit框架中。在PhoneBit开源仓库下，提供了一款将.onnx类型的二值分类模型转换为.phonebit类型模型的示例代码。可以参考示例代码，针对二至目标检测模型进行改进及优化，实现模型转换与部署。",
           "update_time": "2020-05-20",
           "label": "2033166"
@@ -1994,7 +1994,7 @@
           "difficulty": "中",
           "mentor": "陈亚云",
           "contact": "563880696@qq.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "在分类问题中，分类的目的是从一系列数据中选择出一个分类（如，给出一张包含苹果或橘子的图片，识别出图片中是哪种水果）。本项目采用心血管疾病数据集，数据集提供11个特征值和1个目标值，包含70000个患者记录数据。通过构建一个算法模型，来预测样本是否患有心血管疾病。本实训主要介绍如何实现“心血管疾病预测模型”的开发，通过该实训项目，可以使实训受众了解预测模型的开发。",
           "update_time": "2020-05-20",
           "label": "2033168"
@@ -2298,7 +2298,7 @@
           "difficulty": "中",
           "mentor": "周亦庄",
           "contact": "zhouyizhuang@megvii.com",
-          "student_count": 2,
+          "student_count": 3,
           "update_time": "2020-05-20",
           "label": "2025173"
         },
@@ -2635,7 +2635,7 @@
           "difficulty": "中",
           "mentor": "ir1d",
           "contact": "sirius.caffrey@gmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "在即将上线的新前端中,为了支持我们的诸多 markdown 自定义语法, OI Wiki 使用 remark 作为 markdown parser,并使用 rehype 生成对应的 html 页面。首先,我们希望能够基于现有的 Unified AST,生成相应的 LaTeX code 并导出排版优美的 pdf 文档。OI Wiki 开发过一版导出工具（见下面的仓库 remark-latex）,但是由于缺乏维护,对于图片等语法的支持不够完善,使用起来也需要大量人工操作。我们希望能够基于 Unified AST 及现有实现,改进或重构出一个较优美的 markdown 转 LaTeX 导出工具。此外,上游社区也有一些优秀的 LaTeX AST 实现供参考（见下面的 latex-utensils 及 LaTeX.js）。其次,为了让多人协作的 markdown 文件更整齐,我们采用了 remark-lint 来规范 markdown 中内容的格式。目前 OI Wiki 的格式化工具见下方 linter 仓库,启用的格式化规则见 https://github.com/OI-wiki/OI-wiki/blob/master/.remarkrc ,但是目前的实现还不够完善,比如对于公式两侧添加若干多余的空格、details 语法限制过严等等。我们希望通过这个项目,规范整理 lint 规则。",
           "update_time": "2020-05-13",
           "label": "2019093"
@@ -2656,7 +2656,7 @@
           "mentor": "Marcythm",
           "contact": "marcythm@gmail.com",
           "co-mentor": "ksyx ksyxmeow@outlook.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "在 wiki 的编写过程中需要参考大量的外界资料以使得 wiki 质量更高、更为完善及更易读。本项目主要工作内容为参考、翻译外文资料并将其融入 OI Wiki 现有内容中。",
           "update_time": "2020-05-19",
           "label": "2019162"
@@ -4648,7 +4648,7 @@
           "mentor": "桑树多",
           "contact": "sdsang@taosdata.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "description": "使用 Python 针对时序数据库 TDengine 开发自动化测试方法。",
           "update_time": "2020-05-20",
           "label": "2026179"
@@ -4670,7 +4670,7 @@
           "mentor": "常帅强",
           "contact": "sqchang@taosdata.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "description": "通过熟悉 RESTful 接口的调用方法，修改 JDBC connector 支持使用 RESTful 完成 JDBC 对应的 API 实现",
           "update_time": "2020-05-22",
           "label": "2026195"
