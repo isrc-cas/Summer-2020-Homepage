@@ -236,6 +236,7 @@ export default class Index extends React.Component{
                                 Open Source Promotion Plan <span className="mobiledisplaynone">-</span><br className="indexHomeOneTextConsEngTwoNone"/> Summer 2020
                                 </div>
                                 <div className="indexHomeOneTextConsChi">开源软件供应链点亮计划鼓励大家关注开源软件和开源社区，发掘和培养更多优秀的开发者。活动在暑期进行，我们提供一对一的导师指导，邀请技术大咖免费讲座。
+                                <br/>
                                 现在你可以
                                     <span onClick={()=>{this.goLink('started')}} className="indexHomeOneTextConsChiBolder">报名加入</span>或者
                                     <span  onClick={()=>{this.goLink('organisations?page=project')}} className="indexHomeOneTextConsChiBolder">查看项目</span>
