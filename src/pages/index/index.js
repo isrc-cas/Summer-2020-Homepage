@@ -235,13 +235,17 @@ export default class Index extends React.Component{
                                 <div className="indexHomeOneTextConsEngTwo">
                                 Open Source Promotion Plan <span className="mobiledisplaynone">-</span><br className="indexHomeOneTextConsEngTwoNone"/> Summer 2020
                                 </div>
-                                <div className="indexHomeOneTextConsChi">开源软件供应链点亮计划鼓励大家关注开源软件和开源社区，发掘和培养更多优秀的开发者。活动在暑期进行，我们提供一对一的导师指导，邀请技术大咖免费讲座。</div>
-                                
-                                <div className="indexHomeOneListenItem " onClick={()=>{this.goLink('organisations?page=project')}}>
-                                    <span className="indexHomeOneListenItemText">6.1  正式开始接收全国高校学生项目申请</span>
+                                <div className="indexHomeOneTextConsChi">开源软件供应链点亮计划鼓励大家关注开源软件和开源社区，发掘和培养更多优秀的开发者。活动在暑期进行，我们提供一对一的导师指导，邀请技术大咖免费讲座。
+                                现在你可以
+                                    <span onClick={()=>{this.goLink('started')}} className="indexHomeOneTextConsChiBolder">报名加入</span>或者
+                                    <span  onClick={()=>{this.goLink('organisations?page=project')}} className="indexHomeOneTextConsChiBolder">查看项目</span>
                                 </div>
-                                <div className="indexHomeOneListenItem fire" onClick={()=>{this.goLogoLink('https://space.bilibili.com/578074510/channel/detail?cid=132789')}}>
-                                    <span className="indexHomeOneListenItemText">6.3-6.5 暑期2020-活动宣讲直播 观看回放 </span>
+                                
+                                <div className="indexHomeOneListenItem fire" onClick={()=>{this.goLink('organisations?page=project')}}>
+                                    <span className="indexHomeOneListenItemText">6.1  正式开始接收全国高校学生项目申请  点此报名</span>
+                                </div>
+                                <div className="indexHomeOneListenItem " onClick={()=>{this.goLogoLink('https://space.bilibili.com/578074510/channel/detail?cid=132789')}}>
+                                    <span className="indexHomeOneListenItemText">6.3-6.5 暑期2020-活动宣讲直播 查看回放 </span>
                                 </div>
                                 <div className="indexHomeOneListenItem"  onClick={()=>{this.goLink('liveshow')}}>
                                     <span className="indexHomeOneListenItemText">6.13  大咖说开源讲座 如何做一个专业的开源玩家</span>
