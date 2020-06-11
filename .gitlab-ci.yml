@@ -6,6 +6,8 @@ pages:
     - ./node_modules/
  
   stage: deploy
+  tags:
+  - internal
   script:
   - npm install
   - npm run build

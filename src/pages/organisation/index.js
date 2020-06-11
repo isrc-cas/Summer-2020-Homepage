@@ -580,7 +580,7 @@ export default class Organisation extends React.Component{
                 <div id="orgListNavBar">
                   <div className="content1200">
                   <div className="orgListNavBarItem orgClick" onClick={()=>{this.closeModal(0, true)}}>社区列表</div>
-                  <div className="orgListNavBarItem orgGrey"> > 社区详情</div>
+                  <div className="orgListNavBarItem orgGrey"> &gt; 社区详情</div>
                 </div>
                   
                 </div>

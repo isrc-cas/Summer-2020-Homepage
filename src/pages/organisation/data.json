@@ -69,7 +69,7 @@
           "mentor": "白铭骢",
           "contact": "jeffbai@aosc.io",
           "co-mentor": "刘子兴 <liushuyu@aosc.io>",
-          "student_count": 0,
+          "student_count": 1,
           "description": "当前我国国内有相当数量的 Linux 及各大开源或自由软件 (F/OSS) 使用者，但在使用过程中，用户们不难发现，各种软件的简中翻译及本地化质量参差不齐，错漏繁多。尤其主流桌面环境如 GNOME 及 KDE 简中翻译率并不理想；而又有一些如 NetSurf 的知名开源项目则完全没有翻译。该项目的主要目的是改善当前本地化质量及覆盖率。",
           "update_time": "2020-05-13",
           "label": "2007040"
@@ -686,7 +686,7 @@
           "difficulty": "中",
           "mentor": "柯振旭",
           "contact": "kezhenxu94@163.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-13",
           "label": "2005027"
         },
@@ -869,7 +869,7 @@
           "difficulty": "中",
           "mentor": "罗杨 (hsluoyz)",
           "contact": "hsluoyz@gmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "jCasbin 在 Java 平台上取得了不错的进展，但是我们仍然需要努力工作，以帮助 Casbin 成为世界上最受欢迎的身份授权库。目前Java语言上最流行的授权库是Apache Shiro和Spring Security，最流行的Web框架是Spring。我们需要实现Casbin针对Spring等框架的插件，使Spring用户可以无缝接入Casbin。同时要兼容Apache Shiro和Spring Security的接口，让目前正在使用Apache Shiro和Spring Security的项目可以无缝迁移到Casbin。同时jCasbin也需要及时跟踪Golang Casbin主库的最新feature并移植到Java版本中来。",
           "update_time": "2020-05-28",
           "label": "2008307"
@@ -958,7 +958,7 @@
           "difficulty": "中",
           "mentor": "耿航",
           "contact": "devin@ceph.org.cn",
-          "student_count": 1,
+          "student_count": 2,
           "description": "目前Ceph中国社区已经有文档本地化小组及文档本地化官网（docs.ceph.org.cn）随着Ceph的更新迭代与官方文档尚有部分脱节，故需要进一步校对和翻译。",
           "update_time": "2020-05-13",
           "label": "2009045"
@@ -1984,7 +1984,7 @@
           "difficulty": "中",
           "mentor": "陈刚",
           "contact": "cheng83@mail.sysu.edu.cn",
-          "student_count": 0,
+          "student_count": 1,
           "description": "目前手机的计算能力愈来愈高，已逐步具备进行快速模型部署的能力。PhoneBit框架基于手机GPU进行高度优化，能实现基于手机的快速前向推断。在PhoneBit开源仓库下，提供了二值图像分类网络的Android部署APP示例工程。可以参考示例工程，根据目标检测任务的特性设计APP，实现模型的应用。",
           "update_time": "2020-05-20",
           "label": "2033167"
@@ -2763,7 +2763,7 @@
           "difficulty": "中",
           "mentor": "Mihai Bujanca",
           "contact": "admin@opencv.org.cn",
-          "student_count": 0,
+          "student_count": 1,
           "description": "With a rapid growth of computer vision application areas such as robotics, self-driving cars, drones, as well as augmented reality, and with increasing availability of various depth sensors, there is also more demand in software that would be able to process point clouds coming from these sensors efficiently in realtime on low-power processors. And so the efficient cloud processing becomes one of OpenCV strategic directions. Reducing the number of points in a point cloud prior to triangulation can be used to simultaneously improve the quality of point clouds and reduce the memory footprint. This project aims at an efficient implementation of the “Incremental and Batch Planar Simplification of Dense Point Cloud Maps paper” (see link in Resources).",
           "update_time": "2020-05-22",
           "label": "2020194"
@@ -4333,7 +4333,7 @@
           "mentor": "陈晨毅",
           "contact": "lebhoryi@rt-thread.com",
           "co-mentor": "杨武,yangwu@rt-thread.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器,同时还包括WiFi/BT,千兆以太网,双HDMI输出,CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台,可用于各种AI应用场景。TensorflowLite Micro 是面象微控制器级别的设备裁剪定制版本的 Tensorflow Lite,具有良好的跨平台设计和较为完善的单元测试。本项目目标是在树莓派4上将TensorflowLite Micro移植到RT-Thread系统中,并顺利运行自的演示应用。目前树莓派4上的RT-Thread状态为,可以运行ARM64位的RT-Thread,驱动相对较少,只包含中断管理、串口、HDMI、SDIO等。在本项目中,需要开启 RT-Thread 的 C++ 支持,完成 TensorflowLite Micro 的编译链接,并在树莓派4上运行原项目自带的演示应用。",
           "update_time": "2020-05-13",
           "label": "2023111"

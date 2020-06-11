@@ -105,7 +105,7 @@ export default class Header extends React.Component{
                                         
                                                 <span> {item.name}
                                                     {
-                                                    item.name === '我要报名' ?
+                                                    item.name === '我要申请' ?
                                                     <img src={require("./../../img/fire.png")} alt="fire" style={{marginLeft: "3px", marginBottom: "15px"}}></img>
                                                     : ''
                                                     }
