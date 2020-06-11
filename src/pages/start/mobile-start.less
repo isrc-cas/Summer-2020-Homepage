@@ -12,8 +12,29 @@
 
 @media screen and (min-width: 700px)and (max-width: 1200px){
     .indexStart {
-        .startListItem:nth-child(3) > div:nth-child(4) {
-            background-position: top right 5vw !important;
+        .startBanner{
+            .startListItem {
+                width: 21.66667vw !important;
+                height: 21.66667vw !important;
+            }
+            .startListItem:nth-child(2) {
+                width: 25vw !important;
+                height: 25vw !important;
+            }
+            .startListItemTitle{
+                font-size: 18px !important;
+            }
+            .startListItem:nth-child(3) > .startListItemTitle{
+                font-size: 14px !important;
+            }
+            .startListItem:nth-child(1)::after, .startListItem:nth-child(2)::after{
+                width: 5vw !important;
+                right: -10vw !important;
+                bottom: 5vw !important;
+            }
+            .startListItem:nth-child(2)::after{
+                bottom: 6.3vw !important;
+            }
         }
     }
 }
@@ -24,7 +45,7 @@
             
             .startList{
                 flex-direction: column;
-                padding-top: 50px;
+                padding: 20px 0;
                 .startListButton {
                     position: absolute;
                     right: -5px;
@@ -35,13 +56,15 @@
                     font-size: 12px;
                     text-align: center;
                 }
-                .startListItem {
-                    width: 100%;
-                    margin-bottom: 30px;
+                .startListItem, .startListItem:nth-child(2) {
+                    border-radius: 0;
+                    width: 90vw;
+                    height: 100%;
+                    margin: 10px 0;
+                    border: none;
                 }
                 .startListItemImage{
                     position: absolute;
-                    /* margin-top: 12px; */
                     width: 35px;
                     margin-top: -15px;
                     min-height: 30px;
@@ -51,15 +74,17 @@
                     margin: 0;
                     position: absolute;
                     left: 14vw;
-                    top: -5px;
+                    top: 10px;
+                }
+                .startListItem:nth-child(3) > .startListItemTitle{
+                    font-size: 20px;
                 }
                 .startListItemContent{
                     width: 80vw;
-                    margin-left: 14vw;
                     text-align: left;
                     font-size: 12px;
-                    margin-top: 22px;
-                    line-height: 24px;
+                    margin: 10px 0 10px 14vw;
+                    line-height: 15px;
                 }
             }
         }

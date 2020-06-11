@@ -33,11 +33,11 @@ export default class Start extends React.Component{
                 win = window.open("https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名", '_blank');
                 win.focus();
                 break;
-            case "community":
+            case "#/organisations":
                 window.location.hash = `/organisations`;
                 break;
             default:
-                window.location.hash = `/?to=cooperation`;
+                window.location.hash = `/organisations`;
                 break;
         }
         
@@ -51,6 +51,23 @@ export default class Start extends React.Component{
                     <div className="startBannerContent content1200">
                         <div className="startList" >
                             {
+                                this.state.data.bannerlistNew.map( (item, index) => {
+                                    return (
+                                        <div className="startListItem" key={index} onClick={() => {item.url ? this.openInNewTab(item.url) : void(0);}}>
+                                                <div className="startListItemTitle">{item.title}</div>
+                                                {
+                                                    typeof item.desc === 'object' ? 
+                                                    item.desc.map((i,idx)=>{
+                                                        return <div className="startListItemContent">{i}</div>
+                                                    })
+                                                    :
+                                                    <div className="startListItemContent">{item.desc}</div>
+                                                }
+                                        </div>
+                                    )
+                                })
+                            }
+                            {/* {
                                 this.state.data.bannerlist.map( (item,index) => {
                                     
                                     return (
@@ -68,7 +85,7 @@ export default class Start extends React.Component{
                                         </div>
                                     )
                                 })
-                            }            
+                            }             */}
                         </div>
                     </div>
                </div>

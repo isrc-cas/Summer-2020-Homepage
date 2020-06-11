@@ -520,9 +520,9 @@
             line-height: 30px;
             padding-bottom: 70px;
         }
-        .indexHomeOneTextConsChi{
-            color:#333;
-        }
+        // .indexHomeOneTextConsChi{
+        //     color:#333;
+        // }
 
 
 
@@ -582,33 +582,105 @@
         position: relative;
         color: #fff;
         font-size: 20px;
-        width: 52%;
+        width: 100%;
+        .indexHomeOneBlueButton{
+            position: relative;
+            width: 480px;
+            height: 44px;
+            font-size: 20px;
+            line-height: 44px;
+            text-align: center;
+            color:#006080;
+            background-color: #00def2;
+            cursor: pointer;
+            transition: all 0.3s;
+            border-radius: 10px;
+            margin:0 auto 40px;
+            .indexHomeOneBlueButtonTitle{
+                position: relative;
+                display: inline-block;
+            }
+            .indexHomeOneBlueButtonTitleRed{
+                position: absolute;
+                right: -104px;
+                background-color: #ff5874;
+                color: #fff;
+                font-size: 12px;
+                padding: 5px 12px;
+                top: -39%;
+                line-height: 16px;
+                border-radius: 10px 10px 10px 0px;
+            }
+            .indexHomeOneBlueButtonTitle::before{
+                width: 17px;
+                height: 23px;
+                position: absolute;
+                top: 4px;
+                left: -27px;
+                content: url(./../../img/index/bannerright.png);
+            }
+            .indexHomeOneBlueButtonTitle::after{
+                width: 17px;
+                height: 23px;
+                position: absolute;
+                top: 4px;
+                right: -27px;
+                content: url(./../../img/index/bannerleft.png);
+            }
+        }
+        .indexHomeOneBlueButton:hover{
+            background-color: #33eeff;
+        }
         .indexHomeOneListenItem{
             position: relative;
-            margin-bottom: 20px;
+            margin:0 auto 20px;
+            
             height: auto;
-            background-color: rgba(128,255,255,0.2);
+            width: 60%;
             
             font-family: PingFang-SC-Medium;
             font-weight: normal;
             font-stretch: normal;
-            padding: 4px 0;
+            
             letter-spacing: 1px;
             color: #66ffff;
-            width: 100%;
+            
             text-align: left;
             transition: all 0.3s;
             cursor: pointer;
-            .indexHomeOneListenItemText{
+            display: flex;
+            .indexHomeOneListenItemTextButton{
+                position: relative;
+                background-color: rgba(128, 255, 255, 0.2);
+                width: 120px;
+                height: auto;
+                margin-left: 10px;
                 display: inline-block;
-                margin-left: 60px;
+                text-align: center;
+                padding: 4px;
+
+            }
+            .indexHomeOneListenItemTextButton:hover{
+                background-color: rgba(128, 255, 255, 0.4);
+            }
+            .indexHomeOneListenItemText{
+                
+                display: inline-block;
+                margin-left: 40px;
+                width: 75%;
+                background-color: rgba(128, 255, 255, 0.2);
+                padding-left: 20px;
+                height: 100%;
+                padding: 4px 20px 4px;
+                position: relative;
+
             }
            
         }
-        .indexHomeOneListenItem:hover{
+        .indexHomeOneListenItemText:hover{
             background-color: rgba(128,255,255,0.4);
         }
-        .indexHomeOneListenItem.fire:after{
+        .indexHomeOneListenItem.fire>.indexHomeOneListenItemText:after{
             content: url(./../../img/index/fire.png);
            
             height: 100%;
@@ -639,7 +711,7 @@
             letter-spacing: 1px;
             position: relative;
             line-height: 20px;
-            text-align: left;
+           
             position: relative;
             margin: 50px 0 15px;
             color: #fff;
@@ -655,18 +727,18 @@
             color: #ffffff;
             width: 640px;
             position: relative;
-            margin-bottom: 24px;
-            text-align: left;
+            margin:0 auto 30px;
+           
         }
-        .indexHomeOneTextConsEngTwo::after{
-            content: "";
-            width: 100%;
-            position: absolute;
-            height: 1px;
-            background-color: #fff;
-            bottom: -20px;
-            left: 0;
-        }
+        // .indexHomeOneTextConsEngTwo::after{
+        //     content: "";
+        //     width: 100%;
+        //     position: absolute;
+        //     height: 1px;
+        //     background-color: #fff;
+        //     bottom: -20px;
+        //     left: 0;
+        // }
         
     }
  
@@ -889,26 +961,26 @@
         }
     }
     
-    .indexHomeOneTextConsChi{
-        margin-top: 20px;
-        display: inline-block;
-        font-size: 24px;
-        font-weight: normal;
-        font-stretch: normal;
-        line-height: 36px;
-        letter-spacing: 2px;
-        color: #ffffff;
-        text-align: justify;
-        font-family: PingFang-SC-Regular;
-        font-size: 22px;
-        font-weight: normal;
-        font-stretch: normal;
-        line-height: 36px;
-        letter-spacing: 2px;
-        color: #ffffff;
-        margin-bottom: 20px;
+    // .indexHomeOneTextConsChi{
+    //     margin-top: 20px;
+    //     display: inline-block;
+    //     font-size: 24px;
+    //     font-weight: normal;
+    //     font-stretch: normal;
+    //     line-height: 36px;
+    //     letter-spacing: 2px;
+    //     color: #ffffff;
+    //     text-align: justify;
+    //     font-family: PingFang-SC-Regular;
+    //     font-size: 22px;
+    //     font-weight: normal;
+    //     font-stretch: normal;
+    //     line-height: 36px;
+    //     letter-spacing: 2px;
+    //     color: #ffffff;
+    //     margin-bottom: 20px;
         
-    }
+    // }
     .indexHomeOneTextConsChiBolder{
         color: #66ffff;
         cursor: pointer;
