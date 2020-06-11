@@ -44,11 +44,6 @@
             color: white;
         }
     }
-    .startListItem:nth-child(3) > div:nth-child(4) {
-        background-image: url(./../../img/fire.png);
-        background-repeat: no-repeat;
-        background-position: top right 80px;
-    }
     .startListButton:hover, .startQAButton:hover {
         background-color: #9086ec;
         cursor: pointer;
@@ -80,12 +75,42 @@
             position: relative;
             display: flex;
             justify-content: space-evenly;
-            padding-top: 150px;
-            .startListItem{
+            padding-top: 40px;
+            .startListItem {
                 position: relative;
                 text-align: center;
-                width: 330px;
-                color:#fff
+                width: 260px;
+                height: 260px;
+                padding-top: 40px;
+                margin-top: 50px;
+                color:#fff;
+                border: 50px solid rgba(64, 190, 255, 0);  
+                border-radius: 80%;
+                background-color: rgba(64, 190, 255, .15);
+                cursor: pointer;
+            }
+            .startListItem:nth-child(2) {
+                width: 300px;
+                height: 300px;
+                padding-top: 60px;
+                margin-top: 20px;
+            }
+            .startListItem:nth-child(1)::after,  .startListItem:nth-child(2)::after{
+                content: "";
+                background-image: url(./../../img/start/arrow.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100px;
+                height: 22px;
+                position: absolute;
+                right: -150px;
+                bottom: 80px;
+            }
+            .startListItem:nth-child(2)::after{
+                bottom: 90px;
+            }
+            .startListItem:nth-child(1):hover, .startListItem:nth-child(2):hover {
+                box-shadow: 0 0 0 50px rgba(64, 190, 255, 0.1);
             }
             .startListItemImage{
                 background-size: contain;
@@ -107,17 +132,22 @@
     
             .startListItemTitle{
                 font-size: 24px;
-                font-weight: 500;
+                font-weight: bold;
                 letter-spacing: .005em;
-                margin: 22px 0 10px;
+            }
+            .startListItem:nth-child(3) {
+                cursor: default;
+                .startListItemTitle{
+                    font-size: 18px;
+                    color: #40bfff;
+                }
             }
             .startListItemContent{
-                
-                font-weight: 400;
+                font-weight: bold;
                 letter-spacing: .010em;
-                line-height: 50px;
-                font-size: 18px;
-                
+                line-height: 25px;
+                font-size: 14px;
+                color: #7ed3ff; 
             }
             .bold {
                 font-weight: bold;
