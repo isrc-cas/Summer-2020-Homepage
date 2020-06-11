@@ -235,7 +235,10 @@ export default class Index extends React.Component{
                                 <div className="indexHomeOneTextConsEngTwo">
                                 Open Source Promotion Plan <span className="mobiledisplaynone">-</span><br className="indexHomeOneTextConsEngTwoNone"/> Summer 2020
                                 </div>
-                                <div className="indexHomeOneBlueButton" onClick={()=>{this.goLink('started')}}><span className="indexHomeOneBlueButtonTitle">项目申请</span></div>
+                                <div className="indexHomeOneBlueButton" onClick={()=>{this.goLink('started')}}>
+                                    <span className="indexHomeOneBlueButtonTitle">项目申请</span>
+                                    <div className="indexHomeOneBlueButtonTitleRed">官方唯一申请通道</div>
+                                </div>
                               
                                 <div className="indexHomeOneListenItem fire" onClick={()=>{this.goLink('organisations?page=project')}}>
                                     <span className="indexHomeOneListenItemText">6.1  全国高校项目申请正式启动</span>
@@ -256,7 +259,7 @@ export default class Index extends React.Component{
 
                             </div>
                     </div>
-                    <div className="indexHomeOneBanner indexHomeOneBannerThree">
+                    {/* <div className="indexHomeOneBanner indexHomeOneBannerThree">
                         <div className="indexHomeThreeBanner content1200">
                             <div className="indexHomeThreeBannerTitle"></div>
                             <div className="indexHomeThreeBannerTime">6.3-6.5/已结束</div>
@@ -270,8 +273,8 @@ export default class Index extends React.Component{
                             <div className="indexHomeThreeBannerTextCommittee">为大家全方位解读活动细则，深入剖析开源社区及项目。在线问答，解疑释惑！</div>
                             <div className="indexHomeThreeBannerButton" onClick={()=>{this.goLogoLink('https://space.bilibili.com/578074510/channel/detail?cid=132789')}}>观看回放</div>
                         </div>
-                    </div>
-                   <div className="indexHomeOneBanner indexHomeOneBannerTwo">
+                    </div> */}
+                   {/* <div className="indexHomeOneBanner indexHomeOneBannerTwo">
                             <div className="indexHomeTwoWrapper content1200">                            
                                 <div className="indexHomeOneDakaTitle"></div>
                                 <div className="indexHomeOneDakaCompany">
@@ -298,7 +301,7 @@ export default class Index extends React.Component{
                            
 
                             </div>
-                    </div>
+                    </div> */}
                    
                      </Carousel>
 
