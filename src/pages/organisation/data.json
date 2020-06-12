@@ -273,7 +273,7 @@
           "difficulty": "中",
           "mentor": "Lidong Dai",
           "contact": "lidongdai@apache.org",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-27",
           "label": "2002251"
         },
@@ -676,7 +676,7 @@
           "difficulty": "中",
           "mentor": "柯振旭",
           "contact": "kezhenxu94@163.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-13",
           "label": "2005026"
         },
@@ -2390,7 +2390,7 @@
           "difficulty": "中",
           "mentor": "蔡宇东",
           "contact": "yudong.cai@zilliz.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "S3是Simple Storage Service的缩写，即简单存储服务。它是由亚马逊提出的一套云存储服务接口，现在几乎所有的云服务都兼容S3。本项目目标是实现一个兼容S3存储的Codec，使得Milvus能够将结构化数据和非结构化数据存入兼容S3的云端存储，如 MinIO。",
           "update_time": "2020-05-18",
           "label": "2018084"
