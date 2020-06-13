@@ -2258,7 +2258,7 @@
           "difficulty": "中",
           "mentor": "张禄",
           "contact": "zhanglu@megvii.com",
-          "student_count": "",
+          "student_count": 0,
           "update_time": "2020-05-20",
           "label": "2025169"
         },
@@ -2268,7 +2268,7 @@
           "difficulty": "高",
           "mentor": "陈远昭",
           "contact": "chenyuanzhao@megvii.com",
-          "student_count": "",
+          "student_count": 0,
           "update_time": "2020-05-20",
           "label": "2025170"
         },
@@ -2288,7 +2288,7 @@
           "difficulty": "中",
           "mentor": "胡焜",
           "contact": "hukun@megvii.com",
-          "student_count": "",
+          "student_count": 0,
           "update_time": "2020-05-20",
           "label": "2025172"
         },
@@ -2308,7 +2308,7 @@
           "difficulty": "高",
           "mentor": "许欣然",
           "contact": "xxr@megvii.com",
-          "student_count": "",
+          "student_count": 0,
           "update_time": "2020-05-20",
           "label": "2025174"
         },
@@ -2318,7 +2318,7 @@
           "difficulty": "高",
           "mentor": "许欣然",
           "contact": "xxr@megvii.com",
-          "student_count": "",
+          "student_count": 0,
           "update_time": "2020-05-20",
           "label": "2025175"
         },
@@ -2328,7 +2328,7 @@
           "difficulty": "中",
           "mentor": "许欣然",
           "contact": "xxr@megvii.com",
-          "student_count": "",
+          "student_count": 0,
           "update_time": "2020-05-20",
           "label": "2025176"
         },
@@ -2338,7 +2338,7 @@
           "difficulty": "高",
           "mentor": "王枫",
           "contact": "wangfeng02@megvii.com",
-          "student_count": "",
+          "student_count": 0,
           "update_time": "2020-05-20",
           "label": "2025177"
         }
