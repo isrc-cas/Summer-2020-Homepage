@@ -232,7 +232,7 @@
           "difficulty": "低",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "提供后端接口。在任务节点中新增“延时等待”的属性，支持任务在开始后一段时间内等待前置任务完成。针对调度（任务）执行时，前置依赖没有就绪的情况下，当前任务等待一段时间，在等待时间内，如前置任务就绪，则开始执行当前任务。",
           "update_time": "2020-05-27",
           "label": "2002005"
@@ -273,7 +273,7 @@
           "difficulty": "中",
           "mentor": "Lidong Dai",
           "contact": "lidongdai@apache.org",
-          "student_count": 2,
+          "student_count": 3,
           "update_time": "2020-05-27",
           "label": "2002251"
         },
@@ -434,7 +434,7 @@
           "difficulty": "中",
           "mentor": "Jia Zhai (翟佳)",
           "contact": "zhaijia@apache.org",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-18",
           "label": "2003019"
         },
@@ -1181,7 +1181,7 @@
           "difficulty": "高",
           "mentor": "王海良、向宇、张凯",
           "contact": "info@chatopera.com",
-          "student_count": 1,
+          "student_count": 2,
           "description": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低；春松客服是一个先进的客服系统。其目标是成为客服系统行业中的一个“操作系统”，企业、开发者都可以基于此操作系统开发各种客服业务的“应用”；春松客服系统被大量的下载和使用，目前除了官方发布的基础功能外，非常期待社区开发者企业可以push更多的插件应用，让其更加的丰富，功能更加的强大，普惠更多的人；要在春松客服操作系统中开发插件应用，需要遵循其插件化开发方法，具体参考插件的安装和源码参考；本次活动官方推荐但不限于开发如下的插件：聊天渠道的插件如：微信公众号/企业微信/钉钉/微博/飞书/facebook/skype/Email/电话等等；报表管理",
           "update_time": "2020-05-15",
           "label": "2010049"
@@ -2564,7 +2564,7 @@
           "mentor": "魏永明",
           "contact": "summer2020@minigui.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-26",
           "label": "2038247"
         },
@@ -4575,7 +4575,7 @@
           "mentor": "@robin329",
           "contact": "robin@tinylab.org",
           "co-mentor": "@wuzhangjin, falcon@tinylab.org",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Linux Lab 是一个 Linux 内核实验环境,当前已经支持国内外的 7 大主流处理器架构和 16 款开发版。当前环境基于 Ubuntu 14.04,难以适应各类软件新版本的开发需要,本项需求旨在升级当前环境到最新的 Ubuntu 20.04 或者其他更为合适的同时期 Linux 发行版。",
           "update_time": "2020-05-13",
           "label": "2024118"
@@ -5105,7 +5105,7 @@
           "mentor": "高原",
           "contact": "gaoyuan@juzi.bot",
           "co-mentor": "李佳芮 rui@juzi.bot",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2044423"
         },
