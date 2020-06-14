@@ -233,6 +233,7 @@ export default class Index extends React.Component{
                                  ISCAS & openEuler Community
                                 </div>
                                 <div className="indexHomeOneTextConsEngTwo">
+                                    
                                 Open Source Promotion Plan <span className="mobiledisplaynone">-</span><br className="indexHomeOneTextConsEngTwoNone"/> Summer 2020
                                 </div>
                                 <div className="indexHomeOneBlueButton" onClick={()=>{this.goLink('started')}}>
@@ -249,7 +250,7 @@ export default class Index extends React.Component{
                                     <span className="indexHomeOneListenItemTextButton">观看回放</span>
                                 </div>
                                 <div className="indexHomeOneListenItem"  onClick={()=>{this.goLink('liveshow')}}>
-                                    <span className="indexHomeOneListenItemText">6.13  大咖说开源讲座 如何做一个专业的开源玩家</span>
+                                    <span className="indexHomeOneListenItemText">6.20  大咖说开源讲座 如何做一个专业的开源玩家</span>
                                     <span className="indexHomeOneListenItemTextButton">了解更多</span>
                                 </div>
                                 
