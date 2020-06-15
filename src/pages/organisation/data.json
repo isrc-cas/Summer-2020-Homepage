@@ -1,6 +1,6 @@
 {
   "LICENSE": "Mulan PSL v2",
-  "max": 3,
+  "max": 4,
   "min": 1,
   "orgList": [
     {
@@ -198,7 +198,7 @@
           "difficulty": "中",
           "mentor": "琚致远",
           "contact": "juzhiyuan@apache.org",
-          "student_count": 0,
+          "student_count": 1,
           "description": "完善身份验证模块：当前默认登录页为账号密码，但与 API 不兼容，请修改为动态设置 API Key 来校验 API 身份，并为其它方式保留兼容性、可配置性。",
           "update_time": "2020-05-29",
           "label": "2001414"
@@ -594,7 +594,7 @@
           "difficulty": "低",
           "mentor": "欧阳文",
           "contact": "ouyangwen@apache.org",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-19",
           "label": "2004144"
         },
@@ -1215,7 +1215,7 @@
           "difficulty": "中",
           "mentor": "Lyric",
           "contact": "wei@fox.one",
-          "student_count": 0,
+          "student_count": 1,
           "description": "将新增项目的 git url 提交到 Persper，并且编写一个 job，定期从 Persper 获取最新的贡献值数据，将数据写入 Claps 数据库。",
           "update_time": "2020-05-29",
           "label": "2041324"
@@ -1225,7 +1225,7 @@
           "difficulty": "中",
           "mentor": "Lyric",
           "contact": "wei@fox.one",
-          "student_count": 0,
+          "student_count": 1,
           "description": "目前，所有的分配方式都是平均分的。但是我们预留了另外三种分配方式，分别为：按照 Persper 贡献值分；按照代码行数分；按照 Commit 数量分。需要设计三种不同的 distribute 方法，当用户捐赠时，可以选择任意一种，然后使用该方法进行分配。",
           "update_time": "2020-05-29",
           "label": "2041325"
@@ -1245,7 +1245,7 @@
           "difficulty": "低",
           "mentor": "Lyric",
           "contact": "wei@fox.one",
-          "student_count": 0,
+          "student_count": 1,
           "description": "现在项目 UI 比较简陋，需将其改造，PC 和移动端都有较好的浏览体验",
           "update_time": "2020-05-29",
           "label": "2041327"
@@ -1523,7 +1523,7 @@
           "mentor": "刘畅",
           "contact": "liuchangfreeman@live.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-27",
           "label": "2039271"
         }
@@ -2051,7 +2051,7 @@
           "mentor": "Fei Xu",
           "contact": "fisherxu1@gmail.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-28",
           "label": "2013337"
         },
@@ -2298,7 +2298,7 @@
           "difficulty": "中",
           "mentor": "周亦庄",
           "contact": "zhouyizhuang@megvii.com",
-          "student_count": 3,
+          "student_count": 4,
           "update_time": "2020-05-20",
           "label": "2025173"
         },
@@ -2421,7 +2421,7 @@
           "mentor": "李盛俊",
           "contact": "shengjun.li@zilliz.com",
           "co-mentor": "许笑海 xiaohai.xu@zilliz.com",
-          "student_count": 1,
+          "student_count": 2,
           "description": "Milvus是一款开源的特征向量搜索引擎。聚类是一种常见的数据分类方法，在索引中有着重要的应用。Milvus目前使用k-means来实现聚类。请为它添加更多的聚类算法并添加相应的选择开关。",
           "update_time": "2020-05-18",
           "label": "2018087"
@@ -4138,7 +4138,7 @@
           "mentor": "贾越凯",
           "contact": "equation618@gmail.com",
           "co-mentor": "王润基 wangrunji0408@163.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2043389"
         },
@@ -4344,7 +4344,7 @@
           "mentor": "邵进春",
           "contact": "shaojinchun@rt-thread.com",
           "co-mentor": "熊谱翔,bernard.xiong@rt-thread.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "QEMU中已经包含的基本的RISC-V模拟,例如sifive_u、riscv32/64_virt的模拟。RT-Thread对于RISC-V的移植主要局限于machine mode的方式,本项目目标是实现RISC-V的user-mode支持,及对应的基本外设功能,它们包括：支持MMU操作,页管理器；用户态的系统调用；任务切换时,对用户态上下文支持；基本的系统外设支持,例如文件系统,网络,LCD等",
           "update_time": "2020-05-13",
           "label": "2023112"
@@ -4863,7 +4863,7 @@
           "mentor": "续本达",
           "contact": "heroxbd@gentoo.org",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Emacs 是久负盛名的编辑器，以其高度的可编程扩展性闻名于世。Jupyter 是基于 HTTP 的远程异步运行系统，在科学计算有广泛的应用。EIN 项目为 Emacs 提供 Jupyter 客户端，可以弥补 Jupyter 网页上输入功能薄弱的劣势，把 Emacs 的强大编辑功能与 Jupyter 异步执行功能有机结合，成为 literate programming 的最强方案之一。但是，EIN使用的 HTTP 框架由基于 callback 的异步编程框架，维护较为困难，本项目将使用 coroutine 的函数式编程模型重写 EIN，完成现代的 Emacs Jupyter 客户端。",
           "update_time": "2020-05-18",
           "label": "2027134"
@@ -5182,7 +5182,7 @@
           "mentor": "吴京京",
           "contact": "1435130236@qq.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2044410"
         },
@@ -5193,7 +5193,7 @@
           "mentor": "黄纯洪",
           "contact": "huangaszaq@gmail.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2044411"
         },
