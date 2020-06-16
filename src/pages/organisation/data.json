@@ -293,7 +293,7 @@
           "difficulty": "中",
           "mentor": "Gabry.wu",
           "contact": "wu_shao_jie@qq.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-27",
           "label": "2002253"
         },
@@ -574,7 +574,7 @@
           "difficulty": "高",
           "mentor": "潘娟",
           "contact": "panjuan@apache.org",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-19",
           "label": "2004142"
         },
@@ -696,7 +696,7 @@
           "difficulty": "低",
           "mentor": "柯振旭",
           "contact": "kezhenxu94@163.com",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-13",
           "label": "2005028"
         },
@@ -766,7 +766,7 @@
           "difficulty": "中",
           "mentor": "张鑫",
           "contact": "zhangxin@apache.org",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-13",
           "label": "2005035"
         },
@@ -1245,7 +1245,7 @@
           "difficulty": "低",
           "mentor": "Lyric",
           "contact": "wei@fox.one",
-          "student_count": 1,
+          "student_count": 3,
           "description": "现在项目 UI 比较简陋，需将其改造，PC 和移动端都有较好的浏览体验",
           "update_time": "2020-05-29",
           "label": "2041327"
@@ -1831,7 +1831,7 @@
           "mentor": "王城",
           "contact": "wangcheng@holdiot.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 2,
           "update_time": "2020-05-27",
           "label": "2032297"
         },
@@ -2288,7 +2288,7 @@
           "difficulty": "中",
           "mentor": "胡焜",
           "contact": "hukun@megvii.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-20",
           "label": "2025172"
         },
@@ -2614,7 +2614,7 @@
           "mentor": "ir1d",
           "contact": "sirius.caffrey@gmail.com",
           "co-mentor": "Falsyta falsyta@pku.edu.cn",
-          "student_count": 1,
+          "student_count": 2,
           "description": "OI Wiki 是一个编程竞赛知识整合站点,提供有趣又实用的编程竞赛知识以及其他有帮助的内容,帮助广大编程竞赛爱好者更快更深入地学习编程竞赛。然而,算法与数据结构知识迭代更新较快,仍有很多 OI Wiki 尚未涉及的内容。本项目目标是选定若干新颖有趣的 topic,并将其引入 OI Wiki。寻找有趣的 topic 可以参考 e-maxx-eng, AlgoWiki 。",
           "update_time": "2020-05-13",
           "label": "2019091"
@@ -2822,7 +2822,7 @@
           "difficulty": "高",
           "mentor": "@woqidaideshi",
           "contact": "yafen@iscas.ac.cn",
-          "student_count": 0,
+          "student_count": 1,
           "description": "树莓派（英语：Raspberry Pi）是基于 Linux 的单片机电脑，目的是以低价硬件及自由软件促进学校的基本计算机科学教育。openEuler 树莓派版本目前没有桌面环境。本项目的目标是为树莓派添加桌面支持，即适配桌面环境 Xfce 到 openEuler 树莓派 4B。",
           "update_time": "2020-05-18",
           "label": "2021100"
@@ -2842,7 +2842,7 @@
           "difficulty": "中",
           "mentor": "@woqidaideshi",
           "contact": "yafen@iscas.ac.cn",
-          "student_count": 0,
+          "student_count": 1,
           "description": "树莓派（英语：Raspberry Pi）是基于 Linux 的单片机电脑，目的是以低价硬件及自由软件促进学校的基本计算机科学教育。为了降低成本，树莓派省去了传统计算机用来存储引导加载程序的板载存储器(BIOS), 直接把引导程序放在了SD卡中。目前树莓派 Pi 4 引入了 UEFI，不过目前处于 EXPERIMENTAL 状态。本项目目标是为树莓派引入 UEFI Firmware 来支持 UEFI 启动 openEuler 树莓派 4B。",
           "update_time": "2020-05-18",
           "label": "2021102"
@@ -4376,7 +4376,7 @@
           "difficulty": "高",
           "mentor": "陈勇",
           "contact": "chenyong@rt-thread.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "乐鑫 ESP32 系列芯片提供了一个或两个可以单独控制的 CPU 内核,时钟频率可调,最高可达240 MHz。同时还包括 WIFI/BLE 双模,支持多种低功耗运行模式,具备低噪声放大器,I2S,高速 SPI,以太网等外设接口。是一款理想的嵌入式物联网芯片,可用于各类物联网应用场景。",
           "update_time": "2020-05-13",
           "label": "2023115"
@@ -4564,7 +4564,7 @@
           "mentor": "@luoxiaogang",
           "contact": "rxd@tinylab.org",
           "co-mentor": "@wuzhangjin, falcon@tinylab.org",
-          "student_count": 0,
+          "student_count": 1,
           "description": "性能优化是提升产品用户体验的关键,也是所有产品走向高端的必由之路。Linux 系统上的性能优化工具日新月异,从早年的 Oprofile,Ftrace,Systemtap 到如今的 Perf, eBPF,日渐完善,不断强大。但是对于初学者,这些新工具的使用门槛很高,本项需求的目标是基于 Cloud Lab 构建一个开箱即可上手的系统性能优化工具箱,囊括各种常见的系统性能优化工具,并提供配套的实际开发案例。",
           "update_time": "2020-05-13",
           "label": "2024117"
@@ -4720,7 +4720,7 @@
           "mentor": "王邈",
           "contact": "miao.wang@tuna.tsinghua.edu.cn",
           "co-mentor": "朱晟菁 zhsj@debian.org",
-          "student_count": 0,
+          "student_count": 1,
           "description": "当前开源软件镜像站多采用 rsync 协议从上游差异更新,而 rsync 工具只支持 POSIX 文件系统。然而 POSIX 文件系统的大部分功能（如权限管理、目录遍历）对于镜像站是无意义的,反而引入了很多额外开销,降低了性能。目前 CDN 等高性能文件服务都采用对象存储系统（如 AWS S3）作为后端,而不是 POSIX 文件系统,因其访问延迟低,性能几乎不因文件数量增加而下降。若能将 rsync 协议与对象存储结合,实现一个在对象存储上工作的类 rsync 同步工具,那么镜像站就可从 POSIX 文件系统迁移到对象存储系统,从而提供更高质量的服务。项目不要求实现 rsync 的全部功能,只需要将远端文件列表与对象存储中的文件列表对比,下载缺失文件,删除多余文件,并更新修改日期不同的文件即可。",
           "update_time": "2020-05-13",
           "label": "2027121"
@@ -4898,7 +4898,7 @@
           "difficulty": "中",
           "mentor": "ceba",
           "contact": "ceba_robot@outlook.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Universal OJ 目前赛制支持的并不全面,目前仅完全的支持了 OI 赛制。本项目目标是为 Universal OJ 的比赛功能支持多赛制。",
           "update_time": "2020-05-16",
           "label": "2028135"
@@ -4949,7 +4949,7 @@
           "mentor": "付佳伟",
           "contact": "ibug@ustclug.org",
           "co-mentor": "陶柯宇 taoky@ustclug.org",
-          "student_count": 0,
+          "student_count": 1,
           "description": "目前,科大镜像站的前端架构仍然沿用着 2013 年的设计,但是随着时间的发展,我们也发现目前的镜像站前端架构在用户体验、维护与部署上带来了一些不便。目前的镜像站主页是由一套 Python 脚本每小时从模板生成得到的,虽然足够使用,但是在维护中也遇到了一些问题,诸如界面设计的实用性、主页与 status 页面显示不一致等问题。本项目希望能够通过调整镜像站前端架构,提高用户体验,降低维护的复杂度,也方便其他需要的镜像站部署页面显示的解决方案。",
           "update_time": "2020-05-13",
           "label": "2029138"
