@@ -696,7 +696,7 @@
           "difficulty": "低",
           "mentor": "柯振旭",
           "contact": "kezhenxu94@163.com",
-          "student_count": 2,
+          "student_count": 3,
           "update_time": "2020-05-13",
           "label": "2005028"
         },
@@ -746,7 +746,7 @@
           "difficulty": "低",
           "mentor": "庄浩潮",
           "contact": "daming@apache.org",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-13",
           "label": "2005033"
         },
@@ -2073,7 +2073,7 @@
           "mentor": "Kevin Wang",
           "contact": "kevinwzf0126@gmail.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-28",
           "label": "2013339"
         }
@@ -2258,7 +2258,7 @@
           "difficulty": "中",
           "mentor": "张禄",
           "contact": "zhanglu@megvii.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-20",
           "label": "2025169"
         },
@@ -2645,7 +2645,7 @@
           "difficulty": "中",
           "mentor": "Billchenchina",
           "contact": "billchenchina2001@gmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "在即将上线的新前端中,我们希望能添加一些辅助竞赛选手的实用工具。测试数据生成工具就是其中之一。在解题过程中,选手往往会有自己造一些样例数据的需求,我们希望能设计一个前端工具来简化这一流程。目前有一些类似的工具供参考,如 cyaron,testlib, Tree-Generator 。",
           "update_time": "2020-05-13",
           "label": "2019094"
@@ -2656,7 +2656,7 @@
           "mentor": "Marcythm",
           "contact": "marcythm@gmail.com",
           "co-mentor": "ksyx ksyxmeow@outlook.com",
-          "student_count": 1,
+          "student_count": 2,
           "description": "在 wiki 的编写过程中需要参考大量的外界资料以使得 wiki 质量更高、更为完善及更易读。本项目主要工作内容为参考、翻译外文资料并将其融入 OI Wiki 现有内容中。",
           "update_time": "2020-05-19",
           "label": "2019162"
@@ -2667,7 +2667,7 @@
           "mentor": "ksyx",
           "contact": "ksyxmeow@outlook.com",
           "co-mentor": "Marcythm marcythm@gmail.com",
-          "student_count": 2,
+          "student_count": 4,
           "description": "OI Wiki 上收录了大量优质的算法内容，但是他们主要是以中文编写的，会对外国友人的学习造成一定的障碍，因此为了更好的扩大 OI Wiki 的影响力和帮助到更多的人，开展本项目。本项目主要内容为将 OI Wiki 上现有的内容按照格式要求翻译成英文。",
           "update_time": "2020-05-19",
           "label": "2019163"
@@ -2822,7 +2822,7 @@
           "difficulty": "高",
           "mentor": "@woqidaideshi",
           "contact": "yafen@iscas.ac.cn",
-          "student_count": 1,
+          "student_count": 2,
           "description": "树莓派（英语：Raspberry Pi）是基于 Linux 的单片机电脑，目的是以低价硬件及自由软件促进学校的基本计算机科学教育。openEuler 树莓派版本目前没有桌面环境。本项目的目标是为树莓派添加桌面支持，即适配桌面环境 Xfce 到 openEuler 树莓派 4B。",
           "update_time": "2020-05-18",
           "label": "2021100"
@@ -2852,7 +2852,7 @@
           "difficulty": "低",
           "mentor": "@sinever",
           "contact": "sinever@126.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "没有软件工程师不知道 Hello world，也没有 AI 工程师不知道 mnist 。OpenEuler 上对 AI 的支持也正如火如荼进行，为了让大家熟悉在 openEuler 上 AI 的软件栈和开发流程，请从源代码出发构建 Tensorflow 的 aarch64 架构安装包(包括 pip 和 yum )，用这些安装包基于公开的数据集完成 mnist 的训练过程。",
           "update_time": "2020-05-26",
           "label": "2021200"
@@ -3270,7 +3270,7 @@
           "mentor": "@Charlie_Li",
           "contact": "liyongqiang329@163.com",
           "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-26",
           "label": "2021238"
         },
@@ -3424,7 +3424,7 @@
           "mentor": "myeuler",
           "contact": "myeuler@163.com",
           "co-mentor": "luanjianhai luanjianhai@163.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-27",
           "label": "2021281"
         },
@@ -4908,7 +4908,7 @@
           "difficulty": "低",
           "mentor": "TechCiel",
           "contact": "ciel+uoj@ciel.dev",
-          "student_count": 1,
+          "student_count": 2,
           "description": "Universal OJ 目前没有删除帐号等功能,落后于快速发展的互联网隐私保护行业标准,也有一些合规风险（如 GDPR 、 CCPA 和中国的有关法律法规）。本项目的目标是为 Universal OJ 添加删除帐号、导出信息等数据合规相关功能。",
           "update_time": "2020-05-16",
           "label": "2028136"
@@ -4960,7 +4960,7 @@
           "mentor": "王子博",
           "contact": "hypercube@0x01.me",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Hackergame 是 USTCLUG 开发的一套开源 CTF 比赛平台,主要用于每年举办的科大信息安全大赛,随真实需求不断进行技术迭代,并且重视生产环境下的安全性和可靠性。目前使用的是 Django + Vue.js 框架,但前后端解耦仍然不够充分,代码中写死了一些不合理的规则,很多地方缺少通用性和灵活性,测试和部署也不够方便。本项目希望能通过调整架构设计,重构部分代码,得到一个更加通用、健壮的比赛平台,让将来比赛中的实际需求更容易实现。",
           "update_time": "2020-05-13",
           "label": "2029139"
@@ -5033,7 +5033,7 @@
           "mentor": "Mada",
           "contact": "klaus1982.cn@gmail.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-28",
           "label": "2030404"
         },
