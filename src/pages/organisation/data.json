@@ -198,7 +198,7 @@
           "difficulty": "中",
           "mentor": "琚致远",
           "contact": "juzhiyuan@apache.org",
-          "student_count": 1,
+          "student_count": 2,
           "description": "完善身份验证模块：当前默认登录页为账号密码，但与 API 不兼容，请修改为动态设置 API Key 来校验 API 身份，并为其它方式保留兼容性、可配置性。",
           "update_time": "2020-05-29",
           "label": "2001414"
@@ -716,7 +716,7 @@
           "difficulty": "低",
           "mentor": "赵禹光",
           "contact": " zhaoyuguang@apache.org",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-13",
           "label": "2005030"
         },
@@ -829,7 +829,7 @@
           "difficulty": "高",
           "mentor": "罗杨 (hsluoyz)",
           "contact": "hsluoyz@gmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Casbin社区目前采用QQ群（中文），Gitter（英文）进行社区交流，交流渠道比较有限。我们打算开发一个同时面向Casbin开发者和用户的官方论坛：Casbin-forum（https://github.com/casbin/casbin-forum ），风格与V2EX类似。该论坛的另一个功能是全方位展示Casbin访问控制的功能，后台利用Casbin进行权限管理，前台利用casbin.js控制UI元素，如按钮的显示。该论坛会成为Casbin技术最强有力的展示。该论坛开源，因此也欢迎其他开源社区使用。",
           "update_time": "2020-05-29",
           "label": "2008416"
@@ -968,7 +968,7 @@
           "difficulty": "中",
           "mentor": "郭峰",
           "contact": "diluga@ceph.org.cn",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Ceph是一套开源的分布式存储软件，原生已经提供了对象存储网关服务(Rados gateway)，但是该对象存储和底层Ceph的耦合度高，不易改造和扩展新的概念。本次项目的目标是基于Ceph已经提供的Librados API，实现轻量级的对象存储网关服务，满足基本的大、小文件的上传下载的同时还能实现图片缩略图、裁剪、翻转等简单的多媒体操作。",
           "update_time": "2020-05-13",
           "label": "2009046"
@@ -1161,7 +1161,7 @@
           "difficulty": "低",
           "mentor": "王海良、向宇、张凯",
           "contact": "info@chatopera.com",
-          "student_count": 1,
+          "student_count": 2,
           "description": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低；基于春松客服开发一套机器人客服智能客服，春松客服本身不具有智能客服的特点，但是其灵活独特的插件机制，可以让使用者便捷的开发具有AI特质的智能客服。既可以对接自己开发的机器人或者第三方的机器人接口，如Chatopera；机器人客服可以7 * 24小时的高效率的回复访客的问题。",
           "update_time": "2020-05-15",
           "label": "2010047"
@@ -1171,7 +1171,7 @@
           "difficulty": "中",
           "mentor": "王海良、向宇、张凯",
           "contact": "info@chatopera.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "春松客服是 Chatopera 自主研发以及基于且增强其它开源软件的方式实现的，春松客服会不断增强客服系统的智能化，这包括利用自然语言处理、机器学习和语音识别等技术让客服工作更有效率、客服满意度更高、成本更低；春松客服基础功能目前是没有更多的接口及SDK，所以希望各位同学可以参考春松客服现有功能实现其SDK，包括IOS、Android、JS端以及RESTfulAPI。",
           "update_time": "2020-05-15",
           "label": "2010048"
@@ -1255,7 +1255,7 @@
           "difficulty": "高",
           "mentor": "Lyric",
           "contact": "wei@fox.one",
-          "student_count": 0,
+          "student_count": 1,
           "description": "现在 Claps 没有管理员后台，需要设计和实现管理员后台，支持如下功能：管理项目，初始化项目钱包，管理项目 repo，管理项目成员，管理用户，查看捐赠流水",
           "update_time": "2020-05-29",
           "label": "2041328"
@@ -1820,7 +1820,7 @@
           "mentor": "王城",
           "contact": "wangcheng@holdiot.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-27",
           "label": "2032296"
         },
@@ -1864,7 +1864,7 @@
           "mentor": "庄圣恩",
           "contact": "zhuangxxchn@163.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-27",
           "label": "2032300"
         },
@@ -1875,7 +1875,7 @@
           "mentor": "庄圣恩",
           "contact": "zhuangxxchn@163.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-27",
           "label": "2032335"
         }
@@ -1994,7 +1994,7 @@
           "difficulty": "中",
           "mentor": "陈亚云",
           "contact": "563880696@qq.com",
-          "student_count": 1,
+          "student_count": 2,
           "description": "在分类问题中，分类的目的是从一系列数据中选择出一个分类（如，给出一张包含苹果或橘子的图片，识别出图片中是哪种水果）。本项目采用心血管疾病数据集，数据集提供11个特征值和1个目标值，包含70000个患者记录数据。通过构建一个算法模型，来预测样本是否患有心血管疾病。本实训主要介绍如何实现“心血管疾病预测模型”的开发，通过该实训项目，可以使实训受众了解预测模型的开发。",
           "update_time": "2020-05-20",
           "label": "2033168"
@@ -2223,7 +2223,7 @@
           "mentor": "@yisiliu",
           "contact": "yisiliu@gmail.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Maskbook 是一个开源的浏览器隐私插件，帮助用户在 Facebook，Twitter 等社交平台自动加密帖子和聊天记录，防止被社交平台审查和滥用用户数据，仅用户本人和指定好友能够解密。Maskbook 现在有两种 payload 的模式，第一种是纯文字的 payload，格式是 base64 encoded 的加密文本，例如 https://www.google.co.in/%204/4.UN3m8PThWagRN/YaV4HBFVZhmzU-wuIzD1Yugjm7JAPg1BgX9UilZl5jlHp0YsRs2cRu+lNTisyp1J45zvXoSD1fzbsK8+2Do5itncakns29P3BzH8YJACmG64G6tNikZP5oEme+W/to9wv1C43aSTs9rY1F8mFCwimOsZvki1+FN6LuItO3cX/1.NdahzvHRaBdRMI5gQvT5tg_=.27WQHRwyEwW8QwhIR0oOcPU9fbR35j8vKumBMyupnQ==.y5402vqUQoQub+RKHofpxgmQtetSiRwumF4KXaL/l5rmOHHRJBTL9YcZOjz39WtJAgbdg+iYsJdq5gm3MwWAXQ==.Ao+TblKN40/JUXl4B1HsISVoJc5gSVBYCXiolhxa8D5Q.0%40(注：在 Facebook 中，没有字数限制，所以会直接将 payload 放入 post 中，但是在 Twitter 上由于有严格的字数限制，所以我们采用了基于 url 的 hack #198)；另一种是图片模式，是基于**快速傅立叶变换（fft）**的一种方法，将密文隐写到图片中，做到更加美观的效果，目前的实现可以在 DimensionDev/Stego-JS中看到。目前的实现由于算法的限制，导致效果不甚理想，会有一些带有信息的点在图片中显示，并且不够稳定，没有办法在 Facebook 和 Twitter 中都可以抗平台压缩，导致信息缺失，具体细节可以在 Open Source Promotion Plan - Summer 2020 Task 2 中看到。在这个 Task 中，我们希望大家能够跟我们一起调研各种抗压缩图片（或音频）隐写算法，使我们的图片模式更加的高效。",
           "update_time": "2020-05-19",
           "label": "2016161"
@@ -2678,7 +2678,7 @@
           "mentor": "Marcythm",
           "contact": "marcythm@gmail.com",
           "co-mentor": "hi@oi-wiki.org",
-          "student_count": 1,
+          "student_count": 2,
           "description": "OI Wiki 上收录了大量优质的算法内容，但是仍有相当多的页面在语言表述上较为随意，会对大家学习体验与效果产生一定的影响。本项目希望能将 OI Wiki 上现有的内容按照格式要求进行合理的编修、调整格式、清理、校订。",
           "update_time": "2020-05-19",
           "label": "2019164"
@@ -4452,7 +4452,7 @@
           "difficulty": "中",
           "mentor": "MRNIU",
           "contact": "Zone.niuzh@hotmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "目前的实现文档分布在开发日志、代码注释中,有的部分还有缺少,我们需要一份文档告诉使用者我们的代码是怎么来的,背后的原理是什么,为什么这样写。",
           "update_time": "2020-05-14",
           "label": "2022107"
@@ -4786,7 +4786,7 @@
           "mentor": "党凡",
           "contact": "dangfan@tsinghua.edu.cn",
           "co-mentor": "陈晟祺,shengqi.chen@tuna.tsinghua.edu.cn, @Harry-Chen on GitHub",
-          "student_count": 1,
+          "student_count": 2,
           "description": "目前,各类移动设备,包括 Android 与 iOS,都增加了对 NFC 通信的支持；但各类应用对于 NFC 的支持都很不完善,缺少一个统一的跨平台的支持库。同时,关于 NFC 各类标准的文档也并不齐全,通常需要到处查找,为开发者造成了很大的障碍。前期,我们在 Android 平台上是实现了一个 NFC 卡片的读取应用 NFSee；目前,需要将其使用 Flutter 重写以实现跨平台。同时,也将搭建一个公开的 Wiki 网站,对 NFC 相关的协议、标准进行整理和阐述,以纠正常见误区,帮助其他开发者更好地在移动端进行 NFC 相关的开发。",
           "update_time": "2020-05-13",
           "label": "2027126"
@@ -4898,7 +4898,7 @@
           "difficulty": "中",
           "mentor": "ceba",
           "contact": "ceba_robot@outlook.com",
-          "student_count": 1,
+          "student_count": 2,
           "description": "Universal OJ 目前赛制支持的并不全面,目前仅完全的支持了 OI 赛制。本项目目标是为 Universal OJ 的比赛功能支持多赛制。",
           "update_time": "2020-05-16",
           "label": "2028135"
@@ -5193,7 +5193,7 @@
           "mentor": "黄纯洪",
           "contact": "huangaszaq@gmail.com",
           "co-mentor": "",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-29",
           "label": "2044411"
         },
