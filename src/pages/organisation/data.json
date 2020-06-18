@@ -1,6 +1,6 @@
 {
   "LICENSE": "Mulan PSL v2",
-  "max": 4,
+  "max": 5,
   "min": 1,
   "orgList": [
     {
@@ -148,7 +148,7 @@
           "difficulty": "中",
           "mentor": "罗泽轩",
           "contact": "spacewander@apache.org",
-          "student_count": 0,
+          "student_count": 1,
           "description": "允许用户通过配置，捕获某一个route或service中符合特定request header/response header/upstream response time/request time的请求和响应的内容。类似于 envoy 的 traffic tapping 功能：https://www.envoyproxy.io/docs/envoy/latest/operations/traffic_tapping 我们只需实现其中的一个子集，支持 HTTP 即可。",
           "update_time": "2020-05-13",
           "label": "2001003"
@@ -158,7 +158,7 @@
           "difficulty": "中",
           "mentor": "陈军旭",
           "contact": "chenjunxu@apache.org",
-          "student_count": 0,
+          "student_count": 1,
           "description": "使用 lua-resty-etcd 库中的 v3 版本，使 Apache APISIX 支持 etcd v3 协议。",
           "update_time": "2020-05-13",
           "label": "2001004"
@@ -666,7 +666,7 @@
           "difficulty": "中",
           "mentor": "吴晟",
           "contact": "wu.sheng@foxmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-27",
           "label": "2005254"
         },
@@ -859,7 +859,7 @@
           "difficulty": "中",
           "mentor": "谢非 (Joey)",
           "contact": "joey.xf@gmail.com",
-          "student_count": 0,
+          "student_count": 2,
           "description": "基于C++版本的casbin探索casbin服务化的可能性，目标是在微服务架构中提供开箱即用的中心化的授权服务",
           "update_time": "2020-05-27",
           "label": "2008256"
@@ -1044,7 +1044,7 @@
           "difficulty": "中",
           "mentor": "Zhengyi Zhu",
           "contact": "zhengyi.zhu.hust@gmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2040315"
         },
@@ -1245,7 +1245,7 @@
           "difficulty": "低",
           "mentor": "Lyric",
           "contact": "wei@fox.one",
-          "student_count": 3,
+          "student_count": 4,
           "description": "现在项目 UI 比较简陋，需将其改造，PC 和移动端都有较好的浏览体验",
           "update_time": "2020-05-29",
           "label": "2041327"
@@ -1275,7 +1275,7 @@
           "difficulty": "中",
           "mentor": "Lyric",
           "contact": "wei@fox.one",
-          "student_count": 0,
+          "student_count": 1,
           "description": "每一个项目都可以提供一小段代码，生成 widget。任何一个人都可以将这段代码挂在自己的博客、Github Readme、网页。点击这个 widget 可以打开项目主页。widget 上显示项目已经收到了多少捐赠。",
           "update_time": "2020-05-29",
           "label": "2041330"
@@ -1648,7 +1648,7 @@
           "difficulty": "中",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "",
           "update_time": "2020-05-30",
           "label": "2012419"
@@ -1831,7 +1831,7 @@
           "mentor": "王城",
           "contact": "wangcheng@holdiot.com",
           "co-mentor": "",
-          "student_count": 2,
+          "student_count": 3,
           "update_time": "2020-05-27",
           "label": "2032297"
         },
@@ -1875,7 +1875,7 @@
           "mentor": "庄圣恩",
           "contact": "zhuangxxchn@163.com",
           "co-mentor": "",
-          "student_count": 2,
+          "student_count": 4,
           "update_time": "2020-05-27",
           "label": "2032335"
         }
@@ -1964,7 +1964,7 @@
           "difficulty": "低",
           "mentor": "陈刚",
           "contact": "cheng83@mail.sysu.edu.cn",
-          "student_count": 1,
+          "student_count": 2,
           "description": "目标检测作为图像理解中的重要一环，其任务是找出图像中所有感兴趣的目标（物体），确定它们的位置和大小，是深度学习中的重要应用之一。目前有许多优秀的二值神经网络模型，大多都使用的是全精度的网络。但由于PhoneBit框架主要针对二值神经网路进行加速，需要对网络进行二值化处理，并保持一定的精度，以便于部署到移动设备上。",
           "update_time": "2020-05-20",
           "label": "2033165"
@@ -2040,7 +2040,7 @@
           "mentor": "Kevin Wang",
           "contact": "kevinwzf0126@gmail.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-28",
           "label": "2013336"
         },
@@ -2298,7 +2298,7 @@
           "difficulty": "中",
           "mentor": "周亦庄",
           "contact": "zhouyizhuang@megvii.com",
-          "student_count": 4,
+          "student_count": 5,
           "update_time": "2020-05-20",
           "label": "2025173"
         },
@@ -2432,7 +2432,7 @@
           "mentor": "李成明",
           "contact": "chengming.li@zilliz.com",
           "co-mentor": "李盛俊 shengjun.li@zilliz.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Milvus是一款开源的特征向量搜索引擎。目前已经实现了基于空间分类的、基于图的等多种索引类型。请为其再添加一种基于Hash的索引方式。",
           "update_time": "2020-05-18",
           "label": "2018088"
@@ -2484,7 +2484,7 @@
           "mentor": "王俊",
           "contact": "wangjun289@huawei.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "description": "MindSpore是华为自研的深度学习框架，采用基于源码转换的自动微分，支持自动并行、深度图优化。MindSpore原生支持昇腾芯片，针对昇腾芯片架构特点，采用Pipeline并行、整图下沉等功能，可以达到很高的执行性能。目前MindSpore还处于发展阶段，本项目向大家介绍MindSpore特性及API使用，希望大家基于MindSpore进行深度学习算法开发，完成某项指定挑战。",
           "update_time": "2020-05-21",
           "label": "2017181"
@@ -2495,7 +2495,7 @@
           "mentor": "高寒",
           "contact": "gaohan19@huawei.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "description": "MindSpore是华为自研的深度学习框架，其中的计算图模式是一种业界主流的用来进行数据传递与计算的形式。计算图主要包含节点和有向边，节点表示计算和控制操作，边表示数据的流向和控制等关系。计算图的高效合理展示，有助于用户更好的理解模型结构、发现和调试模型训练过程中出现的问题。然而，大型深度学习模型往往有着复杂的计算图结构，包含有成千上万个节点和更多的边。在这些点和边之中，包含有许多结构相同或高度相似的子结构，这些子结构不仅从图的拓扑结构上，甚至从深度学习语义上具有高度的相似性。快速识别大型计算图中上述的相同子结构，能够支持后续用收折、重叠等方式大幅减少页面中同时呈现的节点和边的数目，从而大幅改善计算图的展示效果。",
           "update_time": "2020-05-21",
           "label": "2017182"
@@ -2614,7 +2614,7 @@
           "mentor": "ir1d",
           "contact": "sirius.caffrey@gmail.com",
           "co-mentor": "Falsyta falsyta@pku.edu.cn",
-          "student_count": 2,
+          "student_count": 3,
           "description": "OI Wiki 是一个编程竞赛知识整合站点,提供有趣又实用的编程竞赛知识以及其他有帮助的内容,帮助广大编程竞赛爱好者更快更深入地学习编程竞赛。然而,算法与数据结构知识迭代更新较快,仍有很多 OI Wiki 尚未涉及的内容。本项目目标是选定若干新颖有趣的 topic,并将其引入 OI Wiki。寻找有趣的 topic 可以参考 e-maxx-eng, AlgoWiki 。",
           "update_time": "2020-05-13",
           "label": "2019091"
@@ -2635,7 +2635,7 @@
           "difficulty": "中",
           "mentor": "ir1d",
           "contact": "sirius.caffrey@gmail.com",
-          "student_count": 1,
+          "student_count": 2,
           "description": "在即将上线的新前端中,为了支持我们的诸多 markdown 自定义语法, OI Wiki 使用 remark 作为 markdown parser,并使用 rehype 生成对应的 html 页面。首先,我们希望能够基于现有的 Unified AST,生成相应的 LaTeX code 并导出排版优美的 pdf 文档。OI Wiki 开发过一版导出工具（见下面的仓库 remark-latex）,但是由于缺乏维护,对于图片等语法的支持不够完善,使用起来也需要大量人工操作。我们希望能够基于 Unified AST 及现有实现,改进或重构出一个较优美的 markdown 转 LaTeX 导出工具。此外,上游社区也有一些优秀的 LaTeX AST 实现供参考（见下面的 latex-utensils 及 LaTeX.js）。其次,为了让多人协作的 markdown 文件更整齐,我们采用了 remark-lint 来规范 markdown 中内容的格式。目前 OI Wiki 的格式化工具见下方 linter 仓库,启用的格式化规则见 https://github.com/OI-wiki/OI-wiki/blob/master/.remarkrc ,但是目前的实现还不够完善,比如对于公式两侧添加若干多余的空格、details 语法限制过严等等。我们希望通过这个项目,规范整理 lint 规则。",
           "update_time": "2020-05-13",
           "label": "2019093"
@@ -2743,7 +2743,7 @@
           "difficulty": "中",
           "mentor": "Intel OpenCV team member",
           "contact": "admin@opencv.org.cn",
-          "student_count": 1,
+          "student_count": 2,
           "description": "OpenCV has well-working QR codes detection and decoding algorithm. Currently it uses third party library for decoding and doesn’t have functionality for creation of QR-codes. The first task will be implementation decoder with help of OpenCV functionality. This will help to solve second task – QR-code encoder (tasks are interconnected). Student will need to research QR-codes decoding algorithms, error correction rules, data character encoding methods and to program decoder and encoder.",
           "update_time": "2020-05-14",
           "label": "2020098"
@@ -2832,7 +2832,7 @@
           "difficulty": "中",
           "mentor": "@woqidaideshi",
           "contact": "yafen@iscas.ac.cn",
-          "student_count": 0,
+          "student_count": 1,
           "description": "树莓派（英语：Raspberry Pi）是基于 Linux 的单片机电脑，目的是以低价硬件及自由软件促进学校的基本计算机科学教育。树莓派需要刷写文件系统镜像来实现启动，镜像文件常常都较大，不利于快速分发和安装。本项目目标是为制作压缩前小于 500 MiB 的 openEuler 树莓派 4B 镜像，并能够通过 DNF 或 YUM等安装软件源中更多的软件进来。镜像尽可能小。",
           "update_time": "2020-05-18",
           "label": "2021101"
@@ -2852,7 +2852,7 @@
           "difficulty": "低",
           "mentor": "@sinever",
           "contact": "sinever@126.com",
-          "student_count": 1,
+          "student_count": 2,
           "description": "没有软件工程师不知道 Hello world，也没有 AI 工程师不知道 mnist 。OpenEuler 上对 AI 的支持也正如火如荼进行，为了让大家熟悉在 openEuler 上 AI 的软件栈和开发流程，请从源代码出发构建 Tensorflow 的 aarch64 架构安装包(包括 pip 和 yum )，用这些安装包基于公开的数据集完成 mnist 的训练过程。",
           "update_time": "2020-05-26",
           "label": "2021200"
@@ -2862,7 +2862,7 @@
           "difficulty": "低",
           "mentor": "@sinever",
           "contact": "sinever@126.com",
-          "student_count": 1,
+          "student_count": 2,
           "description": "没有软件工程师不知道 Hello world，也没有 AI 工程师不知道 mnist 。OpenEuler 上对 AI 的支持也正如火如荼进行，为了让大家熟悉在 openEuler 上 AI 的软件栈和开发流程，请从源代码出发构建 PyTorch 的 aarch64 架构安装包(包括 pip 和 yum )，用这些安装包基于公开的数据集完成 mnist 的训练过程。",
           "update_time": "2020-05-26",
           "label": "2021201"
@@ -2929,7 +2929,7 @@
           "mentor": "@jingwoo",
           "contact": "wujing50@huawei.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-26",
           "label": "2021207"
         },
@@ -3468,7 +3468,7 @@
           "mentor": "@denggx_elros",
           "contact": "dengguangxing@huawei.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-27",
           "label": "2021285"
         },
@@ -3710,7 +3710,7 @@
           "mentor": "@yanxiaodan",
           "contact": "yanxiaodan@huawei.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2021355"
         },
@@ -4116,7 +4116,7 @@
           "mentor": "王润基",
           "contact": "wangrunji0408@163.com",
           "co-mentor": "刘丰源 liufy17@mails.tsinghua.edu.cn",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2043387"
         },
@@ -4322,7 +4322,7 @@
           "mentor": "杨武",
           "contact": "yangwu@rt-thread.com",
           "co-mentor": "赵辅金,zhaofujin@rt-thread.com",
-          "student_count": 1,
+          "student_count": 2,
           "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器,同时还包括WiFi/BT,千兆以太网,双HDMI输出,CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台,可用于各种AI应用场景。",
           "update_time": "2020-05-13",
           "label": "2023110"
@@ -4333,7 +4333,7 @@
           "mentor": "陈晨毅",
           "contact": "lebhoryi@rt-thread.com",
           "co-mentor": "杨武,yangwu@rt-thread.com",
-          "student_count": 1,
+          "student_count": 4,
           "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器,同时还包括WiFi/BT,千兆以太网,双HDMI输出,CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台,可用于各种AI应用场景。TensorflowLite Micro 是面象微控制器级别的设备裁剪定制版本的 Tensorflow Lite,具有良好的跨平台设计和较为完善的单元测试。本项目目标是在树莓派4上将TensorflowLite Micro移植到RT-Thread系统中,并顺利运行自的演示应用。目前树莓派4上的RT-Thread状态为,可以运行ARM64位的RT-Thread,驱动相对较少,只包含中断管理、串口、HDMI、SDIO等。在本项目中,需要开启 RT-Thread 的 C++ 支持,完成 TensorflowLite Micro 的编译链接,并在树莓派4上运行原项目自带的演示应用。",
           "update_time": "2020-05-13",
           "label": "2023111"
@@ -4387,7 +4387,7 @@
           "mentor": "李想",
           "contact": "lixiang@rt-thread.com",
           "co-mentor": "郭占鑫 guozhanxin@rt-thread.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "RT-Thread 操作系统实现了 USB 基础协议栈,为 USB 摄像头的数据传输提供了基础的支持,双目拍摄系统拍摄同一场景的左、右两幅视点图像,并结合算法将左右图像进行合并。RT-Thread 和双目拍摄二者结合之后可以应用于各种视觉领域。",
           "update_time": "2020-05-13",
           "label": "2023116"
@@ -4442,7 +4442,7 @@
           "difficulty": "高",
           "mentor": "MRNIU",
           "contact": " Zone.niuzh@hotmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "多任务是内核不可或缺的部分,但现在我们的代码还很简陋。现有代码是对 linux 内核实现的魔改,还不能够正常使用。",
           "update_time": "2020-05-14",
           "label": "2022106"
@@ -4775,7 +4775,7 @@
           "mentor": "党凡",
           "contact": "dangfan@tsinghua.edu.cn",
           "co-mentor": "Zamir Sun，zsun@fedoraproject.org",
-          "student_count": 0,
+          "student_count": 1,
           "description": "随着 iOS 13 进一步开放 NFC 功能，Android 和 iOS 系统都具备了 NFC Reader 的能力。TOTP 和 HOTP 是目前不少网站和应用的 2FA 选项之一，无论是 YubiKey、CanoKey 这样的硬件产品，还是装有 OATH 应用的智能卡，都可以通过 NFC 在手机上提供便捷安全的 TOTP 和 HOTP 功能。本项目的目标是利用 NFC 功能，实现一个开源的 TOTP、HOTP 客户端，支持常见的智能卡或类智能卡设备。",
           "update_time": "2020-05-27",
           "label": "2027295"
@@ -4949,7 +4949,7 @@
           "mentor": "付佳伟",
           "contact": "ibug@ustclug.org",
           "co-mentor": "陶柯宇 taoky@ustclug.org",
-          "student_count": 1,
+          "student_count": 2,
           "description": "目前,科大镜像站的前端架构仍然沿用着 2013 年的设计,但是随着时间的发展,我们也发现目前的镜像站前端架构在用户体验、维护与部署上带来了一些不便。目前的镜像站主页是由一套 Python 脚本每小时从模板生成得到的,虽然足够使用,但是在维护中也遇到了一些问题,诸如界面设计的实用性、主页与 status 页面显示不一致等问题。本项目希望能够通过调整镜像站前端架构,提高用户体验,降低维护的复杂度,也方便其他需要的镜像站部署页面显示的解决方案。",
           "update_time": "2020-05-13",
           "label": "2029138"
@@ -5022,7 +5022,7 @@
           "mentor": "Zhonghu Xu",
           "contact": "zhhxu2011@163.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-28",
           "label": "2030403"
         },
@@ -5182,7 +5182,7 @@
           "mentor": "吴京京",
           "contact": "1435130236@qq.com",
           "co-mentor": "",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-29",
           "label": "2044410"
         },
