@@ -1,6 +1,6 @@
 {
   "LICENSE": "Mulan PSL v2",
-  "max": 5,
+  "max": 10,
   "min": 1,
   "orgList": [
     {
@@ -48,7 +48,7 @@
           "difficulty": "中",
           "mentor": "Dingyuan Wang",
           "contact": "gumblex@aosc.io",
-          "student_count": 0,
+          "student_count": 1,
           "description": "目前 AOSC 的软件包存在一定的质量问题，且已经有了初步的排查方案。我们希望在编译时或编译后主动地将质量问题检测出来，停止编译和发布。本项目需要在当前的打包流程中增加测试环节来确保软件包的质量。",
           "update_time": "2020-05-17",
           "label": "2007038"
@@ -58,7 +58,7 @@
           "difficulty": "中",
           "mentor": "黎民雍（以俊德）",
           "contact": "lmy441900@aosc.io",
-          "student_count": 0,
+          "student_count": 1,
           "description": "社区项目 DeployKit 是未来 AOSC OS 的安装和恢复程序。该程序有两种模式：1. 作为安装向导指引用户正确地安装 AOSC OS； 2. 作为恢复向导指引用户在轻微的系统配置错误中恢复系统； 目前，DeployKit 使用 GTK 3 和 Vala 编程语言基本实现了安装向导的图形用户界面，但尚未实现安装向导的实际操作部分（即 DeployKit 还只是个“空壳”）。本项目的目标是按照社区提供的 AOSC OS 安装指引，将这部分原本需要手动操作的安装流程实现到 DeployKit 上。",
           "update_time": "2020-05-13",
           "label": "2007039"
@@ -188,7 +188,7 @@
           "difficulty": "低",
           "mentor": "琚致远",
           "contact": "juzhiyuan@apache.org",
-          "student_count": 1,
+          "student_count": 3,
           "description": "翻译以下页面为指定语言： 下载页 为 中文； 2FA 为 中文； 安全指南 为 中文； 贡献者指南 为 中文； 发布指南 为 英文；",
           "update_time": "2020-05-27",
           "label": "2001250"
@@ -252,7 +252,7 @@
           "difficulty": "低",
           "mentor": "Gabry.wu",
           "contact": "wu_shao_jie@qq.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "提供后端接口。查询一定时间范围内执行时间最长的 TOP N 任务实例。",
           "update_time": "2020-05-30",
           "label": "2002415"
@@ -303,7 +303,7 @@
           "difficulty": "中",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-16",
           "label": "2002008"
         },
@@ -313,7 +313,7 @@
           "difficulty": "低",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-16",
           "label": "2002009"
         },
@@ -323,7 +323,7 @@
           "difficulty": "中",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-16",
           "label": "2002010"
         },
@@ -333,7 +333,7 @@
           "difficulty": "低",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "student_count": 0,
+          "student_count": 2,
           "update_time": "2020-05-16",
           "label": "2002011"
         },
@@ -353,7 +353,7 @@
           "difficulty": "高",
           "mentor": "温合民",
           "contact": "wenhemin@apache.org",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-30",
           "label": "2002013"
         },
@@ -373,7 +373,7 @@
           "difficulty": "高",
           "mentor": "simon",
           "contact": "3656562@qq.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-30",
           "label": "2002015"
         },
@@ -646,7 +646,7 @@
           "difficulty": "中",
           "mentor": "吴晟",
           "contact": "wu.sheng@foxmail.com",
-          "student_count": 0,
+          "student_count": 2,
           "update_time": "2020-05-13",
           "label": "2005024"
         },
@@ -756,7 +756,7 @@
           "difficulty": "高",
           "mentor": "张鑫",
           "contact": "zhangxin@apache.org",
-          "student_count": 0,
+          "student_count": 2,
           "update_time": "2020-05-13",
           "label": "2005034"
         },
@@ -776,7 +776,7 @@
           "difficulty": "低",
           "mentor": "何延龙",
           "contact": "heyanlong@apache.org",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-13",
           "label": "2005036"
         }
@@ -849,7 +849,7 @@
           "difficulty": "高",
           "mentor": "江成 (GopherJ)",
           "contact": "cacathecafe@gmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Casbin在初始化时将规则集装载到内存中，在规则集发生变更时将该次变更持久化到文件或者数据库等媒介。我们希望在此基础上： 1）基于Raft协议实现单机、分布式环境中不同Casbin实例的规则集同步；２）探索如何将规则集分组，映射到不同节点，使特定规则集的增，删以及某个请求的权限计算都在正确的节点进行，以此减轻单机的内存压力。",
           "update_time": "2020-05-17",
           "label": "2008044"
@@ -859,7 +859,7 @@
           "difficulty": "中",
           "mentor": "谢非 (Joey)",
           "contact": "joey.xf@gmail.com",
-          "student_count": 2,
+          "student_count": 3,
           "description": "基于C++版本的casbin探索casbin服务化的可能性，目标是在微服务架构中提供开箱即用的中心化的授权服务",
           "update_time": "2020-05-27",
           "label": "2008256"
@@ -909,7 +909,7 @@
           "difficulty": "高",
           "mentor": "周而易始(huazhikui)",
           "contact": "huazhikui@126.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Casbin.NET是Casbin的Dotnet版实现，目前仅完成核心功能，需要对项目进行进一步的优化和完善。目前计划提供一个完成核心能力开箱即用的服务化(RESTful)的解决方案(Casbin.SamNet)，并且适配Steeltoe。",
           "update_time": "2020-05-28",
           "label": "2008311"
@@ -919,7 +919,7 @@
           "difficulty": "中",
           "mentor": "张合龙 (BetaCat0)",
           "contact": "outman99@hotmail.com",
-          "student_count": 1,
+          "student_count": 2,
           "description": "Casbin-Dashboard（https://dashboard.casbin.org/）是我们近期启动的一个项目，由于Casbin通常在后台运行，没有界面，只有API，配置起来不够友好。因此我们打算开发一个Casbin的图形化界面，即Casbin Dashboard。我们希望Casbin Dashboard能够帮助Casbin的用户，尤其是对代码不熟悉的运维人员，能够通过图形化界面的操作，管理Casbin的模型、策略、正确性、集群运行状态等等。未来一切与Casbin有关的，可图形化的操作，都会集成到Casbin Dashboard中。",
           "update_time": "2020-05-28",
           "label": "2008312"
@@ -978,7 +978,7 @@
           "difficulty": "中",
           "mentor": "曹言虎",
           "contact": "tiger@ceph.org.cn",
-          "student_count": 0,
+          "student_count": 2,
           "description": "Ceph是目前业界最火的开源项目之一，对外可以提供统一的块、文件、对象存储接口，由于存储的专业性和门槛，本项目主要致力于帮助学生能够快速参与社区，主要是修复一些社区的Bug（难易/紧急程度依次递增）。",
           "update_time": "2020-05-27",
           "label": "2009257"
@@ -1054,7 +1054,7 @@
           "difficulty": "中",
           "mentor": "Jian Sun",
           "contact": "ansj-sun@163.com",
-          "student_count": 0,
+          "student_count": 3,
           "update_time": "2020-05-29",
           "label": "2040316"
         },
@@ -1074,7 +1074,7 @@
           "difficulty": "中",
           "mentor": "Xihao Xu",
           "contact": "xxscott@163.com",
-          "student_count": 0,
+          "student_count": 2,
           "update_time": "2020-05-29",
           "label": "2040318"
         },
@@ -1084,7 +1084,7 @@
           "difficulty": "高",
           "mentor": "Jian Sun",
           "contact": "ansj-sun@163.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2040319"
         },
@@ -1372,7 +1372,7 @@
           "difficulty": "中",
           "mentor": "Yingxiong Pan",
           "contact": "heroopan@gmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "并非所有的节点都有能⼒储存完整的区块链。SPV的方式可以使它们在不必存储完整区块链的情况下进行工作。这种类型的客端被称为SPV客户端或轻量级客户端。SPV节点只需下载区块头,而不用下载包含在每个区块中的交易信息。由此产生的不含交易信息的区块链,大小比完整区块链小得多。因此,适合智能电话、平板电脑、嵌⼊式系统等这样的设备。本题旨在开发一款桌面版/移动端的Elastos轻量级客户端。",
           "update_time": "2020-05-27",
           "label": "2011054"
@@ -1523,7 +1523,7 @@
           "mentor": "刘畅",
           "contact": "liuchangfreeman@live.com",
           "co-mentor": "",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-27",
           "label": "2039271"
         }
@@ -1820,7 +1820,7 @@
           "mentor": "王城",
           "contact": "wangcheng@holdiot.com",
           "co-mentor": "",
-          "student_count": 1,
+          "student_count": 3,
           "update_time": "2020-05-27",
           "label": "2032296"
         },
@@ -1831,7 +1831,7 @@
           "mentor": "王城",
           "contact": "wangcheng@holdiot.com",
           "co-mentor": "",
-          "student_count": 3,
+          "student_count": 5,
           "update_time": "2020-05-27",
           "label": "2032297"
         },
@@ -1842,7 +1842,7 @@
           "mentor": "王城",
           "contact": "wangcheng@holdiot.com",
           "co-mentor": "",
-          "student_count": 2,
+          "student_count": 5,
           "update_time": "2020-05-27",
           "label": "2032298"
         },
@@ -1853,7 +1853,7 @@
           "mentor": "庄圣恩",
           "contact": "zhuangxxchn@163.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-27",
           "label": "2032299"
         },
@@ -1875,7 +1875,7 @@
           "mentor": "庄圣恩",
           "contact": "zhuangxxchn@163.com",
           "co-mentor": "",
-          "student_count": 4,
+          "student_count": 10,
           "update_time": "2020-05-27",
           "label": "2032335"
         }
@@ -1964,7 +1964,7 @@
           "difficulty": "低",
           "mentor": "陈刚",
           "contact": "cheng83@mail.sysu.edu.cn",
-          "student_count": 2,
+          "student_count": 1,
           "description": "目标检测作为图像理解中的重要一环，其任务是找出图像中所有感兴趣的目标（物体），确定它们的位置和大小，是深度学习中的重要应用之一。目前有许多优秀的二值神经网络模型，大多都使用的是全精度的网络。但由于PhoneBit框架主要针对二值神经网路进行加速，需要对网络进行二值化处理，并保持一定的精度，以便于部署到移动设备上。",
           "update_time": "2020-05-20",
           "label": "2033165"
@@ -2040,7 +2040,7 @@
           "mentor": "Kevin Wang",
           "contact": "kevinwzf0126@gmail.com",
           "co-mentor": "",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-28",
           "label": "2013336"
         },
@@ -2073,7 +2073,7 @@
           "mentor": "Kevin Wang",
           "contact": "kevinwzf0126@gmail.com",
           "co-mentor": "",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-28",
           "label": "2013339"
         }
@@ -2107,7 +2107,7 @@
           "mentor": "陈莉君",
           "contact": "cljcore@126.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2014340"
         }
@@ -2212,7 +2212,7 @@
           "mentor": "@yisiliu",
           "contact": "yisiliu@gmail.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Maskbook 是一个开源的浏览器隐私插件，帮助用户在 Facebook，Twitter 等社交平台自动加密帖子和聊天记录，防止被社交平台审查和滥用用户数据，仅用户本人和指定好友能够解密。除了我们基础的功能之外，我们还开发了一套插件系统，可以支持简单的脚本运行，我们已经尝试过的插件有： 基于 Ethereum（以太坊）的加密货币红包 #634 #672 ，Gitcoin Grant 捐赠 #996 #1079 和 Arweave 文件分享 #1057。在这个 Task 中，我们希望大家能够跟我们一起开动脑洞，思考一下基于我们 Maskbook 和社交网络的关系，有没有什么更加有心意的插件可以加入进来，提供给所有的用户更多的功能和自由。具体的项目介绍可以在 Open Source Promotion Plan - Summer 2020 Task 1 中看到，并期待同学们能在这里跟我们进行交流。",
           "update_time": "2020-05-18",
           "label": "2016080"
@@ -2268,7 +2268,7 @@
           "difficulty": "高",
           "mentor": "陈远昭",
           "contact": "chenyuanzhao@megvii.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-20",
           "label": "2025170"
         },
@@ -2278,7 +2278,7 @@
           "difficulty": "高",
           "mentor": "陈远昭",
           "contact": "chenyuanzhao@megvii.com",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-20",
           "label": "2025171"
         },
@@ -2288,7 +2288,7 @@
           "difficulty": "中",
           "mentor": "胡焜",
           "contact": "hukun@megvii.com",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-20",
           "label": "2025172"
         },
@@ -2298,7 +2298,7 @@
           "difficulty": "中",
           "mentor": "周亦庄",
           "contact": "zhouyizhuang@megvii.com",
-          "student_count": 5,
+          "student_count": 6,
           "update_time": "2020-05-20",
           "label": "2025173"
         },
@@ -2308,7 +2308,7 @@
           "difficulty": "高",
           "mentor": "许欣然",
           "contact": "xxr@megvii.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-20",
           "label": "2025174"
         },
@@ -2318,7 +2318,7 @@
           "difficulty": "高",
           "mentor": "许欣然",
           "contact": "xxr@megvii.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-20",
           "label": "2025175"
         },
@@ -2328,7 +2328,7 @@
           "difficulty": "中",
           "mentor": "许欣然",
           "contact": "xxr@megvii.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-20",
           "label": "2025176"
         },
@@ -2421,7 +2421,7 @@
           "mentor": "李盛俊",
           "contact": "shengjun.li@zilliz.com",
           "co-mentor": "许笑海 xiaohai.xu@zilliz.com",
-          "student_count": 2,
+          "student_count": 3,
           "description": "Milvus是一款开源的特征向量搜索引擎。聚类是一种常见的数据分类方法，在索引中有着重要的应用。Milvus目前使用k-means来实现聚类。请为它添加更多的聚类算法并添加相应的选择开关。",
           "update_time": "2020-05-18",
           "label": "2018087"
@@ -2484,7 +2484,7 @@
           "mentor": "王俊",
           "contact": "wangjun289@huawei.com",
           "co-mentor": "",
-          "student_count": 1,
+          "student_count": 5,
           "description": "MindSpore是华为自研的深度学习框架，采用基于源码转换的自动微分，支持自动并行、深度图优化。MindSpore原生支持昇腾芯片，针对昇腾芯片架构特点，采用Pipeline并行、整图下沉等功能，可以达到很高的执行性能。目前MindSpore还处于发展阶段，本项目向大家介绍MindSpore特性及API使用，希望大家基于MindSpore进行深度学习算法开发，完成某项指定挑战。",
           "update_time": "2020-05-21",
           "label": "2017181"
@@ -2614,7 +2614,7 @@
           "mentor": "ir1d",
           "contact": "sirius.caffrey@gmail.com",
           "co-mentor": "Falsyta falsyta@pku.edu.cn",
-          "student_count": 3,
+          "student_count": 4,
           "description": "OI Wiki 是一个编程竞赛知识整合站点,提供有趣又实用的编程竞赛知识以及其他有帮助的内容,帮助广大编程竞赛爱好者更快更深入地学习编程竞赛。然而,算法与数据结构知识迭代更新较快,仍有很多 OI Wiki 尚未涉及的内容。本项目目标是选定若干新颖有趣的 topic,并将其引入 OI Wiki。寻找有趣的 topic 可以参考 e-maxx-eng, AlgoWiki 。",
           "update_time": "2020-05-13",
           "label": "2019091"
@@ -2625,7 +2625,7 @@
           "mentor": "mgt/Enter-tainer",
           "contact": "mgt@oi-wiki.org",
           "co-mentor": "diauweb diauweb@live.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "当前,OI Wiki 使用 mkdocs 作为静态页面生成引擎。然而由于 mkdocs 并非专门为 Wiki 类项目设计,因而与我们的需求存在较大差距,此外还难以实现对语法和页面的定制。因此,目前 OI Wiki 正在将前端迁移到基于 React 和 GraphQL 的页面生成框架 Gatsby 上,从而实现对页面的深度定制。目前,我们已经实现了基本的框架代码（见下面的仓库）。然而它还不尽完善,我们希望为它添加更多的功能,覆盖用户的需求。",
           "update_time": "2020-05-13",
           "label": "2019092"
@@ -2713,7 +2713,7 @@
           "difficulty": "中",
           "mentor": "Shiqi Yu",
           "contact": "admin@opencv.org.cn",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Universal intrinsics is OpenCV way to write cross-platform and yet very efficient code on a variety of platforms. The technique is widely used inside OpenCV, but it’s not well-known to many OpenCV users, including contributors, who are supposed to provide high-quality fast code into OpenCV. This tutorial should fill this important missing part of the documentation.",
           "update_time": "2020-05-14",
           "label": "2020095"
@@ -2885,7 +2885,7 @@
           "mentor": "@lifeng2221dd1",
           "contact": "lifeng68@huawei.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-26",
           "label": "2021203"
         },
@@ -2896,7 +2896,7 @@
           "mentor": "@haozi007",
           "contact": "liuhao27@huawei.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-26",
           "label": "2021204"
         },
@@ -3490,7 +3490,7 @@
           "mentor": "@zhanghailiang",
           "contact": "fangying1@huawei.com",
           "co-mentor": "@yorifang",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-27",
           "label": "2021287"
         },
@@ -3688,7 +3688,7 @@
           "mentor": "周中元",
           "contact": "zhouzhongyuan96@gmail.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2021353"
         },
@@ -3732,7 +3732,7 @@
           "mentor": "@denggx_elros",
           "contact": "dengguangxing@huawei.com",
           "co-mentor": "@whoisxxx<zhangxuzhou4@huawei.com>, @haomintsai<caihaomin@huawei.com>",
-          "student_count": 0,
+          "student_count": 2,
           "update_time": "2020-05-29",
           "label": "2021357"
         },
@@ -3820,7 +3820,7 @@
           "mentor": "@pwang7",
           "contact": "pwang7@foxmail.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2021365"
         },
@@ -4127,7 +4127,7 @@
           "mentor": "王润基",
           "contact": "wangrunji0408@163.com",
           "co-mentor": "潘庆霖 panqinglin00@163.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2043388"
         },
@@ -4238,7 +4238,7 @@
           "mentor": "Steve Macenski",
           "contact": "stevenmacenski@gmail.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2036395"
         },
@@ -4311,7 +4311,7 @@
           "mentor": "杨武",
           "contact": "yangwu@rt-thread.com",
           "co-mentor": "赵辅金,zhaofujin@rt-thread.com",
-          "student_count": 0,
+          "student_count": 2,
           "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器,同时还包括WiFi/BT,千兆以太网,双HDMI输出,CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台,可用于各种AI应用场景。",
           "update_time": "2020-05-13",
           "label": "2023109"
@@ -4322,7 +4322,7 @@
           "mentor": "杨武",
           "contact": "yangwu@rt-thread.com",
           "co-mentor": "赵辅金,zhaofujin@rt-thread.com",
-          "student_count": 2,
+          "student_count": 3,
           "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器,同时还包括WiFi/BT,千兆以太网,双HDMI输出,CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台,可用于各种AI应用场景。",
           "update_time": "2020-05-13",
           "label": "2023110"
@@ -4387,7 +4387,7 @@
           "mentor": "李想",
           "contact": "lixiang@rt-thread.com",
           "co-mentor": "郭占鑫 guozhanxin@rt-thread.com",
-          "student_count": 1,
+          "student_count": 2,
           "description": "RT-Thread 操作系统实现了 USB 基础协议栈,为 USB 摄像头的数据传输提供了基础的支持,双目拍摄系统拍摄同一场景的左、右两幅视点图像,并结合算法将左右图像进行合并。RT-Thread 和双目拍摄二者结合之后可以应用于各种视觉领域。",
           "update_time": "2020-05-13",
           "label": "2023116"
@@ -4648,7 +4648,7 @@
           "mentor": "桑树多",
           "contact": "sdsang@taosdata.com",
           "co-mentor": "",
-          "student_count": 1,
+          "student_count": 2,
           "description": "使用 Python 针对时序数据库 TDengine 开发自动化测试方法。",
           "update_time": "2020-05-20",
           "label": "2026179"
@@ -4659,7 +4659,7 @@
           "mentor": "刘涛",
           "contact": "tliu@taosdata.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "description": "使用开源的时序数据库对比测试程序针对框架开发写入和查询的适配，并进行多个时序数据库的对比测试",
           "update_time": "2020-05-21",
           "label": "2026180"
@@ -4764,7 +4764,7 @@
           "mentor": "党凡",
           "contact": "dangfan@tsinghua.edu.cn",
           "co-mentor": "Zamir Sum，zsun@fedoraproject.org",
-          "student_count": 0,
+          "student_count": 1,
           "description": "以 YubiKey 为代表的密钥存储设备深受 geek 们的喜爱，而相关的密码技术也在开源社区中得到了广泛应用（如 GnuPG）。由于 YubiKey 不开源，近年来，开源社区中陆续诞生了一些开源的硬件密钥设备，例如 SoloKey、CanoKey。作为一个新兴的开源硬件密钥设备，CanoKey 提供了与 YubiKey 一致的FIDO2/U2F、PIV、OpenPGP 和 OATH（HOTP、TOTP）的支持。为了向大众普及和推广密码学工具，CanoKey 还提供了 WebUSB 支持，可以在浏览器中直接使用密码学工具。现在，这些工具的开发还处于起步阶段，需要社区支持，让密码学工具变得更加易用。",
           "update_time": "2020-05-18",
           "label": "2027294"
@@ -4797,7 +4797,7 @@
           "mentor": "续本达",
           "contact": "heroxbd@gentoo.org",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "description": "SCIM 历史悠久的输入法框架，早期为 GNU/Linux 系统的中文本土化立下了汗马功劳，然而近年来 SCIM 的开发团队已经不再活跃，开发停滞，项目处于维护状态。当前 SCIM 依旧可以在各大发行版上顺畅使用，唯一缺失的功能是对 Qt5 的支持。本项目计划把 SCIM 移植到 Qt5。",
           "update_time": "2020-05-18",
           "label": "2027127"
@@ -4808,7 +4808,7 @@
           "mentor": "Aron Xu",
           "contact": "aron@debian.org",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 2,
           "description": "xgboost （梯度提升），prophet （时间序列预测）以及 Stan （高性能统计建模），pytorch （深度学习）等是重要的数据科学软件。Debian 作为用户基数庞大的 Linux 发行版之一，用户群中不乏数据科学用户群体，而上述软件尚未集成到该系统中，或者缺乏一部分计算性能相关的依赖库。为帮助用户获得更佳使用体验，方便安装及部署，该项目旨在为 Debian 官方仓库引入这些软件及其对应的依赖库，并将仓库中已有的依赖更新到理想状态。",
           "update_time": "2020-05-18",
           "label": "2027129"
@@ -4830,7 +4830,7 @@
           "mentor": "续本达",
           "contact": "heroxbd@gentoo.org",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "description": "在 Gentoo 上使用 PyPI 包一种做法是先把 PyPI 的软件打包成 Gentoo 的 ebuild，其缺点是更新需要由人工完成，效率较低。另一种做法是使用 PyPI 的 pip 来绕过 Gentoo 的包管理系统 portage 直接安装，其缺点是容易与 portage 冲突，导致 Python 子系统的混乱。本项目计划采两家之长，通过一个 PyPI ebuild 生成器自动生成一个 PyPI 的 portage overlay，为 Gentoo 用户提供最新 Python 软件仓库。项目可以借鉴现已无人维护的 gs-pypi 代码。",
           "update_time": "2020-05-18",
           "label": "2027131"
@@ -5022,7 +5022,7 @@
           "mentor": "Zhonghu Xu",
           "contact": "zhhxu2011@163.com",
           "co-mentor": "",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-28",
           "label": "2030403"
         },
@@ -5171,7 +5171,7 @@
           "mentor": "丁小雨",
           "contact": "614422099@qq.com",
           "co-mentor": "丁超飞<dchaofei@163.com> 李博杰<silkage@silkage.net>",
-          "student_count": 0,
+          "student_count": 2,
           "update_time": "2020-05-29",
           "label": "2044413"
         },
@@ -5182,7 +5182,7 @@
           "mentor": "吴京京",
           "contact": "1435130236@qq.com",
           "co-mentor": "",
-          "student_count": 2,
+          "student_count": 4,
           "update_time": "2020-05-29",
           "label": "2044410"
         },
@@ -5204,7 +5204,7 @@
           "mentor": "gcaufy",
           "contact": "gcaufy@gmail.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 2,
           "update_time": "2020-05-29",
           "label": "2044422"
         }
