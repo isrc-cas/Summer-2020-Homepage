@@ -250,7 +250,7 @@ export default class Index extends React.Component{
                                     <span className="indexHomeOneListenItemTextButton">观看回放</span>
                                 </div>
                                 <div className="indexHomeOneListenItem"  onClick={()=>{this.goLink('liveshow')}}>
-                                    <span className="indexHomeOneListenItemText">6.20  大咖说开源讲座 如何做一个专业的开源玩家</span>
+                                    <span className="indexHomeOneListenItemText">6.20  大咖说开源讲座 Linux从入门到深入内核有多远</span>
                                     <span className="indexHomeOneListenItemTextButton">了解更多</span>
                                 </div>
                                 
@@ -260,7 +260,7 @@ export default class Index extends React.Component{
 
                             </div>
                     </div>
-                    {/* <div className="indexHomeOneBanner indexHomeOneBannerThree">
+                    <div className="indexHomeOneBanner indexHomeOneBannerThree">
                         <div className="indexHomeThreeBanner content1200">
                             <div className="indexHomeThreeBannerTitle"></div>
                             <div className="indexHomeThreeBannerTime">6.3-6.5/已结束</div>
@@ -274,8 +274,8 @@ export default class Index extends React.Component{
                             <div className="indexHomeThreeBannerTextCommittee">为大家全方位解读活动细则，深入剖析开源社区及项目。在线问答，解疑释惑！</div>
                             <div className="indexHomeThreeBannerButton" onClick={()=>{this.goLogoLink('https://space.bilibili.com/578074510/channel/detail?cid=132789')}}>观看回放</div>
                         </div>
-                    </div> */}
-                   {/* <div className="indexHomeOneBanner indexHomeOneBannerTwo">
+                    </div>
+                   <div className="indexHomeOneBanner indexHomeOneBannerTwo">
                             <div className="indexHomeTwoWrapper content1200">                            
                                 <div className="indexHomeOneDakaTitle"></div>
                                 <div className="indexHomeOneDakaCompany">
@@ -302,7 +302,7 @@ export default class Index extends React.Component{
                            
 
                             </div>
-                    </div> */}
+                    </div>
                    
                      </Carousel>
 
