@@ -1,6 +1,6 @@
 {
   "LICENSE": "Mulan PSL v2",
-  "max": 10,
+  "max": 12,
   "min": 1,
   "orgList": [
     {
@@ -38,7 +38,7 @@
           "difficulty": "高",
           "mentor": "Dingyuan Wang",
           "contact": "gumblex@aosc.io",
-          "student_count": 0,
+          "student_count": 1,
           "description": "社区主要项目 AOSC OS 的一部分构建过程仍然依赖手工操作。即使大部分繁杂的工作已经能为数个社区项目很好地完成，AOSC OS 仍然面临着社区人手严重不足而带来的更新速度不足及潜在质量缺陷问题。于是我们希望建立一套切合社区实际情况的，能将发行版构建 95% 的操作自动化的基础设施来解决上述问题，以求 AOSC OS 的可持续发展。目前分布式打包方案中包括构建机、调度器、软件包仓库管理和触发器四个部分，其中构建机和调度器是最重要的部分。本项目为编写一套功能较为完整的软件包构建调度器，以实现像 BOINC 分布式科学计算那样，自动分配打包任务、回收二进制软件包和打包时的日志和统计信息。调度器的调度模型、依赖解析已经实现，需要设计并实现的是接口和管理功能。",
           "update_time": "2020-05-27",
           "label": "2007255"
@@ -69,7 +69,7 @@
           "mentor": "白铭骢",
           "contact": "jeffbai@aosc.io",
           "co-mentor": "刘子兴 <liushuyu@aosc.io>",
-          "student_count": 1,
+          "student_count": 4,
           "description": "当前我国国内有相当数量的 Linux 及各大开源或自由软件 (F/OSS) 使用者，但在使用过程中，用户们不难发现，各种软件的简中翻译及本地化质量参差不齐，错漏繁多。尤其主流桌面环境如 GNOME 及 KDE 简中翻译率并不理想；而又有一些如 NetSurf 的知名开源项目则完全没有翻译。该项目的主要目的是改善当前本地化质量及覆盖率。",
           "update_time": "2020-05-13",
           "label": "2007040"
@@ -90,7 +90,7 @@
           "difficulty": "低",
           "mentor": "张顺然 Staph. aureus",
           "contact": "staph@aosc.io",
-          "student_count": 0,
+          "student_count": 1,
           "description": "软件包更新在现代社会已经不再是什么稀奇事。每天，无数软件包获得更新，有些是修复漏洞，有些是增加功能，还有些是性能优化等等。然而，并不是每一个软件包都有充分通过回归测试（Regression test），而有些更新则是主动放弃对于旧硬体的支援。由于系统的软件包仓库亦为业余爱好者维护，打包者的技术、使用的平台与配置等等亦可能导致部分软件包更新后损坏。作为一个由历史专家带领的专业考古社区，我们提供了大量的软件包供各种不同时代与架构的硬体使用。以往，为了保证大家可以方便的切换各个版本的软件包，大量的老包被留在了系统的软件源中。再加上 AOSC 支援的架构数量在某段时间的爆发，于 2017 年时，我们的软件包仓库达到了惊人的数十 GiB 。庞大的体积对于我们自身以及各种收录了我们的开源镜像站均造成了压力。我们因此启动了Anthon Optical Storage Center (AOSC Archive) 项目，将过去的软件包从软件源中移除并收录进入 Blu-ray Disc 进行冷储存。然而使用冷储存造成的不便亦是显而易见的。如果出于各种原因，我们需要取回一个软件包进行测试，那么将会需要比较费事的人工寻找目录并取回对应光盘。另外，冷储存的成本亦是比较高的。在近期的一次检查时，我们发现有约 1%-5% 的包可能由于各种原因，在收录进入 BD 时出现了重复收录的情况。这些重复收录的包既提高了维护成本，又不具有价值。同样，整理需要取回的软件包目前也是一个非常耗费人力的工作。每次退休包时，需要寻找每个架构中有收到更新的包，并移除老包。需要把这些包适当分类并分卷放好，以便于未来取回时不需要跨越多张光盘。这一个项目就是为了解决该问题而产生的。我们希望这个系统：可以较为方便的将软件包退休，并且避免不小心移除不应当被移除的软件包; 可以提供检查重复的功能，以避免将一个软件包重复退休多次，白白占用资源; 可以提供一个软件包搜寻功能，可以方便的告知用户，需要的软件包有哪些版本，分别位于哪些光盘中；可以在未来用在许多发行版上，让每个发行版都可以留下过去的软件包，在未来给大家的老机器使用。另外，我们还希望这个系统可以快速提供一个「最小软件仓库」，仅包含最新版本的软件包，占用最少的空间。",
           "update_time": "2020-05-18",
           "label": "2007042"
@@ -178,7 +178,7 @@
           "difficulty": "中",
           "mentor": "琚致远",
           "contact": "juzhiyuan@apache.org",
-          "student_count": 0,
+          "student_count": 1,
           "description": "增加 commit message checker，以规范贡献者 commit 格式。",
           "update_time": "2020-05-19",
           "label": "2001141"
@@ -188,7 +188,7 @@
           "difficulty": "低",
           "mentor": "琚致远",
           "contact": "juzhiyuan@apache.org",
-          "student_count": 3,
+          "student_count": 5,
           "description": "翻译以下页面为指定语言： 下载页 为 中文； 2FA 为 中文； 安全指南 为 中文； 贡献者指南 为 中文； 发布指南 为 英文；",
           "update_time": "2020-05-27",
           "label": "2001250"
@@ -232,7 +232,7 @@
           "difficulty": "低",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "student_count": 1,
+          "student_count": 2,
           "description": "提供后端接口。在任务节点中新增“延时等待”的属性，支持任务在开始后一段时间内等待前置任务完成。针对调度（任务）执行时，前置依赖没有就绪的情况下，当前任务等待一段时间，在等待时间内，如前置任务就绪，则开始执行当前任务。",
           "update_time": "2020-05-27",
           "label": "2002005"
@@ -252,7 +252,7 @@
           "difficulty": "低",
           "mentor": "Gabry.wu",
           "contact": "wu_shao_jie@qq.com",
-          "student_count": 1,
+          "student_count": 4,
           "description": "提供后端接口。查询一定时间范围内执行时间最长的 TOP N 任务实例。",
           "update_time": "2020-05-30",
           "label": "2002415"
@@ -303,7 +303,7 @@
           "difficulty": "中",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-16",
           "label": "2002008"
         },
@@ -323,7 +323,7 @@
           "difficulty": "中",
           "mentor": "Jave-Chen",
           "contact": "kejia.chen@foxmail.com",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-16",
           "label": "2002010"
         },
@@ -464,7 +464,7 @@
           "difficulty": "中",
           "mentor": "Xiaolong Ran (冉小龙)",
           "contact": "rxl@apache.org",
-          "student_count": 0,
+          "student_count": 2,
           "update_time": "2020-05-18",
           "label": "2003022"
         }
@@ -530,7 +530,7 @@
           "difficulty": "中",
           "mentor": "姜宁",
           "contact": "ningjiang@apache.org",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2037305"
         }
@@ -564,7 +564,7 @@
           "difficulty": "中",
           "mentor": "张亮",
           "contact": "zhangliang@apache.org",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-13",
           "label": "2004023"
         },
@@ -604,7 +604,7 @@
           "difficulty": "中",
           "mentor": "秦金卫",
           "contact": "kimmking@apache.org",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-19",
           "label": "2004145"
         }
@@ -819,7 +819,7 @@
           "difficulty": "高",
           "mentor": "罗杨 (hsluoyz)",
           "contact": "hsluoyz@gmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Casbin采用独特的PERM模型语法（model）来实现强大、灵活的访问控制。Casbin Golang版本作为Casbin的第一个语言实现，拥有最多的用户以及最先进的feature。我们希望在Casbin Golang上：1）增强Casbin语法的表达能力，满足用户多样化的策略制定需求；2）优化Casbin在大规模规则集上（百万以上）的策略评估性能。这两个目标是Casbin的核心竞争力，对于其他Casbin语言的实现也会起到非常重要的借鉴意义。",
           "update_time": "2020-05-17",
           "label": "2008043"
@@ -879,7 +879,7 @@
           "difficulty": "中",
           "mentor": "techoner",
           "contact": "techqiang@gmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "PyCasbin 是Casbin的Python版实现，功能和 Casbin（Golang）基本一致。目前，PyCasbin实现了Casbin的主要功能，但还有少许功能尚未实现，另外代码质量还有调优的可能，PyCasbin对周边框架的支持不够完善，所以我们希望对PyCasibn进行完善和优化，同时需要对PyCasin的生态予以完善。",
           "update_time": "2020-05-28",
           "label": "2008308"
@@ -929,7 +929,7 @@
           "difficulty": "高",
           "mentor": "张合龙 (BetaCat0)",
           "contact": "outman99@hotmail.com",
-          "student_count": 0,
+          "student_count": 2,
           "description": "随着云原生技术的普及，Kubernetes 已成为云原生的基石，依赖 Kubernetes 构建一个分布式、可管理多种应用的权限策略的访问控制应用。",
           "update_time": "2020-05-29",
           "label": "2008417"
@@ -978,7 +978,7 @@
           "difficulty": "中",
           "mentor": "曹言虎",
           "contact": "tiger@ceph.org.cn",
-          "student_count": 2,
+          "student_count": 3,
           "description": "Ceph是目前业界最火的开源项目之一，对外可以提供统一的块、文件、对象存储接口，由于存储的专业性和门槛，本项目主要致力于帮助学生能够快速参与社区，主要是修复一些社区的Bug（难易/紧急程度依次递增）。",
           "update_time": "2020-05-27",
           "label": "2009257"
@@ -1094,7 +1094,7 @@
           "difficulty": "高",
           "mentor": "Chengyu Liu",
           "contact": "liuchengyu@jd.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2040320"
         },
@@ -1104,7 +1104,7 @@
           "difficulty": "高",
           "mentor": "Xihao Xu",
           "contact": "xxscott@163.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2040321"
         },
@@ -1124,7 +1124,7 @@
           "difficulty": "高",
           "mentor": "Chengyu Liu",
           "contact": "liuchengyu@jd.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2040323"
         }
@@ -1422,7 +1422,7 @@
           "difficulty": "高",
           "mentor": "Tang Zhilong",
           "contact": "tangzhilong@trinity-tech.io",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Elastos DID 是Elastos生态中去中心化的ID身份系统，完全兼容W3C DID/可验证凭证标准，目前Elastos DID在客户端侧SDK已经支持以下特性： 创建去中心化的DID身份； DID身份对应的DID文档发布/更新到DID侧链； 本地DID文档以及私钥管理； 可验证凭证/呈现等接口. 同时Elastos DID 提供已Java/Swift/Native等SDK版本供开发者选择使用。此外，Elatos Trinity平台（即elatOS平台）也提供类似接口的typescript（javascript）的接口。 欢迎社区开发者实现基于任一浏览器（比如Safari/Chrome/Opera等）的Elastos DID服务插件，用户能够通过该DID 服务插件授权Elastos DID身份登录Elastos 应用。",
           "update_time": "2020-05-27",
           "label": "2011264"
@@ -1442,7 +1442,7 @@
           "difficulty": "高",
           "mentor": "Tang Zhilong",
           "contact": "tangzhilong@trinity-tech.io",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Hyper connect是基于Elastos Carrier去中心化通信平台之上的端对端的IoT（物联网）的解决方案，目前已经提供比较完整的APIs开发文档，同时已有主流语言版本支持。欢迎社区开发者基于Hyper Connect的IoT 框架之上，根据具体的场景需求设计相关的有创意的应用，比如门锁，家具电器控制等。",
           "update_time": "2020-05-27",
           "label": "2011266"
@@ -1568,7 +1568,7 @@
           "difficulty": "高",
           "mentor": "Matthew Zeng",
           "contact": "matthewzmd@gmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Make Qt’s QGraphicsSence technology support MacOS; Replace QWindow::setParent with MacOS native cross-process reparent API.",
           "update_time": "2020-05-19",
           "label": "2012147"
@@ -1842,7 +1842,7 @@
           "mentor": "王城",
           "contact": "wangcheng@holdiot.com",
           "co-mentor": "",
-          "student_count": 5,
+          "student_count": 7,
           "update_time": "2020-05-27",
           "label": "2032298"
         },
@@ -1864,7 +1864,7 @@
           "mentor": "庄圣恩",
           "contact": "zhuangxxchn@163.com",
           "co-mentor": "",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-27",
           "label": "2032300"
         },
@@ -1875,7 +1875,7 @@
           "mentor": "庄圣恩",
           "contact": "zhuangxxchn@163.com",
           "co-mentor": "",
-          "student_count": 10,
+          "student_count": 12,
           "update_time": "2020-05-27",
           "label": "2032335"
         }
@@ -1930,7 +1930,7 @@
           "mentor": "赵生宇",
           "contact": "frank_zsy@hypertrons.io",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Hypertrons 作为一个跨平台的 RPA 平台，在提供跨平台交互能力的同时，为了能更好的做出决策，也采集了各平台的开放数据作为决策基础。而这些数据同时也为社区的数字化运营分析提供了有效的支撑，我们不希望深度改变用户的使用习惯，故发起一个浏览器插件项目，通过在特定网址的网页中插入迷你看板的方式为开放组织提供有效的监控和运营手段，这个项目是 Hypertrons 一大创新，也是重要的一部分。",
           "update_time": "2020-05-25",
           "label": "2035199"
@@ -1994,7 +1994,7 @@
           "difficulty": "中",
           "mentor": "陈亚云",
           "contact": "563880696@qq.com",
-          "student_count": 2,
+          "student_count": 5,
           "description": "在分类问题中，分类的目的是从一系列数据中选择出一个分类（如，给出一张包含苹果或橘子的图片，识别出图片中是哪种水果）。本项目采用心血管疾病数据集，数据集提供11个特征值和1个目标值，包含70000个患者记录数据。通过构建一个算法模型，来预测样本是否患有心血管疾病。本实训主要介绍如何实现“心血管疾病预测模型”的开发，通过该实训项目，可以使实训受众了解预测模型的开发。",
           "update_time": "2020-05-20",
           "label": "2033168"
@@ -2107,7 +2107,7 @@
           "mentor": "陈莉君",
           "contact": "cljcore@126.com",
           "co-mentor": "",
-          "student_count": 1,
+          "student_count": 4,
           "update_time": "2020-05-29",
           "label": "2014340"
         }
@@ -2164,7 +2164,7 @@
           "mentor": "李滨",
           "contact": "libin11@xiaomi.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "description": "MACE支持了Tensorflow的1.x版本训练的模型的推理，MACE开发了一个Tensorflow1.x模型到MACE专有模型的转换器。本项目的内容为，参考Tensorflow1.x模型到MACE专有模型的转换器代码，开发一个Tensorflow2.0模型到MACE专有模型的转换器。",
           "update_time": "2020-05-18",
           "label": "2015078"
@@ -2278,7 +2278,7 @@
           "difficulty": "高",
           "mentor": "陈远昭",
           "contact": "chenyuanzhao@megvii.com",
-          "student_count": 2,
+          "student_count": 3,
           "update_time": "2020-05-20",
           "label": "2025171"
         },
@@ -2288,7 +2288,7 @@
           "difficulty": "中",
           "mentor": "胡焜",
           "contact": "hukun@megvii.com",
-          "student_count": 2,
+          "student_count": 3,
           "update_time": "2020-05-20",
           "label": "2025172"
         },
@@ -2298,7 +2298,7 @@
           "difficulty": "中",
           "mentor": "周亦庄",
           "contact": "zhouyizhuang@megvii.com",
-          "student_count": 6,
+          "student_count": 7,
           "update_time": "2020-05-20",
           "label": "2025173"
         },
@@ -2453,7 +2453,7 @@
           "difficulty": "高",
           "mentor": "王翔宇",
           "contact": "xy.wang@zilliz.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "FAISS IVF GPU 算法运行时所需要的显存与 NQ／nprobe 成正比，但 GPU 上的显存有限，因此当 NQ／nprobe 很大时，会出现 Out Of Memory。 本项目的目的是优化该算法，减小 GPU 显存使用量。",
           "update_time": "2020-05-18",
           "label": "2018090"
@@ -2484,7 +2484,7 @@
           "mentor": "王俊",
           "contact": "wangjun289@huawei.com",
           "co-mentor": "",
-          "student_count": 5,
+          "student_count": 7,
           "description": "MindSpore是华为自研的深度学习框架，采用基于源码转换的自动微分，支持自动并行、深度图优化。MindSpore原生支持昇腾芯片，针对昇腾芯片架构特点，采用Pipeline并行、整图下沉等功能，可以达到很高的执行性能。目前MindSpore还处于发展阶段，本项目向大家介绍MindSpore特性及API使用，希望大家基于MindSpore进行深度学习算法开发，完成某项指定挑战。",
           "update_time": "2020-05-21",
           "label": "2017181"
@@ -2575,7 +2575,7 @@
           "mentor": "魏永明",
           "contact": "summer2020@minigui.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 2,
           "update_time": "2020-05-26",
           "label": "2038248"
         }
@@ -2625,7 +2625,7 @@
           "mentor": "mgt/Enter-tainer",
           "contact": "mgt@oi-wiki.org",
           "co-mentor": "diauweb diauweb@live.com",
-          "student_count": 1,
+          "student_count": 2,
           "description": "当前,OI Wiki 使用 mkdocs 作为静态页面生成引擎。然而由于 mkdocs 并非专门为 Wiki 类项目设计,因而与我们的需求存在较大差距,此外还难以实现对语法和页面的定制。因此,目前 OI Wiki 正在将前端迁移到基于 React 和 GraphQL 的页面生成框架 Gatsby 上,从而实现对页面的深度定制。目前,我们已经实现了基本的框架代码（见下面的仓库）。然而它还不尽完善,我们希望为它添加更多的功能,覆盖用户的需求。",
           "update_time": "2020-05-13",
           "label": "2019092"
@@ -2656,7 +2656,7 @@
           "mentor": "Marcythm",
           "contact": "marcythm@gmail.com",
           "co-mentor": "ksyx ksyxmeow@outlook.com",
-          "student_count": 2,
+          "student_count": 3,
           "description": "在 wiki 的编写过程中需要参考大量的外界资料以使得 wiki 质量更高、更为完善及更易读。本项目主要工作内容为参考、翻译外文资料并将其融入 OI Wiki 现有内容中。",
           "update_time": "2020-05-19",
           "label": "2019162"
@@ -2678,7 +2678,7 @@
           "mentor": "Marcythm",
           "contact": "marcythm@gmail.com",
           "co-mentor": "hi@oi-wiki.org",
-          "student_count": 2,
+          "student_count": 3,
           "description": "OI Wiki 上收录了大量优质的算法内容，但是仍有相当多的页面在语言表述上较为随意，会对大家学习体验与效果产生一定的影响。本项目希望能将 OI Wiki 上现有的内容按照格式要求进行合理的编修、调整格式、清理、校订。",
           "update_time": "2020-05-19",
           "label": "2019164"
@@ -2723,7 +2723,7 @@
           "difficulty": "中",
           "mentor": "Satya Mallick",
           "contact": "admin@opencv.org.cn",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Nuget is the standard Microsoft package manager. If done properly, it can become the most convenient way to install OpenCV on Windows. We can also create opencv_contrib nuget package, and thus provide a convenient way for OpenCV users to install experimental OpenCV functionality on Windows.",
           "update_time": "2020-05-14",
           "label": "2020096"
@@ -2733,7 +2733,7 @@
           "difficulty": "中",
           "mentor": "Intel OpenCV team member",
           "contact": "admin@opencv.org.cn",
-          "student_count": 0,
+          "student_count": 1,
           "description": "At the moment, OpenCV can works with inference deep neural network with help DNN module. But DNN module has limitation, it work with only images. In addition, exist much network which work with audio. That why proposed support audio input/output in OpenCV for extension functionality of library and more specifically extension functionality of DNN module.",
           "update_time": "2020-05-14",
           "label": "2020097"
@@ -2753,7 +2753,7 @@
           "difficulty": "高",
           "mentor": "Intel OpenCV team member",
           "contact": "admin@opencv.org.cn",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Deep learning networks are hungry for data and data augmentation is one of the easiest ways to increase data variation. Augmentation could be as simple image flipping, cropping and scaling on up to more complicated transformations such style transfer using another deep learning network. For computer vision problems, OpenCV is often used for reading images in most of training scenarios, so why we’d like to enhance data reading with simple to use data augmentation techniques as well.",
           "update_time": "2020-05-14",
           "label": "2020099"
@@ -2832,7 +2832,7 @@
           "difficulty": "中",
           "mentor": "@woqidaideshi",
           "contact": "yafen@iscas.ac.cn",
-          "student_count": 1,
+          "student_count": 2,
           "description": "树莓派（英语：Raspberry Pi）是基于 Linux 的单片机电脑，目的是以低价硬件及自由软件促进学校的基本计算机科学教育。树莓派需要刷写文件系统镜像来实现启动，镜像文件常常都较大，不利于快速分发和安装。本项目目标是为制作压缩前小于 500 MiB 的 openEuler 树莓派 4B 镜像，并能够通过 DNF 或 YUM等安装软件源中更多的软件进来。镜像尽可能小。",
           "update_time": "2020-05-18",
           "label": "2021101"
@@ -2885,7 +2885,7 @@
           "mentor": "@lifeng2221dd1",
           "contact": "lifeng68@huawei.com",
           "co-mentor": "",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-26",
           "label": "2021203"
         },
@@ -3215,7 +3215,7 @@
           "mentor": "@Charlie_Li",
           "contact": "liyongqiang329@163.com",
           "co-mentor": "@lemon.higgins lemon.higgins@aliyun.com",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-26",
           "label": "2021233"
         },
@@ -3391,7 +3391,7 @@
           "mentor": "@Zhongjun2",
           "contact": "jun.zhongjun@huawei.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-27",
           "label": "2021278"
         },
@@ -3534,7 +3534,7 @@
           "mentor": "panny060",
           "contact": "pannengyuan@huawei.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-27",
           "label": "2021291"
         },
@@ -3600,7 +3600,7 @@
           "mentor": "@mabingo",
           "contact": "mabin@apache.org",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2021345"
         },
@@ -3622,7 +3622,7 @@
           "mentor": "@surechen",
           "contact": "814464284@qq.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2021347"
         },
@@ -3633,7 +3633,7 @@
           "mentor": "@iotwins",
           "contact": "fangchunlin@huawei.com, 834352945@qq.com",
           "co-mentor": "",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-29",
           "label": "2021348"
         },
@@ -3666,7 +3666,7 @@
           "mentor": "周中元",
           "contact": "zhouzhongyuan96@gmail.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2021351"
         },
@@ -3765,7 +3765,7 @@
           "mentor": "@pwang7",
           "contact": "pwang7@foxmail.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2021360"
         },
@@ -4127,7 +4127,7 @@
           "mentor": "王润基",
           "contact": "wangrunji0408@163.com",
           "co-mentor": "潘庆霖 panqinglin00@163.com",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-29",
           "label": "2043388"
         },
@@ -4216,7 +4216,7 @@
           "mentor": "Steve Macenski",
           "contact": "stevenmacenski@gmail.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 2,
           "update_time": "2020-05-29",
           "label": "2036393"
         },
@@ -4260,7 +4260,7 @@
           "mentor": "Steve Macenski",
           "contact": "stevenmacenski@gmail.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2036397"
         },
@@ -4311,7 +4311,7 @@
           "mentor": "杨武",
           "contact": "yangwu@rt-thread.com",
           "co-mentor": "赵辅金,zhaofujin@rt-thread.com",
-          "student_count": 2,
+          "student_count": 3,
           "description": "树莓派4提供了1.5GHz的4核A72 ARM处理器,同时还包括WiFi/BT,千兆以太网,双HDMI输出,CSI接口camera等。 树莓派4提供了一个理想的嵌入式AI平台,可用于各种AI应用场景。",
           "update_time": "2020-05-13",
           "label": "2023109"
@@ -4432,7 +4432,7 @@
           "difficulty": "中",
           "mentor": "MRNIU",
           "contact": "Zone.niuzh@hotmail.com",
-          "student_count": 0,
+          "student_count": 1,
           "description": "现有的内存管理代码可谓千疮百孔,难以说是一个能够作为示例的代码,我们需要你在现有方案的基础上对代码进行重写,使用经典算法如 first-fit,buddy 重新实现内存管理系统。",
           "update_time": "2020-05-14",
           "label": "2022105"
@@ -4442,7 +4442,7 @@
           "difficulty": "高",
           "mentor": "MRNIU",
           "contact": " Zone.niuzh@hotmail.com",
-          "student_count": 1,
+          "student_count": 2,
           "description": "多任务是内核不可或缺的部分,但现在我们的代码还很简陋。现有代码是对 linux 内核实现的魔改,还不能够正常使用。",
           "update_time": "2020-05-14",
           "label": "2022106"
@@ -4586,7 +4586,7 @@
           "mentor": "@pingwuu",
           "contact": "ping.wu@tinylab.org",
           "co-mentor": "@wuzhangjin, falcon@tinylab.org",
-          "student_count": 0,
+          "student_count": 1,
           "description": "Linux Lab 是一个 Linux 内核实验环境,当前已支持 Linux、Buildroot、Uboot 和 Qemu 四大核心软件,但是当前软件支持的耦合度非常高。本项需求旨在解耦,把各个软件的支持拆解到独立的软件支持文件中,增加可扩展性,从而方便进一步导入其他软件实验功能。",
           "update_time": "2020-05-13",
           "label": "2024119"
@@ -5033,7 +5033,7 @@
           "mentor": "Mada",
           "contact": "klaus1982.cn@gmail.com",
           "co-mentor": "",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-28",
           "label": "2030404"
         },
@@ -5055,7 +5055,7 @@
           "mentor": "Zhonghu Xu",
           "contact": "zhhxu2011@163.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-28",
           "label": "2030406"
         }
@@ -5105,7 +5105,7 @@
           "mentor": "高原",
           "contact": "gaoyuan@juzi.bot",
           "co-mentor": "李佳芮 rui@juzi.bot",
-          "student_count": 1,
+          "student_count": 2,
           "update_time": "2020-05-29",
           "label": "2044423"
         },
@@ -5116,7 +5116,7 @@
           "mentor": "高原",
           "contact": "gaoyuan@juzi.bot",
           "co-mentor": "李佳芮 rui@juzi.bot",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2044424"
         },
@@ -5127,7 +5127,7 @@
           "mentor": "尹伯昊",
           "contact": "yinbohao@juzi.bot",
           "co-mentor": "王凯峰",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2044425"
         },
@@ -5138,7 +5138,7 @@
           "mentor": "尹伯昊",
           "contact": "yinbohao@juzi.bot",
           "co-mentor": "王凯峰",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2044426"
         },
@@ -5149,7 +5149,7 @@
           "mentor": "刁政欣",
           "contact": "diaozxin@gmail.com",
           "co-mentor": "",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2044408"
         },
@@ -5160,7 +5160,7 @@
           "mentor": "丁小雨",
           "contact": "614422099@qq.com",
           "co-mentor": "丁超飞<dchaofei@163.com> 李博杰<silkage@silkage.net>",
-          "student_count": 0,
+          "student_count": 1,
           "update_time": "2020-05-29",
           "label": "2044412"
         },
@@ -5182,7 +5182,7 @@
           "mentor": "吴京京",
           "contact": "1435130236@qq.com",
           "co-mentor": "",
-          "student_count": 4,
+          "student_count": 6,
           "update_time": "2020-05-29",
           "label": "2044410"
         },
@@ -5204,7 +5204,7 @@
           "mentor": "gcaufy",
           "contact": "gcaufy@gmail.com",
           "co-mentor": "",
-          "student_count": 2,
+          "student_count": 5,
           "update_time": "2020-05-29",
           "label": "2044422"
         }
