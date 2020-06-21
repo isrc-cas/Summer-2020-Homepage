@@ -113,7 +113,7 @@ var data = {
             ],  
             "speechcontent":"",
             "ppt":"",
-            "url":"#",
+            "url":"https://www.bilibili.com/video/BV1MC4y1Y78J",
         },
       
         {         
