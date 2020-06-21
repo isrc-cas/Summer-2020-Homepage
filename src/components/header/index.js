@@ -101,7 +101,7 @@ export default class Header extends React.Component{
                                 <NavLink key={index} to={'/'+item.title} >
                                     <div  
                                             
-                                            className={["osscListItem",this.state.pageflag===item.title?'left0':'',item.title==="started"?"header-highlight":""].join(" ")}>
+                                            className={["osscListItem",this.state.pageflag===item.title?'left0':''].join(" ")}>
                                         
                                                 <span> {item.name} </span>
                                         
