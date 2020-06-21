@@ -244,20 +244,22 @@ export default class Index extends React.Component{
                                 <div className="indexHomeOneTextWrapper">
                                    
                                     开源软件供应链点亮计划鼓励大家关注开源软件和开源社区，发掘和培养更多优秀的开发者。
-                                    现项目申请已在6.20结束，我们将在 <span className="blue">6.30</span>公布中选结果
+                                    现项目申请已在6月20日结束，我们将在 <span className="blue">6月30日</span>公布中选结果
                                 </div>
                               
-                                <div className="indexHomeOneListenItem" onClick={()=>{this.goLink('organisations?page=project')}}>
-                                    <span className="indexHomeOneListenItemText">6.1  全国高校项目申请正式启动</span>
-                                    <span className="indexHomeOneListenItemTextButton">浏览项目</span>
-                                </div>
+                               
                                 <div className="indexHomeOneListenItem " onClick={()=>{this.goLogoLink('https://space.bilibili.com/578074510/channel/detail?cid=132789')}}>
-                                    <span className="indexHomeOneListenItemText">6.3-6.5 暑期2020-活动宣讲直播</span>
+                                    <span className="indexHomeOneListenItemText">6月3日-6月5日 暑期2020-活动宣讲直播</span>
                                     <span className="indexHomeOneListenItemTextButton">观看回放</span>
                                 </div>
+                               
                                 <div className="indexHomeOneListenItem fire"  onClick={()=>{this.goLink('liveshow')}}>
-                                    <span className="indexHomeOneListenItemText">6.27  开源软件的历史和法律风险</span>
+                                    <span className="indexHomeOneListenItemText">6月27日  开源软件的历史和法律风险</span>
                                     <span className="indexHomeOneListenItemTextButton">了解更多</span>
+                                </div>
+                                <div className="indexHomeOneListenItem" onClick={()=>{this.goLink('started')}}>
+                                    <span className="indexHomeOneListenItemText">6月30日  项目申请公布中选结果 敬请关注</span>
+                                    <span className="indexHomeOneListenItemTextButton">活动进程</span>
                                 </div>
                                 
                               
