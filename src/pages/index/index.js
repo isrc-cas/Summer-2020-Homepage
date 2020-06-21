@@ -57,6 +57,7 @@ export default class Index extends React.Component{
             movNumber = Number(movNumber) - Number(widthItem) ;
                
         }
+        console.log(movNumber)
         if(Number(movNumber) === 0){
             this.setState({
                 buttonLeft:false
@@ -250,7 +251,7 @@ export default class Index extends React.Component{
                                     <span className="indexHomeOneListenItemTextButton">观看回放</span>
                                 </div>
                                 <div className="indexHomeOneListenItem"  onClick={()=>{this.goLink('liveshow')}}>
-                                    <span className="indexHomeOneListenItemText">6.20  大咖说开源讲座 Linux从入门到深入内核有多远</span>
+                                    <span className="indexHomeOneListenItemText">6.27  开源软件的历史和法律风险</span>
                                     <span className="indexHomeOneListenItemTextButton">了解更多</span>
                                 </div>
                                 
@@ -351,12 +352,12 @@ export default class Index extends React.Component{
                        <div className="indexHomeLiveTitle">
                        “大咖说开源” 系列直播讲座
                        </div>
-                       <div 
+                       {/* <div 
                             onClick={()=>{this.move("left")}}
                             className={["indexHomeLiveListContentButtonLeft",this.state.buttonLeft?'':'displaynone'].join(" ")}></div>
                         <div 
                             onClick={()=>{this.move("right")}}
-                            className={["indexHomeLiveListContentButtonRight",this.state.buttonRight?'':'displaynone'].join(" ")}></div>
+                            className={["indexHomeLiveListContentButtonRight",this.state.buttonRight?'':'displaynone'].join(" ")}></div> */}
                        <div className="indexHomeLiveListContent">
                            
                                
