@@ -54,7 +54,15 @@ export default class Start extends React.Component{
                                 this.state.data.bannerlistNew.map( (item, index) => {
                                     return (
                                         <div className="startListItem" key={index} onClick={() => {item.url ? this.openInNewTab(item.url) : void(0);}}>
+                                                {
+                                                typeof item.title === 'object' ?
+                                                item.title.map((i,idx)=>{
+                                                  return <div className="startListItemTitle" key={i}>{i}</div>
+                                                })
+                                                :
                                                 <div className="startListItemTitle">{item.title}</div>
+                                                }
+                                                {/* <div className="startListItemTitle">{item.title}</div> */}
                                                 {
                                                     typeof item.desc === 'object' ? 
                                                     item.desc.map((i,idx)=>{

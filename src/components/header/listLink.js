@@ -23,7 +23,7 @@ const listLinks = [
         title:'howitworks',
     },
     {
-        name:'我要申请',
+        name:'活动进程',
         title:'started',
     },
     {

@@ -15,7 +15,7 @@
 var data = {
     "liveurl":"https://live.bilibili.com/22221041",
     "spaceurl":"https://space.bilibili.com/578074510",
-    "livedata":"2020.6.20 20:00 开源大咖 陈莉君老师直播  Linux从入门到深入内核有多远",
+    "livedata":"2020.6.27 20:00 开源大咖 邓超老师直播  开源软件的历史和法律风险",
     "speechlist":[
         {
             "title":"邀您一起玩openEuler",
@@ -113,7 +113,7 @@ var data = {
             ],  
             "speechcontent":"",
             "ppt":"",
-            "url":"",
+            "url":"https://www.bilibili.com/video/BV1MC4y1Y78J",
         },
       
         {         

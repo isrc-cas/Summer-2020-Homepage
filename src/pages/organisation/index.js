@@ -666,7 +666,7 @@ export default class Organisation extends React.Component{
                                             <div id="org-project-lists" className="org-No">
                                                 {this.state.totalProjects > 0 ? <span>共{this.state.totalProjects}个项目</span> : ""}
                                                 {Math.ceil(this.state.totalProjects / 10) > 1 ? <span className="org-pageNo">第{this.state.currentPage}页 / <span style={{color:'#999999'}}>共{Math.ceil(this.state.totalProjects / 10)}页</span></span> : ''}
-                                                <a href="https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名" target="_blank" rel="noopener noreferrer"><span className="org-pageNo-button tooltip-detail-button">申请须知</span></a>
+                                                <span className="org-pageNo-button tooltip-detail-button">申请结束</span>
                                             </div>
                                             {this.state.isLoading ? '' :
                                                 this.state.displayProjects
@@ -740,7 +740,7 @@ export default class Organisation extends React.Component{
                             <div className="org-No">
                                 <span>共{this.state.totalProjects}个项目</span>
                                 {Math.ceil(this.state.totalProjects / 10) > 1 ? <span className="org-pageNo">第{this.state.currentPage}页 / <span style={{color:'#999999'}}>共{Math.ceil(this.state.totalProjects / 10)}页</span></span> : ''}
-                                <a href="https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名" target="_blank" rel="noopener noreferrer"><span className="org-pageNo-button tooltip-detail-button">申请须知</span></a>
+                                <span className="org-pageNo-button tooltip-detail-button">申请结束</span>
                             </div> 
 
                         </div>
