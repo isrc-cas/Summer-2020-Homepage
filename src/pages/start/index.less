@@ -87,7 +87,7 @@
                 border: 50px solid rgba(64, 190, 255, 0);  
                 border-radius: 80%;
                 background-color: rgba(64, 190, 255, .15);
-                cursor: pointer;
+                white-space: break-spaces;
             }
             .startListItem:nth-child(2) {
                 width: 300px;
@@ -109,7 +109,7 @@
             .startListItem:nth-child(2)::after{
                 bottom: 90px;
             }
-            .startListItem:nth-child(1):hover, .startListItem:nth-child(2):hover {
+            .startListItem:nth-child(1):hover {
                 box-shadow: 0 0 0 50px rgba(64, 190, 255, 0.1);
             }
             .startListItemImage{
@@ -130,17 +130,13 @@
                 background-image: url(./../../img/start/icon-developer.png);
             }
     
-            .startListItemTitle{
+            .startListItemTitle {
                 font-size: 24px;
                 font-weight: bold;
                 letter-spacing: .005em;
             }
-            .startListItem:nth-child(3) {
-                cursor: default;
-                .startListItemTitle{
-                    font-size: 18px;
-                    color: #40bfff;
-                }
+            .startListItem:nth-child(1) {
+                cursor: pointer;
             }
             .startListItemContent{
                 font-weight: bold;
