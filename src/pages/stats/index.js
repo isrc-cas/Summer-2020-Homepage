@@ -100,7 +100,7 @@ export default class Stats extends React.Component{
                       </div>
                     </div>
                     <div className="statsTotalWrapper content1200">
-                        <div className="statsDataTitle">高校学生 申请人数统计</div>
+                        <div className="statsDataTitle">项目申请统计</div>
                         <div className="statsTotalDesc">共389个项目 (包含1个团队项目)</div>
                         <div className="statsTotalLabel" style={{marginLeft: this.state.data.applyNo/389*101+"%"}}>共{this.state.data.applyNo}个项目有申请记录</div>
                         <div style={{background: "linear-gradient(to right, #4180ff 0%, #26b5ff "+this.state.data.applyNo/389*100+"%, #4171ff "+this.state.data.applyNo/389*100+"%)"}} className="statsTotalBar"></div>
