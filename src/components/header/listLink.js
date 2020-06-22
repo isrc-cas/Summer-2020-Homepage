@@ -24,7 +24,7 @@ const listLinks = [
     },
     {
         name:'活动进程',
-        title:'started',
+        title:'stats',
     },
     {
         name:'大咖说开源',
@@ -45,7 +45,8 @@ const linkDataMap = {
     qa:'热点问题',
     contactus:'帮助',
     liveshow:'大咖说开源',
-    started:'如何加入！'
+    started:'如何加入！',
+    stats:'活动进程'
 }
 
 export {

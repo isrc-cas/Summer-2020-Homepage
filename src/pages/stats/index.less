@@ -1,0 +1,313 @@
+/**
+ * Copyright (c) 2020 Intelligent Software Research Center of ISCAS
+ * Summer 2020 Homepage is licensed under Mulan PSL v2.
+ * You can use this software according to the terms and conditions of the Mulan PSL v2.
+ * You may obtain a copy of Mulan PSL v2 at:
+ *          http://license.coscl.org.cn/MulanPSL2
+ * THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND,
+ * EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT,
+ * MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
+ * See the Mulan PSL v2 for more details.
+ */
+
+.indexStats{
+    position: relative;
+    .statsQAButton {
+        color: white;
+        width: 320px;
+        height: 60px;
+ 
+        font-size: 28px;
+       
+        margin: 5px auto;
+        background: rgba(255, 255, 255, 0.05);
+        text-decoration: none;
+        border-radius: 4px;
+        border: solid 1px #ffffff;
+        line-height: 60px;
+        box-sizing: border-box;
+    }
+    .statsListButton {
+        color: white;
+        line-height: 30px;
+        width: 120px;
+        padding: 8px 18px;  
+        font-size: 18px;
+        margin: 5px auto;
+        background: rgba(104, 108, 230, 0.479);
+        border-style: solid;
+        border-width: 0.1px;
+        border-radius: 0.1em;
+        a {
+            text-decoration: none;
+            border: 0;
+            color: white;
+        }
+    }
+    .statsListButton:hover, .statsQAButton:hover {
+        background-color: #9086ec;
+        cursor: pointer;
+        box-shadow: none;
+    }
+    .statsBannerEnd {
+        position: relative;
+        width: 100%;
+        height: 280px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url(./../../img/start/qa-banner.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .statsBanner{
+        position: relative;
+        width: 100%;
+        height: 522px;
+        background-image: url(./../../img/start/start-banner.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        .statsList{
+            position: relative;
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 40px;
+            .statsListItem {
+                position: relative;
+                text-align: center;
+                width: 260px;
+                height: 260px;
+                padding-top: 40px;
+                margin-top: 50px;
+                color:#fff;
+                border: 50px solid rgba(64, 190, 255, 0);  
+                border-radius: 80%;
+                background-color: rgba(64, 190, 255, .15);
+                cursor: pointer;
+            }
+            .statsListItem:nth-child(2) {
+                width: 300px;
+                height: 300px;
+                padding-top: 60px;
+                margin-top: 20px;
+                cursor: default;
+            }
+            .statsListItem:nth-child(1)::after,  .statsListItem:nth-child(2)::after{
+                content: "";
+                background-image: url(./../../img/start/arrow.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100px;
+                height: 22px;
+                position: absolute;
+                right: -150px;
+                bottom: 80px;
+            }
+            .statsListItem:nth-child(2)::after{
+                bottom: 90px;
+            }
+            .statsListItem:nth-child(1):hover {
+                box-shadow: 0 0 0 50px rgba(64, 190, 255, 0.1);
+            }
+            .statsListItemImage{
+                background-size: contain;
+                width: 80px;
+                height: 70px;
+                background-position: center;
+                margin: 0 auto;
+                background-repeat: no-repeat;
+            }
+            .statsListItemTitle{
+                font-size: 24px;
+                font-weight: bold;
+                letter-spacing: .005em;
+            }
+            .statsListItem:nth-child(3) {
+                cursor: default;
+                white-space: break-spaces;
+            }
+            .statsListItemContent{
+                font-weight: bold;
+                letter-spacing: .010em;
+                line-height: 25px;
+                font-size: 14px;
+                color: #7ed3ff; 
+            }
+            .bold {
+                font-weight: bold;
+            }
+    
+        }
+    }
+}
+
+.statsWrapper {
+    background-color: #fafcff;
+}
+.statsDataTitle {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    padding: 60px 0 40px 0;
+}
+.statsTotalDesc {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-top: -20px;
+}
+.statsTotalLabel::before {
+    content: "";
+    background-image: url(./../../img/stats/down-arrow.png);
+    width: 14px;
+    height: 12px;
+    position: absolute;
+    margin: 8px 0 0 -16px;
+}
+.statsTotalLabel {
+    color: #0090da;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.statsTotalBar {
+    display: inline-block;
+    height: 20px;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 60px;
+}
+.statsTotalBarLeft {
+    border-radius: 0.5rem;
+    background-color: #4171ff;
+}
+.statsTotalBarRight {
+    height: 20px;
+    background-color: #869bdb;
+}
+.statsTotalBarRight::before {
+    content: "";
+    border-radius: .5rem;
+    width: 1px;
+    height: 20px;
+}
+.statsDataItem {
+    display: inline-block;
+    width: 300px;
+    padding: 0 0 60px 0;
+    .statsDataItemText {
+        display: inline-block;
+        text-align: center;
+        line-height: 40px;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+    .statsDataItemValue {
+        font-size: 36px;
+        color: #4171ff;
+    }
+    .statsDataItemIcon {
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 84px;
+        height: 84px;
+    }
+    .people {
+        background-image: url(./../../img/stats/people.jpg);
+    }
+    .student {
+        background-image: url(./../../img/stats/student.jpg);
+    }
+    .view {
+        background-image: url(./../../img/stats/view.jpg);
+    }
+    .email {
+        background-image: url(./../../img/stats/email.jpg);
+    }
+}
+
+.tn-box-color-1{
+    background: #9044f3c0;
+    width: 400px;
+    position: relative;
+    margin: 0 auto 20px auto;
+    // padding: 25px 15px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 
+        0 1px 1px rgba(0,0,0,0.1), 
+        inset 0 1px 0 rgba(255,255,255,0.6);  
+    // opacity: 0;
+    cursor: default;
+    display: none;
+}
+@media screen and (min-width: 700px)and (max-width: 1200px){
+    .statsDataItem {
+        width: 45vw;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 100px)and (max-width: 700px){
+    .indexStats{
+        .statsBanner{
+            height: auto;
+            
+            .statsList{
+                flex-direction: column;
+                padding: 20px 0;
+                .statsListButton {
+                    position: absolute;
+                    right: -5px;
+                    top: -10px;
+                    margin: 10px;
+                    width: 15vw;
+                    padding: 4px 4px;
+                    font-size: 12px;
+                    text-align: center;
+                }
+                .statsListItem, .statsListItem:nth-child(2) {
+                    border-radius: 0;
+                    width: 90vw;
+                    height: 100%;
+                    margin: 10px 0;
+                    border: none;
+                }
+                .statsListItemImage{
+                    position: absolute;
+                    width: 35px;
+                    margin-top: -15px;
+                    min-height: 30px;
+                }
+                .statsListItemTitle{
+                    font-size: 20px;
+                    margin: 0;
+                    margin-left: 14vw;
+                    top: 10px;
+                    text-align: left;
+                }
+                .statsListItem:nth-child(3) > .statsListItemTitle{
+                    font-size: 20px;
+                }
+                .statsListItemContent{
+                    width: 80vw;
+                    text-align: left;
+                    font-size: 12px;
+                    margin: 10px 0 10px 14vw;
+                    line-height: 15px;
+                }
+            }
+        }
+    }
+    .statsDataItemTitle {
+        text-align: left;
+    }
+    .statsTotalLabel {
+        font-size: 12px;
+    }
+    .statsTotalLabel::before {
+        margin: 5% 0 0 -9px;
+    }
+}
