@@ -249,6 +249,32 @@
         width: 45vw;
         text-align: center;
     }
+    .indexStats {
+        .statsBanner{
+            .statsListItem {
+                width: 21.66667vw !important;
+                height: 21.66667vw !important;
+            }
+            .statsListItem:nth-child(2) {
+                width: 25vw !important;
+                height: 25vw !important;
+            }
+            .statsListItemTitle{
+                font-size: 18px !important;
+            }
+            .statsListItem:nth-child(3) > .statsListItemTitle{
+                font-size: 14px !important;
+            }
+            .statsListItem:nth-child(1)::after, .statsListItem:nth-child(2)::after{
+                width: 5vw !important;
+                right: -10vw !important;
+                bottom: 5vw !important;
+            }
+            .statsListItem:nth-child(2)::after{
+                bottom: 6.3vw !important;
+            }
+        }
+    }
 }
 @media screen and (min-width: 100px)and (max-width: 700px){
     .indexStats{
