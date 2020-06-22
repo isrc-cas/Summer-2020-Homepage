@@ -177,7 +177,7 @@ export default class Index extends React.Component{
             },
             {
                 img:'3_2.jpg',
-                name:'如何申请',
+                name:'活动进程',
                 url:'started',
             },
             {
