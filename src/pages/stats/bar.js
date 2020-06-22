@@ -30,9 +30,12 @@ export default class BarChart extends React.Component{
           categories: this.getData('name'),
           labels: {
             show: true,
+            style: {
+              fontSize: "14px"
+            },
             hideOverlappingLabels: false,
             maxHeight: undefined,
-            offsetX: 9,
+            offsetX: 14,
           },
           axisTicks: {
             show: false
@@ -95,6 +98,7 @@ export default class BarChart extends React.Component{
 
   getData (dataName) {
     let temp = [];
+    // let data_ = data.universities.sort((a,b)=>{return a['number'] < b['number']? 1 : -1});
     data.universities.map(item => {
       temp.push(item[dataName]);
       return 0;
