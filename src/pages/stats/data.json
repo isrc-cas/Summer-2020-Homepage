@@ -1,0 +1,71 @@
+{
+  "LICENSE": "Mulan PSL v2",
+  "bannerlistNew":[
+      {
+          "title": "浏览项目",
+          "desc": "去查看项目，与导师沟通",
+          "url": "#/organisations"
+      },
+      {
+          "title": "申请已结束",
+          "desc": "6.20申请截止"
+      },
+      {
+          "title": ["申请截止","公布中选"],
+          "desc": ["6.30公布中选"]
+      }
+  ],
+  "stats": [
+    {
+        "icon": "people",
+        "name":"参与人次",
+        "value": 317,
+        "unit": "人"
+    },
+    {
+        "icon": "student",
+        "name":"学生数量",
+        "value": 269,
+        "unit": "名"
+    },
+    {
+        "icon": "view",
+        "name":"官网浏览量",
+        "value": "367,192",
+        "unit": "次"
+    },
+    {
+        "icon": "email",
+        "name":"往来邮件量",
+        "value": 815,
+        "unit": "封"
+    }
+  ],
+  "applyNo": 320,
+  "universities":[
+    {
+      "name": "清华大学",
+      "number": 19
+    },
+    {
+      "name": "hing",
+      "number": 4
+    },
+    {
+      "name": "hing",
+      "number": 4
+    },
+    {
+      "name": "hing",
+      "number": 4
+    },
+    {
+      "name": "hing",
+      "number": 4
+    },
+    {
+      "name": "hing",
+      "number": 4
+    }
+  ]
+}
