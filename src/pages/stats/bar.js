@@ -23,13 +23,19 @@ export default class BarChart extends React.Component{
         chart: {
           id: 'stats-chart'
         },
+        yaxis: {
+          show: false
+        },
         xaxis: {
           categories: this.getData('name'),
           labels: {
             show: true,
-            rotate: -50,
             hideOverlappingLabels: false,
-            maxHeight: undefined
+            maxHeight: undefined,
+            offsetX: 9,
+          },
+          axisTicks: {
+            show: false
           }
         },
         fill: {
