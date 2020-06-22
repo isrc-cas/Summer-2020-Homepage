@@ -165,7 +165,7 @@
     width: 14px;
     height: 12px;
     position: absolute;
-    margin: 8px 0 0 -16px;
+    margin: 8px 0 0 -14px;
 }
 .statsTotalLabel {
     color: #0090da;
@@ -244,39 +244,44 @@
     cursor: default;
     display: none;
 }
-@media screen and (min-width: 700px)and (max-width: 1200px){
+@media screen and (min-width: 800px)and (max-width: 1200px){
     .statsDataItem {
         width: 45vw;
         text-align: center;
     }
     .indexStats {
         .statsBanner{
-            .statsListItem {
-                width: 21.66667vw !important;
-                height: 21.66667vw !important;
+            .statsList {
+                .statsListItem {
+                    width: 21.66667vw !important;
+                    height: 21.66667vw !important;
+                    padding-top: 2vw;
+                }
+                .statsListItem:nth-child(2) {
+                    width: 25vw !important;
+                    height: 25vw !important;
+                    padding-top: 40px;
+                }
+                .statsListItemTitle{
+                    font-size: 18px !important;
+                }
+                .statsListItem:nth-child(3) > .statsListItemTitle{
+                    font-size: 14px !important;
+                }
+                .statsListItem:nth-child(1)::after, .statsListItem:nth-child(2)::after{
+                    width: 5vw !important;
+                    right: -10vw !important;
+                    bottom: 5vw !important;
+                }
+                .statsListItem:nth-child(2)::after{
+                    bottom: 6.3vw !important;
+                }
             }
-            .statsListItem:nth-child(2) {
-                width: 25vw !important;
-                height: 25vw !important;
-            }
-            .statsListItemTitle{
-                font-size: 18px !important;
-            }
-            .statsListItem:nth-child(3) > .statsListItemTitle{
-                font-size: 14px !important;
-            }
-            .statsListItem:nth-child(1)::after, .statsListItem:nth-child(2)::after{
-                width: 5vw !important;
-                right: -10vw !important;
-                bottom: 5vw !important;
-            }
-            .statsListItem:nth-child(2)::after{
-                bottom: 6.3vw !important;
-            }
+
         }
     }
 }
-@media screen and (min-width: 100px)and (max-width: 700px){
+@media screen and (min-width: 100px)and (max-width: 800px){
     .indexStats{
         .statsBanner{
             height: auto;
@@ -334,6 +339,9 @@
         font-size: 12px;
     }
     .statsTotalLabel::before {
-        margin: 5% 0 0 -9px;
+        margin: 15px 0 0 -10px;
+    }
+    .statsListItem:nth-child(1)::after, .statsListItem:nth-child(2)::after{
+        display: none;
     }
 }

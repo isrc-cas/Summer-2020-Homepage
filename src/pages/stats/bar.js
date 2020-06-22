@@ -12,13 +12,15 @@
 
 import Chart from 'react-apexcharts';
 import React from 'react';
-import data from './data.json'
+import data from './data.json';
+import { Spin } from 'antd';
 
 export default class BarChart extends React.Component{
   constructor(props) {
     super(props);
 
     this.state = {
+      loading: true,
       options: {
         chart: {
           id: 'stats-chart'
@@ -96,6 +98,15 @@ export default class BarChart extends React.Component{
     }
   }
 
+  componentDidMount() {
+    window.setTimeout(
+      ()=>{this.setState({
+          loading: false
+        });
+      },10
+    );
+  }
+
   getData (dataName) {
     let temp = [];
     // let data_ = data.universities.sort((a,b)=>{return a['number'] < b['number']? 1 : -1});
@@ -116,7 +127,15 @@ export default class BarChart extends React.Component{
 
   render() {
     return (
-      <Chart options={this.state.options} series={this.state.series} type="bar" width={this.getWidth()} style={{overflowX: "auto", overflowY: "hidden"}} height={600}/>
+      <div>
+      {
+        this.state.loading ? 
+        <Spin style={{width: "100%", height: 600}} size="Large" tip="Loading..."/>
+        :
+        <Chart options={this.state.options} series={this.state.series} type="bar" width={this.getWidth()} style={{overflowX: "auto", overflowY: "hidden"}} height={600}/>
+      }
+      </div>
+     
     )
   }
 }
