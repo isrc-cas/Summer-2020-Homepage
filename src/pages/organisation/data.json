@@ -1243,8 +1243,8 @@
         {
           "name": "页面 UI 改造",
           "difficulty": "低",
-          "mentor": "Lyric",
-          "contact": "wei@fox.one",
+          "mentor": "divisey",
+          "contact": "18656007202@163.com",
           "student_count": 5,
           "description": "现在项目 UI 比较简陋，需将其改造，PC 和移动端都有较好的浏览体验",
           "update_time": "2020-05-29",
@@ -1273,8 +1273,8 @@
         {
           "name": "项目 widget",
           "difficulty": "中",
-          "mentor": "Lyric",
-          "contact": "wei@fox.one",
+          "mentor": "divisey",
+          "contact": "18656007202@163.com",
           "student_count": 2,
           "description": "每一个项目都可以提供一小段代码，生成 widget。任何一个人都可以将这段代码挂在自己的博客、Github Readme、网页。点击这个 widget 可以打开项目主页。widget 上显示项目已经收到了多少捐赠。",
           "update_time": "2020-05-29",
