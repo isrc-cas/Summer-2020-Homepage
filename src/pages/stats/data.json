@@ -23,9 +23,9 @@
   "stats": [
     {
       "icon": "people",
-      "name": "参与人次",
+      "name": "项目申请",
       "value": 397,
-      "unit": "人次"
+      "unit": "份"
     },
     {
       "icon": "student",
