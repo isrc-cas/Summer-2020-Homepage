@@ -106,9 +106,11 @@ export default class Stats extends React.Component{
                         <div style={{background: "linear-gradient(to right, #4180ff 0%, #26b5ff "+this.state.data.applyNo/389*100+"%, #4171ff "+this.state.data.applyNo/389*100+"%)"}} className="statsTotalBar"></div>
                     </div>
                     <div className="statsWrapper">
-                      <div className="statsDataTitle">高校学生 申请人数分布</div>
+                      <div className="statsDataTitle">高校项目申请数分布</div>
                       <div className="content1200"><BarChart/></div>
+                      <div className="statsNote content1200">*项目申请数相同的学校排名不分先后</div>
                     </div>
+                    
                     
                </div>
 

@@ -92,7 +92,7 @@ export default class BarChart extends React.Component{
         }
       },
       series: [{
-        name: '学生申请人数',
+        name: '项目申请数',
         data: this.getData('number')
       }]
     }
