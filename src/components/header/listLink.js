@@ -45,7 +45,7 @@ const linkDataMap = {
     qa:'热点问题',
     contactus:'帮助',
     liveshow:'大咖说开源',
-    started:'如何加入！'
+    started:'活动进程'
 }
 
 export {

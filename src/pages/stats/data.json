@@ -1,0 +1,568 @@
+{
+  "LICENSE": "Mulan PSL v2",
+  "bannerlistNew": [
+    {
+      "title": "浏览项目",
+      "desc": "去查看项目，与导师沟通",
+      "url": "#/organisations"
+    },
+    {
+      "title": "申请已结束",
+      "desc": "6月20日申请截止"
+    },
+    {
+      "title": [
+        "申请截止",
+        "公布中选"
+      ],
+      "desc": [
+        "6月30日公布中选"
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "icon": "people",
+      "name": "项目申请",
+      "value": 397,
+      "unit": "份"
+    },
+    {
+      "icon": "student",
+      "name": "学生数量",
+      "value": 298,
+      "unit": "名"
+    },
+    {
+      "icon": "view",
+      "name": "官网浏览量",
+      "value": "40,370",
+      "unit": "次"
+    },
+    {
+      "icon": "email",
+      "name": "往来邮件量",
+      "value": 882,
+      "unit": "封"
+    }
+  ],
+  "applyNo": 219,
+  "universities": [
+    {
+      "name": "中国科学院大学",
+      "number": 21
+    },
+    {
+      "name": "清华大学",
+      "number": 19
+    },
+    {
+      "name": "西安电子科技大学",
+      "number": 15
+    },
+    {
+      "name": "上海交通大学",
+      "number": 13
+    },
+    {
+      "name": "北京邮电大学",
+      "number": 11
+    },
+    {
+      "name": "华南理工大学",
+      "number": 10
+    },
+    {
+      "name": "西安交通大学",
+      "number": 10
+    },
+    {
+      "name": "电子科技大学",
+      "number": 9
+    },
+    {
+      "name": "武汉理工大学",
+      "number": 8
+    },
+    {
+      "name": "华中科技大学",
+      "number": 8
+    },
+    {
+      "name": "吉林大学",
+      "number": 8
+    },
+    {
+      "name": "北京大学",
+      "number": 7
+    },
+    {
+      "name": "华中师范大学",
+      "number": 7
+    },
+    {
+      "name": "北京交通大学",
+      "number": 7
+    },
+    {
+      "name": "天津大学",
+      "number": 6
+    },
+    {
+      "name": "北京航空航天大学",
+      "number": 6
+    },
+    {
+      "name": "重庆邮电大学",
+      "number": 6
+    },
+    {
+      "name": "北京信息科技大学",
+      "number": 6
+    },
+    {
+      "name": "西安邮电大学",
+      "number": 5
+    },
+    {
+      "name": "四川大学",
+      "number": 5
+    },
+    {
+      "name": "University of California, Irvine",
+      "number": 5
+    },
+    {
+      "name": "南京大学",
+      "number": 4
+    },
+    {
+      "name": "北京理工大学",
+      "number": 4
+    },
+    {
+      "name": "杭州电子科技大学",
+      "number": 4
+    },
+    {
+      "name": "同济大学",
+      "number": 4
+    },
+    {
+      "name": "华北计算机系统工程研究所",
+      "number": 4
+    },
+    {
+      "name": "江西农业大学",
+      "number": 4
+    },
+    {
+      "name": "哈尔滨工程大学",
+      "number": 4
+    },
+    {
+      "name": "北京工业大学",
+      "number": 4
+    },
+    {
+      "name": "江南大学",
+      "number": 4
+    },
+    {
+      "name": "河北科技大学",
+      "number": 4
+    },
+    {
+      "name": "西安工业大学",
+      "number": 4
+    },
+    {
+      "name": "河北农业大学",
+      "number": 3
+    },
+    {
+      "name": "山东大学",
+      "number": 3
+    },
+    {
+      "name": "山东理工大学",
+      "number": 3
+    },
+    {
+      "name": "深圳大学",
+      "number": 3
+    },
+    {
+      "name": "南京农业大学",
+      "number": 3
+    },
+    {
+      "name": "华南农业大学",
+      "number": 3
+    },
+    {
+      "name": "中国计量大学",
+      "number": 3
+    },
+    {
+      "name": "成都信息工程大学",
+      "number": 3
+    },
+    {
+      "name": "中山大学",
+      "number": 3
+    },
+    {
+      "name": "南京邮电大学",
+      "number": 3
+    },
+    {
+      "name": "华东师范大学",
+      "number": 3
+    },
+    {
+      "name": "中国科学技术大学",
+      "number": 3
+    },
+    {
+      "name": "东华大学",
+      "number": 3
+    },
+    {
+      "name": "电子科技大学成都学院",
+      "number": 3
+    },
+    {
+      "name": "东北大学",
+      "number": 3
+    },
+    {
+      "name": "重庆大学",
+      "number": 3
+    },
+    {
+      "name": "上海电机学院",
+      "number": 3
+    },
+    {
+      "name": "兰州大学",
+      "number": 3
+    },
+    {
+      "name": "南方科技大学",
+      "number": 2
+    },
+    {
+      "name": "北京林业大学",
+      "number": 2
+    },
+    {
+      "name": "成都大学",
+      "number": 2
+    },
+    {
+      "name": "福州大学",
+      "number": 2
+    },
+    {
+      "name": "中南大学",
+      "number": 2
+    },
+    {
+      "name": "上海应用技术大学",
+      "number": 2
+    },
+    {
+      "name": "广东培正学院",
+      "number": 2
+    },
+    {
+      "name": "中国地质大学（武汉）",
+      "number": 2
+    },
+    {
+      "name": "浙江大学",
+      "number": 2
+    },
+    {
+      "name": "University of Cambridge",
+      "number": 2
+    },
+    {
+      "name": "北京化工大学",
+      "number": 2
+    },
+    {
+      "name": "Université du Québec",
+      "number": 2
+    },
+    {
+      "name": "武汉大学",
+      "number": 2
+    },
+    {
+      "name": "长春工业大学人文信息学院",
+      "number": 2
+    },
+    {
+      "name": "浙江大学宁波理工学院",
+      "number": 2
+    },
+    {
+      "name": "广东工业大学",
+      "number": 2
+    },
+    {
+      "name": "聊城大学",
+      "number": 2
+    },
+    {
+      "name": "三峡大学",
+      "number": 2
+    },
+    {
+      "name": "国防科技大学",
+      "number": 2
+    },
+    {
+      "name": "University of California, Riverside",
+      "number": 2
+    },
+    {
+      "name": "浙江农林大学",
+      "number": 2
+    },
+    {
+      "name": "北华大学",
+      "number": 2
+    },
+    {
+      "name": "天津理工大学",
+      "number": 2
+    },
+    {
+      "name": "Northeastern University",
+      "number": 2
+    },
+    {
+      "name": "浙江师范大学",
+      "number": 2
+    },
+    {
+      "name": "广东农工商职业技术学院",
+      "number": 2
+    },
+    {
+      "name": "云南大学",
+      "number": 2
+    },
+    {
+      "name": "浙江大学城市学院",
+      "number": 2
+    },
+    {
+      "name": "University of Birmingham",
+      "number": 1
+    },
+    {
+      "name": "石家庄铁道大学",
+      "number": 1
+    },
+    {
+      "name": "南开大学",
+      "number": 1
+    },
+    {
+      "name": "西北农林科技大学",
+      "number": 1
+    },
+    {
+      "name": "成都东软学院",
+      "number": 1
+    },
+    {
+      "name": "韩山师范学院",
+      "number": 1
+    },
+    {
+      "name": "University of Minnesota",
+      "number": 1
+    },
+    {
+      "name": "New York University",
+      "number": 1
+    },
+    {
+      "name": "佛山科学技术学院",
+      "number": 1
+    },
+    {
+      "name": "南京信息工程大学",
+      "number": 1
+    },
+    {
+      "name": "安徽大学",
+      "number": 1
+    },
+    {
+      "name": "香港中文大学（深圳）",
+      "number": 1
+    },
+    {
+      "name": "淮阴工学院",
+      "number": 1
+    },
+    {
+      "name": "郑州轻工业大学",
+      "number": 1
+    },
+    {
+      "name": "西北工业大学",
+      "number": 1
+    },
+    {
+      "name": "哈尔滨工业大学（深圳）",
+      "number": 1
+    },
+    {
+      "name": "中国科学院软件研究所",
+      "number": 1
+    },
+    {
+      "name": "海南大学",
+      "number": 1
+    },
+    {
+      "name": "University of Southern California",
+      "number": 1
+    },
+    {
+      "name": "华中农业大学",
+      "number": 1
+    },
+    {
+      "name": "东莞理工学院",
+      "number": 1
+    },
+    {
+      "name": "昆明冶金高等专科学校",
+      "number": 1
+    },
+    {
+      "name": "合肥工业大学",
+      "number": 1
+    },
+    {
+      "name": "哈尔滨工业大学",
+      "number": 1
+    },
+    {
+      "name": "安徽农业大学",
+      "number": 1
+    },
+    {
+      "name": "安徽三联学院",
+      "number": 1
+    },
+    {
+      "name": "安徽文达信息工程学院",
+      "number": 1
+    },
+    {
+      "name": "华北电力大学（保定）",
+      "number": 1
+    },
+    {
+      "name": "University of Washington",
+      "number": 1
+    },
+    {
+      "name": "福州大学至诚学院",
+      "number": 1
+    },
+    {
+      "name": "北方工业大学",
+      "number": 1
+    },
+    {
+      "name": "西北大学",
+      "number": 1
+    },
+    {
+      "name": "University of Chicago",
+      "number": 1
+    },
+    {
+      "name": "中国矿业大学",
+      "number": 1
+    },
+    {
+      "name": "昆明理工大学",
+      "number": 1
+    },
+    {
+      "name": "北京理工大学珠海学院",
+      "number": 1
+    },
+    {
+      "name": "内蒙古农业大学",
+      "number": 1
+    },
+    {
+      "name": "天津商业大学",
+      "number": 1
+    },
+    {
+      "name": "武昌工学院",
+      "number": 1
+    },
+    {
+      "name": "广东海洋大学",
+      "number": 1
+    },
+    {
+      "name": "浙江水利水电学院",
+      "number": 1
+    },
+    {
+      "name": "上海科技大学",
+      "number": 1
+    },
+    {
+      "name": "山东农业大学",
+      "number": 1
+    },
+    {
+      "name": "中国石油大学（华东）",
+      "number": 1
+    },
+    {
+      "name": "湘潭大学",
+      "number": 1
+    },
+    {
+      "name": "西安石油大学",
+      "number": 1
+    },
+    {
+      "name": "五邑大学",
+      "number": 1
+    },
+    {
+      "name": "长江大学",
+      "number": 1
+    },
+    {
+      "name": "集美大学",
+      "number": 1
+    },
+    {
+      "name": "中国农业大学",
+      "number": 1
+    },
+    {
+      "name": "香港城市大学",
+      "number": 1
+    }
+  ]
+}

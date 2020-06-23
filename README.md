@@ -13,6 +13,7 @@ Summer 2020 Homepage is a project for [开源软件供应链点亮计划 - 暑�
 ### Built With
 
 - Ant Design
+- ApexCharts
 - React Dom
 - React js
 - React Router
