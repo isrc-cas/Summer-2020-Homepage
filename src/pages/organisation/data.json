@@ -176,8 +176,8 @@
         {
           "name": "Dashboard 增加 commit 内容检查",
           "difficulty": "中",
-          "mentor": "琚致远",
-          "contact": "juzhiyuan@apache.org",
+          "mentor": "陈军旭",
+          "contact": "chenjunxu@apache.org",
           "student_count": 2,
           "description": "增加 commit message checker，以规范贡献者 commit 格式。",
           "update_time": "2020-05-19",
