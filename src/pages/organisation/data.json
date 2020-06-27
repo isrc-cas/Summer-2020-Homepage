@@ -240,8 +240,8 @@
         {
           "name": "延时等待（前端）",
           "difficulty": "低",
-          "mentor": "Jave-Chen",
-          "contact": "kejia.chen@foxmail.com",
+          "mentor": "向偲彪",
+          "contact": "790061044@qq.com",
           "student_count": 1,
           "description": "开发前端页面，调用后端接口。在任务节点中新增“延时等待”的属性，支持任务在开始后一段时间内等待前置任务完成。",
           "update_time": "2020-05-16",
@@ -311,8 +311,8 @@
           "name": "任务空跑（前端）",
           "description": "开发前端页面，调用后端接口。在对工作流测试时，支持部分任务不执行具体任务内容，直接更新任务状态为成功。",
           "difficulty": "低",
-          "mentor": "Jave-Chen",
-          "contact": "kejia.chen@foxmail.com",
+          "mentor": "向偲彪",
+          "contact": "790061044@qq.com",
           "student_count": 1,
           "update_time": "2020-05-16",
           "label": "2002009"
@@ -331,8 +331,8 @@
           "name": "强制成功（前端）",
           "description": "开发前端页面，调用后端接口。对于失败的任务，可手工“强制成功”，后续依赖即可自动执行。",
           "difficulty": "低",
-          "mentor": "Jave-Chen",
-          "contact": "kejia.chen@foxmail.com",
+          "mentor": "向偲彪",
+          "contact": "790061044@qq.com",
           "student_count": 2,
           "update_time": "2020-05-16",
           "label": "2002011"
