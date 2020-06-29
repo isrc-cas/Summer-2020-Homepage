@@ -396,7 +396,7 @@
                     .orgClick {
                         color: #5959ff;
                     }
-                    #org-default::after {
+                    #org-student::after {
                         content: '';
                         position: relative;
                         border-left: 1px solid #b0b2b9;
@@ -559,6 +559,23 @@
                     padding: 0 28px;
                     margin-top: 20px;
                 }
+                .orgProjectWiki {
+                    background-color: #27b7ff;
+                    background-image: url(./../../img/organisation/arrow.png);
+                    background-repeat: no-repeat;
+                    background-position: 90%;
+                    background-size: 8%;
+                    font-size: 14px;
+                    border-radius: 4px;
+                    width: 88px;
+                    line-height: 24px;
+                    cursor: pointer;
+                    padding-left: 5px;
+                    margin: 10px 0 0 28px;
+                    a {
+                        color: white;
+                    }
+                }
                 .orgProjectTitle {
                     font-weight: bolder;
                     line-height: 28px;
@@ -570,9 +587,10 @@
                     background-size: 75px 75px;
                     overflow: hidden;
                     text-overflow: ellipsis;
-                    display:-webkit-box;
-                    -webkit-box-orient:vertical;
-                    -webkit-line-clamp:3;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 3;
+                    // height: 3.6em;
                 }
                 .orgProjectId {
                     padding: 0 28px;
@@ -726,7 +744,7 @@
                         float: unset;
                         margin-left: 20px;
                     }
-                    #org-default::after {
+                    #org-student::after {
                         border: none;
                     }
                 }
