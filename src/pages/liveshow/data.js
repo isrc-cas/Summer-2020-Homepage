@@ -15,7 +15,7 @@
 var data = {
     "liveurl":"https://live.bilibili.com/22221041",
     "spaceurl":"https://space.bilibili.com/578074510",
-    "livedata":"2020.6.27 20:00 开源大咖 邓超老师直播  开源软件的历史和法律风险",
+    "livedata":"2020.7.04 20:00 开源大咖 孙金城老师直播  参与ASF开源贡献的正确姿势 - 如何成为一名合格的ASF Committer",
     "speechlist":[
         {
             "title":"邀您一起玩openEuler",
@@ -129,7 +129,7 @@ var data = {
             ],  
             "speechcontent":"",
             "ppt":"",
-            "url":"",
+            "url":"https://www.bilibili.com/video/BV1bK4y1s7aM/",
         },
         {         
             "title":"参与ASF开源贡献的正确姿势 - 如何成为一名合格的ASF Committer",
