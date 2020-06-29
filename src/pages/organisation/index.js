@@ -13,7 +13,7 @@
 import React from 'react'
 import './index.less';
 import data from './data.json';
-import { Input, Pagination } from 'antd';
+import { Input, Pagination, Spin } from 'antd';
 
 const { Search } = Input;
 export default class Organisation extends React.Component{
@@ -27,7 +27,7 @@ export default class Organisation extends React.Component{
             displayProjects:[],
             currentProjects:[],
             currentPage: 1,
-            totalProjects: 1
+            totalProjects: 0
         }
     }
 
@@ -36,7 +36,6 @@ export default class Organisation extends React.Component{
         
         if (location.split("page=").length > 1 && location.split("page=")[1]==='project') {
             window.location.hash = "/organisations?page=project";
-            this.getAllProjectList();
             this.switchTab(2);
         } 
         else if (location.split("/organisations/")[1]) {
@@ -54,19 +53,19 @@ export default class Organisation extends React.Component{
      */
     resetStyle (category) {
         // TODO: hide student:
-        let mCategory = category === 'update_time' ? 'student_count' : 'update_time';
-        if (typeof category === 'object') {
-            category.map((item,index)=>{
-                document.getElementById('org-'+category[index]).setAttribute("class", "org-search-bar-sort");
-                document.getElementById(category[index]+'-down').setAttribute("class", "org-arrow down-0");
-                document.getElementById(category[index]+'-up').setAttribute("class", "org-arrow up-0");
-                return 0;
-            }); 
-        } else {
-            document.getElementById('org-'+mCategory).setAttribute("class", "org-search-bar-sort");
-            document.getElementById(mCategory+'-down').setAttribute("class", "org-arrow down-0");
-            document.getElementById(mCategory+'-up').setAttribute("class", "org-arrow up-0");
-        }
+        // let mCategory = category === 'update_time' ? 'student_count' : 'update_time';
+        // if (typeof category === 'object') {
+        //     category.map((item,index)=>{
+        //         document.getElementById('org-'+category[index]).setAttribute("class", "org-search-bar-sort");
+        //         document.getElementById(category[index]+'-down').setAttribute("class", "org-arrow down-0");
+        //         document.getElementById(category[index]+'-up').setAttribute("class", "org-arrow up-0");
+        //         return 0;
+        //     }); 
+        // } else {
+        //     document.getElementById('org-'+mCategory).setAttribute("class", "org-search-bar-sort");
+        //     document.getElementById(mCategory+'-down').setAttribute("class", "org-arrow down-0");
+        //     document.getElementById(mCategory+'-up').setAttribute("class", "org-arrow up-0");
+        // }
         // if (category === 'default') {
         //     document.getElementById('update_time-down').setAttribute("class", "org-arrow down-0");
         //     document.getElementById('update_time-up').setAttribute("class", "org-arrow up-0");
@@ -95,9 +94,10 @@ export default class Organisation extends React.Component{
      * get all projects and render first 10 projects
      */
     getAllProjectList () {
-        document.getElementById('org-default').setAttribute("class", "org-search-bar-sort orgClick");
+        
+        document.getElementById('org-student').setAttribute("class", "org-search-bar-sort orgClick");
         document.getElementsByClassName("ant-input-clear-icon")[0].click();
-        this.resetStyle(['update_time','student_count']); //TODO: hide student: (['update_time'],['student_count'])
+        // this.resetStyle('default'); //TODO: hide student: (['update_time','student_count'])
         var temp = [];
 
         this.state.data.orgList.map((item,index)=>{
@@ -114,7 +114,10 @@ export default class Organisation extends React.Component{
         }
         return 0;
         });
-
+        temp.sort((a,b)=>{return this.cmp(
+            [this.cmp(a['student_name'], b['student_name']), this.cmp(a['index'], b['index'])],
+            [this.cmp(b['student_name'], a['student_name']), this.cmp(b['index'], a['index'])]
+        )})
         this.setState({
             allProjects: temp,
             isLoading:false,
@@ -131,6 +134,8 @@ export default class Organisation extends React.Component{
         this.setState({
             displayProjects: divContainer
         });
+        // this.sortItemBy('student', temp);
+        
     };
 
     /**
@@ -241,7 +246,8 @@ export default class Organisation extends React.Component{
                 </div>
                 <div className="orgProjectGap"></div>
                 <div className="orgProjectBottomLeft">
-                    <div>已申请团队数：{item.student_count}</div>
+                    {/* <div>已申请团队数：{item.student_count}</div> */}
+                    <div>中选学生：无</div>
                     <div className="orgProjectName">{orgName}</div>
                 </div>
 
@@ -282,13 +288,17 @@ export default class Organisation extends React.Component{
                     <div className="orgProjectTitle">
                         {item.name}
                     </div>
+                    {item.wiki ? 
+                        <div className="orgProjectWiki"><a href={item.wiki} target="_blank" rel="noopener noreferrer">项目公示</a></div>
+                        : ""}
                     {/* <div className="orgProjectTitleIcon">{this.showHot(item.student_count, item.index)}</div> */}
                 </div>
                 {item.sponsor ? "" : <div className="orgProjectTitleIcon"><img alt="0000000" src={require("./../../img/organisation/"+index%3+".jpg")} /></div>}
                 <div className="orgProjectGap"></div>
                 <div className="orgProjectBottomLeft">
                     <div>{"项目难度："+item.difficulty}</div>
-                    <div>已申请人数：{item.student_count}</div>
+                    {/* <div>已申请人数：{item.student_count}</div> */}
+                    {item.student_name ? <div>中选学生：{item.student_name}</div> : <div>中选学生：无</div>}
                     <div className="orgProjectName">{orgName}</div>
                 </div>
 
@@ -334,10 +344,7 @@ export default class Organisation extends React.Component{
         var divContainer = [];
         var temp = [];
         if (orgItem && orgItem[0].name !== "") {
-            orgItem.map((item,index)=>{
-                if (index < 10) {
-                    divContainer.push(this.getProjectList(orgIndex, item, index, orgName, projectUrl));
-                }
+            orgItem.map((item)=>{
                 item.index = orgIndex;
                 item.title = orgName;
                 item.project_url = projectUrl || orgItem.url;
@@ -345,6 +352,21 @@ export default class Organisation extends React.Component{
                 return 0;
             });
         }
+        divContainer.sort((a,b)=>{return this.cmp(
+            [this.cmp(a['student_name'], b['student_name']), this.cmp(a['index'], b['index'])],
+            [this.cmp(b['student_name'], a['student_name']), this.cmp(b['index'], a['index'])]
+        )});
+        temp.sort((a,b)=>{return this.cmp(
+            [this.cmp(a['student_name'], b['student_name']), this.cmp(a['index'], b['index'])],
+            [this.cmp(b['student_name'], a['student_name']), this.cmp(b['index'], a['index'])]
+        )});
+        // console.log(divContainer)
+        temp.map((item, index)=>{
+            if (index < 10) {
+                divContainer.push(this.getProjectList(orgIndex, item, index, orgName, projectUrl));
+            }
+            return 0;
+        })
         this.setState({
             totalProjects: temp.length,
             currentProjects: temp,
@@ -366,8 +388,13 @@ export default class Organisation extends React.Component{
       document.getElementById(wrappers[tabNum-1]).style.display = "block";
       document.getElementById(wrappers[2-tabNum]).style.display = "none";
       if (tabNum === 2) {
+        this.setState({
+            isLoading: true,
+            totalProjects: 0
+        });
         window.location.hash = "/organisations?page=project";
-        this.getAllProjectList();
+        setTimeout(()=>{this.getAllProjectList()},1);
+        
       } else {
         window.location.hash = "/organisations";
         this.closeModal(0, true);
@@ -410,69 +437,73 @@ export default class Organisation extends React.Component{
 
     // generic comparison function
     cmp(x, y){
-        return x > y ? 1 : x < y ? -1 : 0; 
+        if (typeof x === "string" && x !== undefined && y === undefined) {
+            return -1;
+        }
+        return x > y ? 1 : x < y ? -1 : 0;
     }
 
     /**
      * 
      * @param {string} category ("update_time","student_count")
      */
-    sortItemBy(category) {
+    sortItemBy(category, sortArray) {
         this.setState({
             currentPage: 1
         });
-        console.log(this.state.allProjects);
-        if (category === 'update_time' || category === 'student_count') {
+
+        const {allProjects} = this.state;
+        let newProjects = sortArray ? sortArray : allProjects;
+        console.log(newProjects)
+        if (category === 'student') {
+            // alert("student")
             document.getElementsByClassName("ant-input-clear-icon")[0].click();
-            const {allProjects} = this.state;
-            let newProjects = allProjects;
-            
+
             // reset all style
             document.getElementById('org-default').setAttribute("class", "org-search-bar-sort");
-            this.resetStyle(category);
-            document.getElementById('org-'+category).setAttribute("class", "org-search-bar-sort orgClick");
-
-            if (document.getElementById(category+'-down').getAttribute("class") === 'org-arrow down-0') {
-                document.getElementById(category+'-down').setAttribute("class", "org-arrow down-1");
-                document.getElementById(category+'-up').setAttribute("class", "org-arrow up-0");
-                this.setState({
-                    // allProjects: newProjects.sort((a,b)=>{ return a[category] < b[category] ? 1 : -1})
-                    // sort category descending then index descending
-                    allProjects : 
-                        newProjects.sort((a,b)=>{return this.cmp(
-                            [-this.cmp(a[category], b[category]), -this.cmp(a['index'], b['index'])],
-                            [-this.cmp(b[category], a[category]), -this.cmp(b['index'], a['index'])]
-                        )})
-                });
-            } else {
-                document.getElementById(category+'-down').setAttribute("class", "org-arrow down-0");
-                document.getElementById(category+'-up').setAttribute("class", "org-arrow up-1");
-                this.setState({
-                    // allProjects: newProjects.sort((a,b)=>{ return a[category] > b[category] ? 1 : -1})
-                    // sort category ascending then index ascending
-                    allProjects : 
-                        newProjects.sort((a,b)=>{return this.cmp(
-                            [this.cmp(a[category], b[category]), this.cmp(a['index'], b['index'])],
-                            [this.cmp(b[category], a[category]), this.cmp(b['index'], a['index'])]
-                        )})
-                });
-            }
-            
-            var divContainer = [];
-            this.state.allProjects.map((item,index)=>{
-                if (index < 10) {
-                    divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url)) 
-                }
-                return 0;
-            });
+            // this.resetStyle(category);
+            document.getElementById('org-student').setAttribute("class", "org-search-bar-sort orgClick");
             this.setState({
-                displayProjects: divContainer,
-                totalProjects: allProjects.length,
-                currentProjects: allProjects
+                // allProjects: newProjects.sort((a,b)=>{ return a[category] > b[category] ? 1 : -1})
+                // sort category ascending then index ascending
+                allProjects : 
+                    newProjects.sort((a,b)=>{return this.cmp(
+                        [this.cmp(a['student_name'], b['student_name']), this.cmp(a['index'], b['index'])],
+                        [this.cmp(b['student_name'], a['student_name']), this.cmp(b['index'], a['index'])]
+                    )})
             });
+            
+
         } else {
-            this.getAllProjectList();
+            document.getElementsByClassName("ant-input-clear-icon")[0].click();
+
+            // reset all style
+            document.getElementById('org-student').setAttribute("class", "org-search-bar-sort");
+            // this.resetStyle(category);
+            document.getElementById('org-default').setAttribute("class", "org-search-bar-sort orgClick");
+            this.setState({
+                // allProjects: newProjects.sort((a,b)=>{ return a[category] > b[category] ? 1 : -1})
+                // sort category ascending then index ascending
+                allProjects : 
+                    newProjects.sort((a,b)=>{return this.cmp(
+                        [this.cmp(a['index'], b['index']), this.cmp(a['student_name'], b['student_name'])],
+                        [this.cmp(b['index'], a['index']), this.cmp(b['student_name'], a['student_name'])]
+                    )})
+            });
         }
+        var divContainer = [];
+        this.state.allProjects.map((item,index)=>{
+            if (index < 10) {
+                divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url)) 
+            }
+            return 0;
+        });
+        this.setState({
+            displayProjects: divContainer,
+            totalProjects: allProjects.length,
+            currentProjects: allProjects
+        });
+        console.log(this.state.allProjects)
     }
 
     /**
@@ -668,7 +699,8 @@ export default class Organisation extends React.Component{
                                                 {Math.ceil(this.state.totalProjects / 10) > 1 ? <span className="org-pageNo">第{this.state.currentPage}页 / <span style={{color:'#999999'}}>共{Math.ceil(this.state.totalProjects / 10)}页</span></span> : ''}
                                                 <span className="org-pageNo-button tooltip-detail-button">申请结束</span>
                                             </div>
-                                            {this.state.isLoading ? '' :
+                                            {this.state.isLoading ? 
+                                            <Spin style={{width: "100%", height: 600}} size="Large" tip="Loading..."/> :
                                                 this.state.displayProjects
                                             }
                                             <Pagination 
@@ -722,23 +754,26 @@ export default class Organisation extends React.Component{
                             </div>
                             <div className="org-search-bar-sort-wrapper">
                             
-                            <div id="org-default" className="org-search-bar-sort orgClick" onClick={()=>this.sortItemBy('default')}>
+                            <div id="org-student" className="org-search-bar-sort orgClick" onClick={()=>this.sortItemBy('student')}>
+                                中选优先
+                            </div>
+                            <div id="org-default" className="org-search-bar-sort" onClick={()=>this.sortItemBy('default')}>
                                 按社区顺序
                             </div>
-                            <div id="org-update_time" className="org-search-bar-sort" onClick={()=>this.sortItemBy('update_time')}>
+                            {/* <div id="org-update_time" className="org-search-bar-sort" onClick={()=>this.sortItemBy('update_time')}>
                                 按更新时间
                                 <span id="update_time-down" className="org-arrow down-0"></span>
                                 <span id="update_time-up" className="org-arrow up-0"></span>
-                            </div>
-                            <div id="org-student_count" className="org-search-bar-sort" onClick={()=>this.sortItemBy('student_count')}>
+                            </div> */}
+                            {/* <div id="org-student_count" className="org-search-bar-sort" onClick={()=>this.sortItemBy('student_count')}>
                                 按申请人数
                                 <span id="student_count-down" className="org-arrow down-0"></span>
                                 <span id="student_count-up" className="org-arrow up-0"></span>
-                            </div>
+                            </div> */}
                             </div>
                             
                             <div className="org-No">
-                                <span>共{this.state.totalProjects}个项目</span>
+                                {this.state.totalProjects > 0 ? <span>共{this.state.totalProjects}个项目</span>:""}
                                 {Math.ceil(this.state.totalProjects / 10) > 1 ? <span className="org-pageNo">第{this.state.currentPage}页 / <span style={{color:'#999999'}}>共{Math.ceil(this.state.totalProjects / 10)}页</span></span> : ''}
                                 <span className="org-pageNo-button tooltip-detail-button">申请结束</span>
                             </div> 
@@ -747,7 +782,8 @@ export default class Organisation extends React.Component{
                         
                         
                         <div>
-                            {this.state.isLoading ? '' :
+                            {this.state.isLoading ? 
+                            <Spin style={{width: "100%", height: 600}} size="Large" tip="Loading..."/> :
                                 this.state.displayProjects
                             }
                         </div>
