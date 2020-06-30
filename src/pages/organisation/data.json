@@ -2855,7 +2855,8 @@
           "student_count": 5,
           "description": "OpenCV has well-working QR codes detection and decoding algorithm. Currently it uses third party library for decoding and doesn’t have functionality for creation of QR-codes. The first task will be implementation decoder with help of OpenCV functionality. This will help to solve second task – QR-code encoder (tasks are interconnected). Student will need to research QR-codes decoding algorithms, error correction rules, data character encoding methods and to program decoder and encoder.",
           "update_time": "2020-05-14",
-          "label": "2020098"
+          "label": "2020098",
+          "student_name": "郑秋实"
         },
         {
           "name": "Data Augmentation",
