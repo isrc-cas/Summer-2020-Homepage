@@ -244,7 +244,7 @@ export default class Index extends React.Component{
                                 <div className="indexHomeOneTextWrapper">
                                    
                                     开源软件供应链点亮计划鼓励大家关注开源软件和开源社区，发掘和培养更多优秀的开发者。
-                                    现项目申请已在6月20日结束，我们将在 <span className="blue">6月30日</span>公布中选结果
+                                    现项目申请已在6月20日结束，我们已在 <span className="blue">6月30日</span>公布中选结果
                                 </div>
                               
                                
@@ -257,9 +257,9 @@ export default class Index extends React.Component{
                                     <span className="indexHomeOneListenItemText">7月4日  参与ASF开源贡献的正确姿势 - 如何成为一名合格的ASF Committer</span>
                                     <span className="indexHomeOneListenItemTextButton">了解更多</span>
                                 </div>
-                                <div className="indexHomeOneListenItem" onClick={()=>{this.goLink('started')}}>
-                                    <span className="indexHomeOneListenItemText">6月30日  项目申请公布中选结果 敬请关注</span>
-                                    <span className="indexHomeOneListenItemTextButton">活动进程</span>
+                                <div className="indexHomeOneListenItem" onClick={()=>{this.goLink('organisations?page=project')}}>
+                                    <span className="indexHomeOneListenItemText">6月30日  项目申请公布中选结果</span>
+                                    <span className="indexHomeOneListenItemTextButton">查看项目</span>
                                 </div>
                                 
                               
