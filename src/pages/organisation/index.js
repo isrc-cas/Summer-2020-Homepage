@@ -439,6 +439,8 @@ export default class Organisation extends React.Component{
     cmp(x, y){
         if (typeof x === "string" && x !== undefined && y === undefined) {
             return -1;
+        } else if (typeof x === "string" && x !== undefined && y !== undefined) {
+            return x.localeCompare(y, 'zh-Hans-CN', {sensitivity: 'accent'});
         }
         return x > y ? 1 : x < y ? -1 : 0;
     }
@@ -519,7 +521,8 @@ export default class Organisation extends React.Component{
             if (item.name.toLowerCase().includes(value.toLowerCase()) || 
                 item.title.toLowerCase().includes(value.toLowerCase()) || 
                 item.description.toLowerCase().includes(value.toLowerCase()) ||
-                item.label.toLowerCase().includes(value.toLowerCase())
+                item.label.toLowerCase().includes(value.toLowerCase()) ||
+                (item.student_name !== undefined && item.student_name.toLowerCase().includes(value.toLowerCase()))
             ) {
                 if (i < 10) {
                     divContainer.push(this.getProjectList(item.index, item, index, item.title, item.project_url ? item.project_url : item.url));
