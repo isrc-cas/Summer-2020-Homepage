@@ -259,7 +259,7 @@ export default class Index extends React.Component{
                                 </div>
                                 <div className="indexHomeOneListenItem" onClick={()=>{this.goLink('organisations?page=project')}}>
                                     <span className="indexHomeOneListenItemText">6月30日  项目申请公布中选结果</span>
-                                    <span className="indexHomeOneListenItemTextButton">查看项目</span>
+                                    <span className="indexHomeOneListenItemTextButton">中选结果</span>
                                 </div>
                                 
                               
