@@ -261,8 +261,8 @@
         {
           "name": "耗时任务 TOP N 查询（后端）",
           "difficulty": "低",
-          "mentor": "Gabry.wu",
-          "contact": "wu_shao_jie@qq.com",
+          "mentor": "nauu",
+          "contact": "zhukai@apache.org",
           "student_count": 4,
           "description": "提供后端接口。查询一定时间范围内执行时间最长的 TOP N 任务实例。",
           "update_time": "2020-05-30",
@@ -326,8 +326,8 @@
           "name": "任务空跑（前端）",
           "description": "开发前端页面，调用后端接口。在对工作流测试时，支持部分任务不执行具体任务内容，直接更新任务状态为成功。",
           "difficulty": "低",
-          "mentor": "向偲彪",
-          "contact": "790061044@qq.com",
+          "mentor": "温合民",
+          "contact": "wenhemin@apache.org",
           "student_count": 1,
           "update_time": "2020-05-16",
           "label": "2002009",
@@ -882,7 +882,7 @@
           "description": "Casbin在初始化时将规则集装载到内存中，在规则集发生变更时将该次变更持久化到文件或者数据库等媒介。我们希望在此基础上： 1）基于Raft协议实现单机、分布式环境中不同Casbin实例的规则集同步；２）探索如何将规则集分组，映射到不同节点，使特定规则集的增，删以及某个请求的权限计算都在正确的节点进行，以此减轻单机的内存压力。在未来此插件可以替代 watcher。",
           "update_time": "2020-05-28",
           "label": "2008306",
-          "student_name": "王汝坤"
+          "student_name": "王汝珅"
         },
         {
           "name": "Casbin分布式高可用（Rust）",
@@ -2066,7 +2066,7 @@
           "description": "目前手机的计算能力愈来愈高，已逐步具备进行快速模型部署的能力。PhoneBit框架基于手机GPU进行高度优化，能实现基于手机的快速前向推断。在PhoneBit开源仓库下，提供了二值图像分类网络的Android部署APP示例工程。可以参考示例工程，根据目标检测任务的特性设计APP，实现模型的应用。",
           "update_time": "2020-05-20",
           "label": "2033167",
-          "student_name": "何盛宇"
+          "student_name": "何晟宇"
         },
         {
           "name": "心血管疾病预测",
