@@ -15,7 +15,7 @@
 var data = {
     "liveurl":"https://live.bilibili.com/22221041",
     "spaceurl":"https://space.bilibili.com/578074510",
-    "livedata":"2020.7.04 20:00 开源大咖 孙金城老师直播  参与ASF开源贡献的正确姿势 - 如何成为一名合格的ASF Committer",
+    "livedata":"2020.7.18 20:00 开源大咖 吴雪老师直播  开源的商业创新",
     "speechlist":[
         {
             "title":"邀您一起玩openEuler",
@@ -144,7 +144,7 @@ var data = {
             ],  
             "speechcontent":"国内大多数人都听说过Apache Software Foundation(ASF), 同时我们国家也是世界上使用开源最多的国家之一，目前国内各个大厂也纷纷投入开源建设，但仍然有很多想参与开源建设或者是刚刚参与开源建设的同学，感觉开始开源贡献十分困难，无从下手，不知道该做什么？遇到问题如何处理？如何与人沟通等等问题的存在，因而也导致目前国内成为ASF 项目的Committer，PMC和ASF Member的人并不多，这个现象并非我们没有能力参与ASF贡献，更不是没有能力成为开源项目的Committer/PMC和ASF Member，而是对ASF了解的渠道比较少，对参与社区的原则和技巧了解匮乏，所以本次分享将和大家交流我参与社区过程中的切身的经验，并给到大家参与开源社区的基本原则和方式方法，期望能通过本次分享带你踏上ASF开源之路。",
             "ppt":"",
-            "url":"",
+            "url":"https://www.bilibili.com/video/BV1tk4y1q7EB",
         },
         {         
             "title":"开源的商业创新",
