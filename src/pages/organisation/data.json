@@ -108,11 +108,11 @@
       "slide": "apache-apisix.pdf",
       "video": "https://www.bilibili.com/video/BV12A411q7am?p=3",
       "img": "ApacheAPISIX.jpg",
-      "title": "Apache APISIX (incubating)",
+      "title": "Apache APISIX",
       "project_url": "https://cwiki.apache.org/confluence/display/APISIX/Open+Source+Promotion+Plan+-+Summer+2020+Tasks",
       "url": "http://apisix.apache.org/zh/",
       "description": "云原生，高性能，可扩展微服务API。",
-      "full_des": "Apache APISIX (incubating) 是云原生、高性能、可扩展的微服务 API 网关，它基于 Nginx 和 etcd 来实现，具备动态路由、插件热加载和 gRPC 代理和协议转换功能，更适合微服务体系下的 API 管理。",
+      "full_des": "Apache APISIX 是云原生、高性能、可扩展的微服务 API 网关，它基于 Nginx 和 etcd 来实现，具备动态路由、插件热加载和 gRPC 代理和协议转换功能，更适合微服务体系下的 API 管理。",
       "tech_tag": [
         "网关",
         "Nginx",
