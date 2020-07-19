@@ -47,9 +47,9 @@ export default class LiveShow extends React.Component{
                                 <span>开源社</span>
                                 
                         </div>
-                         <div className="indexHomeOneDakaDescription">
+                         {/* <div className="indexHomeOneDakaDescription">
                                    {this.state.data.livedata}
-                        </div>
+                        </div> */}
                         <div className="indexHomeOneDakaDescriptionTwo">
                         大咖讲座将为大家带来开源理念的系列介绍，帮助深入了解开源文化、参与开源社区的方式方法。讲座通过 Bilibili 网站进行直播，每周一期进行直播。
                         </div>
@@ -60,7 +60,7 @@ export default class LiveShow extends React.Component{
                 </div>
                 <div className="LiveShowWrapper">
                     <div className="LiveShowContent content1200">
-                        <div className="LiveShowContentTitle">即将直播</div>
+                        {/* <div className="LiveShowContentTitle">即将直播</div>
                         {
                             this.state.data.speechlist.map((item,index)=>{
                                 return (
@@ -71,7 +71,7 @@ export default class LiveShow extends React.Component{
 
                                 )
                             })
-                        }
+                        } */}
                         <div className="LiveShowContentTitle">历史直播</div>
                         {
                             this.state.data.speechlist.map((item,index)=>{

@@ -253,10 +253,10 @@ export default class Index extends React.Component{
                                     <span className="indexHomeOneListenItemTextButton">观看回放</span>
                                 </div>
                                
-                                <div className="indexHomeOneListenItem fire"  onClick={()=>{this.goLink('liveshow')}}>
+                                {/* <div className="indexHomeOneListenItem fire"  onClick={()=>{this.goLink('liveshow')}}>
                                     <span className="indexHomeOneListenItemText">7月18日  开源的商业创新</span>
                                     <span className="indexHomeOneListenItemTextButton">了解更多</span>
-                                </div>
+                                </div> */}
                                 <div className="indexHomeOneListenItem" onClick={()=>{this.goLink('organisations?page=project')}}>
                                     <span className="indexHomeOneListenItemText">6月30日  项目申请公布中选结果</span>
                                     <span className="indexHomeOneListenItemTextButton">中选结果</span>
@@ -293,9 +293,9 @@ export default class Index extends React.Component{
                                         <span className="mobiledisplaynone">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
                                         <span>开源社</span>
                                 </div>
-                                <div className="indexHomeOneDakaDescription">
+                                {/* <div className="indexHomeOneDakaDescription">
                                     {this.state.data.livedata}
-                                </div>
+                                </div> */}
                                 <div className="indexHomeOneDakaDescriptionTwo">
                                 大咖讲座将为大家带来开源理念的系列介绍，帮助深入了解开源文化、参与开源社区的方式方法。
                                 <span 
@@ -373,7 +373,7 @@ export default class Index extends React.Component{
                                 {
                                     this.state.data.speechlist.map((item,index)=>{
                                         return (
-                                           !item.url?
+                                           
                                            <div className="indexHomeLiveListItem" key={index} onClick={()=>{this.liveUrl(item.time)}}>
                                                 <div 
                                                     style={{backgroundImage:"url("+require("./../../img/index/"+item.profilelist[0].imgurl) + ")"}}
@@ -397,7 +397,7 @@ export default class Index extends React.Component{
                                                         <img src={liveTwoCode} alt="直播二维码"/>
                                                     </div>
                                                 </div>
-                                            </div>:""
+                                            </div>
                                         )
 
                                     })
