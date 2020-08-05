@@ -13,7 +13,7 @@
 import React from 'react'
 import './index.less';
 import imgWeixin from './../../img/weixin.jpg';
-import imgDiscuss from './../../img/wx_t.jpg';
+// import imgDiscuss from './../../img/wx_t.jpg';
 // import imgDiscussM from './../../img/or/wx_t_m.png';
 
 export default class Contactus extends React.Component{
