@@ -129,13 +129,13 @@ export default class Contactus extends React.Component{
                                     
                                     <img src={imgWeixin} className="contactWeixinjpg" alt="公众号"></img>
                                 </div>
-                                <div className="contentUsListItem weixindiscuss">
+                                {/* <div className="contentUsListItem weixindiscuss">
                                     <div className="contentUsListItemTitlelongS">开源点亮计划-暑期2020-微信讨论群</div>
                                     <img src={imgDiscuss} className="contactWeixinjpg discuss" alt="讨论群"></img> 
                                     <div className="contentUsListItemtip"> 
                                     / 扫描讨论群二维码时，请将手机摄像头稍朝下 /  
                                     </div>     
-                                </div>
+                                </div> */}
                             </div>
 
                         </div>
