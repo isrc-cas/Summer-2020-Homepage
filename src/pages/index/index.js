@@ -242,7 +242,7 @@ export default class Index extends React.Component{
                                 <div className="indexHomeOneTextWrapper">
                                    
                                     开源软件供应链点亮计划鼓励大家关注开源软件和开源社区，发掘和培养更多优秀的开发者。
-                                    <span className="blue">10月底</span>，组委会将公告结项报告结果，敬请关注网站更新
+                                    <span className="blue">10月底</span>，组委会将公告结项评审结果，敬请关注网站更新
                                 </div>
                               
                                
