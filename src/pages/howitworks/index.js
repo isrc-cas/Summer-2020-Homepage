@@ -34,6 +34,26 @@ export default class Howitworks extends React.Component{
         
     }
 
+    getIcon(){
+        var myDate = new Date();
+        const month = myDate.getMonth()+1;
+        const day = myDate.getDate();
+
+        this.state.data.time.forEach((item)=>{
+            var timel = item.time.split("_");
+            if(timel[0]<month){
+                item['icon']='icontimepast';
+            }else if(timel[0]>month){
+                item['icon']='icontime';
+            }else if(timel[1]<day){
+                item['icon']='icontimepast';
+            }else{
+                item['icon']='icontime';
+            }
+        })
+        return this.state.data.time
+    }
+
     componentDidMount(){
        
         const location = window.location.hash.split("to=")
@@ -121,9 +141,12 @@ export default class Howitworks extends React.Component{
                        </div>
                        <div className="HowitworksTimelineList">
                             {
-                                this.state.data.time.map((item,index)=>{
+                                this.getIcon().map((item,index)=>{
                                     return (
-                                        <div className="HowitworksTimelineItem" key={index}>
+                                        <div
+                                     
+                                        className={["HowitworksTimelineItem",item.icon].join(" ")} 
+                                             key={index} >
                                             <div className="HowitworksTimelineItemIcon"></div>
                                             <div className="HowitworksTimelineItemCons">
                                                 <div className="HowitworksTimelineItemTitle">{this.gettime(item.time1)}</div>

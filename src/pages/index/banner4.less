@@ -1,0 +1,126 @@
+.indexHomeOneBannerFour{
+    position: relative;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 4px;
+    font-family: PingFang-SC-Bold;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./../../img/index/bannerk.jpg);
+    line-height: 24px;
+    .indexHomeFourBannerTitle{
+        font-size: 50px;
+        font-weight: normal;
+        font-stretch: normal;
+        line-height: 50px;
+        letter-spacing: 1px;
+        color: #fff;
+        margin:94px 0 20px;
+    }
+    .indexHomeFourBannerCompany{
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        letter-spacing: 0px;
+        color: #80b6ff;
+        display: flex;
+        width: 82%;
+        margin: 0 auto;
+       
+        .indexHomeFourBannerCompanyItem{
+            border-right:2px solid #80b6ff;
+            padding:0 20px;
+        }
+        .indexHomeFourBannerCompanyItem:last-child{
+            border:none;
+        }
+    }
+    .indexHomeFourBannerMainTile{
+        width: 100%;
+        margin: 25px 0 50px;
+        background-color: rgba(255 ,255 ,255 , 0.05);
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        color: #ffffff;
+        padding:24px 0;
+       
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .indexHomeFourLabels{
+        position: relative;
+        color: #66ffff;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-evenly;
+        .indexHomeFourLabelItem{
+            padding: 8px;
+            position: relative;
+        }
+        .indexHomeFourLabelItem::before{
+            position: absolute;
+            width: 100%;
+            content:"";
+            height: 100%;
+            background-color: rgba(128 ,255 ,255 , 0.4);
+            transform: skew(-13deg);
+            left: 0;
+            top: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 700px)and (max-width: 1200px){
+    .indexHomeOneBannerFour{
+        .indexHomeFourBannerTitle{
+            font-size: 30px;
+        }
+        
+        .indexHomeFourBannerMainTile{
+            font-size: 16px;
+            height: auto;
+            margin: 2% 0 5%;
+            padding:2% 0;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 100px)and (max-width: 701px){
+    .indexHomeOneBannerFour{
+        .indexHomeFourBannerTitle{
+            font-size: 26px;
+            margin:5vw 0;
+            line-height: 26px;
+        }
+        .indexHomeFourBannerCompany{
+            flex-direction: column;
+            font-size: 16px;
+            .indexHomeFourBannerCompanyItem{
+                border-right:none !important;
+            }
+            
+        }
+        .indexHomeFourBannerMainTile{
+            font-size: 16px;
+            height: auto;
+            margin: 2% 0 5%;
+            padding:2% 0;
+        }
+        .indexHomeFourLabels{
+            font-size: 14px;
+            flex-wrap: wrap;
+            justify-content: center;
+            .indexHomeFourLabelItem{
+                padding: 5px;
+                margin-bottom: 4px;
+                margin-left: 4px;
+            }
+        }
+    }
+    
+}
