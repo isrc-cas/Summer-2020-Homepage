@@ -487,6 +487,7 @@ const logolistMap = {
 }
 
 var holderlist = {
+    bannerfourdata:["操作系统","虚拟化&云原生","人工智能","大数据","分布式系统","开源文化&开源商业专题","开源&示范性软件学院"],
     holder: [
         {
             img:'iscaslogo.jpg',

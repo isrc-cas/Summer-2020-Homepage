@@ -139,9 +139,19 @@
             background-color: #e6e6e6;
             top:8px;
         }
+        .HowitworksTimelineItem.icontimepast{
+            opacity: 0.5;
+        }
+        .icontimepast>.HowitworksTimelineItemIcon{
+            background-image: url(./../../img/howitworks/icon.png);
+            border: none !important;
+            background-size: contain;
+            left: -3px !important;
+        }
         .HowitworksTimelineItem{
             position: relative;
             padding-bottom: 30px;
+           
             .HowitworksTimelineItemIcon{
                 position: absolute;
                 width:18px;
@@ -151,7 +161,9 @@
                 background-color: #fff;
                 left: -4px;
                  top: 8px;
+                
             }
+            
             .HowitworksTimelineItemCons{
                 padding-left: 40px;
                 position: relative;

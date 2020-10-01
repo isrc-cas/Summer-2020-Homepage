@@ -1,23 +1,17 @@
 {
   "LICENSE": "Mulan PSL v2",
-  "bannerlistNew": [
+  "bannerlistNew":[
     {
-      "title": "浏览项目",
-      "desc": "去查看项目，与导师沟通",
-      "url": "#/organisations"
+        "title": "结项评审",
+        "desc": "10月1日开始"
     },
     {
-      "title": "申请已结束",
-      "desc": "6月20日申请截止"
+        "title": ["开源峰会","议题发布"],
+        "desc": "10月30日敬请关注"
     },
     {
-      "title": [
-        "申请截止",
-        "公布中选"
-      ],
-      "desc": [
-        "6月30日公布中选"
-      ]
+        "title": ["开源峰会","盛大开幕"],
+        "desc": "11月14日敬请期待"
     }
   ],
   "stats": [

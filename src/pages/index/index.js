@@ -12,6 +12,7 @@
 
 import React from 'react';
 import './index.less';
+import './banner4.less';
 import './index.css';
 import {logolistMap,holderlist} from './logo.js';
 import { Carousel } from 'antd';
@@ -237,14 +238,11 @@ export default class Index extends React.Component{
                                     
                                 Open Source Promotion Plan <span className="mobiledisplaynone">-</span><br className="indexHomeOneTextConsEngTwoNone"/> Summer 2020
                                 </div>
-                                {/* <div className="indexHomeOneBlueButton" onClick={()=>{this.goLink('started')}}>
-                                    <span className="indexHomeOneBlueButtonTitle">项目申请</span>
-                                    <div className="indexHomeOneBlueButtonTitleRed">官方唯一申请通道</div>
-                                </div> */}
+                               
                                 <div className="indexHomeOneTextWrapper">
                                    
                                     开源软件供应链点亮计划鼓励大家关注开源软件和开源社区，发掘和培养更多优秀的开发者。
-                                    现项目申请已在6月20日结束，我们已在 <span className="blue">6月30日</span>公布中选结果
+                                    <span className="blue">10月底</span>，组委会将公告结项评审结果，敬请关注网站更新
                                 </div>
                               
                                
@@ -253,20 +251,43 @@ export default class Index extends React.Component{
                                     <span className="indexHomeOneListenItemTextButton">观看回放</span>
                                 </div>
                                
-                                {/* <div className="indexHomeOneListenItem fire"  onClick={()=>{this.goLink('liveshow')}}>
-                                    <span className="indexHomeOneListenItemText">7月18日  开源的商业创新</span>
-                                    <span className="indexHomeOneListenItemTextButton">了解更多</span>
-                                </div> */}
-                                <div className="indexHomeOneListenItem" onClick={()=>{this.goLink('organisations?page=project')}}>
-                                    <span className="indexHomeOneListenItemText">6月30日  项目申请公布中选结果</span>
-                                    <span className="indexHomeOneListenItemTextButton">中选结果</span>
+                                <div className="indexHomeOneListenItem" onClick={()=>{this.goLink('started')}}>
+                                    <span className="indexHomeOneListenItemText">9月30日  学生提交最终项目报告截止日期</span>
+                                    <span className="indexHomeOneListenItemTextButton">活动进程 </span>
+                                </div>
+                                <div className="indexHomeOneListenItem cursorNone">
+                                    <span className="indexHomeOneListenItemText">11月14日  开源软件供应链2020峰会 盛大开幕</span>
+                                    <span className="indexHomeOneListenItemTextButton">敬请期待 </span>
                                 </div>
                                 
                               
                             </div>
-                                {/* <div className="indexHomeOneImage"></div> */}
+                               
 
                             </div>
+                    </div>
+                    <div className="indexHomeOneBanner indexHomeOneBannerFour">
+                        <div className="indexHomeFourBanner content1200">
+                            <div className="indexHomeFourBannerTitle">重磅! “开源软件供应链 2020 峰会”</div>
+                            <div className="indexHomeFourBannerCompany">
+                                <div className="indexHomeFourBannerCompanyItem">中国科学院软件研究所</div>
+                                <div className="indexHomeFourBannerCompanyItem">openEuler 社区</div>
+                                <div className="indexHomeFourBannerCompanyItem">中科院软件研究所南京软件技术研究院</div>
+                                <div className="indexHomeFourBannerCompanyItem">华为技术有限公司</div>
+                            </div>
+                            <div className="indexHomeFourBannerMainTile">峰会将围绕现代软件构建模式的关键供应关系网络——开源软件供应链展开深入解读，论道开源最新技术前沿话题</div>
+                            <div className="indexHomeFourLabels">
+                                {
+                                    this.state.holderlist.bannerfourdata.map((item,index)=>{
+                                        return (
+                                            <div className="indexHomeFourLabelItem" key={index}>
+                                                {item}
+                                            </div>
+                                        )
+                                    })
+                                }
+                            </div>
+                        </div>
                     </div>
                     <div className="indexHomeOneBanner indexHomeOneBannerThree">
                         <div className="indexHomeThreeBanner content1200">
