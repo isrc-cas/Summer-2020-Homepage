@@ -19,6 +19,10 @@ const listLinks = [
         title:'organisations',
     },
     {
+        name:'2020峰会',
+        title:'summitmeeting',
+    },
+    {
         name:'活动规划',
         title:'howitworks',
     },
@@ -42,6 +46,7 @@ const linkDataMap = {
     index:'首页',
     howitworks:'活动规划',
     organisations:'开源社区',
+    summitmeeting:'2020峰会',
     qa:'热点问题',
     contactus:'帮助',
     liveshow:'大咖说开源',

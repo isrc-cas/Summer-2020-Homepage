@@ -101,7 +101,7 @@ export default class Header extends React.Component{
                                 <NavLink key={index} to={'/'+item.title} >
                                     <div  
                                             
-                                            className={["osscListItem",this.state.pageflag===item.title?'left0':''].join(" ")}>
+                                            className={["osscListItem",item.title,this.state.pageflag===item.title?'left0':''].join(" ")}>
                                         
                                                 <span> {item.name} </span>
                                         
@@ -122,7 +122,7 @@ export default class Header extends React.Component{
                                 //<NavLink key={index} to={'/'+item.title}>
                                 <div key={index}
                                 onClick={()=>this.getLink(item.title)}
-                                        className={["osscListItem",this.state.pageflag===item.title?'left0':''].join(" ")}>
+                                        className={["osscListItem",item.title,this.state.pageflag===item.title?'left0':''].join(" ")}>
                                        
                                                 <span> {item.name}</span>
 

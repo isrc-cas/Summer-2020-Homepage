@@ -13,7 +13,10 @@
 import React from 'react';
 // import rd3 from 'rd3';
 import BarChart from './bar';
+import PieChart from './pie';
+import StackChart from './stackbar';
 import data from './data.json';
+import {Row,Col} from 'antd';
 
 import './index.less';
 
@@ -78,6 +81,62 @@ export default class Stats extends React.Component{
                <div className="indexStatsSecond">
                     <div className="statsWrapper">
                       <div className="content1200">
+                        <div className="statsDataTitle">中期考核数据</div>
+                        {
+                          window.innerWidth > 1200 ?
+                          (
+                          <div className="midterm-legend">
+                            <span className="midterm-pass">通过中期考核的项目</span>
+                            <span className="midterm-fail">未通过中期考核的项目</span>
+                          </div>
+                          ) :
+                          (
+                          <div className="midterm-legend">
+                            <div className="midterm-pass">通过中期考核的项目</div>
+                            <div className="midterm-fail">未通过中期考核的项目</div>
+                          </div> 
+                          )
+                        }
+                        {
+                          window.innerWidth > 1200 ?
+                            (
+                              <Row>
+                                <Col span={12}>
+                                  <Row>
+                                    <Col span={12}>
+                                      <PieChart/>
+                                    </Col>
+                                    <Col span={12}>
+                                      <div className="pie-label">
+                                        <div>中期考核通过率 90.2%</div> 
+                                        <div>共 167</div>
+                                      </div>
+                                    </Col> 
+                                  </Row>
+                                  <div className="pie-text">原申请中选项目共185</div>
+                                </Col>
+                                <Col span={12}><StackChart/></Col>
+                              </Row>
+                            ) :
+                            (
+                              <div>
+                                <Row>
+                                  <Col span={12}>
+                                    <PieChart/>
+                                  </Col>
+                                  <Col span={12}>
+                                    <div className="pie-label">
+                                      <div>中期考核通过率 90.2%, 共 167</div>
+                                    </div>
+                                  </Col> 
+                                </Row>
+                                <div className="pie-text">原申请中选项目共185</div>
+                                <StackChart/> 
+                              </div>
+                            )
+                        }
+                        
+                        
                         <div className="statsDataTitle">活动数据统计</div>
                           {
                             this.state.data.stats.map(

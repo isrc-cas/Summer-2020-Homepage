@@ -255,9 +255,9 @@ export default class Index extends React.Component{
                                     <span className="indexHomeOneListenItemText">9月30日  学生提交最终项目报告截止日期</span>
                                     <span className="indexHomeOneListenItemTextButton">活动进程 </span>
                                 </div>
-                                <div className="indexHomeOneListenItem cursorNone">
+                                <div className="indexHomeOneListenItem "  onClick={()=>{this.goLink('summitmeeting')}}>
                                     <span className="indexHomeOneListenItemText">11月14日  开源软件供应链2020峰会 盛大开幕</span>
-                                    <span className="indexHomeOneListenItemTextButton">敬请期待 </span>
+                                    <span className="indexHomeOneListenItemTextButton">了解更多 </span>
                                 </div>
                                 
                               
@@ -267,7 +267,7 @@ export default class Index extends React.Component{
                             </div>
                     </div>
                     <div className="indexHomeOneBanner indexHomeOneBannerFour">
-                        <div className="indexHomeFourBanner content1200">
+                        <div className="indexHomeFourBanner content1200"  onClick={()=>{this.goLink('summitmeeting')}}>
                             <div className="indexHomeFourBannerTitle">重磅! “开源软件供应链 2020 峰会”</div>
                             <div className="indexHomeFourBannerCompany">
                                 <div className="indexHomeFourBannerCompanyItem">中国科学院软件研究所</div>
@@ -287,6 +287,7 @@ export default class Index extends React.Component{
                                     })
                                 }
                             </div>
+                            <div className="SummitMeetTextOne" style={{cursor:"pointer"}}>专题论坛议题火热征集中！了解更多</div>
                         </div>
                     </div>
                     <div className="indexHomeOneBanner indexHomeOneBannerThree">

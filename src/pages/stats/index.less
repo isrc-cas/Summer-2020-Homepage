@@ -9,7 +9,63 @@
  * MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
  * See the Mulan PSL v2 for more details.
  */
-
+.pie-text {
+    font-size: 20px;
+    text-align: center;
+}
+.pie-label {
+    height: 100%;
+    padding-top: 40%;
+    font-size: 20px;
+    color:rgb(0,174,230);
+}
+.pie-label::before {
+    content: "";/*CSS伪类用法*/
+    position:absolute;
+    margin: 15px 0 0 -70px;
+    width: 63px;
+    height: 1px;
+    background-color: rgb(64,176,255);
+}
+.midterm-legend {
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 30px;
+    .midterm-pass {
+        color: rgb(38,202,255);
+    }
+    .midterm-fail {
+        color: rgb(91,114,255);
+    }
+    .midterm-pass::before {
+        content: "";
+        background-color: rgb(38,202,255);
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        margin: 4px 0 0 -20px;
+    }
+    .midterm-fail::before {
+        content: "";
+        background-color: rgb(84,108,255);
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        margin: 4px 0 0 -20px;
+    }
+    span {
+        padding-left: 30px;
+    }
+}
+@media screen and (min-width: 300px)and (max-width: 1200px) {
+    .pie-text, .pie-label, .midterm-legend {
+        font-size: 14px;
+    }
+    .midterm-legend {
+        text-align: left;
+        padding-left: 10vw;
+    }
+}
 .indexStats{
     position: relative;
     .statsQAButton {
@@ -151,7 +207,7 @@
     text-align: center;
     font-size: 24px;
     color: #333;
-    padding: 60px 0 40px 0;
+    padding: 60px 0 30px 0;
 }
 .statsTotalDesc {
     text-align: center;
