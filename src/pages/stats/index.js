@@ -87,13 +87,13 @@ export default class Stats extends React.Component{
                           (
                           <div className="midterm-legend">
                             <span className="midterm-pass">通过中期考核的项目</span>
-                            <span className="midterm-fail">原申请未中选项目</span>
+                            <span className="midterm-fail">未通过中期考核的项目</span>
                           </div>
                           ) :
                           (
                           <div className="midterm-legend">
                             <div className="midterm-pass">通过中期考核的项目</div>
-                            <div className="midterm-fail">原申请未中选项目</div>
+                            <div className="midterm-fail">未通过中期考核的项目</div>
                           </div> 
                           )
                         }

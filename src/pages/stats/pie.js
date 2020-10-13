@@ -22,7 +22,7 @@ export default class PieChart extends React.Component{
       loading: true,
       series: [18,167],
       options: {
-        labels: ['原申请未中选项目','通过中期考核的项目'],
+        labels: ['未通过中期考核的项目','通过中期考核的项目'],
         fill: {
           colors: ['#546cff', '#26caff']
         },
