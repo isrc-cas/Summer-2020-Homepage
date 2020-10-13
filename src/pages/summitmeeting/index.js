@@ -61,11 +61,11 @@ export default class Summitmeeting extends React.Component{
                     <div className="SummitMeetTwoContent">
                             <div className="SummitMeetTwoContentRight">
                                 <div className="SummitMeetTwoContentRightOne">开源软件供应链 2020 峰会</div>
-                                <div className="SummitMeetTwoContentRightTwo">2020 年 11月 14日  于南京盛大开幕</div>
+                                <div className="SummitMeetTwoContentRightTwo">2020年11月14日  于南京盛大开幕</div>
                             </div>
                             <div className="SummitMeetTwoContentMiddle">
                                 <span>峰会将围绕现代软件构建模式的关键供应关系网络 — 开源软件供应链展开深入解读，</span><br/>
-                                <span>邀请全国各大高校及研究机构老师代表、企业技术专家、开源社区大咖等齐聚南京，共同论道开源最新技术前沿话题及发展趋势等</span>
+                                <span>邀请全国各大高校及研究机构老师代表、企业技术专家、开源社区大咖等齐聚南京，共同论道开源最新技术前沿话题及发展趋势</span>
                             </div>
                     </div>
                 </div>
