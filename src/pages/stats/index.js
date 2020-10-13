@@ -109,7 +109,7 @@ export default class Stats extends React.Component{
                                     <Col span={12}>
                                       <div className="pie-label">
                                         <div>通过中期考核的项目 90.2%</div> 
-                                        <div>167</div>
+                                        <div>共 167</div>
                                       </div>
                                     </Col> 
                                   </Row>
@@ -127,7 +127,7 @@ export default class Stats extends React.Component{
                                   </Col>
                                   <Col span={12}>
                                     <div className="pie-label">
-                                      <div>通过中期考核的项目 90.2% 共167</div>
+                                      <div>通过中期考核的项目 90.2% 共 167</div>
                                     </div>
                                   </Col> 
                                 </Row>
