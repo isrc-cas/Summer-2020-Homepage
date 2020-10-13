@@ -108,14 +108,13 @@ export default class Stats extends React.Component{
                                     </Col>
                                     <Col span={12}>
                                       <div className="pie-label">
-                                        <div>通过中期考核的项目 90.2%</div> 
+                                        <div>中期考核通过率 90.2%</div> 
                                         <div>共 167</div>
                                       </div>
                                     </Col> 
                                   </Row>
                                   <div className="pie-text">原申请中选项目共185</div>
                                 </Col>
-                                
                                 <Col span={12}><StackChart/></Col>
                               </Row>
                             ) :
@@ -127,7 +126,7 @@ export default class Stats extends React.Component{
                                   </Col>
                                   <Col span={12}>
                                     <div className="pie-label">
-                                      <div>通过中期考核的项目 90.2% 共 167</div>
+                                      <div>中期考核通过率 90.2%, 共 167</div>
                                     </div>
                                   </Col> 
                                 </Row>
