@@ -287,7 +287,7 @@ export default class Index extends React.Component{
                                     })
                                 }
                             </div>
-                            <div className="SummitMeetTextOne">专题论坛议题火热征集中！了解更多</div>
+                            <div className="SummitMeetTextOne" style={{cursor:"pointer"}}>专题论坛议题火热征集中！了解更多</div>
                         </div>
                     </div>
                     <div className="indexHomeOneBanner indexHomeOneBannerThree">
