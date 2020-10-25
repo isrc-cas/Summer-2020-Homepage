@@ -30,12 +30,57 @@ export default class Announcement extends React.Component{
        }
     }
     componentDidMount(){
-        this.getPageData(1);
         this.setState({
             total:this.state.data.length
         })
+        this.getcurrentpage()
     }
+    getcurrentpage(){
+        const proid = parseInt(window.location.hash.split("announcement#")[1]);
+        let  pagenow = this.state.pagenow;
+        let indexnum = 0;
+        if(proid> 0){
+            
+            var len =  this.state.data.length;
+            for(var i=0;i<len;i++){
+               
+                if(this.state.data[i].projectid === proid){
+                    indexnum = i;
+                    break;
+                }
+            }
+            pagenow =  Math.ceil(indexnum/this.state.pagesize);
+            this.getPageData(pagenow);
+            let position = 414 + indexnum%this.state.pagesize*54
+            console.log(position)
+            window.scrollTo({
+                top: position,
+                left: 0,
+                behavior: 'smooth'
+            });
+            this.setState({
+                pagenow
+            })
+            
+            window.location.hash = "#/announcement"
 
+        }else{
+            this.getPageData(1);
+        }
+
+       
+
+        
+        
+        
+        
+
+        
+
+
+        
+        
+    }
     showDescData(id,index,len){
         this.setState({
             currentProject:id
@@ -132,6 +177,7 @@ export default class Announcement extends React.Component{
                                     this.state.showdata.map((ele,index)=>{
                                        return (
                                         <div className={["AWCTableLine",ele.projectid].join(" ")} key={index}>
+                                           
                                             <div className="AWCTableStudentName">{ele.name}</div>
                                             <div className="AWCTableCommunityName" >
                                                 <span onClick={()=>{this.showDescData(ele.projectid,index,ele.communitydesc.length)}}>{ele.communityname}</span>
