@@ -25,7 +25,7 @@ export default class StackChart extends React.Component{
         data: [54,85,28]
       }, {
         name: '未通过中期考核的项目',
-        data: [8,12,2]
+        data: [8,8,2]
       }],
       options: {
         chart: {
