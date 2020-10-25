@@ -187,9 +187,9 @@ export default class Announcement extends React.Component{
                                                 </div>
                                             </div>
                                             <div className="AWCTableProjectName">
-                                                <span onClick={()=>{this.showDescData(ele.projectid,index,ele.projectdesc.length)}}>{ele.projectname}</span>
+                                                <span onClick={()=>{this.showProjectDescData(ele.projectid,index,ele.projectdesc.length)}}>{ele.projectname}</span>
                                                 <div className={["AWCTableProjectDesc",this.state.currentProjectP === ele.projectid ? 'show':''].join(" ")} >
-                                                    <div className="AWCTableCommunityDescclose" onClick={()=>{this.showDescData(0)}}></div>
+                                                    <div className="AWCTableCommunityDescclose" onClick={()=>{this.showProjectDescData(0)}}></div>
                                                     <span>{ele.projectdesc}</span>
                                                 </div>
                                             </div>
