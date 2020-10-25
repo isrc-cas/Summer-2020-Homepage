@@ -51,18 +51,20 @@ export default class Announcement extends React.Component{
             }
             pagenow =  Math.ceil(indexnum/this.state.pagesize);
             this.getPageData(pagenow);
-            let position = 414 + indexnum%this.state.pagesize*54
+            let position = 800 + indexnum%this.state.pagesize*54
             console.log(position)
-            window.scrollTo({
-                top: position,
-                left: 0,
-                behavior: 'smooth'
-            });
+           
             this.setState({
                 pagenow
             })
+            setTimeout(()=>{
+                window.scrollTo({
+                    top: position,
+                    left: 0,
+                    behavior: 'smooth'
+                });
+            },1000)
             
-            window.location.hash = "#/announcement"
 
         }else{
             this.getPageData(1);
