@@ -20,7 +20,34 @@ export default class Summitmeeting extends React.Component{
        super(props)
        this.state ={
         holderlist,
-        title:["操作系统","虚拟化&云原生","人工智能","大数据","分布式系统"]
+        title:["操作系统","虚拟化&云原生","人工智能","大数据","分布式系统"],
+        datalist:[
+           [
+            {
+                "system":"操作系统&编译器"
+            },
+            {
+                "yun":"虚拟化&云原生"
+            },
+            {
+                "ai":"人工智能"
+            },
+            {
+                "bigdata":"大数据"
+            },
+            {
+                "distributedsystem":"分布式系统"
+            }
+           ],
+           [
+            {
+                "culture":"开源文化&开源商业"
+            },
+            {
+                "education":"开源&教育"
+            }, 
+           ]
+        ]
        }
     }
    
@@ -71,7 +98,7 @@ export default class Summitmeeting extends React.Component{
                 </div>
                 <div className="SummitMeetThree">
                     <div className="SummitMeetThreeContent">
-                        <div className="SummitMeetThreeContentTitle">7 大专题论坛议题火热征集中 ...</div>
+                        <div className="SummitMeetThreeContentTitle">7 大专题论坛分会场</div>
                         <div className="SummitMeetThreeTableOne">
                             <div className="SummitMeetThreeTableOneTile">
                                 <span className="SummitMeetThreeTableOneTileText">技术专题论坛</span>
