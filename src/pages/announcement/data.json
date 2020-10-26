@@ -1,7 +1,7 @@
 [
   {
     "name": "白泽平",
-    "communityname": "Apache APISIX (incubating)",
+    "communityname": "Apache APISIX",
     "communitylink": "",
     "communitydesc": "Apache APISIX 是云原生、高性能、可扩展的微服务 API 网关，它基于 Nginx 和 etcd 来实现，具备动态路由、插件热加载和 gRPC 代理和协议转换功能，更适合微服务体系下的 API 管理。",
     "projectname": "Dashboard API 身份验证模块",
@@ -817,7 +817,7 @@
   },
   {
     "name": "刘瀚文",
-    "communityname": "Apache APISIX (incubating)",
+    "communityname": "Apache APISIX",
     "communitylink": "",
     "communitydesc": "Apache APISIX 是云原生、高性能、可扩展的微服务 API 网关，它基于 Nginx 和 etcd 来实现，具备动态路由、插件热加载和 gRPC 代理和协议转换功能，更适合微服务体系下的 API 管理。",
     "projectname": "Dashboard 增加 commit 内容检查",
@@ -997,7 +997,7 @@
   },
   {
     "name": "乔羽佳",
-    "communityname": "Apache APISIX (incubating)",
+    "communityname": "Apache APISIX",
     "communitylink": "",
     "communitydesc": "Apache APISIX 是云原生、高性能、可扩展的微服务 API 网关，它基于 Nginx 和 etcd 来实现，具备动态路由、插件热加载和 gRPC 代理和协议转换功能，更适合微服务体系下的 API 管理。",
     "projectname": "Dashboard 结合 GitHub Actions 实现 代码格式化、构建测试",
@@ -1093,7 +1093,7 @@
   },
   {
     "name": "孙嘉骏",
-    "communityname": "Apache APISIX (incubating)",
+    "communityname": "Apache APISIX",
     "communitylink": "",
     "communitydesc": "Apache APISIX 是云原生、高性能、可扩展的微服务 API 网关，它基于 Nginx 和 etcd 来实现，具备动态路由、插件热加载和 gRPC 代理和协议转换功能，更适合微服务体系下的 API 管理。",
     "projectname": "持续集成（CI）系统从 travis 迁移到 GitHub actions",
@@ -1345,7 +1345,7 @@
   },
   {
     "name": "吴舒旸",
-    "communityname": "Apache APISIX (incubating)",
+    "communityname": "Apache APISIX",
     "communitylink": "",
     "communitydesc": "Apache APISIX 是云原生、高性能、可扩展的微服务 API 网关，它基于 Nginx 和 etcd 来实现，具备动态路由、插件热加载和 gRPC 代理和协议转换功能，更适合微服务体系下的 API 管理。",
     "projectname": "支持 etcd v3 协议",
@@ -1441,7 +1441,7 @@
   },
   {
     "name": "徐泽凡",
-    "communityname": "Apache APISIX (incubating)",
+    "communityname": "Apache APISIX",
     "communitylink": "",
     "communitydesc": "Apache APISIX 是云原生、高性能、可扩展的微服务 API 网关，它基于 Nginx 和 etcd 来实现，具备动态路由、插件热加载和 gRPC 代理和协议转换功能，更适合微服务体系下的 API 管理。",
     "projectname": "网站本地化",
