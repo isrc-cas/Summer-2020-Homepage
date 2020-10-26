@@ -104,10 +104,17 @@
                 background-size: 45%;
                 .SummitMeetTwoContentRight {
                     .SummitMeetTwoContentRightOne{
-                        font-size: 4vw;
+                        font-size: 30px!important;
+                        margin-bottom: 18px !important;
                     }
                     .SummitMeetTwoContentRightTwo{
-                        font-size: 3vw !important;
+                        font-size: 17px !important
+                    }
+                    .SummitMeetTwoContentTwocode{
+                        .SummitMeetTwoContentTwocodePng{
+                            width: 13vw !important;
+                            height: 13vw !important;
+                        }
                     }
     
                 }
@@ -120,20 +127,35 @@
             
         }
         .SummitMeetThree{
-            height: 700px !important;
+            
             .SummitMeetThreeContent{
                 width: 95vw !important;
                 .SummitMeetThreeContentTitle{
                     font-size: 32px !important;
                 }
-                .SummitMeetThreeTableContent .SummitMeetThreeTableItem{
-                    width: 18vw;
-                    height: 18vw;
-                    font-size: 14px;
-                    .SummitMeetThreeTableItemContent .SummitMeetThreeTableItemContentImage{
-                        width: 35%;
-                        height: 35%;
-                        margin:20px auto 10px !important;
+                
+                .SummitMeetThreeTableContent{
+                    .SummitMeetThreeTableContentTitle{
+                        font-size: 18px!important;
+                    }
+                    .SummitMeetThreeTableItem{
+                        width: 18vw!important;
+                        height: 18vw!important;
+                        .SummitMeetThreeTableItemContent{
+                            padding: 30px 0 0 16px!important;
+                            
+                            .SummitMeetThreeTableItemContenttitle{
+                                font-size: 16px !important;
+                            }
+    
+                            .SummitMeetThreeTableItemContentcommunity,
+                            .SummitMeetThreeTableItemContentName{
+                                font-size: 14px !important;
+                                line-height: 15px;
+                                padding-top:8px !important;
+                            }
+                        }
+                      
                     }
                 }
             }
@@ -181,17 +203,25 @@
 
     .Summitmeeting{
         .SummitMeetTwo{
-            height: 450px !important;
-            
+            height: 530px !important;
+            padding-top: 20px !important;
             .SummitMeetTwoContent{
                 width: 95vw !important;
-                background-size: 45%;
-                background-position: 50% 40% !important;
+                background-size: 44vw !important;
+                background-position: 50% 72% !important;
                 .SummitMeetTwoContentRight {
                     .SummitMeetTwoContentRightOne{
                         font-size: 18px !important;
                         text-align: center;
                         margin-bottom: 10px !important;
+                    }
+                    .SummitMeetTwoContentTwocode{
+                        font-size: 14px !important;
+                        text-align: center;
+                        .SummitMeetTwoContentTwocodePng{
+                            width: 15vw !important;
+                            height: 15vw !important;
+                        }
                     }
                     .SummitMeetTwoContentRightTwo{
                         font-size: 14px !important;
@@ -208,21 +238,48 @@
             
         }
         .SummitMeetThree{
-            height: 700px !important;
+            
             .SummitMeetThreeContent{
                 width: 95vw !important;
                 
                 .SummitMeetThreeContentTitle{
                     font-size: 24px !important;
                 }
-                .SummitMeetThreeTableContent .SummitMeetThreeTableItem{
-                    width: 18vw!important;
-                    height: 32vw!important;
-                    font-size: 13px!important;
-                    .SummitMeetThreeTableItemContent .SummitMeetThreeTableItemContentImage{
-                        width: 50%!important;
-                        height: 50%!important;
-                        margin:5px auto !important;
+                
+                .SummitMeetThreeTableContent{
+                    
+                    .SummitMeetThreeTableModal{
+                        margin-left: 0 !important;
+                        .SummitMeetThreeTableModalWrapper{
+                            font-size: 16px;
+                        }
+                    }
+                    .SummitMeetThreeTableContentTitle{
+                        font-size: 16px!important;
+                        margin-top: 20px;
+                    }
+                    .SummitMeetThreeTableItem{
+                        width: 18vw!important;
+                        height: 24vw!important;
+                        font-size: 13px!important;
+                        
+                            .SummitMeetThreeTableItemContent{
+                                padding: 20px 0 0 14px!important;
+                                .SummitMeetThreeTableItemContenttitle{
+                                    font-size: 13px !important;
+                                }
+        
+                                .SummitMeetThreeTableItemContentcommunity,
+                                .SummitMeetThreeTableItemContentName{
+                                    font-size: 13px !important;
+                                    padding-top: 4px!important;
+                                    line-height:15px;
+                                }
+                            }
+                        
+                    }
+                    .SummitMeetThreeTableItem.greyback{
+                        display: none;
                     }
                 }
 
@@ -241,4 +298,64 @@
 
     }
     
+}
+
+@media screen and (min-width: 100px)and (max-width:501px){
+    .Summitmeeting{
+        .SummitMeetTwo .SummitMeetTwoContent{
+            .SummitMeetTwoContentTwocode.phonenone{
+                display: none;
+            }
+            .SummitMeetTwoContentTwocode.phoneshow{
+                display: block !important;
+                .SummitMeetTwoContentButton{
+                    color: white;
+                    line-height: 40px;
+                    height: 40px;
+                    width: 150px;
+                    font-size: 18px;
+                    margin: 10px;
+                    background: #5959ff;
+                    border-style: solid;
+                    border-width: 0.1px;
+                    border-radius: 4px;
+                    text-align: center;
+                    font-weight: bolder;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+    .SummitMeetThree{
+            
+        .SummitMeetThreeContent{
+           
+            
+            
+            
+            .SummitMeetThreeTableContent{
+                .SummitMeetThreeTableModal .SummitMeetThreeTableModalWrapper{
+                    font-size: 12px !important;
+                }
+               .SummitMeetThreeTableContentWrapper{
+                flex-wrap: wrap;
+                .SummitMeetThreeTableItem{
+                    width: 40vw!important;
+                    height: 35vw!important;
+                    font-size: 13px!important;
+                    margin-bottom: 2px;
+                        .SummitMeetThreeTableItemContent{
+                            padding:20px 0 0 14px;
+                            
+                        }
+                    
+                }
+               }
+                
+              
+            }
+
+            
+        }
+    }
 }
