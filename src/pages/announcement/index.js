@@ -64,6 +64,7 @@ export default class Announcement extends React.Component{
                     behavior: 'smooth'
                 });
             },1000)
+            window.location.hash = "#/announcement"
             
 
         }else{
@@ -83,13 +84,15 @@ export default class Announcement extends React.Component{
         
         
     }
-    showDescData(id,index,len){
+    showDescData(id,e){
+        e.stopPropagation();
         this.setState({
-            currentProject:id
+            currentProject:id,
+            currentProjectP:0
         })
-        if(id === 0){         
-            return;
-        }
+        // if(id === 0){         
+        //     return;
+        // }
         
         // if(index > 15 && len > 800){
         //     const domele = document.getElementsByClassName("AWCTableLine 2036398")[0].children[1].children[1]
@@ -100,14 +103,23 @@ export default class Announcement extends React.Component{
         
         
     }
-
-    showProjectDescData(id,index,len){
+    closeModal(){
+        console.log(0)
         this.setState({
-            currentProjectP:id
+            currentProject:0,
+            currentProjectP:0
         })
-        if(id === 0){         
-            return;
-        }
+    }
+
+    showProjectDescData(id,e){
+        e.stopPropagation();
+        this.setState({
+            currentProjectP:id,
+            currentProject:0,
+        })
+        // if(id === 0){         
+        //     return;
+        // }
        
         // if(index > 15 && len > 800){
         //     const domele = document.getElementsByClassName("AWCTableLine 2036398")[0].children[2].children[1]
@@ -150,9 +162,12 @@ export default class Announcement extends React.Component{
     render(){
        
         return(
-            <div className="Announcement">
+            <div className="Announcement" onClick={()=>{this.closeModal()}}>
                 <div className="AnnouncementBanner">
-                   
+                   <div className="content1200">
+                   <div className="AnnouncementBannerText">结项公示</div>
+                   <div className="AnnouncementBannerTexttwo">结项公示已结束，欢迎关注！</div>
+                   </div>
                 </div>
                 <div className="AnnouncementContent">
                     <div className="AnnouncementWrapper  content1200">
@@ -182,16 +197,16 @@ export default class Announcement extends React.Component{
                                            
                                             <div className="AWCTableStudentName">{ele.name}</div>
                                             <div className="AWCTableCommunityName" >
-                                                <span onClick={()=>{this.showDescData(ele.projectid,index,ele.communitydesc.length)}}>{ele.communityname}</span>
+                                                <span onClick={(e)=>{this.showDescData(ele.projectid,e)}}>{ele.communityname}</span>
                                                 <div className={["AWCTableCommunityDesc",this.state.currentProject === ele.projectid ? 'show':''].join(" ")} >
-                                                    <div className="AWCTableCommunityDescclose" onClick={()=>{this.showDescData(0)}}></div>
+                                                    <div className="AWCTableCommunityDescclose" onClick={(e)=>{this.showDescData(0,e)}}></div>
                                                     <span>{ele.communitydesc}</span>
                                                 </div>
                                             </div>
                                             <div className="AWCTableProjectName">
-                                                <span onClick={()=>{this.showProjectDescData(ele.projectid,index,ele.projectdesc.length)}}>{ele.projectname}</span>
+                                                <span onClick={(e)=>{this.showProjectDescData(ele.projectid,e)}}>{ele.projectname}</span>
                                                 <div className={["AWCTableProjectDesc",this.state.currentProjectP === ele.projectid ? 'show':''].join(" ")} >
-                                                    <div className="AWCTableCommunityDescclose" onClick={()=>{this.showProjectDescData(0)}}></div>
+                                                    <div className="AWCTableCommunityDescclose" onClick={(e)=>{this.showProjectDescData(0,e)}}></div>
                                                     <span>{ele.projectdesc}</span>
                                                 </div>
                                             </div>
