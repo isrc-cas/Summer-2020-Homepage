@@ -14,7 +14,9 @@ import React from 'react';
 import './index.less';
 import {holderlist} from './../index/logo.js';
 import './../index/banner4.less';
-import data from './list.json'
+import data from './list.json';
+import twocode from './../../img/stats/twocode.png';
+import daoxiangpng from './../../img/stats/baoming.png'
 export default class Summitmeeting extends React.Component{
     constructor(props){
        super(props)
@@ -81,6 +83,11 @@ export default class Summitmeeting extends React.Component{
                             <div className="SummitMeetTwoContentRight">
                                 <div className="SummitMeetTwoContentRightOne">开源软件供应链 2020 峰会</div>
                                 <div className="SummitMeetTwoContentRightTwo">2020年11月14日  于南京盛大开幕</div>
+                                <div className="SummitMeetTwoContentTwocode">
+                                    <img className="SummitMeetTwoContentTwocodePng" alt="twocode" src={twocode}></img>
+                                    <img className="SummitMeetTwoContentDaoxiang" alt="daoxiangpng" src={daoxiangpng}></img>
+                                    <span>手机扫一扫报名！</span>
+                                </div>
                             </div>
                             <div className="SummitMeetTwoContentMiddle">
                                 <span>峰会将围绕现代软件构建模式的关键供应关系网络 — 开源软件供应链展开深入解读，</span><br/>
@@ -91,7 +98,7 @@ export default class Summitmeeting extends React.Component{
                 <div className="SummitMeetThree">
                     <div className="SummitMeetThreeContent">
                         <div className="SummitMeetThreeContentTitle">7 大专题论坛分会场</div>
-                        <div className="SummitMeetThreeTableOne">
+                        <div className="SummitMeetThreeTableOne tech">
                             <div className="SummitMeetThreeTableOneTile">
                                 <span className="SummitMeetThreeTableOneTileText">技术专题论坛</span>
                                 <span className="SummitMeetThreeTableOneTileText backimg"></span>
