@@ -33,7 +33,7 @@
                 },
                 {
                     "name":"巨震",
-                    "community":"ROS Navigation 2",
+                    "community":"ROS Navigation",
                     "title":"导航定位技术剖析",
                     "profile":"",
                     "desc":""
@@ -99,13 +99,7 @@
                     "desc":"Chatopera Language Understanding Service，Chatopera 语义理解服务。即Clause，它是帮助企业快速而低成本的获得好用的语义理解服务的系统，让机器更理解人。Clause 是 Chatopera 团队自主研发及使用其他商业友好的开源软件的方式实现的，Clause 为实现企业聊天机器人提供强大的大脑，包括客服、智能问答和自动流程服务。Clause 利用深度学习，自然语言处理和搜索引擎技术，让机器更加理解人。 "
                 },
                
-                {
-                    "name":"张立波",
-                    "community":"ISCAS",
-                    "title":"",
-                    "profile":"",
-                    "desc":""
-                },
+
                 {
                     "name":"孙金城",
                     "community":"Apache Flink",
@@ -113,13 +107,7 @@
                     "profile":"孙金城（金竹），2011年加入阿里，9年的阿里工作中，主导过很多内部核心系统，如：阿里集团行为日志，阿里郎，视频转码，文档转换，流计算等云服务。在2016年初开始了解Apache Flink社区，由初期的参与社区开发到后来逐渐主导具体模块的开发，到负责Apache Flink Python API(PyFlink) 的建设。 目前是 阿里巴巴 Tech Lead， Committer for Apache Beam , PMC Member of Apache Flink and Apache IoTDB and Apache Member.",
                     "desc":"Apache Flink 是一个在无界和有界数据流上进行有状态计算的分布式框架，在实时数据仓库，机器学习，数据分析，事件驱动等场景广泛应用，为更好的进行生态支持，自Apache Flink 1.9版本开始，在Apache Beam的基础上增加对Python语言的支持。Python作为TOP3的流行语言，在机器学习，科学计算等领域有着广泛的用户群，Python与Flink的结合不仅将Python的丰富生态功能(比如，Pandas)集成到了Flink，而且增强了Python的分布式计算能力，本次分享将为大家细致剖析PyFlink的核心技术。"
                 },
-                {
-                    "name":"屈晟",
-                    "community":"OpenCV",
-                    "title":"",
-                    "profile":"",
-                    "desc":""
-                },
+
                 {
                     "name":"王龙步",
                     "community":"OpenCV",
@@ -139,22 +127,8 @@
                     "title":"Apache IoTDB 核心技术剖析",
                     "profile":"孙金城（金竹），2011年加入阿里，9年的阿里工作中，主导过很多内部核心系统，如：阿里集团行为日志，阿里郎，视频转码，文档转换，流计算等云服务。在2016年初开始了解Apache Flink社区，由初期的参与社区开发到后来逐渐主导具体模块的开发，到负责Apache Flink Python API(PyFlink) 的建设。 目前是 阿里巴巴 Tech Lead， Committer for Apache Beam , PMC Member of Apache Flink and Apache IoTDB and Apache Member.",
                     "desc":"Gartner指出赋能边缘是2020年十大战略技术趋势之一，5G加速IoT领域的发展，物联网设备数据的收集，存储和计算需求与日俱增。Apache IoTDB是物联网时序数据收集、存储、管理与分析为一体的的软件系统。Apache IoTDB作为Apache的2020新晋顶级项目，以其出色的表现得到了Apache的认可！目前Apache IoTDB与Hadoop、Spark和Flink等进行了深度集成，可以完全胜任工业物联网领域的海量数据存储、高速数据读取和复杂数据分析的需求。本次分享将为大家对Apache IoTDB的前世今生和核心的技术进行详细介绍。 "
-                },
-                {
-                    "name":"许利杰",
-                    "community":"ISCAS",
-                    "title":"",
-                    "profile":"",
-                    "desc":""
-                },
-               
-                {
-                    "name":"向新勇",
-                    "community":"openGauss",
-                    "title":"",
-                    "profile":"",
-                    "desc":""
                 }
+               
         
             ]
         },
@@ -169,13 +143,7 @@
                     "profile":"潘娟，京东数科高级DBA&Apache ShardingSphere PMC，主要负责京东数科分布式数据库开发、数据库运维自动化平台开发等工作。曾负责京东数科数据库自动化平台设计与开发，现专注于Apache ShardingSphere分布式数据库中间件平台的研发。主要在分布式数据库、开源、分布式架构等相关领域进行探索。多次受邀参加数据库&架构领域的相关会议并进行分享交流。",
                     "desc":"作为Apache顶级项目的ShardingSphere，将会在最新发布版本中迈向从分布式数据库中间件生态圈到分布式数据库的转型。 已在GitHub上收获12k+ Star的人气分布式数据库中间件生态圈项目将进一步根据领域发展趋势和真实应用场景， 通过数据库化的架构演进，全力打造更为简单、丰富、一体化、可插拔的分布式数据库产品体系， 从而为用户提供最简单易用、功能强大、性能稳定的分布式数据库化产品。 本次分享将详细阐述Apache ShardingSphere数据库化演进中的架构变迁、产品特性、极简落地方案实践等核心内容。"
                 },
-                {
-                    "name":"王璞",
-                    "community":"Datenlord",
-                    "title":"",
-                    "profile":"",
-                    "desc":""
-                },
+               
                
                 {
                     "name":"罗杨",

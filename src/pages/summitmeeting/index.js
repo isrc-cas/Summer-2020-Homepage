@@ -83,24 +83,31 @@ export default class Summitmeeting extends React.Component{
                                 this.state.data["tech"].map((ele,index)=>{
                                     return (
                                         <div className="SummitMeetThreeTableContent" key={index}>
-                                            {ele.chi}
-                                            {/* {
-                                                this.state.title.map((item,index)=>{
-                                                    return (
-                                                        <div className="SummitMeetThreeTableItem" key={index}>
-                                                            <div className="SummitMeetThreeTableItemContent">
-                                                                <div   
-                                                                    className={["SummitMeetThreeTableItemContentImage","backimg"+index].join(" ")}>
+                                            <div  className={["SummitMeetThreeTableContentTitle",ele.name].join(" ")}><span>{ele.chi}</span></div>
+                                            <div className="SummitMeetThreeTableContentWrapper">
+                                                {
+                                                    ele.content.map((item,indexl)=>{
+                                                        return (
+                                                            <div className="SummitMeetThreeTableItem" key={index+"_"+indexl}>
+                                                                <div className="SummitMeetThreeTableItemContent">
+                                                                    {/* <div   
+                                                                        className={["SummitMeetThreeTableItemContentImage","backimg"+index].join(" ")}>
+                                                                            
                                                                         
+                                                                    </div> */}
+                                                                    <div className="SummitMeetThreeTableItemContenttitle" title={item.title}>{item.title}</div>
+                                                                    <div className="SummitMeetThreeTableItemContentName">{item.name}</div>
+                                                                    <div className="SummitMeetThreeTableItemContentcommunity">{item.community}</div>
                                                                     
                                                                 </div>
-                                                                <div className="SummitMeetThreeTableItemContentText">{item}</div>
+                                                                <div className="SummitMeetThreeTableItemBack"></div>
                                                             </div>
-                                                            <div className="SummitMeetThreeTableItemBack"></div>
-                                                        </div>
-                                                    )
-                                                })
-                                            } */}
+                                                        )
+                                                    })
+                                                }
+
+                                            </div>
+                                            
                                         </div>
                                     )
                                 })
@@ -113,7 +120,40 @@ export default class Summitmeeting extends React.Component{
                                 <span className="SummitMeetThreeTableOneTileText">开源专题论坛</span>
                                 <span className="SummitMeetThreeTableOneTileText backimg"></span>
                             </div>
-                            <div className="SummitMeetThreeTableContent">
+                            {
+                                this.state.data["opensource"].map((ele,index)=>{
+                                    return (
+                                        <div className="SummitMeetThreeTableContent" key={index}>
+                                            <div  className={["SummitMeetThreeTableContentTitle",ele.name].join(" ")}><span>{ele.chi}</span></div>
+                                            <div className="SummitMeetThreeTableContentWrapper">
+                                                {
+                                                    ele.content.map((item,indexl)=>{
+                                                        return (
+                                                            <div className="SummitMeetThreeTableItem" key={index+"_"+indexl}>
+                                                                <div className="SummitMeetThreeTableItemContent">
+                                                                    {/* <div   
+                                                                        className={["SummitMeetThreeTableItemContentImage","backimg"+index].join(" ")}>
+                                                                            
+                                                                        
+                                                                    </div> */}
+                                                                    <div className="SummitMeetThreeTableItemContenttitle" title={item.title}>{item.title}</div>
+                                                                    <div className="SummitMeetThreeTableItemContentName">{item.name}</div>
+                                                                    <div className="SummitMeetThreeTableItemContentcommunity">{item.community}</div>
+                                                                    
+                                                                </div>
+                                                                <div className="SummitMeetThreeTableItemBack"></div>
+                                                            </div>
+                                                        )
+                                                    })
+                                                }
+
+                                            </div>
+                                            
+                                        </div>
+                                    )
+                                })
+                            }
+                            {/* <div className="SummitMeetThreeTableContent">
                                 <div className="SummitMeetThreeTableItem" >
                                     <div className="SummitMeetThreeTableItemContent">
                                         <div   
@@ -132,7 +172,7 @@ export default class Summitmeeting extends React.Component{
                                     </div>
                                     <div className="SummitMeetThreeTableItemBack"></div>
                                 </div>
-                            </div>
+                            </div> */}
 
                         </div>
                     </div>

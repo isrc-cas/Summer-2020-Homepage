@@ -59,7 +59,7 @@
     .SummitMeetThree{
         position: relative;
         width: 100%;
-        height: 940px;
+        // height: 940px;
         background-color: #f2f2f2;
         padding: 60px 0 190px;
         box-sizing: border-box;
@@ -78,14 +78,54 @@
 
             .SummitMeetThreeTableContent{
                 position: relative;
-                display: flex;
+                // display: flex;
+                .SummitMeetThreeTableContentTitle{
+                    font-size: 24px;              
+                    color: #5858ff;
+                    position: relative;
+                    margin-bottom: 20px;
+                    padding-left: 35px;
+                    span{
+                        position: relative;
+                        display: inline-block;
+                        padding-left: 40px;
+                    }
+                }
+                .SummitMeetThreeTableContentWrapper{
+                    position: relative;
+                    display: flex;
+                    margin-bottom: 50px;
+                }
+                .SummitMeetThreeTableContentTitle.system::before{
+                    content: url(./../../img/stats/system.png);
+                    position: absolute;
+                    bottom: -4px;
+                }
+                .SummitMeetThreeTableContentTitle.yun::before{
+                    content: url(./../../img/stats/yun.png);
+                    position: absolute;
+                    bottom: -4px;
+                }
+                .SummitMeetThreeTableContentTitle.ai::before{
+                    content: url(./../../img/stats/ai.png);
+                    position: absolute;
+                    bottom: -4px;
+                }
+                .SummitMeetThreeTableContentTitle.bigdata::before{
+                    content: url(./../../img/stats/bigdata.png);
+                    position: absolute;
+                    bottom: -4px;
+                }
+                .SummitMeetThreeTableContentTitle.distributedsystem::before{
+                    content: url(./../../img/stats/distributedsystem.png);
+                    position: absolute;
+                    bottom: -4px;
+                }
 
                 .SummitMeetThreeTableItem{
                     position: relative;
-                    width: 222px;
-                    height:200px;
-                    color: #666666;
-                    font-size: 26px;
+                    width: 192px;
+                    height: 220px;
                     margin-left: 2px;
                     .SummitMeetThreeTableItemBack{
                         position: absolute;
@@ -96,13 +136,38 @@
                         background-color: #fff;
                         z-index: 0;
                         transform: skewX(-7deg);
+                        // box-shadow: -5px 6px 11px -5px rgba(0, 0, 0, 0.2);
                     }
                     .SummitMeetThreeTableItemContent{
                         position: relative;
                         width: 100%;
                         height: 100%;
                         z-index: 1;
-                        text-align: center;
+                        // text-align: center;
+                        padding: 40px  0 0 18px;
+                        box-sizing: border-box;
+                        .SummitMeetThreeTableItemContenttitle{
+                            font-size: 24px;
+
+                            color: #333333;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            cursor: pointer;
+
+                        }
+
+                        .SummitMeetThreeTableItemContentName{
+                            font-size: 20px;
+                            padding-top: 28px;
+                            color: #666666;
+                        }
+                        .SummitMeetThreeTableItemContentcommunity{
+                            font-size: 20px;
+                            padding-top: 12px;
+                            color: #666666;
+                        }
+                        
                         .SummitMeetThreeTableItemContentImage{
                             width: 50px;
                             height: 50px;
@@ -138,26 +203,27 @@
                     }
                 }
             }
-            .SummitMeetThreeTableOne.two{
-               margin-top:60px;
-                .SummitMeetThreeTableOneTileText{
-                    color: #0086e4;
-                }
-                .SummitMeetThreeTableOneTileText.backimg{
-                    background-color: #c6e8ff;
-                }
-                .SummitMeetThreeTableContent{
-                    .SummitMeetThreeTableItem{
-                        width: 410px;
-                    }
-                    .backimg5{
-                        background-image: url(./../../img/detail/5.png);
-                    }
-                    .backimg6{
-                        background-image: url(./../../img/detail/6.png);
-                    }
-                }
-            }
+            // .SummitMeetThreeTableOne.two{
+            //    margin-top:60px;
+            //     .SummitMeetThreeTableOneTileText{
+            //         color: #0086e4;
+            //     }
+            //     .SummitMeetThreeTableOneTileText.backimg{
+            //         background-color: #c6e8ff;
+            //     }
+            //     .SummitMeetThreeTableContent{
+
+            //         .SummitMeetThreeTableItem{
+            //             width: 410px;
+            //         }
+            //         .backimg5{
+            //             background-image: url(./../../img/detail/5.png);
+            //         }
+            //         .backimg6{
+            //             background-image: url(./../../img/detail/6.png);
+            //         }
+            //     }
+            // }
             .SummitMeetThreeTableOneTile{
                 color: #5858ff;
                 font-size: 20px;
