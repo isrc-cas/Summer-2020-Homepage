@@ -14,40 +14,15 @@ import React from 'react';
 import './index.less';
 import {holderlist} from './../index/logo.js';
 import './../index/banner4.less';
-
+import data from './list.json'
 export default class Summitmeeting extends React.Component{
     constructor(props){
        super(props)
        this.state ={
+        data,
         holderlist,
         title:["操作系统","虚拟化&云原生","人工智能","大数据","分布式系统"],
-        datalist:[
-           [
-            {
-                "system":"操作系统&编译器"
-            },
-            {
-                "yun":"虚拟化&云原生"
-            },
-            {
-                "ai":"人工智能"
-            },
-            {
-                "bigdata":"大数据"
-            },
-            {
-                "distributedsystem":"分布式系统"
-            }
-           ],
-           [
-            {
-                "culture":"开源文化&开源商业"
-            },
-            {
-                "education":"开源&教育"
-            }, 
-           ]
-        ]
+        
        }
     }
    
@@ -104,25 +79,33 @@ export default class Summitmeeting extends React.Component{
                                 <span className="SummitMeetThreeTableOneTileText">技术专题论坛</span>
                                 <span className="SummitMeetThreeTableOneTileText backimg"></span>
                             </div>
-                            <div className="SummitMeetThreeTableContent">
-                                {
-                                    this.state.title.map((item,index)=>{
-                                        return (
-                                            <div className="SummitMeetThreeTableItem" key={index}>
-                                                <div className="SummitMeetThreeTableItemContent">
-                                                    <div   
-                                                        className={["SummitMeetThreeTableItemContentImage","backimg"+index].join(" ")}>
-                                                            
-                                                        
-                                                    </div>
-                                                    <div className="SummitMeetThreeTableItemContentText">{item}</div>
-                                                </div>
-                                                <div className="SummitMeetThreeTableItemBack"></div>
-                                            </div>
-                                        )
-                                    })
-                                }
-                            </div>
+                            {
+                                this.state.data["tech"].map((ele,index)=>{
+                                    return (
+                                        <div className="SummitMeetThreeTableContent" key={index}>
+                                            {ele.chi}
+                                            {/* {
+                                                this.state.title.map((item,index)=>{
+                                                    return (
+                                                        <div className="SummitMeetThreeTableItem" key={index}>
+                                                            <div className="SummitMeetThreeTableItemContent">
+                                                                <div   
+                                                                    className={["SummitMeetThreeTableItemContentImage","backimg"+index].join(" ")}>
+                                                                        
+                                                                    
+                                                                </div>
+                                                                <div className="SummitMeetThreeTableItemContentText">{item}</div>
+                                                            </div>
+                                                            <div className="SummitMeetThreeTableItemBack"></div>
+                                                        </div>
+                                                    )
+                                                })
+                                            } */}
+                                        </div>
+                                    )
+                                })
+                            }
+                            
 
                         </div>
                         <div className="SummitMeetThreeTableOne two">
