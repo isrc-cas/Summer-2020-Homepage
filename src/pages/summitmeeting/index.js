@@ -48,6 +48,23 @@ export default class Summitmeeting extends React.Component{
             showflag:""
         })
     }
+
+    getBack(len){
+        if(len<6){
+            var divcon = []
+            for(var i=0;i<6-len;i++){
+                divcon.push(
+                <div className="SummitMeetThreeTableItem greyback" key={"_"+i} >
+                    <div className="SummitMeetThreeTableItemContent">...</div>
+                    <div className="SummitMeetThreeTableItemBack"></div>
+                </div>
+
+                )
+            }
+            return divcon
+        }
+        
+    }
    
     
  
@@ -140,6 +157,9 @@ export default class Summitmeeting extends React.Component{
                                                         )
                                                     })
                                                 }
+                                                {
+                                                    this.getBack(ele.content.length)
+                                                }
 
                                             </div>
                                             <div className={["SummitMeetThreeTableModal", this.state.showflag === ele.name?"show":""].join(" ")}>
@@ -207,6 +227,9 @@ export default class Summitmeeting extends React.Component{
                                                         )
                                                     })
                                                 }
+                                                {
+                                                    this.getBack(ele.content.length)
+                                                }
 
                                             </div>
                                             <div className={["SummitMeetThreeTableModal", this.state.showflag === ele.name?"show":""].join(" ")}>
@@ -230,6 +253,7 @@ export default class Summitmeeting extends React.Component{
                                                         
                                                     </div>:""
                                                 }
+                                                
                                 
                                             </div>
                                             
