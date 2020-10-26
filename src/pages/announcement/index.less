@@ -1,0 +1,196 @@
+/**
+ * Copyright (c) 2020 Intelligent Software Research Center of ISCAS
+ * Summer 2020 Homepage is licensed under Mulan PSL v2.
+ * You can use this software according to the terms and conditions of the Mulan PSL v2.
+ * You may obtain a copy of Mulan PSL v2 at:
+ *          http://license.coscl.org.cn/MulanPSL2
+ * THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND,
+ * EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT,
+ * MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
+ * See the Mulan PSL v2 for more details.
+ */
+.Announcement{
+   .AnnouncementBanner{
+       width: 100%;
+       height: 280px;
+       background-image: url(./../../img/stats/banner.jpg);
+   }
+   .AnnouncementContent{
+       position: relative;
+       background-color: #e5eaf9;
+      
+       .AnnouncementWrapper{
+        //    width: 1200px;
+           margin:0 auto;
+
+           .AWCTableHeader.AWCTableLine{
+            
+            background-color: #4c5999;
+            .AWCTableStudentName,
+            .AWCTableCommunityName,
+            .AWCTableProjectName,
+            .AWCTableTutor,
+            .AWCTableRepoaddr{
+                color: #ffffff;
+            }
+            
+           
+           }
+           .AWCTableContent{
+            .AWCTableLine{
+
+                .AWCTableRepoaddr{
+                    cursor: pointer;
+                }
+                .AWCTableRepoaddr::before{
+                    content: url(./../../img/stats/link.png);
+                    padding-right: 5px;
+                    
+                }
+            }
+            .AWCTableLine:nth-child(2n+2){
+                background-color: #d7dff7;
+            }
+
+            .AWCTableCommunityDescclose{
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                background-image: url(./../../img/close.png);
+                top: 10px;
+                right: 12px;
+                cursor: pointer;
+                background-size: contain;
+            }
+            .AWCTableProjectDesc{
+              
+                left: 36%;
+               
+            }
+            .AWCTableProjectDesc,
+            .AWCTableCommunityDesc{
+                position: absolute;
+                z-index: -1;
+                width: 80%;
+                background-color: #4c5999;
+                box-shadow: 0px 3px 9px 0px rgba(0, 13, 75, 0.35);
+                
+                color: #fff;
+                top: 48px;
+                line-height: 25px;
+                left: 13%;
+                height: auto;
+                max-height: 0;
+                clear: both;
+                overflow: hidden;
+                padding: 0;
+                
+
+            }
+            .AWCTableLine:nth-last-child(1){
+                .AWCTableProjectDesc,.AWCTableCommunityDesc{
+                    // bottom:0
+                }
+            }
+            .AWCTableProjectDesc.show,
+            .AWCTableCommunityDesc.show{
+                z-index: 10;
+                display: block;
+                padding: 20px 30px;
+                max-height: 700px;
+            }
+
+
+
+           }
+           .AWCTableLine{
+            position: relative;
+            display: flex;
+            font-size: 20px;
+            line-height: 20px;
+            padding: 17px 0;
+            .AWCTableStudentName{
+                width: 13%;
+                padding-left: 2.5%;
+                color: #666666;
+            }
+            .AWCTableCommunityName{
+                width: 22.7%;
+                color: #5266cc;
+                
+                cursor: pointer;
+            }
+            .AWCTableProjectName{
+                width: 38.6%;
+                color: #5266cc;
+                cursor: pointer;
+                padding-right: 5px;
+            }
+            .AWCTableTutor{
+                width: 16%;
+                color: #666666;
+            }
+            .AWCTableRepoaddr{
+                color: #5266cc;
+            }
+           }
+           .AnnouncementWrapperHeader{
+            font-size: 20px;
+            position: relative;
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            .AnnouncementWrapperHeaderLeft{
+                position: relative;
+                line-height: 20px;
+                padding: 30px 0 20px;
+                .AWHLblue{
+                    color: #666666;
+                }
+                .AWHLgrey{
+                    color: #999;
+                }
+                
+            }
+            .AnnouncementWrapperHeaderRight{
+                font-size: 14px;
+                
+                color: #999;
+            }
+           }
+
+           .AWCTablePagelist{
+                position: relative;
+                
+                padding: 40px 0 50px;
+               .ant-pagination{
+                   .ant-pagination-options{
+                       display: none;
+                   }
+                   .ant-pagination-next>.ant-pagination-item-link,
+                   .ant-pagination-prev>.ant-pagination-item-link{
+                        background-color: #5959ff;
+                   }
+                   
+                   .ant-pagination-item{
+                       background-color: #e5eaf9;
+                       border-color: #5959ff;
+                       color: #5959ff;
+                       a{
+                        color: #5959ff;
+                       }
+                   }
+                   .anticon svg{
+                       color:#fff !important;
+                   }
+                   .ant-pagination-item-active,
+                   .ant-pagination-item-active:focus, .ant-pagination-item-active:hover{
+                    border-color: #e5eaf9;
+                   }
+               }
+               
+           }
+       }
+
+   }
+}

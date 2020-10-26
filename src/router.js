@@ -23,6 +23,7 @@ import Organisation from './pages/organisation/index.js';
 import {linkDataMap} from './components/header/listLink.js';
 import LiveShow from './pages/liveshow/index.js';
 import Stats from './pages/stats/index.js';
+import Announcement from './pages/announcement/index.js';
 export default class IRouter extends React.Component{
     constructor(props){
         super(props);
@@ -46,6 +47,7 @@ export default class IRouter extends React.Component{
                                      <Route path="/organisations" component={Organisation} />
                                      <Route path="/liveshow" component={LiveShow} />
                                      <Route path="/summitmeeting" component={Summitmeeting} />
+                                     <Route path="/announcement" component={Announcement} />
                                      <Route path="/" component={Index} />
                             </Switch>
                         </Wrapper>

@@ -53,7 +53,7 @@ export default class Header extends React.Component{
 
     componentDidMount(){
        
-        titleChange();
+         titleChange();
         setTimeout(()=>{
             let hashopl = window.location.hash.split("#/");         
             if(hashopl[1] === ""){

@@ -23,6 +23,10 @@ const listLinks = [
         title:'summitmeeting',
     },
     {
+        name:'结项公示',
+        title:'announcement',
+    },
+    {
         name:'活动规划',
         title:'howitworks',
     },
