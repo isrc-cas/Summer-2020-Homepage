@@ -164,7 +164,10 @@ export default class Announcement extends React.Component{
         return(
             <div className="Announcement" onClick={()=>{this.closeModal()}}>
                 <div className="AnnouncementBanner">
-                   
+                   <div className="content1200">
+                   <div className="AnnouncementBannerText">结项公示</div>
+                   <div className="AnnouncementBannerTexttwo">结项公示已结束，欢迎关注！</div>
+                   </div>
                 </div>
                 <div className="AnnouncementContent">
                     <div className="AnnouncementWrapper  content1200">
