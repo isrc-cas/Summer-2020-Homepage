@@ -595,7 +595,7 @@
     "projectname": "PDF: Invent a better dark mode color algorithm for PDF pages **and** exclude images and graphs",
     "projectlink": "",
     "projectid": 2012153,
-    "projectdesc": NaN,
+    "projectdesc": "为EAF乃至Emacs贡献的有趣之处便是，Emacs作为程序员的工具与工作环境，任何改进都可以被改进者直观的感受到享用到，从而激发自身的满足感与成就感并产生良性循环。EAF作为一个涵盖多个应用的框架，更是有许多大大小小可以改进的地方。开源社区不像学校老师布置作业学生完成作业那般死板，学生通过使用EAF探索它的能力并研究它的缺点，然后翻阅Todo-List寻找自己有兴趣下手的项目。学生甚至可以与导师沟通过的前提下往Todo-List添加上面不存在但有意义的项目并就此开展工作。有些只需要很基础的技术背景并增改几行代码便可完成，而有些需要多种语言概念的相互运用并开发出API。这些难度不同的项目全部列在Todo-List上面，只要学生愿意，则随时可以挑战。这便是开源社区的自由与魅力。",
     "tutor": "Matthew Zeng",
     "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2012153"
   },
