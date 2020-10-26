@@ -105,7 +105,7 @@ export default class Summitmeeting extends React.Component{
                 </div>
                 <div className="SummitMeetThree">
                     <div className="SummitMeetThreeContent">
-                        <div className="SummitMeetThreeContentTitle">7 大专题论坛分会场</div>
+                        <div className="SummitMeetThreeContentTitle">7 大专题论坛分会场持续更新中...</div>
                         <div className="SummitMeetThreeTableOne tech">
                             <div className="SummitMeetThreeTableOneTile">
                                 <span className="SummitMeetThreeTableOneTileText">技术专题论坛</span>
@@ -157,7 +157,7 @@ export default class Summitmeeting extends React.Component{
                                                              this.state.showdata.profile?<div className="SummitMeetThreeTableModalProfile">{this.state.showdata.profile}</div>:""
                                                         }
                                                         {
-                                                            this.state.showdata.desc?<div className="SummitMeetThreeTableModalDesc"> {this.state.showdata.desc}</div>:""
+                                                            this.state.showdata.desc?<div className="SummitMeetThreeTableModalDesc">议题背景: {this.state.showdata.desc}</div>:""
                                                         }
                                                         
                                                         
@@ -224,7 +224,7 @@ export default class Summitmeeting extends React.Component{
                                                                 this.state.showdata.profile?<div className="SummitMeetThreeTableModalProfile">{this.state.showdata.profile}</div>:""
                                                         }
                                                         {
-                                                            this.state.showdata.desc?<div className="SummitMeetThreeTableModalDesc"> {this.state.showdata.desc}</div>:""
+                                                            this.state.showdata.desc?<div className="SummitMeetThreeTableModalDesc">议题背景: {this.state.showdata.desc}</div>:""
                                                         }
                                                         
                                                         
