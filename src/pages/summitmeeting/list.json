@@ -30,13 +30,6 @@
                     "title":"RISC-V",
                     "profile":"",
                     "desc":""
-                },
-                {
-                    "name":"巨震",
-                    "community":"ROS Navigation",
-                    "title":"导航定位技术剖析",
-                    "profile":"",
-                    "desc":""
                 }
             ]
         },
@@ -103,8 +96,8 @@
 
                 {
                     "name":"王龙步",
-                    "community":"OpenCV",
-                    "title":"3D 视觉核心数学基础和实践",
+                    "community":"",
+                    "title":"OpenCV 3D 视觉核心数学基础和实践",
                     "profile":"",
                     "desc":""
                 }
@@ -120,6 +113,13 @@
                     "title":"Apache IoTDB 核心技术剖析",
                     "profile":"孙金城（金竹），2011年加入阿里，9年的阿里工作中，主导过很多内部核心系统，如：阿里集团行为日志，阿里郎，视频转码，文档转换，流计算等云服务。在2016年初开始了解Apache Flink社区，由初期的参与社区开发到后来逐渐主导具体模块的开发，到负责Apache Flink Python API(PyFlink) 的建设。 目前是 阿里巴巴 Tech Lead， Committer for Apache Beam , PMC Member of Apache Flink and Apache IoTDB and Apache Member.",
                     "desc":"Gartner指出赋能边缘是2020年十大战略技术趋势之一，5G加速IoT领域的发展，物联网设备数据的收集，存储和计算需求与日俱增。Apache IoTDB是物联网时序数据收集、存储、管理与分析为一体的的软件系统。Apache IoTDB作为Apache的2020新晋顶级项目，以其出色的表现得到了Apache的认可！目前Apache IoTDB与Hadoop、Spark和Flink等进行了深度集成，可以完全胜任工业物联网领域的海量数据存储、高速数据读取和复杂数据分析的需求。本次分享将为大家对Apache IoTDB的前世今生和核心的技术进行详细介绍。 "
+                },
+                {
+                    "name":"许利杰",
+                    "community":"",
+                    "title":"DistStream: 面向流式聚类的分布式计算框架",
+                    "profile":"",
+                    "desc":""
                 }
                
         
@@ -160,13 +160,7 @@
                     "profile":"",
                     "desc":""
                 },
-                {
-                    "name":"温铭",
-                    "community":"",
-                    "title":"Apache APISIX 的开源和商业化之路",
-                    "profile":"温铭，支流科技联合创始人＆CEO，Apache APISIX 项目 VP， Apache Skywalking committer，TARS微服务基金会TOC成员，腾讯云TVP，《OpenResty从入门到实战》专栏作者，前360开源委员会发起人，OpenResty软件基金会首任主席。",
-                    "desc":"Apache APISIX 是 2019 年 4 月份开始从头开发，6 月份开源，10 月份进入 Apache 孵化器，并在 2020 年 7 月毕业成为 Apache 顶级项目，是最快从 Apache 孵化器毕业的中国项目。 同时，Apache APISIX 背后的公司也在摸索在中国如何做开源项目的商业化，已经有了多家世界 500 强的付费用户。 在这个分享中，温铭会给我们带来 Apache APISIX 在开源以及商业化上的一些实践和思考，希望能让更多的中国开发者来参与和贡献开源。"
-                },
+                
                
                 {
                     "name":"李卓桓",
@@ -181,7 +175,15 @@
                     "title":"开源合规方面议题",
                     "profile":"",
                     "desc":""
+                },
+                {
+                    "name":"温铭",
+                    "community":"",
+                    "title":"从0到1：Apache APISIX 的开源和商业化之路",
+                    "profile":"温铭，支流科技联合创始人＆CEO，Apache APISIX 项目 VP， Apache Skywalking committer，TARS微服务基金会TOC成员，腾讯云TVP，《OpenResty从入门到实战》专栏作者，前360开源委员会发起人，OpenResty软件基金会首任主席。",
+                    "desc":"Apache APISIX 是 2019 年 4 月份开始从头开发，6 月份开源，10 月份进入 Apache 孵化器，并在 2020 年 7 月毕业成为 Apache 顶级项目，是最快从 Apache 孵化器毕业的中国项目。 同时，Apache APISIX 背后的公司也在摸索在中国如何做开源项目的商业化，已经有了多家世界 500 强的付费用户。 在这个分享中，温铭会给我们带来 Apache APISIX 在开源以及商业化上的一些实践和思考，希望能让更多的中国开发者来参与和贡献开源。"
                 }
+            
             ]
         },
         {
@@ -195,13 +197,7 @@
                     "profile":"李岗、易观大数据平台技术专家，负责大数据基础组件的研发工作，多年大数据开发及平台建设经验. Apache DolphinScheduler(Incubator) PPMC、Apache Local Community Beijing Member.",
                     "desc":"今年暑期通过参与开源软件供应链点亮计划，看到了大学生对于开源的热情以及优秀的开发能力和协作能力， 我将以Apache DolphinScheduler社区为例，分享一些大学生如何更快的融入到开源社区的一些经验：社区交流技巧、代码提交经验。 也会谈一下如何选择适合自己的开源社区做贡献，如何跟着社区的成长而成长，如何通过开源贡献提升自己的能力、名誉，为即将步入职场的自己带上一张闪亮的名片！"
                 },
-                {
-                    "name":"林旅强",
-                    "community":"",
-                    "title":"开源和教育相关的主题",
-                    "profile":"",
-                    "desc":""
-                },
+                
                
                 {
                     "name":"琚致远",
