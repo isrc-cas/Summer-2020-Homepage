@@ -25,7 +25,8 @@ export default class Summitmeeting extends React.Component{
         holderlist,
         title:["操作系统","虚拟化&云原生","人工智能","大数据","分布式系统"],
         showflag:"",
-        showdata:{}
+        showdata:{},
+        link:"https://maka.im/pcdanyeviewer/13229884/HAUZ4967W13229884"
        }
     }
 
@@ -36,6 +37,9 @@ export default class Summitmeeting extends React.Component{
         })
         // console.log(this.state.data[type][index]["content"][indexl])
 
+    }
+    gourl(url){
+        window.open(url)
     }
 
     toggleleave(){
@@ -82,11 +86,15 @@ export default class Summitmeeting extends React.Component{
                     <div className="SummitMeetTwoContent">
                             <div className="SummitMeetTwoContentRight">
                                 <div className="SummitMeetTwoContentRightOne">开源软件供应链 2020 峰会</div>
-                                <div className="SummitMeetTwoContentRightTwo">2020年11月14日  于南京盛大开幕</div>
-                                <div className="SummitMeetTwoContentTwocode">
+                                <div className="SummitMeetTwoContentRightTwo"> 2020年11月14日 于 南京玄武苏宁诺富特酒店 盛大开幕</div>
+                                <div className="SummitMeetTwoContentTwocode phonenone">
                                     <img className="SummitMeetTwoContentTwocodePng" alt="twocode" src={twocode}></img>
                                     <img className="SummitMeetTwoContentDaoxiang" alt="daoxiangpng" src={daoxiangpng}></img>
-                                    <span>手机扫一扫报名！</span>
+                                    <span>手机扫一扫 报名线下参会！</span>
+                                </div>
+                                <div className="SummitMeetTwoContentTwocode phoneshow">
+                                    <div className="SummitMeetTwoContentButton" onClick={()=>{this.gourl(this.state.link)}}> 点击报名</div>
+                                    <span>手机扫一扫 报名线下参会！</span>
                                 </div>
                             </div>
                             <div className="SummitMeetTwoContentMiddle">
