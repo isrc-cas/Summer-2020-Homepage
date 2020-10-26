@@ -120,20 +120,33 @@
             
         }
         .SummitMeetThree{
-            height: 700px !important;
+            
             .SummitMeetThreeContent{
                 width: 95vw !important;
                 .SummitMeetThreeContentTitle{
                     font-size: 32px !important;
                 }
-                .SummitMeetThreeTableContent .SummitMeetThreeTableItem{
-                    width: 18vw;
-                    height: 18vw;
-                    font-size: 14px;
-                    .SummitMeetThreeTableItemContent .SummitMeetThreeTableItemContentImage{
-                        width: 35%;
-                        height: 35%;
-                        margin:20px auto 10px !important;
+                
+                .SummitMeetThreeTableContent{
+                    .SummitMeetThreeTableContentTitle{
+                        font-size: 18px!important;
+                    }
+                    .SummitMeetThreeTableItem{
+                        width: 18vw!important;
+                        height: 18vw!important;
+                        .SummitMeetThreeTableItemContent{
+                            padding: 30px 0 0 16px!important;
+                            
+                            .SummitMeetThreeTableItemContenttitle{
+                                font-size: 16px !important;
+                            }
+    
+                            .SummitMeetThreeTableItemContentcommunity,
+                            .SummitMeetThreeTableItemContentName{
+                                font-size: 14px !important;
+                            }
+                        }
+                      
                     }
                 }
             }
@@ -208,21 +221,44 @@
             
         }
         .SummitMeetThree{
-            height: 700px !important;
+            
             .SummitMeetThreeContent{
                 width: 95vw !important;
                 
                 .SummitMeetThreeContentTitle{
                     font-size: 24px !important;
                 }
-                .SummitMeetThreeTableContent .SummitMeetThreeTableItem{
-                    width: 18vw!important;
-                    height: 32vw!important;
-                    font-size: 13px!important;
-                    .SummitMeetThreeTableItemContent .SummitMeetThreeTableItemContentImage{
-                        width: 50%!important;
-                        height: 50%!important;
-                        margin:5px auto !important;
+                
+                .SummitMeetThreeTableContent{
+                    
+                    .SummitMeetThreeTableModal{
+                        margin-left: 0 !important;
+                        .SummitMeetThreeTableModalWrapper{
+                            font-size: 16px;
+                        }
+                    }
+                    .SummitMeetThreeTableContentTitle{
+                        font-size: 16px!important;
+                        margin-top: 20px;
+                    }
+                    .SummitMeetThreeTableItem{
+                        width: 18vw!important;
+                        height: 24vw!important;
+                        font-size: 13px!important;
+                        
+                            .SummitMeetThreeTableItemContent{
+                                padding: 20px 0 0 14px!important;
+                                .SummitMeetThreeTableItemContenttitle{
+                                    font-size: 13px !important;
+                                }
+        
+                                .SummitMeetThreeTableItemContentcommunity,
+                                .SummitMeetThreeTableItemContentName{
+                                    font-size: 13px !important;
+                                    padding-top: 6px!important;
+                                }
+                            }
+                        
                     }
                 }
 
@@ -241,4 +277,39 @@
 
     }
     
+}
+
+@media screen and (min-width: 100px)and (max-width:501px){
+    .SummitMeetThree{
+            
+        .SummitMeetThreeContent{
+           
+            
+            
+            
+            .SummitMeetThreeTableContent{
+                .SummitMeetThreeTableModal .SummitMeetThreeTableModalWrapper{
+                    font-size: 12px !important;
+                }
+               .SummitMeetThreeTableContentWrapper{
+                flex-wrap: wrap;
+                .SummitMeetThreeTableItem{
+                    width: 40vw!important;
+                    height: 35vw!important;
+                    font-size: 13px!important;
+                    margin-bottom: 2px;
+                        .SummitMeetThreeTableItemContent{
+                            padding:20px 0 0 14px;
+                            
+                        }
+                    
+                }
+               }
+                
+              
+            }
+
+            
+        }
+    }
 }

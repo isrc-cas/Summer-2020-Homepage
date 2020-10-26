@@ -78,6 +78,7 @@
 
             .SummitMeetThreeTableContent{
                 position: relative;
+                margin-bottom: 30px;
                 // display: flex;
                 .SummitMeetThreeTableContentTitle{
                     font-size: 24px;              
@@ -91,10 +92,12 @@
                         padding-left: 40px;
                     }
                 }
+
+
                 .SummitMeetThreeTableContentWrapper{
                     position: relative;
                     display: flex;
-                    margin-bottom: 50px;
+                    
                 }
                 .SummitMeetThreeTableContentTitle.system::before{
                     content: url(./../../img/stats/system.png);
@@ -121,12 +124,23 @@
                     position: absolute;
                     bottom: -4px;
                 }
+                .SummitMeetThreeTableContentTitle.culture::before{
+                    content: url(./../../img/stats/culture.png);
+                    position: absolute;
+                    bottom: -7px;
+                }
+                .SummitMeetThreeTableContentTitle.education::before{
+                    content: url(./../../img/stats/education.png);
+                    position: absolute;
+                    bottom: -7px;
+                }
 
                 .SummitMeetThreeTableItem{
                     position: relative;
                     width: 192px;
                     height: 220px;
                     margin-left: 2px;
+                    cursor: pointer;
                     .SummitMeetThreeTableItemBack{
                         position: absolute;
                         width: 100%;
@@ -144,7 +158,7 @@
                         height: 100%;
                         z-index: 1;
                         // text-align: center;
-                        padding: 40px  0 0 18px;
+                        padding: 40px  0 0 22px;
                         box-sizing: border-box;
                         .SummitMeetThreeTableItemContenttitle{
                             font-size: 24px;
@@ -203,7 +217,10 @@
                     }
                 }
             }
-            // .SummitMeetThreeTableOne.two{
+            .SummitMeetThreeTableOne.two{
+                .SummitMeetThreeTableContentTitle{
+                    color: #0086e6;
+                }
             //    margin-top:60px;
             //     .SummitMeetThreeTableOneTileText{
             //         color: #0086e4;
@@ -223,7 +240,46 @@
             //             background-image: url(./../../img/detail/6.png);
             //         }
             //     }
-            // }
+            }
+            .SummitMeetThreeTableModal{
+                
+                width: 100%;
+                height: auto;
+                margin-left: -12px;
+                background-color: #fff;
+                margin-top: 10px;
+                max-height: 0;
+                overflow: hidden;
+                transition: all 0.3s;
+                .SummitMeetThreeTableModalWrapper{
+                    width: 100%;
+                    padding: 30px;
+                    border: solid 1px #4c4cd9;
+                    height: auto;
+                    font-size: 20px;
+                    line-height: 20px;
+                    .SummitMeetThreeTableModalTitle{
+                        color: #4c4cd9;
+                        text-align: right;
+                    }
+                    .SummitMeetThreeTableModalName{
+                        color: #333333;
+                    }
+                    .SummitMeetThreeTableModalProfile{
+                        padding-top: 16px;
+                        color: #666666;
+                        line-height: 24px;
+                    }
+                    .SummitMeetThreeTableModalDesc{
+                        padding-top: 16px;
+                        color: #666666;
+                        line-height: 24px;
+                    }
+                }
+            }
+            .SummitMeetThreeTableModal.show{
+                max-height: 1000px;
+            }
             .SummitMeetThreeTableOneTile{
                 color: #5858ff;
                 font-size: 20px;
