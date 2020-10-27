@@ -51,7 +51,7 @@ export default class Announcement extends React.Component{
             }
             pagenow =  Math.ceil(indexnum/this.state.pagesize);
             this.getPageData(pagenow);
-            let position = 800 + indexnum%this.state.pagesize*54
+            let position = 200 + indexnum%this.state.pagesize*54
             console.log(position)
            
             this.setState({
