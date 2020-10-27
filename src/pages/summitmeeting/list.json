@@ -91,13 +91,7 @@
                     "profile":"Chatopera联合创始人&CEO，开源爱好者，有很多的开源项目，积极贡献给开源社区。主要仓库https://github.com/chatopera、https://gitee.com/chatopera演讲经历：参加COSCON2019 《Clause，开源的中文语义理解系统》、组织并参加2016年5月21日～22日的Nodejs Live、2015年至2017年每月组织一次Nodejs等技术的线下Party等。",
                     "desc":"Chatopera Language Understanding Service，Chatopera 语义理解服务。即Clause，它是帮助企业快速而低成本的获得好用的语义理解服务的系统，让机器更理解人。Clause 是 Chatopera 团队自主研发及使用其他商业友好的开源软件的方式实现的，Clause 为实现企业聊天机器人提供强大的大脑，包括客服、智能问答和自动流程服务。Clause 利用深度学习，自然语言处理和搜索引擎技术，让机器更加理解人。 "
                 },
-                {
-                    "name":"张立波",
-                    "community":"中国科学院软件研究所",
-                    "title":"",
-                    "profile":"",
-                    "desc":""
-                },
+               
 
                 {
                     "name":"孙金城",
@@ -162,9 +156,9 @@
                 {
                     "name":"翟佳",
                     "community":"Apache Pulsar ",
-                    "title":"",
-                    "profile":"",
-                    "desc":""
+                    "title":"ApachePulsar云原生的下一代消息平台",
+                    "profile":"翟佳，StreamNative 联合创始人兼 CTO，开源项目 Apache Pulsar 和 Apache BookKeeper PMC 成员和 Committer，主要从事分布式、消息系统、流存储、文件系统等相关设计和开发。曾就职于 EMC，先后是统一存储平台和实时处理平台技术负责人。",
+                    "desc":"Apache Pulsar 是下一代云原生消息流平台，在 2018 年 9 月毕业成为 Apache 软件基金会顶级项目。Apache Pulsar 从 2012 年诞生时就前瞻性地采用了存储计算分离、分层分片的云原生架构，极大减轻用户在消息系统中遇到的扩展和运维困难。Pulsar通过特别的设计和抽象，统一地支持Stream和Queue两种消息消费模式，保持了Stream模式的高性能和Queue模式的灵活性。 Pulsar在保证大数据消息系统的性能和吞吐量的同时，提供了更多企业级的Feature，包括方便的运维和扩展，灵活的消息模型，多语言API，多租户，异地多备，和数据的强持久性一致性等等，解决了现有开源消息系统的很多不足之处。 本次分享将深入介绍 Pulsar 的云原生特性和架构优势，以及在全面云原生时代 Pulsar 的社区状况和最新技术进展。"
                 }
             ]
         }
@@ -189,6 +183,13 @@
                     "title":"Wechaty 的开源之路",
                     "profile":"微软人工智能最具价值专家（AI MVP）。清华大学本科，中欧国际工商学院EMBA，北京邮电大学计算机系博士在读。现任PreAngel合伙人，Plug and Play Venture Partner，关注钟子期AI创业项目。zixia BBS、叽歪网创始人，曾任优酷网首席科学家、水木清华BBS站长，ChinaRen系统工程师",
                     "desc":""
+                },
+                {
+                    "name":"琚致远",
+                    "community":"Apache APISIX",
+                    "title":"从 0 到 1：Apache APISIX 的开源和商业化之路",
+                    "profile":"Apache APISIX 是 2019 年 4 月份开始从头开发，6 月份开源，10 月份进入 Apache 孵化器，并在 2020 年 7 月毕业成为 Apache 顶级项目，是最快从 Apache 孵化器毕业的中国项目。同时，Apache APISIX 背后的公司也在摸索在中国如何做开源项目的商业化，已经有了多家世界 500 强的付费用户。这个分享会给我们带来 Apache APISIX 在开源以及商业化上的一些实践和思考，希望能让更多的中国开发者来参与和贡献开源。",
+                    "desc":""
                 }
             
             ]
@@ -204,15 +205,15 @@
                     "profile":"易观大数据平台技术专家，负责大数据基础组件的研发工作，多年大数据开发及平台建设经验. Apache DolphinScheduler(Incubator) PPMC、Apache Local Community Beijing Member。",
                     "desc":"今年暑期通过参与开源软件供应链点亮计划，看到了大学生对于开源的热情以及优秀的开发能力和协作能力， 我将以Apache DolphinScheduler社区为例，分享一些大学生如何更快的融入到开源社区的一些经验：社区交流技巧、代码提交经验。 也会谈一下如何选择适合自己的开源社区做贡献，如何跟着社区的成长而成长，如何通过开源贡献提升自己的能力、名誉，为即将步入职场的自己带上一张闪亮的名片！"
                 },
-                
-               
                 {
-                    "name":"琚致远",
-                    "community":"Apache APISIX",
-                    "title":"作为毕业生，我是如何参与开源社区并加入 Apache 基金会的",
-                    "profile":"19年本科毕业于河南师范大学，在校期间，积极地参与到了 freeCodeCamp 中文社区，帮助身边人更好的学习 Web 编程；现在是高性能开源网关项目 Apache APISIX 的 PMC 成员。在 Summer 2020 活动中，也以导师身份带领3位学弟们参与到项目中，帮助他们更好地融入开源氛围。",
-                    "desc":""
+                    "name":"吴京京",
+                    "community":"Wechaty ",
+                    "title":"Multi-Wechaty SDK for Chatbot",
+                    "profile":"北京邮电大学深度学习研究生，Chatbot技术爱好者，自然语言处理工程师，python-wechaty作者，同时也是wechaty开源社区的优秀代码贡献者。",
+                    "desc":"此次分享的主题是Multi-Wechaty聊天机器人工具，并从以下三个方面展开分享：1.我是如何开始第一个开源项目的，以亲身经历告诉大家开源对大家的重要性。2.聊天机器人发展现状，目前出现的问题，wechaty是什么？以及如何解决这个问题。3.最后通过live coding的环节给大家演示如何通过少量代码开发一款聊天机器人。"
                 }
+               
+               
             ]
         }
     ]
