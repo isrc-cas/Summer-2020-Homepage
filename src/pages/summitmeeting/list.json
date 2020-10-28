@@ -98,17 +98,20 @@
                     "profile":"Chatopera联合创始人&CEO，开源爱好者，有很多的开源项目，积极贡献给开源社区。主要仓库https://github.com/chatopera、https://gitee.com/chatopera演讲经历：参加COSCON2019 《Clause，开源的中文语义理解系统》、组织并参加2016年5月21日～22日的Nodejs Live、2015年至2017年每月组织一次Nodejs等技术的线下Party等。",
                     "desc":"Chatopera Language Understanding Service，Chatopera 语义理解服务。即Clause，它是帮助企业快速而低成本的获得好用的语义理解服务的系统，让机器更理解人。Clause 是 Chatopera 团队自主研发及使用其他商业友好的开源软件的方式实现的，Clause 为实现企业聊天机器人提供强大的大脑，包括客服、智能问答和自动流程服务。Clause 利用深度学习，自然语言处理和搜索引擎技术，让机器更加理解人。 "
                 },
-               
-
                 {
                     "name":"孙金城",
                     "community":"Apache IoTDB & Apache  Flink",
                     "title":"流计算与Python生态的融合 - Apache PyFlink 核心技术揭秘",
                     "profile":"孙金城（金竹），2011年加入阿里，9年的阿里工作中，主导过很多内部核心系统，如：阿里集团行为日志，阿里郎，视频转码，文档转换，流计算等云服务。在2016年初开始了解Apache Flink社区，由初期的参与社区开发到后来逐渐主导具体模块的开发，到负责Apache Flink Python API(PyFlink) 的建设。 目前是 阿里巴巴 Tech Lead， Committer for Apache Beam , PMC Member of Apache Flink and Apache IoTDB and Apache Member.",
                     "desc":"Apache Flink 是一个在无界和有界数据流上进行有状态计算的分布式框架，在实时数据仓库，机器学习，数据分析，事件驱动等场景广泛应用，为更好的进行生态支持，自Apache Flink 1.9版本开始，在Apache Beam的基础上增加对Python语言的支持。Python作为TOP3的流行语言，在机器学习，科学计算等领域有着广泛的用户群，Python与Flink的结合不仅将Python的丰富生态功能(比如，Pandas)集成到了Flink，而且增强了Python的分布式计算能力，本次分享将为大家细致剖析PyFlink的核心技术。"
+                },
+                {
+                    "name":"张军",
+                    "community":"百度",
+                    "title":"产业级开源开放深度学习平台飞桨",
+                    "profile":"张军，飞桨开源框架产品负责人，在自然语言处理、云计算、深度学习等领域，拥有五十余件发明专利。曾经是百度深度学习框架、百度翻译的核心研发工程师，目前主要负责飞桨开源框架的产品设计。",
+                    "desc":"飞桨(PaddlePaddle)是中国首个开源开放、技术领先、功能完备的产业级深度学习平台，集深度学习核心训练和推理框架、基础模型库、端到端开发套件和丰富的工具组件于一体。目前，飞桨累计开发者230万，服务企业9万家，基于飞桨开源深度学习平台产生了31万个模型。近期，飞桨核心框架发布了2.0RC版本，本议题将会介绍2.0RC版本的新的升级亮点，并探讨如何通过开源促进人工智能产业应用和发展。"
                 }
-
-               
             ]
         },
         {
@@ -131,8 +134,8 @@
                 },
                 {
                     "name":"张琼",
-                    "community":"企业级开源数据库 openGauss 的架构设计与实现",
-                    "title":"",
+                    "community":"openGauss",
+                    "title":"企业级开源数据库 openGauss 的架构设计与实现",
                     "profile":"",
                     "desc":""
                 }
