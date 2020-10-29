@@ -293,6 +293,11 @@ const logolistMap = {
             img:'c_Wechaty.jpg',
             url:'https://github.com/wechaty/'
         },
+        {
+            name:'feijiang',
+            img:'c_feijiang.jpg',
+            url:'https://www.paddlepaddle.org.cn/'
+        },
         
         
         
