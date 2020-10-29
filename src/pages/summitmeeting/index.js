@@ -135,7 +135,7 @@ export default class Summitmeeting extends React.Component{
                                                     <div className="HowitworksTimelineItemLineTitle">{item.name}</div>
                                                     <div className="HowitworksTimelineItemLineTime">{item.time}</div>
                                                 </div>
-                                                {
+                                                {/* {
                                                     item.content ? 
                                                     <div className="HowitworksTimelineItemSmall">
                                                         {
@@ -150,7 +150,7 @@ export default class Summitmeeting extends React.Component{
                                                             })
                                                         }
                                                     </div>:""
-                                                }
+                                                } */}
                                                
                                             </div>
 
