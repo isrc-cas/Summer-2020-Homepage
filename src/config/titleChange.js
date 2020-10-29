@@ -34,7 +34,9 @@ var titleChange = function(){
     gettitle();
    
     window.addEventListener('hashchange',()=>{
-        var anounceflag = window.location.hash.split("announcement#").length === 1;
+        var hashname = decodeURIComponent(window.location.hash)
+        window.location.hash=hashname
+        var anounceflag =decodeURIComponent(window.location.hash).split("announcement#").length === 1;
         console.log(anounceflag)
         if(anounceflag && !window.location.hash.includes('?') ) {
             window.scrollTo(0,0);
