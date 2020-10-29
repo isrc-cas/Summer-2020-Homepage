@@ -16,7 +16,8 @@ import {holderlist} from './../index/logo.js';
 import './../index/banner4.less';
 import data from './list.json';
 import twocode from './../../img/stats/twocode.png';
-import daoxiangpng from './../../img/stats/baoming.png'
+import daoxiangpng from './../../img/stats/baoming.png';
+import {datalist} from './data.js'
 export default class Summitmeeting extends React.Component{
     constructor(props){
        super(props)
@@ -26,7 +27,8 @@ export default class Summitmeeting extends React.Component{
         title:["操作系统","虚拟化&云原生","人工智能","大数据","分布式系统"],
         showflag:"",
         showdata:{},
-        link:"https://maka.im/pcdanyeviewer/13229884/HAUZ4967W13229884"
+        link:"https://maka.im/pcdanyeviewer/13229884/HAUZ4967W13229884",
+        datalist,
        }
     }
 
@@ -122,7 +124,43 @@ export default class Summitmeeting extends React.Component{
                 </div>
                 <div className="SummitMeetThree">
                     <div className="SummitMeetThreeContent">
-                        <div className="SummitMeetThreeContentTitle">7 大专题论坛分会场持续更新中...</div>
+                        <div className="SummitMeetThreeContentTimeline">
+                            {
+                                this.state.datalist.map((item,index)=>{
+                                    return (
+                                        <div className={["HowitworksTimelineItem","timeline"+index].join(" ")} key={index}>
+                                            <div className="HowitworksTimelineItemIcon"></div>
+                                            <div className="HowitworksTimelineItemCons">
+                                                <div className="HowitworksTimelineItemLine">
+                                                    <div className="HowitworksTimelineItemLineTitle">{item.name}</div>
+                                                    <div className="HowitworksTimelineItemLineTime">{item.time}</div>
+                                                </div>
+                                                {
+                                                    item.content ? 
+                                                    <div className="HowitworksTimelineItemSmall">
+                                                        {
+                                                            item.content.map((sitem,sindex)=>{
+                                                                return (
+                                                                    <div className="HowitworksTimelineItemSmallItem" key={sindex}>
+                                                                        <div className="HowitworksTimelineItemSITitle">{sitem.name}</div>
+                                                                        <div className="HowitworksTimelineItemSITime">{sitem.time}</div>
+
+                                                                    </div>
+                                                                )
+                                                            })
+                                                        }
+                                                    </div>:""
+                                                }
+                                               
+                                            </div>
+
+                                        </div>
+                                    )
+                                })
+                            }
+
+                        </div>
+                        {/* <div className="SummitMeetThreeContentTitle">7 大专题论坛分会场持续更新中...</div> */}
                         <div className="SummitMeetThreeTableOne tech">
                             <div className="SummitMeetThreeTableOneTile">
                                 <span className="SummitMeetThreeTableOneTileText">技术专题论坛</span>
@@ -261,31 +299,28 @@ export default class Summitmeeting extends React.Component{
                                     )
                                 })
                             }
+                        <div className="SummitMeetThreeContentTimeline">
+                            <div className="HowitworksTimelineItem last" >
+                                <div className="HowitworksTimelineItemIcon"></div>
+                                <div className="HowitworksTimelineItemCons">
+                                    <div className="HowitworksTimelineItemLine ">
+                                        <div className="HowitworksTimelineItemLineTitle">11月15日 上午 优秀学生线上分享</div>
+                                        
+                                    </div>
+                                   
+                                    
+                                </div>
+
+                            </div>
+
+                        </div>
 
 
                             
-                            {/* <div className="SummitMeetThreeTableContent">
-                                <div className="SummitMeetThreeTableItem" >
-                                    <div className="SummitMeetThreeTableItemContent">
-                                        <div   
-                                            className="SummitMeetThreeTableItemContentImage backimg5">                                    
-                                        </div>
-                                        <div className="SummitMeetThreeTableItemContentText">开源文化&开源商业专题</div>
-                                    </div>
-                                    <div className="SummitMeetThreeTableItemBack"></div>
-                                </div>
-                                <div className="SummitMeetThreeTableItem" >
-                                    <div className="SummitMeetThreeTableItemContent">
-                                        <div   
-                                            className="SummitMeetThreeTableItemContentImage backimg6">                                    
-                                        </div>
-                                        <div className="SummitMeetThreeTableItemContentText">开源&示范性软件学院</div>
-                                    </div>
-                                    <div className="SummitMeetThreeTableItemBack"></div>
-                                </div>
-                            </div> */}
+
 
                         </div>
+                        
                     </div>
                 </div>
                 
