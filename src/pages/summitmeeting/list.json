@@ -25,6 +25,13 @@
                     "desc":"首先介绍RT-Thread是什么，应用场景以及一些行业上的应用案例。然后介绍 RT-Thread的生态建设以及其在开源领域做的事情。最后介绍RT-Thread最近在开展的一些工作，如大学计划等。"
                 },
                 {
+                    "name":"董金光",
+                    "community":"OpenHarmony",
+                    "title":"OpenHarmony 技术探索和社区发展",
+                    "profile":"",
+                    "desc":""
+                },
+                {
                     "name":"吴伟",
                     "community":"中国科学院软件研究所",
                     "title":"RISC-V 指令集开源软件生态 ",
@@ -118,6 +125,13 @@
             "name":"bigdata",
             "chi":"大数据",
             "content":[
+                {
+                    "name":"罗旦",
+                    "community":"openLookeng",
+                    "title":"openLooKeng 让大数据更简单",
+                    "profile":"",
+                    "desc":""
+                },
                 {
                     "name":"孙金城",
                     "community":"Apache IoTDB & Apache  Flink",
