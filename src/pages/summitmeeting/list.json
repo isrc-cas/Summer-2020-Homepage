@@ -217,6 +217,20 @@
                     "title":"从 0 到 1：Apache APISIX 的开源和商业化之路",
                     "profile":"Apache APISIX 是 2019 年 4 月份开始从头开发，6 月份开源，10 月份进入 Apache 孵化器，并在 2020 年 7 月毕业成为 Apache 顶级项目，是最快从 Apache 孵化器毕业的中国项目。同时，Apache APISIX 背后的公司也在摸索在中国如何做开源项目的商业化，已经有了多家世界 500 强的付费用户。这个分享会给我们带来 Apache APISIX 在开源以及商业化上的一些实践和思考，希望能让更多的中国开发者来参与和贡献开源。",
                     "desc":""
+                },
+                {
+                    "name":"高琨",
+                    "community":"",
+                    "title":"企业开源合规解读",
+                    "profile":"",
+                    "desc":""
+                },
+                {
+                    "name":"马全一",
+                    "community":"",
+                    "title":"开源项目产品化设计和运作",
+                    "profile":"",
+                    "desc":""
                 }
             ]
         },
