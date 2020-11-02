@@ -20,9 +20,9 @@ export default class PieChart extends React.Component{
 
     this.state = {
       loading: true,
-      series: [18,167],
+      series: [18+16,151],
       options: {
-        labels: ['未通过中期考核的项目','通过中期考核的项目'],
+        labels: ['未通过结项考核的项目','通过结项考核的项目'],
         fill: {
           colors: ['#546cff', '#26caff']
         },
@@ -68,7 +68,7 @@ export default class PieChart extends React.Component{
         <Chart options={this.state.options} series={this.state.series} type="pie" height={this.getHeight()}/>
       }
       </div>
-     
+
     )
   }
 }
