@@ -93,6 +93,12 @@
                 left: 36%;
                
             }
+            .AWCTableProjectID{
+                position: relative;
+                /* font-size: 16px; */
+                line-height: 16px;
+                margin-bottom: 10px;
+            }
             .AWCTableProjectDesc,
             .AWCTableCommunityDesc{
                 position: absolute;
@@ -100,7 +106,7 @@
                 width: 80%;
                 background-color: #4c5999;
                 box-shadow: 0px 3px 9px 0px rgba(0, 13, 75, 0.35);
-                
+                font-size: 16px;
                 color: #fff;
                 top: 48px;
                 line-height: 25px;
@@ -110,6 +116,7 @@
                 clear: both;
                 overflow: hidden;
                 padding: 0;
+                transition: all 0.3s;
                 
 
             }
@@ -118,16 +125,20 @@
                     // bottom:0
                 }
             }
-            .AWCTableProjectDesc.show,
-            .AWCTableCommunityDesc.show{
-                z-index: 10;
-                display: block;
-                padding: 20px 30px;
-                max-height: 700px;
-            }
+            // .AWCTableProjectDesc.show,
+            // .AWCTableCommunityDesc.show{
+            //     z-index: 10;
+            //     display: block;
+            //     padding: 20px 30px;
+            //     max-height: 700px;
+            // }
+            
 
 
 
+           }
+           .AWCTableLine:hover{
+               background-color: #c0caea !important;
            }
            .AWCTableLine{
             position: relative;
@@ -135,6 +146,7 @@
             font-size: 20px;
             line-height: 20px;
             padding: 17px 0;
+            transition: all 0.3s;
             .AWCTableStudentName{
                 width: 13%;
                 padding-left: 2.5%;
@@ -152,6 +164,37 @@
                 cursor: pointer;
                 padding-right: 5px;
             }
+            .AWCTableProjectName.show{
+                .AWCTableProjectTitle{
+                    text-decoration: underline;
+                    transition: all 0.3s;
+                    color: #3826ff;
+                }
+                .AWCTableProjectDesc{
+                    z-index: 10;
+                    display: block;
+                    padding: 20px 30px;
+                    max-height: 700px;
+                }
+            }
+            .AWCTableCommunityDesc,
+            .AWCTableCommunityTitle{
+                line-height: 22px;
+            }
+            .AWCTableCommunityName.show{
+                .AWCTableCommunityTitle{
+                    text-decoration: underline;
+                    transition: all 0.3s;
+                    color: #3826ff;
+                }
+                
+                .AWCTableCommunityDesc{
+                    z-index: 10;
+                    display: block;
+                    padding: 20px 30px;
+                    max-height: 700px;
+                }
+            }
             .AWCTableTutor{
                 width: 16%;
                 color: #666666;
@@ -163,13 +206,32 @@
            .AnnouncementWrapperHeader{
             font-size: 20px;
             position: relative;
-            display: flex;
-            align-items: baseline;
-            justify-content: space-between;
+
+            .AnnouncementSearch{
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 30px;
+                .ant-input-affix-wrapper{
+                    width: 500px;
+                    height: 60px;
+                    box-sizing: border-box;
+                   
+                    input{
+                        font-size: 20px;
+                    }
+                }
+            }
             .AnnouncementWrapperHeaderLeft{
                 position: relative;
                 line-height: 20px;
                 padding: 30px 0 20px;
+                display: flex;
+                justify-content: space-between;
+                .AWHLright{
+                    display: inline-block;
+                }
                 .AWHLblue{
                     color: #666666;
                 }

@@ -13,11 +13,14 @@
 import React from 'react';
 import './index.less';
 import data from './data.json';
-import { Pagination } from 'antd';
+import { Input, Pagination } from 'antd';
+
+const { Search } = Input;
 export default class Announcement extends React.Component{
     constructor(props){
        super(props)
        this.state ={
+        datastock:data,
         data,
         pagenow:1,
         pagesize:23,
@@ -31,7 +34,8 @@ export default class Announcement extends React.Component{
     }
     componentDidMount(){
         this.setState({
-            total:this.state.data.length
+            total:this.state.data.length,
+            datastock:this.state.data,
         })
         this.getcurrentpage()
     }
@@ -132,8 +136,9 @@ export default class Announcement extends React.Component{
 
 
     getPageData(page){
+        
         this.setState({
-            showdata:this.state.data.slice((page-1)*this.state.pagesize,page*this.state.pagesize)
+            showdata:this.state.datastock.slice((page-1)*this.state.pagesize,page*this.state.pagesize)
         })
        
        
@@ -152,6 +157,41 @@ export default class Announcement extends React.Component{
       goLink(url){
         window.open(url)
       }
+
+    filterItem(value){
+        if(value){
+            var showdataTemp = []
+            this.state.data.map((item)=>{
+                if(item.projectid.toString().includes(value)||
+                item.projectname.toLocaleLowerCase().includes(value)||
+                item.name.toLocaleLowerCase().includes(value)){
+                    showdataTemp.push(item)
+                }
+                return 0;
+            })
+            
+            this.setState({
+                datastock:showdataTemp,
+                pagenow:1,
+                
+            })
+        }else{
+            this.setState({
+                datastock:this.state.data,
+                pagenow:1,
+                
+            })
+
+        }
+        
+        
+        setTimeout(()=>{
+            this.getPageData(1)
+        },100)
+        
+        
+        return 0;
+    }
 
       
    
@@ -172,12 +212,22 @@ export default class Announcement extends React.Component{
                 <div className="AnnouncementContent">
                     <div className="AnnouncementWrapper  content1200">
                         <div className="AnnouncementWrapperHeader">
-                            <div className="AnnouncementWrapperHeaderLeft">
-                                <span className="AWHLblue">共{this.state.total}名学生 </span>
-                                <span className="AWHLblue">第{this.state.pagenow}页</span>
-                                <span className="AWHLgrey">/共7页</span>
-                            </div>
+                            <div className="AnnouncementSearch">
+                            <Search
+                                placeholder="请输入搜索的学生姓名或项目ID"
+                                onSearch={value => this.filterItem(value)}
+                                allowClear
+                            />
                             <div className="AnnouncementWrapperHeaderRight">*按学生姓名拼音字母排序</div>
+                            </div>
+                            <div className="AnnouncementWrapperHeaderLeft">
+                                <span className="AWHLblue">共{this.state.datastock.length}名学生 </span>
+                                <span className="AWHLright">
+                                    <span className="AWHLblue">第{this.state.pagenow}页</span>
+                                    <span className="AWHLgrey">/共{Math.ceil(this.state.datastock.length/this.state.pagesize)}页</span>
+                                </span>
+                            </div>
+                            
 
                         </div>
                         <div className="AnnouncementWrapperContent">
@@ -189,24 +239,26 @@ export default class Announcement extends React.Component{
                                 <div className="AWCTableRepoaddr">仓库地址</div>
                             </div>
                             <div className="AWCTableContent">
+                               
                                 
                                 {
                                     this.state.showdata.map((ele,index)=>{
                                        return (
                                         <div className={["AWCTableLine",ele.projectid].join(" ")} key={index}>
                                            
-                                            <div className="AWCTableStudentName">{ele.name}</div>
-                                            <div className="AWCTableCommunityName" >
-                                                <span onClick={(e)=>{this.showDescData(ele.projectid,e)}}>{ele.communityname}</span>
-                                                <div className={["AWCTableCommunityDesc",this.state.currentProject === ele.projectid ? 'show':''].join(" ")} >
+                                            <div className="AWCTableStudentName" >{ele.name}</div>
+                                            <div className={["AWCTableCommunityName",this.state.currentProject === ele.projectid ? 'show':''].join(" ")}>
+                                                <span className="AWCTableCommunityTitle" onClick={(e)=>{this.showDescData(ele.projectid,e)}}>{ele.communityname}</span>
+                                                <div className="AWCTableCommunityDesc" >
                                                     <div className="AWCTableCommunityDescclose" onClick={(e)=>{this.showDescData(0,e)}}></div>
                                                     <span>{ele.communitydesc}</span>
                                                 </div>
                                             </div>
-                                            <div className="AWCTableProjectName">
-                                                <span onClick={(e)=>{this.showProjectDescData(ele.projectid,e)}}>{ele.projectname}</span>
-                                                <div className={["AWCTableProjectDesc",this.state.currentProjectP === ele.projectid ? 'show':''].join(" ")} >
+                                            <div className={["AWCTableProjectName",this.state.currentProjectP === ele.projectid ? 'show':''].join(" ")} >
+                                                <span className="AWCTableProjectTitle" onClick={(e)=>{this.showProjectDescData(ele.projectid,e)}}>{ele.projectname}</span>
+                                                <div className="AWCTableProjectDesc" >
                                                     <div className="AWCTableCommunityDescclose" onClick={(e)=>{this.showProjectDescData(0,e)}}></div>
+                                                    <div className="AWCTableProjectID">项目ID：{ele.projectid}</div>
                                                     <span>{ele.projectdesc}</span>
                                                 </div>
                                             </div>
@@ -221,7 +273,7 @@ export default class Announcement extends React.Component{
                                 <Pagination  
                                 onChange={this.onChange}
                                 current={this.state.pagenow}
-                                defaultCurrent={1} total={this.state.data.length} pageSize={this.state.pagesize}/>
+                                defaultCurrent={1} total={this.state.datastock.length} pageSize={this.state.pagesize}/>
 
                             </div>
                         </div>
