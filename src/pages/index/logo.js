@@ -482,7 +482,7 @@ const logolistMap = {
         },
         {
             name:'西安邮电大学',
-            img:'logo_xianyoudian.jpg',
+            img:'logo_xianyoudian.png',
             url:'http://www.xiyou.edu.cn/'
         },
         
