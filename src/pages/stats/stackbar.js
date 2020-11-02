@@ -21,11 +21,11 @@ export default class StackChart extends React.Component{
     this.state = {
       loading: true,
       series: [{
-        name: '通过中期考核的项目',
-        data: [54,85,28]
+        name: '通过结项考核的项目',
+        data: [47,79,25] // 高、中、低
       }, {
-        name: '未通过中期考核的项目',
-        data: [8,8,2]
+        name: '未通过结项考核的项目',
+        data: [8+7,8+6,2+3] // 高、中、低
       }],
       options: {
         chart: {
@@ -33,7 +33,7 @@ export default class StackChart extends React.Component{
         },
         annotations: {
           points: [{
-            x: '高难度共62',
+            x: '高难度共 62',
             y: 27,
             seriesIndex: 0,
             label: {
@@ -44,11 +44,11 @@ export default class StackChart extends React.Component{
                 color: '#00aee6',
                 fontSize: window.innerWidth > 1200 ? '20px':'14px',
               },
-              text: '54',
+              text: '47',
             }
           },
           {
-            x: '中难度共93',
+            x: '中难度共 93',
             y: 45,
             seriesIndex: 0,
             label: {
@@ -59,11 +59,11 @@ export default class StackChart extends React.Component{
                 color: '#00aee6',
                 fontSize: window.innerWidth > 1200 ? '20px':'14px',
               },
-              text: '85',
+              text: '79',
             }
           },
           {
-            x: '低难度共30',
+            x: '低难度共 30',
             y: 14,
             seriesIndex: 0,
             label: {
@@ -73,9 +73,8 @@ export default class StackChart extends React.Component{
               style: {
                 color: '#00aee6',
                 fontSize: window.innerWidth > 1200 ? '20px':'14px',
-                
               },
-              text: '28',
+              text: '25',
             }
           }]
         },
@@ -86,7 +85,6 @@ export default class StackChart extends React.Component{
               endingShape: 'flat',
               columnWidth: '20%'
           },
-          
         },
         responsive: [{
           breakpoint: 480,
@@ -99,7 +97,7 @@ export default class StackChart extends React.Component{
           }
         }],
         xaxis: {
-          categories: ['高难度共62','中难度共93','低难度共30'],
+          categories: ['高难度共 62','中难度共 93','低难度共 30'],
           labels: {
             style: {
               fontSize: window.innerWidth > 1200 ? '20px' : '14px'
@@ -149,7 +147,6 @@ export default class StackChart extends React.Component{
         <Chart options={this.state.options} series={this.state.series} type="bar" height={300}/>
       }
       </div>
-     
     )
   }
 }

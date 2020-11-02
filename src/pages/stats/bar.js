@@ -135,7 +135,7 @@ export default class BarChart extends React.Component{
         <Chart options={this.state.options} series={this.state.series} type="bar" width={this.getWidth()} style={{overflowX: "auto", overflowY: "hidden"}} height={600}/>
       }
       </div>
-     
+
     )
   }
 }

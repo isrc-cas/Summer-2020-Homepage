@@ -81,19 +81,19 @@ export default class Stats extends React.Component{
                <div className="indexStatsSecond">
                     <div className="statsWrapper">
                       <div className="content1200">
-                        <div className="statsDataTitle">中期考核数据</div>
+                        <div className="statsDataTitle">结项考核数据</div>
                         {
                           window.innerWidth > 1200 ?
                           (
                           <div className="midterm-legend">
-                            <span className="midterm-pass">通过中期考核的项目</span>
-                            <span className="midterm-fail">未通过中期考核的项目</span>
+                            <span className="midterm-pass">通过结项考核的项目</span>
+                            <span className="midterm-fail">未通过结项考核的项目</span>
                           </div>
                           ) :
                           (
                           <div className="midterm-legend">
-                            <div className="midterm-pass">通过中期考核的项目</div>
-                            <div className="midterm-fail">未通过中期考核的项目</div>
+                            <div className="midterm-pass">通过结项考核的项目</div>
+                            <div className="midterm-fail">未通过结项考核的项目</div>
                           </div> 
                           )
                         }
@@ -108,8 +108,8 @@ export default class Stats extends React.Component{
                                     </Col>
                                     <Col span={12}>
                                       <div className="pie-label">
-                                        <div>中期考核通过率 90.2%</div> 
-                                        <div>共 167</div>
+                                        <div>结项考核通过率 81.6%</div> 
+                                        <div>共 151</div>
                                       </div>
                                     </Col> 
                                   </Row>
@@ -126,7 +126,7 @@ export default class Stats extends React.Component{
                                   </Col>
                                   <Col span={12}>
                                     <div className="pie-label">
-                                      <div>中期考核通过率 90.2%, 共 167</div>
+                                      <div>结项考核通过率 81.6%, 共 151</div>
                                     </div>
                                   </Col> 
                                 </Row>
@@ -135,8 +135,8 @@ export default class Stats extends React.Component{
                               </div>
                             )
                         }
-                        
-                        
+
+
                         <div className="statsDataTitle">活动数据统计</div>
                           {
                             this.state.data.stats.map(
@@ -169,8 +169,6 @@ export default class Stats extends React.Component{
                       <div className="content1200"><BarChart/></div>
                       <div className="statsNote content1200">*项目申请数相同的学校排名不分先后</div>
                     </div>
-                    
-                    
                </div>
 
                <div className="statsBannerEnd">
