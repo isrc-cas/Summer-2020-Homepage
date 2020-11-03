@@ -78,27 +78,33 @@ export default class Summitmeeting extends React.Component{
             <div className="Summitmeeting">
                 <div className="indexHomeOneBanner indexHomeOneBannerFour">
                     <div className="indexHomeFourBanner content1200">
-                        <div className="indexHomeFourBannerTitle">重磅! “开源软件供应链 2020 峰会”</div>
-                        <div className="indexHomeFourBannerCompany">
-                            <div className="indexHomeFourBannerCompanyItem">中国科学院软件研究所</div>
-                            <div className="indexHomeFourBannerCompanyItem">openEuler 社区</div>
-                            <div className="indexHomeFourBannerCompanyItem">中科院软件研究所南京软件技术研究院</div>
-                            <div className="indexHomeFourBannerCompanyItem">华为技术有限公司</div>
+                    
+                            <div className="indexHomeFourBannerLogo"></div>
+                            <div className="indexHomeFourBannerTitle">
+                                <span className="One">共献·开源</span>
+                                <span className="Two">“开源软件供应链 2020 峰会”</span>
+                            </div>
+                            <div className="indexHomeFourBannerCompany">
+                                <div className="indexHomeFourBannerCompanyItem">中国科学院软件研究所</div>
+                                <div className="indexHomeFourBannerCompanyItem">openEuler 社区</div>
+                                <div className="indexHomeFourBannerCompanyItem">中科院软件研究所南京软件技术研究院</div>
+                                <div className="indexHomeFourBannerCompanyItem">华为技术有限公司</div>
+                            </div>
+                            <div className="indexHomeFourBannerMainTile">峰会将围绕现代软件构建模式的关键供应关系网络——开源软件供应链展开深入解读，论道开源最新技术前沿话题</div>
+                            <div className="indexHomeFourLabels">
+                                {
+                                    this.state.holderlist.bannerfourdata.map((item,index)=>{
+                                        return (
+                                            <div className="indexHomeFourLabelItem" key={index}>
+                                                {item}
+                                            </div>
+                                        )
+                                    })
+                                }
+                            </div>
+                            <div className="SummitMeetTextTwo" >主办方：中国科学院软件研究所、openEuler社区  |  承办方：中国科学院软件研究所南京软件技术研究院  |  赞助方：华为技术有限公司  |  媒体合作方：开源社、开源中国、SegmentFault 思否、芽木科技</div>
                         </div>
-                        <div className="indexHomeFourBannerMainTile">峰会将围绕现代软件构建模式的关键供应关系网络——开源软件供应链展开深入解读，论道开源最新技术前沿话题</div>
-                        <div className="indexHomeFourLabels">
-                            {
-                                this.state.holderlist.bannerfourdata.map((item,index)=>{
-                                    return (
-                                        <div className="indexHomeFourLabelItem" key={index}>
-                                            {item}
-                                        </div>
-                                    )
-                                })
-                            }
-                        </div>
-                        <div className="SummitMeetTextOne">专题论坛议题火热征集中！</div>
-                    </div>
+                    
                    
                 </div>
                 <div className="SummitMeetTwo">
