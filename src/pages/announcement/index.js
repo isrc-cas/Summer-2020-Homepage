@@ -13,6 +13,7 @@
 import React from 'react';
 import './index.less';
 import data from './data.json';
+import list from './list.json';
 import { Input, Pagination } from 'antd';
 
 const { Search } = Input;
@@ -29,15 +30,19 @@ export default class Announcement extends React.Component{
         currentProject:0,
         currentProjectP:0,
         // tab
+        list,
+        showlist:list,
         tabflag:"two",//one:结项，two:优秀学生
        
        
        }
     }
     componentDidMount(){
+        
         this.setState({
             total:this.state.data.length,
             datastock:this.state.data,
+            showlist:this.state.list
         })
         this.getcurrentpage()
     }
@@ -214,6 +219,38 @@ export default class Announcement extends React.Component{
         return 0;
     }
 
+    filterItemXiu(value){
+        var showDatalist = []
+        var showdataTemp = []
+        this.state.list.map((item)=>{
+            showdataTemp = []
+            item.content.map((sele)=>{
+               
+                if(sele.projectid.toString().includes(value)||
+                sele.projectname.toLocaleLowerCase().includes(value)||
+                sele.name.toLocaleLowerCase().includes(value)){
+                    showdataTemp.push(sele)
+                }
+                return 0;
+            })
+            
+            if(showdataTemp.length>0){
+                var tempobj = JSON.parse(JSON.stringify(item));
+                tempobj.content = showdataTemp
+                showDatalist.push(tempobj)
+            }
+            
+            return 0;
+            
+        })
+       
+        
+       this.setState({
+           showlist:showDatalist
+       })
+       return 0;
+    }
+
       
    
     
@@ -313,7 +350,82 @@ export default class Announcement extends React.Component{
                     
 
                 </div>
-                <div className={["AnnouncementContent AnnouncementYouxiu",this.state.tabflag === "two"?"show":""].join(" ")}></div>
+                <div className={["AnnouncementContent AnnouncementYouxiu",this.state.tabflag === "two"?"show":""].join(" ")}>
+                    <div className="AnnouncementWrapper  content1200">
+                        <div className="AnnouncementXiuText">
+                            所有结项的 151 名同学都很优秀。组委会和指导委员会的老师们从 4 个方向选出这 20 位优秀代表，鼓励并希望有更多同学积极参与开源社区，为开源事业贡献自己的力量！
+                        </div>
+                        <div className="AnnouncementSearch">
+                            <Search
+                                placeholder="请输入搜索的学生姓名或项目ID"
+                                onSearch={value => this.filterItemXiu(value)}
+                                allowClear
+                            />
+                        </div>
+                        <div className="AnnouncementXiuWrapper">
+                            {
+                                this.state.showlist.map((item, index)=>{
+                                    return (
+                                        <div className={["AnnouncementXiuItem", item.name].join(" ")} key={index}>
+                                        <div className="AnnouncementXiuItemTitle">
+                                            <span className="AnnouncementXiuItemTitleOne">优秀学生 </span>|
+                                            <span className="AnnouncementXiuItemTitleTwo"> {item.title}</span>
+                                        </div>
+                                        <div className="AnnouncementXiuItemText">
+                                            导师寄语：{item.text}
+                                        </div>
+                                        <div className="AnnouncementXiuItemNum">
+                                            <span className="AnnouncementXiuItemNumOne">共5名学生</span>
+                                            <span className="AnnouncementXiuItemNumTwo">*按学生姓名拼音字母排序</span>
+                                        </div>
+                                        <div className="AnnouncementTable">
+                                        <div className="AWCTableHeader AWCTableLine">
+                                                <div className="AWCTableStudentName">学生姓名</div>
+                                                <div className="AWCTableCommunityName">社区名称</div>
+                                                <div className="AWCTableProjectName">项目名称</div>
+                                                <div className="AWCTableTutor">社区导师</div>
+                                                <div className="AWCTableRepoaddr">仓库地址</div>
+                                            </div>
+                                            <div className="AWCTableContent">
+                                            
+                                                
+                                                {
+                                                    item.content.map((ele,index)=>{
+                                                    return (
+                                                        <div className={["AWCTableLine",ele.projectid].join(" ")} key={index}>
+                                                        
+                                                            <div className="AWCTableStudentName" >{ele.name}</div>
+                                                            <div className={["AWCTableCommunityName",this.state.currentProject === ele.projectid ? 'show':''].join(" ")}>
+                                                                <span className="AWCTableCommunityTitle" onClick={(e)=>{this.showDescData(ele.projectid,e)}}>{ele.communityname}</span>
+                                                                <div className="AWCTableCommunityDesc" >
+                                                                    <div className="AWCTableCommunityDescclose" onClick={(e)=>{this.showDescData(0,e)}}></div>
+                                                                    <span>{ele.communitydesc}</span>
+                                                                </div>
+                                                            </div>
+                                                            <div className={["AWCTableProjectName",this.state.currentProjectP === ele.projectid ? 'show':''].join(" ")} >
+                                                                <span className="AWCTableProjectTitle" onClick={(e)=>{this.showProjectDescData(ele.projectid,e)}}>{ele.projectname}</span>
+                                                                <div className="AWCTableProjectDesc" >
+                                                                    <div className="AWCTableCommunityDescclose" onClick={(e)=>{this.showProjectDescData(0,e)}}></div>
+                                                                    <div className="AWCTableProjectID">项目ID：{ele.projectid}</div>
+                                                                    <span>{ele.projectdesc}</span>
+                                                                </div>
+                                                            </div>
+                                                            <div className="AWCTableTutor">{ele.tutor}</div>
+                                                            <div className="AWCTableRepoaddr" onClick={()=>this.goLink(ele.repolink)}>访问</div>
+                                                        </div>
+                                                    )
+                                                    })
+                                                }
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                    )
+                                })
+                            }
+                        </div>
+                    </div>
+                </div>
                 
             </div>
          )
