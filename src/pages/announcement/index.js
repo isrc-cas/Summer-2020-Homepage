@@ -41,9 +41,13 @@ export default class Announcement extends React.Component{
     }
     getcurrentpage(){
         const proid = parseInt(window.location.hash.split("announcement#")[1]);
+       
+       
         let  pagenow = this.state.pagenow;
+
         let indexnum = 0;
         if(proid> 0){
+            
             
             var len =  this.state.data.length;
             for(var i=0;i<len;i++){
@@ -61,13 +65,22 @@ export default class Announcement extends React.Component{
             this.setState({
                 pagenow
             })
+            
+           
+            
             setTimeout(()=>{
+                var $selectpro =  document.getElementsByClassName(proid)[0];
+                
+                $selectpro.style.backgroundColor="#c0caea";
                 window.scrollTo({
                     top: position,
                     left: 0,
                     behavior: 'smooth'
                 });
-            },1000)
+            },500)
+            setTimeout(()=>{
+                document.getElementsByClassName(proid)[0].style.backgroundColor="";
+            },2500)
             window.location.hash = "#/announcement"
             
 
