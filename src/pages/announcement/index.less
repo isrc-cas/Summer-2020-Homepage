@@ -15,8 +15,8 @@
        height: 280px;
        background-image: url(./../../img/stats/banner.jpg);
        
-    background-repeat: no-repeat;
-    background-size: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
 
        .AnnouncementBannerText{
         font-size: 36px;
@@ -41,10 +41,43 @@
         background-position: left;
        }
    }
+   .AnnouncementTab{
+       position: relative;
+       height: 80px;
+       background-color: #242f66;
+       width: 100%;
+       
+        .AnnouncementTabwrapper{
+            font-size: 24px;
+            font-weight: normal;
+            font-stretch: normal;
+            letter-spacing: 2px;
+            color: #ffffff;
+            display: flex;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+        }
+        .AnnouncementTabItem{
+            position: relative;
+            height: 90%;
+            padding: 17px 40px;
+            box-sizing: border-box;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .AnnouncementTabItem.show{
+            background-color: #4d4dff;
+        }
+
+   }
+   .AnnouncementContent.show{
+       display: block;
+   }
    .AnnouncementContent{
        position: relative;
        background-color: #e5eaf9;
-      
+      display: none;
        .AnnouncementWrapper{
         //    width: 1200px;
            margin:0 auto;

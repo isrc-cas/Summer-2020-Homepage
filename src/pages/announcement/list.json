@@ -1,0 +1,270 @@
+[
+    {
+        "title":"最佳质量奖",
+        "name":"bestquality",
+        "text":"导师寄语：学习从来不是很容易，努力从来不会被怠慢，坚持从来不会被辜负；希望大学的青春旅程让你们有所感触，希望大学的春酸楚让你们有所感悟，希望大学的青春年华让你们有所感动；学会感谢，学会感激，学会感恩。 吕丽萍讲师/博士 环化学院 大学是梦开始的地方，希望你们在这四年的光景里，怀揣着自己的梦想慢慢成长，学会学习与相处，懂得感恩与付出，最后长成自己喜欢的模样。 孟祥栋副教授/博士 党政办 学会选择，选择自己力所能及的目标；学会坚持...",
+        "content":[
+            {
+                "name": "白泽平",
+                "communityname": "Apache APISIX",
+                "communitylink": "",
+                "communitydesc": "Apache APISIX 是云原生、高性能、可扩展的微服务 API 网关，它基于 Nginx 和 etcd 来实现，具备动态路由、插件热加载和 gRPC 代理和协议转换功能，更适合微服务体系下的 API 管理。",
+                "projectname": "Dashboard API 身份验证模块",
+                "projectlink": "",
+                "projectid": 2001414,
+                "projectdesc": "完善身份验证模块：当前默认登录页为账号密码，但与 API 不兼容，请修改为动态设置 API Key 来校验 API 身份，并为其它方式保留兼容性、可配置性。",
+                "tutor": "琚致远",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2001414"
+              },
+              {
+                "name": "毕凯乔",
+                "communityname": "Wechaty",
+                "communitylink": "",
+                "communitydesc": "Wechaty 是一个开源聊天机器人框架SDK，具有高度封装、高可用的特性，支持NodeJs,  Python,  Go 和Java 等多语言版本。在过去的4年中，服务了数万名开发者，收获了 Github 的 8000 Star。同时配置了完整的DevOps体系并持续按照Apache 的方式管理技术社区。",
+                "projectname": "基于 RPA 封装 Wechaty 接口下的快手聊天机器人",
+                "projectlink": "",
+                "projectid": 2044426,
+                "projectdesc": "快手提供内部IM系统，有基于RPA的方式开发聊天机器人的可能。快手内部有强大的IM系统，大量用户已经习惯直接在快手内与内容创作者和粉丝群进行聊天沟通。 但是目前没有成熟的快手聊天机器人框架，对于繁琐的自动回复、群管理等运营场景，尚未出现完整成熟的解决方案。 Wechaty是全球最大的开源聊天机器人框架，希望实现基于同一套应用层代码实现不同软件的聊天机器人 Wechaty 作为全球最大的聊天机器人开发者社区之一，提供了非常简单的接口实现，让开发者能够用6行代码就实现自己的一个聊天机器人，如果能把飞书的聊天机器人封装到 Wechaty 里来，则可以大大简化企业内开发者的开发流程。 因为 Wechaty 是建立在 puppet 系统之上的，puppet 是 Wechaty 依赖的一层抽象层，它定义了底层各个 IM 接入方案需要实现的接口，也正是因为 puppet 抽象层的存在，让很多 Wechaty 开发者可以仅仅通过一个变量，就能够随意切换不同的底层 IM 接入。",
+                "tutor": "尹伯昊",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2044426"
+              },
+              {
+                "name": "宾浩宇",
+                "communityname": "openEuler Community",
+                "communitylink": "",
+                "communitydesc": "openEuler 是一个开源、免费的 Linux 发行版平台,将通过开放的社区形式与全球的开发者共同构建一个开放、多元和架构包容的软件生态体系。同时,openEuler 也是一个创新的平台,鼓励任何人在该平台上提出新想法、开拓新思路、实践新方案。",
+                "projectname": "构建可运行 iSulad 点容器镜像，并推送到 Docker Hub 镜像仓库",
+                "projectlink": "",
+                "projectid": 2021203,
+                "projectdesc": "当前 Docker Hub 等镜像仓库中无 iSulad 镜像，要求制作能够运行 iSulad 的容器镜像，并推送到 Docker Hub 上，能够使用 Docker、iSulad 下载该镜像，并能够启动 iSulad 。",
+                "tutor": "@lifeng2221dd1",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2021203"
+              },
+              {
+                "name": "蔡浩文",
+                "communityname": "MiniGUI",
+                "communitylink": "",
+                "communitydesc": "MiniGUI是一个快速、稳定、跨操作系统的图形用户界面（GUI）支持系统，广泛应用于智能硬件、智能物联网设备当中，用于为上层应用程序提供图形及图形用户界面的支持。",
+                "projectname": "将 MiniGUI 5.0 运行到 RT-Thread 或者 FreeRTOS 开发板上",
+                "projectlink": "",
+                "projectid": 2038248,
+                "projectdesc": "将 MiniGUI 5.0 (Standalone 或者 Threads 模式）移植到运行 RT-Thread 或者 FreeRTOS 的开发板上。需要开发针对具体开发板的图形引擎、输入引擎等。",
+                "tutor": "魏永明",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2038248"
+              },
+              {
+                "name": "曹彪",
+                "communityname": "Apache ShardingSphere",
+                "communitylink": "",
+                "communitydesc": "Apache ShardingSphere 是一套开源的分布式数据库中间件解决方案组成的生态圈，它由Sharding-JDBC、Sharding-Proxy和Sharding-Sidecar（规划中）这3款相互独立，却又能够混合部署配合使用的产品组成。它们均提供标准化的数据分片、分布式事务和数据库治理功能，可适用于如Java同构、异构语言、云原生等各种多样化的应用场景。ShardingSphere定位为关系型数据库中间件，旨在充分合理地在分布式的场景下利用关系型数据库的计算和存储能力，而并非实现一个全新的关系型数据库。它通过关注不变，进而抓住事物本质。关系型数据库当今依然占有巨大市场，是各个公司核心业务的基石，未来也难于撼动，我们目前阶段更加关注在原有基础上的增量，而非颠覆。",
+                "projectname": "完善SQL语法解析模块",
+                "projectlink": "",
+                "projectid": 2004142,
+                "projectdesc": "参考PostgreSQL数据库的SQL语法，完善Sharding Parser模块有关PostgreSQL的语法定义",
+                "tutor": "潘娟",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2004142"
+              }
+        ]
+    },
+    {
+        "title":"最具潜力奖",
+        "name":"potential",
+        "text":"导师寄语：学习从来不是很容易，努力从来不会被怠慢，坚持从来不会被辜负；希望大学的青春旅程让你们有所感触，希望大学的春酸楚让你们有所感悟，希望大学的青春年华让你们有所感动；学会感谢，学会感激，学会感恩。 吕丽萍讲师/博士 环化学院 大学是梦开始的地方，希望你们在这四年的光景里，怀揣着自己的梦想慢慢成长，学会学习与相处，懂得感恩与付出，最后长成自己喜欢的模样。 孟祥栋副教授/博士 党政办 学会选择，选择自己力所能及的目标；学会坚持...",
+        "content":[
+            {
+                "name": "白泽平",
+                "communityname": "Apache APISIX",
+                "communitylink": "",
+                "communitydesc": "Apache APISIX 是云原生、高性能、可扩展的微服务 API 网关，它基于 Nginx 和 etcd 来实现，具备动态路由、插件热加载和 gRPC 代理和协议转换功能，更适合微服务体系下的 API 管理。",
+                "projectname": "Dashboard API 身份验证模块",
+                "projectlink": "",
+                "projectid": 2001414,
+                "projectdesc": "完善身份验证模块：当前默认登录页为账号密码，但与 API 不兼容，请修改为动态设置 API Key 来校验 API 身份，并为其它方式保留兼容性、可配置性。",
+                "tutor": "琚致远",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2001414"
+              },
+              {
+                "name": "毕凯乔",
+                "communityname": "Wechaty",
+                "communitylink": "",
+                "communitydesc": "Wechaty 是一个开源聊天机器人框架SDK，具有高度封装、高可用的特性，支持NodeJs,  Python,  Go 和Java 等多语言版本。在过去的4年中，服务了数万名开发者，收获了 Github 的 8000 Star。同时配置了完整的DevOps体系并持续按照Apache 的方式管理技术社区。",
+                "projectname": "基于 RPA 封装 Wechaty 接口下的快手聊天机器人",
+                "projectlink": "",
+                "projectid": 2044426,
+                "projectdesc": "快手提供内部IM系统，有基于RPA的方式开发聊天机器人的可能。快手内部有强大的IM系统，大量用户已经习惯直接在快手内与内容创作者和粉丝群进行聊天沟通。 但是目前没有成熟的快手聊天机器人框架，对于繁琐的自动回复、群管理等运营场景，尚未出现完整成熟的解决方案。 Wechaty是全球最大的开源聊天机器人框架，希望实现基于同一套应用层代码实现不同软件的聊天机器人 Wechaty 作为全球最大的聊天机器人开发者社区之一，提供了非常简单的接口实现，让开发者能够用6行代码就实现自己的一个聊天机器人，如果能把飞书的聊天机器人封装到 Wechaty 里来，则可以大大简化企业内开发者的开发流程。 因为 Wechaty 是建立在 puppet 系统之上的，puppet 是 Wechaty 依赖的一层抽象层，它定义了底层各个 IM 接入方案需要实现的接口，也正是因为 puppet 抽象层的存在，让很多 Wechaty 开发者可以仅仅通过一个变量，就能够随意切换不同的底层 IM 接入。",
+                "tutor": "尹伯昊",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2044426"
+              },
+              {
+                "name": "宾浩宇",
+                "communityname": "openEuler Community",
+                "communitylink": "",
+                "communitydesc": "openEuler 是一个开源、免费的 Linux 发行版平台,将通过开放的社区形式与全球的开发者共同构建一个开放、多元和架构包容的软件生态体系。同时,openEuler 也是一个创新的平台,鼓励任何人在该平台上提出新想法、开拓新思路、实践新方案。",
+                "projectname": "构建可运行 iSulad 点容器镜像，并推送到 Docker Hub 镜像仓库",
+                "projectlink": "",
+                "projectid": 2021203,
+                "projectdesc": "当前 Docker Hub 等镜像仓库中无 iSulad 镜像，要求制作能够运行 iSulad 的容器镜像，并推送到 Docker Hub 上，能够使用 Docker、iSulad 下载该镜像，并能够启动 iSulad 。",
+                "tutor": "@lifeng2221dd1",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2021203"
+              },
+              {
+                "name": "蔡浩文",
+                "communityname": "MiniGUI",
+                "communitylink": "",
+                "communitydesc": "MiniGUI是一个快速、稳定、跨操作系统的图形用户界面（GUI）支持系统，广泛应用于智能硬件、智能物联网设备当中，用于为上层应用程序提供图形及图形用户界面的支持。",
+                "projectname": "将 MiniGUI 5.0 运行到 RT-Thread 或者 FreeRTOS 开发板上",
+                "projectlink": "",
+                "projectid": 2038248,
+                "projectdesc": "将 MiniGUI 5.0 (Standalone 或者 Threads 模式）移植到运行 RT-Thread 或者 FreeRTOS 的开发板上。需要开发针对具体开发板的图形引擎、输入引擎等。",
+                "tutor": "魏永明",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2038248"
+              },
+              {
+                "name": "曹彪",
+                "communityname": "Apache ShardingSphere",
+                "communitylink": "",
+                "communitydesc": "Apache ShardingSphere 是一套开源的分布式数据库中间件解决方案组成的生态圈，它由Sharding-JDBC、Sharding-Proxy和Sharding-Sidecar（规划中）这3款相互独立，却又能够混合部署配合使用的产品组成。它们均提供标准化的数据分片、分布式事务和数据库治理功能，可适用于如Java同构、异构语言、云原生等各种多样化的应用场景。ShardingSphere定位为关系型数据库中间件，旨在充分合理地在分布式的场景下利用关系型数据库的计算和存储能力，而并非实现一个全新的关系型数据库。它通过关注不变，进而抓住事物本质。关系型数据库当今依然占有巨大市场，是各个公司核心业务的基石，未来也难于撼动，我们目前阶段更加关注在原有基础上的增量，而非颠覆。",
+                "projectname": "完善SQL语法解析模块",
+                "projectlink": "",
+                "projectid": 2004142,
+                "projectdesc": "参考PostgreSQL数据库的SQL语法，完善Sharding Parser模块有关PostgreSQL的语法定义",
+                "tutor": "潘娟",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2004142"
+              }
+        ]
+    },
+    {
+        "title":"突出贡献奖",
+        "name":"contribution",
+        "text":"导师寄语：学习从来不是很容易，努力从来不会被怠慢，坚持从来不会被辜负；希望大学的青春旅程让你们有所感触，希望大学的春酸楚让你们有所感悟，希望大学的青春年华让你们有所感动；学会感谢，学会感激，学会感恩。 吕丽萍讲师/博士 环化学院 大学是梦开始的地方，希望你们在这四年的光景里，怀揣着自己的梦想慢慢成长，学会学习与相处，懂得感恩与付出，最后长成自己喜欢的模样。 孟祥栋副教授/博士 党政办 学会选择，选择自己力所能及的目标；学会坚持...",
+        "content":[
+            {
+                "name": "白泽平",
+                "communityname": "Apache APISIX",
+                "communitylink": "",
+                "communitydesc": "Apache APISIX 是云原生、高性能、可扩展的微服务 API 网关，它基于 Nginx 和 etcd 来实现，具备动态路由、插件热加载和 gRPC 代理和协议转换功能，更适合微服务体系下的 API 管理。",
+                "projectname": "Dashboard API 身份验证模块",
+                "projectlink": "",
+                "projectid": 2001414,
+                "projectdesc": "完善身份验证模块：当前默认登录页为账号密码，但与 API 不兼容，请修改为动态设置 API Key 来校验 API 身份，并为其它方式保留兼容性、可配置性。",
+                "tutor": "琚致远",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2001414"
+              },
+              {
+                "name": "毕凯乔",
+                "communityname": "Wechaty",
+                "communitylink": "",
+                "communitydesc": "Wechaty 是一个开源聊天机器人框架SDK，具有高度封装、高可用的特性，支持NodeJs,  Python,  Go 和Java 等多语言版本。在过去的4年中，服务了数万名开发者，收获了 Github 的 8000 Star。同时配置了完整的DevOps体系并持续按照Apache 的方式管理技术社区。",
+                "projectname": "基于 RPA 封装 Wechaty 接口下的快手聊天机器人",
+                "projectlink": "",
+                "projectid": 2044426,
+                "projectdesc": "快手提供内部IM系统，有基于RPA的方式开发聊天机器人的可能。快手内部有强大的IM系统，大量用户已经习惯直接在快手内与内容创作者和粉丝群进行聊天沟通。 但是目前没有成熟的快手聊天机器人框架，对于繁琐的自动回复、群管理等运营场景，尚未出现完整成熟的解决方案。 Wechaty是全球最大的开源聊天机器人框架，希望实现基于同一套应用层代码实现不同软件的聊天机器人 Wechaty 作为全球最大的聊天机器人开发者社区之一，提供了非常简单的接口实现，让开发者能够用6行代码就实现自己的一个聊天机器人，如果能把飞书的聊天机器人封装到 Wechaty 里来，则可以大大简化企业内开发者的开发流程。 因为 Wechaty 是建立在 puppet 系统之上的，puppet 是 Wechaty 依赖的一层抽象层，它定义了底层各个 IM 接入方案需要实现的接口，也正是因为 puppet 抽象层的存在，让很多 Wechaty 开发者可以仅仅通过一个变量，就能够随意切换不同的底层 IM 接入。",
+                "tutor": "尹伯昊",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2044426"
+              },
+              {
+                "name": "宾浩宇",
+                "communityname": "openEuler Community",
+                "communitylink": "",
+                "communitydesc": "openEuler 是一个开源、免费的 Linux 发行版平台,将通过开放的社区形式与全球的开发者共同构建一个开放、多元和架构包容的软件生态体系。同时,openEuler 也是一个创新的平台,鼓励任何人在该平台上提出新想法、开拓新思路、实践新方案。",
+                "projectname": "构建可运行 iSulad 点容器镜像，并推送到 Docker Hub 镜像仓库",
+                "projectlink": "",
+                "projectid": 2021203,
+                "projectdesc": "当前 Docker Hub 等镜像仓库中无 iSulad 镜像，要求制作能够运行 iSulad 的容器镜像，并推送到 Docker Hub 上，能够使用 Docker、iSulad 下载该镜像，并能够启动 iSulad 。",
+                "tutor": "@lifeng2221dd1",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2021203"
+              },
+              {
+                "name": "蔡浩文",
+                "communityname": "MiniGUI",
+                "communitylink": "",
+                "communitydesc": "MiniGUI是一个快速、稳定、跨操作系统的图形用户界面（GUI）支持系统，广泛应用于智能硬件、智能物联网设备当中，用于为上层应用程序提供图形及图形用户界面的支持。",
+                "projectname": "将 MiniGUI 5.0 运行到 RT-Thread 或者 FreeRTOS 开发板上",
+                "projectlink": "",
+                "projectid": 2038248,
+                "projectdesc": "将 MiniGUI 5.0 (Standalone 或者 Threads 模式）移植到运行 RT-Thread 或者 FreeRTOS 的开发板上。需要开发针对具体开发板的图形引擎、输入引擎等。",
+                "tutor": "魏永明",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2038248"
+              },
+              {
+                "name": "曹彪",
+                "communityname": "Apache ShardingSphere",
+                "communitylink": "",
+                "communitydesc": "Apache ShardingSphere 是一套开源的分布式数据库中间件解决方案组成的生态圈，它由Sharding-JDBC、Sharding-Proxy和Sharding-Sidecar（规划中）这3款相互独立，却又能够混合部署配合使用的产品组成。它们均提供标准化的数据分片、分布式事务和数据库治理功能，可适用于如Java同构、异构语言、云原生等各种多样化的应用场景。ShardingSphere定位为关系型数据库中间件，旨在充分合理地在分布式的场景下利用关系型数据库的计算和存储能力，而并非实现一个全新的关系型数据库。它通过关注不变，进而抓住事物本质。关系型数据库当今依然占有巨大市场，是各个公司核心业务的基石，未来也难于撼动，我们目前阶段更加关注在原有基础上的增量，而非颠覆。",
+                "projectname": "完善SQL语法解析模块",
+                "projectlink": "",
+                "projectid": 2004142,
+                "projectdesc": "参考PostgreSQL数据库的SQL语法，完善Sharding Parser模块有关PostgreSQL的语法定义",
+                "tutor": "潘娟",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2004142"
+              }
+        ]
+    },
+    {
+        "title":"最快进步奖",
+        "name":"progress",
+        "text":"导师寄语：学习从来不是很容易，努力从来不会被怠慢，坚持从来不会被辜负；希望大学的青春旅程让你们有所感触，希望大学的春酸楚让你们有所感悟，希望大学的青春年华让你们有所感动；学会感谢，学会感激，学会感恩。 吕丽萍讲师/博士 环化学院 大学是梦开始的地方，希望你们在这四年的光景里，怀揣着自己的梦想慢慢成长，学会学习与相处，懂得感恩与付出，最后长成自己喜欢的模样。 孟祥栋副教授/博士 党政办 学会选择，选择自己力所能及的目标；学会坚持...",
+        "content":[
+            {
+                "name": "白泽平",
+                "communityname": "Apache APISIX",
+                "communitylink": "",
+                "communitydesc": "Apache APISIX 是云原生、高性能、可扩展的微服务 API 网关，它基于 Nginx 和 etcd 来实现，具备动态路由、插件热加载和 gRPC 代理和协议转换功能，更适合微服务体系下的 API 管理。",
+                "projectname": "Dashboard API 身份验证模块",
+                "projectlink": "",
+                "projectid": 2001414,
+                "projectdesc": "完善身份验证模块：当前默认登录页为账号密码，但与 API 不兼容，请修改为动态设置 API Key 来校验 API 身份，并为其它方式保留兼容性、可配置性。",
+                "tutor": "琚致远",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2001414"
+              },
+              {
+                "name": "毕凯乔",
+                "communityname": "Wechaty",
+                "communitylink": "",
+                "communitydesc": "Wechaty 是一个开源聊天机器人框架SDK，具有高度封装、高可用的特性，支持NodeJs,  Python,  Go 和Java 等多语言版本。在过去的4年中，服务了数万名开发者，收获了 Github 的 8000 Star。同时配置了完整的DevOps体系并持续按照Apache 的方式管理技术社区。",
+                "projectname": "基于 RPA 封装 Wechaty 接口下的快手聊天机器人",
+                "projectlink": "",
+                "projectid": 2044426,
+                "projectdesc": "快手提供内部IM系统，有基于RPA的方式开发聊天机器人的可能。快手内部有强大的IM系统，大量用户已经习惯直接在快手内与内容创作者和粉丝群进行聊天沟通。 但是目前没有成熟的快手聊天机器人框架，对于繁琐的自动回复、群管理等运营场景，尚未出现完整成熟的解决方案。 Wechaty是全球最大的开源聊天机器人框架，希望实现基于同一套应用层代码实现不同软件的聊天机器人 Wechaty 作为全球最大的聊天机器人开发者社区之一，提供了非常简单的接口实现，让开发者能够用6行代码就实现自己的一个聊天机器人，如果能把飞书的聊天机器人封装到 Wechaty 里来，则可以大大简化企业内开发者的开发流程。 因为 Wechaty 是建立在 puppet 系统之上的，puppet 是 Wechaty 依赖的一层抽象层，它定义了底层各个 IM 接入方案需要实现的接口，也正是因为 puppet 抽象层的存在，让很多 Wechaty 开发者可以仅仅通过一个变量，就能够随意切换不同的底层 IM 接入。",
+                "tutor": "尹伯昊",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2044426"
+              },
+              {
+                "name": "宾浩宇",
+                "communityname": "openEuler Community",
+                "communitylink": "",
+                "communitydesc": "openEuler 是一个开源、免费的 Linux 发行版平台,将通过开放的社区形式与全球的开发者共同构建一个开放、多元和架构包容的软件生态体系。同时,openEuler 也是一个创新的平台,鼓励任何人在该平台上提出新想法、开拓新思路、实践新方案。",
+                "projectname": "构建可运行 iSulad 点容器镜像，并推送到 Docker Hub 镜像仓库",
+                "projectlink": "",
+                "projectid": 2021203,
+                "projectdesc": "当前 Docker Hub 等镜像仓库中无 iSulad 镜像，要求制作能够运行 iSulad 的容器镜像，并推送到 Docker Hub 上，能够使用 Docker、iSulad 下载该镜像，并能够启动 iSulad 。",
+                "tutor": "@lifeng2221dd1",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2021203"
+              },
+              {
+                "name": "蔡浩文",
+                "communityname": "MiniGUI",
+                "communitylink": "",
+                "communitydesc": "MiniGUI是一个快速、稳定、跨操作系统的图形用户界面（GUI）支持系统，广泛应用于智能硬件、智能物联网设备当中，用于为上层应用程序提供图形及图形用户界面的支持。",
+                "projectname": "将 MiniGUI 5.0 运行到 RT-Thread 或者 FreeRTOS 开发板上",
+                "projectlink": "",
+                "projectid": 2038248,
+                "projectdesc": "将 MiniGUI 5.0 (Standalone 或者 Threads 模式）移植到运行 RT-Thread 或者 FreeRTOS 的开发板上。需要开发针对具体开发板的图形引擎、输入引擎等。",
+                "tutor": "魏永明",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2038248"
+              },
+              {
+                "name": "曹彪",
+                "communityname": "Apache ShardingSphere",
+                "communitylink": "",
+                "communitydesc": "Apache ShardingSphere 是一套开源的分布式数据库中间件解决方案组成的生态圈，它由Sharding-JDBC、Sharding-Proxy和Sharding-Sidecar（规划中）这3款相互独立，却又能够混合部署配合使用的产品组成。它们均提供标准化的数据分片、分布式事务和数据库治理功能，可适用于如Java同构、异构语言、云原生等各种多样化的应用场景。ShardingSphere定位为关系型数据库中间件，旨在充分合理地在分布式的场景下利用关系型数据库的计算和存储能力，而并非实现一个全新的关系型数据库。它通过关注不变，进而抓住事物本质。关系型数据库当今依然占有巨大市场，是各个公司核心业务的基石，未来也难于撼动，我们目前阶段更加关注在原有基础上的增量，而非颠覆。",
+                "projectname": "完善SQL语法解析模块",
+                "projectlink": "",
+                "projectid": 2004142,
+                "projectdesc": "参考PostgreSQL数据库的SQL语法，完善Sharding Parser模块有关PostgreSQL的语法定义",
+                "tutor": "潘娟",
+                "repolink": "https://isrc.iscas.ac.cn/gitlab/summer2020/students/proj-2004142"
+              }
+        ]
+    }
+]

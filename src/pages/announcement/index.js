@@ -28,6 +28,8 @@ export default class Announcement extends React.Component{
         total:151,
         currentProject:0,
         currentProjectP:0,
+        // tab
+        tabflag:"two",//one:结项，two:优秀学生
        
        
        }
@@ -146,6 +148,12 @@ export default class Announcement extends React.Component{
         // }
     }
 
+    changeTabFlag(flag){
+        this.setState({
+            tabflag:flag
+        })
+    }
+
 
 
     getPageData(page){
@@ -167,9 +175,9 @@ export default class Announcement extends React.Component{
         
         this.getPageData(page)
       };
-      goLink(url){
-        window.open(url)
-      }
+    goLink(url){
+    window.open(url)
+    }
 
     filterItem(value){
         if(value){
@@ -222,7 +230,17 @@ export default class Announcement extends React.Component{
                    <div className="AnnouncementBannerTexttwo">结项评审已结束，欢迎关注！</div>
                    </div>
                 </div>
-                <div className="AnnouncementContent">
+                <div className="AnnouncementTab ">
+                    <div className="AnnouncementTabwrapper content1200">
+                        <div  
+                            className={["AnnouncementTabItem",this.state.tabflag === "one"?"show":""].join(" ")}
+                            onClick={()=>{this.changeTabFlag('one')}}>考核通过</div>
+                        <div 
+                            className={["AnnouncementTabItem",this.state.tabflag === "two"?"show":""].join(" ")}  
+                            onClick={()=>{this.changeTabFlag('two')}}>优秀名单</div>
+                    </div>
+                </div>
+                <div className={["AnnouncementContent",this.state.tabflag === "one"?"show":""].join(" ")}>
                     <div className="AnnouncementWrapper  content1200">
                         <div className="AnnouncementWrapperHeader">
                             <div className="AnnouncementSearch">
@@ -295,7 +313,7 @@ export default class Announcement extends React.Component{
                     
 
                 </div>
-               
+                <div className={["AnnouncementContent AnnouncementYouxiu",this.state.tabflag === "two"?"show":""].join(" ")}></div>
                 
             </div>
          )
