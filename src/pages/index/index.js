@@ -241,8 +241,8 @@ export default class Index extends React.Component{
                                
                                 <div className="indexHomeOneTextWrapper">
                                    
-                                    开源软件供应链点亮计划鼓励大家关注开源软件和开源社区，发掘和培养更多优秀的开发者。
-                                    <span className="blue">10月底</span>，组委会将公告结项评审结果，敬请关注网站更新
+                                    开源软件供应链点亮计划-暑期2020 现结项评审已结束，欢迎关注结项公示。<br className="indexHomeOneTextConsEngTwoNone"/>
+                                    我们将于2020年11月14日 于<span className="blue">南京</span>玄武苏宁诺富特酒店 盛大举行 <span className="blue">2020峰会</span>，欢迎参与！
                                 </div>
                               
                                
@@ -257,7 +257,7 @@ export default class Index extends React.Component{
                                     <span className="indexHomeOneListenItemTextButton">查看公示 </span>
                                 </div>
                                 <div className="indexHomeOneListenItem " onClick={()=>{this.goLogoLink('https://space.bilibili.com/578074510/channel/detail?cid=132789')}}>
-                                    <span className="indexHomeOneListenItemText">5月-7月 我们举办了大咖说开源讲座活动</span>
+                                    <span className="indexHomeOneListenItemText">5月-7月 我们举办了“大咖说开源”讲座活动</span>
                                     <span className="indexHomeOneListenItemTextButton">精彩回放</span>
                                 </div>
                                
@@ -283,7 +283,7 @@ export default class Index extends React.Component{
                             </div>
                             <div className="indexHomeFourBannerMainTile">峰会将围绕现代软件构建模式的关键供应关系网络——开源软件供应链展开深入解读，论道开源最新技术前沿话题</div>
                             
-                            <div className="SummitMeetTextOne" style={{cursor:"pointer"}}>2020.11.14 于南京盛大开幕，现火热报名中！ 了解更多></div>
+                            <div className="SummitMeetTextOne" style={{cursor:"pointer"}}>2020.11.14 于南京盛大开幕，现火热报名中！了解更多</div>
                             <div className="indexHomeFourLabels">
                                 {
                                     this.state.holderlist.bannerfourdata.map((item,index)=>{
@@ -323,9 +323,7 @@ export default class Index extends React.Component{
                                         <span className="mobiledisplaynone">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
                                         <span>开源社</span>
                                 </div>
-                                {/* <div className="indexHomeOneDakaDescription">
-                                    {this.state.data.livedata}
-                                </div> */}
+                              
                                 <div className="indexHomeOneDakaDescriptionTwo">
                                 大咖讲座将为大家带来开源理念的系列介绍，帮助深入了解开源文化、参与开源社区的方式方法。
                                 <span 
