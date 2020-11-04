@@ -241,24 +241,26 @@ export default class Index extends React.Component{
                                
                                 <div className="indexHomeOneTextWrapper">
                                    
-                                    开源软件供应链点亮计划鼓励大家关注开源软件和开源社区，发掘和培养更多优秀的开发者。
-                                    <span className="blue">10月底</span>，组委会将公告结项评审结果，敬请关注网站更新
+                                    开源软件供应链点亮计划-暑期2020 现结项评审已结束，欢迎关注结项公示。<br className="mobiledisplaynone"/>
+                                    我们将于2020年11月14日 于<span className="blue">南京</span>玄武苏宁诺富特酒店 盛大举行 <span className="blue">2020峰会</span>，欢迎参与！
                                 </div>
                               
                                
-                                <div className="indexHomeOneListenItem " onClick={()=>{this.goLogoLink('https://space.bilibili.com/578074510/channel/detail?cid=132789')}}>
-                                    <span className="indexHomeOneListenItemText">6月3日-6月5日 暑期2020-活动宣讲直播</span>
-                                    <span className="indexHomeOneListenItemTextButton">观看回放</span>
-                                </div>
+                                
                                
-                                <div className="indexHomeOneListenItem" onClick={()=>{this.goLink('started')}}>
-                                    <span className="indexHomeOneListenItemText">9月30日  学生提交最终项目报告截止日期</span>
-                                    <span className="indexHomeOneListenItemTextButton">活动进程 </span>
-                                </div>
-                                <div className="indexHomeOneListenItem "  onClick={()=>{this.goLink('summitmeeting')}}>
+                                <div className="indexHomeOneListenItem fire"  onClick={()=>{this.goLink('summitmeeting')}}>
                                     <span className="indexHomeOneListenItemText">11月14日  开源软件供应链2020峰会 盛大开幕</span>
                                     <span className="indexHomeOneListenItemTextButton">了解更多 </span>
                                 </div>
+                                <div className="indexHomeOneListenItem" onClick={()=>{this.goLink('announcement')}}>
+                                    <span className="indexHomeOneListenItemText">10月底  结项评审已结束，组委会公告项目评审结果</span>
+                                    <span className="indexHomeOneListenItemTextButton">查看公示 </span>
+                                </div>
+                                <div className="indexHomeOneListenItem " onClick={()=>{this.goLogoLink('https://space.bilibili.com/578074510/channel/detail?cid=132789')}}>
+                                    <span className="indexHomeOneListenItemText">5月-7月 我们举办了“大咖说开源”讲座活动</span>
+                                    <span className="indexHomeOneListenItemTextButton">精彩回放</span>
+                                </div>
+                               
                                 
                               
                             </div>
@@ -268,14 +270,18 @@ export default class Index extends React.Component{
                     </div>
                     <div className="indexHomeOneBanner indexHomeOneBannerFour">
                         <div className="indexHomeFourBanner content1200"  onClick={()=>{this.goLink('summitmeeting')}}>
-                            <div className="indexHomeFourBannerTitle">重磅! “开源软件供应链 2020 峰会”</div>
-                            <div className="indexHomeFourBannerCompany">
+                        <div className="indexHomeFourBannerTitle">
+                                <span className="One">共献·开源  </span>
+                                <span className="Two">开源软件供应链 2020 峰会</span>
+                            </div>
+                            {/* <div className="indexHomeFourBannerCompany">
                                 <div className="indexHomeFourBannerCompanyItem">中国科学院软件研究所</div>
                                 <div className="indexHomeFourBannerCompanyItem">openEuler 社区</div>
                                 <div className="indexHomeFourBannerCompanyItem">中科院软件研究所南京软件技术研究院</div>
                                 <div className="indexHomeFourBannerCompanyItem">华为技术有限公司</div>
-                            </div>
+                            </div> */}
                             <div className="indexHomeFourBannerMainTile">峰会将围绕现代软件构建模式的关键供应关系网络——开源软件供应链展开深入解读，论道开源最新技术前沿话题</div>
+                            <div className="SummitMeetTextTwo" >主办方：中国科学院软件研究所、openEuler社区  |  承办方：中国科学院软件研究所南京软件技术研究院  |  赞助方：华为技术有限公司  |  媒体合作方：开源社、开源中国、SegmentFault 思否、芽木科技</div>
                             <div className="indexHomeFourLabels">
                                 {
                                     this.state.holderlist.bannerfourdata.map((item,index)=>{
@@ -287,7 +293,7 @@ export default class Index extends React.Component{
                                     })
                                 }
                             </div>
-                            <div className="SummitMeetTextOne" style={{cursor:"pointer"}}>专题论坛议题火热征集中！了解更多</div>
+                            <div className="indexHomeFourText4">2020.11.14 于南京盛大开幕，现火热报名中！ 了解更多></div>
                         </div>
                     </div>
                     <div className="indexHomeOneBanner indexHomeOneBannerThree">
@@ -315,9 +321,7 @@ export default class Index extends React.Component{
                                         <span className="mobiledisplaynone">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
                                         <span>开源社</span>
                                 </div>
-                                {/* <div className="indexHomeOneDakaDescription">
-                                    {this.state.data.livedata}
-                                </div> */}
+                              
                                 <div className="indexHomeOneDakaDescriptionTwo">
                                 大咖讲座将为大家带来开源理念的系列介绍，帮助深入了解开源文化、参与开源社区的方式方法。
                                 <span 

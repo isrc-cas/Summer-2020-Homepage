@@ -17,16 +17,57 @@
         line-height: 36px;
         letter-spacing: 0px;
         color: #66ffff;
-        margin-top:15px;
+        margin:15px 0 30px;
+    }
+    .SummitMeetTextTwo{
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        line-height: 18px;
+        
+        color: #66ffff;
+        letter-spacing: 0;
+        
+        margin-bottom: 58px;
+    }
+    .indexHomeFourBannerLogo{
+        position: relative;
+        background-image: url(./../../img/stats/summitlogo.png);
+        width: 358px;
+        height: 24px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin:70px auto 15px;
     }
     .indexHomeFourBannerTitle{
-        font-size: 50px;
+        
         font-weight: normal;
         font-stretch: normal;
         line-height: 50px;
         letter-spacing: 1px;
         color: #fff;
-        margin:94px 0 20px;
+        margin-bottom: 20px;
+        padding-top: 95px;
+        font-size: 50px;
+        .One{
+            font-weight: bold;
+            display: inline-block;
+            position: relative;
+            padding-right: 20px;
+            margin-right: 20px;
+        }
+
+        .One::after{
+            content: "";
+            width: 1px;
+            height: 100%;
+            position: absolute;
+            background-color: #fff;
+            left: 100%;
+            top: 3px;
+        }
+        
+       
     }
     .indexHomeFourBannerCompany{
         font-size: 18px;
@@ -48,13 +89,13 @@
     }
     .indexHomeFourBannerMainTile{
         width: 100%;
-        margin: 25px 0 50px;
+        margin: 25px 0 18px;
         background-color: rgba(255 ,255 ,255 , 0.05);
         font-size: 20px;
         font-weight: normal;
         font-stretch: normal;
         color: #ffffff;
-        padding:24px 0;
+        padding:14px 0;
        
         text-align: center;
         letter-spacing: 2px;
@@ -81,18 +122,40 @@
             top: 0;
         }
     }
+    .indexHomeFourText4{
+        font-size: 18px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: #66ffff;
+        position: relative;
+        margin-top:18px;
+        cursor: pointer;
+    }
 }
 
 @media screen and (min-width: 700px)and (max-width: 1200px){
     .indexHomeOneBannerFour{
-        .indexHomeFourBannerTitle{
-            font-size: 30px;
+        .SummitMeetTextOne{
+            font-size:16px
         }
+        .SummitMeetTextTwo{
+            margin-bottom: 25px;
+        }
+        .indexHomeFourBannerLogo{
+            margin-top:5vw;
+        }
+        .indexHomeFourBannerTitle{
+            font-size: 42px;
+    margin-bottom: 15px;
+           
+        }
+        
+        
         
         .indexHomeFourBannerMainTile{
             font-size: 16px;
             height: auto;
-            margin: 2% 0 5%;
+            margin: 2% 0;
             padding:2% 0;
         }
     }
@@ -178,18 +241,19 @@
                     }
                     .SummitMeetThreeTableItem{
                         width: 18vw!important;
-                        height: 18vw!important;
+                        // height: 18vw!important;
                         .SummitMeetThreeTableItemContent{
-                            padding: 30px 0 0 16px!important;
+                            
                             
                             .SummitMeetThreeTableItemContenttitle{
-                                font-size: 16px !important;
+                                font-size: 13px !important;
+                                line-height: 16px !important;
                             }
     
                             .SummitMeetThreeTableItemContentcommunity,
                             .SummitMeetThreeTableItemContentName{
                                 font-size: 14px !important;
-                                line-height: 15px;
+                                line-height: 14px;
                                 padding-top:8px !important;
                             }
                         }
@@ -207,14 +271,30 @@
 
 @media screen and (min-width: 100px)and (max-width: 701px){
     .indexHomeOneBannerFour{
+        .SummitMeetTextOne{
+            font-size:12px;
+            margin-bottom: 10px;
+            line-height: 16px;
+        }
+        .indexHomeFourBannerLogo{
+            margin-top:5vw;
+        }
         .indexHomeFourBannerTitle{
-            font-size: 26px;
-            margin:5vw 0;
-            line-height: 34px;
+            
+            margin:40px 0 20px;
+            line-height: 20px;
+            padding-top: 10px;
+            font-size: 16px;
+            .One{
+                padding-right: 10px;
+                margin-right: 10px;
+            }
+         
+           
         }
         .indexHomeFourBannerCompany{
             flex-direction: column;
-            font-size: 16px;
+            font-size: 12px;
             width: 100%;
             .indexHomeFourBannerCompanyItem{
                 border-right:none !important;
@@ -222,20 +302,25 @@
             
         }
         .indexHomeFourBannerMainTile{
-            font-size: 16px;
+            font-size: 12px;
             height: auto;
-            margin: 2% 0 5%;
-            padding:2% 0;
+           
+            padding:1% 0;
         }
         .indexHomeFourLabels{
             font-size: 14px;
             flex-wrap: wrap;
             justify-content: center;
+            margin-top:10px;
             .indexHomeFourLabelItem{
-                padding: 5px;
-                margin-bottom: 4px;
+                padding: 2px;
+                margin-bottom: 3px;
                 margin-left: 4px;
             }
+        }
+        .SummitMeetTextTwo{
+            margin-top:0;
+            margin-bottom: 20px;
         }
     }
 
@@ -332,37 +417,51 @@
                 }
                 
                 .SummitMeetThreeTableContent{
+                    .SummitMeetThreeTableContentWrapper{
+                        flex-wrap: wrap;
+                        .SummitMeetThreeTableItem{
+                            width: 30vw!important;
+                            height: 120px!important;
+                            font-size: 13px!important;
+                            margin-bottom: 2px;
+                            .SummitMeetThreeTableItemContent{
+                                padding: 1vw;
+                            }
+                            .SummitMeetThreeTableItemContenttitle{
+                                font-size: 13px !important;
+                                line-height: 15px !important;
+                            }
+                            .SummitContentBottom{
+                                font-size: 13px !important;
+                                line-height: 15px;
+                            }
+                                
+                        }
+                       }
                     
                     .SummitMeetThreeTableModal{
                         margin-left: 0 !important;
                         .SummitMeetThreeTableModalWrapper{
-                            font-size: 16px;
+                            font-size: 14px !important;
+                            .SummitMeetThreeTableModalHeaderIcon{
+                                width: 20vw;
+                                height: 20vw;
+                            }
+                            .SummitMeetThreeTableModalHeader{
+                                padding: 5vw 2vw;
+                                .SummitMeetThreeTableModalHeaderText{
+                                    font-size: 13px;
+                                }
+                            }
                         }
+
+                        
                     }
                     .SummitMeetThreeTableContentTitle{
                         font-size: 16px!important;
                         margin-top: 20px;
                     }
-                    .SummitMeetThreeTableItem{
-                        width: 18vw!important;
-                        height: 24vw!important;
-                        font-size: 13px!important;
-                        
-                            .SummitMeetThreeTableItemContent{
-                                padding: 20px 0 0 14px!important;
-                                .SummitMeetThreeTableItemContenttitle{
-                                    font-size: 13px !important;
-                                }
-        
-                                .SummitMeetThreeTableItemContentcommunity,
-                                .SummitMeetThreeTableItemContentName{
-                                    font-size: 13px !important;
-                                    padding-top: 4px!important;
-                                    line-height:15px;
-                                }
-                            }
-                        
-                    }
+                    
                     .SummitMeetThreeTableItem.greyback{
                         display: none;
                     }
@@ -370,11 +469,15 @@
 
                 .SummitMeetThreeTableOne.two{
                     .SummitMeetThreeTableItem{
-                        width: 40vw !important;
-                        .SummitMeetThreeTableItemContent .SummitMeetThreeTableItemContentImage{
-                            width: 30%!important;
-                            height: 30%!important;
-                            margin:25px auto 10px !important;
+                       
+                        .SummitMeetThreeTableItemContent{
+                            
+                            
+                            // .SummitMeetThreeTableItemContentImage{
+                            //     width: 30%!important;
+                            //     height: 30%!important;
+                            //     margin:25px auto 10px !important;
+                            // }
                         }
                     }
                 }
@@ -410,37 +513,45 @@
                 }
             }
         }
-    }
-    .SummitMeetThree{
+        .SummitMeetThree{
             
-        .SummitMeetThreeContent{
-           
-            
-            
-            
-            .SummitMeetThreeTableContent{
-                .SummitMeetThreeTableModal .SummitMeetThreeTableModalWrapper{
-                    font-size: 12px !important;
-                }
-               .SummitMeetThreeTableContentWrapper{
-                flex-wrap: wrap;
-                .SummitMeetThreeTableItem{
-                    width: 40vw!important;
-                    height: 35vw!important;
-                    font-size: 13px!important;
-                    margin-bottom: 2px;
-                        .SummitMeetThreeTableItemContent{
-                            padding:20px 0 0 14px;
-                            
-                        }
-                    
-                }
-               }
+            .SummitMeetThreeContent{
+               
                 
               
+                
+                .SummitMeetThreeTableContent{
+                    .SummitMeetThreeTableContentWrapper{
+                        .SummitMeetThreeTableItem{
+                            
+                            width: 40vw!important;
+                            height: 110px!important;
+                            margin-left: 4vw;
+                            margin-bottom: 2vw;
+                            .SummitMeetThreeTableItemContenttitle{
+                                font-size: 12px !important;
+                            }
+                            .SummitContentBottom{
+                                bottom: 5px !important
+                            }
+                        }
+                        
+    
+                    }
+    
+                    
+                    .SummitMeetThreeTableModal .SummitMeetThreeTableModalWrapper{
+                        font-size: 12px !important;
+                       
+                    }
+                   
+                    
+                  
+                }
+    
+                
             }
-
-            
         }
     }
+
 }
