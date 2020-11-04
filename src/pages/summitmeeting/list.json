@@ -204,6 +204,14 @@
                     "desc":"随着微服务技术的发展，Web、App和企业软件的权限管理对数据安全至关重要。Casbin是业界主流的开源访问控制框架，致力于帮助复杂系统解决权限管理的难题。其表达能力强大、执行高效，被Intel、VMware、IBM、腾讯云、SpaceX等多个大型企业部署使用，支持Go、Java、Python、C++、.NET、Rust等9种语言，在GitHub上合计已有10000+ stars。"
                 },
                 {
+                    "name":"",
+                    "img":"",
+                    "community":"",
+                    "title":"",
+                    "profile":"",
+                    "desc":""
+                },
+                {
                     "name":"王璞",
                     "img":"1.png",
                     "community":"DatenLord",
