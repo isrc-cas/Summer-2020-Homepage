@@ -52,7 +52,7 @@ export default class Summitmeeting extends React.Component{
     }
 
     getBack(len){
-        if(len<6){
+        if(len<5){
             var divcon = []
             for(var i=0;i<6-len;i++){
                 divcon.push(
