@@ -15,12 +15,14 @@ import './index.less';
 import data from './data.json';
 import list from './list.json';
 import { Input, Pagination } from 'antd';
+import statALL from './stats.js';
 
 const { Search } = Input;
 export default class Announcement extends React.Component{
     constructor(props){
        super(props)
        this.state ={
+        statALL,
         datastock:data,
         data,
         pagenow:1,
@@ -38,6 +40,7 @@ export default class Announcement extends React.Component{
        }
     }
     componentDidMount(){
+        console.log(this.state.statALL)
         
         this.setState({
             total:this.state.data.length,
@@ -353,7 +356,7 @@ export default class Announcement extends React.Component{
                 <div className={["AnnouncementContent AnnouncementYouxiu",this.state.tabflag === "two"?"show":""].join(" ")}>
                     <div className="AnnouncementWrapper  content1200">
                         <div className="AnnouncementXiuText">
-                            所有结项的 151 名同学都很优秀。组委会和指导委员会的老师们从 4 个方向选出这 20 位优秀代表，鼓励并希望有更多同学积极参与开源社区，为开源事业贡献自己的力量！
+                         经过3个月的努力，最终151位同学通过了结项审核。同学们的结项报告及日常研发工作得到了社区及组委会的一致认可。为鼓励更多高校学生参与开源、贡献开源，为开源社区注入更多年轻的力量，组委会特邀请指导委员会老师从4个方向评选出具有代表性的20位优秀学生，公示如下：
                         </div>
                         <div className="AnnouncementSearch">
                             <Search
@@ -424,6 +427,38 @@ export default class Announcement extends React.Component{
                                 })
                             }
                         </div>
+                    </div>
+                    <div className="AnnouncementJudge">
+                        <div className="AnnouncementJudeWrapper content1200">
+                            <div className="AnnouncementJudeOne One">
+                                <div className="AnnouncementJudeOneTitle">
+                                    评选标准
+                                </div>
+                                {
+                                    this.state.statALL.one.map((ele,index)=>{
+                                        return(
+                                        <div className="AnnouncementJudeOneItem" key={index}>* {ele}</div>
+                                        )
+                                    })
+                                }
+                            </div>
+
+                            <div className="AnnouncementJudeOne Two">
+                                <div className="AnnouncementJudeOneTitle">
+                                    评选流程
+                                </div>
+                                {
+                                    this.state.statALL.two.map((ele,index)=>{
+                                        return(
+                                        <div className="AnnouncementJudeOneItem" key={index}>{ele}</div>
+                                        )
+                                    })
+                                }
+                            </div>
+                            <div className="AnnouncementJudeOne">{this.state.statALL.three}</div>
+
+                        </div>
+
                     </div>
                 </div>
                 
