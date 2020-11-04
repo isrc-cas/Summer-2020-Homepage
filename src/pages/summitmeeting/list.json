@@ -4,14 +4,10 @@
             "name":"system",
             "chi":"操作系统&编译器",
             "content":[
-                {
-                    "name":"郭寒军",
-                    "community":"openEuler",
-                    "title":"openEuler操作系统内核选型",
-                    "profile":""
-                },
+
                 {
                     "name":"魏永明",
+                    "img":"weiyongming.png",
                     "community":" MiniGUI",
                     "title":"合璧操作系统的设计思想",
                     "profile":"MiniGUI/HybridOS开源项目创始人、飞漫软件总经理。",
@@ -19,6 +15,7 @@
                 },
                 {
                     "name":"郭占鑫",
+                    "img":"guozhanxin.png",
                     "community":"RT-Thread",
                     "title":"开源物联网操作系统RT-Thread的发展之路",
                     "profile":"RT-Thread高级工程师，主要负责“开源社区技术”相关工作。",
@@ -27,12 +24,14 @@
                 {
                     "name":"董金光",
                     "community":"OpenHarmony",
+                    "img":"1.png",
                     "title":"OpenHarmony 技术探索和社区发展",
                     "profile":"",
                     "desc":""
                 },
                 {
                     "name":"吴伟",
+                    "img":"wuwei.png",
                     "community":"中国科学院软件研究所",
                     "title":"RISC-V 指令集开源软件生态 ",
                     "profile":"中科院软件所PLCT实验室项目总监。主要研究领域为编译技术。近年来带领PLCT实验室在RISC-V软件生态领域持续进行开源贡献。",
@@ -46,12 +45,14 @@
             "content":[
                 {
                     "name":"卢景晓",
+                    "img":"1.png",
                     "community":"openEuler",
                     "title":"iSula 容器构建解决方案",
                     "profile":""
                 },
                 {
                     "name":"徐飞",
+                    "img":"1.png",
                     "community":"openEuler",
                     "title":"StratoVirt-openEuler 的轻量级虚拟化平台",
                     "profile":"",
@@ -59,6 +60,7 @@
                 },
                 {
                     "name":"王为",
+                    "img":"wangwei.png",
                     "community":"Zstack",
                     "title":"开源私有云ZStack的架构设计",
                     "profile":"上海云轴核心架构师。负责ZStack 私有云的网络、存储领域多个产品特性的研发，性能工程部 Team Lead。在  OpenStack Summit、Arch Summit 等大会中做过技术分享。参与过多个国内大型云计算建设项目，向 OpenStack、MidoNet、Buildbot 等多个开源项目做过贡献。在 Linux 的网络、存储领域和私有云软件架构设计有着丰富的经验。",
@@ -66,6 +68,7 @@
                 },
                 {
                     "name":"汝英哲 王孝威",
+                    "img":"1.png",
                     "community":"腾讯",
                     "title":" TKEStack 腾讯云原生开源实践之路",
                     "profile":"",
@@ -74,6 +77,7 @@
                 {
                     "name":"张墨飞",
                     "community":"京东",
+                    "img":"1.png",
                     "title":"ChubaoFS 支撑大规模容器平台的云原生分布式存储",
                     "profile":"京东基础架构部架构师，CNCF 基金会旗下开源项目 ChubaoFS 的核心 maintainer，项目初创成员，同时深度参与 ChubaoFS 整体技术架构设计和研发，ChubaoFS 对象存储模块的主要代码贡献者。",
                     "desc":"主要分享 ChubaoFS 开源项目的介绍，主要功能，使用环境，周边生态，落地实践，以及应用案例。"
@@ -86,6 +90,7 @@
             "content":[
                 {
                     "name":"王俊",
+                    "img":"1.png",
                     "community":"MindSpore",
                     "title":"MindSpore 基础架构讲解",
                     "profile":"",
@@ -93,6 +98,7 @@
                 },
                 {
                     "name":"杨滔",
+                    "img":"yangtao.png",
                     "community":"旷视科技",
                     "title":"开源深度学习框架天元",
                     "profile":"旷视科技有限公司AI市场总监，负责Brain++和MegEngine的生态建设。加入旷视前杨滔在微软工作十四年，负责最新技术在技术生态中推广，对业界主流技术、云平台以及人工智能技术有丰富和全面的积累。",
@@ -100,6 +106,7 @@
                 },
                 {
                     "name":"王海良",
+                    "img":"wanghailiang.png",
                     "community":"Chatopera",
                     "title":"开源中文语义理解系统 Clause",
                     "profile":"Chatopera联合创始人&CEO，开源爱好者，有很多的开源项目，积极贡献给开源社区。主要仓库https://github.com/chatopera、https://gitee.com/chatopera演讲经历：参加COSCON2019 《Clause，开源的中文语义理解系统》、组织并参加2016年5月21日～22日的Nodejs Live、2015年至2017年每月组织一次Nodejs等技术的线下Party等。",
@@ -107,6 +114,7 @@
                 },
                 {
                     "name":"孙金城",
+                    "img":"sunjincheng.png",
                     "community":"Apache IoTDB & Apache  Flink",
                     "title":"流计算与Python生态的融合 - Apache PyFlink 核心技术揭秘",
                     "profile":"孙金城（金竹），2011年加入阿里，9年的阿里工作中，主导过很多内部核心系统，如：阿里集团行为日志，阿里郎，视频转码，文档转换，流计算等云服务。在2016年初开始了解Apache Flink社区，由初期的参与社区开发到后来逐渐主导具体模块的开发，到负责Apache Flink Python API(PyFlink) 的建设。 目前是 阿里巴巴 Tech Lead， Committer for Apache Beam , PMC Member of Apache Flink and Apache IoTDB and Apache Member.",
@@ -114,6 +122,7 @@
                 },
                 {
                     "name":"张军",
+                    "img":"1.png",
                     "community":"百度",
                     "title":"产业级开源开放深度学习平台飞桨",
                     "profile":"张军，飞桨开源框架产品负责人，在自然语言处理、云计算、深度学习等领域，拥有五十余件发明专利。曾经是百度深度学习框架、百度翻译的核心研发工程师，目前主要负责飞桨开源框架的产品设计。",
@@ -127,6 +136,7 @@
             "content":[
                 {
                     "name":"罗旦",
+                    "img":"1.png",
                     "community":"openLookeng",
                     "title":"openLooKeng 让大数据更简单",
                     "profile":"",
@@ -134,6 +144,7 @@
                 },
                 {
                     "name":"孙金城",
+                    "img":"sunjincheng.png",
                     "community":"Apache IoTDB & Apache  Flink",
                     "title":"2020新晋Apache顶级项目 - Apache IoTDB 核心技术剖析",
                     "profile":"孙金城（金竹），2011年加入阿里，9年的阿里工作中，主导过很多内部核心系统，如：阿里集团行为日志，阿里郎，视频转码，文档转换，流计算等云服务。在2016年初开始了解Apache Flink社区，由初期的参与社区开发到后来逐渐主导具体模块的开发，到负责Apache Flink Python API(PyFlink) 的建设。 目前是 阿里巴巴 Tech Lead， Committer for Apache Beam , PMC Member of Apache Flink and Apache IoTDB and Apache Member.",
@@ -141,6 +152,7 @@
                 },
                 {
                     "name":"许利杰",
+                    "img":"xulijie.png",
                     "community":"中国科学院软件研究所",
                     "title":"DistStream: 面向流式聚类的分布式计算框架",
                     "profile":"现任中国科学院软件研究所副研究员，于中科院软件所获得博士学位。当前主要从事大数据系统方面的研究工作，已在国际权威会议如VLDB、ICDCS、ISSTA、IPDPS、ISSRE、ICAC等发表论文10余篇，主持多项国家自然科学基金，以及华为、京东、联想等企业的合作研发项目。曾为Apache Spark和Hadoop修复多个内核代码严重错误，出版《大数据处理框架Apache Spark设计与实现》著作1部。博士期间曾在微软亚洲研究院、阿里巴巴、腾讯担任客座研究学生。目前还担任中国计算机学会系统软件专委会委员、中国科学院青年创新促进会会员。",
@@ -148,6 +160,7 @@
                 },
                 {
                     "name":"张琼",
+                    "img":"1.png",
                     "community":"openGauss",
                     "title":"企业级开源数据库 openGauss 的架构设计与实现",
                     "profile":"",
@@ -155,6 +168,7 @@
                 },
                 {
                     "name":"陈室余",
+                    "img":"chenshiyu.png",
                     "community":"Milvus",
                     "title":"Milvus 向量搜索引擎简介",
                     "profile":"陈室余，Zilliz 数据工程师/Developer Advocate，毕业于西安电子科技大学计算机学系。自加入Zilliz以来，致力于为Milvus开源项目探索解决方案，从Docker部署到应用Milvus在更多AI应用，帮助了许多用户实现应用场景落地。",
@@ -168,6 +182,7 @@
             "content":[
                 {
                     "name":"潘娟",
+                    "img":"panjuan.png",
                     "community":"Apache ShardingSphere",
                     "title":"Apache ShardingSphere 分布式数据库生态圈架构演进",
                     "profile":"京东数科高级DBA&Apache ShardingSphere PMC，主要负责京东数科分布式数据库开发、数据库运维自动化平台开发等工作。曾负责京东数科数据库自动化平台设计与开发，现专注于Apache ShardingSphere分布式数据库中间件平台的研发。主要在分布式数据库、开源、分布式架构等相关领域进行探索。多次受邀参加数据库&架构领域的相关会议并进行分享交流。",
@@ -175,6 +190,7 @@
                 },
                 {
                     "name":"罗杨",
+                    "img":"luoyang.png",
                     "community":"Casbin",
                     "title":"基于微服务的访问控制实现企业权限安全",
                     "profile":"Casbin开源社区创始人、Npcap作者、Nmap开源社区成员，2020年度Google开源贡献奖获得者，北京大学博士，现任微软亚洲研究院研究员。",
@@ -182,6 +198,7 @@
                 },
                 {
                     "name":"翟佳",
+                    "img":"zhuaijia.png",
                     "community":"Apache Pulsar ",
                     "title":"ApachePulsar云原生的下一代消息平台",
                     "profile":"翟佳，StreamNative 联合创始人兼 CTO，开源项目 Apache Pulsar 和 Apache BookKeeper PMC 成员和 Committer，主要从事分布式、消息系统、流存储、文件系统等相关设计和开发。曾就职于 EMC，先后是统一存储平台和实时处理平台技术负责人。",
@@ -189,6 +206,7 @@
                 },
                 {
                     "name":"王璞",
+                    "img":"1.png",
                     "community":"DatenLord",
                     "title":"Rust 实现 FUSE 用户态文件系统",
                     "profile":"美国 George Mason 大学计算机博士，DatenLord 项目发起人，前数人云创始人。",
@@ -204,6 +222,7 @@
             "content":[
                 {
                     "name":"庄表伟",
+                    "img":"zhuangbiaowei.png",
                     "community":"开源社",
                     "title":"开源治理与数字化转型",
                     "profile":"开源社理事长",
@@ -211,6 +230,7 @@
                 },
                 {
                     "name":"李卓桓",
+                    "img":"lizhuoheng.png",
                     "community":"Wechaty ",
                     "title":"Wechaty 的开源之路",
                     "profile":"微软人工智能最具价值专家（AI MVP）。清华大学本科，中欧国际工商学院EMBA，北京邮电大学计算机系博士在读。现任PreAngel合伙人，Plug and Play Venture Partner，关注钟子期AI创业项目。zixia BBS、叽歪网创始人，曾任优酷网首席科学家、水木清华BBS站长，ChinaRen系统工程师",
@@ -218,6 +238,7 @@
                 },
                 {
                     "name":"琚致远",
+                    "img":"guzhiyuan.png",
                     "community":"Apache APISIX",
                     "title":"从 0 到 1：Apache APISIX 的开源和商业化之路",
                     "profile":"Apache APISIX 是 2019 年 4 月份开始从头开发，6 月份开源，10 月份进入 Apache 孵化器，并在 2020 年 7 月毕业成为 Apache 顶级项目，是最快从 Apache 孵化器毕业的中国项目。同时，Apache APISIX 背后的公司也在摸索在中国如何做开源项目的商业化，已经有了多家世界 500 强的付费用户。这个分享会给我们带来 Apache APISIX 在开源以及商业化上的一些实践和思考，希望能让更多的中国开发者来参与和贡献开源。",
@@ -225,6 +246,7 @@
                 },
                 {
                     "name":"高琨",
+                    "img":"1.png",
                     "community":"",
                     "title":"企业开源合规解读",
                     "profile":"",
@@ -232,6 +254,7 @@
                 },
                 {
                     "name":"马全一",
+                    "img":"1.png",
                     "community":"",
                     "title":"开源项目产品化设计和运作",
                     "profile":"",
@@ -245,6 +268,7 @@
             "content":[
                 {
                     "name":"李岗",
+                    "img":"ligang.png",
                     "community":"Apache DolphinScheduler (incubator)",
                     "title":"大学生如何参与开源项目",
                     "profile":"易观大数据平台技术专家，负责大数据基础组件的研发工作，多年大数据开发及平台建设经验. Apache DolphinScheduler(Incubator) PPMC、Apache Local Community Beijing Member。",
@@ -252,6 +276,7 @@
                 },
                 {
                     "name":"吴京京",
+                    "img":"wujingjing.png",
                     "community":"Wechaty ",
                     "title":"Multi-Wechaty SDK for Chatbot",
                     "profile":"北京邮电大学深度学习研究生，Chatbot技术爱好者，自然语言处理工程师，python-wechaty作者，同时也是wechaty开源社区的优秀代码贡献者。",
@@ -259,6 +284,7 @@
                 },
                 {
                     "name":"陈莉君",
+                    "img":"chenlijun.png",
                     "community":"西安邮电大学",
                     "title":"开源与开启“潜能按钮”",
                     "profile":"陈莉君:  西安邮电大学教授，教育部高等学校计算机类专业教学指导委员会委员，陕西省教学名师，中国开源联盟专家组成员。20多年来致力于推动Linux在中国的发展，深入研究Linux内核相关理论以及技术，跟踪Linux内核发展动向，针对Linux内核版本的不断演化，连续编写和翻译了十多部相关专著、译著及教材，两次获得中国开源联盟授予的“开源杰出贡献奖”。",
@@ -266,6 +292,7 @@
                 },
                 {
                     "name":"耿航",
+                    "img":"genghang.png",
                     "community":"Ceph 中国",
                     "title":"学生如何利用开源机遇决胜未来",
                     "profile":"耿航，中国开源云联盟副秘书长，腾讯云TVP（最具价值专家），E企研究院特聘专家顾问，Ceph中国社区负责人，云原生技术联盟专家委员会专家，曾获2019-2020年度国际社区个人贡献奖、2018中国开源云超级人物奖、2018年云计算开源尖峰人物奖、中国开源云联盟2016年度杰出个人等。主要致力于国内云计算、大数据方面的工作，曾参与国家部委、中国铁路的多个私有云项目建设。主导并参与了国内数本云存储相关书籍和标准的编写和校审工作，同时在省级刊物、行业媒体发表过多篇文章。",
