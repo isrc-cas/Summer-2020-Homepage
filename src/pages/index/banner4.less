@@ -27,7 +27,8 @@
         
         color: #66ffff;
         letter-spacing: 0;
-        margin-top: 15px;
+        
+        margin-bottom: 58px;
     }
     .indexHomeFourBannerLogo{
         position: relative;
@@ -46,13 +47,26 @@
         letter-spacing: 1px;
         color: #fff;
         margin-bottom: 20px;
+        padding-top: 95px;
+        font-size: 50px;
         .One{
-            font-size: 50px;
+            font-weight: bold;
+            display: inline-block;
+            position: relative;
+            padding-right: 20px;
+            margin-right: 20px;
         }
-        .Two{
-            font-size: 30px;
-            font-style: italic;
+
+        .One::after{
+            content: "";
+            width: 1px;
+            height: 100%;
+            position: absolute;
+            background-color: #fff;
+            left: 100%;
+            top: 3px;
         }
+        
        
     }
     .indexHomeFourBannerCompany{
@@ -75,7 +89,7 @@
     }
     .indexHomeFourBannerMainTile{
         width: 100%;
-        margin: 25px 0 26px;
+        margin: 25px 0 18px;
         background-color: rgba(255 ,255 ,255 , 0.05);
         font-size: 20px;
         font-weight: normal;
@@ -108,6 +122,15 @@
             top: 0;
         }
     }
+    .indexHomeFourText4{
+        font-size: 18px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: #66ffff;
+        position: relative;
+        margin-top:18px;
+        cursor: pointer;
+    }
 }
 
 @media screen and (min-width: 700px)and (max-width: 1200px){
@@ -115,18 +138,16 @@
         .SummitMeetTextOne{
             font-size:16px
         }
+        .SummitMeetTextTwo{
+            margin-bottom: 25px;
+        }
         .indexHomeFourBannerLogo{
             margin-top:5vw;
         }
         .indexHomeFourBannerTitle{
-            margin:1vw 0;
-            line-height: 34px;
-            .One{
-                font-size: 26px;
-            }
-            .Two{
-                font-size:18px
-            }
+            font-size: 42px;
+    margin-bottom: 15px;
+           
         }
         
         
@@ -260,14 +281,16 @@
         }
         .indexHomeFourBannerTitle{
             
-            margin:1vw 0;
-            line-height: 34px;
+            margin:40px 0 20px;
+            line-height: 20px;
+            padding-top: 10px;
+            font-size: 16px;
             .One{
-                font-size: 22px;
+                padding-right: 10px;
+                margin-right: 10px;
             }
-            .Two{
-                font-size:16px
-            }
+         
+           
         }
         .indexHomeFourBannerCompany{
             flex-direction: column;
@@ -281,7 +304,7 @@
         .indexHomeFourBannerMainTile{
             font-size: 12px;
             height: auto;
-            margin: 1% 0 ;
+           
             padding:1% 0;
         }
         .indexHomeFourLabels{
@@ -297,6 +320,7 @@
         }
         .SummitMeetTextTwo{
             margin-top:0;
+            margin-bottom: 20px;
         }
     }
 
