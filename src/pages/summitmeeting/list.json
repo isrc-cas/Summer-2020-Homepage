@@ -4,7 +4,14 @@
             "name":"system",
             "chi":"操作系统&编译器",
             "content":[
-
+                {
+                    "name":"郭寒军",
+                    "img":"1.png",
+                    "community":"openEuler",
+                    "title":"openEuler 操作系统内核选型",
+                    "profile":"",
+                    "desc":""
+                },
                 {
                     "name":"魏永明",
                     "img":"weiyongming.png",
@@ -22,20 +29,20 @@
                     "desc":"首先介绍RT-Thread是什么，应用场景以及一些行业上的应用案例。然后介绍 RT-Thread的生态建设以及其在开源领域做的事情。最后介绍RT-Thread最近在开展的一些工作，如大学计划等。"
                 },
                 {
-                    "name":"董金光",
-                    "community":"OpenHarmony",
-                    "img":"1.png",
-                    "title":"OpenHarmony 技术探索和社区发展",
-                    "profile":"",
-                    "desc":""
-                },
-                {
                     "name":"吴伟",
                     "img":"wuwei.png",
                     "community":"中国科学院软件研究所",
                     "title":"RISC-V 指令集开源软件生态 ",
                     "profile":"中科院软件所PLCT实验室项目总监。主要研究领域为编译技术。近年来带领PLCT实验室在RISC-V软件生态领域持续进行开源贡献。",
                     "desc":"RISC-V 是非常有前景的一个自由免费的新指令集，正在得到越来越多硬件厂商和软件厂商的支持。中国科学院软件研究所从RISC-V诞生后不久就进行了关注和投入，并在最近两年成为了RISC-V国际基金会的黄金会员。本次报告将介绍软件所PLCT实验室在RISC-V开源生态领域的贡献，包括 LLVM、V8、QEMU、Spike、OpenCV 等。"
+                },
+                {
+                    "name":"董金光",
+                    "community":"OpenHarmony",
+                    "img":"1.png",
+                    "title":"OpenHarmony 技术探索和社区发展",
+                    "profile":"",
+                    "desc":""
                 }
             ]
         },
@@ -44,27 +51,19 @@
             "chi":"虚拟化&云原生",
             "content":[
                 {
-                    "name":"蔡灏旻",
-                    "img":"1.png",
-                    "community":"openEuler",
-                    "title":"iSula容器构建解决方案",
-                    "profile":""
-                },
-                {
-                    "name":"陈振东",
-                    "img":"1.png",
-                    "community":"openEuler",
-                    "title":"StratoVirt-openEuler 的轻量级虚拟化平台",
-                    "profile":"",
-                    "desc":""
-                },
-                {
                     "name":"王为",
                     "img":"wangwei.png",
                     "community":"Zstack",
                     "title":"开源私有云ZStack的架构设计",
                     "profile":"上海云轴核心架构师。负责ZStack 私有云的网络、存储领域多个产品特性的研发，性能工程部 Team Lead。在  OpenStack Summit、Arch Summit 等大会中做过技术分享。参与过多个国内大型云计算建设项目，向 OpenStack、MidoNet、Buildbot 等多个开源项目做过贡献。在 Linux 的网络、存储领域和私有云软件架构设计有着丰富的经验。",
                     "desc":"IaaS 产品有几大难题：产品化难、升级难、持续运维难。业界有很多开源私有云产品——CloudStack、OpenStack、OpenNebula 等等，但都并没有完美解决这些问题，为此我们重新设计开发了 ZStack 这个开源云计算项目，并从第一天开始进行开放开源的社区运营。通过全异步无锁、进程内微服务、工作流引擎、级联框架等等方法实现一个更好用、易用产品化的开源云计算引擎。这次分享将会从私有云架构设计常遇到的问题开始，然后介绍 ZStack 的处理方法以及未来 ZStack 在基础架构上还会做哪些尝试。"
+                },
+                {
+                    "name":"卢景晓",
+                    "img":"1.png",
+                    "community":"openEuler",
+                    "title":"iSula 容器构建解决方案",
+                    "profile":""
                 },
                 {
                     "name":"汝英哲 王孝威",
@@ -81,6 +80,14 @@
                     "title":"ChubaoFS 支撑大规模容器平台的云原生分布式存储",
                     "profile":"京东基础架构部架构师，CNCF 基金会旗下开源项目 ChubaoFS 的核心 maintainer，项目初创成员，同时深度参与 ChubaoFS 整体技术架构设计和研发，ChubaoFS 对象存储模块的主要代码贡献者。",
                     "desc":"主要分享 ChubaoFS 开源项目的介绍，主要功能，使用环境，周边生态，落地实践，以及应用案例。"
+                },
+                {
+                    "name":"徐飞",
+                    "img":"1.png",
+                    "community":"openEuler",
+                    "title":"StratoVirt-openEuler 的轻量级虚拟化平台",
+                    "profile":"",
+                    "desc":""
                 }
             ]
         },
@@ -89,20 +96,28 @@
             "chi":"人工智能",
             "content":[
                 {
-                    "name":"王俊",
-                    "img":"1.png",
-                    "community":"MindSpore",
-                    "title":"MindSpore 基础架构讲解",
-                    "profile":"",
-                    "desc":""
-                },
-                {
                     "name":"杨滔",
                     "img":"yangtao.png",
                     "community":"旷视科技",
                     "title":"开源深度学习框架天元",
                     "profile":"旷视科技有限公司AI市场总监，负责Brain++和MegEngine的生态建设。加入旷视前杨滔在微软工作十四年，负责最新技术在技术生态中推广，对业界主流技术、云平台以及人工智能技术有丰富和全面的积累。",
                     "desc":"自开源以来，旷视开源深度学习框架天元从3月的Alpha版本升级到6月的Beta版本、到10月的1.0正式版，期间实现了9次迭代。本议题将以天元的研发历程为背景，阐述天元深度学习框架在训练推理一体、全平台高效支持以及动静结合的训练能力等方面的优势，探讨如何通过开源框架提升人工智能生成力、构建良性的生态、促进人工智能领域的创新。"
+                },
+                {
+                    "name":"张军",
+                    "img":"1.png",
+                    "community":"百度",
+                    "title":"产业级开源开放深度学习平台飞桨",
+                    "profile":"张军，飞桨开源框架产品负责人，在自然语言处理、云计算、深度学习等领域，拥有五十余件发明专利。曾经是百度深度学习框架、百度翻译的核心研发工程师，目前主要负责飞桨开源框架的产品设计。",
+                    "desc":"飞桨(PaddlePaddle)是中国首个开源开放、技术领先、功能完备的产业级深度学习平台，集深度学习核心训练和推理框架、基础模型库、端到端开发套件和丰富的工具组件于一体。目前，飞桨累计开发者230万，服务企业9万家，基于飞桨开源深度学习平台产生了31万个模型。近期，飞桨核心框架发布了2.0RC版本，本议题将会介绍2.0RC版本的新的升级亮点，并探讨如何通过开源促进人工智能产业应用和发展。"
+                },
+                {
+                    "name":"王俊",
+                    "img":"1.png",
+                    "community":"MindSpore",
+                    "title":"MindSpore 基础架构讲解",
+                    "profile":"",
+                    "desc":""
                 },
                 {
                     "name":"王海良",
@@ -119,14 +134,6 @@
                     "title":"流计算与Python生态的融合 - Apache PyFlink 核心技术揭秘",
                     "profile":"孙金城（金竹），2011年加入阿里，9年的阿里工作中，主导过很多内部核心系统，如：阿里集团行为日志，阿里郎，视频转码，文档转换，流计算等云服务。在2016年初开始了解Apache Flink社区，由初期的参与社区开发到后来逐渐主导具体模块的开发，到负责Apache Flink Python API(PyFlink) 的建设。 目前是 阿里巴巴 Tech Lead， Committer for Apache Beam , PMC Member of Apache Flink and Apache IoTDB and Apache Member.",
                     "desc":"Apache Flink 是一个在无界和有界数据流上进行有状态计算的分布式框架，在实时数据仓库，机器学习，数据分析，事件驱动等场景广泛应用，为更好的进行生态支持，自Apache Flink 1.9版本开始，在Apache Beam的基础上增加对Python语言的支持。Python作为TOP3的流行语言，在机器学习，科学计算等领域有着广泛的用户群，Python与Flink的结合不仅将Python的丰富生态功能(比如，Pandas)集成到了Flink，而且增强了Python的分布式计算能力，本次分享将为大家细致剖析PyFlink的核心技术。"
-                },
-                {
-                    "name":"张军",
-                    "img":"1.png",
-                    "community":"百度",
-                    "title":"产业级开源开放深度学习平台飞桨",
-                    "profile":"张军，飞桨开源框架产品负责人，在自然语言处理、云计算、深度学习等领域，拥有五十余件发明专利。曾经是百度深度学习框架、百度翻译的核心研发工程师，目前主要负责飞桨开源框架的产品设计。",
-                    "desc":"飞桨(PaddlePaddle)是中国首个开源开放、技术领先、功能完备的产业级深度学习平台，集深度学习核心训练和推理框架、基础模型库、端到端开发套件和丰富的工具组件于一体。目前，飞桨累计开发者230万，服务企业9万家，基于飞桨开源深度学习平台产生了31万个模型。近期，飞桨核心框架发布了2.0RC版本，本议题将会介绍2.0RC版本的新的升级亮点，并探讨如何通过开源促进人工智能产业应用和发展。"
                 }
             ]
         },
@@ -134,14 +141,6 @@
             "name":"bigdata",
             "chi":"大数据",
             "content":[
-                {
-                    "name":"罗旦",
-                    "img":"1.png",
-                    "community":"openLookeng",
-                    "title":"openLooKeng 让大数据更简单",
-                    "profile":"",
-                    "desc":""
-                },
                 {
                     "name":"孙金城",
                     "img":"sunjincheng.png",
@@ -151,11 +150,11 @@
                     "desc":"Gartner指出赋能边缘是2020年十大战略技术趋势之一，5G加速IoT领域的发展，物联网设备数据的收集，存储和计算需求与日俱增。Apache IoTDB是物联网时序数据收集、存储、管理与分析为一体的的软件系统。Apache IoTDB作为Apache的2020新晋顶级项目，以其出色的表现得到了Apache的认可！目前Apache IoTDB与Hadoop、Spark和Flink等进行了深度集成，可以完全胜任工业物联网领域的海量数据存储、高速数据读取和复杂数据分析的需求。本次分享将为大家对Apache IoTDB的前世今生和核心的技术进行详细介绍。 "
                 },
                 {
-                    "name":"许利杰",
-                    "img":"xulijie.png",
-                    "community":"中国科学院软件研究所",
-                    "title":"DistStream: 面向流式聚类的分布式计算框架",
-                    "profile":"现任中国科学院软件研究所副研究员，于中科院软件所获得博士学位。当前主要从事大数据系统方面的研究工作，已在国际权威会议如VLDB、ICDCS、ISSTA、IPDPS、ISSRE、ICAC等发表论文10余篇，主持多项国家自然科学基金，以及华为、京东、联想等企业的合作研发项目。曾为Apache Spark和Hadoop修复多个内核代码严重错误，出版《大数据处理框架Apache Spark设计与实现》著作1部。博士期间曾在微软亚洲研究院、阿里巴巴、腾讯担任客座研究学生。目前还担任中国计算机学会系统软件专委会委员、中国科学院青年创新促进会会员。",
+                    "name":"罗旦",
+                    "img":"1.png",
+                    "community":"openLookeng",
+                    "title":"openLooKeng 让大数据更简单",
+                    "profile":"",
                     "desc":""
                 },
                 {
@@ -173,6 +172,14 @@
                     "title":"Milvus 向量搜索引擎简介",
                     "profile":"陈室余，Zilliz 数据工程师/Developer Advocate，毕业于西安电子科技大学计算机学系。自加入Zilliz以来，致力于为Milvus开源项目探索解决方案，从Docker部署到应用Milvus在更多AI应用，帮助了许多用户实现应用场景落地。",
                     "desc":"随着技术的发展和人与人之间互动方式的改变，图片、视频、语音、文本等非结构化数据正在快速而持续的增长。智慧城市，短视频，商品个性化推荐，视觉商品搜索等新兴应用领域对非结构化数据分析与搜索提出了更高的要求。为了应对该挑战，人们通过人工智能技术将非结构化数据转换为向量数据，以便进一步的分析与搜索。由于非结构化数据在数字化保存的内容中比重不断增加，远超传统的结构化数据，非结构化数据及其生成的向量数据正面临更为严峻的大数据分析处理挑战。因此，开源向量搜索引擎Milvus项目应运而生。Milvus目前落地的领域包括，机器视觉、自然语言处理、音频搜索、化学分子式分析等。"
+                },
+                {
+                    "name":"许利杰",
+                    "img":"xulijie.png",
+                    "community":"中国科学院软件研究所",
+                    "title":"DistStream: 面向流式聚类的分布式计算框架",
+                    "profile":"现任中国科学院软件研究所副研究员，于中科院软件所获得博士学位。当前主要从事大数据系统方面的研究工作，已在国际权威会议如VLDB、ICDCS、ISSTA、IPDPS、ISSRE、ICAC等发表论文10余篇，主持多项国家自然科学基金，以及华为、京东、联想等企业的合作研发项目。曾为Apache Spark和Hadoop修复多个内核代码严重错误，出版《大数据处理框架Apache Spark设计与实现》著作1部。博士期间曾在微软亚洲研究院、阿里巴巴、腾讯担任客座研究学生。目前还担任中国计算机学会系统软件专委会委员、中国科学院青年创新促进会会员。",
+                    "desc":""
                 }
             ]
         },
@@ -197,20 +204,20 @@
                     "desc":"随着微服务技术的发展，Web、App和企业软件的权限管理对数据安全至关重要。Casbin是业界主流的开源访问控制框架，致力于帮助复杂系统解决权限管理的难题。其表达能力强大、执行高效，被Intel、VMware、IBM、腾讯云、SpaceX等多个大型企业部署使用，支持Go、Java、Python、C++、.NET、Rust等9种语言，在GitHub上合计已有10000+ stars。"
                 },
                 {
-                    "name":"翟佳",
-                    "img":"zhuaijia.png",
-                    "community":"Apache Pulsar ",
-                    "title":"ApachePulsar云原生的下一代消息平台",
-                    "profile":"翟佳，StreamNative 联合创始人兼 CTO，开源项目 Apache Pulsar 和 Apache BookKeeper PMC 成员和 Committer，主要从事分布式、消息系统、流存储、文件系统等相关设计和开发。曾就职于 EMC，先后是统一存储平台和实时处理平台技术负责人。",
-                    "desc":"Apache Pulsar 是下一代云原生消息流平台，在 2018 年 9 月毕业成为 Apache 软件基金会顶级项目。Apache Pulsar 从 2012 年诞生时就前瞻性地采用了存储计算分离、分层分片的云原生架构，极大减轻用户在消息系统中遇到的扩展和运维困难。Pulsar通过特别的设计和抽象，统一地支持Stream和Queue两种消息消费模式，保持了Stream模式的高性能和Queue模式的灵活性。 Pulsar在保证大数据消息系统的性能和吞吐量的同时，提供了更多企业级的Feature，包括方便的运维和扩展，灵活的消息模型，多语言API，多租户，异地多备，和数据的强持久性一致性等等，解决了现有开源消息系统的很多不足之处。 本次分享将深入介绍 Pulsar 的云原生特性和架构优势，以及在全面云原生时代 Pulsar 的社区状况和最新技术进展。"
-                },
-                {
                     "name":"王璞",
                     "img":"1.png",
                     "community":"DatenLord",
                     "title":"Rust 实现 FUSE 用户态文件系统",
                     "profile":"美国 George Mason 大学计算机博士，DatenLord 项目发起人，前数人云创始人。",
                     "desc":"近年来，存储硬件的性能大幅度提升，高端 NVMe 固态硬盘的访问速度已经比传统机械硬盘的速度提升了几千倍甚至几万倍，但是 Linux 内核提供的文件系统对于硬盘的访问方式很多年来没有本质变化，使得存储硬件的高性能很难发挥出来。本议题介绍我们采用 Rust 实现的 FUSE 用户态文件系统，主要采用如下策略来提高数据访问性能：首先，在用户态实现自行调度 IO 任务，避免内核在调度 IO 任务时进行上下文切换，从而把上下文切换时间节省下来用于执行更多 IO 任务；其次，采用用户态分级缓存策略，尽可能把数据缓存在内存，并且采用无锁数据结构避免锁等待以保证性能；此外，Rust 语言的一些特性，很大程度提升了开发效率，保证了内存安全，进而增强了系统的稳定性。"
+                },
+                {
+                    "name":"翟佳",
+                    "img":"zhuaijia.png",
+                    "community":"Apache Pulsar ",
+                    "title":"ApachePulsar云原生的下一代消息平台",
+                    "profile":"翟佳，StreamNative 联合创始人兼 CTO，开源项目 Apache Pulsar 和 Apache BookKeeper PMC 成员和 Committer，主要从事分布式、消息系统、流存储、文件系统等相关设计和开发。曾就职于 EMC，先后是统一存储平台和实时处理平台技术负责人。",
+                    "desc":"Apache Pulsar 是下一代云原生消息流平台，在 2018 年 9 月毕业成为 Apache 软件基金会顶级项目。Apache Pulsar 从 2012 年诞生时就前瞻性地采用了存储计算分离、分层分片的云原生架构，极大减轻用户在消息系统中遇到的扩展和运维困难。Pulsar通过特别的设计和抽象，统一地支持Stream和Queue两种消息消费模式，保持了Stream模式的高性能和Queue模式的灵活性。 Pulsar在保证大数据消息系统的性能和吞吐量的同时，提供了更多企业级的Feature，包括方便的运维和扩展，灵活的消息模型，多语言API，多租户，异地多备，和数据的强持久性一致性等等，解决了现有开源消息系统的很多不足之处。 本次分享将深入介绍 Pulsar 的云原生特性和架构优势，以及在全面云原生时代 Pulsar 的社区状况和最新技术进展。"
                 }
             ]
         }
@@ -222,7 +229,7 @@
             "content":[
                 {
                     "name":"庄表伟",
-                    "img":"1.png",
+                    "img":"zhuangbiaowei.png",
                     "community":"开源社",
                     "title":"开源治理与数字化转型",
                     "profile":"开源社理事长",
@@ -237,19 +244,19 @@
                     "desc":""
                 },
                 {
-                    "name":"琚致远",
-                    "img":"guzhiyuan.png",
-                    "community":"Apache APISIX",
-                    "title":"从 0 到 1：Apache APISIX 的开源和商业化之路",
-                    "profile":"Apache APISIX 是 2019 年 4 月份开始从头开发，6 月份开源，10 月份进入 Apache 孵化器，并在 2020 年 7 月毕业成为 Apache 顶级项目，是最快从 Apache 孵化器毕业的中国项目。同时，Apache APISIX 背后的公司也在摸索在中国如何做开源项目的商业化，已经有了多家世界 500 强的付费用户。这个分享会给我们带来 Apache APISIX 在开源以及商业化上的一些实践和思考，希望能让更多的中国开发者来参与和贡献开源。",
-                    "desc":""
-                },
-                {
                     "name":"高琨",
                     "img":"1.png",
                     "community":"",
                     "title":"企业开源合规解读",
                     "profile":"",
+                    "desc":""
+                },
+                {
+                    "name":"琚致远",
+                    "img":"guzhiyuan.png",
+                    "community":"Apache APISIX",
+                    "title":"从 0 到 1：Apache APISIX 的开源和商业化之路",
+                    "profile":"Apache APISIX 是 2019 年 4 月份开始从头开发，6 月份开源，10 月份进入 Apache 孵化器，并在 2020 年 7 月毕业成为 Apache 顶级项目，是最快从 Apache 孵化器毕业的中国项目。同时，Apache APISIX 背后的公司也在摸索在中国如何做开源项目的商业化，已经有了多家世界 500 强的付费用户。这个分享会给我们带来 Apache APISIX 在开源以及商业化上的一些实践和思考，希望能让更多的中国开发者来参与和贡献开源。",
                     "desc":""
                 },
                 {
@@ -267,6 +274,22 @@
             "chi":"开源&教育",
             "content":[
                 {
+                    "name":"陈莉君",
+                    "img":"chenlijun.png",
+                    "community":"西安邮电大学",
+                    "title":"开源与开启“潜能按钮”",
+                    "profile":"陈莉君:  西安邮电大学教授，教育部高等学校计算机类专业教学指导委员会委员，陕西省教学名师，中国开源联盟专家组成员。20多年来致力于推动Linux在中国的发展，深入研究Linux内核相关理论以及技术，跟踪Linux内核发展动向，针对Linux内核版本的不断演化，连续编写和翻译了十多部相关专著、译著及教材，两次获得中国开源联盟授予的“开源杰出贡献奖”。",
+                    "desc":""
+                },
+                {
+                    "name":"陈渝",
+                    "img":"1.png",
+                    "community":"",
+                    "title":"在高校中推广开源操作系统的相关思考",
+                    "profile":"陈渝 国防科学技术大学本硕博毕业，清华大学计算机系长聘副教授，博导，MIT访问学者，CCF系统软件专委常务委员。主要研究方向是操作系统。先后负责和参与了二十多余项国内外课题的开发，包括国家自然科学基金项目、863项目、核高基项目、国际合作和横向课题等，获得国家科技进步二等奖，省部级一等奖多次。发表高水平学术论文50余篇，担任国内外有影响力学术会议的主席和程序委员会委员等。承担清华大学计算机系的操作系统、编译原理、高级操作系统等课程的教学工作。",
+                    "desc":""
+                },
+                {
                     "name":"李岗",
                     "img":"ligang.png",
                     "community":"Apache DolphinScheduler (incubator)",
@@ -281,14 +304,6 @@
                     "title":"Multi-Wechaty SDK for Chatbot",
                     "profile":"北京邮电大学深度学习研究生，Chatbot技术爱好者，自然语言处理工程师，python-wechaty作者，同时也是wechaty开源社区的优秀代码贡献者。",
                     "desc":"此次分享的主题是Multi-Wechaty聊天机器人工具，并从以下三个方面展开分享：1.我是如何开始第一个开源项目的，以亲身经历告诉大家开源对大家的重要性。2.聊天机器人发展现状，目前出现的问题，wechaty是什么？以及如何解决这个问题。3.最后通过live coding的环节给大家演示如何通过少量代码开发一款聊天机器人。"
-                },
-                {
-                    "name":"陈莉君",
-                    "img":"1.png",
-                    "community":"西安邮电大学",
-                    "title":"开源与开启“潜能按钮”",
-                    "profile":"陈莉君:  西安邮电大学教授，教育部高等学校计算机类专业教学指导委员会委员，陕西省教学名师，中国开源联盟专家组成员。20多年来致力于推动Linux在中国的发展，深入研究Linux内核相关理论以及技术，跟踪Linux内核发展动向，针对Linux内核版本的不断演化，连续编写和翻译了十多部相关专著、译著及教材，两次获得中国开源联盟授予的“开源杰出贡献奖”。",
-                    "desc":""
                 },
                 {
                     "name":"耿航",
