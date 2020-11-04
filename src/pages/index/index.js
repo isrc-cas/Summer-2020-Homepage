@@ -241,7 +241,7 @@ export default class Index extends React.Component{
                                
                                 <div className="indexHomeOneTextWrapper">
                                    
-                                    开源软件供应链点亮计划-暑期2020 现结项评审已结束，欢迎关注结项公示。<br className="indexHomeOneTextConsEngTwoNone"/>
+                                    开源软件供应链点亮计划-暑期2020 现结项评审已结束，欢迎关注结项公示。<br className="mobiledisplaynone"/>
                                     我们将于2020年11月14日 于<span className="blue">南京</span>玄武苏宁诺富特酒店 盛大举行 <span className="blue">2020峰会</span>，欢迎参与！
                                 </div>
                               
