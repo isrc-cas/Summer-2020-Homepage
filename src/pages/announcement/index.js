@@ -375,7 +375,7 @@ export default class Announcement extends React.Component{
                                             <span className="AnnouncementXiuItemTitleTwo"> {item.title}</span>
                                         </div>
                                         <div className="AnnouncementXiuItemText">
-                                            导师寄语：{item.text}
+                                            {item.text}
                                         </div>
                                         <div className="AnnouncementXiuItemNum">
                                             <span className="AnnouncementXiuItemNumOne">共5名学生</span>
