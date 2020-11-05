@@ -304,6 +304,56 @@ const logolistMap = {
             img:'c_feijiang.jpg',
             url:'https://www.paddlepaddle.org.cn/'
         },
+        {
+            name:'openlookkeng',
+            img:'openlookkeng.jpg',
+            url:''
+        },
+        {
+            name:'datenlord',
+            img:'datenlord.jpg',
+            url:''
+        },
+        {
+            name:'zstack',
+            img:'zstack.jpg',
+            url:''
+        },
+        {
+            name:'flink',
+            img:'flink.jpg',
+            url:''
+        },
+        {
+            name:'itodb',
+            img:'itodb.jpg',
+            url:''
+        },
+        {
+            name:'opengauss',
+            img:'opengauss.jpg',
+            url:''
+        },
+        {
+            name:'openharmony',
+            img:'openharmony.jpg',
+            url:''
+        },
+        {
+            name:'tkestack',
+            img:'tkestack.jpg',
+            url:''
+        },
+        {
+            name:'runhe',
+            img:'runhe.jpg',
+            url:''
+        },
+        {
+            name:'networps',
+            img:'networps.jpg',
+            url:''
+        },
         
         
         
