@@ -379,7 +379,7 @@ export default class Announcement extends React.Component{
                                         </div>
                                         <div className="AnnouncementXiuItemNum">
                                             <span className="AnnouncementXiuItemNumOne">共5名学生</span>
-                                            <span className="AnnouncementXiuItemNumTwo">*按学生姓名拼音字母排序</span>
+                                            <span className="AnnouncementXiuItemNumTwo">* 排名不分先后</span>
                                         </div>
                                         <div className="AnnouncementTable">
                                         <div className="AWCTableHeader AWCTableLine">
