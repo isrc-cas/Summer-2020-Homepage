@@ -25,17 +25,31 @@
         padding: 50px 0 70px;
         box-sizing: border-box;
         height: 580px;
+        .SummitMeetTwoContentTop{
+            position: relative;
+            display: flex;
+            width: 100%;
+            height: 340px;
+            
+        }
         .SummitMeetTwoContent{
             position: relative;
             width: 1200px;
             margin: 0 auto;
             height: 100%;
-            background-repeat: no-repeat;
-            background-position: 100% 0;
-            background-image: url(./../../img/detail/back.jpg);
+            .SummitImage{
+                position: relative;
+                width: 50%;
+                height: 100%;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: bottom;
+                background-image: url(./../../img/detail/back.jpg);
+            }
             .SummitMeetTwoContentRight{
                 position: relative;
                 color: #333333;
+                width: 50%;
                 .SummitMeetTwoContentRightOne{
                     position: relative;
                     font-size: 40px;
@@ -46,6 +60,31 @@
                     position: relative;
                     font-size: 24px;
                     line-height: 24px;
+                }
+                .SummitButtonZhibo{
+                    position: relative;
+                }
+                .SummitButtonZhiboButton{
+                    position: relative;
+                    color: white;
+                    line-height: 40px;
+                    height: 40px;
+                    width: 270px;
+                    font-size: 20px;
+                    margin: 30px 10px 12px 0;
+                    background: #5959ff;
+                    border-style: solid;
+                    border-width: 0.1px;
+                    border-radius: 4px;
+                    text-align: center;
+                    /* font-weight: bolder; */
+                    display: inline-block;
+                }
+                .SummitTip{
+                    font-size: 14px;
+                    color: #929292;
+                    position: relative;
+                    bottom: 4px;
                 }
                 .SummitMeetTwoContentTwocode.phoneshow{
                     display: none;

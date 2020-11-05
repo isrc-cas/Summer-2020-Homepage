@@ -79,10 +79,16 @@ export default class Summitmeeting extends React.Component{
                 <div className="indexHomeOneBanner indexHomeOneBannerFour">
                     <div className="indexHomeFourBanner content1200">
                     
-                            {/* <div className="indexHomeFourBannerLogo"></div> */}
+                            
                             <div className="indexHomeFourBannerTitle">
                                 <span className="One">共献·开源  </span>
-                                <span className="Two">开源软件供应链 2020 峰会</span>
+                                <span className="Two">
+                                    <span>开源软件供应链 2020 峰会</span>
+                                    <div className="summitButtonOnline">
+                                        <span className="summitButtonText">线上同步直播！</span>
+                                        <div className="summitButtonBack"></div>
+                                    </div>
+                                </span>
                             </div>
                             {/* <div className="indexHomeFourBannerCompany">
                                 <div className="indexHomeFourBannerCompanyItem">中国科学院软件研究所</div>
@@ -103,7 +109,7 @@ export default class Summitmeeting extends React.Component{
                                     })
                                 }
                             </div>
-                            
+                            <div className="indexHomeFourText4">2020.11.14-2020.11.15 于南京盛大开幕，线下活动火热报名中！</div>
                            
                         </div>
                     
@@ -111,9 +117,14 @@ export default class Summitmeeting extends React.Component{
                 </div>
                 <div className="SummitMeetTwo">
                     <div className="SummitMeetTwoContent">
+                        <div className="SummitMeetTwoContentTop">
                             <div className="SummitMeetTwoContentRight">
                                 <div className="SummitMeetTwoContentRightOne">开源软件供应链 2020 峰会</div>
-                                <div className="SummitMeetTwoContentRightTwo"> 2020年11月14日 于 南京玄武苏宁诺富特酒店 盛大开幕</div>
+                                <div className="SummitMeetTwoContentRightTwo"> 2020年11月14日-15日 于南京盛大开幕</div>
+                                <div className="SummitButtonZhibo">
+                                    <div className="SummitButtonZhiboButton">观看直播 ></div>
+                                    <span className="SummitTip">暂未开放，敬请期待！</span>
+                                </div>
                                 <div className="SummitMeetTwoContentTwocode phonenone">
                                     <img className="SummitMeetTwoContentTwocodePng" alt="twocode" src={twocode}></img>
                                     <img className="SummitMeetTwoContentDaoxiang" alt="daoxiangpng" src={daoxiangpng}></img>
@@ -121,9 +132,13 @@ export default class Summitmeeting extends React.Component{
                                 </div>
                                 <div className="SummitMeetTwoContentTwocode phoneshow">
                                     <div className="SummitMeetTwoContentButton" onClick={()=>{this.gourl(this.state.link)}}> 点击报名</div>
-                                    <span>手机扫一扫 报名线下参会！</span>
+                                   
                                 </div>
                             </div>
+                            <div className="SummitImage"></div>
+
+                        </div>
+                            
                             <div className="SummitMeetTwoContentMiddle">
                                 <span>峰会将围绕现代软件构建模式的关键供应关系网络 — 开源软件供应链展开深入解读，</span><br/>
                                 <span>邀请全国各大高校及研究机构老师代表、企业技术专家、开源社区大咖等齐聚南京，共同论道开源最新技术前沿话题及发展趋势</span>
