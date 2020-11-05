@@ -34,7 +34,7 @@ export default class Announcement extends React.Component{
         // tab
         list,
         showlist:list,
-        tabflag:"two",//one:结项，two:优秀学生
+        tabflag:"one",//one:结项，two:优秀学生
        
        
        }
