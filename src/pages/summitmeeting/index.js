@@ -17,7 +17,9 @@ import './../index/banner4.less';
 import data from './list.json';
 import twocode from './../../img/stats/twocode.png';
 import daoxiangpng from './../../img/stats/baoming.png';
-import {datalist} from './data.js'
+import {datalist} from './data.js';
+// eslint-disable-next-line
+let timeTemp = 0;
 export default class Summitmeeting extends React.Component{
     constructor(props){
        super(props)
@@ -29,26 +31,37 @@ export default class Summitmeeting extends React.Component{
         showdata:{},
         link:"https://maka.im/pcdanyeviewer/13229884/HAUZ4967W13229884",
         datalist,
+        
        }
     }
 
     toggleHover(type,index,indexl,e){
+        timeTemp=new Date().getTime();
         this.setState({
             showflag:this.state.data[type][index].name,
-            showdata:this.state.data[type][index]["content"][indexl]
+            showdata:this.state.data[type][index]["content"][indexl],
+            
         })
-        // console.log(this.state.data[type][index]["content"][indexl])
+        console.log(this.state.data[type][index].name)
+        console.log(this.state.data[type][index]["content"][indexl])
+        console.log("___________________________________________")
 
     }
     gourl(url){
         window.open(url)
     }
 
-    toggleleave(){
-        // console.log("00000")
-        this.setState({
-            showflag:""
-        })
+    toggleleave(e){
+       
+        var timestamp=new Date().getTime();
+        
+        if(timestamp-this.state.timeTemp>5){
+            this.setState({
+                showflag:""
+            })
+        }
+        
+        
     }
 
     getBack(len){
@@ -185,7 +198,7 @@ export default class Summitmeeting extends React.Component{
                                                         return (
                                                             <div className="SummitMeetThreeTableItem" key={index+"_"+indexl} 
                                                             onMouseEnter={(e)=>{this.toggleHover('tech',index,indexl)}}
-                                                            onMouseLeave={()=>{this.toggleleave()}}
+                                                            onMouseLeave={(e)=>{this.toggleleave(e)}}
                                                             >
                                                                 <div className="SummitMeetThreeTableItemContent">
                                                                    
