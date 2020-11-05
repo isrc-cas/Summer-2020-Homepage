@@ -50,47 +50,86 @@ export default class Announcement extends React.Component{
         this.getcurrentpage()
     }
     getcurrentpage(){
-        const proid = parseInt(window.location.hash.split("announcement#")[1]);
-       
-       
+        let proid = window.location.hash.split("announcement#")[1];
+        if(!proid){
+            return 0;
+        }
         let  pagenow = this.state.pagenow;
-
         let indexnum = 0;
-        if(proid> 0){
+        let position = 500;
+        let judge = proid.includes("_")?proid.split("_"):[proid];
+        console.log(judge)
+        if(parseInt(judge[0]) > 0){
             
             
-            var len =  this.state.data.length;
-            for(var i=0;i<len;i++){
-               
-                if(this.state.data[i].projectid === proid){
-                    indexnum = i;
-                    break;
+            if(judge.length===2 && judge[1]==="you"){
+                this.setState({
+                    tabflag:"two"
+                })
+
+                setTimeout(()=>{
+
+                    var $selectpro =  document.getElementsByClassName(proid)[0];
+                    if($selectpro){
+                        $selectpro.style.backgroundColor="#c0caea";
+                        console.log( $selectpro.classList[2].split("_")[1]*700)
+                        position = $selectpro.classList[2].split("_")[1]*700 +700;
+                        window.scrollTo({
+                            top: position,
+                            left: 0,
+                            behavior: 'smooth'
+                        });
+                    }
+                   
+                },500)
+                setTimeout(()=>{
+                    document.getElementsByClassName(proid)[0].style.backgroundColor="";
+                },2500)
+            }else{
+                var len =  this.state.data.length;
+                proid = parseInt(proid)
+                for(var i=0;i<len;i++){
+                   
+                    if(this.state.data[i].projectid === proid){
+                        indexnum = i;
+                        break;
+                    }
                 }
-            }
-            pagenow =  Math.ceil(indexnum/this.state.pagesize);
-            this.getPageData(pagenow);
-            let position = 200 + indexnum%this.state.pagesize*54
-            console.log(position)
-           
-            this.setState({
-                pagenow
-            })
-            
-           
-            
-            setTimeout(()=>{
-                var $selectpro =  document.getElementsByClassName(proid)[0];
+                pagenow =  Math.ceil(indexnum/this.state.pagesize);
+                console.log(pagenow)
+                this.getPageData(pagenow);
+                position = 200 + indexnum%this.state.pagesize*54
                 
-                $selectpro.style.backgroundColor="#c0caea";
-                window.scrollTo({
-                    top: position,
-                    left: 0,
-                    behavior: 'smooth'
-                });
-            },500)
-            setTimeout(()=>{
-                document.getElementsByClassName(proid)[0].style.backgroundColor="";
-            },2500)
+               
+                this.setState({
+                    pagenow
+                })
+
+                setTimeout(()=>{
+
+                    var $selectpro =  document.getElementsByClassName(proid)[0];
+                    if($selectpro){
+                        $selectpro.style.backgroundColor="#c0caea";
+                
+                        window.scrollTo({
+                            top: position,
+                            left: 0,
+                            behavior: 'smooth'
+                        });
+                    }
+                   
+                },500)
+                setTimeout(()=>{
+                    document.getElementsByClassName(proid)[0].style.backgroundColor="";
+                },2500)
+
+            }
+            
+           
+            
+           
+           
+           
             window.location.hash = "#/announcement"
             
 
@@ -367,9 +406,9 @@ export default class Announcement extends React.Component{
                         </div>
                         <div className="AnnouncementXiuWrapper">
                             {
-                                this.state.showlist.map((item, index)=>{
+                                this.state.showlist.map((item, indexl)=>{
                                     return (
-                                        <div className={["AnnouncementXiuItem", item.name].join(" ")} key={index}>
+                                        <div className={["AnnouncementXiuItem", item.name].join(" ")} key={indexl}>
                                         <div className="AnnouncementXiuItemTitle">
                                             <span className="AnnouncementXiuItemTitleOne">优秀学生 </span>|
                                             <span className="AnnouncementXiuItemTitleTwo"> {item.title}</span>
@@ -395,7 +434,7 @@ export default class Announcement extends React.Component{
                                                 {
                                                     item.content.map((ele,index)=>{
                                                     return (
-                                                        <div className={["AWCTableLine",ele.projectid].join(" ")} key={index}>
+                                                        <div className={["AWCTableLine",ele.projectid+"_you","key_"+indexl+"_"+index].join(" ")} key={index}>
                                                         
                                                             <div className="AWCTableStudentName" >{ele.name}</div>
                                                             <div className={["AWCTableCommunityName",this.state.currentProject === ele.projectid ? 'show':''].join(" ")}>
