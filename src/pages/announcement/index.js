@@ -52,6 +52,8 @@ export default class Announcement extends React.Component{
     getcurrentpage(){
         let proid = window.location.hash.split("announcement#")[1];
         if(!proid){
+            
+            this.getPageData(1);
             return 0;
         }
         let  pagenow = this.state.pagenow;
@@ -133,8 +135,6 @@ export default class Announcement extends React.Component{
             window.location.hash = "#/announcement"
             
 
-        }else{
-            this.getPageData(1);
         }
 
        
