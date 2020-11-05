@@ -323,7 +323,7 @@ export default class Summitmeeting extends React.Component{
                                 <div className="HowitworksTimelineItemIcon"></div>
                                 <div className="HowitworksTimelineItemCons">
                                     <div className="HowitworksTimelineItemLine ">
-                                        <div className="HowitworksTimelineItemLineTitle">11月15日 上午 优秀学生线上分享</div>
+                                        <div className="HowitworksTimelineItemLineTitle">11月15日 上午 优秀学生分享</div>
                                         
                                     </div>
                                    
