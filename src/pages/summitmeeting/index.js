@@ -17,7 +17,9 @@ import './../index/banner4.less';
 import data from './list.json';
 import twocode from './../../img/stats/twocode.png';
 import daoxiangpng from './../../img/stats/baoming.png';
-import {datalist} from './data.js'
+import {datalist} from './data.js';
+// eslint-disable-next-line
+let timeTemp = 0;
 export default class Summitmeeting extends React.Component{
     constructor(props){
        super(props)
@@ -29,26 +31,37 @@ export default class Summitmeeting extends React.Component{
         showdata:{},
         link:"https://maka.im/pcdanyeviewer/13229884/HAUZ4967W13229884",
         datalist,
+        
        }
     }
 
     toggleHover(type,index,indexl,e){
+        timeTemp=new Date().getTime();
         this.setState({
             showflag:this.state.data[type][index].name,
-            showdata:this.state.data[type][index]["content"][indexl]
+            showdata:this.state.data[type][index]["content"][indexl],
+            
         })
-        // console.log(this.state.data[type][index]["content"][indexl])
+        console.log(this.state.data[type][index].name)
+        console.log(this.state.data[type][index]["content"][indexl])
+        console.log("___________________________________________")
 
     }
     gourl(url){
         window.open(url)
     }
 
-    toggleleave(){
-        // console.log("00000")
-        this.setState({
-            showflag:""
-        })
+    toggleleave(e){
+       
+        var timestamp=new Date().getTime();
+        
+        if(timestamp-this.state.timeTemp>5){
+            this.setState({
+                showflag:""
+            })
+        }
+        
+        
     }
 
     getBack(len){
@@ -79,10 +92,16 @@ export default class Summitmeeting extends React.Component{
                 <div className="indexHomeOneBanner indexHomeOneBannerFour">
                     <div className="indexHomeFourBanner content1200">
                     
-                            {/* <div className="indexHomeFourBannerLogo"></div> */}
+                            
                             <div className="indexHomeFourBannerTitle">
                                 <span className="One">共献·开源  </span>
-                                <span className="Two">开源软件供应链 2020 峰会</span>
+                                <span className="Two">
+                                    <span>开源软件供应链 2020 峰会</span>
+                                    <div className="summitButtonOnline">
+                                        <span className="summitButtonText">线上同步直播！</span>
+                                        <div className="summitButtonBack"></div>
+                                    </div>
+                                </span>
                             </div>
                             {/* <div className="indexHomeFourBannerCompany">
                                 <div className="indexHomeFourBannerCompanyItem">中国科学院软件研究所</div>
@@ -103,7 +122,7 @@ export default class Summitmeeting extends React.Component{
                                     })
                                 }
                             </div>
-                            
+                            <div className="indexHomeFourText4">2020.11.14-2020.11.15 于南京盛大开幕，线下活动火热报名中！</div>
                            
                         </div>
                     
@@ -111,9 +130,14 @@ export default class Summitmeeting extends React.Component{
                 </div>
                 <div className="SummitMeetTwo">
                     <div className="SummitMeetTwoContent">
+                        <div className="SummitMeetTwoContentTop">
                             <div className="SummitMeetTwoContentRight">
                                 <div className="SummitMeetTwoContentRightOne">开源软件供应链 2020 峰会</div>
-                                <div className="SummitMeetTwoContentRightTwo"> 2020年11月14日 于 南京玄武苏宁诺富特酒店 盛大开幕</div>
+                                <div className="SummitMeetTwoContentRightTwo"> 2020年11月14日-15日 于南京盛大开幕</div>
+                                <div className="SummitButtonZhibo">
+                                    <div className="SummitButtonZhiboButton">观看直播 ></div>
+                                    <span className="SummitTip">暂未开放，敬请期待！</span>
+                                </div>
                                 <div className="SummitMeetTwoContentTwocode phonenone">
                                     <img className="SummitMeetTwoContentTwocodePng" alt="twocode" src={twocode}></img>
                                     <img className="SummitMeetTwoContentDaoxiang" alt="daoxiangpng" src={daoxiangpng}></img>
@@ -121,9 +145,13 @@ export default class Summitmeeting extends React.Component{
                                 </div>
                                 <div className="SummitMeetTwoContentTwocode phoneshow">
                                     <div className="SummitMeetTwoContentButton" onClick={()=>{this.gourl(this.state.link)}}> 点击报名</div>
-                                    <span>手机扫一扫 报名线下参会！</span>
+                                   
                                 </div>
                             </div>
+                            <div className="SummitImage"></div>
+
+                        </div>
+                            
                             <div className="SummitMeetTwoContentMiddle">
                                 <span>峰会将围绕现代软件构建模式的关键供应关系网络 — 开源软件供应链展开深入解读，</span><br/>
                                 <span>邀请全国各大高校及研究机构老师代表、企业技术专家、开源社区大咖等齐聚南京，共同论道开源最新技术前沿话题及发展趋势</span>
@@ -170,7 +198,7 @@ export default class Summitmeeting extends React.Component{
                                                         return (
                                                             <div className="SummitMeetThreeTableItem" key={index+"_"+indexl} 
                                                             onMouseEnter={(e)=>{this.toggleHover('tech',index,indexl)}}
-                                                            onMouseLeave={()=>{this.toggleleave()}}
+                                                            onMouseLeave={(e)=>{this.toggleleave(e)}}
                                                             >
                                                                 <div className="SummitMeetThreeTableItemContent">
                                                                    

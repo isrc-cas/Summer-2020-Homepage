@@ -231,18 +231,24 @@ export default class Index extends React.Component{
                     <div className="indexHomeOneBanner indexHomeOneBannerOne">
                             <div className="indexHomeOneWrapper content1200">
                                 <div className="indexHomeOneTextCons">
-                                <div className="indexHomeOneTextConsEngOne">
+                                {/* <div className="indexHomeOneTextConsEngOne">
                                  ISCAS & openEuler Community
-                                </div>
-                                <div className="indexHomeOneTextConsEngTwo">
+                                </div> */}
+                                {/* <div className="indexHomeOneTextConsEngTwo">
                                     
                                 Open Source Promotion Plan <span className="mobiledisplaynone">-</span><br className="indexHomeOneTextConsEngTwoNone"/> Summer 2020
+                                </div> */}
+                                <div className="indexHomeFourBannerTitle">
+                                    <span className="One">共献·开源  </span>
+                                    <span className="Two">
+                                        <span>开源软件供应链 2020 峰会</span>
+                                    </span>
                                 </div>
                                
                                 <div className="indexHomeOneTextWrapper">
                                    
-                                    开源软件供应链点亮计划-暑期2020 现结项评审已结束，欢迎关注结项公示。<br className="mobiledisplaynone"/>
-                                    我们将于2020年11月14日 于<span className="blue">南京</span>玄武苏宁诺富特酒店 盛大举行 <span className="blue">2020峰会</span>，欢迎参与！
+                                     我们将在 2020年11月14日-15日 于<span className="blue">南京</span>玄武苏宁诺富特酒店 盛大举行<span className="blue">2020峰会</span>，欢迎报名线下峰会！<br className="mobiledisplaynone"/>
+                                     届时我们也会同步在<span className="blue">线上</span>进行直播，敬请关注“2020峰会”页
                                 </div>
                               
                                
@@ -272,14 +278,15 @@ export default class Index extends React.Component{
                         <div className="indexHomeFourBanner content1200"  onClick={()=>{this.goLink('summitmeeting')}}>
                         <div className="indexHomeFourBannerTitle">
                                 <span className="One">共献·开源  </span>
-                                <span className="Two">开源软件供应链 2020 峰会</span>
+                                <span className="Two">
+                                    <span>开源软件供应链 2020 峰会</span>
+                                    <div className="summitButtonOnline">
+                                        <span className="summitButtonText">线上同步直播！</span>
+                                        <div className="summitButtonBack"></div>
+                                    </div>
+                                </span>
                             </div>
-                            {/* <div className="indexHomeFourBannerCompany">
-                                <div className="indexHomeFourBannerCompanyItem">中国科学院软件研究所</div>
-                                <div className="indexHomeFourBannerCompanyItem">openEuler 社区</div>
-                                <div className="indexHomeFourBannerCompanyItem">中科院软件研究所南京软件技术研究院</div>
-                                <div className="indexHomeFourBannerCompanyItem">华为技术有限公司</div>
-                            </div> */}
+                           
                             <div className="indexHomeFourBannerMainTile">峰会将围绕现代软件构建模式的关键供应关系网络——开源软件供应链展开深入解读，论道开源最新技术前沿话题</div>
                             <div className="SummitMeetTextTwo" >主办方：中国科学院软件研究所、openEuler社区  |  承办方：中国科学院软件研究所南京软件技术研究院  |  赞助方：华为技术有限公司  |  媒体合作方：开源社、开源中国、SegmentFault 思否、芽木科技</div>
                             <div className="indexHomeFourLabels">
@@ -293,7 +300,7 @@ export default class Index extends React.Component{
                                     })
                                 }
                             </div>
-                            <div className="indexHomeFourText4">2020.11.14 于南京盛大开幕，现火热报名中！ 了解更多></div>
+                            <div className="indexHomeFourText4">2020.11.14-2020.11.15 于南京盛大开幕，线下活动火热报名中！了解更多></div>
                         </div>
                     </div>
                     <div className="indexHomeOneBanner indexHomeOneBannerThree">

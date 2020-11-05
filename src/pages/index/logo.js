@@ -41,7 +41,7 @@ const logolistMap = {
         {
             name:'开放原子开源基金会',
             img:'c_yuanzi.jpg',
-            url:''
+            url:'https://www.openatom.org/#/'
         },
        
     ],
