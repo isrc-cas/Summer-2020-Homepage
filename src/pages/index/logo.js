@@ -38,6 +38,11 @@ const logolistMap = {
             img:'c_xlab.jpg',
             url:'http://xlab.kfcoding.com/'
         },
+        {
+            name:'开放原子开源基金会',
+            img:'c_yuanzi.jpg',
+            url:''
+        },
        
     ],
     opencommunity:[
@@ -66,6 +71,7 @@ const logolistMap = {
             img:'c_yamukeji.jpg',
             url:''
         },
+       
     ],
     technology:[
         {
