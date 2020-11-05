@@ -389,10 +389,30 @@
         
 
         .Announcement{
+            .AnnouncementTab {
+                height: 50px;
+                
+                .AnnouncementTabwrapper{
+                    height: 100%;
+                    font-size: 16px;
+                }
+                .AnnouncementTabItem{
+                    padding:10px 15px;
+                }
+            }
             .AnnouncementBanner{
                 background-position: 20%;
             }
+            .AnnouncementYouxiu{
+                .AnnouncementXiuItemTitleOne::before{
+                    content: "" !important;               
+                }
+                .AnnouncementXiuItemTitleTwo::after{
+                    content: "" !important;           
+                }
+            }
             .AnnouncementContent {
+                
                 .AnnouncementWrapper {
                     .AnnouncementWrapperHeader{
                         font-size: 14px;
@@ -407,6 +427,20 @@
                         }
                         .AWCTableTutor{
                             width: 19%;
+                        }
+                    }
+                }
+                .AnnouncementJudge{
+                    .AnnouncementJudeWrapper{
+                        .AnnouncementJudeOne{
+                            .AnnouncementJudeOneTitle{
+                                font-size: 16px;
+                                margin-bottom: 12px;
+                            }
+                            .AnnouncementJudeOneItem{
+                                font-size: 12px;
+                                line-height: 20px;
+                            }
                         }
                     }
                 }

@@ -79,18 +79,19 @@ export default class Summitmeeting extends React.Component{
                 <div className="indexHomeOneBanner indexHomeOneBannerFour">
                     <div className="indexHomeFourBanner content1200">
                     
-                            <div className="indexHomeFourBannerLogo"></div>
+                            {/* <div className="indexHomeFourBannerLogo"></div> */}
                             <div className="indexHomeFourBannerTitle">
-                                <span className="One">共献·开源</span>
-                                <span className="Two">“开源软件供应链 2020 峰会”</span>
+                                <span className="One">共献·开源  </span>
+                                <span className="Two">开源软件供应链 2020 峰会</span>
                             </div>
-                            <div className="indexHomeFourBannerCompany">
+                            {/* <div className="indexHomeFourBannerCompany">
                                 <div className="indexHomeFourBannerCompanyItem">中国科学院软件研究所</div>
                                 <div className="indexHomeFourBannerCompanyItem">openEuler 社区</div>
                                 <div className="indexHomeFourBannerCompanyItem">中科院软件研究所南京软件技术研究院</div>
                                 <div className="indexHomeFourBannerCompanyItem">华为技术有限公司</div>
-                            </div>
+                            </div> */}
                             <div className="indexHomeFourBannerMainTile">峰会将围绕现代软件构建模式的关键供应关系网络——开源软件供应链展开深入解读，论道开源最新技术前沿话题</div>
+                            <div className="SummitMeetTextTwo" >主办方：中国科学院软件研究所、openEuler社区  |  承办方：中国科学院软件研究所南京软件技术研究院  |  赞助方：华为技术有限公司  |  媒体合作方：开源社、开源中国、SegmentFault 思否、芽木科技</div>
                             <div className="indexHomeFourLabels">
                                 {
                                     this.state.holderlist.bannerfourdata.map((item,index)=>{
@@ -102,7 +103,8 @@ export default class Summitmeeting extends React.Component{
                                     })
                                 }
                             </div>
-                            <div className="SummitMeetTextTwo" >主办方：中国科学院软件研究所、openEuler社区  |  承办方：中国科学院软件研究所南京软件技术研究院  |  赞助方：华为技术有限公司  |  媒体合作方：开源社、开源中国、SegmentFault 思否、芽木科技</div>
+                            
+                           
                         </div>
                     
                    
@@ -321,7 +323,7 @@ export default class Summitmeeting extends React.Component{
                                 <div className="HowitworksTimelineItemIcon"></div>
                                 <div className="HowitworksTimelineItemCons">
                                     <div className="HowitworksTimelineItemLine ">
-                                        <div className="HowitworksTimelineItemLineTitle">11月15日 上午 优秀学生线上分享</div>
+                                        <div className="HowitworksTimelineItemLineTitle">11月15日 上午 优秀学生分享</div>
                                         
                                     </div>
                                    
