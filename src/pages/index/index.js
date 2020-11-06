@@ -222,12 +222,12 @@ export default class Index extends React.Component{
             speed: 500,
             autoplaySpeed: 5000,
           }
-        
+
         return(
            <div className="indexHomeZ">
                <div className="indexHomeOne">
                <Carousel autoplay {...settings}>
-                    
+
                     <div className="indexHomeOneBanner indexHomeOneBannerOne">
                             <div className="indexHomeOneWrapper content1200">
                                 <div className="indexHomeOneTextCons">
@@ -235,7 +235,7 @@ export default class Index extends React.Component{
                                  ISCAS & openEuler Community
                                 </div> */}
                                 {/* <div className="indexHomeOneTextConsEngTwo">
-                                    
+
                                 Open Source Promotion Plan <span className="mobiledisplaynone">-</span><br className="indexHomeOneTextConsEngTwoNone"/> Summer 2020
                                 </div> */}
                                 <div className="indexHomeFourBannerTitle">
@@ -244,16 +244,13 @@ export default class Index extends React.Component{
                                         <span>开源软件供应链 2020 峰会</span>
                                     </span>
                                 </div>
-                               
+
                                 <div className="indexHomeOneTextWrapper">
-                                   
+
                                      我们将在 2020年11月14日-15日 于<span className="blue">南京</span>玄武苏宁诺富特酒店 盛大举行<span className="blue">2020峰会</span>，欢迎报名线下峰会！<br className="mobiledisplaynone"/>
                                      届时我们也会同步在<span className="blue">线上</span>进行直播，敬请关注“2020峰会”页
                                 </div>
-                              
-                               
-                                
-                               
+
                                 <div className="indexHomeOneListenItem fire"  onClick={()=>{this.goLink('summitmeeting')}}>
                                     <span className="indexHomeOneListenItemText">11月14日  开源软件供应链2020峰会 盛大开幕</span>
                                     <span className="indexHomeOneListenItemTextButton">了解更多 </span>
@@ -266,11 +263,7 @@ export default class Index extends React.Component{
                                     <span className="indexHomeOneListenItemText">5月-7月 我们举办了“大咖说开源”讲座活动</span>
                                     <span className="indexHomeOneListenItemTextButton">精彩回放</span>
                                 </div>
-                               
-                                
-                              
                             </div>
-                               
 
                             </div>
                     </div>
