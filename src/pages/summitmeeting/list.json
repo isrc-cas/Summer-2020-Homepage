@@ -239,7 +239,7 @@
                 {
                     "name":"高琨",
                     "img":"1.png",
-                    "community":"",
+                    "community":"华为",
                     "title":"企业如何治理开源",
                     "profile":"华为开源能力中心工程师，华为开源治理5年经验，对企业在使用开源软件安全、合规、风险管控有较深理解。也有帮助其他中国企业建立治理体系的经验。",
                     "desc":""
@@ -255,7 +255,7 @@
                 {
                     "name":"李卓桓",
                     "img":"lizhuoheng.png",
-                    "community":"Wechaty ",
+                    "community":"Wechaty",
                     "title":"Wechaty 的开源之路",
                     "profile":"微软人工智能最具价值专家（AI MVP）。清华大学本科，中欧国际工商学院EMBA，北京邮电大学计算机系博士在读。现任PreAngel合伙人，Plug and Play Venture Partner，关注钟子期AI创业项目。zixia BBS、叽歪网创始人，曾任优酷网首席科学家、水木清华BBS站长，ChinaRen系统工程师。",
                     "desc":""
@@ -271,7 +271,7 @@
                 {
                     "name":"马全一",
                     "img":"1.png",
-                    "community":"",
+                    "community":"openEuler",
                     "title":"开源项目产品化设计和运作",
                     "profile":"openEuler 社区运营总监。",
                     "desc":""
@@ -309,7 +309,7 @@
                 {
                     "name":"吴京京",
                     "img":"wujingjing.png",
-                    "community":"Wechaty ",
+                    "community":"Wechaty",
                     "title":"Multi-Wechaty SDK for Chatbot",
                     "profile":"北京邮电大学深度学习研究生，Chatbot技术爱好者，自然语言处理工程师，python-wechaty作者，同时也是wechaty开源社区的优秀代码贡献者。",
                     "desc":"此次分享的主题是Multi-Wechaty聊天机器人工具，并从以下三个方面展开分享：1.我是如何开始第一个开源项目的，以亲身经历告诉大家开源对大家的重要性。2.聊天机器人发展现状，目前出现的问题，wechaty是什么？以及如何解决这个问题。3.最后通过live coding的环节给大家演示如何通过少量代码开发一款聊天机器人。"
