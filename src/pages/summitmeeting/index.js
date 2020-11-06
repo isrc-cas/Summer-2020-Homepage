@@ -133,7 +133,7 @@ export default class Summitmeeting extends React.Component{
                         <div className="SummitMeetTwoContentTop">
                             <div className="SummitMeetTwoContentRight">
                                 <div className="SummitMeetTwoContentRightOne">开源软件供应链 2020 峰会</div>
-                                <div className="SummitMeetTwoContentRightTwo"> 2020年11月14日-15日 于南京盛大开幕</div>
+                                <div className="SummitMeetTwoContentRightTwo"> 2020年11月14日-15日 于 南京玄武苏宁诺富特酒店 盛大开幕</div>
                                 <div className="SummitButtonZhibo">
                                     <div className="SummitButtonZhiboButton">观看直播 ></div>
                                     <span className="SummitTip">暂未开放，敬请期待！</span>
