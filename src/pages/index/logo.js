@@ -22,6 +22,11 @@ const logolistMap = {
             url:'http://www.cesi.cn/page/basicinfo.jsp?catalog=/001/001-001'
         },
         {
+            name:'开放原子开源基金会',
+            img:'c_yuanzi.jpg',
+            url:'https://www.openatom.org/#/'
+        },
+        {
             img:'logo2.jpg',
             url:'http://www.cambricon.com/'
         },
@@ -38,11 +43,7 @@ const logolistMap = {
             img:'c_xlab.jpg',
             url:'http://xlab.kfcoding.com/'
         },
-        {
-            name:'开放原子开源基金会',
-            img:'c_yuanzi.jpg',
-            url:'https://www.openatom.org/#/'
-        },
+      
        
     ],
     opencommunity:[
