@@ -117,8 +117,46 @@
         width: 100%;
         // height: 940px;
         background-color: #f2f2f2;
-        padding: 60px 0 190px;
+        padding: 0 0 190px;
         box-sizing: border-box;
+        .SummitMeetThreeHeader{
+            position: sticky;
+            top: 0;
+            z-index: 509;
+            background-color: #f2f2f2;
+            width: 100%;
+            height: 85px;
+            border-bottom: 2px solid #cfd3e6;
+            margin-bottom: 35px;
+
+            .SummitMeetThreeHeaderWrapper{
+                position: relative;
+                display: flex;
+                font-size: 24px;
+                font-weight: normal;
+                font-stretch: normal;
+                align-items: flex-end;
+                letter-spacing: 1px;
+                color: #666666;
+                
+            }
+
+            .SummitTabHeaderItem{
+                position: relative;
+                margin-right: 58px;
+                cursor: pointer;
+                padding-bottom: 20px;
+                box-sizing: border-box;
+                bottom: -1px;
+                height: 51px;
+                transition: all 0.3s;
+            }
+
+            .SummitTabHeaderItem.intoview{
+                color: #7040ff;
+                border-bottom: 2px solid #7040ff;;
+            }
+        }
         .SummitMeetThreeContent{
             position: relative;
             width: 1200px;
@@ -182,10 +220,10 @@
                 }
                 .HowitworksTimelineItem{
                     position: relative;
-                    padding-bottom: 100px;
+                    padding-bottom: 46px;
                 }
                 .HowitworksTimelineItem.last::before,
-                .timeline6.HowitworksTimelineItem::before{
+                .timeline8.HowitworksTimelineItem::before{
                     height:0;
                 }
 
@@ -216,23 +254,36 @@
 
                 }
                 .HowitworksTimelineItemCons{
-                    padding-left: 40px;
+                    padding-left: 38px;
                     position: relative;
                 }
 
                 .HowitworksTimelineItemLine{
                     position: relative;
                     display: flex;
-                    align-items: center;
+                    align-items: flex-start;
                 }
                 .HowitworksTimelineItemLineTitle{
                     position: relative;
-                    font-size: 40px;
-                    font-weight: normal;
-                    font-stretch: normal;
-                    line-height: 40px;
+                   
+    
                     
-                    color: #333333;
+                }
+
+                .HowitworksTimelineItemLineTitleBig{
+                    font-size: 30px;
+                    line-height: 30px;
+                    margin-bottom: 18px;
+                    color: #4d4d4d;
+                    margin-top:2px;
+                }
+                .HowitworksTimelineItemLineSmall{
+                    position: relative;
+                    font-size: 24px;
+
+                    color: #4d4d4d;
+                    line-height: 24px;
+                    padding-left: 15px;
                 }
                 .HowitworksTimelineItemLineTime{
                     position: relative;
@@ -242,7 +293,8 @@
                     padding: 10px 28px;
                     /* box-sizing: border-box; */
                     line-height: 20px;
-                    margin-left: 15px;
+                    margin-right: 16px;
+                    color: #7c7c9a;
                 }
             }
             .SummitMeetThreeContentTitle{
@@ -328,16 +380,28 @@
                         top:0;
                         background-color: #fff;
                         z-index: 0;
+                        transition: all 0.3s;
                         // transform: skewX(-7deg);
                         // box-shadow: -5px 6px 11px -5px rgba(0, 0, 0, 0.2);
+                    }
+                    .SummitMeetThreeTableItemTime{
+                        position: absolute;
+                        font-size: 12px;
+                        color: #999999;
+                        padding: 8px;
+                        background-color: #e6e7eb;
+                        z-index: 1;
+                        transition: all 0.1s;
+                        line-height: 12px;
                     }
                     .SummitMeetThreeTableItemContent{
                         position: relative;
                         width: 100%;
                         height: 100%;
                         z-index: 1;
-                        padding: 20px 20px 30px;
+                        padding: 40px 20px 30px;
                         box-sizing: border-box;
+                       
                         .SummitMeetThreeTableItemContenttitle{
                             min-height: 24px;
                             cursor: pointer;
@@ -407,18 +471,108 @@
                 }
                 .SummitMeetThreeTableItem.greyback:hover{
                     cursor: default;
+                   
                     .SummitMeetThreeTableItemBack{
                         background-color: #e4e4ea !important;
                         border:1px solid #dadae0
                     }
                 }
             }
+            .SummitTeyao{
+                position: relative;
+                .SummitTeyaoHeader{
+                    position: relative;
+                    padding-bottom: 15px;
+                    border-bottom: 1px solid #6147b2;
+
+                }
+                .SummitTeyaoHeaderText{
+                    position: relative;
+                    font-size: 30px;
+                    letter-spacing: 1px;
+                    color: #6147b2;
+                    line-height: 30px;
+                    display: inline-block;
+                    padding: 0 44px;
+                }
+                .SummitTeyaoHeaderText::before{
+                    position: absolute;
+                    content:url(./../../img/detail/teyao.png);
+                    width: 30px;
+                    height: 30px;
+                    left: 0;
+                    top:2px;
+                }
+                .SummitTeyaoHeaderText::after{
+                    position: absolute;
+                    content:url(./../../img/detail/teyao.png);
+                    width: 30px;
+                    height: 30px;
+                    right: 0;
+                    top:2px;
+                }
+                .SummitTeyaoContent{
+                    position: relative;
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .SummitTeyaoItem{
+                    position: relative;
+                    width: 50%;
+                    display: inline-flex;
+                    align-items: center;
+
+                    margin-top: 23px;
+                }
+                .SummitTeyaoImg{
+                    position: relative;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    width: 100px;
+                    height: 100px;
+                    margin-right: 24px;
+                }
+                .SummitTeyaoName{
+                    position: relative;
+                    font-size: 22px;
+                    color: #6147b2;
+                    width: 15%;
+                    
+                }
+
+               
+                .SummitTeyaoName::before{
+                    content:"";
+                    width: 8px;
+                    height: 8px;
+                    background-color: #6147b2;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 40%;
+                    left: -13px;
+                }
+                .SummitTeyaoDesc{
+                    position: relative;
+                    font-size: 22px;
+                    color: #666666;
+                    width: 70%;
+                }
+                .SummitTeyaoDescItem{
+                    position: relative;
+                }
+            }
             .SummitMeetThreeTableOne.tech{
                 .SummitMeetThreeTableItem:hover{
+                    
                     .SummitMeetThreeTableItemContenttitle,
                     .SummitMeetThreeTableItemContentName,
                     .SummitMeetThreeTableItemContentcommunity{
                         color:#fff !important
+                    }
+
+                    .SummitMeetThreeTableItemTime{
+                        color:#fff !important;
+                        background-color: #8a8ae6;
                     }
                     .SummitMeetThreeTableItemBack{
                         background-color: #4c4cd9;
@@ -441,6 +595,11 @@
                     .SummitMeetThreeTableItemContentName,
                     .SummitMeetThreeTableItemContentcommunity{
                         color:#fff !important
+                    }
+
+                    .SummitMeetThreeTableItemTime{
+                        background-color: #60b6f1;
+                        color:#fff;
                     }
                     .SummitMeetThreeTableItemBack{
                         background-color: #0087e5;
@@ -549,6 +708,107 @@
                 
             }
            
+        }
+
+        .SummitThree{
+            margin-top:76px;
+            margin-bottom: 38px;
+           .SummitMeetThreeContentTimeline{
+                .HowitworksTimelineItem{
+                    padding-bottom: 0;
+                }
+            }
+
+            .SummitThreeTimeCon{
+                position: relative;
+                display: flex;
+                padding-left: 38px;
+                align-items: center;
+                margin-bottom: 38px;
+            }
+            .SummitThreeTimeConItem{
+                position: relative;
+                display: inline-flex;
+                align-items: center;
+            }
+            .SummitThreeTimeConItemOne{
+                position: relative;
+                font-size: 16px;
+                color: #7c7c9a;
+            }
+            .SummitThreeTimeConItemTwo{
+                position: relative;
+                font-size: 20px;
+                color: #4d4d4d;
+            }
+            .summitSplit{
+                position: relative;
+                display: inline-block;
+                width: 60px;
+                height: 1px;
+                background-color: #999999;
+                margin:0 15px;
+            }
+        }
+
+        .SummitPosition{
+            position: relative;
+            margin-top: 30px;
+            .SummitPositionHeader{
+                font-size: 30px;
+                border-bottom:1px solid  #6147b2;
+                letter-spacing: 1px;
+                color: #6147b2;
+                padding-bottom: 15px;
+                line-height: 30px;
+            }
+            .SummitPositionHeaderText{
+                position: relative;
+                display: inline-block;
+                padding-left: 42px;
+            }
+            .SummitPositionHeader::before{
+                position: absolute;
+                
+                content:url(./../../img/detail/position.png)
+            }
+            .SummitPositionItem{
+                position: relative;
+                margin-top:25px;
+                margin-bottom: 38px;
+            }
+            .SummitPositionItemTitle{
+                font-size: 24px;
+                
+                line-height: 24px;
+                letter-spacing: 1px;
+                color: #4d4d4d;
+                margin-bottom: 18px;
+            }
+
+            .SummitPositionItemDesc{
+                position: relative;
+                padding-left: 26px;
+            }
+            .SummitPositionItemDescItem{
+                position: relative;
+                font-size: 20px;
+                font-weight: normal;
+                font-stretch: normal;
+                line-height: 30px;
+                letter-spacing: 0px;
+                color: #4d4d4d;
+                margin-bottom: 30px;
+            }
+
+            .SummitPositionItemMap{
+                position: relative;
+                width: 83%;
+                height: 586px;
+                border: 1px solid #fff;
+                padding: 0;
+                margin-left: 26px;
+            }
         }
     }
 }
