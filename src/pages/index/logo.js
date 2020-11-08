@@ -572,6 +572,18 @@ var holderlist = {
         {
             img:'huaruijinrong.jpg',
             url:'http://www.archforce.cn'
+        },
+        {
+            img:'jiangsurunhe.jpg',
+            url:''
+        },
+        {
+            img:'kunpeng.jpg',
+            url:''
+        },
+        {
+            img:'nanjingzhongkeqimingxing.jpg',
+            url:''
         },  
     ]
 }
