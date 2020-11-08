@@ -147,7 +147,7 @@ const data = {
     committee:[
         {"university":"中国科学院软件研究所","name":"武延军"},
         {"university":"华为鲲鹏计算","name":"江大勇"},
-        {"university":"中科院计算所","name":"包云岗"},
+        {"university":"中国科学院计算技术研究所","name":"包云岗"},
         {"university":"西安邮电大学","name":"陈莉君"},
         {"university":"清华大学","name":"陈渝"},
         {"university":"清华大学","name":"崔勇"},

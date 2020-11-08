@@ -185,7 +185,7 @@ export default class Summitmeeting extends React.Component{
                             <div className="indexHomeFourBannerMainTile">峰会将围绕现代软件构建模式的关键供应关系网络——开源软件供应链展开深入解读，论道开源最新技术前沿话题</div>
                             <div className="SummitMeetTextTwo" >主办方：中国科学院软件研究所、openEuler社区  |  承办方：中国科学院软件研究所南京软件技术研究院 
                             <br className= "phonenone" />
-                             赞助方：华为技术有限公司  |  协办方：江苏润和软件股份有限公司、江苏鲲鹏•昇藤生态创新中心、南京中科启明星软件有限公司 | 
+                             <span className="phoneshow"> | </span>赞助方：华为技术有限公司  |  协办方：江苏润和软件股份有限公司、江苏鲲鹏•昇腾生态创新中心、南京中科启明星软件有限公司 | 
                             媒体合作方：开源社、开源中国、SegmentFault 思否、芽木科技</div>
                             <div className="indexHomeFourLabels">
                                 {
