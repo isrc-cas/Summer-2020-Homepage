@@ -2357,11 +2357,11 @@
       "slide": "maskbook.pdf",
       "video": "https://www.bilibili.com/video/BV1et4y1y7a2?p=3",
       "img": "maskbook.jpg",
-      "title": "Maskbook",
+      "title": "Mask Network",
       "project_url": "https://github.com/DimensionDev/Maskbook/wiki/Open-Source-Promotion-Plan---Summer-2020",
       "url": "https://maskbook.com",
       "description": "保护互联网用户隐私的浏览器插件。",
-      "full_des": "Maskbook 是一个浏览器插件,我们致力于通过应用密码学的技术来帮助用户能够很简单的、不改变他们日常习惯的方法来保护他们在网络上的隐私。",
+      "full_des": "Mask Network 是一个浏览器插件,我们致力于通过应用密码学的技术来帮助用户能够很简单的、不改变他们日常习惯的方法来保护他们在网络上的隐私。",
       "tech_tag": [
         "TypeScript",
         "React",
