@@ -15,8 +15,9 @@ import './index.less';
 import {holderlist} from '../index/logo.js';
 import './../index/banner4.less';
 import data from './list.json';
-import twocode from './../../img/stats/twocode.png';
-import daoxiangpng from './../../img/stats/baoming.png';
+// import twocode from './../../img/stats/twocode.png';
+// import daoxiangpng from './../../img/stats/baoming.png';
+import pdf from './../../file/summer_3.pdf'
 import {datalist,dataall} from './data.js';
 import { Map, Marker } from 'react-amap';
 
@@ -47,7 +48,11 @@ export default class Summitmeeting extends React.Component{
     }
 
     componentDidMount(){
-        window.addEventListener('scroll', this.scrollHandle, true);
+        
+        if(window.location.hash === "#/summitmeeting"){
+            window.addEventListener('scroll', this.scrollHandle, true);
+        }
+        
     }
     
    
@@ -60,6 +65,9 @@ export default class Summitmeeting extends React.Component{
       if(now - pre >= 100){
           for(var i=0;i<5;i++){
             const elell = document.getElementsByClassName(tablist[i]+"Item")[0]
+            if(!elell){
+                return 0
+            }
             const offset = elell.getBoundingClientRect();
             const offsetTop = offset.top;
             const offsetBottom = offset.bottom;
@@ -198,7 +206,7 @@ export default class Summitmeeting extends React.Component{
                                     })
                                 }
                             </div>
-                            <div className="indexHomeFourText4">2020.11.14-2020.11.15 于南京盛大开幕，线下活动火热报名中！</div>
+                            <div className="indexHomeFourText4">2020.11.14-2020.11.15 于南京盛大开幕，官网全程在线直播！</div>
                            
                         </div>
                     
@@ -209,12 +217,18 @@ export default class Summitmeeting extends React.Component{
                         <div className="SummitMeetTwoContentTop">
                             <div className="SummitMeetTwoContentRight">
                                 <div className="SummitMeetTwoContentRightOne">开源软件供应链 2020 峰会</div>
-                                <div className="SummitMeetTwoContentRightTwo"> 2020年11月14日-15日 于 南京玄武苏宁诺富特酒店 盛大开幕</div>
+                                <div className="SummitMeetTwoContentRightTwo"> 2020年11月14日-15日 于南京盛大开幕</div>
                                 <div className="SummitButtonZhibo">
                                     <div className="SummitButtonZhiboButton">观看直播 ></div>
                                     <span className="SummitTip">暂未开放，敬请期待！</span>
                                 </div>
-                                <div className="SummitMeetTwoContentTwocode phonenone">
+                                <div className="SummitPdf">
+                                    <span className="SummitPdfDown">
+                                        <a class="SummitPdfAD" href={pdf} download="summer2020——会议手册"> 会议手册.pdf</a>
+                                    </span>
+                                    <span className="SummitPdfText">来下载会议手册了解大会详细内容吧！</span>
+                                </div>
+                                {/* <div className="SummitMeetTwoContentTwocode phonenone">
                                     <img className="SummitMeetTwoContentTwocodePng" alt="twocode" src={twocode}></img>
                                     <img className="SummitMeetTwoContentDaoxiang" alt="daoxiangpng" src={daoxiangpng}></img>
                                     <span>手机扫一扫 报名线下参会！</span>
@@ -222,7 +236,7 @@ export default class Summitmeeting extends React.Component{
                                 <div className="SummitMeetTwoContentTwocode phoneshow">
                                     <div className="SummitMeetTwoContentButton" onClick={()=>{this.gourl(this.state.link)}}> 点击报名</div>
                                    
-                                </div>
+                                </div> */}
                             </div>
                             <div className="SummitImage"></div>
 
