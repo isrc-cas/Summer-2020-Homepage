@@ -248,12 +248,12 @@ export default class Index extends React.Component{
 
                                 <div className="indexHomeOneTextWrapper">
 
-                                     我们将在 2020年11月14日-15日 于<span className="blue">南京</span>玄武苏宁诺富特酒店 盛大举行<span className="blue">2020峰会</span>，欢迎报名线下峰会！<br className="mobiledisplaynone"/>
-                                     届时我们也会同步在<span className="blue">线上</span>进行直播，敬请关注“2020峰会”页
+                                     我们将在 2020年11月14日-15日 于<span className="blue">南京</span>玄武苏宁诺富特酒店 盛大举行<span className="blue">2020峰会</span>，线下参会名额已满<br className="mobiledisplaynone"/>
+                                     届时我们会同步在<span className="blue">线上</span>进行全程<span className="blue">直播</span>，敬请关注“2020峰会”页直播链接更新
                                 </div>
 
                                 <div className="indexHomeOneListenItem fire"  onClick={()=>{this.goLink('summitmeeting')}}>
-                                    <span className="indexHomeOneListenItemText">11月14日  开源软件供应链2020峰会 盛大开幕</span>
+                                    <span className="indexHomeOneListenItemText">11月14日-15日  开源软件供应链2020峰会 直播</span>
                                     <span className="indexHomeOneListenItemTextButton">了解更多 </span>
                                 </div>
                                 <div className="indexHomeOneListenItem" onClick={()=>{this.goLink('announcement')}}>
@@ -298,7 +298,7 @@ export default class Index extends React.Component{
                                     })
                                 }
                             </div>
-                            <div className="indexHomeFourText4">2020.11.14-2020.11.15 于南京盛大开幕，线下活动火热报名中！了解更多></div>
+                            <div className="indexHomeFourText4">2020.11.14-2020.11.15 于南京盛大开幕，官网全程在线直播！了解更多></div>
                         </div>
                     </div>
                     <div className="indexHomeOneBanner indexHomeOneBannerThree">
