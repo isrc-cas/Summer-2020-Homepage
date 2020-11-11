@@ -88,11 +88,11 @@
                 },
                 {
                     "time":"16:00 - 16:30",
-                    "name":"张墨飞",
+                    "name":"刘硕然",
                     "community":"京东",
-                    "img":"1.png",
+                    "img":"liushuoran.png",
                     "title":"ChubaoFS 支撑大规模容器平台的云原生分布式存储",
-                    "profile":"京东基础架构部架构师，CNCF 基金会旗下开源项目 ChubaoFS 的核心 maintainer，项目初创成员，同时深度参与 ChubaoFS 整体技术架构设计和研发，ChubaoFS 对象存储模块的主要代码贡献者。",
+                    "profile":"OPPO 互联网云平台分布式文件存储技术架构负责人，有多年 Linux 内核文件系统及分布式存储开发和实践经验。ChubaoFS 初创设计开发成员及 Maintainer 之一。",
                     "desc":"主要分享 ChubaoFS 开源项目的介绍，主要功能，使用环境，周边生态，落地实践，以及应用案例。"
                 },
                 {
