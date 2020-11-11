@@ -17,7 +17,7 @@ import './../index/banner4.less';
 import data from './list.json';
 // import twocode from './../../img/stats/twocode.png';
 // import daoxiangpng from './../../img/stats/baoming.png';
-import pdf from './../../file/summer_3.pdf'
+// import pdf from './../../file/summer_3.pdf'
 import {datalist,dataall} from './data.js';
 import { Map, Marker } from 'react-amap';
 
@@ -224,7 +224,7 @@ export default class Summitmeeting extends React.Component{
                                 </div>
                                 <div className="SummitPdf">
                                     <span className="SummitPdfDown">
-                                        <a class="SummitPdfAD" href={pdf} download="summer2020——会议手册"> 会议手册.pdf</a>
+                                        <a class="SummitPdfAD" href="https://isrc.iscas.ac.cn/summer2020/downloads/summit/summer_7.0.pdf" download="summer2020——会议手册"> 会议手册.pdf</a>
                                     </span>
                                     <span className="SummitPdfText">来下载会议手册了解大会详细内容吧！</span>
                                 </div>
