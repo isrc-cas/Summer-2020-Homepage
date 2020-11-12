@@ -8,10 +8,8 @@
                     "name":"郭寒军",
                     "img":"1.png",
                     "community":"openEuler",
-                    "title":"openEuler 操作系统内核选型",
-
+                    "title":"openEuler 内核选型及演进思考",
                     "profile":"openEuler 社区 Linux 内核 Maintainer，Linux 内核子系统 Maintainer。",
-                   
                     "desc":"",
                     "time":"14:00 - 14:30"
 
@@ -20,7 +18,7 @@
                     "time":"14:30 - 15:00",
                     "name":"魏永明",
                     "img":"weiyongming.png",
-                    "community":" MiniGUI",
+                    "community":"MiniGUI",
                     "title":"合璧操作系统的设计思想",
                     "profile":"MiniGUI/HybridOS开源项目创始人、飞漫软件总经理。",
                     "desc":"HybridOS 的设计思想体现了“服务甚至取悦开发者”这一终极目标。本报告阐述了为实现这一目标而提出的若干创新技术或举措:数据驱动，为开发者提供了低耦合的系统或应用开发模式；低代码开发，降低了开发者的入门门槛；过程开源，为基于开源协作的操作系统开发提供了一个样板；HVML编程语言，为创造完全自主的国产操作系统奠定了基础。本报告还介绍了 HybridOS 的典型应用场景和未来的演进趋势。"
@@ -48,7 +46,7 @@
                     "name":"董金光",
                     "community":"OpenHarmony",
                     "img":"1.png",
-                    "title":"OpenHarmony 技术探索和社区发展",
+                    "title":"HarmonyOS 技术探索和社区规划",
                     "profile":"OpenHarmony 开源社区 PMC。",
                     "desc":""
                 }
@@ -59,7 +57,6 @@
             "chi":"虚拟化&云原生",
             "content":[
                 {
-                    
                     "time":"14:00 - 14:30",
                     "name":"王为",
                     "img":"wangwei.png",
@@ -82,7 +79,7 @@
                     "name":"汝英哲 王孝威",
                     "img":"1.png",
                     "community":"腾讯",
-                    "title":" TKEStack 腾讯云原生开源实践之路",
+                    "title":"企业级云原生-TKEStack 腾讯云原生开源实践之路",
                     "profile":"汝英哲 TKEStack 开源项目负责人; 王孝威 TKEStack 开源项目产品经理。",
                     "desc":""
                 },
@@ -100,7 +97,7 @@
                     "name":"徐飞",
                     "img":"1.png",
                     "community":"openEuler",
-                    "title":"StratoVirt-openEuler 的轻量级虚拟化平台",
+                    "title":"StratoVirt openEuler 开放虚拟化技术",
                     "profile":"openEuler 社区 StratoVirt SIG 主要贡献者。",
                     "desc":""
                 }
@@ -133,7 +130,7 @@
                     "name":"王俊",
                     "img":"1.png",
                     "community":"MindSpore",
-                    "title":"MindSpore 基础架构讲解",
+                    "title":"MindSpore 全场景 AI 计算框架",
                     "profile":"MindSpore 高级工程师。",
                     "desc":""
                 },
@@ -142,7 +139,7 @@
                     "name":"王海良",
                     "img":"wanghailiang.png",
                     "community":"Chatopera",
-                    "title":"开源中文语义理解系统 Clause",
+                    "title":"Clause 开源的语义理解系统",
                     "profile":"Chatopera联合创始人&CEO，开源爱好者，有很多的开源项目，积极贡献给开源社区。主要仓库https://github.com/chatopera、https://gitee.com/chatopera演讲经历:参加COSCON2019 《Clause，开源的中文语义理解系统》、组织并参加2016年5月21日～22日的Nodejs Live、2015年至2017年每月组织一次Nodejs等技术的线下Party等。",
                     "desc":"Chatopera Language Understanding Service，Chatopera 语义理解服务。即Clause，它是帮助企业快速而低成本的获得好用的语义理解服务的系统，让机器更理解人。Clause 是 Chatopera 团队自主研发及使用其他商业友好的开源软件的方式实现的，Clause 为实现企业聊天机器人提供强大的大脑，包括客服、智能问答和自动流程服务。Clause 利用深度学习，自然语言处理和搜索引擎技术，让机器更加理解人。 "
                 },
@@ -175,7 +172,7 @@
                     "name":"罗旦",
                     "img":"1.png",
                     "community":"openLookeng",
-                    "title":"openLooKeng 让大数据更简单",
+                    "title":"开源 openLooKeng 共建大数据繁荣生态",
                     "profile":"openLooKeng 高级开发工程师。",
                     "desc":""
                 },
@@ -193,7 +190,7 @@
                     "name":"陈室余",
                     "img":"chenshiyu.png",
                     "community":"Milvus",
-                    "title":"Milvus 向量搜索引擎简介",
+                    "title":"How to Accelerate Approximate Nearest Neighbor Search (ANNS) for Large Scale Dataset",
                     "profile":"陈室余，Zilliz 数据工程师/Developer Advocate，毕业于西安电子科技大学计算机学系。自加入Zilliz以来，致力于为Milvus开源项目探索解决方案，从Docker部署到应用Milvus在更多AI应用，帮助了许多用户实现应用场景落地。",
                     "desc":"随着技术的发展和人与人之间互动方式的改变，图片、视频、语音、文本等非结构化数据正在快速而持续的增长。智慧城市，短视频，商品个性化推荐，视觉商品搜索等新兴应用领域对非结构化数据分析与搜索提出了更高的要求。为了应对该挑战，人们通过人工智能技术将非结构化数据转换为向量数据，以便进一步的分析与搜索。由于非结构化数据在数字化保存的内容中比重不断增加，远超传统的结构化数据，非结构化数据及其生成的向量数据正面临更为严峻的大数据分析处理挑战。因此，开源向量搜索引擎Milvus项目应运而生。Milvus目前落地的领域包括，机器视觉、自然语言处理、音频搜索、化学分子式分析等。"
                 },
@@ -226,7 +223,7 @@
                     "name":"罗杨",
                     "img":"luoyang.png",
                     "community":"Casbin",
-                    "title":"基于微服务的访问控制实现企业权限安全",
+                    "title":"Casbin：基于微服务的访问控制实现企业权限安全",
                     "profile":"Casbin开源社区创始人、Npcap作者、Nmap开源社区成员，2020年度Google开源贡献奖获得者，北京大学博士，现任微软亚洲研究院研究员。",
                     "desc":"随着微服务技术的发展，Web、App和企业软件的权限管理对数据安全至关重要。Casbin是业界主流的开源访问控制框架，致力于帮助复杂系统解决权限管理的难题。其表达能力强大、执行高效，被Intel、VMware、IBM、腾讯云、SpaceX等多个大型企业部署使用，支持Go、Java、Python、C++、.NET、Rust等9种语言，在GitHub上合计已有10000+ stars。"
                 },
@@ -235,7 +232,7 @@
                     "name":"喻杰",
                     "img":"1.png",
                     "community":"netwarps 星链网科",
-                    "title":"libp2p - rs——一个异步p2p网络基础设施的rust语言实现",
+                    "title":"libp2p-rs 一个开源 libp2p 的 rust 实现",
                     "profile":"",
                     "desc":""
                 },
@@ -244,7 +241,7 @@
                     "name":"王璞",
                     "img":"1.png",
                     "community":"DatenLord",
-                    "title":"Rust 实现 FUSE 用户态文件系统",
+                    "title":"DatenLord：下一代软件定义存储",
                     "profile":"美国 George Mason 大学计算机博士，DatenLord 项目发起人，前数人云创始人。",
                     "desc":"近年来，存储硬件的性能大幅度提升，高端 NVMe 固态硬盘的访问速度已经比传统机械硬盘的速度提升了几千倍甚至几万倍，但是 Linux 内核提供的文件系统对于硬盘的访问方式很多年来没有本质变化，使得存储硬件的高性能很难发挥出来。本议题介绍我们采用 Rust 实现的 FUSE 用户态文件系统，主要采用如下策略来提高数据访问性能:首先，在用户态实现自行调度 IO 任务，避免内核在调度 IO 任务时进行上下文切换，从而把上下文切换时间节省下来用于执行更多 IO 任务；其次，采用用户态分级缓存策略，尽可能把数据缓存在内存，并且采用无锁数据结构避免锁等待以保证性能；此外，Rust 语言的一些特性，很大程度提升了开发效率，保证了内存安全，进而增强了系统的稳定性。"
                 },
@@ -267,13 +264,11 @@
             "content":[
 
                 {
-
                     "time":"14:00 - 14:30",
-
                     "name":"庄表伟",
                     "img":"zhuangbiaowei.png",
                     "community":"开源社",
-                    "title":"开源治理与数字化转型",
+                    "title":"软件供应链与软件生产流水线",
                     "profile":"开源社理事长。",
                     "desc":""
                 },
