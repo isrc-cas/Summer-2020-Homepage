@@ -39,7 +39,7 @@ export default class Summitmeeting extends React.Component{
         title:["操作系统","虚拟化&云原生","人工智能","大数据","分布式系统"],
         showflag:"",
         showdata:{},
-        link:"https://maka.im/pcdanyeviewer/13229884/HAUZ4967W13229884",
+        link:"https://wx.vzan.com/live/tvchat-425619793",
         datalist,
         tabflag:"",
         
@@ -219,8 +219,8 @@ export default class Summitmeeting extends React.Component{
                                 <div className="SummitMeetTwoContentRightOne">开源软件供应链 2020 峰会</div>
                                 <div className="SummitMeetTwoContentRightTwo"> 2020年11月14日-15日 于南京盛大开幕</div>
                                 <div className="SummitButtonZhibo">
-                                    <div className="SummitButtonZhiboButton">观看直播 ></div>
-                                    <span className="SummitTip">暂未开放，敬请期待！</span>
+                                    <div className="SummitButtonZhiboButton" onClick={()=>{this.gourl(this.state.link)}}>观看直播 ></div>
+                                    {/* <span className="SummitTip">暂未开放，敬请期待！</span> */}
                                 </div>
                                 <div className="SummitPdf">
                                     <span className="SummitPdfDown">
