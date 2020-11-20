@@ -228,6 +228,18 @@ export default class Summitmeeting extends React.Component{
                                     </span>
                                     <span className="SummitPdfText">来下载会议手册了解大会详细内容吧！</span>
                                 </div>
+                                <div className="SummitPngDown">
+                                    <div className="SummitPngDownload">
+                                        <div id="SummitPngIcon"></div>
+                                        <div className="SummitPngPanText">会议图片下载:</div>
+                                        <a className="SummitPngPan" href="https://pan.baidu.com/s/1bV1Erxdcdk1Dx-9FO_oFsQ">https://pan.baidu.com/s/1bV1Erxdcdk1Dx-9FO_oFsQ</a>
+                                    </div>
+                                    <div className="SummitPngDownload">
+                                        <div className="SummitPngPanText Text2">提取码:</div>
+                                        <div className="SummitPngPanNumber">kwoj</div>
+                                    </div>
+
+                                </div>
                                 {/* <div className="SummitMeetTwoContentTwocode phonenone">
                                     <img className="SummitMeetTwoContentTwocodePng" alt="twocode" src={twocode}></img>
                                     <img className="SummitMeetTwoContentDaoxiang" alt="daoxiangpng" src={daoxiangpng}></img>
