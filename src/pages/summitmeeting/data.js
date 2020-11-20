@@ -62,7 +62,6 @@ var dataall = {
             {
                 name:"会议开幕",
                 time:"09:00-09:10",
-                
             },
             {
                 name:"嘉宾致辞：中国科学院软件研究所所长 赵琛",
@@ -75,22 +74,26 @@ var dataall = {
             {
                 name:"主题演讲：开源软件供应链的研究和实践",
                 time:"09:30-10:00",
-                title:"演讲嘉宾：中国科学院软件研究所 武延军"
+                title:"演讲嘉宾：中国科学院软件研究所 武延军",
+                ppt: "morning/wuyanjun.pdf"
             },
             {
                 name:"活动演讲：暑期2020 总结及优秀学生颁奖",
                 time:"10:00-10:20",
                 title:"演讲嘉宾：暑期2020 活动组委会 屈晟",
+                ppt: "morning/qusheng.pdf"
             },
             {
                 name:"特邀演讲：处理器芯片发展新趋势 - 开源芯片",
                 time:"10:20-10:50",
                 title:"演讲嘉宾：中国科学院计算技术研究所 包云岗",
+                ppt: "morning/baoyungang.pdf"
             },
             {
                 name:"特邀演讲：开放包容、和而不同",
                 time:"10:50-11:10",
                 title:"演讲嘉宾：开放原子开源基金会 杜玉杰",
+                ppt: "morning/duyujie.pdf"
             },
             {
                 name:"圆桌论坛：开源的新时代与新愿景",
@@ -100,7 +103,6 @@ var dataall = {
             {
                 name:"科研成果开源倡议",
                 time:"11:50-12:00",
-                
             },
         ]
     },
