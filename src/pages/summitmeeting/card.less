@@ -1,0 +1,389 @@
+.SummitMeetThreeTableOne.tech{
+    .SummitMeetThreeTableItem:hover{
+        
+        .SummitMeetThreeTableItemContenttitle,
+        .SummitMeetThreeTableItemContentName,
+        .SummitMeetThreeTableItemContentcommunity{
+            color:#fff !important
+        }
+
+        .SummitMeetThreeTableItemTime{
+            color:#fff !important;
+            background-color: #8a8ae6;
+        }
+        .SummitMeetThreeTableItemBack{
+            background-color: #4c4cd9;
+        }
+    }
+}
+
+.SummitMeetThreeTableContentWrapper{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.SummitMeetThreeTableOneTile{
+    color: #5858ff;
+    font-size: 20px;
+    width: 175px;
+    height: 45px;
+   margin-bottom: 37px;
+    text-align: center;
+    position: relative;
+   
+   
+    .SummitMeetThreeTableOneTileText{
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 2;
+        line-height: 45px;
+    }
+    .SummitMeetThreeTableOneTileText.backimg{
+        // transform: skewX(-10deg);
+        background-color: #d9d9ff;
+        
+        z-index: 1;
+    }
+    
+}
+
+.SummitMeetThreeTableContentTitle{
+    font-size: 24px;              
+    color: #5858ff;
+    position: relative;
+    margin-bottom: 12px;
+    
+    span{
+        position: relative;
+        display: inline-block;
+        padding-left: 40px;
+    }
+}
+.SummitMeetThreeTableOne.opensource{
+    .SummitMeetThreeTableContentTitle{
+        color: #0086e6;
+    }
+//    margin-top:60px;
+    .SummitMeetThreeTableOneTileText{
+        color: #0086e4;
+    }
+    .SummitMeetThreeTableOneTileText.backimg{
+        background-color: #c6e8ff;
+    }
+    .SummitMeetThreeTableItem:hover{
+        .SummitMeetThreeTableItemContenttitle,
+        .SummitMeetThreeTableItemContentName,
+        .SummitMeetThreeTableItemContentcommunity{
+            color:#fff !important
+        }
+
+        .SummitMeetThreeTableItemTime{
+            background-color: #60b6f1;
+            color:#fff;
+        }
+        .SummitMeetThreeTableItemBack{
+            background-color: #0087e5;
+        }
+    }
+
+}
+
+.SummitMeetThreeTableContentTitle.os_complier::before{
+    content: url(./../../img/stats/system.png);
+    position: absolute;
+    bottom: -4px;
+}
+.SummitMeetThreeTableContentTitle.clouds::before{
+    content: url(./../../img/stats/yun.png);
+    position: absolute;
+    bottom: -4px;
+}
+.SummitMeetThreeTableContentTitle.ai::before{
+    content: url(./../../img/stats/ai.png);
+    position: absolute;
+    bottom: -4px;
+}
+.SummitMeetThreeTableContentTitle.bigdata::before{
+    content: url(./../../img/stats/bigdata.png);
+    position: absolute;
+    bottom: -4px;
+}
+.SummitMeetThreeTableContentTitle.distributed_systems::before{
+    content: url(./../../img/stats/distributedsystem.png);
+    position: absolute;
+    bottom: -4px;
+}
+.SummitMeetThreeTableContentTitle.culture_business::before{
+    content: url(./../../img/stats/culture.png);
+    position: absolute;
+    bottom: -7px;
+}
+.SummitMeetThreeTableContentTitle.education::before{
+    content: url(./../../img/stats/education.png);
+    position: absolute;
+    bottom: -7px;
+}
+
+
+.SummitMeetThreeTableItem{
+    position: relative;
+    width: 100%;
+    height: 220px;
+    margin-left: 2px;
+    cursor: pointer;
+    transition: all 0.3s;
+    .SummitMeetThreeTableItemBack{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left:0;
+        top:0;
+        background-color: #fff;
+        z-index: 0;
+        transition: all 0.3s;
+        // transform: skewX(-7deg);
+        // box-shadow: -5px 6px 11px -5px rgba(0, 0, 0, 0.2);
+    }
+    .SummitMeetThreeTableItemTime{
+        position: absolute;
+        font-size: 12px;
+        color: #999999;
+        padding: 8px;
+        background-color: #e6e7eb;
+        z-index: 1;
+        transition: all 0.1s;
+        line-height: 12px;
+    }
+    .SummitMeetThreeTableItemContent{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        padding: 34px 20px 30px;
+        box-sizing: border-box;
+       
+        .SummitMeetThreeTableItemContenttitle{
+            min-height: 24px;
+            cursor: pointer;
+            font-family: PingFang-SC-Bold;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            line-height: 22px;
+            letter-spacing: 0px;
+            color: #333333;
+            font-weight: bold;
+
+        }
+        .SummitContentBottom{
+            position: absolute;
+            bottom: 16px;
+            font-size: 16px;
+           
+            color: #666666;
+        }
+
+      
+        
+        .SummitMeetThreeTableItemContentImage{
+            width: 50px;
+            height: 50px;
+            background-size: contain;
+           background-repeat: no-repeat;
+           background-position: center;
+           position: relative;
+           margin:50px auto 25px;
+        }
+        .backimg0{
+            background-image: url(./../../img/detail/0.png);
+        }
+        .backimg1{
+            background-image: url(./../../img/detail/1.png);
+        }
+        .backimg2{
+            background-image: url(./../../img/detail/2.png);
+        }
+        .backimg3{
+            background-image: url(./../../img/detail/3.png);
+        }
+        .backimg4{
+            background-image: url(./../../img/detail/4.png);
+        }
+        .backimg5{
+            background-image: url(./../../img/detail/5.png);
+        }
+
+
+        .SummitMeetThreeTableItemContentText{
+
+        }
+    }
+}
+.SummitMeetThreeTableItem.greyback{
+    font-size: 30px;
+    color:#999;
+    text-align: center;
+    padding-top: 9%;
+    .SummitMeetThreeTableItemBack{
+        background-color: #e4e4ea;
+        border:1px solid #dadae0
+    }
+}
+.SummitMeetThreeTableItem.greyback:hover{
+    cursor: default;
+   
+    .SummitMeetThreeTableItemBack{
+        background-color: #e4e4ea !important;
+        border:1px solid #dadae0
+    }
+}
+
+.CardItem{
+   
+    width: 236px;
+    height: auto;
+    position: initial;
+}
+
+.CardModal{
+    width: 100%;
+    height: auto;
+}
+
+.CardModal.show{
+    height: 300px;
+    .SummitMeetThreeTableModal{
+        max-height: 1000px;
+    }
+}
+
+.SummitMeetThreeTableModal{
+                
+    width: 1200px;
+    height: auto;
+    left:0;
+    
+    margin-top: 10px;
+    max-height: 0;
+    overflow: hidden;
+    // transition: all 0.3s;
+    position: absolute;
+    .SummitMeetThreeTableModalWrapper{
+        width: 100%;
+        background-color: #fff;
+        border: solid 1px #4c4cd9;
+        height: auto;
+        font-size: 16px;
+        line-height: 20px;
+        .SummitMeetThreeTableModalHeader{
+            position: relative;
+            display: flex;
+            padding: 12px 8px 12px;
+            border-bottom: 1px solid #dcdce1;
+            
+        }
+
+        .SummitModalButtonPPT{
+            display: inline-block;
+            width: 138px;
+            height: 36px;
+            border-radius: 4px;
+            border: solid 1px #5959ff;
+            font-size: 18px;
+            font-weight: normal;
+            font-stretch: normal;
+            line-height: 32px;
+            letter-spacing: 0px;
+            color: #5959ff;
+            padding-left: 20px;
+            cursor: pointer;
+            position: relative;
+            float: right;
+          
+        }
+
+        .SummitModalButtonPPT::after{
+            background-image:url("./../../img/index/down.png");
+            content: "";
+            background-position: center;
+            width: 18px;
+            height: 18px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            margin-left: 10px;
+            top: 7px;
+           
+        }
+       
+        .SummitMeetThreeTableModalHeaderIcon{
+            position: relative;
+            width: 8.7%;
+            height: 100px;
+            display: inline-block;
+
+            margin-right: 20px;
+           
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .SummitMeetThreeTableModalHeaderText{
+            font-size: 16px;
+            display: inline-block;
+            width: 89%;
+            
+            
+        }
+        .SummitMeetThreeTableModalName{
+            color: #333333;
+            margin-bottom: 18px;
+            span{
+                display: inline-block;
+                margin-top:10px;
+                padding-right: 3px;
+            }
+            
+           
+        }
+        .SummitMeetThreeTableuTitle{
+            padding-top: 24px;
+            font-weight: bold;
+            color: #4c4cd9;
+            padding-left: 20px;
+            margin-bottom: 30px;
+        }
+       
+        .SummitMeetThreeTableModalDesc{
+           
+            color: #666666;
+            position: relative;
+            padding: 0 20px 30px;
+            margin-top:-15px;
+            
+        }
+    }
+}
+.CardClose{
+    display: inline-block;
+    float: right;
+    /* position: absolute; */
+    right: -7px;
+    top: -6px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    font-size: 35px;
+    color: #666a80;
+    position: relative;
+}
+.CardClose::after{
+    content: "\00D7";
+   
+    
+}
