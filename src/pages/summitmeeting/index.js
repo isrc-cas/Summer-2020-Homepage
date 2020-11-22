@@ -15,12 +15,10 @@ import './index.less';
 import {holderlist} from '../index/logo.js';
 import './../index/banner4.less';
 import data from './list.json';
-// import twocode from './../../img/stats/twocode.png';
-// import daoxiangpng from './../../img/stats/baoming.png';
-// import pdf from './../../file/summer_3.pdf'
 import {datalist,dataall} from './data.js';
 import { Map, Marker } from 'react-amap';
-
+import Card from './card'
+import Timeline from './timeline';
 
 
 // eslint-disable-next-line
@@ -123,22 +121,7 @@ export default class Summitmeeting extends React.Component{
         
     }
 
-    getBack(len){
-        if(len<5){
-            var divcon = []
-            for(var i=0;i<6-len;i++){
-                divcon.push(
-                <div className="SummitMeetThreeTableItem greyback" key={"_"+i} >
-                    <div className="SummitMeetThreeTableItemContent">...</div>
-                    <div className="SummitMeetThreeTableItemBack"></div>
-                </div>
 
-                )
-            }
-            return divcon
-        }
-        
-    }
 
     getTabFlag(tabflag){
        setTimeout(()=>{
@@ -153,6 +136,15 @@ export default class Summitmeeting extends React.Component{
             left: 0,
             // behavior: 'smooth'
         });
+    }
+
+    onRef = (ref) => {
+        this.child = ref
+    }
+
+    closeModal(){
+        // console.log("click")
+        this.child.CardClick();
     }
    
     
@@ -224,7 +216,7 @@ export default class Summitmeeting extends React.Component{
                                 </div>
                                 <div className="SummitPdf">
                                     <span className="SummitPdfDown">
-                                        <a class="SummitPdfAD" href="https://isrc.iscas.ac.cn/summer2020/downloads/summit/summer_7.0.pdf" download="summer2020——会议手册"> 会议手册.pdf</a>
+                                        <a className="SummitPdfAD" href="https://isrc.iscas.ac.cn/summer2020/downloads/summit/summer_7.0.pdf" download="summer2020——会议手册"> 会议手册.pdf</a>
                                     </span>
                                     <span className="SummitPdfText">来下载会议手册了解大会详细内容吧！</span>
                                 </div>
@@ -240,15 +232,7 @@ export default class Summitmeeting extends React.Component{
                                     </div>
 
                                 </div>
-                                {/* <div className="SummitMeetTwoContentTwocode phonenone">
-                                    <img className="SummitMeetTwoContentTwocodePng" alt="twocode" src={twocode}></img>
-                                    <img className="SummitMeetTwoContentDaoxiang" alt="daoxiangpng" src={daoxiangpng}></img>
-                                    <span>手机扫一扫 报名线下参会！</span>
-                                </div>
-                                <div className="SummitMeetTwoContentTwocode phoneshow">
-                                    <div className="SummitMeetTwoContentButton" onClick={()=>{this.gourl(this.state.link)}}> 点击报名</div>
-                                   
-                                </div> */}
+                               
                             </div>
                             <div className="SummitImage"></div>
 
@@ -260,7 +244,7 @@ export default class Summitmeeting extends React.Component{
                             </div>
                     </div>
                 </div>
-                <div className="SummitMeetThree">
+                <div className="SummitMeetThree" onClick={()=>{this.closeModal()}} >
                    <div className="SummitMeetThreeHeader">
                     <div className="content1200 SummitMeetThreeHeaderWrapper">
                             {
@@ -277,32 +261,8 @@ export default class Summitmeeting extends React.Component{
 
                         </div>
                    </div>
-                    <div className="SummitMeetThreeContent">
-                        <div className="SummitMeetThreeContentTimeline SanchorOneItem">
-                            {
-                                this.state.dataall.SanchorOne.content.map((item,index)=>{
-                                    return (
-                                        <div className={["HowitworksTimelineItem","timeline"+index].join(" ")} key={index}>
-                                            <div className="HowitworksTimelineItemIcon"></div>
-                                            <div className="HowitworksTimelineItemCons">
-                                                <div className="HowitworksTimelineItemLine">
-                                                    <div className="HowitworksTimelineItemLineTime">{item.time}</div>
-                                                    <div className="HowitworksTimelineItemLineTitle">
-                                                        <div className="HowitworksTimelineItemLineTitleBig">{item.name}</div>
-                                                        {item.title?<div className="HowitworksTimelineItemLineSmall">- {item.title}</div>:""}
-                                                    </div>
-                                                    
-                                                </div>
-                                               
-                                               
-                                            </div>
-
-                                        </div>
-                                    )
-                                })
-                            }
-
-                        </div>
+                    <div className="SummitMeetThreeContent" >
+                        <Timeline/>
 
                         <div className="SummitTeyao SanchorTwoItem">
                             <div className="SummitTeyaoHeader">
@@ -336,7 +296,7 @@ export default class Summitmeeting extends React.Component{
 
                         </div>
                         
-                        <div  className="SummitMeetThreeContent SummitThree SanchorThreeItem">
+                        <div  className="SummitMeetThreeContent SummitThree SanchorThreeItem" >
                             <div className="SummitMeetThreeContentTimeline ">
                                 <div className="HowitworksTimelineItem timeline8"  >
                                     <div className="HowitworksTimelineItemIcon"></div>
@@ -361,174 +321,8 @@ export default class Summitmeeting extends React.Component{
                                     &nbsp;&nbsp;<span className="SummitThreeTimeConItemTwo">问答及讨论</span>
                                 </div>
                             </div>
-                            <div className="SummitMeetThreeTableOne tech">
-                            
-                            <div className="SummitMeetThreeTableOneTile">
-                                <span className="SummitMeetThreeTableOneTileText">技术专题论坛</span>
-                                <span className="SummitMeetThreeTableOneTileText backimg"></span>
-                            </div>
-                            {
-                                this.state.data["tech"].map((ele,index)=>{
-                                    return (
-                                        <div className="SummitMeetThreeTableContent" key={index}>
-                                            <div  className={["SummitMeetThreeTableContentTitle",ele.name].join(" ")}><span>{ele.chi}</span></div>
-                                            <div className="SummitMeetThreeTableContentWrapper">
-                                                {
-                                                    ele.content.map((item,indexl)=>{
-                                                        return (
-                                                            <div className="SummitMeetThreeTableItem" key={index+"_"+indexl} 
-                                                            onMouseEnter={(e)=>{this.toggleHover('tech',index,indexl)}}
-                                                            onMouseLeave={(e)=>{this.toggleleave(e)}}
-                                                            >
-                                                                <div className="SummitMeetThreeTableItemTime">{item.time}</div>
-                                                                <div className="SummitMeetThreeTableItemContent">
-                                                                   
-                                                                    <div className="SummitMeetThreeTableItemContenttitle" title={item.title}>{item.title}</div>
-                                                                    <div className="SummitContentBottom">
-                                                                        <div className="SummitMeetThreeTableItemContentName">{item.name}</div>
-                                                                        <div className="SummitMeetThreeTableItemContentcommunity">{item.community}</div>
+                            <Card onRef={this.onRef}/>
 
-                                                                    </div>
-                                                                    
-                                                                </div>
-                                                                <div className="SummitMeetThreeTableItemBack"></div>
-                                                            </div>
-                                                        )
-                                                    })
-                                                }
-                                                {
-                                                    this.getBack(ele.content.length)
-                                                }
-
-                                            </div>
-                                            <div className={["SummitMeetThreeTableModal", this.state.showflag === ele.name?"show":""].join(" ")}>
-                                               {
-                                                   this.state.showdata.name ?
-                                                   <div className="SummitMeetThreeTableModalWrapper">
-                                                       <div className="SummitMeetThreeTableModalHeader">
-                                                           <div 
-                                                            className="SummitMeetThreeTableModalHeaderIcon" 
-                                                            style={{backgroundImage: "url(" + require("./../../img/iconT/"+this.state.showdata.img) + ")"}}></div>
-                                                           <div className="SummitMeetThreeTableModalHeaderText">
-                                                            <div className="SummitMeetThreeTableModalName">
-                                                                <span>{this.state.showdata.name}</span>
-                                                                {
-                                                                    this.state.showdata.community? <span> | {this.state.showdata.community}</span>:""
-                                                                }
-                                                            </div>
-                                                           
-
-                                                            {
-                                                                this.state.showdata.profile?<div className="SummitMeetThreeTableModalProfile">{this.state.showdata.profile}</div>:""
-                                                            }
-
-                                                           </div>
-                                                       </div>
-                                                        
-                                                       <div className="SummitMeetThreeTableuTitle">{this.state.showdata.title}</div>
-                                                        
-                                                        {
-                                                            this.state.showdata.desc?<div className="SummitMeetThreeTableModalDesc">议题背景: {this.state.showdata.desc}</div>:""
-                                                        }
-                                                        
-                                                        
-                                                    </div>:""
-                                               }
-                                
-                                            </div>
-                                            
-                                        </div>
-                                    )
-                                })
-                            }
-                            
-
-                        </div>
-                        <div className="SummitMeetThreeTableOne two">
-                            <div className="SummitMeetThreeTableOneTile ">
-                                <span className="SummitMeetThreeTableOneTileText">开源专题论坛</span>
-                                <span className="SummitMeetThreeTableOneTileText backimg"></span>
-                            </div>
-                            {
-                                this.state.data["opensource"].map((ele,index)=>{
-                                    return (
-                                        <div className="SummitMeetThreeTableContent" key={index}>
-                                            <div  className={["SummitMeetThreeTableContentTitle",ele.name].join(" ")}><span>{ele.chi}</span></div>
-                                            <div className="SummitMeetThreeTableContentWrapper">
-                                                {
-                                                    ele.content.map((item,indexl)=>{
-                                                        return (
-                                                            <div 
-                                                            onMouseEnter={(e)=>{this.toggleHover('opensource',index,indexl)}}
-                                                            onMouseLeave={()=>{this.toggleleave()}}
-                                                            className="SummitMeetThreeTableItem" key={index+"_"+indexl}>
-                                                                 <div className="SummitMeetThreeTableItemTime">{item.time}</div>
-                                                                <div className="SummitMeetThreeTableItemContent">
-                                                                    {/* <div   
-                                                                        className={["SummitMeetThreeTableItemContentImage","backimg"+index].join(" ")}>
-                                                                            
-                                                                        
-                                                                    </div> */}
-                                                                    <div className="SummitMeetThreeTableItemContenttitle" title={item.title}>{item.title}</div>
-                                                                    <div className="SummitContentBottom">
-                                                                        <div className="SummitMeetThreeTableItemContentName">{item.name}</div>
-                                                                        <div className="SummitMeetThreeTableItemContentcommunity">{item.community}</div>
-
-                                                                    </div>
-                                                                    
-                                                                </div>
-                                                                <div className="SummitMeetThreeTableItemBack"></div>
-                                                            </div>
-                                                        )
-                                                    })
-                                                }
-                                                {
-                                                    this.getBack(ele.content.length)
-                                                }
-
-                                            </div>
-                                            <div className={["SummitMeetThreeTableModal", this.state.showflag === ele.name?"show":""].join(" ")}>
-                                                {
-                                                    this.state.showdata.name ?
-                                                    <div className="SummitMeetThreeTableModalWrapper">
-                                                        <div className="SummitMeetThreeTableModalHeader">
-                                                           <div 
-                                                            className="SummitMeetThreeTableModalHeaderIcon" 
-                                                            style={{backgroundImage: "url(" + require("./../../img/iconT/"+this.state.showdata.img) + ")"}}></div>
-                                                           <div className="SummitMeetThreeTableModalHeaderText">
-                                                            <div className="SummitMeetThreeTableModalName">
-                                                                <span>{this.state.showdata.name}</span>
-                                                                {
-                                                                    this.state.showdata.community? <span> | {this.state.showdata.community}</span>:""
-                                                                }
-                                                            </div>
-                                                           
-
-                                                            {
-                                                                this.state.showdata.profile?<div className="SummitMeetThreeTableModalProfile">{this.state.showdata.profile}</div>:""
-                                                            }
-
-                                                           </div>
-                                                       </div>
-                                                        
-                                                       <div className="SummitMeetThreeTableuTitle">{this.state.showdata.title}</div>
-                                                        
-                                                        {
-                                                            this.state.showdata.desc?<div className="SummitMeetThreeTableModalDesc">议题背景: {this.state.showdata.desc}</div>:""
-                                                        }
-                                                        
-                                                        
-                                                    </div>:""
-                                                }
-                                                
-                                
-                                            </div>
-                                            
-                                        </div>
-                                    )
-                                })
-                            }
-                        </div>
                         </div>
 
 
