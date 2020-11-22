@@ -18,7 +18,7 @@ import data from './list.json';
 import {datalist,dataall} from './data.js';
 import { Map, Marker } from 'react-amap';
 import Card from './card'
-
+import Timeline from './timeline';
 
 
 // eslint-disable-next-line
@@ -262,31 +262,7 @@ export default class Summitmeeting extends React.Component{
                         </div>
                    </div>
                     <div className="SummitMeetThreeContent" >
-                        <div className="SummitMeetThreeContentTimeline SanchorOneItem">
-                            {
-                                this.state.dataall.SanchorOne.content.map((item,index)=>{
-                                    return (
-                                        <div className={["HowitworksTimelineItem","timeline"+index].join(" ")} key={index}>
-                                            <div className="HowitworksTimelineItemIcon"></div>
-                                            <div className="HowitworksTimelineItemCons">
-                                                <div className="HowitworksTimelineItemLine">
-                                                    <div className="HowitworksTimelineItemLineTime">{item.time}</div>
-                                                    <div className="HowitworksTimelineItemLineTitle">
-                                                        <div className="HowitworksTimelineItemLineTitleBig">{item.name}</div>
-                                                        {item.title?<div className="HowitworksTimelineItemLineSmall">- {item.title}</div>:""}
-                                                    </div>
-                                                    
-                                                </div>
-                                               
-                                               
-                                            </div>
-
-                                        </div>
-                                    )
-                                })
-                            }
-
-                        </div>
+                        <Timeline/>
 
                         <div className="SummitTeyao SanchorTwoItem">
                             <div className="SummitTeyaoHeader">
