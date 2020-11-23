@@ -176,7 +176,7 @@ export default class Card extends React.Component{
                                                                         {
                                                                             item.desc?<div className="SummitMeetThreeTableModalDesc">议题背景: {item.desc}</div>:""
                                                                         }
-                                                                        
+                                                                
                                                                         
                                                                     </div>:""
                                                             }
