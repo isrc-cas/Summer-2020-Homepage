@@ -252,8 +252,8 @@ export default class Index extends React.Component{
                                      届时我们会同步在<span className="blue">线上</span>进行全程<span className="blue">直播</span>，敬请关注“2020峰会”页直播链接更新
                                 </div>
 
-                                <div className="indexHomeOneListenItem fire"  onClick={()=>{this.goLink('summitmeeting')}}>
-                                    <span className="indexHomeOneListenItemText">11月14日-15日  开源软件供应链2020峰会 直播</span>
+                                <div className="indexHomeOneListenItem fire"  onClick={()=>{this.goLogoLink('https://wx.vzan.com/live/tvchat-425619793#/')}}>
+                                    <span className="indexHomeOneListenItemText">11月14日-15日  开源软件供应链2020峰会 录播</span>
                                     <span className="indexHomeOneListenItemTextButton">了解更多 </span>
                                 </div>
                                 <div className="indexHomeOneListenItem" onClick={()=>{this.goLink('announcement')}}>

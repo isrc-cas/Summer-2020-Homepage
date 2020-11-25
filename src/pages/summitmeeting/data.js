@@ -56,6 +56,8 @@ var datalist = [
 ]
 var  SanchorOne = {
     "name":"11月14日上午",
+    "videourl":"", // 观看回放url
+    "downurl":"", // 下载视频url
     "content":[
         {
             name:"会议开幕",
