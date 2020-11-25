@@ -17,8 +17,9 @@ import './../index/banner4.less';
 import data from './list.json';
 import {datalist,dataall} from './data.js';
 import { Map, Marker } from 'react-amap';
-import Card from './card'
-import Timeline from './timeline';
+import Card from './card.js'
+import Timeline from './timeline.js';
+import Ptable from './ptable.js';
 
 
 // eslint-disable-next-line
@@ -182,7 +183,7 @@ export default class Summitmeeting extends React.Component{
                                 <div className="indexHomeFourBannerCompanyItem">中科院软件研究所南京软件技术研究院</div>
                                 <div className="indexHomeFourBannerCompanyItem">华为技术有限公司</div>
                             </div> */}
-                            <div className="indexHomeFourBannerMainTile">峰会将围绕现代软件构建模式的关键供应关系网络——开源软件供应链展开深入解读，论道开源最新技术前沿话题</div>
+                            <div className="indexHomeFourBannerMainTile">峰会围绕现代软件构建模式的关键供应关系网络——开源软件供应链展开深入解读，论道开源最新技术前沿话题</div>
                             <div className="SummitMeetTextTwo" >主办方：中国科学院软件研究所、openEuler社区  |  承办方：中国科学院软件研究所南京软件技术研究院 
                             <br className= "phonenone" />
                              <span className="phoneshow"> | </span>赞助方：华为技术有限公司  |  协办方：江苏润和软件股份有限公司、江苏鲲鹏•昇腾生态创新中心、南京中科启明星软件有限公司 | 
@@ -236,8 +237,7 @@ export default class Summitmeeting extends React.Component{
                             </div>
                             <div className="SummitImage"></div>
 
-                        </div>
-                            
+                        </div>                           
                             <div className="SummitMeetTwoContentMiddle">
                                 <span>峰会将围绕现代软件构建模式的关键供应关系网络 — 开源软件供应链展开深入解读，</span><br/>
                                 <span>邀请全国各大高校及研究机构老师代表、企业技术专家、开源社区大咖等齐聚南京，共同论道开源最新技术前沿话题及发展趋势</span>
@@ -262,53 +262,13 @@ export default class Summitmeeting extends React.Component{
                         </div>
                    </div>
                     <div className="SummitMeetThreeContent" >
-                        <Timeline/>
-
-                        <div className="SummitTeyao SanchorTwoItem">
-                            <div className="SummitTeyaoHeader">
-                                <div className="SummitTeyaoHeaderText">特邀嘉宾</div>
-                            </div>
-                            <div className="SummitTeyaoContent">
-                                {
-                                    this.state.dataall.SanchorTwo.content.map((item,index)=>{
-                                        return (
-                                            <div className="SummitTeyaoItem" key={index}>
-                                                <div 
-                                                    style={{backgroundImage: "url(" + require("./../../img/detail/"+item.img) + ")"}}
-                                                    className="SummitTeyaoImg"></div>
-                                                <div className="SummitTeyaoName">
-                                                    <span className="SummitTeyaoNameSpan">{item.name}</span>
-                                                </div>
-                                                <div className="SummitTeyaoDesc">
-                                                    {
-                                                        item.desc.map((sitem,sindex)=>{
-                                                            return (
-                                                            <div className="SummitTeyaoDescItem" key={sindex}>{sitem}</div>
-                                                            )
-                                                        })
-                                                    }
-                                                </div>
-                                            </div>
-                                        )
-                                    })
-                                }
-                            </div>
-
+                        <div className="SummitMeetThreeContentTimeline SanchorOneItem">
+                        <Timeline SanchorOne = {this.state.dataall.SanchorOne}/>
                         </div>
-                        
-                        <div  className="SummitMeetThreeContent SummitThree SanchorThreeItem" >
+                        <Ptable  SanchorTwo={this.state.dataall.SanchorTwo}/>                      
+                        <div  className="SummitMeetThreeContent SanchorThreeItem" >
                             <div className="SummitMeetThreeContentTimeline ">
-                                <div className="HowitworksTimelineItem timeline8"  >
-                                    <div className="HowitworksTimelineItemIcon"></div>
-                                    <div className="HowitworksTimelineItemCons">
-                                        <div className="HowitworksTimelineItemLine">
-                                            <div className="HowitworksTimelineItemLineTime">14:00-17:30</div>
-                                            <div className="HowitworksTimelineItemLineTitle">
-                                                <div className="HowitworksTimelineItemLineTitleBig">7大开源专题论坛</div>                                              
-                                            </div>                                          
-                                        </div>                                                                        
-                                    </div>
-                                </div>
+                                <Timeline SanchorOne = {this.state.dataall.SanchorThree} />
                             </div>
                             <div className="SummitThreeTimeCon">
                                 <div className="SummitThreeTimeConItem">
@@ -321,27 +281,26 @@ export default class Summitmeeting extends React.Component{
                                     &nbsp;&nbsp;<span className="SummitThreeTimeConItemTwo">问答及讨论</span>
                                 </div>
                             </div>
+                            <div className="SummitThreeButtonSplit">
+                                <span>*以上为会议14日上午部分</span>
+                                <div className="SummitHeaderButton">
+                                    <a className="SummitVideoButton" href="#">观看回放</a>
+                                    <a className="SummitDownButton" href="#">下载录播</a>                                   
+                                </div>  
+
+                            </div>
                             <Card onRef={this.onRef}/>
 
                         </div>
-
-
-
                         <div  className="SummitMeetThreeContent SummitFour SanchorFourItem">
                             <div className="SummitMeetThreeContentTimeline ">
-                                <div className="HowitworksTimelineItem timeline8"  >
-                                    <div className="HowitworksTimelineItemIcon"></div>
-                                    <div className="HowitworksTimelineItemCons">
-                                        <div className="HowitworksTimelineItemLine">
-                                            <div className="HowitworksTimelineItemLineTime">09:00-12:00</div>
-                                            <div className="HowitworksTimelineItemLineTitle">
-                                                <div className="HowitworksTimelineItemLineTitleBig">11月15日 暑期2020活动优秀学生报告</div>                                              
-                                            </div>                                          
-                                        </div>                                                                        
-                                    </div>
-                                </div>
-                            </div>
-                        
+                                <Timeline SanchorOne = {this.state.dataall.SanchorFour} />
+                               
+                            </div>  
+                            <div className="SummitHeaderButton">
+                                    <a className="SummitVideoButton" href="#">观看回放</a>
+                                    <a className="SummitDownButton" href="#">下载录播</a>                                   
+                            </div>                   
                         </div>
 
                         <div className="SummitPosition SanchorFiveItem">

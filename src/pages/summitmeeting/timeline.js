@@ -12,13 +12,13 @@
 
 import React from 'react'
 import './timeline.less';
-import {SanchorOne} from './data.js';
+
 
 export default class Timeline extends React.Component{
     constructor(props){
        super(props)
        this.state ={
-        SanchorOne,
+    
        }
     }
 
@@ -29,11 +29,11 @@ export default class Timeline extends React.Component{
        
         return(         
           
-        <div className="SummitMeetThreeContentTimeline SanchorOneItem">
+            <>
             {
-                this.state.SanchorOne.content.map((item,index)=>{
+                this.props.SanchorOne.content.map((item,index)=>{
                     return (
-                        <div className={["HowitworksTimelineItem","timeline"+index].join(" ")} key={index}>
+                        <div className={["HowitworksTimelineItem", this.props.timelineflag].join(" ")} key={index}>
                             <div className="HowitworksTimelineItemIcon"></div>
                             <div className="HowitworksTimelineItemCons">
                                 <div className="HowitworksTimelineItemLine">
@@ -62,7 +62,7 @@ export default class Timeline extends React.Component{
                 })
             }
 
-        </div>
+        </>
 
    
          )
