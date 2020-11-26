@@ -335,6 +335,8 @@
                     }
                 }
             }
+            .SummitDownButton,
+            .SummitVideoButton,
             .SummitModalButtonPPT{
                 width: 110px;
                  height: 32px;
@@ -342,6 +344,8 @@
                  line-height: 30px;
                  padding-left: 13px;
             }
+            .SummitDownButton::after,
+            .SummitVideoButton::after,
             .SummitModalButtonPPT::after{
                 width: 15px;
                 height: 15px;
@@ -545,18 +549,19 @@
             }
             
         }
+        .SummitThreeTimeCon{
+            flex-direction: column;
+            margin-bottom: 30px;
+            align-items: initial;
+            padding-left: 20px;
+            .summitSplit{
+                display: none;
+            }
+        }
         .SummitMeetThree{
             .SummitThree{
                 margin-top:30px !important;
-                .SummitThreeTimeCon{
-                    flex-direction: column;
-                    margin-bottom: 30px;
-                    align-items: initial;
-                    padding-left: 20px;
-                    .summitSplit{
-                        display: none;
-                    }
-                }
+               
                 .SummitMeetThreeContentTimeline {
                     .HowitworksTimelineItem{
                         padding-bottom: 0 !important;
@@ -713,6 +718,11 @@
                     .SummitMeetThreeTableContentTitle{
                         font-size: 16px!important;
                         margin-top: 20px;
+                        flex-direction: column;
+                    }
+                    .SMTTableContentTitle::before{
+                        width: 23px;
+                        height: 23px;
                     }
                     
                     .SummitMeetThreeTableItem.greyback{
@@ -725,7 +735,8 @@
                     position: relative;
                     flex-direction: column;
                 }
-
+                .SummitDownButton,
+                .SummitVideoButton,
                 .SummitModalButtonPPT{
                     width: 88px;
                     height: 32px;
@@ -734,7 +745,8 @@
                     padding-left: 6px;
                 
                 }
-
+                .SummitDownButton::after,
+                .SummitVideoButton::after,
                 .SummitModalButtonPPT::after{
                     width: 15px;
                     height: 15px;   

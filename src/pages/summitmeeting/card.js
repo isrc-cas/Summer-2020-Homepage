@@ -118,7 +118,18 @@ export default class Card extends React.Component{
                             this.state.data[item].map((ele,index)=>{
                                 return (
                                     <div className="SummitMeetThreeTableContent" key={index}>
-                                        <div  className={["SummitMeetThreeTableContentTitle",ele.name].join(" ")}><span>{ele.chi}</span></div>
+                                        <div  className={["SummitMeetThreeTableContentTitle",ele.name].join(" ")}>
+                                            <span className="SMTTableContentTitle">
+                                                <span>{ele.chi}</span>
+                                            </span>
+                                            <div className="SummitHeaderButton">
+                                                {
+                                                    ele.videourl?<a className="SummitVideoButton" href={ele.videourl}>观看回放</a>:""
+                                                }
+                                                {/* <a className="SummitDownButton" href="#">下载录播</a> */}
+                                                
+                                            </div>
+                                        </div>
                                         <div className="SummitMeetThreeTableContentWrapper">
                                             {
                                                 ele.content.map((item,indexl)=>{
@@ -154,12 +165,7 @@ export default class Card extends React.Component{
                                                                                     item.community? <span> | {item.community}</span>:""
                                                                                 }
                                                                                 <div className="CardClose" onClick={()=>{this.closeModal()}}></div>
-                                                                                {
-                                                                                    item.ppt?
-                                                                                
-                                                                                    <a className="SummitModalButtonPPT" href={"https://isrc.iscas.ac.cn/summer2020/downloads/summit/"+item.ppt}>下载PPT</a>
-                                                                                    : ""
-                                                                                }
+                                                                              
                                                                                 
                                                                             </div>
                                                                         
@@ -171,7 +177,15 @@ export default class Card extends React.Component{
                                                                         </div>
                                                                     </div>
                                                                         
-                                                                    <div className="SummitMeetThreeTableuTitle">{item.title}</div>
+                                                                    <div className="SummitMeetThreeTableuTitle">
+                                                                        <span>{item.title}</span>
+                                                                        {
+                                                                            item.ppt?
+                                                                        
+                                                                            <a className="SummitModalButtonPPT" href={"https://isrc.iscas.ac.cn/summer2020/downloads/summit/"+item.ppt}>下载PPT</a>
+                                                                            : ""
+                                                                        }
+                                                                    </div>
                                                                         
                                                                         {
                                                                             item.desc?<div className="SummitMeetThreeTableModalDesc">议题背景: {item.desc}</div>:""

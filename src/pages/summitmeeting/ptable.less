@@ -1,0 +1,83 @@
+.SummitTeyao{
+    position: relative;
+    .SummitTeyaoHeader{
+        position: relative;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #6147b2;
+
+    }
+    .SummitTeyaoHeaderText{
+        position: relative;
+        font-size: 30px;
+        letter-spacing: 1px;
+        color: #6147b2;
+        line-height: 30px;
+        display: inline-block;
+        padding: 0 44px;
+    }
+    .SummitTeyaoHeaderText::before{
+        position: absolute;
+        content:url(./../../img/detail/teyao.png);
+        width: 30px;
+        height: 30px;
+        left: 0;
+        top:2px;
+    }
+    .SummitTeyaoHeaderText::after{
+        position: absolute;
+        content:url(./../../img/detail/teyao.png);
+        width: 30px;
+        height: 30px;
+        right: 0;
+        top:2px;
+    }
+    .SummitTeyaoContent{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .SummitTeyaoItem{
+        position: relative;
+        width: 50%;
+        display: inline-flex;
+        align-items: center;
+
+        margin-top: 23px;
+    }
+    .SummitTeyaoImg{
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100px;
+        height: 100px;
+        margin-right: 24px;
+    }
+    .SummitTeyaoName{
+        position: relative;
+        font-size: 22px;
+        color: #6147b2;
+        width: 15%;
+        
+    }
+
+   
+    .SummitTeyaoName::before{
+        content:"";
+        width: 8px;
+        height: 8px;
+        background-color: #6147b2;
+        border-radius: 50%;
+        position: absolute;
+        top: 40%;
+        left: -13px;
+    }
+    .SummitTeyaoDesc{
+        position: relative;
+        font-size: 22px;
+        color: #666666;
+        width: 70%;
+    }
+    .SummitTeyaoDescItem{
+        position: relative;
+    }
+}

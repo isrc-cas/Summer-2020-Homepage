@@ -58,12 +58,9 @@
     color: #5858ff;
     position: relative;
     margin-bottom: 12px;
-    
-    span{
-        position: relative;
-        display: inline-block;
-        padding-left: 40px;
-    }
+    display: flex;
+    justify-content: space-between;
+   
 }
 .SummitMeetThreeTableOne.opensource{
     .SummitMeetThreeTableContentTitle{
@@ -94,40 +91,52 @@
 
 }
 
-.SummitMeetThreeTableContentTitle.os_complier::before{
-    content: url(./../../img/stats/system.png);
-    position: absolute;
-    bottom: -4px;
+.SMTTableContentTitle{
+    display: flex;
 }
-.SummitMeetThreeTableContentTitle.clouds::before{
-    content: url(./../../img/stats/yun.png);
-    position: absolute;
-    bottom: -4px;
+
+.SMTTableContentTitle::before{
+   position: relative;
+    content:"";
+    width: 33px;
+    height: 33px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: bottom;
+    margin-right: 6px;
 }
-.SummitMeetThreeTableContentTitle.ai::before{
-    content: url(./../../img/stats/ai.png);
-    position: absolute;
-    bottom: -4px;
+
+
+
+
+.SummitMeetThreeTableContentTitle.os_complier>.SMTTableContentTitle::before{
+    background-image: url(./../../img/stats/system.png);
+   
 }
-.SummitMeetThreeTableContentTitle.bigdata::before{
-    content: url(./../../img/stats/bigdata.png);
-    position: absolute;
-    bottom: -4px;
+.SummitMeetThreeTableContentTitle.clouds>.SMTTableContentTitle::before{
+    background-image: url(./../../img/stats/yun.png);
+ 
 }
-.SummitMeetThreeTableContentTitle.distributed_systems::before{
-    content: url(./../../img/stats/distributedsystem.png);
-    position: absolute;
-    bottom: -4px;
+.SummitMeetThreeTableContentTitle.ai>.SMTTableContentTitle::before{
+    background-image: url(./../../img/stats/ai.png);
+   
 }
-.SummitMeetThreeTableContentTitle.culture_business::before{
-    content: url(./../../img/stats/culture.png);
-    position: absolute;
-    bottom: -7px;
+.SummitMeetThreeTableContentTitle.bigdata>.SMTTableContentTitle::before{
+    background-image: url(./../../img/stats/bigdata.png);
+   
 }
-.SummitMeetThreeTableContentTitle.education::before{
-    content: url(./../../img/stats/education.png);
-    position: absolute;
-    bottom: -7px;
+.SummitMeetThreeTableContentTitle.distributed_systems>.SMTTableContentTitle::before{
+    background-image: url(./../../img/stats/distributedsystem.png);
+   
+}
+.SummitMeetThreeTableContentTitle.culture_business>.SMTTableContentTitle::before{
+    background-image: url(./../../img/stats/culture.png);
+   
+}
+.SummitMeetThreeTableContentTitle.education>.SMTTableContentTitle::before{
+    background-image: url(./../../img/stats/education.png);
+  
 }
 
 
@@ -165,7 +174,7 @@
         width: 100%;
         height: 100%;
         z-index: 1;
-        padding: 34px 20px 30px;
+        padding: 34px 12px 30px;
         box-sizing: border-box;
        
         .SummitMeetThreeTableItemContenttitle{
@@ -321,18 +330,22 @@
            
         }
         .SummitMeetThreeTableuTitle{
-            padding-top: 24px;
+           
             font-weight: bold;
             color: #4c4cd9;
-            padding-left: 20px;
+            padding: 20px 15px 2px 14px;
             margin-bottom: 30px;
+            .SummitModalButtonPPT{
+                right: 0;
+                bottom: 8px;
+            }
         }
        
         .SummitMeetThreeTableModalDesc{
            
             color: #666666;
             position: relative;
-            padding: 0 20px 30px;
+            padding: 0 14px 30px;
             margin-top:-15px;
             
         }
@@ -393,3 +406,4 @@
     top: 7px;
    
 }
+

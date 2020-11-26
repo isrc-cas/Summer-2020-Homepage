@@ -107,80 +107,82 @@ var  SanchorOne = {
     ]
 }
 
+var  SanchorTwo = {
+    "name":"特邀嘉宾",
+    "content":[
+        {
+            name:"赵琛",
+            img:"zhaochen.png",
+            desc:[
+                "中国科学院软件研究所 所长"
+            ]
+        },
+        {
+            name:"堵俊平",
+            img:"dujun.png",
+            desc:[
+                "华为 云与计算开源业务 总经理"
+            ]
+        },
+        {
+            name:"江大勇",
+            img:"jiangdayong.png",
+            desc:[
+                "openEuler社区理事会理事长"
+            ]
+        },
+        {
+            name:"刘明",
+            img:"liuming.png",
+            desc:[
+                "鹏城实验室人工智能中心",
+                "AI开源办公室主任"
+            ]
+        },
+        {
+            name:"包云岗",
+            img:"bao.png",
+            desc:[
+                "中国科学院计算技术研究所 所长助理"
+            ]
+        },
+        {
+            name:"陈渝",
+            img:"chenyu.png",
+            desc:[
+                "清华大学计算机系",
+                "长聘副教授，博导"
+            ]
+        },
+        {
+            name:"杜玉杰",
+            img:"duyu.png",
+            desc:["开放原子开源基金会 秘书长"]
+        },
+        {
+            name:"马越",
+            img:"mayue.png",
+            desc:["恒拓开源 董事长，开源中国CEO"]
+        },
+        {
+            name:"魏永明",
+            img:"weiyongming.png",
+            desc:[
+                "MiniGUI/HybridOS/HVML ",
+                "开源项目创始人，飞漫软件 总经理"
+            ]
+        },
+        {
+            name:"武延军",
+            img:"wuyanjun.png",
+            desc:["中国科学院软件研究所 副总工程师"]
+        },
+    ]
+}
+
 var dataall = {
     SanchorOne,
-    "SanchorTwo":{
-        "name":"特邀嘉宾",
-        "content":[
-            {
-                name:"赵琛",
-                img:"zhaochen.png",
-                desc:[
-                    "中国科学院软件研究所 所长"
-                ]
-            },
-            {
-                name:"堵俊平",
-                img:"dujun.png",
-                desc:[
-                    "华为 云与计算开源业务 总经理"
-                ]
-            },
-            {
-                name:"江大勇",
-                img:"jiangdayong.png",
-                desc:[
-                    "openEuler社区理事会理事长"
-                ]
-            },
-            {
-                name:"刘明",
-                img:"liuming.png",
-                desc:[
-                    "鹏城实验室人工智能中心",
-                    "AI开源办公室主任"
-                ]
-            },
-            {
-                name:"包云岗",
-                img:"bao.png",
-                desc:[
-                    "中国科学院计算技术研究所 所长助理"
-                ]
-            },
-            {
-                name:"陈渝",
-                img:"chenyu.png",
-                desc:[
-                    "清华大学计算机系",
-                    "长聘副教授，博导"
-                ]
-            },
-            {
-                name:"杜玉杰",
-                img:"duyu.png",
-                desc:["开放原子开源基金会 秘书长"]
-            },
-            {
-                name:"马越",
-                img:"mayue.png",
-                desc:["恒拓开源 董事长，开源中国CEO"]
-            },
-            {
-                name:"魏永明",
-                img:"weiyongming.png",
-                desc:[
-                    "MiniGUI/HybridOS/HVML ",
-                    "开源项目创始人，飞漫软件 总经理"
-                ]
-            },
-            {
-                name:"武延军",
-                img:"wuyanjun.png",
-                desc:["中国科学院软件研究所 副总工程师"]
-            },
-        ]
-    },
+    SanchorTwo,
     "SanchorThree":{
         "name":"11月14日下午（开源专题论坛）",
         "content":[
@@ -191,7 +193,13 @@ var dataall = {
         ]
     },
     "SanchorFour":{
-        "name":"11月15日"
+        "name":"11月15日",
+        "content":[
+            {
+                name:"11月15日 暑期2020活动优秀学生报告",
+                time:"09:00-12:00",
+            }
+        ]
     },
     "SanchorFive":{
         "name":"会议位置指引",
@@ -230,6 +238,7 @@ var dataall = {
 export {
     datalist,
     dataall,
-    SanchorOne
+    SanchorOne,
+    SanchorTwo,
 
 }
