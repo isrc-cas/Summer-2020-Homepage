@@ -284,8 +284,8 @@ export default class Summitmeeting extends React.Component{
                             <div className="SummitThreeButtonSplit">
                                 <span>*以上为会议14日上午部分</span>
                                 <div className="SummitHeaderButton">
-                                    <a className="SummitVideoButton" href="#">观看回放</a>
-                                    <a className="SummitDownButton" href="#">下载录播</a>                                   
+                                    <a className="SummitVideoButton" href="https://www.bilibili.com/video/BV1yi4y1V7rd">观看回放</a>
+                                    {/* <a className="SummitDownButton" href="#">下载录播</a>                                    */}
                                 </div>  
 
                             </div>
@@ -298,8 +298,8 @@ export default class Summitmeeting extends React.Component{
                                
                             </div>  
                             <div className="SummitHeaderButton">
-                                    <a className="SummitVideoButton" href="#">观看回放</a>
-                                    <a className="SummitDownButton" href="#">下载录播</a>                                   
+                                    <a className="SummitVideoButton" href="https://www.bilibili.com/video/BV1ky4y1q7n2">观看回放</a>
+                                    {/* <a className="SummitDownButton" href="#">下载录播</a>                                    */}
                             </div>                   
                         </div>
 
