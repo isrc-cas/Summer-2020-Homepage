@@ -239,8 +239,8 @@ export default class Summitmeeting extends React.Component{
 
                         </div>                           
                             <div className="SummitMeetTwoContentMiddle">
-                                <span>峰会将围绕现代软件构建模式的关键供应关系网络 — 开源软件供应链展开深入解读，</span><br/>
-                                <span>邀请全国各大高校及研究机构老师代表、企业技术专家、开源社区大咖等齐聚南京，共同论道开源最新技术前沿话题及发展趋势</span>
+                                <span>峰会围绕现代软件构建模式的关键供应关系网络 — 开源软件供应链展开深入解读，</span><br/>
+                                <span>邀请了全国各大高校及研究机构老师代表、企业技术专家、开源社区大咖等齐聚南京，共同论道开源最新技术前沿话题及发展趋势</span>
                             </div>
                     </div>
                 </div>
@@ -285,7 +285,11 @@ export default class Summitmeeting extends React.Component{
                                 <span>*以上为会议14日上午部分</span>
                                 <div className="SummitHeaderButton">
                                     <a className="SummitVideoButton" href="https://www.bilibili.com/video/BV1yi4y1V7rd">观看回放</a>
-                                    {/* <a className="SummitDownButton" href="#">下载录播</a>                                    */}
+                                    <a className="SummitDownButton" href="https://pan.baidu.com/s/1NN12QoreSO50ZiL6x5QH0Q">下载录播</a>  
+                                    <span className="SummitDownNumber">
+                                        <div className="SummitDownNumberOne">提取码：</div>  
+                                        <div className="SummitDownNumberTwo">a3j7</div>  
+                                    </span>                                 
                                 </div>  
 
                             </div>
@@ -299,7 +303,12 @@ export default class Summitmeeting extends React.Component{
                             </div>  
                             <div className="SummitHeaderButton">
                                     <a className="SummitVideoButton" href="https://www.bilibili.com/video/BV1ky4y1q7n2">观看回放</a>
-                                    {/* <a className="SummitDownButton" href="#">下载录播</a>                                    */}
+                                    <a className="SummitDownButton" href="https://pan.baidu.com/s/1FUgwL7PSNlXuurflrSKYTw ">下载录播</a> 
+                                    <span className="SummitDownNumber">
+                                        <div className="SummitDownNumberOne">提取码：</div>  
+                                        <div className="SummitDownNumberTwo">vi92</div>  
+                                    </span> 
+                                                                     
                             </div>                   
                         </div>
 

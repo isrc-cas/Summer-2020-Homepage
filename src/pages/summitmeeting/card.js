@@ -126,7 +126,20 @@ export default class Card extends React.Component{
                                                 {
                                                     ele.videourl?<a className="SummitVideoButton" href={ele.videourl}>观看回放</a>:""
                                                 }
-                                                {/* <a className="SummitDownButton" href="#">下载录播</a> */}
+                                                {
+                                                    ele.downurl?
+                                                    <>
+                                                    <a className="SummitDownButton" href={ele.downurl}>下载录播</a>
+                                                    <span className="SummitDownNumber">
+                                                        <div className="SummitDownNumberOne">提取码：</div>  
+                                                        <div className="SummitDownNumberTwo">{ele.downnumber}</div>  
+                                                    </span> 
+                                                    
+                                                    </>
+                                                     
+                                                     
+                                                     :""
+                                                }
                                                 
                                             </div>
                                         </div>
