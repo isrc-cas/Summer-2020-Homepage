@@ -232,24 +232,24 @@ export default class Index extends React.Component{
                     <div className="indexHomeOneBanner indexHomeOneBannerOne">
                             <div className="indexHomeOneWrapper content1200">
                                 <div className="indexHomeOneTextCons">
-                                {/* <div className="indexHomeOneTextConsEngOne">
+                                <div className="indexHomeOneTextConsEngOne">
                                  ISCAS & openEuler Community
-                                </div> */}
-                                {/* <div className="indexHomeOneTextConsEngTwo">
+                                </div>
+                                <div className="indexHomeOneTextConsEngTwo">
 
                                 Open Source Promotion Plan <span className="mobiledisplaynone">-</span><br className="indexHomeOneTextConsEngTwoNone"/> Summer 2020
-                                </div> */}
-                                <div className="indexHomeFourBannerTitle">
+                                </div>
+                                {/* <div className="indexHomeFourBannerTitle">
                                     <span className="One">共献·开源  </span>
                                     <span className="Two">
                                         <span>开源软件供应链 2020 峰会</span>
                                     </span>
-                                </div>
+                                </div> */}
 
                                 <div className="indexHomeOneTextWrapper">
 
-                                     我们将在 2020年11月14日-15日 于<span className="blue">南京</span>玄武苏宁诺富特酒店 盛大举行<span className="blue">2020峰会</span>，线下参会名额已满<br className="mobiledisplaynone"/>
-                                     届时我们会同步在<span className="blue">线上</span>进行全程<span className="blue">直播</span>，敬请关注“2020峰会”页直播链接更新
+                                     我们在 2020年11月14日-15日 于南京玄武苏宁诺富特酒店 盛大举行<span className="blue">2020峰会</span>，<br className="mobiledisplaynone"/>
+                                     我们会在官网上线全程<span className="blue">录播</span>，敬请关注“2020峰会”页录播回放链接！
                                 </div>
 
                                 <div className="indexHomeOneListenItem fire"  onClick={()=>{this.goLogoLink('https://wx.vzan.com/live/tvchat-425619793#/')}}>
