@@ -85,7 +85,7 @@ export default class Card extends React.Component{
             
             let $CardModal = document.getElementsByClassName(selectindex)[0];
             let getheight = $CardModal.getElementsByClassName("SummitMeetThreeTableModalWrapper")[0].clientHeight;
-            $CardModal.getElementsByClassName("CardModal")[0].style.height =`${getheight+20}px`;
+            $CardModal.getElementsByClassName("CardModal")[0].style.height =`${getheight+50}px`;
             console.log(getheight)
             this.setState({
                 clickIndex:selectindex
@@ -131,7 +131,7 @@ export default class Card extends React.Component{
                                                     <>
                                                     <a className="SummitDownButton" href={ele.downurl}>下载录播</a>
                                                     <span className="SummitDownNumber">
-                                                        <div className="SummitDownNumberOne">提取码：</div>  
+                                                        <div className="SummitDownNumberOne">提取码:</div>  
                                                         <div className="SummitDownNumberTwo">{ele.downnumber}</div>  
                                                     </span> 
                                                     
@@ -192,12 +192,28 @@ export default class Card extends React.Component{
                                                                         
                                                                     <div className="SummitMeetThreeTableuTitle">
                                                                         <span>{item.title}</span>
+                                                                        <div className="SummitHeaderButton">
                                                                         {
                                                                             item.ppt?
                                                                         
                                                                             <a className="SummitModalButtonPPT" href={"https://isrc.iscas.ac.cn/summer2020/downloads/summit/"+item.ppt}>下载PPT</a>
                                                                             : ""
                                                                         }
+                                                                        {
+                                                                            ele.downurl?
+                                                                            <>
+                                                                            <a className="SummitDownButton" href={ele.downurl}>下载录播</a>
+                                                                            <span className="SummitDownNumber">
+                                                                                <div className="SummitDownNumberOne">提取码:</div>  
+                                                                                <div className="SummitDownNumberTwo">{ele.downnumber}</div>  
+                                                                            </span> 
+                                                                            
+                                                                            </>
+                                                                            
+                                                                            
+                                                                            :""
+                                                                        }
+                                                                        </div>
                                                                     </div>
                                                                         
                                                                         {

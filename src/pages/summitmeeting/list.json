@@ -359,6 +359,9 @@
     {
       "name": "education",
       "chi": "开源&教育",
+      "videourl":"https://www.bilibili.com/video/BV1oK4y1j7WH/",
+      "downurl":"https://pan.baidu.com/s/1vWI-SsP80Y3i-_MFYM_JZA",
+      "downnumber":"q43f",
       "content": [
         {
           "time": "14:00 - 14:30",
@@ -368,7 +371,9 @@
           "title": "开源与开启“潜能按钮”",
           "profile": "陈莉君:  西安邮电大学教授，教育部高等学校计算机类专业教学指导委员会委员，陕西省教学名师，中国开源联盟专家组成员。20多年来致力于推动Linux在中国的发展，深入研究Linux内核相关理论以及技术，跟踪Linux内核发展动向，针对Linux内核版本的不断演化，连续编写和翻译了十多部相关专著、译著及教材，两次获得中国开源联盟授予的“开源杰出贡献奖”。",
           "desc": "",
-          "ppt": "education/chenlijun.pdf"
+          "ppt": "education/chenlijun.pdf",
+          "downurl":"https://pan.baidu.com/s/14p_mJ__1BzJVEYajK3TE8g",
+          "downnumber":"e5g0"
         },
         {
           "time": "14:30 - 15:00",
@@ -378,7 +383,9 @@
           "title": "在高校中推广开源操作系统的相关思考",
           "profile": "陈渝 国防科学技术大学本硕博毕业，清华大学计算机系长聘副教授，博导，MIT访问学者，CCF系统软件专委常务委员。主要研究方向是操作系统。先后负责和参与了二十多余项国内外课题的开发，包括国家自然科学基金项目、863项目、核高基项目、国际合作和横向课题等，获得国家科技进步二等奖，省部级一等奖多次。发表高水平学术论文50余篇，担任国内外有影响力学术会议的主席和程序委员会委员等。承担清华大学计算机系的操作系统、编译原理、高级操作系统等课程的教学工作。",
           "desc": "",
-          "ppt": "education/chenyu.pdf"
+          "ppt": "education/chenyu.pdf",
+          "downurl":"https://pan.baidu.com/s/1mLHipnKu2O3ZeNaZa-SDTg",
+          "downnumber":"t63n"
         },
         {
           "time": "15:00 - 15:30",
@@ -388,7 +395,9 @@
           "title": "大学生如何参与开源项目",
           "profile": "易观大数据平台技术专家，负责大数据基础组件的研发工作，多年大数据开发及平台建设经验. Apache DolphinScheduler(Incubator) PPMC、Apache Local Community Beijing Member。",
           "desc": "今年暑期通过参与开源软件供应链点亮计划，看到了大学生对于开源的热情以及优秀的开发能力和协作能力， 我将以Apache DolphinScheduler社区为例，分享一些大学生如何更快的融入到开源社区的一些经验:社区交流技巧、代码提交经验。 也会谈一下如何选择适合自己的开源社区做贡献，如何跟着社区的成长而成长，如何通过开源贡献提升自己的能力、名誉，为即将步入职场的自己带上一张闪亮的名片！",
-          "ppt": "education/ligang.pdf"
+          "ppt": "education/ligang.pdf",
+          "downurl":"https://pan.baidu.com/s/1Om_DPKHYxG0qI3f61dak4Q",
+          "downnumber":"005n"
         },
         {
           "time": "16:00 - 16:30",
@@ -398,7 +407,9 @@
           "title": "Multi-Wechaty SDK for Chatbot",
           "profile": "北京邮电大学深度学习研究生，Chatbot技术爱好者，自然语言处理工程师，python-wechaty作者，同时也是wechaty开源社区的优秀代码贡献者。",
           "desc": "此次分享的主题是Multi-Wechaty聊天机器人工具，并从以下三个方面展开分享：1.我是如何开始第一个开源项目的，以亲身经历告诉大家开源对大家的重要性。2.聊天机器人发展现状，目前出现的问题，wechaty是什么？以及如何解决这个问题。3.最后通过live coding的环节给大家演示如何通过少量代码开发一款聊天机器人。",
-          "ppt": "education/wujingjing.pdf"
+          "ppt": "education/wujingjing.pdf",
+          "downurl":"https://pan.baidu.com/s/1PCkg7KfviGf0NR_RF6x7Dw",
+          "downnumber":"53m6"
         },
         {
           "time": "16:30 - 17:00",
@@ -408,7 +419,9 @@
           "title": "学生如何利用开源机遇决胜未来",
           "profile": "耿航，中国开源云联盟副秘书长，腾讯云TVP（最具价值专家），E企研究院特聘专家顾问，Ceph中国社区负责人，云原生技术联盟专家委员会专家，曾获2019 - 2020年度国际社区个人贡献奖、2018中国开源云超级人物奖、2018年云计算开源尖峰人物奖、中国开源云联盟2016年度杰出个人等。主要致力于国内云计算、大数据方面的工作，曾参与国家部委、中国铁路的多个私有云项目建设。主导并参与了国内数本云存储相关书籍和标准的编写和校审工作，同时在省级刊物、行业媒体发表过多篇文章。",
           "desc": "本次分享将围绕分布式云时代下的开源与产业发展、如何选择开源项目以及如何参与开源项目，与此同时还将探讨国内高职院校的困惑及解决办法，希望能够帮助和指导学生在未来职场多一份竞争力。",
-          "ppt": "education/genghang.pdf"
+          "ppt": "education/genghang.pdf",
+          "downurl":"https://pan.baidu.com/s/1-JuGyqB_M63LcKxK-qWNFw",
+          "downnumber":"o60k"
         }
       ]
     }
