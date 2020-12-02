@@ -200,7 +200,7 @@ export default class Card extends React.Component{
                                                                             : ""
                                                                         }
                                                                         {
-                                                                            ele.downurl?
+                                                                            item.downurl?
                                                                             <>
                                                                             <a className="SummitDownButton" href={item.downurl}>下载录播</a>
                                                                             <span className="SummitDownNumber">
