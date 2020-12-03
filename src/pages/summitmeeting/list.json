@@ -192,7 +192,9 @@
           "title": "2020新晋Apache顶级项目 - Apache IoTDB 核心技术剖析",
           "profile": "孙金城（金竹），2011年加入阿里，9年的阿里工作中，主导过很多内部核心系统，如：阿里集团行为日志，阿里郎，视频转码，文档转换，流计算等云服务。在2016年初开始了解Apache Flink社区，由初期的参与社区开发到后来逐渐主导具体模块的开发，到负责Apache Flink Python API(PyFlink) 的建设。 目前是 阿里巴巴 Tech Lead， Committer for Apache Beam , PMC Member of Apache Flink and Apache IoTDB and Apache Member。",
           "desc": "Gartner指出赋能边缘是2020年十大战略技术趋势之一，5G加速IoT领域的发展，物联网设备数据的收集，存储和计算需求与日俱增。Apache IoTDB是物联网时序数据收集、存储、管理与分析为一体的的软件系统。Apache IoTDB作为Apache的2020新晋顶级项目，以其出色的表现得到了Apache的认可！目前Apache IoTDB与Hadoop、Spark和Flink等进行了深度集成，可以完全胜任工业物联网领域的海量数据存储、高速数据读取和复杂数据分析的需求。本次分享将为大家对Apache IoTDB的前世今生和核心的技术进行详细介绍。 ",
-          "ppt": "bigdata/sunjincheng.pdf"
+          "ppt": "bigdata/sunjincheng.pdf",
+          "downurl":"https://pan.baidu.com/s/1Vvxveod_Yjso1AMICwv-CQ",
+          "downnumber":"qlof"
         },
         {
           "time": "14:30 - 15:00",
@@ -202,7 +204,9 @@
           "title": "开源 openLooKeng 共建大数据繁荣生态",
           "profile": "openLooKeng 高级开发工程师。",
           "desc": "",
-          "ppt": "bigdata/luodan.pdf"
+          "ppt": "bigdata/luodan.pdf",
+          "downurl":"https://pan.baidu.com/s/1h2JXcwaImCcNjo3B9fGLRw",
+          "downnumber":"cs1f"
         },
         {
           "time": "15:00 - 15:30",
@@ -212,7 +216,9 @@
           "title": "企业级开源数据库 openGauss 的架构设计与实现",
           "profile": "数据库高级开发工程师。",
           "desc": "",
-          "ppt": "bigdata/zhangqiong.pdf"
+          "ppt": "bigdata/zhangqiong.pdf",
+          "downurl":"https://pan.baidu.com/s/1g_aB9wYIuRlgS8qLFDi8XQ",
+          "downnumber":"0r8p"
         },
         {
           "time": "16:00 - 16:30",
@@ -222,7 +228,9 @@
           "title": "How to Accelerate Approximate Nearest Neighbor Search (ANNS) for Large Scale Dataset",
           "profile": "陈室余，Zilliz 数据工程师/Developer Advocate，毕业于西安电子科技大学计算机学系。自加入Zilliz以来，致力于为Milvus开源项目探索解决方案，从Docker部署到应用Milvus在更多AI应用，帮助了许多用户实现应用场景落地。",
           "desc": "随着技术的发展和人与人之间互动方式的改变，图片、视频、语音、文本等非结构化数据正在快速而持续的增长。智慧城市，短视频，商品个性化推荐，视觉商品搜索等新兴应用领域对非结构化数据分析与搜索提出了更高的要求。为了应对该挑战，人们通过人工智能技术将非结构化数据转换为向量数据，以便进一步的分析与搜索。由于非结构化数据在数字化保存的内容中比重不断增加，远超传统的结构化数据，非结构化数据及其生成的向量数据正面临更为严峻的大数据分析处理挑战。因此，开源向量搜索引擎Milvus项目应运而生。Milvus目前落地的领域包括，机器视觉、自然语言处理、音频搜索、化学分子式分析等。",
-          "ppt": "bigdata/chenshiyu.pdf"
+          "ppt": "bigdata/chenshiyu.pdf",
+          "downurl":"https://pan.baidu.com/s/1zxsR7NULi8UvtbjfsiL9BQ",
+          "downnumber":"r842"
         },
         {
           "time": "16:30 - 17:00",
@@ -232,7 +240,9 @@
           "title": "DistStream: 面向流式聚类的分布式计算框架",
           "profile": "现任中国科学院软件研究所副研究员，于中科院软件所获得博士学位。当前主要从事大数据系统方面的研究工作，已在国际权威会议如VLDB、ICDCS、ISSTA、IPDPS、ISSRE、ICAC等发表论文10余篇，主持多项国家自然科学基金，以及华为、京东、联想等企业的合作研发项目。曾为Apache Spark和Hadoop修复多个内核代码严重错误，出版《大数据处理框架Apache Spark设计与实现》著作1部。博士期间曾在微软亚洲研究院、阿里巴巴、腾讯担任客座研究学生。目前还担任中国计算机学会系统软件专委会委员、中国科学院青年创新促进会会员。",
           "desc": "",
-          "ppt": "bigdata/xulijie.pdf"
+          "ppt": "bigdata/xulijie.pdf",
+          "downurl":"https://pan.baidu.com/s/1ftK8naTT4Q5432R-yaUu9A",
+          "downnumber":"9435"
         }
       ]
     },
@@ -251,7 +261,9 @@
           "title": "Apache ShardingSphere 分布式数据库生态圈架构演进",
           "profile": "京东数科高级DBA&Apache ShardingSphere PMC，主要负责京东数科分布式数据库开发、数据库运维自动化平台开发等工作。曾负责京东数科数据库自动化平台设计与开发，现专注于Apache ShardingSphere分布式数据库中间件平台的研发。主要在分布式数据库、开源、分布式架构等相关领域进行探索。多次受邀参加数据库&架构领域的相关会议并进行分享交流。",
           "desc": "作为Apache顶级项目的ShardingSphere，将会在最新发布版本中迈向从分布式数据库中间件生态圈到分布式数据库的转型。 已在GitHub上收获12k+ Star的人气分布式数据库中间件生态圈项目将进一步根据领域发展趋势和真实应用场景， 通过数据库化的架构演进，全力打造更为简单、丰富、一体化、可插拔的分布式数据库产品体系， 从而为用户提供最简单易用、功能强大、性能稳定的分布式数据库化产品。 本次分享将详细阐述Apache ShardingSphere数据库化演进中的架构变迁、产品特性、极简落地方案实践等核心内容。",
-          "ppt": "distributed_systems/panjuan.pdf"
+          "ppt": "distributed_systems/panjuan.pdf",
+          "downurl":"https://pan.baidu.com/s/1V9YOVzw6aEte4hSOUm6C9w",
+          "downnumber":"dvdt"
         },
         {
           "time": "14:30 - 15:00",
@@ -261,7 +273,9 @@
           "title": "Casbin：基于微服务的访问控制实现企业权限安全",
           "profile": "Casbin开源社区创始人、Npcap作者、Nmap开源社区成员，2020年度Google开源贡献奖获得者，北京大学博士，现任微软亚洲研究院研究员。",
           "desc": "随着微服务技术的发展，Web、App和企业软件的权限管理对数据安全至关重要。Casbin是业界主流的开源访问控制框架，致力于帮助复杂系统解决权限管理的难题。其表达能力强大、执行高效，被Intel、VMware、IBM、腾讯云、SpaceX等多个大型企业部署使用，支持Go、Java、Python、C++、.NET、Rust等9种语言，在GitHub上合计已有10000+ stars。",
-          "ppt": "distributed_systems/luoyang.pdf"
+          "ppt": "distributed_systems/luoyang.pdf",
+          "downurl":"https://pan.baidu.com/s/1AQRv58qvifa8rqK7JsZXUg",
+          "downnumber":"rvdc"
         },
         {
           "time": "15:00 - 15:30",
@@ -271,7 +285,9 @@
           "title": "libp2p-rs 一个开源 libp2p 的 rust 实现",
           "profile": "",
           "desc": "",
-          "ppt": "distributed_systems/yujie.pdf"
+          "ppt": "distributed_systems/yujie.pdf",
+          "downurl":"https://pan.baidu.com/s/1h71-izfoTR3-nHYq_1m1Ww",
+          "downnumber":"dsaj"
         },
         {
           "time": "16:00 - 16:30",
@@ -281,7 +297,9 @@
           "title": "DatenLord：下一代软件定义存储",
           "profile": "美国 George Mason 大学计算机博士，DatenLord 项目发起人，前数人云创始人。",
           "desc": "近年来，存储硬件的性能大幅度提升，高端 NVMe 固态硬盘的访问速度已经比传统机械硬盘的速度提升了几千倍甚至几万倍，但是 Linux 内核提供的文件系统对于硬盘的访问方式很多年来没有本质变化，使得存储硬件的高性能很难发挥出来。本议题介绍我们采用 Rust 实现的 FUSE 用户态文件系统，主要采用如下策略来提高数据访问性能:首先，在用户态实现自行调度 IO 任务，避免内核在调度 IO 任务时进行上下文切换，从而把上下文切换时间节省下来用于执行更多 IO 任务；其次，采用用户态分级缓存策略，尽可能把数据缓存在内存，并且采用无锁数据结构避免锁等待以保证性能；此外，Rust 语言的一些特性，很大程度提升了开发效率，保证了内存安全，进而增强了系统的稳定性。",
-          "ppt": "distributed_systems/wangpu.pdf"
+          "ppt": "distributed_systems/wangpu.pdf",
+          "downurl":"https://pan.baidu.com/s/1h6XZk0oYxChO-6w9GKWpOQ",
+          "downnumber":"u5eu"
         },
         {
           "time": "16:30 - 17:00",
@@ -291,7 +309,9 @@
           "title": "ApachePulsar云原生的下一代消息平台",
           "profile": "翟佳，StreamNative 联合创始人兼 CTO，开源项目 Apache Pulsar 和 Apache BookKeeper PMC 成员和 Committer，主要从事分布式、消息系统、流存储、文件系统等相关设计和开发。曾就职于 EMC，先后是统一存储平台和实时处理平台技术负责人。",
           "desc": "Apache Pulsar 是下一代云原生消息流平台，在 2018 年 9 月毕业成为 Apache 软件基金会顶级项目。Apache Pulsar 从 2012 年诞生时就前瞻性地采用了存储计算分离、分层分片的云原生架构，极大减轻用户在消息系统中遇到的扩展和运维困难。Pulsar通过特别的设计和抽象，统一地支持Stream和Queue两种消息消费模式，保持了Stream模式的高性能和Queue模式的灵活性。 Pulsar在保证大数据消息系统的性能和吞吐量的同时，提供了更多企业级的Feature，包括方便的运维和扩展，灵活的消息模型，多语言API，多租户，异地多备，和数据的强持久性一致性等等，解决了现有开源消息系统的很多不足之处。 本次分享将深入介绍 Pulsar 的云原生特性和架构优势，以及在全面云原生时代 Pulsar 的社区状况和最新技术进展。",
-          "ppt": "distributed_systems/dijia.pdf"
+          "ppt": "distributed_systems/dijia.pdf",
+          "downurl":"https://pan.baidu.com/s/1jos1nNi76l2Nz9H70mQO_g",
+          "downnumber":"iumm"
         }
       ]
     }
