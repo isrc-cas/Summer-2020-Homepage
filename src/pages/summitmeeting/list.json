@@ -15,7 +15,9 @@
           "profile": "openEuler 社区 Linux 内核 Maintainer，Linux 内核子系统 Maintainer。",
           "desc": "",
           "time": "14:00 - 14:30",
-          "ppt": "os_complier/guohanjun.pdf"
+          "ppt": "os_complier/guohanjun.pdf",
+          "downurl":"https://pan.baidu.com/s/1q4cO5JrEryqVknhbWwt7Qg",
+          "downnumber":"rj24"
         },
         {
           "time": "14:30 - 15:00",
@@ -25,7 +27,9 @@
           "title": "合璧操作系统的设计思想",
           "profile": "MiniGUI/HybridOS开源项目创始人、飞漫软件总经理。",
           "desc": "HybridOS 的设计思想体现了“服务甚至取悦开发者”这一终极目标。本报告阐述了为实现这一目标而提出的若干创新技术或举措:数据驱动，为开发者提供了低耦合的系统或应用开发模式；低代码开发，降低了开发者的入门门槛；过程开源，为基于开源协作的操作系统开发提供了一个样板；HVML编程语言，为创造完全自主的国产操作系统奠定了基础。本报告还介绍了 HybridOS 的典型应用场景和未来的演进趋势。",
-          "ppt": "os_complier/weiyongming.pdf"
+          "ppt": "os_complier/weiyongming.pdf",
+          "downurl":"https://pan.baidu.com/s/1IaL8F246viRmMI_QVzpHRA",
+          "downnumber":"3m6c"
         },
         {
           "time": "15:00 - 15:30",
@@ -35,7 +39,9 @@
           "title": "开源物联网操作系统RT - Thread的发展之路",
           "profile": "RT - Thread高级工程师，主要负责“开源社区技术”相关工作。",
           "desc": "首先介绍RT - Thread是什么，应用场景以及一些行业上的应用案例。然后介绍 RT - Thread的生态建设以及其在开源领域做的事情。最后介绍RT - Thread最近在开展的一些工作，如大学计划等。",
-          "ppt": "os_complier/guozhanxin.pdf"
+          "ppt": "os_complier/guozhanxin.pdf",
+          "downurl":"https://pan.baidu.com/s/1bCyhgehFNQmww4kJqJqAcg",
+          "downnumber":"1koc"
         },
         {
           "time": "16:00 - 16:30",
@@ -45,7 +51,9 @@
           "title": "RISC - V 指令集开源软件生态 ",
           "profile": "中科院软件所PLCT实验室项目总监。主要研究领域为编译技术。近年来带领PLCT实验室在RISC - V软件生态领域持续进行开源贡献。",
           "desc": "RISC - V 是非常有前景的一个自由免费的新指令集，正在得到越来越多硬件厂商和软件厂商的支持。中国科学院软件研究所从RISC - V诞生后不久就进行了关注和投入，并在最近两年成为了RISC - V国际基金会的黄金会员。本次报告将介绍软件所PLCT实验室在RISC - V开源生态领域的贡献，包括 LLVM、V8、QEMU、Spike、OpenCV 等。",
-          "ppt": "os_complier/wuwei.pdf"
+          "ppt": "os_complier/wuwei.pdf",
+          "downurl":"https://pan.baidu.com/s/1fBzYUWm1WdAwZsX1LeJ9gQ",
+          "downnumber":"pc7s"
         },
         {
           "time": "16:30 - 17:00",
@@ -55,7 +63,9 @@
           "title": "HarmonyOS 技术探索和社区规划",
           "profile": "OpenHarmony 开源社区 PMC。",
           "desc": "",
-          "ppt": "os_complier/dongjinguang.pdf"
+          "ppt": "os_complier/dongjinguang.pdf",
+          "downurl":"https://pan.baidu.com/s/1KXWVcz3QGaiZI33oKNedpg",
+          "downnumber":"v3jw"
         }
       ]
     },
