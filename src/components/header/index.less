@@ -35,7 +35,6 @@
     width: 390px;
     height: 64px;
     background-size: cover;
-    // margin-left: -10px;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -45,6 +44,58 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.osscLItem{
+    margin-left: 20px;
+    position: relative;
+}
+
+.osscListLine{
+    position: absolute;
+    background: #fff;
+    width: calc(~'100% + 16px');
+    padding: 0 6px;
+    left: -8px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    opacity: 0;
+}
+.osscListItem::after{
+    content: "";
+    background-color: #b11aff;
+    bottom: 0;
+    height: 4px;
+    left: -80px;
+    transition: all 0.3s;
+    width: 0;
+    display: block;
+    position: absolute;
+}
+.osscLItem:hover{
+    .osscListLine{
+        opacity: 1;
+    }
+
+    .osscListItem::after{
+        left:0;
+        width: 100%;
+    }
+}
+
+    .osscListItem.left0::after{
+        left:0;
+        width: 100%;
+    }
+
+
+
+
+.osscListLineItem{
+    line-height: 40px;
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
 }
 .osscHeaderList{
     position: relative;
@@ -59,39 +110,32 @@
         color:rgba(0,0,0,.54);
         position: relative;
     }
-    a .osscListItem::after{
-        content: "";
-        background-color: #b11aff;
-        bottom: 0;
-        height: 4px;
-        left: -80px;
-        transition: all 0.3s;
-        width: 0;
-        display: block;
-        position: absolute;
+   
+
+
+
+    .osscListItem:hover{
+             color: #b11aff;
     }
 
-    a:hover .osscListItem::after,
-    a.active .osscListItem::after{
-        left:0;
-        width: 100%;
-    }
-    a.active .osscListItem,
-    .osscListItem:hover{
-        color: #b11aff;
-    }
+
    
-    .osscListItem{
-        margin-left: 20px;
+    .osscListItem{      
         position: relative;
         overflow: hidden;
         cursor: pointer;
         transition: all 0.3s;  
+        color: #666;
     }
-    .osscListItem.summitmeeting{
-        width: 90%;
+    .osscListItem.summer2021{
+        width: 108%;
+       
     }
-    .osscListItem.summitmeeting::before{
+    .osscListItem.acall{
+      
+        cursor: default;
+    }
+    .osscListItem.summer2021::before{
         content:url(./../../img/fire.png);
         position: absolute;
         right: -1px;

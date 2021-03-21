@@ -62,8 +62,12 @@ export default class Header extends React.Component{
         },5) 
 
     }
+
+    gohash(url){
+        window.location.hash = "/"+url
+    }
     getLink(title){
-        window.location.hash = "/"+title
+        this.gohash(title)
         this.closeHeaderList()
     }
 
@@ -78,11 +82,29 @@ export default class Header extends React.Component{
         })
     }
 
-    getActive(title){
-        if(title === 'index'){
-            return 'active'
+    goHashUrl(item){
+        const title = item.title
+        this.setState({
+            pageflag:title
+        })
+        
+        if(title === 'summer2021'){
+            window.open(item.link)
+            return
         }
+        if(title !== 'acall'){
+            this.gohash(title)
+        }     
     }
+
+    goAcLink(title){
+        this.setState({
+            pageflag:'acall'
+        })
+        this.gohash(title)
+    }
+
+
 
     render(){
         return(
@@ -98,16 +120,28 @@ export default class Header extends React.Component{
                         {
                             this.state.listLinks.map((item,index)=>{
                             return (
-                                <NavLink key={index} to={'/'+item.title} >
-                                    <div  
-                                            
-                                            className={["osscListItem",item.title,this.state.pageflag===item.title?'left0':''].join(" ")}>
-                                        
-                                                <span> {item.name} </span>
-                                        
-                                        
+                                
+                                    <div  className="osscLItem" key={index}>
+                                        <div  
+                                            className={["osscListItem",item.title,this.state.pageflag===item.title?'left0':''].join(" ")} 
+                                            onClick={()=>{this.goHashUrl(item)}}>
+                                            <span > {item.name} </span>                         
+                                        </div>
+                                        {
+                                            item.content?
+                                            <div className="osscListLine">
+                                                {
+                                                    item.content.map((sitem,sindex)=>{
+                                                        return(
+                                                            <div className="osscListLineItem" key={sindex} onClick={()=>{this.goAcLink(sitem.title)}}>{sitem.name}</div>
+                                                        )
+                                                    })
+                                                }
+
+                                            </div>:""
+                                            }        
                                     </div>
-                                </NavLink>  
+                               
                             )
                                 
                             })
@@ -119,16 +153,27 @@ export default class Header extends React.Component{
                         {
                             this.state.listLinks.map((item,index)=>{
                             return (
-                                //<NavLink key={index} to={'/'+item.title}>
+                                item.content?'':
                                 <div key={index}
-                                onClick={()=>this.getLink(item.title)}
-                                        className={["osscListItem",item.title,this.state.pageflag===item.title?'left0':''].join(" ")}>
-                                       
-                                                <span> {item.name}</span>
-
-                                    
-                                </div>
-                                //</NavLink>  
+                                    onClick={()=>this.goHashUrl(item)}
+                                    className={["osscListItem",item.title].join(" ")}>
+                                
+                                    <span> {item.name}</span>                     
+                                </div>                                               
+                                 )                                
+                            })
+                        }
+                        {
+                            this.state.listLinks[5].content.map((sitem,sindex)=>{
+                            return (
+                            
+                            <div key={sindex}
+                                onClick={()=>this.goAcLink(sitem.title)}
+                                className="acall osscListItem">
+                               
+                                <span> {sitem.name}</span>                     
+                            </div>
+                                                        
                             )
                                 
                             })
