@@ -15,6 +15,11 @@ const listLinks = [
         title:'index',
     },
     {
+        name:'2021活动主页',
+        title:'summer2021',
+        link:'https://summer.iscas.ac.cn/',
+    },
+    {
         name:'开源社区',
         title:'organisations',
     },
@@ -28,12 +33,19 @@ const listLinks = [
     },
     {
         name:'活动规划',
-        title:'howitworks',
+        title:'acall',
+        content:[
+            {
+                name:'活动进程',
+                title:'started',
+            },
+            {
+                name:'活动详情',
+                title:'howitworks',
+            }
+        ]
     },
-    {
-        name:'活动进程',
-        title:'started',
-    },
+   
     {
         name:'大咖说开源',
         title:'liveshow',
